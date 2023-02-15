@@ -14,7 +14,7 @@ listing:
     filter-ui: true
     page-size: 3
   - id: posts-ptbr
-    contents: posts/series-gha/*/pt/*.qmd
+    contents: posts/pacotes/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]
     sort: "date desc"

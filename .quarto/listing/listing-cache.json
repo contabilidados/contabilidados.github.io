@@ -21,7 +21,7 @@
     ],
     "series-gha.qmd": [
       "posts/series-gha/*/en/*.qmd",
-      "posts/series-gha/*/pt/*.qmd",
+      "posts/pacotes/*.qmd",
       "posts/series-gha/*/es/*.qmd"
     ],
     "talks\\index.qmd": [

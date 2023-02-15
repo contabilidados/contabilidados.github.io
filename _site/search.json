@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Bea Milz",
     "section": "",
-    "text": "Jan 29, 2019\n\n\n\n\n\n\n\n\nNo matching items\n\n\n See all/Ver todos"
+    "text": "Jan 29, 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 29, 2019\n\n\n\n\n\n\n\n\nNo matching items\n\n\n See all/Ver todos"
   },
   {
     "objectID": "index.html#recent-talks-palestras-recentes",
@@ -81,7 +81,14 @@
     "href": "posts/index.html",
     "title": "Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA função utl_statMean\n\n\n\nJan 29, 2019\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA função utl_statMean\n\n\n\nJan 29, 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA função stat_geomMean\n\n\n\nJan 29, 2019\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/pacotes/index.html",
+    "href": "posts/pacotes/index.html",
+    "title": "A função stat_geomMean",
+    "section": "",
+    "text": "Esse pacote faz tal coisa. Ver index qmd\n\nVocê pode fazer assim\n\ncntdd::stat_geomMean(3)\n\n[1] 3"
   },
   {
     "objectID": "posts/pt.html",
@@ -109,7 +116,7 @@
     "href": "series-gha.html#posts-em-português",
     "title": "Pacote contabiliDados",
     "section": "Posts em Português",
-    "text": "Posts em Português\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+    "text": "Posts em Português\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA função stat_geomMean\n\n\n\n\n\n\n\ncntdd\n\n\nPacotes\n\n\n \n\n\n\n\nJan 29, 2019\n\n\nAluno\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "series-gha.html#posts-en-español",
