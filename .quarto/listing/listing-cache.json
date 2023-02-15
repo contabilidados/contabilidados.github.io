@@ -1,49 +1,34 @@
 {
   "listingMap": {
-    "posts/en.qmd": [
-      "*/en/*.qmd"
-    ],
-    "posts/es.qmd": [
-      "*/es/*.qmd"
-    ],
-    "posts/pt.qmd": [
-      "*/pt/*.qmd"
-    ],
-    "talks/pt/index.qmd": [
-      "*/*.qmd"
-    ],
-    "talks/es/index.qmd": [
-      "*/*.qmd"
-    ],
-    "talks/en/index.qmd": [
-      "*/*.qmd"
-    ],
     "index.qmd": [
       "posts/**/en/*.qmd",
       "posts/**/pt/*.qmd",
-      "posts/**/es/*.qmd",
-      "talks/**/*.qmd",
-      "talks/**/**/*.qmd",
-      "talks/**/**/index.qmd",
-      "talks/***/index.qmd",
-      "talks/**",
-      "talks/**.qmd",
-      "talks/{pt,es,en}/**/*.qmd",
       "talks/{pt,es,en}/*/index.qmd",
-      "posts/**/*/index.qmd"
+      "posts/**/*/index.qmd",
+      "posts/**/es/*.qmd"
+    ],
+    "posts\\en.qmd": [
+      "*/en/*.qmd"
+    ],
+    "posts\\es.qmd": [
+      "*/es/*.qmd"
+    ],
+    "posts\\index.qmd": [
+      "**/*/index.qmd"
+    ],
+    "posts\\pt.qmd": [
+      "*/pt/*.qmd"
     ],
     "series-gha.qmd": [
       "posts/series-gha/*/en/*.qmd",
       "posts/series-gha/*/pt/*.qmd",
       "posts/series-gha/*/es/*.qmd"
     ],
-    "talks/index.qmd": [
-      "talks/{pt,es,en}/*/index.qmd",
+    "talks\\index.qmd": [
       "{pt,es,en}/*/index.qmd"
     ],
-    "posts/index.qmd": [
-      "posts/**/*/index.qmd",
-      "**/*/index.qmd"
+    "talks\\pt\\index.qmd": [
+      "*/*.qmd"
     ]
   }
 }

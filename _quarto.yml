@@ -3,11 +3,11 @@ project:
 
 website:
   page-navigation: true
-  title: "Bea Milz"
-  site-url: "https://beamilz.com/"
+  title: "contabiliDados"
+  site-url: "https://contabilidados.com.br/cntdd/"
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
-    left: "Blog made with 💜 and [Quarto](https://quarto.org/), by Beatriz Milz. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: "Blog made with [Quarto](https://quarto.org/), by cntdd Team. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
       - icon: github
         href: https://github.com/beatrizmilz/
@@ -16,39 +16,27 @@ website:
       - icon: envelope
         href: mailto:milz.bea@gmail.com
   twitter-card:
-    creator: "@beamilz"
+    creator: "@cntdd"
     card-style: summary_large_image
   navbar:
     right:
       - about.qmd
       - text: Posts
         menu:
-          - text: All posts
-            href: posts/index.qmd
-          - text: English
-            href: posts/en.qmd
           - text: Português
             href: posts/pt.qmd
-          - text: Español
-            href: posts/es.qmd
-      - text: Series
+      - text: cntdd
         menu:
           - text: GitHub Actions
             href: series-gha.qmd
       - text: Talks
         menu:
-          - text: All/Todas
-            href: talks/index.qmd
-          - text: English
-            href: talks/en/index.qmd
           - text: Português
             href: talks/pt/index.qmd
-          - text: Español
-            href: talks/es/index.qmd
       - text: Resume
         href: https://beatrizmilz.github.io/resume/index.pdf
       - icon: github
-        href: https://github.com/beatrizmilz/blog-en
+        href: https://github.com/contabilidados
       - icon: twitter
         href: https://twitter.com/BeaMilz
 

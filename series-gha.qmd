@@ -1,6 +1,6 @@
 ---
-title: "GitHub Actions Series: Making awesome automations"
-subtitle: "Here is a list of posts about GitHub Actions"
+title: "Pacote contabiliDados"
+subtitle: "Utilitários para nossas atividades"
 image: "featured.png"
 draft: false
 listing:
