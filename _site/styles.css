@@ -10,8 +10,8 @@ main, p{
 }
 
 :root {
-    --bs-blue: #9172be;
-    --bs-primary: #eb6864;
+    --bs-blue: #FFA500;
+    --bs-primary: #908A8A;
 }
 
 div.quarto-post .thumbnail img {
@@ -27,7 +27,7 @@ div.quarto-post .thumbnail img {
 
 
 .quarto-listing-category.category-cloud .category-cloud-6 {
-    background: #f0fff2;
+    background: #908A8A;
     border-radius: 10%;
 
 }
