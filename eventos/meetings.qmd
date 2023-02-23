@@ -1,0 +1,30 @@
+---
+title: "Contabilidados - Eventos"
+listing:
+  - id: eventos
+    contents: eventos/*.qmd
+    type: grid
+    fields: [image, date, title, subtitle]
+    sort: "date desc"
+    categories: cloud
+    sort-ui: true
+    filter-ui: true
+    page-size: 36     
+page-layout: full
+title-block-banner: false
+comments: false
+toc: true
+---
+
+## Próximas atividades
+
+-   2023 - Janeiro/Fevereiro
+
+-   Invitations / Convites
+
+Please email me at: [contabilidados\@ufersa.edu.br](mailto:contabilidados@ufersa.edu.br)
+
+## Talks/Palestras
+
+::: {#eventos}
+:::

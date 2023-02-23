@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>contabiliDados - Nossa Equipe</title>
+<title>contabiliDados - Pacote contabiliDados</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,9 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -57,6 +60,91 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-utils .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-utils'] = new List('listing-utils', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-stats .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-stats'] = new List('listing-stats', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-indices .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-indices'] = new List('listing-indices', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2J79YYG9CZ"></script>
 
 <script type="text/javascript">
@@ -75,8 +163,8 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://beamilz.com/posts/2019-01-29-meio-ano-r/">
-<meta property="og:title" content="contabiliDados - Nossa Equipe">
-<meta property="og:description" content="">
+<meta property="og:title" content="contabiliDados - Pacote contabiliDados">
+<meta property="og:description" content="Utilitários para nossas atividades">
 <meta property="og:image" content="https://beamilz.com/social.png">
 
 <!-- Twitter -->
@@ -86,15 +174,17 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 <meta property="twitter:description" content="Welcome to my blog! Here I write content about R and data science.">
 <meta property="twitter:image" content="https://beamilz.com/social.png">
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="contabiliDados - Nossa Equipe">
-<meta name="twitter:image" content="https://contabilidados.com.br/cntdd/bea.jpg">
+<meta name="twitter:title" content="contabiliDados - Pacote contabiliDados">
+<meta name="twitter:description" content="Utilitários para nossas atividades">
+<meta name="twitter:image" content="https://contabilidados.com.br/cntdd/featured.png">
 <meta name="twitter:creator" content="@cntdd">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -130,7 +220,7 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cntdd.html" rel="" target="">
+    <a class="nav-link active" href="./cntdd.html" rel="" target="" aria-current="page">
  <span class="menu-text">cntdd</span></a>
   </li>  
   <li class="nav-item">
@@ -159,58 +249,182 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-unnumbered"><div class="category" data-category="Pacotes">Pacotes</div><div class="category" data-category="cntdd">cntdd</div></div></div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="bea.jpg" class="about-image
-  rounded " style="width: 20em;">
+<main class="content column-page-left" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Nossa Equipe</h1>
+<h1 class="title">Pacote contabiliDados</h1>
+<p class="subtitle lead">Utilitários para nossas atividades</p>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
 </header>
-    <div class="about-links">
-  <a href="mailto:milz.bea@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://beatrizmilz.github.io/resume/index.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-file-pdf"></i>
-     <span class="about-link-text">Resume</span>
-  </a>
-  <a href="https://github.com/beatrizmilz" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://twitter.com/BeaMilz" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-</div>
+
+<p>Funções utilizadas em nosso dia-a-dia….</p>
+<section id="utilitários" class="level2">
+<h2 class="anchored" data-anchor-id="utilitários">Utilitários</h2>
+<div id="listing-utils" class="quarto-listing quarto-listing-container-default">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-utils-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-utils'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<center>
-<div class="btn-group" role="group" aria-label="About">
-<p><a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> <a href="about-pt.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Português</button></a> <a href="about-es.html"><button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a></p>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-</center>
-<div id="hero-heading">
-<p>Hi! My name is Beatriz, and I am a R-Lady from Brazil 🇧🇷 💜.</p>
-<p>I’m a <a href="https://education.rstudio.com/trainers/people/milz+beatriz/">tidyverse instructor certified by RStudio</a>, and I teach R at <a href="https://curso-r.com/">Curso-R</a>.</p>
-<p>I have been writing about R in my blog since 2019. I’m mostly active in the Brazilian R community, co-organizing communities and events, such as: <a href="https://twitter.com/RLadiesSaoPaulo">R-Ladies São Paulo</a>, <a href="https://twitter.com/LatinR_Conf">Latin-R</a>, and <a href="https://twitter.com/satRdaySP">satRday São Paulo</a>.</p>
-<p>I’m a PhD Candidate at the <a href="http://www.iee.usp.br/">University of São Paulo</a>, in Environmental Sciences. My research is about <strong>transparency of information</strong> in the <strong>management of water resources</strong> that are used to supply the Macrometropolis of Sao Paulo.</p>
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="estatísticos" class="level2">
+<h2 class="anchored" data-anchor-id="estatísticos">Estatísticos</h2>
+<div id="listing-stats" class="quarto-listing quarto-listing-container-default">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-stats-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-stats'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="indicadores" class="level2">
+<h2 class="anchored" data-anchor-id="indicadores">Indicadores</h2>
+<div id="listing-indices" class="quarto-listing quarto-listing-container-default">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-indices-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-indices'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="cntdd,Pacotes" data-listing-date-sort="1677121200000" data-listing-file-modified-sort="1677194845295" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4.84">
+<div class="thumbnail">
+<p><a href="./pacotes/indices/liqSeca.html"> <img src="./pacotes/indices/liqSeca.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./pacotes/indices/liqSeca.html">
+<h3 class="no-anchor listing-title">
+Índice de Liquidez Seca
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cntdd'); return false;">
+cntdd
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Pacotes'); return false;">
+Pacotes
+</div>
+</div>
+<a href="./pacotes/indices/liqSeca.html"> </a>
+</div>
+<div class="metadata">
+<a href="./pacotes/indices/liqSeca.html">
+<div class="listing-date">
+Feb 23, 2023
+</div>
+<div class="listing-author">
+Equipe cntdd
+</div>
+<div class="listing-reading-time">
+4 min
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 
 
-</main></div>
-</div>
- <!-- /main -->
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -231,6 +445,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
@@ -436,6 +657,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
+</script>
+<script src="https://giscus.app/client.js" data-repo="beatrizmilz/blog-en" data-repo-id="R_kgDOHc0DoQ" data-category="General" data-category-id="DIC_kwDOHc0Doc4CPeUR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 <footer class="footer">

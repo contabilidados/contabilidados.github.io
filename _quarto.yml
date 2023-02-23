@@ -9,10 +9,10 @@ website:
   page-footer:
     left: "Blog made with [Quarto](https://quarto.org/), by cntdd Team. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
-      - icon: github
+      - icon: youtube
         href: https://github.com/beatrizmilz/
-      - icon: twitter
-        href: https://twitter.com/BeaMilz
+      - icon: instagram
+        href: https://instagram.com/ederlvz
       - icon: envelope
         href: mailto:milz.bea@gmail.com
   twitter-card:
@@ -20,24 +20,23 @@ website:
     card-style: summary_large_image
   navbar:
     right:
-      - about.qmd
+      - text: Equipe
+        menu:
+          - text: Professores
+            href: team/profs.qmd
+          - text: Alunos
+            href: team/alunos.qmd
       - text: Posts
-        menu:
-          - text: Português
-            href: posts/pt.qmd
+        href: posts.qmd
       - text: cntdd
-        menu:
-          - text: GitHub Actions
-            href: series-gha.qmd
-      - text: Talks
-        menu:
-          - text: Português
-            href: talks/pt/index.qmd
-      - text: Resume
-        href: https://beatrizmilz.github.io/resume/index.pdf
-      - icon: github
+        href: cntdd.qmd
+      - text: Eventos
+        href: eventos/meetings.qmd
+      - icon: instagram
         href: https://github.com/contabilidados
-      - icon: twitter
+      - icon: youtube
+        href: https://twitter.com/BeaMilz
+      - icon: github
         href: https://twitter.com/BeaMilz
 
 format:

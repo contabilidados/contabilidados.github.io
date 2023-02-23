@@ -1,0 +1,49 @@
+---
+title: "Nossos Posts"
+listing:
+  - id: contabilidade
+    contents: posts/contabil/*.qmd
+    type: default
+    fields: [image, date, title, subtitle, categories, author, reading-time]  
+    sort: "date desc"
+    categories: cloud
+    sort-ui: true
+    filter-ui: true
+    page-size: 3
+  - id: financas
+    contents: posts/finance/*.qmd
+    type: default
+    fields: [image, date, title, subtitle, categories, author, reading-time]  
+    sort: "date desc"
+    categories: cloud
+    sort-ui: true
+    filter-ui: true
+    page-size: 3
+  - id: governamental
+    contents: posts/governo/*.qmd
+    type: default
+    fields: [image, date, title, subtitle, categories, author, reading-time]  
+    sort: "date desc"
+    categories: cloud
+    sort-ui: true
+    filter-ui: true
+    page-size: 3
+page-layout: full
+title-block-banner: false
+comments: false
+---
+
+## Posts sobre Contabilidade
+
+::: {#contabilidade}
+:::
+
+## Posts sobre Finanças
+
+::: {#financas}
+:::
+
+## Posts sobre Governo
+
+::: {#governamental}
+:::
