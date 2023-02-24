@@ -1,0 +1,36 @@
+---
+toc: true
+author: cntdd
+categories: [R, Economatica, Análise de Dados]
+date: '2022-10-29'
+event: "Análise de Dados com R e Economatica"
+event_url: https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
+links:
+- icon: file-pdf
+  icon_pack: far
+  name: Apostila
+  url: https://github.com/UFERSA3/contabilidados/raw/master/tutoriais/basicoR/basicoR.pdf
+- icon: youtube
+  icon_pack: fab
+  name: "Dia 1"
+  url: https://www.youtube.com/live/Bckx1xIqGto?feature=share
+- icon: youtube
+  icon_pack: fab
+  name: "Dia 2"
+  url: https://www.youtube.com/watch?v=7mgmchEo-1w
+location: Online
+title: "Análise de dados com R e Economatica"
+image: figs/economaticaR_2.png
+draft: false
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+<br>
+
+Esse evento foi realizado e teve a participação... mostrou...

@@ -49,18 +49,11 @@
     "text": "Hi! My name is Kléber, and I am a R-Lady from Brazil 🇧🇷 💜.\nI’m a tidyverse instructor certified by RStudio, and I teach R at Curso-R.\nI have been writing about R in my blog since 2019. I’m mostly active in the Brazilian R community, co-organizing communities and events, such as: R-Ladies São Paulo, Latin-R, and satRday São Paulo.\nI’m a PhD Candidate at the University of São Paulo, in Environmental Sciences. My research is about transparency of information in the management of water resources that are used to supply the Macrometropolis of Sao Paulo."
   },
   {
-    "objectID": "eventos/meetings.html",
-    "href": "eventos/meetings.html",
-    "title": "Contabilidados - Eventos",
+    "objectID": "eventos/economaticaR.html",
+    "href": "eventos/economaticaR.html",
+    "title": "Análise de dados com R e Economatica",
     "section": "",
-    "text": "2023 - Janeiro/Fevereiro\nInvitations / Convites\n\nPlease email me at: contabilidados@ufersa.edu.br"
-  },
-  {
-    "objectID": "eventos/meetings.html#talkspalestras",
-    "href": "eventos/meetings.html#talkspalestras",
-    "title": "Contabilidados - Eventos",
-    "section": "Talks/Palestras",
-    "text": "Talks/Palestras\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+    "text": "Análise de Dados com R e EconomaticaLink do evento: https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0JfoLugar: Online\nMateriais\n\n\n Apostila  Dia 1  Dia 2 \n\n\nEsse evento foi realizado e teve a participação… mostrou…"
   },
   {
     "objectID": "index.html",
@@ -81,7 +74,21 @@
     "href": "index.html#eventos-recentes",
     "title": "contabiliDados",
     "section": "Eventos Recentes",
-    "text": "Eventos Recentes\n\n\n\n\n\n\n \n\n\n\nContabilidados - Eventos\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Eventos Recentes\n\n\n\n\n\n\n\n\n\n\nAnálise de dados com R e Economatica\n\n\n\nOct 29, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "meetings.html",
+    "href": "meetings.html",
+    "title": "Contabilidados - Eventos",
+    "section": "",
+    "text": "2023 - Janeiro/Fevereiro\nInvitations / Convites\n\nPlease email me at: contabilidados@ufersa.edu.br"
+  },
+  {
+    "objectID": "meetings.html#eventospalestras",
+    "href": "meetings.html#eventospalestras",
+    "title": "Contabilidados - Eventos",
+    "section": "Eventos/Palestras",
+    "text": "Eventos/Palestras\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAnálise de dados com R e Economatica\n\n\n\nOct 29, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "membros.html",

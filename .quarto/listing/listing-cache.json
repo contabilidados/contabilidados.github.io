@@ -5,13 +5,13 @@
       "pacotes/stats/*.qmd",
       "pacotes/indices/*.qmd"
     ],
-    "eventos\\meetings.qmd": [
-      "eventos/*.qmd"
-    ],
     "index.qmd": [
       "posts/**/*.qmd",
       "pacotes/**/*.qmd",
       "eventos/**/*.qmd"
+    ],
+    "meetings.qmd": [
+      "eventos/*.qmd"
     ],
     "membros.qmd": [
       "curriculum/profs/*.qmd",

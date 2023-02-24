@@ -6,14 +6,16 @@
     ]
   },
   {
-    "listing": "/eventos/meetings.html",
-    "items": []
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/pacotes/indices/liqSeca.html",
-      "/eventos/meetings.html"
+      "/eventos/economaticaR.html"
+    ]
+  },
+  {
+    "listing": "/meetings.html",
+    "items": [
+      "/eventos/economaticaR.html"
     ]
   },
   {

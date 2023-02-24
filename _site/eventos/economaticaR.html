@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.0.37">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>contabiliDados - José da Silva Aluno</title>
+<meta name="author" content="cntdd">
+<meta name="dcterms.date" content="2022-10-29">
+<title>contabiliDados - Análise de dados com R e Economatica</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,23 +16,22 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 </style>
 
-
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -51,44 +49,34 @@ ul.task-list{list-style: none;}
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit"
   }
-}</script>
-<style>html{ scroll-behavior: smooth; }</style>
-<!-- Primary Meta Tags -->
-<title>Bea Milz - a data science blog</title>
+}</script><style>html{ scroll-behavior: smooth; }</style>
+<!-- Primary Meta Tags --><title>Bea Milz - a data science blog</title>
 <meta name="title" content="Bea Milz - a data science blog">
 <meta name="description" content="Welcome to my blog! Here I write content about R and data science.">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
+<!-- Open Graph / Facebook --><meta property="og:type" content="website">
 <meta property="og:url" content="https://beamilz.com/posts/2019-01-29-meio-ano-r/">
-<meta property="og:title" content="contabiliDados - José da Silva Aluno">
+<meta property="og:title" content="contabiliDados - Análise de dados com R e Economatica">
 <meta property="og:description" content="Welcome to my blog! Here I write content about R and data science.">
 <meta property="og:image" content="https://beamilz.com/social.png">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
+<!-- Twitter --><meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://beamilz.com/posts/2019-01-29-meio-ano-r/">
 <meta property="twitter:title" content="Bea Milz - a data science blog">
 <meta property="twitter:description" content="Welcome to my blog! Here I write content about R and data science.">
 <meta property="twitter:image" content="https://beamilz.com/social.png">
-
-
-<link rel="stylesheet" href="../../styles.css">
-<meta name="twitter:title" content="contabiliDados - José da Silva Aluno">
-<meta name="twitter:image" content="https://contabilidados.com.br/cntdd/curriculum\alunos\figs\aluno.png">
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="contabiliDados - Análise de dados com R e Economatica">
+<meta name="twitter:description" content="Esse evento foi realizado e teve a participação… mostrou…">
+<meta name="twitter:image" content="https://contabilidados.com.br/cntdd/eventos\figs\economaticaR_2.png">
 <meta name="twitter:creator" content="@cntdd">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="225">
-<meta name="twitter:image-width" content="225">
+<meta name="twitter:image-height" content="605">
+<meta name="twitter:image-width" content="1277">
 </head>
-
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg navbar-dark "><div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">contabiliDados</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -96,17 +84,17 @@ ul.task-list{list-style: none;}
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../cntdd.html">cntdd</a>
+<li class="nav-item">
+    <a class="nav-link" href="../cntdd.html">cntdd</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html">Posts</a>
+    <a class="nav-link" href="../posts.html">Posts</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../meetings.html">Eventos</a>
+    <a class="nav-link" href="../meetings.html">Eventos</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../membros.html">Equipe</a>
+    <a class="nav-link" href="../membros.html">Equipe</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.instagram.com/contabilidados"><i class="bi bi-instagram" role="img">
@@ -124,65 +112,58 @@ ul.task-list{list-style: none;}
  </a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+<div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="figs/aluno.png" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">José da Silva Aluno</h1>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Análise de dados com R e Economatica</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Alunos</div>
-    <div class="quarto-category">Governamental</div>
-    <div class="quarto-category">Analytics</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Economatica</div>
+    <div class="quarto-category">Análise de Dados</div>
   </div>
   </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>cntdd </p>
+          </div>
   </div>
-</header>
-    <div class="about-links">
-  <a href="mailto:mirandakf@ufersa.edu.br" class="about-link">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://beatrizmilz.github.io/resume/index.pdf" class="about-link">
-    <i class="bi bi-file-pdf"></i>
-     <span class="about-link-text">Resume</span>
-  </a>
-  <a href="https://github.com/kleberformiga" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://twitter.com/kleberformiga" class="about-link">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-</div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 29, 2022</p>
+    </div>
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<div id="hero-heading">
-<p>Hi! My name is Aluno, and I am a R-Lady from Brazil 🇧🇷 💜.</p>
-<p>I’m a <a href="https://education.rstudio.com/trainers/people/milz+beatriz/">tidyverse instructor certified by RStudio</a>, and I teach R at <a href="https://curso-r.com/">Curso-R</a>.</p>
-<p>I have been writing about R in my blog since 2019. I’m mostly active in the Brazilian R community, co-organizing communities and events, such as: <a href="https://twitter.com/RLadiesSaoPaulo">R-Ladies São Paulo</a>, <a href="https://twitter.com/LatinR_Conf">Latin-R</a>, and <a href="https://twitter.com/satRdaySP">satRday São Paulo</a>.</p>
-<p>I’m a PhD Candidate at the <a href="http://www.iee.usp.br/">University of São Paulo</a>, in Environmental Sciences. My research is about <strong>transparency of information</strong> in the <strong>management of water resources</strong> that are used to supply the Macrometropolis of Sao Paulo.</p>
-</div>
+    
+  </div>
+  
+
+</header><script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>Análise de Dados com R e Economatica<br><b>Link do evento:</b> <a href="https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo</a><br><b>Lugar: </b>Online<br><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="https://github.com/UFERSA3/contabilidados/raw/master/tutoriais/basicoR/basicoR.pdf" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Apostila</button></a> <a href="https://www.youtube.com/live/Bckx1xIqGto?feature=share" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 1</button></a> <a href="https://www.youtube.com/watch?v=7mgmchEo-1w" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 2</button></a> <br><br><img src="figs/economaticaR_2.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
+<p><br></p>
+<p>Esse evento foi realizado e teve a participação… mostrou…</p>
 
 
-</main></div>
-</div>
- <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+
+</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -202,6 +183,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
@@ -285,14 +273,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
+</script><script src="https://giscus.app/client.js" data-repo="contabilidados/blog" data-repo-id="" data-category="General" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">A equipe contabiliDados usou <a href="https://quarto.org/">Quarto</a>, basedo em <a href="https://beamilz.com/">BeaMilz</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</div>   
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
       <i class="bi bi-youtube" role="img">
 </i> 
@@ -311,11 +299,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-    </div>
+</div>
   </div>
 </footer>
 
 
-
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

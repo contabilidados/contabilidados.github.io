@@ -123,7 +123,7 @@ ul.task-list{list-style: none;}
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -189,7 +189,7 @@ ul.task-list{list-style: none;}
     <a class="nav-link" href="./posts.html">Posts</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./eventos/meetings.html">Eventos</a>
+    <a class="nav-link" href="./meetings.html">Eventos</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./membros.html">Equipe</a>
@@ -311,16 +311,21 @@ No matching items
 <h2 class="anchored" data-anchor-id="eventos-recentes">Eventos Recentes</h2>
 <div id="listing-eventos" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1677242730926" data-listing-reading-time-sort="0.085">
-<a href="./eventos/meetings.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="R,Economatica,Análise de Dados" data-listing-date-sort="1667012400000" data-listing-file-modified-sort="1677246110161" data-listing-reading-time-sort="0.055">
+<a href="./eventos/economaticaR.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="card-img-bg" style="height: 150px;">
-&nbsp;
-</div>
+<p class="card-img-top">
+<img src="./eventos/figs/economaticaR_2.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Contabilidados - Eventos
+Análise de dados com R e Economatica
 </h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 29, 2022
+</div>
+</div>
 </div>
 </div>
 </a>

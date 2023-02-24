@@ -1,7 +1,11 @@
 ---
-title: Page Not Found
+title: Página não encontrada
 ---
 
-The page you requested cannot be found (perhaps it was moved or renamed).
+Não encontramos essa página. Talvez tenha digitado errado ou nós a removemos.
 
-You may want to try searching to find the page's new location.
+![](eita.jpg){fig-align="center"}
+
+Tente outra vez.
+
+Qualquer dúvida nos contate: contabilidados\@ufersa.edu.br

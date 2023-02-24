@@ -24,7 +24,7 @@ website:
       - text: Posts
         href: posts.qmd
       - text: Eventos
-        href: eventos/meetings.qmd
+        href: meetings.qmd
       - text: Equipe
         href: membros.qmd
       - icon: instagram

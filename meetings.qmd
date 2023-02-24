@@ -24,7 +24,7 @@ toc: true
 
 Please email me at: [contabilidados\@ufersa.edu.br](mailto:contabilidados@ufersa.edu.br)
 
-## Talks/Palestras
+## Eventos/Palestras
 
 ::: {#eventos}
 :::
