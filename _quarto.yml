@@ -5,39 +5,34 @@ website:
   page-navigation: true
   title: "contabiliDados"
   site-url: "https://contabilidados.com.br/cntdd/"
-  google-analytics: "G-2J79YYG9CZ"
   page-footer:
-    left: "Blog made with [Quarto](https://quarto.org/), by cntdd Team. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: "A equipe contabiliDados usou [Quarto](https://quarto.org/), basedo em [BeaMilz](https://beamilz.com/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
       - icon: youtube
-        href: https://github.com/beatrizmilz/
+        href: https://www.youtube.com/projetoufersa3
       - icon: instagram
-        href: https://instagram.com/ederlvz
+        href: https://www.instagram.com/contabilidados
       - icon: envelope
-        href: mailto:milz.bea@gmail.com
+        href: mailto:contabilidados@ufersa.edu.br
   twitter-card:
     creator: "@cntdd"
     card-style: summary_large_image
   navbar:
     right:
-      - text: Equipe
-        menu:
-          - text: Professores
-            href: team/profs.qmd
-          - text: Alunos
-            href: team/alunos.qmd
-      - text: Posts
-        href: posts.qmd
       - text: cntdd
         href: cntdd.qmd
+      - text: Posts
+        href: posts.qmd
       - text: Eventos
         href: eventos/meetings.qmd
+      - text: Equipe
+        href: membros.qmd
       - icon: instagram
-        href: https://github.com/contabilidados
+        href: https://www.instagram.com/contabilidados
       - icon: youtube
-        href: https://twitter.com/BeaMilz
+        href: https://www.youtube.com/projetoufersa3
       - icon: github
-        href: https://twitter.com/BeaMilz
+        href: https://github.com/contabilidados
 
 format:
   html:
@@ -46,7 +41,7 @@ format:
     css: styles.css
     link-external-icon: false
     link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/www\.beamilz\.com\/**'
+    link-external-filter: '^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**'
     citations-hover: true
     footnotes-hover: true
     include-in-header: meta.html
@@ -57,4 +52,4 @@ editor: visual
 
 comments:
   giscus:
-    repo: beatrizmilz/blog-en
+    repo: contabilidados/blog

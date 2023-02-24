@@ -13,6 +13,9 @@
       "pacotes/**/*.qmd",
       "eventos/**/*.qmd"
     ],
+    "membros.qmd": [
+      "curriculum/*.qmd"
+    ],
     "posts.qmd": [
       "posts/contabil/*.qmd",
       "posts/finance/*.qmd",

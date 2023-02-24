@@ -17,6 +17,12 @@
     ]
   },
   {
+    "listing": "/membros.html",
+    "items": [
+      "/curriculum/kleber.html"
+    ]
+  },
+  {
     "listing": "/posts.html",
     "items": []
   }

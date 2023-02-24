@@ -1,8 +1,0 @@
----
-title: "Team"
-comments: false
----
-
-Kléber
-
-Fulano

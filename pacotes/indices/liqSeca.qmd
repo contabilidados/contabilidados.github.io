@@ -38,7 +38,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 ### Argumentos
 
 | `indicador`  | Um vetor tipo character com o nome do indicador                                          |
-|-----------------------|-------------------------------------------------|
+|--------------|------------------------------------------------------------------------------------------|
 | `periodo`    | Vetor numérico indicando o período da análise                                            |
 | `cxEquiv`    | Vetor com os valores do caixa e equivalentes de caixa (Ativo Circulante)                 |
 | `estoque`    | Vetor com os valores do estoque (Ativo Circulante)                                       |

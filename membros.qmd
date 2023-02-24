@@ -1,0 +1,41 @@
+---
+title: "Membros"
+subtitle: "Todos os membros"
+image: "featured.png"
+draft: false
+listing:
+  - id: profs
+    contents: curriculum/*.qmd
+    type: default
+    fields: [image, date, title, subtitle, categories, author, reading-time]  
+    sort: "date desc"
+    categories: unnumbered
+    sort-ui: true
+    filter-ui: true
+  - id: alunos
+    contents: curriculum/*.qmd
+    type: default
+    fields: [image, date, title, subtitle, categories, author, reading-time]
+    sort: "date desc"
+    categories: unnumbered
+    sort-ui: true
+    filter-ui: true
+    
+page-layout: full
+title-block-banner: false
+toc: false
+---
+
+Funções utilizadas em nosso dia-a-dia....
+
+## Professores
+
+::: {#profs}
+:::
+
+## Alunos
+
+::: {#alunos}
+:::
+
+## 
