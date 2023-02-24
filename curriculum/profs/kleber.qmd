@@ -31,3 +31,5 @@ I have been writing about R in my blog since 2019. I'm mostly active in the Braz
 
 I'm a PhD Candidate at the [University of São Paulo](http://www.iee.usp.br/), in Environmental Sciences. My research is about **transparency of information** in the **management of water resources** that are used to supply the Macrometropolis of Sao Paulo.
 :::
+
+[link](../../about.qmd)
