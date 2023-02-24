@@ -5,7 +5,7 @@ image: "featured.png"
 draft: false
 listing:
   - id: profs
-    contents: curriculum/*.qmd
+    contents: curriculum/profs/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]  
     sort: "date desc"
@@ -13,7 +13,7 @@ listing:
     sort-ui: true
     filter-ui: true
   - id: alunos
-    contents: curriculum/*.qmd
+    contents: curriculum/alunos/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]
     sort: "date desc"

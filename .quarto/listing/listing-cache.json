@@ -14,7 +14,8 @@
       "eventos/**/*.qmd"
     ],
     "membros.qmd": [
-      "curriculum/*.qmd"
+      "curriculum/profs/*.qmd",
+      "curriculum/alunos/*.qmd"
     ],
     "posts.qmd": [
       "posts/contabil/*.qmd",

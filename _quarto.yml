@@ -9,7 +9,7 @@ website:
     left: "A equipe contabiliDados usou [Quarto](https://quarto.org/), basedo em [BeaMilz](https://beamilz.com/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
       - icon: youtube
-        href: https://www.youtube.com/projetoufersa3
+        href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
       - icon: instagram
         href: https://www.instagram.com/contabilidados
       - icon: envelope
@@ -30,7 +30,7 @@ website:
       - icon: instagram
         href: https://www.instagram.com/contabilidados
       - icon: youtube
-        href: https://www.youtube.com/projetoufersa3
+        href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
       - icon: github
         href: https://github.com/contabilidados
 

@@ -1,7 +1,7 @@
 ---
 title: "Kléber Formiga"
 comments: false
-image: fotos/kleber.jpeg
+image: figs/kleber.jpeg
 categories:
   - Professores
   - Analytics
@@ -12,8 +12,8 @@ about:
       text: Email
       href: mailto:mirandakf@ufersa.edu.br
     - icon: file-pdf
-      text: Resume
-      href: https://beatrizmilz.github.io/resume/index.pdf  
+      text: Lattes
+      href: http://lattes.cnpq.br/5969359253746807  
     - icon: github
       text: GitHub
       href: https://github.com/kleberformiga
