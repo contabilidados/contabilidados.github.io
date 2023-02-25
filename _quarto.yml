@@ -37,18 +37,18 @@ website:
 format:
   html:
     smooth-scroll: true
-    theme: journal
+    theme: lux
     css: styles.css
     link-external-icon: false
     link-external-newwindow: true
     link-external-filter: '^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**'
     citations-hover: true
     footnotes-hover: true
-    include-in-header: meta.html
     toc: true
     code-link: true
+    mainfont: "Roboto"
 
-editor: visual
+editor: source
 
 comments:
   giscus:

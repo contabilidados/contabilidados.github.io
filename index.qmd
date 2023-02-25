@@ -1,12 +1,11 @@
 ---
-title: "contabiliDados"
 listing:
   - id: posts
     contents: posts/**/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]
     sort: "date desc"
-    #categories: cloud
+    categories: cloud
     sort-ui: false
     filter-ui: false
     page-size: 3
@@ -15,7 +14,7 @@ listing:
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]
     sort: "date desc"
-    #categories: cloud
+    categories: cloud
     sort-ui: false
     filter-ui: false
     page-size: 3   
@@ -24,7 +23,7 @@ listing:
     type: grid
     fields: [image, date, title, subtitle]
     sort: "date desc"
-    #categories: cloud
+    categories: cloud
     sort-ui: false
     filter-ui: false
     page-size: 3  
