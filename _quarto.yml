@@ -48,6 +48,8 @@ format:
     code-link: true
     mainfont: "Roboto"
 
+lang: pt
+
 editor: source
 
 comments:

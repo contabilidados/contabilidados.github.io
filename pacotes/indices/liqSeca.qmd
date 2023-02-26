@@ -1,12 +1,12 @@
 ---
 title: "Índice de Liquidez Seca"
-author: "Equipe cntdd"
-date: 2023-02-23
+author: "Kléber"
+date: "2020-03-02"
 categories:
   - cntdd
   - Pacotes
 toc: true
-image: "liqSeca.png"
+image: "figs/liqSeca.png"
 editor_options: 
   chunk_output_type: console
 ---
@@ -37,18 +37,29 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 
 ### Argumentos
 
++--------------+------------------------------------------------------------------------------------------+
 | `indicador`  | Um vetor tipo character com o nome do indicador                                          |
-|--------------|------------------------------------------------------------------------------------------|
++==============+==========================================================================================+
 | `periodo`    | Vetor numérico indicando o período da análise                                            |
++--------------+------------------------------------------------------------------------------------------+
 | `cxEquiv`    | Vetor com os valores do caixa e equivalentes de caixa (Ativo Circulante)                 |
++--------------+------------------------------------------------------------------------------------------+
 | `estoque`    | Vetor com os valores do estoque (Ativo Circulante)                                       |
++--------------+------------------------------------------------------------------------------------------+
 | `ctaRecCP`   | Vetor com os valores do contas a receber (Ativo Circulante)                              |
++--------------+------------------------------------------------------------------------------------------+
 | `outAtvCirc` | Vetor com os valores de outros ativos circulantes (Ativo Circulante)                     |
++--------------+------------------------------------------------------------------------------------------+
 | `fornec`     | Vetor com os valores de fornecedores (Passivo Circulante)                                |
++--------------+------------------------------------------------------------------------------------------+
 | `dividasCP`  | Vetor com os valores de empréstimos e financiamentos de curto prazo (Passivo Circulante) |
++--------------+------------------------------------------------------------------------------------------+
 | `outPasCirc` | Vetor com os valores de outros passivos circulantes (Passivo Circulante)                 |
++--------------+------------------------------------------------------------------------------------------+
 | `atvTotal`   | Vetor com os valores do Ativo Total                                                      |
++--------------+------------------------------------------------------------------------------------------+
 | `plot`       | Mostra gráfico? (TRUE/FALSE)                                                             |
++--------------+------------------------------------------------------------------------------------------+
 
 ### Detalhes
 
