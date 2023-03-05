@@ -4,7 +4,10 @@ comments: false
 image: figs/kleber.jpeg
 categories:
   - Professores
-  - Analytics
+  - Contabilidade
+  - Finanças
+  - Análise de Dados
+  - Ensino
 about:
   template: trestles
   links:
@@ -22,14 +25,13 @@ about:
       href: https://twitter.com/kleberformiga      
 ---
 
-::: {#hero-heading}
-Hi! My name is Kléber, and I am a R-Lady from Brazil 🇧🇷 💜.
+```{=html}
+<style>body {text-align: justify}</style>
+```
+Olá! Meu nome é Kléber. Sou professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA).
 
-I'm a [tidyverse instructor certified by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/), and I teach R at [Curso-R](https://curso-r.com/).
+Sou entusiasta da análise de dados e acredito que está será a habilidade mais requerida de contadores para as demandas contábeis. Embora tenha contato com outras linguagens, adotei o R Programming como a principal para as minhas abordagens.
 
-I have been writing about R in my blog since 2019. I'm mostly active in the Brazilian R community, co-organizing communities and events, such as: [R-Ladies São Paulo](https://twitter.com/RLadiesSaoPaulo), [Latin-R](https://twitter.com/LatinR_Conf), and [satRday São Paulo](https://twitter.com/satRdaySP).
+Em 2019 criei o grupo de pesquisa contabiliDados para envolver professores e alunos em discussões sobre contabilidade, finanças e análise de dados. Esse blog é fruto desse grupo.
 
-I'm a PhD Candidate at the [University of São Paulo](http://www.iee.usp.br/), in Environmental Sciences. My research is about **transparency of information** in the **management of water resources** that are used to supply the Macrometropolis of Sao Paulo.
-:::
-
-[link](../../about.qmd)
+Sou contador com doutorado em Ciências Contábeis pela Universidade Federal da Paraíba (UFPB) e Mestre em Administração e Controladoria pela Universidade Federal do Ceará (UFC).

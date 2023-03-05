@@ -18,6 +18,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -54,14 +117,13 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar"
   }
 }</script><style>html{ scroll-behavior: smooth; }</style>
+<script src="../../site_libs/kePrint-0.0.1/kePrint.js"></script><link href="../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><link rel="stylesheet" href="../../styles.css">
 <meta name="twitter:title" content="contabiliDados - Índice de Liquidez Seca">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://contabilidados.com.br/cntdd/pacotes\indices\figs\liqSeca.png">
+<meta name="twitter:image" content="https://contabilidados.com.br/cntdd/pacotes\indices\figs\contasReceber.jpg">
 <meta name="twitter:creator" content="@cntdd">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="512">
-<meta name="twitter:image-width" content="512">
 </head>
 <body class="nav-fixed">
 
@@ -78,6 +140,14 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
 <li class="nav-item">
+    <a class="nav-link" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" rel="" target="_blank">
+ <span class="menu-text">Dash Indicadores</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://gecomt.shinyapps.io/dashboard/" rel="" target="_blank">
+ <span class="menu-text">Dash Mercado</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../cntdd.html" rel="" target="">
  <span class="menu-text">cntdd</span></a>
   </li>  
@@ -94,17 +164,17 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Equipe</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.instagram.com/contabilidados" rel="" target=""><i class="bi bi-instagram" role="img">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados" rel="" target="_blank"><i class="bi bi-instagram" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo" rel="" target=""><i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo" rel="" target="_blank"><i class="bi bi-youtube" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/contabilidados" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/contabilidados" rel="" target="_blank"><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -158,8 +228,17 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-</header><section id="descrição" class="level3"><h3 class="anchored" data-anchor-id="descrição">Descrição</h3>
-<p>Índice de Liquidez Seca</p>
+</header><style>body {text-align: justify}</style>
+<section id="descrição" class="level3"><h3 class="anchored" data-anchor-id="descrição">Descrição</h3>
+<p>Essa função calcula o Índice de Liquidez Seca baseado em vetores relativos às contas de ativo circulante e passivo circulante. Apresenta como resultado uma lista com 5 itens:</p>
+<ol type="1">
+<li><p><strong>Gráfico</strong> se o parâmetro <code>plot</code> for <code>TRUE</code> ou <code>T</code>, mostra um gráfico com a evolução da Liquidez Seca da empresa durante os períodos. Se for <code>FALSE</code> ou <code>F</code>, o gráfico não é apresentado;</p></li>
+<li><p><strong>Contas</strong> que corresponde ao banco de dados com as contas informadas para cálculo do indicador;</p></li>
+<li><p><strong>Índice</strong> o índice de Liquidez Seca dos períodos informados;</p></li>
+<li><p><strong>Análise Vertical</strong> Análise Vertical das contas informadas no item 1;</p></li>
+<li><p><strong>Análise Horizontal</strong> Análise Horizontal das contas informadas no item 1.</p></li>
+</ol>
+<p>Todos os itens da lista são bancos de dados no formato tibble que podem ser usados individualmente durante o processo de análise de dados.</p>
 </section><section id="como-usar" class="level3"><h3 class="anchored" data-anchor-id="como-usar">Como Usar</h3>
 <pre><code>ind_liqSeca(
   indicador = "Liq Seca",
@@ -177,73 +256,97 @@ ul.task-list li input[type="checkbox"] {
 </section><section id="argumentos" class="level3"><h3 class="anchored" data-anchor-id="argumentos">Argumentos</h3>
 <table class="table">
 <colgroup>
-<col style="width: 14%">
-<col style="width: 85%">
+<col style="width: 23%">
+<col style="width: 76%">
 </colgroup>
 <thead><tr class="header">
-<th><code>indicador</code></th>
-<th>Um vetor tipo character com o nome do indicador</th>
+<th>Parâmetro</th>
+<th>Descrição</th>
 </tr></thead>
 <tbody>
 <tr class="odd">
+<td><code>indicador</code></td>
+<td>Um vetor tipo character com o nome do indicador</td>
+</tr>
+<tr class="even">
 <td><code>periodo</code></td>
 <td>Vetor numérico indicando o período da análise</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>cxEquiv</code></td>
 <td>Vetor com os valores do caixa e equivalentes de caixa (Ativo Circulante)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>estoque</code></td>
 <td>Vetor com os valores do estoque (Ativo Circulante)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>ctaRecCP</code></td>
 <td>Vetor com os valores do contas a receber (Ativo Circulante)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>outAtvCirc</code></td>
 <td>Vetor com os valores de outros ativos circulantes (Ativo Circulante)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>fornec</code></td>
 <td>Vetor com os valores de fornecedores (Passivo Circulante)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>dividasCP</code></td>
 <td>Vetor com os valores de empréstimos e financiamentos de curto prazo (Passivo Circulante)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>outPasCirc</code></td>
 <td>Vetor com os valores de outros passivos circulantes (Passivo Circulante)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>atvTotal</code></td>
 <td>Vetor com os valores do Ativo Total</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>plot</code></td>
 <td>Mostra gráfico? (TRUE/FALSE)</td>
 </tr>
 </tbody>
 </table></section><section id="detalhes" class="level3"><h3 class="anchored" data-anchor-id="detalhes">Detalhes</h3>
-<p>O índice de Liquidez Seca revela a capacidade de pagamento de dívidas de curto prazo, considerando que a empresa não consiga reverter o valor de seus estoques em dinheiro. Relaciona, portanto, quanto uma empresa possui de ativo (circulante), deduzido do valor de seus estoques, com o total de seu passivo circulante. É representado pela fórmula:</p>
+<p>Liquidez seca é uma medida financeira que indica a capacidade de uma empresa de cumprir suas obrigações de curto prazo sem a necessidade de recorrer a seus estoques. Demonstra, portanto, a capacidade de uma empresa de pagar suas dívidas imediatas com ativos líquidos que não incluem seus estoques.</p>
+<p>Essa medida é importante porque ajuda a avaliar a capacidade da empresa de lidar com eventuais problemas financeiros, como quedas de vendas ou aumento de despesas, sem afetar suas operações. Além disso, é um indicador importante para os investidores, pois empresas com alta liquidez seca são consideradas menos arriscadas, já que têm maior capacidade de honrar suas obrigações de curto prazo.</p>
+<p>Indicamos essa análise quando a empresa apresentar dificuldade com o giro de seus estoques. Em codições normais, não haveria motivos para a empresa não conseguir rotacionar seus estoques. Quando há indicativos de que a rotação dos estoques ficará prejudicada, esse indicador poderá representar melhor a capacidade das empresas em quitar suas dívidas de curto prazo.</p>
+<p>É representado pela fórmula:</p>
 <p><span class="math display">\[
 \frac{AC - Est}{PC}
 \]</span></p>
 <p>em que: <strong>AC</strong> é o Ativo Circulante, <strong>Est</strong> é o estoque e <strong>PC</strong> é o Passivo Circulante</p>
-<p>Para melhorar o processo de análise, os valores de Ativos Circulante e Passivo Circulante foram desmembrados, respectivamente para <em>AC = cxEquiv + estoque + ctaRecCP + outAtvCirc</em> e para <em>PC = fornec + dividasCP + outPasCirc</em>. O item detalhes (details) apresenta a descrição de cada conta.</p>
-<p>Assim, tem-se que a liquidez seca corresponde a:</p>
+<p>Para melhorar o processo de análise, desmembramos os valores de Ativos Circulante e Passivo Circulante da seguinte forma: <em>AC = cxEquiv + estoque + ctaRecCP + outAtvCirc</em> e para <em>PC = fornec + dividasCP + outPasCirc</em>. O detalhe de cada conta foi apresentado na seção <strong>Argumentos</strong>.</p>
+<p>Considernado o desmembramento das contas tem-se que a liquidez seca corresponde a:</p>
 <p><span class="math display">\[
 \frac{(cxEquiv + ctaRecCP + outAtvCirc)}{(fornec + dividasCP + outPasCirc)}
 \]</span></p>
-<p>A equação não contempla todas as contas do ativo circulante com exceção da conta estoque.</p>
-<p>Indicamos essa análise quando a empresa apresentar dificuldade com o giro de seus estoques. Em codições normais, não haveria motivos para a empresa não conseguir rotacionar seus estoques. Quando há indicativos de que a rotação dos estoques ficará prejudicada, esse indicador poderá representar melhor a capacidade das empress em quitar suas dívidas de curto prazo.</p>
+<p>A equação deve contemplar todas as contas do ativo circulante com exceção da conta estoque.</p>
 </section><section id="exemplo" class="level3"><h3 class="anchored" data-anchor-id="exemplo">Exemplo:</h3>
+<p>Para utilizar a função <code>ind_liqSeca</code> precisamos carregar o pacote <code>cntdd</code>.</p>
 <div class="cell" data-layout-align="center">
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Após carregar o pacote, vamos simular uma situação em que temos os valores e queremos lançá-los, individualmente na função. Para cada parâmetro, precisamos informar os valores correspondentes. Importante observar que a quantidade de valores nas contas deve ser igual ao número de períodos informados no parâmetro <code>periodo</code>.</p>
+<p>No exemplo abaixo, informamos os anos de 2018 a 2020 (3 anos) por meio do vetor com a sequência <code>2018:2020</code>. O nome que escolhemos para indicador foi <code>Liquidez Seca</code>. Os demais vetores correspondem aos valores das contas (3 valores) para cálculo do indicador. Também escolhemos que nessa análise deveria ser apresentado um gráfico do indicador, então atribuímos o valor <code>T</code> ou <code>TRUE</code> para o parâmetro <code>plot</code>.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/ind_liqSeca.html">ind_liqSeca</a></span><span class="op">(</span></span>
+<span>indicador  <span class="op">=</span> <span class="st">"Liquidez Seca"</span>,</span>
+<span>periodo    <span class="op">=</span> <span class="fl">2018</span><span class="op">:</span><span class="fl">2020</span>,</span>
+<span>cxEquiv    <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">500</span>,<span class="fl">300</span>,<span class="fl">400</span><span class="op">)</span>,</span>
+<span>estoque    <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">2000</span>,<span class="fl">3000</span>,<span class="fl">4000</span><span class="op">)</span>,</span>
+<span>ctaRecCP   <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">2500</span>, <span class="fl">5000</span>, <span class="fl">2800</span><span class="op">)</span>,</span>
+<span>outAtvCirc <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">20</span>, <span class="fl">35</span>, <span class="fl">80</span><span class="op">)</span>,</span>
+<span>fornec     <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1200</span>, <span class="fl">1400</span>, <span class="fl">1600</span><span class="op">)</span>,</span>
+<span>dividasCP  <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">500</span>, <span class="fl">200</span>, <span class="fl">750</span><span class="op">)</span>,</span>
+<span>outPasCirc <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">30</span>, <span class="fl">20</span>, <span class="fl">40</span><span class="op">)</span>,</span>
+<span>atvTotal   <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">10000</span>, <span class="fl">12000</span>, <span class="fl">11000</span><span class="op">)</span>,</span>
+<span>plot <span class="op">=</span> <span class="cn">T</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="liqSeca_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figure class="figure"><p><img src="liqSeca_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -291,55 +394,104 @@ $`Análise Horizontal`
 6 AH.dividasCP  60.00%  275.00%
 7 AH.outPasCirc 33.33%  100.00%</code></pre>
 </div>
+</div>
+<p>Como esperado, foi apresentado o gráfico da Liquidez Seca, mais 4 itens: Contas, Índice, Análise Vertical e Análise Horizontal. Agora, é só analisar o indicador com as respectivas contas que o compõe.</p>
+<p>Para uma análise mais específica, vamos admitir que queremos apenas o item <code>Índice</code>. Vamos mostrar como captar apenas esse item e mostrá-lo em uma tabela com melhor design. O design da tabela será dado pelo pacote <code>kableExtra</code>, então vamos carregá-lo. Vamos carregar, também, o pacote <code>dplyr</code> para fazer a análise dos dados.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="http://haozhu233.github.io/kableExtra/">kableExtra</a></span><span class="op">)</span></span>
+<span><span class="co"># Usamos suppressWarnings e suppressMessages para omitir mensagens e avisos</span></span>
+<span><span class="co"># durante o carregamento do pacote dplyr</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/warning.html">suppressWarnings</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/message.html">suppressMessages</a></span><span class="op">(</span></span>
+<span>  <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span></span>
+<span>  <span class="op">)</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Também vamos extrair os dados diretamente banco de dados <code>dt_contabil</code> do pacote <code>cntdd</code>. Nesse procedimento, não precisamos digitar cada vetor dos para os parâmetros. No banco de dados <code>dt_contabil</code> temos mais uma empresa, filtramos apenas a empresa <code>alpha</code> para fazer nossas análises.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dadosAlpha</span> <span class="op">&lt;-</span> <span class="va">dt_contabil</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">empresa</span> <span class="op">==</span> <span class="st">"alpha"</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Definimos o nome do nosso banco de dados para análise como <code>dadosAlpha</code>. Vamos ver sua estrutura:</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/pillar/man/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">dadosAlpha</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>$Contas
-# A tibble: 8 x 7
-  conta      `2016`  `2017`  `2018`  `2019`  `2020`  `2021`
-  &lt;chr&gt;       &lt;int&gt;   &lt;int&gt;   &lt;int&gt;   &lt;int&gt;   &lt;int&gt;   &lt;int&gt;
-1 cxEquiv      5198   10517    8803   14299   39659   34950
-2 estoque    114409  117527  156229  185886  301247  466517
-3 ctaRecCP   326524  348944  396347  428123  620133  818424
-4 outAtvCirc 114409  117527  156229  185886  301247  466517
-5 fornec      68809  108131  114039  139769  413394  595164
-6 dividasCP   81780  169555   45542  163852  248004  514541
-7 outPasCirc  28042   18657   69839   23364  408834   39075
-8 atvTotal   939428 1087259 1082219 1463539 2933340 3486116
-
-$Índice
-# A tibble: 1 x 7
-  conta         `2016` `2017` `2018` `2019` `2020` `2021`
-  &lt;chr&gt;          &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
-1 Liquidez Seca   2.50   1.61   2.45   1.92  0.898   1.15
-
-$`Análise Vertical`
-# A tibble: 7 x 7
-  conta         `2016` `2017` `2018` `2019` `2020` `2021`
-  &lt;chr&gt;         &lt;chr&gt;  &lt;chr&gt;  &lt;chr&gt;  &lt;chr&gt;  &lt;chr&gt;  &lt;chr&gt; 
-1 AV.cxEquiv    0.55%  0.97%  0.81%  0.98%  1.35%  1.00% 
-2 AV.Estoque    12.18% 10.81% 14.44% 12.70% 10.27% 13.38%
-3 AV.ctaRecCP   34.76% 32.09% 36.62% 29.25% 21.14% 23.48%
-4 AV.outAtvCirc 12.18% 10.81% 14.44% 12.70% 10.27% 13.38%
-5 AV.fornec     7.32%  9.95%  10.54% 9.55%  14.09% 17.07%
-6 AV.dividasCP  8.71%  15.59% 4.21%  11.20% 8.45%  14.76%
-7 AV.outPasCirc 2.99%  1.72%  6.45%  1.60%  13.94% 1.12% 
-
-$`Análise Horizontal`
-# A tibble: 7 x 6
-  conta         `2017`  `2018`  `2019`  `2020`    `2021` 
-  &lt;chr&gt;         &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;     &lt;chr&gt;  
-1 AH.CxEquiv    102.33% 16.30%  62.43%  177.36%   11.87% 
-2 AH.Estoque    2.73%   32.93%  18.98%  62.06%    54.86% 
-3 AH.ctaRecCP   6.87%   13.58%  8.02%   44.85%    31.98% 
-4 AH.outAtvCirc 2.73%   32.93%  18.98%  62.06%    54.86% 
-5 AH.fornec     57.15%  5.46%   22.56%  195.77%   43.97% 
-6 AH.dividasCP  107.33% 73.14%  259.78% 51.36%    107.47%
-7 AH.outPasCirc 33.47%  274.33% 66.55%  1 649.85% 90.44% </code></pre>
+<pre><code>Rows: 6
+Columns: 38
+$ empresa           &lt;chr&gt; "alpha", "alpha", "alpha", "alpha", "alpha", "alpha"
+$ ano               &lt;int&gt; 2016, 2017, 2018, 2019, 2020, 2021
+$ caixaEquiv        &lt;int&gt; 5198, 10517, 8803, 14299, 39659, 34950
+$ aplicFinanc       &lt;int&gt; 246286, 339427, 235388, 273264, 541474, 236951
+$ clientesCP        &lt;int&gt; 326524, 348944, 396347, 428123, 620133, 818424
+$ estoques          &lt;int&gt; 114409, 117527, 156229, 185886, 301247, 466517
+$ outrosAtvCirc     &lt;int&gt; 38943, 69255, 75196, 113989, 118040, 148544
+$ atvCirc           &lt;int&gt; 731360, 885670, 871963, 1015561, 1620553, 1705386
+$ clientesLP        &lt;int&gt; 14162, 11898, 11101, 10772, 2655, 4428
+$ investimento      &lt;int&gt; 937, 3029, 3442, 3124, 3123, 2963
+$ imobilizado       &lt;int&gt; 75651, 70042, 86161, 314902, 327555, 418239
+$ intangLiquido     &lt;int&gt; 89019, 82011, 69558, 77717, 859397, 1051033
+$ outrosAtvNaoCirc  &lt;int&gt; 28299, 34609, 39993, 41462, 120057, 304066
+$ atvNaoCirc        &lt;int&gt; 208068, 201589, 210255, 447977, 1312787, 1780729
+$ forneced          &lt;int&gt; 68809, 108131, 114039, 139769, 413394, 595164
+$ empFinCP          &lt;int&gt; 81780, 169555, 45542, 163852, 248004, 514541
+$ outrosPassCirc    &lt;int&gt; 58423, 91836, 105413, 177572, 282452, 463348
+$ passivoCirc       &lt;int&gt; 209012, 369522, 264994, 481193, 943850, 1573053
+$ empFinLP          &lt;int&gt; 28042, 18657, 69839, 23364, 408834, 39075
+$ outrosPassNaoCirc &lt;int&gt; 8844, 10457, 10730, 186361, 184069, 225330
+$ passivoNaoCirc    &lt;int&gt; 36886, 29114, 80569, 209725, 592903, 264405
+$ patLiquido        &lt;int&gt; 693530, 688623, 736655, 772620, 1396587, 1648657
+$ ativoTotal        &lt;int&gt; 939428, 1087259, 1082219, 1463539, 2933340, 3486116
+$ receita           &lt;int&gt; 1283203, 1408886, 1580984, 1738990, 1647607, 3027870
+$ custoMercVend     &lt;int&gt; 714366, 762921, 845023, 935693, 865520, 1434437
+$ despVendas        &lt;int&gt; 313479, 346107, 392405, 439467, 548811, 915882
+$ despAdm           &lt;int&gt; 96149, 117866, 145877, 190560, 168007, 327469
+$ despOperac        &lt;int&gt; 412126, 466152, 537875, 572255, 686700, 1108236
+$ receitaFinanc     &lt;int&gt; 36926, 35051, 41463, 25599, 67862, 43884
+$ despesaFinanc     &lt;int&gt; 31050, 25420, 63502, 44422, 106750, 110857
+$ impostoRenda      &lt;int&gt; 42304, 29475, 28327, 44309, 6186, 62273
+$ depreciacao       &lt;int&gt; 26733, 33793, 42336, 83180, 83989, 109511
+$ ebit              &lt;int&gt; 156710, 179811, 198085, 231041, 95386, 485197
+$ lucroLiquido      &lt;int&gt; 120282, 159966, 147719, 167908, 50312, 357519
+$ lair              &lt;int&gt; 162586, 189442, 176047, 212218, 56499, 418225
+$ flxCxOper         &lt;int&gt; 105328, 180074, 122029, 212172, 228155, 250547
+$ flxCxInvest       &lt;int&gt; -21703, -94960, 74806, -88448, -307860, -11155
+$ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -241822</code></pre>
 </div>
 </div>
+<p>Agora vamos rodar a função <code>ind_liqSeca</code> com os dados do banco de dados <code>dadosAlpha</code>. Vamos chamar o indicador de “Liquidez Seca” e não vamos pedir para apresentar o gráfico (<code>plot = F</code>). Como queremos usar apenas o item <code>Índice</code> vamos definir um objeto chamado <code>dadosLiqSeca</code> para assumir o resultado da função.</p>
+<p>Como definimos um objeto (<code>dadosLiqSeca</code>), não temos o resultado diretamente. Agora vamos acessar o objeto <code>dadosLiqSeca</code> e requisitar apenas o item <code>Índice</code> e logo após vamos definir um design básico de tabela.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>dadosLiqSeca<span class="sc">$</span>Índice <span class="sc">%&gt;%</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kbl</span>(</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Indicadores de Liquidez Seca da Empresa Alpha de 2016 a 2021"</span>,</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">align =</span> <span class="fu">c</span>(<span class="st">"lcccccc"</span>),</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">digits =</span> <span class="dv">2</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_minimal</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="lightable-minimal table table-sm table-striped">
+<caption>Indicadores de Liquidez Seca da Empresa Alpha de 2016 a 2021</caption>
+<thead><tr class="header">
+<th style="text-align: left;">conta</th>
+<th style="text-align: center;">2016</th>
+<th style="text-align: center;">2017</th>
+<th style="text-align: center;">2018</th>
+<th style="text-align: center;">2019</th>
+<th style="text-align: center;">2020</th>
+<th style="text-align: center;">2021</th>
+</tr></thead>
+<tbody><tr class="odd">
+<td style="text-align: left;">Liquidez Seca</td>
+<td style="text-align: center;">1.77</td>
+<td style="text-align: center;">1.16</td>
+<td style="text-align: center;">1.81</td>
+<td style="text-align: center;">1.16</td>
+<td style="text-align: center;">0.82</td>
+<td style="text-align: center;">0.64</td>
+</tr></tbody>
+</table>
+</div>
+</div>
+<p>Agora é só analisar!</p>
 </section><section id="quem-contribuiu" class="level3"><h3 class="anchored" data-anchor-id="quem-contribuiu">Quem contribuiu</h3>
-<p>Aluno A: Fez a editoração e construiu o pacote</p>
-<p>Aluno B: Revisou o Texto</p>
-<p>Professor A: Validou o pacote</p>
+<p><a href="../../curriculum/profs/kleber.html">Kléber</a>: Construiu a função e o arquivo de ajuda para o blog.</p>
 
 
 </section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
@@ -574,7 +726,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
-</script><script src="https://giscus.app/client.js" data-repo="contabilidados/blog" data-repo-id="" data-category="General" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><script src="https://giscus.app/client.js" data-repo="contabilidados/blog" data-repo-id="R_kgDOI9xlkQ" data-category="General" data-category-id="DIC_kwDOI9xlkc4CUfYR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 <footer class="footer"><div class="nav-footer">
