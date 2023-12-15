@@ -182,7 +182,7 @@ para apresentar o gráfico (`plot = F`). Como queremos usar apenas o item `Índi
 vamos definir um objeto chamado `dadosLiqSeca` para assumir o resultado da
 função.
 
-```{r}
+```{r echo=TRUE}
 
 dadosLiqSeca <-
   ind_liqSeca(
