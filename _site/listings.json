@@ -2,12 +2,14 @@
   {
     "listing": "/cntdd.html",
     "items": [
+      "/pacotes/indices/liqCorrente.html",
       "/pacotes/indices/liqSeca.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/pacotes/indices/liqCorrente.html",
       "/pacotes/indices/liqSeca.html",
       "/eventos/economaticaR.html"
     ]
