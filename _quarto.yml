@@ -21,10 +21,8 @@ website:
     right:
       - text: Dash Indicadores
         href: https://kleberformiga.shinyapps.io/dashCVMaulas/
-        target: _blank
       - text: Dash Mercado
         href: https://gecomt.shinyapps.io/dashboard/
-        target: _blank
       - text: cntdd
         href: cntdd.qmd
       - text: Posts
@@ -35,13 +33,10 @@ website:
         href: membros.qmd
       - icon: instagram
         href: https://www.instagram.com/contabilidados
-        target: _blank
       - icon: youtube
         href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
-        target: _blank
       - icon: github
         href: https://github.com/contabilidados
-        target: _blank
 
 format:
   html:

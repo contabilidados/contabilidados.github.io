@@ -140,11 +140,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
 <li class="nav-item">
-    <a class="nav-link" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" rel="" target="_blank">
+    <a class="nav-link" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" rel="" target="">
  <span class="menu-text">Dash Indicadores</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://gecomt.shinyapps.io/dashboard/" rel="" target="_blank">
+    <a class="nav-link" href="https://gecomt.shinyapps.io/dashboard/" rel="" target="">
  <span class="menu-text">Dash Mercado</span></a>
   </li>  
   <li class="nav-item">
@@ -164,17 +164,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
  <span class="menu-text">Equipe</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.instagram.com/contabilidados" rel="" target="_blank"><i class="bi bi-instagram" role="img">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados" rel="" target=""><i class="bi bi-instagram" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo" rel="" target="_blank"><i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo" rel="" target=""><i class="bi bi-youtube" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/contabilidados" rel="" target="_blank"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/contabilidados" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -457,14 +457,30 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
 </div>
 </div>
 <p>Agora vamos rodar a função <code>ind_liqSeca</code> com os dados do banco de dados <code>dadosAlpha</code>. Vamos chamar o indicador de “Liquidez Seca” e não vamos pedir para apresentar o gráfico (<code>plot = F</code>). Como queremos usar apenas o item <code>Índice</code> vamos definir um objeto chamado <code>dadosLiqSeca</code> para assumir o resultado da função.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dadosLiqSeca</span> <span class="op">&lt;-</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/ind_liqSeca.html">ind_liqSeca</a></span><span class="op">(</span></span>
+<span>    indicador  <span class="op">=</span> <span class="st">"Liquidez Seca"</span>,</span>
+<span>    periodo    <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">ano</span>,</span>
+<span>    cxEquiv    <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">caixaEquiv</span>,</span>
+<span>    estoque    <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">estoques</span>,</span>
+<span>    ctaRecCP   <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">clientesCP</span>,</span>
+<span>    outAtvCirc <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">outrosAtvCirc</span>,</span>
+<span>    fornec     <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">forneced</span>,</span>
+<span>    dividasCP  <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">empFinCP</span>,</span>
+<span>    outPasCirc <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">outrosPassCirc</span>,</span>
+<span>    atvTotal   <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">ativoTotal</span>,</span>
+<span>    plot <span class="op">=</span> <span class="cn">F</span></span>
+<span>    <span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p>Como definimos um objeto (<code>dadosLiqSeca</code>), não temos o resultado diretamente. Agora vamos acessar o objeto <code>dadosLiqSeca</code> e requisitar apenas o item <code>Índice</code> e logo após vamos definir um design básico de tabela.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>dadosLiqSeca<span class="sc">$</span>Índice <span class="sc">%&gt;%</span> </span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kbl</span>(</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Indicadores de Liquidez Seca da Empresa Alpha de 2016 a 2021"</span>,</span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">align =</span> <span class="fu">c</span>(<span class="st">"lcccccc"</span>),</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">digits =</span> <span class="dv">2</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_minimal</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>dadosLiqSeca<span class="sc">$</span>Índice <span class="sc">%&gt;%</span> </span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kbl</span>(</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Indicadores de Liquidez Seca da Empresa Alpha de 2016 a 2021"</span>,</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">align =</span> <span class="fu">c</span>(<span class="st">"lcccccc"</span>),</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">digits =</span> <span class="dv">2</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_minimal</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="lightable-minimal table table-sm table-striped">
 <caption>Indicadores de Liquidez Seca da Empresa Alpha de 2016 a 2021</caption>
