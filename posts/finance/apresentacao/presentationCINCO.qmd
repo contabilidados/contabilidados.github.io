@@ -1,0 +1,146 @@
+---
+title: "Noções Básicas de Técnicas Contábeis e Financeiras com o R"
+subtitle: "Kléber Formiga Miranda (UFERSA)"
+author: "CINCO - I Congresso Interinstitucional de Contabilidade e Controladoria"
+format:
+  revealjs: 
+    slide-number: true
+    theme: [default, style.scss]
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/cntdd.png
+    css: logo.css
+    footer: <https://contabeis.ufersa.edu.br/contabilidados>
+editor_options: 
+  chunk_output_type: console
+---
+
+## Contabilidade e os Dados
+
+A contabilidade evoluiu de **métodos manuais** para a incorporação da Análise de Dados, uma habilidade crucial, à medida que as empresas a **integram em seus modelos** de negócios para obter uma **vantagem competitiva**.
+
+## Sugestão de leitura
+
+Edição especial da revista GV Executivo
+
+::: columns
+::: {.column width="60%"}
+V. 22 N. 3 (2023)
+
+O FUTURO DAS FINANÇAS
+
+:::
+
+::: {.column width="40%"}
+
+![](images/futuroFinancas_GV.png){fig-align="center" width="100%"}
+
+:::
+
+:::
+
+
+## O contador como decisor
+
+(Machado & Miranda, 2023) - [Acesse aqui](https://periodicos.fgv.br/gvexecutivo/article/view/89909)
+
+![](images/tiposDecisoes.png){fig-align="center" width="100%"}
+
+## Maturidade Analítica
+
+![](images/maturidadeAnalitica.png){fig-align="center" width="100%"}
+
+## Dados contábeis
+
+Como vemos os dados contábeis?
+
+::: panel-tabset
+### Convencional
+
+![](images/balancoAtivo.png){fig-align="center" width="70%"}
+
+### Excel
+
+![](images/balancoExcel.png){fig-align="center" width="90%"}
+
+### Temporal
+
+![](images/balancoTemporal.png){fig-align="center" width="90%"}
+
+### Dados
+
+![](images/balancoDadosCVM.png){fig-align="center" width="90%"}
+:::
+
+
+## Vamos nos Familiarizar
+
+Como manipular os dados em R?
+
+```{r}
+
+setwd("D:/repos/projects/presentationCINCO")
+
+library(readxl)
+library(tidyverse)
+
+dt_Planilha <-
+  read_xlsx("data/dtContabil.xlsx", sheet = "contas_CINCO",
+            col_types = c("text", "text", "date", rep("numeric", 20))) %>% 
+  dplyr::select(-Setor_Atividade) %>% 
+  mutate(
+    DT_REFER = as.Date(DT_REFER)
+  )
+
+
+```
+
+
+::: panel-tabset
+### Planilha
+
+![](images/dtExcelDestaque.png){fig-align="center" width="80%"}
+
+### Vermelhas
+
+```{r, echo=TRUE}
+dt_Planilha[1:11, 1:5]
+```
+
+
+### Laranja
+
+```{r, echo=TRUE}
+dt_Planilha$receitaBruta[1:11]
+```
+
+
+### Amarelo
+
+```{r, echo=TRUE}
+
+dt_Planilha$depreciacao[1]
+
+dt_Planilha$depreciacao[dt_Planilha$CD_CVM == "4537" & dt_Planilha$DT_REFER == "2018-12-31"]
+
+```
+
+### Azul
+
+```{r, echo=TRUE}
+
+dt_Planilha$valorAdicionado[dt_Planilha$CD_CVM %in% c("4537", "5258", "6505") & dt_Planilha$DT_REFER == "2018-12-31"]
+
+dadosAzul <- 
+  dt_Planilha$valorAdicionado[dt_Planilha$CD_CVM %in% c("4537", "5258", "6505") & dt_Planilha$DT_REFER == "2018-12-31"]
+
+mean(dadosAzul)
+
+```
+
+:::
+
+## Vamos ao R
+
+![](images/jonsnow.gif){fig-align="center" width="200%"}

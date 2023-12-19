@@ -11,15 +11,15 @@
       "eventos/**/*.qmd"
     ],
     "meetings.qmd": [
-      "eventos/*.qmd"
+      "eventos/*/*.qmd"
     ],
     "membros.qmd": [
       "curriculum/profs/*.qmd",
       "curriculum/alunos/*.qmd"
     ],
     "posts.qmd": [
-      "posts/contabil/*.qmd",
-      "posts/finance/*.qmd",
+      "posts/contabil/*/*.qmd",
+      "posts/finance/*/*.qmd",
       "posts/governo/*.qmd"
     ]
   }

@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -151,6 +151,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="">
+<meta name="twitter:image" content="https://contabilidados.com.br/cntdd/posts\contabil\minhaContabilidade\featured-photo.jpeg">
 <meta name="twitter:creator" content="@cntdd">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -172,11 +173,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" rel="" target="">
+    <a class="nav-link" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" rel="" target="_blank">
  <span class="menu-text">Dash Indicadores</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://gecomt.shinyapps.io/dashboard/" rel="" target="">
+    <a class="nav-link" href="https://gecomt.shinyapps.io/dashboard/" rel="" target="_blank">
  <span class="menu-text">Dash Mercado</span></a>
   </li>  
   <li class="nav-item">
@@ -230,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#eventos-recentes" id="toc-eventos-recentes" class="nav-link" data-scroll-target="#eventos-recentes">Eventos Recentes</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Análise de Dados"><span class="quarto-category-count category-cloud-4">Análise de Dados</span></div><div class="category" data-category="Economatica"><span class="quarto-category-count category-cloud-4">Economatica</span></div><div class="category" data-category="Pacotes"><span class="quarto-category-count category-cloud-7">Pacotes</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-4">R</span></div><div class="category" data-category="cntdd"><span class="quarto-category-count category-cloud-7">cntdd</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Análise de Dados"><span class="quarto-category-count category-cloud-3">Análise de Dados</span></div><div class="category" data-category="Contabilidade"><span class="quarto-category-count category-cloud-3">Contabilidade</span></div><div class="category" data-category="Economatica"><span class="quarto-category-count category-cloud-3">Economatica</span></div><div class="category" data-category="Pacotes"><span class="quarto-category-count category-cloud-3">Pacotes</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-6">R</span></div><div class="category" data-category="cntdd"><span class="quarto-category-count category-cloud-3">cntdd</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -240,7 +241,105 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="posts-recentes">Posts recentes</h2>
 <div id="listing-posts" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1702524248590" data-listing-reading-time-sort="0.865">
+<div class="thumbnail">
+<p><a href="./posts/finance/apresentacao/presentationCINCO.html"> <img src="./posts/finance/apresentacao/images/futuroFinancas_GV.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/finance/apresentacao/presentationCINCO.html">
+<h3 class="no-anchor listing-title">
+Noções Básicas de Técnicas Contábeis e Financeiras com o R
+</h3>
+<div class="listing-subtitle">
+Kléber Formiga Miranda (UFERSA)
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/finance/apresentacao/presentationCINCO.html">
+<div class="listing-author">
+CINCO - I Congresso Interinstitucional de Contabilidade e Controladoria
+</div>
+<div class="listing-reading-time">
+0 minutos
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Contabilidade,R" data-listing-date-sort="1548727200000" data-listing-file-modified-sort="1702943343597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3.99">
+<div class="thumbnail">
+<p><a href="./posts/contabil/minhaContabilidade/index.html"> <img src="./posts/contabil/minhaContabilidade/featured-photo.jpeg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/contabil/minhaContabilidade/index.html">
+<h3 class="no-anchor listing-title">
+Meio ano de aprendizagem de R!
+</h3>
+<div class="listing-subtitle">
+Neste texto, gostaria de compartilhar um pouco sobre os primeiros seis meses de aprendizagem em programação, principalmente na linguagem R.
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+<a href="./posts/contabil/minhaContabilidade/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="./posts/contabil/minhaContabilidade/index.html">
+<div class="listing-date">
+29 de jan. de 2019
+</div>
+<div class="listing-author">
+Kléber
+</div>
+<div class="listing-reading-time">
+3 minutos
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Contabilidade,R" data-listing-date-sort="1548727200000" data-listing-file-modified-sort="1702951930369" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3.99">
+<div class="thumbnail">
+<p><a href="./posts/finance/exemploFinancas/index.html"> <img src="./posts/finance/exemploFinancas/featured-photo.jpeg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/finance/exemploFinancas/index.html">
+<h3 class="no-anchor listing-title">
+Teste de finanças
+</h3>
+<div class="listing-subtitle">
+Aqui vou falar de finanças
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+<a href="./posts/finance/exemploFinancas/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="./posts/finance/exemploFinancas/index.html">
+<div class="listing-date">
+29 de jan. de 2019
+</div>
+<div class="listing-author">
+Kléber
+</div>
+<div class="listing-reading-time">
+3 minutos
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 Nenhum item correspondente
@@ -335,11 +434,30 @@ Nenhum item correspondente
 <h2 class="anchored" data-anchor-id="eventos-recentes">Eventos Recentes</h2>
 <div id="listing-eventos" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R,Economatica,Análise de Dados" data-listing-date-sort="1667012400000" data-listing-file-modified-sort="1677421514105" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.055">
-<a href="./eventos/economaticaR.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="R,Economatica,Análise de Dados" data-listing-date-sort="1702522800000" data-listing-file-modified-sort="1703008851246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.025">
+<a href="./eventos/CINCO_dez2023/CINCO_dadosContabeisR.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./eventos/figs/economaticaR_2.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./eventos/CINCO_dez2023/figs/cinco.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Análise de dados com R e Economatica
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+14 de dez. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="R,Economatica,Análise de Dados" data-listing-date-sort="1667012400000" data-listing-file-modified-sort="1677421514105" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.055">
+<a href="./eventos/economaticaR/economaticaR.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./eventos/economaticaR/figs/economaticaR_2.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">

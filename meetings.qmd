@@ -2,7 +2,7 @@
 title: "Contabilidados - Eventos"
 listing:
   - id: eventos
-    contents: eventos/*.qmd
+    contents: eventos/*/*.qmd
     type: grid
     fields: [image, date, title, subtitle]
     sort: "date desc"
@@ -18,11 +18,12 @@ toc: true
 
 ## Próximas atividades
 
--   2023 - Janeiro/Fevereiro
+-   2023 - Dezembro - CINCO - I Congresso Interinstitucional de Contabilidade e Controladoria
 
--   Invitations / Convites
 
-Please email me at: [contabilidados\@ufersa.edu.br](mailto:contabilidados@ufersa.edu.br)
+-   Contatos para eventos
+
+Enviar email para: [contabilidados\@ufersa.edu.br](mailto:contabilidados@ufersa.edu.br)
 
 ## Eventos/Palestras
 

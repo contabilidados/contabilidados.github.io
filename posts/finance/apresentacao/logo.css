@@ -1,0 +1,15 @@
+.reveal .slide-logo {
+  height: 32px !important;
+  width: 160px !important;
+  max-height: unset !important;
+}
+
+.section .reveal .state-background{
+background-color: white;
+background-size: cover;
+}
+
+.section .reveal h1, h2{
+    color: blue;
+    font-weight: bold;
+  }

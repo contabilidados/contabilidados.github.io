@@ -1,0 +1,36 @@
+---
+toc: true
+author: cntdd
+categories: [R, Economatica, Análise de Dados]
+date: '2023-12-14'
+event: "Noções Básicas de Técnicas Contábeis e Financeiras com o R"
+event_url: https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCO
+links:
+- icon: file-pdf
+  icon_pack: far
+  name: Apostila
+  url: https://github.com/UFERSA3/contabilidados/raw/master/tutoriais/basicoR/basicoR.pdf
+- icon: slides
+  icon_pack: far
+  name: "Slide do minicurso"
+  url: https://rpubs.com/kleberformiga/minicurso_CINCO_2023
+- icon: youtube
+  icon_pack: fab
+  name: "Dia 2"
+  url: https://www.youtube.com/watch?v=7mgmchEo-1w
+location: Online
+title: "Análise de dados com R e Economatica"
+image: figs/cinco.png
+draft: false
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+<br>
+
+Minicurso que abordou...

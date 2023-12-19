@@ -21,8 +21,10 @@ website:
     right:
       - text: Dash Indicadores
         href: https://kleberformiga.shinyapps.io/dashCVMaulas/
+        target: _blank
       - text: Dash Mercado
         href: https://gecomt.shinyapps.io/dashboard/
+        target: _blank
       - text: cntdd
         href: cntdd.qmd
       - text: Posts

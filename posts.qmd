@@ -2,7 +2,7 @@
 title: "Nossos Posts"
 listing:
   - id: contabilidade
-    contents: posts/contabil/*.qmd
+    contents: posts/contabil/*/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]  
     sort: "date desc"
@@ -11,7 +11,7 @@ listing:
     filter-ui: true
     page-size: 3
   - id: financas
-    contents: posts/finance/*.qmd
+    contents: posts/finance/*/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]  
     sort: "date desc"

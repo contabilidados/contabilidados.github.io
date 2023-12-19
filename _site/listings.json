@@ -9,15 +9,20 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/finance/apresentacao/presentationCINCO.html",
+      "/posts/contabil/minhaContabilidade/index.html",
+      "/posts/finance/exemploFinancas/index.html",
       "/pacotes/indices/liqCorrente.html",
       "/pacotes/indices/liqSeca.html",
-      "/eventos/economaticaR.html"
+      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+      "/eventos/economaticaR/economaticaR.html"
     ]
   },
   {
     "listing": "/meetings.html",
     "items": [
-      "/eventos/economaticaR.html"
+      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+      "/eventos/economaticaR/economaticaR.html"
     ]
   },
   {
@@ -29,6 +34,10 @@
   },
   {
     "listing": "/posts.html",
-    "items": []
+    "items": [
+      "/posts/contabil/minhaContabilidade/index.html",
+      "/posts/finance/apresentacao/presentationCINCO.html",
+      "/posts/finance/exemploFinancas/index.html"
+    ]
   }
 ]
