@@ -10,7 +10,9 @@
     "listing": "/index.html",
     "items": [
       "/posts/finance/apresentacao/presentationCINCO.html",
-      "/posts/contabil/minhaContabilidade/index.html",
+      "/posts/contabil/valueRelevance/valueRelevance.html",
+      "/posts/contabil/accountingHistory/accountingHistory.html",
+      "/posts/contabil/resenha_escolhasContabeis/escolhasContabeis.html",
       "/posts/finance/exemploFinancas/index.html",
       "/pacotes/indices/liqCorrente.html",
       "/pacotes/indices/liqSeca.html",
@@ -35,7 +37,9 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/contabil/minhaContabilidade/index.html",
+      "/posts/contabil/valueRelevance/valueRelevance.html",
+      "/posts/contabil/accountingHistory/accountingHistory.html",
+      "/posts/contabil/resenha_escolhasContabeis/escolhasContabeis.html",
       "/posts/finance/apresentacao/presentationCINCO.html",
       "/posts/finance/exemploFinancas/index.html"
     ]

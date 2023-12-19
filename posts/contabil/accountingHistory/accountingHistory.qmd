@@ -1,0 +1,309 @@
+---
+title: "Evolução Histórica e Arcabouço Teórico da Contabilidade"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Evolução
+  - História
+  - Tomada de decisão
+date: 2019-05-13
+toc: true
+image: "accountingHistory.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+A informação contábil deve alterar o estado da arte do conhecimento de seu
+usuário em relação à empresa, permitindo interpretações, uso em soluções de 
+problemas e, por fim, ratificando ou alterando a opinião sobre as atividades 
+empresariais (Yamamoto & Salotti, 2006). Essa conceituação revela o ponto chave 
+para a evolução histórica da contabilidade e, consequentemente, de sua base 
+conceitual. Especialmente entre meados do século XIX e início do Século XX a 
+demanda por informação contábil aumentou consideravelmente, dada a demanda por 
+novas tomadas de decisão.
+
+Revela-se a abordagem sobre a teoria da contabilidade e do controle proposta 
+em Sunder (2014) para o qual três ideias centrais são importantes para o 
+entendimento da contabilidade e do controle nas organizações: a) todas as 
+organizações são conjuntos de contratos entre indivíduos ou grupos de indivíduos; 
+b) a provisão de informação compartilhada entre as partes contratantes ajuda a 
+desenhar e a implementar esses contratos, e; c) o controle nas organizações é um
+balanceamento ou um equilíbrio sustentável entre os interesses de seus 
+participantes.
+
+Ao expor a empresa como um conjunto de contratos é demonstrada a necessidade de 
+informações para cada parte do contrato avaliar a sua continuidade nessa 
+transação. Para entender melhor essa afirmativa faz-se necessário explicar a 
+diferenciação entre o modelo econômico neoclássico e o modelo da firma para 
+emergir a demanda pela informação contábil. No modelo neoclássico o mercado 
+autorregulado não necessitaria de informações para se manter contínuo, pois a 
+oferta e demanda por insumos e produtos se ajustariam sem interferência da 
+empresa – nesse caso um mero participante do mercado. O modelo contratual da 
+firma demonstra a importância da empresa no contexto econômico, especialmente 
+por esclarecer o conjunto de interesses em volta da rede de contratos na qual 
+está envolvida.
+
+Dessa forma, a empresa passou a ter papel essencial no contexto econômico, pois 
+o atendimento dos interesses de cada agente no contrato definiria a continuidade 
+do meio econômico existente. Cada agente atua, para a teoria contratual da firma, 
+sob o pressuposto da racionalidade, portanto dentre as opções disponíveis seria 
+escolhida aquela com melhor retorno para o agente, melhorando sua participação 
+na relação contratual.
+
+Conforme Lopes e Martins (2005), a firma clássica não tinham problemas de 
+informação, pois todos os agentes envolvidos tinham acesso ao mesmo conteúdo 
+informativo sem distinção. Na visão ideal da firma a obtenção de informações 
+não seriam problemas para os agentes já que todos teriam acesso à mesma base 
+informacional. Porém, essa situação difere da realidade empresarial, onde se 
+tem diferenças informacionais entre agentes e nessa diferença onde surge a 
+importância da informação contábil.
+
+Cada agente possui uma contribuição na rede contratual constituinte da firma. A 
+contabilidade mensura essa contribuição por meio de métodos contábeis e 
+controles desenhados especificamente para esse fim. Com base nos valores 
+mensurados, cada agente pode avaliar a sua eficiência no contrato e a 
+viabilidade de permanecer ou requerer concessões para sua permanência na firma.
+
+O papel da contabilidade é expor, para cada agente, informações para que possam 
+avaliar se o valor contratado e o valor efetivamente recebido ou a receber são 
+compatíveis. Dessa forma, um determinado agente como o acionista, por exemplo, 
+não está obrigado a contribuir com mais recursos, por sua vez um credor pode 
+requerer informações sobre suas recompensas em relação ao que está aplicado na 
+firma. Assim, a contabilidade é competente para gerar informações quanto aos 
+recursos ingressados e retirados da firma, seja de um agente para ele próprio 
+ou de agente para outro agente.
+
+Caso um agente deseje desocupar sua posição na firma, espera-se, quando os 
+contratos permitem, a venda desse lugar para outros agentes interessados em 
+ingressar nos termos atuais ou novos termos daquela participação. São exemplos 
+os fornecedores com contrato exclusivo de fornecimento e os acionistas. Ambos 
+podem repassar seus direitos sobre a firma para terceiros. Esse terceiro, por 
+sua vez, precisar de informações sobre a relação contratual na qual irá 
+ingressar. Mais uma vez a contabilidade atua como meio de informação para a 
+decisão de ingressar ou não na firma. Ressalta-se que a saída de uma agente 
+pode desestabilizar a firma como um todo, portanto é comum outros agentes 
+tentarem cobrir o espaço deixado pelo remanescente com vistas à sua própria 
+utilidade na participação naquela firma.
+
+Dentre os contratos com os quais a firma opera, o contrato com a gestão é o mais 
+peculiar. Ao gestor cabe estabelecer o leiaute de implementação dos contratos da 
+firma, contando com suas habilidades gerenciais. Ao gestor cabe contatar com 
+outros agentes tendo que atender a firma na qual está contratado. Assim, há uma
+dificuldade em mensurar o valor se sua participação na firma.
+
+Em primeiro lugar por ocupar a forma de capital humano e seus serviços para a 
+firma serem transmitidos por meio dessa fonte de capital inalienável e 
+fisicamente impossível de se separar de seu proprietário, dificultando a 
+demonstração da sua contribuição para a firma.
+
+Depois, a qualidade e fluxo de serviços dos gestores são difíceis de mensurar. 
+Atividades mensuradas por hora ou por tarefa são facilmente absorvidas pela 
+mensuração contábil, mas atividades gerenciais divergem dessas. O tempo 
+dedicado ao trabalho, por exemplo, não reflete a real contribuição do gestor, 
+pois o tempo fora da empresa pode gerar novos contratos para a firma ou melhorar 
+a relação com os existentes.
+
+Por último, a posição central ocupada pelo gestor lhe dá a condição de aproveitar 
+todas as informações a sua disposição para favorecimento próprio, constituindo-se 
+um problema de seleção adversa. A seleção adversa é a oportunidade que os gestores 
+tem de utilizar as informações obtidas sobre o ambiente de trabalho em maior 
+proporção que os demais agentes, especialmente os acionistas.
+
+Para esses problemas de assimetria informacional entre os agentes com a gestão 
+da empresa, a contabilidade age na remuneração dos gestores. Normalmente, o 
+conflito entre os interesses da gestão e os interesses da firma (conflito de 
+agência) é reduzido com a vinculação da remuneração dos gestores com os 
+resultados da empresa. Dessa forma, a maximização do gestor tenderá a 
+privilegiar todos os agentes envolvidos na firma e não apenas a sua maximização.
+
+A definição e mensuração dos interesses dos gestores nas firmas ainda assim é 
+complexa, tendo em vista a suas preferências contratuais. As preferências 
+contratuais incluem variáveis pecuniárias como salários, bônus, benefícios, 
+dentre outros e outras não pecuniárias como *status*, oportunidades de 
+crescimento, riscos, desafios, flexibilidade no trabalho. A situação se agrava 
+quando há gestores intermediários uma vez que nem todos os recursos transitam 
+sob seu domínio. À contabilidade cabe agir de forma gerencial para promover o 
+direcionamento do real desempenho de cada agente na empresa como forma de 
+remunerá-lo coerentemente sem prejudicar, portanto, o desempenho da firma.
+
+Lopes e Martins (2005) destacam que o lucro da empresa é influenciado por fatores 
+diversos e não apenas pelos esforços do administrador. Fatores ambientais, 
+econômicos e sociais podem explicar o desempenho da empresa. Assim, como mensurar 
+a real contribuição do gestor no desempenho da firma, especialmente quanto à 
+determinação de medidas de *performance* e remuneração.
+
+O contexto até agora abordado permite a reflexão sobre o papel da contabilidade 
+no emaranhado contratual da firma, objetivando atender aos interesses de todos 
+os agentes quanto à revelação informacional dos direitos de cada um na firma. 
+Dentre esses contratos, delimitou-se como especial o realizado com gestores por 
+ter características específicas como a possibilidade de participar da maioria 
+das relações entre os agentes, obtendo mais informações que os demais. A partir 
+de agora serão discutidos a forma como os lucros são formados, pois constituem 
+a principal base para remuneração dos gestores. A discussão correrá considerando 
+o lucro devidamente mensurado e o lucro gerenciado para fins específicos.
+
+Antes de entrar no mérito da mensuração do lucro, é importante resgatar o 
+conceito de *accountability*. O termo significa prestação de contas responsável, 
+denotando, para o caso da relação entre gestão e acionistas, que o resultado 
+apresentado pelo gestor represente fielmente o acréscimo residual obtido pela 
+firma em determinado período. Cada agente espera da relação contratual com a 
+firma retornos de sua contribuição excedentes aos de outro investimento. Porém, 
+a mensuração do lucro da firma possui diversas formas de ser mensurado.
+
+A contabilidade confere ao lucro dos acionistas uma atenção especial, pois esses 
+tem o direito de recursos residuais. Isso significa que após todos os agentes 
+terem sua contribuição direcionada, sobra a parte conferida aos acionistas. 
+Todas as demais partes possuem uma contribuição direta de mensuração. 
+Fornecedores e empregados, por exemplo, estipulam valores prévios para 
+transacionar com a firma. Os acionistas precisam satisfazer todas as relações 
+contratuais para então conhecer o seu retorno. Do retorno apurado, apenas uma 
+parte é revertida diretamente, em forma de dividendos aos acionistas. A outra 
+parte é utilizada para reinvestimento nas empresas.
+
+Os gestores possuem dependência parcial quanto ao lucro da empresa, mas sua 
+remuneração está normalmente vinculada a este. Tendo poder de operar a firma e 
+sua contabilidade a discricionariedade do gestor pode tornar a informação 
+contábil enviesada na medida em que pode gerenciar o lucro em seu favor. Dentro 
+do modelo contratual da firma, a contabilidade exerce a função de informar a 
+todos os agentes sobre suas contribuições e resultados com o propósito de 
+tranquilizar a todos, reduzindo os conflitos.
+
+Contudo, um baixo lucro pode significar aspectos diferentes: resultados de má 
+gestão, contratos desfavoráveis ou má sorte. Independente do motivo, a 
+informação relatada a todos os agentes é de não continuidade da empresa. A 
+decisão racional seria buscar outro investimento e afastar-se do atual. Ainda 
+assim, se todos concordam que o lucro ruim advém de fatores transitórios, podem 
+optar em permanecer com o contrato atual na expectativa de melhores resultados 
+futuros. Quando o resultado é decorrente da má gestão não há alternativos senão 
+a de dissolver a empresa ou reparar os danos de forma consistente.
+
+Jensen e Meckling (1976), dentro da abordagem conceitual da firma, indicaram a 
+visão utilitarista e racional do gestor ao discutir conflitos de agência. Para 
+os autores, dificilmente o gestor evidenciaria um mal resultado decorrente de 
+sua gestão. Seria preferível atribuir os maus resultados a outros fatores ou, 
+até mesmo, gerenciar o resultado em seu favor. Seja para obter bônus mesmo em 
+período ruim para a empresa, seja para retratar um falso resultado positivo e 
+garantir sua permanência no cargo. Assim, a natureza humana, utilitarista e 
+racional, conduz os indivíduos a maximizarem sua função de utilidade. Esse 
+conceito justifica a motivação dos gestores em maximizar sua função em 
+detrimento do resultado da firma.
+
+Um exemplo desse contexto de conflito de agência é relatado por Huizinga e 
+Laeven (2012) ao examinarem os balanços dos bancos americanos durante a crise 
+hipotecária. Os resultados da pesquisa sugerem uma superavaliação dos ativos e 
+distorções das informações, mascarando a real situação dos bancos. Ao final 
+sugerem haver descumprimento de normas contábeis e indicam a melhoria da 
+contabilização com mensuração dos títulos a valor justo. Ao mesmo tempo alertam 
+para o incentivo à arbitragem de valores mensurados dessa forma no sentido de 
+ocorrerem julgamentos indevidos de valor em favorecimento às firmas.
+
+Dessa forma, a contabilidade precisa adotar meios para gerar a credibilidade que 
+lhe é requerida pelos agentes componentes da firma. Hodiernamente, o mundo 
+corporativo se engaja no processo de convergência de normas contábeis. Essa 
+empreitada, em nível global, enfrenta diversas restrições de cunho econômico, 
+cultural e até de autonomia das nações. Contudo, se esperam novos padrões 
+contábeis voltados à qualificação da informação contábil e a consequente redução 
+de custo na compreensão de demonstrativos de empresas localizadas em países 
+diferentes e redução de assimetria entre os agentes.
+
+Barth, Landsman e Lang (2008) propuseram avaliar se a adoção do padrão contábil
+internacional emitido pelo IASB estaria associada à maior qualidade de 
+informação contábil. A proposta é oportuna e fundamenta-se a proposta do IASB de 
+criar um padrão contábil aceito internacionalmente pelo sua elevada qualidade 
+informacional. A adoção de contabilidade baseada em princípios proposta pelo 
+órgão internacional tende a gerar informações de maior qualidade, aliado a 
+intenção de se limitar a gestão oportunista na mensuração de valores contábeis, 
+bem como na mudança do sistema informacional por meio de uma aplicação mais 
+rigorosa. Esse contexto conduz ao entendimento de que o padrão contábil emitido 
+pelo IASB passaria a propor informações contábeis melhores comparadas ao padrão 
+doméstico.
+
+Todavia, dois aspectos são sugeridos como contrários a essa afirmativa. 
+Primeiramente, o padrão doméstico poderia absorver melhor a realidade da empresa. 
+O padrão do IASB por ter o caráter geral internacionalmente poderia não sugerir 
+o reflexo proposto pela norma local. Assim, a abertura dada pelo IASB no sentido 
+de generalizar as contabilizações tende a deixar o ambiente mais discricionário 
+e, portanto, suscetível a maiores tentativas de gerenciamento de resultados.
+
+Outro aspecto é a necessidade de criação de incentivos para institucionalização 
+dos IAS nos países. Países onde prevalece o direito comum possui melhor 
+afinidade com as informações contábeis emitidas pelo IASB, contrariamente aos 
+países *code-law*, como é o caso do Brasil.
+
+Em relação ao ambiente econômico, as empresas podem adotar IAS para se adaptarem
+preventivamente às obrigações futuras de adoção. Além disso, pesquisas mostram 
+que qualidade da informação contábil está melhorando com o passar do tempo, 
+independente do padrão contábil adotado. Dessa forma, esses aspectos foram 
+considerados em Barth *et al.* (2008), constituindo limitações para os 
+resultados apresentados.
+
+As métricas para definição da qualidade da informação contábil consistiram em 
+gerenciamento de resultados, reconhecimento oportuno de despesas e relevância 
+de valor (*value relevance*). A proposição é de empresas que adotam o padrão 
+IASB e produzem lucro contábil de qualidade, demonstram menor gerenciamento de 
+resultado, melhor reconhecimento de perdas oportunamente e maior relevância do 
+lucro e do valor contábil.
+
+Quanto ao gerenciamento de resultados, esperava-se suavização dos lucros 
+(*earnings smoothing*) e gerenciamento para resultados positivos. Portanto, 
+foram avaliados *accruals* e fluxos de caixa para identificar o gerenciamento de 
+resultados propostos na pesquisa.
+
+Pesquisas pretéritas citadas em Barth *et al.* (2008) não identificaram 
+mudanças significativas após adoção do IFRS em seus países. Os resultados 
+demonstraram pouca diferença seja quando se avalia o gerenciamento de resultados 
+e o custo de capital, por exemplo. Outros resultados contrastam ao identificar em 
+empresas alemãs um padrão de remuneração com informação contábil mais relevante 
+após a adoção do padrão contábil do IASB.
+
+Os resultados gerais da pesquisa de Barth *et al.* (2008) sugeriram haver 
+melhorias, considerando o período pré e pós-adoção dos IASs, nas empresas que 
+adotam o IAS. Contudo esses resultados podem resultar de fatores não controlados 
+pela pesquisa. No geral, a qualificação da informação contábil foi percebida 
+quando se identificou menor gestão de resultados, reconhecimento oportuno de 
+despesas e maior relevância da informação contábil.
+
+A importância da informação contábil não pode, entretanto, ficar restrita a 
+adoção de padrões contábeis, mesmo se reconhecendo a seriedade como são 
+formulados os normativos. Considerando o papel da informação contábil no 
+ambiente da firma, os agentes deveriam se unir em prol de decisões mais 
+eficazes, favorecendo a continuidade do sistema econômico composto por diversas 
+unidades de firma. O desfavorecimento de um agente pode desencadear a 
+desestabilização de todo o sistema, como já visto em crises de repercussão 
+mundial.
+
+Há, portanto, a necessidade de aproveitar a discussão sobre critérios de 
+reconhecimento, mensuração e evidenciação e alinhar interesses dos mais 
+diversificados agentes para qualificar a informação contábil. Alguns aspectos 
+visualizados em Barth *et al.* (2008) devem ser avaliados: a) a 
+institucionalização das normas, pois a sua adoção efetiva conduzirá à 
+qualificação da informação; b) a ampliação da divulgação de informações 
+relevantes, pois tende a reduzir o conflito de agência, e; c) criação de 
+incentivos econômicos para desenvolvimento da informação contábil, pois dada a 
+natureza utilitarista e racional de cada agente, o incentivo correto para cada 
+um conduzirá a um ambiente informacional mais próximo da realidade.
+
+---
+
+Barth, M. E., Landsman, W. R. & Lang M. H. (2008). International Accounting
+Standards and Accounting Quality. *Journal of Accounting Research*, *46*(3),
+467-498.
+
+Huizinga, H. & Laeven, C. (2012). Bank valuation and accounting discretion
+during a financial crisis. *Journal of Financial Economics*, *106*(3), 614-634.
+
+Lopes, A. B. & Martins, E. (2005). *Teoria da contabilidade: uma nova abordagem*.
+São Paulo: Atlas.
+
+Sunder, S. (2014). *Teoria da contabilidade e do controle*. São Paulo: Atlas.
+
+Yamamoto, M .M. & Salotti, B. M. (2006).
+*Informação contábil: estudos sobre a sua divulgação no Mercado de capitais*.
+São Paulo: Atlas.
+
+---

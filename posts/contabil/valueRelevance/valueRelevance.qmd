@@ -1,0 +1,184 @@
+---
+title: "Informação Contábil e Value Relevance"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Value relevance
+  - Informação Contábil
+date: 2019-12-14
+toc: true
+image: "valueRelevance.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+Ball e Brown (1968) estabelecem um marco para a pesquisa em contabilidade, 
+normalmente voltada, até então, ao aspecto normativo. As pesquisas contábeis, 
+pós 68, passaram a adotar o caráter denominado de positivo. Mudava-se o foco das
+pesquisas, mas não a qualidade das pesquisas. Portanto mudar o aspecto normativo 
+para positivo não tratou de avanço do ponto de vista qualitativo, mas de 
+interesse no objeto de pesquisa.
+
+As pesquisas normativas são realizadas antes do acontecimento dos fatos, ou 
+seja, busca anteceder ações e procedimentos, indicando métodos e metodologias 
+consideradas como ideais para cada situação analisada. Já as pesquisas positivas
+focam em dados já acontecidos. Sua função é descrever e explicar eventos 
+ocorridos. O que as pesquisas de Ball e Brown (1968) e Beaver (1968) trazem de 
+novidade é a busca da explicação do mercado de capitais com base em números da 
+contabilidade. Nessa visão positiva da pesquisa buscavam com base nos seus
+resultados prever escolhas contábeis futuras.
+
+Nesse momento as pesquisas empíricas na área contábil ganham força e os números 
+contábeis passam a constituir papel importante para as pesquisas. Contudo é 
+importante acompanhar o raciocínio de Kothari (2001) quando expõe a necessidade 
+de uma base teórica para pesquisas empíricas, pois resultados empíricos são 
+inviáveis sem o confronto com a teoria.
+
+As pesquisas sobre o mercado de capitais tratam de temas múltiplos como previsão
+de analistas, análise fundamentalista e testes de eficiência de mercado. Esse 
+direcionamento conduz a pesquisas, cuja abordagem é o cerne dessa resenha, qual 
+seja a *value relevance* (VR).
+
+Um valor contábil é definido como VR quando possui associação com os valores do 
+mercado de capitais (Barth, Beaver  & Landsman, 2001). Assim as pesquisas 
+voltadas para VR se apoiam na ideia de influência dos números contábeis com o
+mercado de capitais. Barth *et al.* (2001) incluem, ainda, a 
+proposição do FASB para o conceito de VR, para o qual um valor contábil é 
+considerado relevante quando influencia a decisão de quem o utiliza, 
+referenciando-se na característica da confiabilidade. Portanto para ser VR a 
+informação contábil tem que representar aquilo que se propõe.
+
+Antes, porém, de discutir a influência normativa nos números contábeis, é 
+importante avaliar a utilidade dos números contábeis em pesquisas sobre o 
+mercado de capitais. Nessas pesquisas assume-se a hipótese da ineficiência do 
+mercado, assim, as informações da contabilidade reduziriam a assimetria 
+informacional entre os agentes na medida em que fosse considerada como VR.
+
+Na abordagem de *valuation*, destaca-se Ohlson (2005) por tratar da valoração 
+das empresas com base no patrimônio líquido e dividendos, sob a perspectiva do 
+lucro limpo. Em modelos como o de Ohlson as variáveis contábeis são VR, tendo 
+em vista a sua capacidade de refletir o valor da empresa e impactar (positiva 
+ou negativamente) o mercado de capitais. Mesmo considerando a fragilidade dos 
+números contábeis, verifica-se que a média ponderada do valor presente dos 
+lucros e do valor contábil do PL contribuem para o processo avaliativo.
+
+Para facilitar a compreensão sobre VR, Holthausen e Watts (2001) estabeleceram 
+uma classificação de estudos sobre VR em 3 categorias, quais sejam os estudos de 
+associações relativas, estudos de associação incremental e estudos de conteúdo 
+informacional marginal. Em geral essas classificações se voltam a forma como os
+conteúdos considerados VR são tratados pelas pesquisas.
+
+Os estudos de associação relativa geralmente tratam de inferir VR para as 
+variáveis inseridas em modelos econométricos e causam um aumento no coeficiente 
+de determinação da regressão (R2). Dessa forma, um aumento do coeficiente 
+caracterizaria a variável inserida como VR. Os estudos de associação incremental 
+não avaliam o coeficiente de determinação, mas o coeficiente estimado da 
+variável buscando inferir sobre a amplitude da interferência da informação VR 
+para o objeto de estudo. Já os estudos de conteúdo informacional marginal 
+investigam janelas de eventos antes e após a divulgação de determinada 
+informação, consideradas VR aquelas que impactam o mercado de capitais após sua 
+divulgação. (Holthausen & Watts, 2001).
+
+De uma forma geral, esses estudos podem se apresentar frágeis dados os aspectos 
+temporais, de seleção da amostra, setorial, dentre outros que podem contribuir 
+para mudanças dos resultados após o período de análise. Dessa forma, uma 
+informação considerada VR no período analisado pode não o ser no período 
+seguinte. Contudo, ainda assim essas investigações são importantes por se 
+encaixarem na perspectiva positiva da contabilidade de buscar prever 
+comportamentos futuros com base na descrição de informações já ocorridas.
+
+Emergem desse contexto as teorias subjacentes do direct valuation e dos 
+*inputs-to-equity valuation*. Na teoria do direct valuation os lucros contábeis 
+relacionam-se com as alterações de valor no mercado de capitais, já sob o prisma 
+da teoria dos inputs-to-equity valuation há o entendimento quanto a utilização 
+das informações contábeis para operações de valoração das empresas.
+
+Holthausen e Watts (2001) estabelecem o interesse normativo com base nessas duas 
+teorias subjacentes da VR. Organismos normatizadores estariam interessados em 
+informações baseadas em direct valuation dado que a busca pela proximidade dos 
+números contábeis com o mercado de capitais seria de grande valia. Assim, a 
+normatização tenderia a privilegiar informações que aproximassem as 
+demonstrações contábeis da real situação da empresa.
+
+Conforme Barth *et al.* (2001), a pesquisa sobre VR é potencial para 
+um grupo mais amplo que vai além de pesquisadores acadêmicos. Incluem-se 
+organismos de normatização, como o FASB, o IASB, a SEC, dentre outros. 
+
+Exemplo desse contexto é demonstrado com o FASB ao permitir a mensuração pelo 
+custo ou a valor justo em títulos de investimento. A medida que fosse 
+comprovada, de forma empírica, a melhor relação do valor justo com o preço das 
+ações, o FASB tenderia a incorporar na sua norma a indicação do valor justo como
+base de valor para títulos de investimento, em detrimento da metodologia baseada 
+em custo. O inverso também seria possível, caso as pesquisas indicassem o custo 
+com maior associação com o mercado de ações.
+
+Holthausen e Watts (2001) demonstram a influência do FASB nos estudos sobre VR 
+no sentido de que, em sendo o órgão normatizador contábil americano, precisaria 
+emitir pareceres e declarações voltadas a informações convergentes com a 
+realidade. Os autores ressaltam a declaração do FASB com base no SFAC n° 1 onde
+estabelece o objetivo da VR como o fornecimento de informações úteis na tomada 
+de decisões econômicas e de negócios.
+
+Neste ponto Holthausen e Watts (2001) discutem a real identificação da VR, pois 
+o FASB não diferencia os usuários da informação contábil e define o uso das 
+demonstrações contábeis para fins gerais. Contudo, os autores demonstram que os 
+interesses pelas informações da contabilidade podem divergir. Nem todos os 
+detentores de títulos de dívidas estão interessados na rentabilidade da empresa,
+por exemplo.
+
+As implicações desses fatos para a pesquisa contábil residem no fato de não ser 
+possível afirmar que os resultados sobre VR sejam robusto quando se trata de 
+interesses de investidores individuais dada a diversidade de intenções com a 
+informação.
+
+Portanto, as pesquisas sobre VR devem observar a normatização do FASB, pois 
+conforme Holthausen e Watts (2001), definir um valor relevante antes de se 
+tornar um GAAP pode não ser confiável visto que após ser um GAAP pode não ser 
+verificável. Da mesma forma que uma informação pode não ser considerada VR, mas 
+depois de normatizada e auditada pode tornar-se VR.
+
+Holthausen e Watts (2001) estabelecem haver generalizações nos estudos de VR que 
+geram insights para os normatizadores e pesquisadores da área contábil. Por 
+outro lado, Barth *et al.* (2001) reforçam a importância de se 
+pesquisar VR dada sua importância para criação de normas contábeis.
+
+A grande divergência entre ambas pesquisas reside no fato de Holthausen e Watts 
+(2001) invocarem uma teoria contábil mais robusta para embasar os estudos sobre 
+VR com mais profundidade. Os autores finalizam convocando a comunidade acadêmica 
+para encorajar-se a buscar novas formas de identificar quais aspectos afetam a 
+forma e o conteúdo das informações contábeis. Para Barth *et al.* 
+(2001), as pesquisas sobre VR constituem conteúdo informacional decisivo e 
+importante para a o desenvolvimento de normas, contudo reconhecem a dificuldade 
+das pesquisas em acompanhar a dinâmica do mercado.
+
+Por fim, a grande questão levantada nas pesquisas de Barth *et al.* 
+(2001) e Holthausen e Watts (2001) é como ou quando definir uma informação 
+contábil como VR. Essa definição passa, inexoravelmente, pela noção de 
+influência no mercado de capitais que pode ou não ter sido estabelecida via 
+normatização. Portanto, as pesquisas sobre VR devem contribuir para normatização
+(quanto os órgãos de normatização as informações como VR) e, ao mesmo tempo, 
+utilizar-se delas para serem reconhecidas como VR pelo mercado. Permanece, 
+então, a linha tênue de quando e para quem uma informação é value relevance.
+
+---
+
+Barth, M.E., Beaver, W.H. & Landsman, W.R. (2001). The relevance of the value 
+relevance literature for financial accounting standard setting: Another view. 
+*Journal of Accounting & Economics*, *31*(1-3), 77-104. 
+
+Holthausen, R. W. & Watts, R. L. (2001). The relevance of the
+value-relevance literature for financial accounting standard setting.
+*Journal of Accounting and Economics*, *31*(1-3), 3-75.
+
+Kothari, S. P. (2001). Capital markets research in accounting.
+*Journal of Accounting and Economics*, *31*(1-3), 105-231.
+
+Ohlson, J. A. (2005). On accounting based valuation formulae.
+*Review of Accounting Studies*, *10*, 323-347.
+
+---
