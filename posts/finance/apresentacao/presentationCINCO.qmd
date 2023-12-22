@@ -80,7 +80,6 @@ Como manipular os dados em R?
 
 ```{r}
 
-setwd("D:/repos/projects/presentationCINCO")
 
 library(readxl)
 library(tidyverse)

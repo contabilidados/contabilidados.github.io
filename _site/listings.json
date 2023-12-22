@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/meetings.html",
+    "items": [
+      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+      "/eventos/economaticaR/economaticaR.html"
+    ]
+  },
+  {
     "listing": "/cntdd.html",
     "items": [
       "/pacotes/indices/liqCorrente.html",
@@ -21,15 +28,9 @@
     ]
   },
   {
-    "listing": "/meetings.html",
-    "items": [
-      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
-      "/eventos/economaticaR/economaticaR.html"
-    ]
-  },
-  {
     "listing": "/membros.html",
     "items": [
+      "/curriculum/profs/alexsandro.html",
       "/curriculum/profs/kleber.html",
       "/curriculum/alunos/aluno.html"
     ]
