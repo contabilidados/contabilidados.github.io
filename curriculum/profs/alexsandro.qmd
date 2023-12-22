@@ -5,9 +5,9 @@ image: figs/alexsandro.jpeg
 categories:
   - Professores
   - Contabilidade
-  - Finanças
+  - Mercado de Trabalho Contábil
   - Análise de Dados
-  - Ensino
+  - ESG
 about:
   template: trestles
   links:
