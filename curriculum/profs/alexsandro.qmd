@@ -1,0 +1,39 @@
+---
+title: "Alexsandro Prado"
+comments: false
+image: figs/alexsandro.jpeg
+categories:
+  - Professores
+  - Contabilidade
+  - Mercado de Trabalho Contábil
+  - Análise de Dados
+  - ESG
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:alexsandro.prado@ufersa.edu.br
+    - icon: file-pdf
+      text: Lattes
+      href: http://lattes.cnpq.br/4254857944224293 
+    - icon: github
+      text: GitHub
+      href: https://github.com/alexsandroprado
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/alexsandroprado   
+---
+
+```{=html}
+<style>body {text-align: justify}</style>
+```
+Olá! Meu nome é Alexsandro. Sou professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA).
+
+Um entusiasta por tecnologia que através da linguagem R e a Ciência de Dados encontrou um vasto mundo de possibilidades para explorar insights valiosos por meio da análise dados.
+
+Contribui com o grupo de pesquisa contabiliDados desde 2019 desenvolvendo posts, vignettes e atua com mantenedor (manutenção e atualização) do blog contabiliDados.
+
+Em 2022, fundei o GECOMT (Grupo de Estudos sobre Contabilidade e Mercado de Trabalho) com o propósito de mapear o cenário profissional contábil, abordando temas como remuneração e disparidades salariais relacionadas a gênero, raça, região e setor de atuação. Utilizando técnicas de Ciência de Dados, exploramos dados a partir da RAIS, CAGED e PNADc para oferecer uma compreensão abrangente do panorama atual do mercado de trabalho contábil.
+
+Sou doutor em Economia pela Universidade Federal da Paraíba (UFPB) e Mestre em Ciências Contábeis pela Universidade de Brasília (UnB).

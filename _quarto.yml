@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  favicon: icon.png
   page-navigation: true
   title: "contabiliDados"
   site-url: "https://contabilidados.com.br/cntdd/"

@@ -42,6 +42,13 @@
     "text": "Hi! My name is Aluno, and I am a R-Lady from Brazil 🇧🇷 💜.\nI’m a tidyverse instructor certified by RStudio, and I teach R at Curso-R.\nI have been writing about R in my blog since 2019. I’m mostly active in the Brazilian R community, co-organizing communities and events, such as: R-Ladies São Paulo, Latin-R, and satRday São Paulo.\nI’m a PhD Candidate at the University of São Paulo, in Environmental Sciences. My research is about transparency of information in the management of water resources that are used to supply the Macrometropolis of Sao Paulo."
   },
   {
+    "objectID": "curriculum/profs/alexsandro.html",
+    "href": "curriculum/profs/alexsandro.html",
+    "title": "Alexsandro Prado",
+    "section": "",
+    "text": "Olá! Meu nome é Alexsandro. Sou professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA).\nUm entusiasta por tecnologia que através da linguagem R e a Ciência de Dados encontrou um vasto mundo de possibilidades para explorar insights valiosos por meio da análise dados.\nContribui com o grupo de pesquisa contabiliDados desde 2019 desenvolvendo posts, vignettes e atua com mantenedor (manutenção e atualização) do blog contabiliDados.\nEm 2022, fundei o GECOMT (Grupo de Estudos sobre Contabilidade e Mercado de Trabalho) com o propósito de mapear o cenário profissional contábil, abordando temas como remuneração e disparidades salariais relacionadas a gênero, raça, região e setor de atuação. Utilizando técnicas de Ciência de Dados, exploramos dados a partir da RAIS, CAGED e PNADc para oferecer uma compreensão abrangente do panorama atual do mercado de trabalho contábil.\nSou doutor em Economia pela Universidade Federal da Paraíba (UFPB) e Mestre em Ciências Contábeis pela Universidade de Brasília (UnB)."
+  },
+  {
     "objectID": "curriculum/profs/kleber.html",
     "href": "curriculum/profs/kleber.html",
     "title": "Kléber Formiga",
@@ -53,14 +60,14 @@
     "href": "eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
     "title": "Noções Básicas de Técnicas Contábeis e Financeiras com o R",
     "section": "",
-    "text": "Evento: CINCO - I Congresso Interinstitucional de Contabilidade e Controladoria (AvíamosÇão)Link do evento: https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCOLugar: Online\nMateriais\n\n\n Apostila  Slide do minicurso  Dia 2 \n\n\nO minicurso abordou a importância da análise de dados como uma habilidade para o profissional contábil, demonstrando como o tratamento estratégico dados aos dados otimiza o processo de coleta e análise de informações relevantes para o processo decisório. No aspecto prático, foi demonstrado como algumas técnicas contábeis e financeiras podem ser realizadas com a aplicação R Programming."
+    "text": "Evento: CINCO - I Congresso Interinstitucional de Contabilidade e ControladoriaLink do evento: https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCOLugar: Online\nMateriais\n\n\n Apostila  Slide do minicurso  Dia 2 \n\n\nO minicurso abordou a importância da análise de dados como uma habilidade para o profissional contábil, demonstrando como o tratamento estratégico dados aos dados otimiza o processo de coleta e análise de informações relevantes para o processo decisório. No aspecto prático, foi demonstrado como algumas técnicas contábeis e financeiras podem ser realizadas com a aplicação R Programming."
   },
   {
     "objectID": "eventos/economaticaR/economaticaR.html",
     "href": "eventos/economaticaR/economaticaR.html",
     "title": "Análise de dados com R e Economatica",
     "section": "",
-    "text": "Evento: AnÃ¡lise de Dados com R e EconomaticaLink do evento: https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0JfoLugar: Online\nMateriais\n\n\n Apostila  Dia 1  Dia 2 \n\n\nEssa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos."
+    "text": "Evento: Análise de Dados com R e EconomaticaLink do evento: https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0JfoLugar: Online\nMateriais\n\n\n Apostila  Dia 1  Dia 2 \n\n\nEssa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos."
   },
   {
     "objectID": "index.html",
@@ -109,7 +116,7 @@
     "href": "membros.html#professores",
     "title": "Membros",
     "section": "Professores",
-    "text": "Professores\n\n\n   \n     \n     \n       Ordenar por\n       Pré-selecionado\n         \n          Título\n        \n         \n          Data - Mais velho\n        \n         \n          Data - O mais novo\n        \n         \n          Autor\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nKléber Formiga\n\n\n\n\n\n\n\nProfessores\n\n\nContabilidade\n\n\nFinanças\n\n\nAnálise de Dados\n\n\nEnsino\n\n\n \n\n\n\n\n0 minutos\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Professores\n\n\n   \n     \n     \n       Ordenar por\n       Pré-selecionado\n         \n          Título\n        \n         \n          Data - Mais velho\n        \n         \n          Data - O mais novo\n        \n         \n          Autor\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nAlexsandro Prado\n\n\n\n\n\n\n\nProfessores\n\n\nContabilidade\n\n\nMercado de Trabalho Contábil\n\n\nAnálise de Dados\n\n\nESG\n\n\n \n\n\n\n\n0 minutos\n\n\n\n\n\n\n  \n\n\n\n\nKléber Formiga\n\n\n\n\n\n\n\nProfessores\n\n\nContabilidade\n\n\nFinanças\n\n\nAnálise de Dados\n\n\nEnsino\n\n\n \n\n\n\n\n0 minutos\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "membros.html#alunos",

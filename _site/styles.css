@@ -22,7 +22,7 @@ main, p{
 }
 
 :root {
-    --bs-blue: #9172be;
+    --bs-blue: #de8f3d; /*#9172be
     --bs-primary: #eb6864;
 }
 
@@ -33,7 +33,7 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-listing-category.category-cloud{
-    font-family: 'News Cycle';
+    font-family: 'Roboto';
 
 }
 
