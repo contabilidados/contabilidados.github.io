@@ -1,0 +1,172 @@
+---
+title: "Alavancagem e Estrutura de Capital"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Estrutura de Capital
+  - Alavancagem
+date: 2020-07-19
+toc: true
+image: "estruturaCapital_alavancagem.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](estruturaCapital_alavancagem.png)
+
+A literatura sobre estrutura de capital após os pressupostos de Modigliani e 
+Miller avançou em diversas correntes como o *tradeoff*, *pecking order*, efeito
+entrincheiramento e *Market Timing*. Essas vertentes buscam explicações para 
+mudanças na estrutura de capital com base em ações discricionárias da gestão. 
+Nessa resenha será discutida a teoria do *Market Timing*, conforme descrita por 
+Baker e Wurgler (2002), para a qual existe oportunismo na modificação da 
+estrutura de capital via emissão de ações em momento satisfatório para a 
+empresas. Posteriormente, discute-se alguns determinantes da estrutura de 
+capital com base em decisões de financiamento das empresas por meio dos achados 
+de Rajan e Zingales (1995) em pesquisa realizada em países industrializados.
+
+A teoria do *Market Timing* pressupõe o oportunismo dos tomadores de decisão no 
+momento de avaliar a sua estrutura de capital. Os *market timers* (tomadores de 
+decisão baseada no *Market Timing*) se utilizam de informação vantajosa para 
+aproveitar momentos de melhores perspectivas de retornos e emitir ações. Nessa 
+perspectiva, pressupõe-se melhores perspectivas de retornos fundamentadas em 
+informações vantajosas. Dessa forma, o *Equity Market Timing* corresponde à 
+emissão de ações quando os preços estão altos e a sua recompra quando os preços 
+estiverem em baixa. Na perspectiva de Baker e Wurgler (2002) o foco é a 
+avaliação da persistência do *Market Timing* na estrutura de capital das 
+empresas, analisando se são de curto ou longo prazo. De acordo com seus achados, 
+cuja análise se concentra em empresas com capital acima de 10 milhões, após o 
+segundo ano de emissão o nível de endividamento retorna ao seus *status quo*.
+
+Para analisar o *Market Timing*, Baker e Wurgler (2002) utilizam o índice M/B –
+*market-to-book* (razão entre o valor de mercado e o valor contábil da empresa) 
+para indicar as decisões de mudanças na estrutura de capital das empresas. O M/B 
+foi relacionado com o nível de alavancagem da empresa para se analisar a 
+possibilidade de o aumento no M/B influenciar o aumento (redução) da alavancagem.  
+A análise da pesquisa consistiu em avaliar a forma e a persistência dessa 
+relação construindo um índice acumulado de M/B ponderado para análise da 
+persistência e utilização de momentos de análise a partir do IPO – 
+*Initial Public Offerings* (Oferta Pública Inicial) para verificar a forma como 
+se dá o *Market Timing*.  O IPO foi adotado na pesquisa sob o pressuposto de ser 
+o momento no qual a decisão de captar recursos próprios é evidente. Nesse 
+momento a empresa passa a ampliar sua estrutura de capital próprio com emissão 
+de novas ações.
+
+Os resultados de Baker e Wurgler (2002) convergem para modificação do 
+endividamento das empresas (alavancagem) em virtude de alterações no M/B das 
+empresas. Mesmo diante variáveis de controle (ativo, EBITDA, imobilizado) a 
+explicação persiste, denotando o oportunismo na alteração da estrutura de 
+capital. Dados esses resultados os autores questionam a possibilidade desses 
+achados serem explicados por outras teorias de estrutura de capital existentes, 
+considerando o fato de a estrutura de capital envolver pressupostos anteriores 
+ao *Market Timing*. No entanto, avaliam os resultados como mais coerentes com a 
+teoria do *Market Timing*.
+
+Para comparação com outras teorias, Baker e Wurgler (2002) apresentam alguns 
+aspectos conflitantes entre o *market timing* e outras teorias de mudanças na 
+estrutura de capital. Em relação ao *tradeoff* há a divergência quanto a 
+persistência da relação entre M/B e alavancagem, pois não seria possível ter uma 
+estrutura de capital ótima constante como propõe o *tradeoff*, fazendo a 
+alavancagem variar no tempo. Em relação a teoria do *pecking order* a 
+dissonância ocorre pelo fato de a alavancagem reduzir em caso de futuras 
+oportunidades de investimento, independente do indicador M/B, retirando desse 
+indicador a explicação para o nível de alavancagem. Quanto ao efeito 
+entrincheiramento, há a suposição da rejeição de dívidas para benefício por meio 
+de emissão de ações com expropriação de investidores. Embora pareça convergente 
+com o *Market Timing*, divergem por não haver otimização do endividamento dado o
+gerenciamento de resultados e pelo fato de no Market Timing a estrutura de 
+capital depender do valor do mercado (Baker & Wurgler, 2002).
+
+Ainda assim, foi possível verificar, dentre as teorias mencionadas, duas 
+possíveis explicações para os achados de Baker e Wurgler (2002). Ao considerar a
+racionalidade dos gestores e investidores, é possível associar a relação inversa 
+em M/B e a seleção adversa para a qual maiores índices de M/B implicaria em 
+menores custos de seleção. Dessa associação, os resultados de Baker Wurgler 
+(2002) se aproxima da versão dinâmica do *Pecking Order*. Por outro lado, outra 
+explicação surge do pressuposto da irracionalidade dos gestores e investidores 
+por aumentarem o capital quando o custo desse é baixo, contribuindo para uma 
+variação do M/B de forma a identificar percepções de má valorização dos gestores.
+
+Observa-se a recorrente indefinição sobre os determinantes da estrutura de 
+capital. A relação entre alavancagem e o índice *book-to-market* evidenciada em 
+Baker e Wurgler (2002) de fato demonstra uma persistente mudança na estrutura de 
+capital por meio de aumento de capital próprio via emissão de ações. Contudo, 
+outros fatores observados por outras teorias ou achados empíricos também 
+convergem para esses resultados. Com base nesse contexto, a pesquisa de Rajan e 
+Zingales (1995) se preocupou em identificar determinantes para a estrutura de 
+capital, observando as metodologias de pesquisas anteriores. Embora reconheçam 
+progressos na parte teórica sobre estrutura de capital, reafirmam o fato de 
+pouco se saber sobre o tema. O fato de as pesquisas se concentrarem no mercado 
+americano é outro fator de preocupação, pois podem consistir em relações 
+espúrias. A robustez dos resultados se daria ao encontrar em outros países as 
+mesmas relações (Rajan & Zingales, 1995).
+
+Baseados nessa lacuna, Rajan e Zingales (1995) estabelecem o objetivo de 
+analisar as relações entre estrutura de capital e outros fatores mencionados na 
+literatura em empresas de outros países. Para tal, são necessários dados 
+internacionais. As primeiras verificações dos autores é a diversidade dos países
+e a necessidade de padronizar, de alguma forma, os dados obtidos para as 
+relações. Dessa forma, buscaram analisar países similares aos Estados Unidos se 
+concentrando em países do G7. A disponibilidade de dados e a similaridade entre 
+os mercados favoreceram a escolha, embora fatores como sistema legal e 
+tributário, os tornem diferentes. Ainda assim, o nível de alavancagem entre as 
+empresas se demonstram semelhantes (diferente do que se pensava antes) e as 
+diferenças não são facilmente explicadas por questões institucionais 
+consideradas importantes pela literatura. A sua amostra final contou com 30 a 
+70% das companhias listadas nos países, representando mais de 50% da 
+capitalização do mercado (dados de 1987 a 1991, sendo 1982-1986 para teste de 
+robustez).
+
+As constatações de Rajan e Zingales (1995) se iniciam pela verificação de 
+divergência dos balanços patrimoniais, especialmente quanto aos ativos 
+circulantes os quais representam 40% nos países anglo-americanos e 30% nos 
+europeus. A composição desses ativos também diverge, com ênfase para estoques e 
+recebíveis dos países europeus. Complementando essa análise, avaliam medidas de 
+alavancagem realizando diferenciações entre elas. Ressaltam que a mudança da 
+razão entre dívida liquida e ativos totais modificam os resultados de sua
+pesquisa. Essa constatação é importante ao se observar diversas medidas de 
+alavancagem nas pesquisas realizadas. A mudança no denominador ou numerador do 
+índice de alavancagem pode levar, portanto, a resultados inverídicos ou espúrios. 
+Outro fator, também mencionado por Rajan e Zingales (1995) é o fato de balanços 
+consolidados apresentarem endividamento mais altos em relação aos balanços de 
+empresas que não o fazendo. Os autores, contudo, não encontram explicações 
+claras da motivação desse fato.
+
+Para Rajan e Zingales (1995) as mudanças nas estruturas de capital durante a 
+década de 80 podem explicar a diferença nos resultados de sua pesquisa. A 
+modificação nas medidas de alavancagem, a verificação de diferenças entre os 
+índices de dívidas entre países e, especialmente, o detalhamento das medidas de 
+alavancagem podem explicar essas diferenças. Resumidamente, após ajustados os 
+dados contábeis e usando diferentes medidas de alavancagem, observa-se a 
+Alemanha como o país com menor alavancagem entre os países do G7 e os demais 
+apresentam níveis de alavancagem similares.
+
+Do ponto de vista da análise de cross-sections, a análise da relação entre o 
+índice *market-to-book* e a alavancagem ainda permanece uma incógnita.  O fato 
+de se relatar relação negativa entre *market-to-book* e alavancagem pode ser 
+dever pelo fato de empresas apresentarem baixa alavancagem simplesmente pelo 
+fato de as ações estarem com valor alto e haver mais emissões o que, 
+necessariamente, não significa menos dívida. Quanto ao fator tamanho, não foi 
+possível identificar explicações para a sua correlação com a alavancagem. Já o a
+rentabilidade pode ter sua relação negativa com a alavancagem explicada pelo 
+fato de maior rentabilidade influenciar mais emissão de ações e redução de 
+dívida (Rajan & Zingales, 1995). De um modo geral, os autores explicam diversas 
+questões acerca da estrutura de capital, sugerindo mais estudos interpaíses para 
+melhor compreensão de determinantes da estrutura de capital das empresas.
+
+
+---
+
+Baker, M., & Wurgler, J. (2002). Market Timing and Capital Structure. 
+*The Journal of Finance*, *57*(1), 1–32.
+
+Rajan, R. G., & Zingales, L. (1995). What do we know about capital structure? 
+some evidence from internacional data. *The Journal of Finance*, *50*(5), 
+1421–1460.
+
+---

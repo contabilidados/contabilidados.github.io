@@ -1,0 +1,247 @@
+---
+title: "Anomalias"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Anomalias
+  - HME
+date: 2021-05-29
+toc: true
+image: "anomalias.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](anomalias.png)
+
+A busca por interpretações dos fenômenos do mercado (tais como as anomalias 
+registradas na literatura) está presente nas pesquisas mais recentes sobre 
+precificação de ativos. Nessa resenha serão discutidos trabalhos preocupados com 
+a existência e persistência de anomalias, assim como o fato de sua extinção após 
+as publicações acadêmicas revelando a sua existência, inclusive sob a abordagem 
+da eficiência de mercado. Dentre os quatro estudos abordados, dois (Fama & 
+French, 2008; Hou, Xue, & Zhang, 2015) abordam, respectivamente, uma revisão de 
+algumas anomalias listadas na literatura buscando identificar sobreposição 
+informacional entre elas e a proposição de um novo modelo com variáveis voltadas 
+a investimento com base na *q-theory*. Os outros dois (Doran & Wright, 2007; 
+Schwert, 2002) discutem a persistência das anomalias pós publicação em *journals* 
+pelos acadêmicos. Assim, por um lado visualizamos pesquisas preocupadas em 
+identificar as anomalias e, por outro, pesquisas questionando sua existência.
+
+O fenômeno anômalo é caracterizado pela ausência de associação com o modelo de 
+precificação de ativos (CAPM – *Capital Asset Pricing Model*) proposto por 
+Sharpe e Lintner, na década de 60. Diversos trabalhos, listados em Fama e French 
+(2008), identificaram algum padrão anômalo nos retornos. Entretanto, Fama e 
+French (2008) revisitam as anomalias quanto ao tamanho, valor, rentabilidade, 
+crescimento, *accruals*, emissão de ações líquidas, e *momentum*. Além de 
+visualizar a complementaridade de cada variável na explicação do padrão da 
+*cross-section* de retornos, discutem questões metodológicas com suas vantagens 
+e desvantagens. Uma das principais observações quanto ao aspecto metodológico 
+está relacionada à inclusão de *microcaps* nas amostras das pesquisas. As 
+*microcaps* não são pequenas ações, somente. Tratam-se de ações sem 
+representatividade ou liquidez capaz de caracterizar um mercado ativo.
+
+O efeito tamanho é a anomalia mais presente nas pesquisas, indicando haver 
+consenso quanto a divergência entre os ganhos obtidos por empresas grandes e 
+pequenas. Contudo, o fato de haver *microcaps* dentre empresas grandes é visto 
+como um viés metodológico, pois as regressões estimadas são dominadas por 
+informações das *microcaps*. A representatividade das *microcaps* na 
+capitalização é de 3%, porém com 60% de participação no número de ações, 
+evidenciando o valor ínfimo da ação individual. Essa discrepância de valor 
+influencia tanto as estimações via regressão quanto os testes de média dos 
+retornos. Essa expectativa é confirmada por Fama e French (2008) quando 
+evidenciam o viés do efeito tamanho com as *microcaps*.
+
+Por outro lado, não se evidenciam efeitos divergentes com as *microcaps* ao 
+avaliar a anomalia de momento (*momentum*), pois evidenciou-se semelhança nos 
+retornos médios dos portfólios formados por empresas grande, pequenas e 
+*microcaps* (o ponto de corte foi o 20° e o 50° percentil da capitalização no 
+final de junho na NYSE). O efeito crescimento de ativos segue uma tendência de 
+significância sendo forte entre as *microcaps*, fraca (com significância 
+estatística) entre as pequenas e praticamente inexistentes entre as grandes. As 
+demais anomalias analisadas são idênticas entre os grupos por tamanho. Os 
+coeficientes médios se apresentam divergentes quanto a sinais e desvios-padrão, 
+mas com valores convergentes entre esses grupos. O ponto principal de 
+divergência se encontram nos extremos dos portfólios.
+
+A classificação dos portfólios é outro aspecto bastante enfatizado por Fama e 
+French (2008), especialmente para emissões de ações líquidas e *accruals*. 
+Recompra de ações são seguidas por fortes retornos anormais positivos e o 
+quintil mais extremo das ações emitidas mostram um forte retorno anormal 
+negativo. Assim, no mínimo quando mensurados líquidos dos efeitos tamanho e 
+*book-to-market*, retornos anômalos após emissões de ações líquidas e *accruals* 
+parecem ser limitados pelos extremos. Uma afirmação final em Fama e French 
+(2008) diz respeito ao fato de variáveis explicativas para os fluxos de caixa 
+futuros e para os retornos, por si só, não ajudar a determinar a variação do 
+retorno esperado causada por risco ou por *mispricing*. Essa afirmação confronta 
+diretamente a fundamentação de Hou *et al*. (2015) para o efeito investimento na 
+explicação de retornos futuros.
+
+Embora confrontem o trabalho de Fama e French de 1996, quando demonstram a 
+relação entre seus três fatores (mercado, tamanho – *market equity* e 
+*book-to-market*), a pesquisa de Hou *et al*. (2015) de certa forma afronta as 
+afirmações de Fama e French (2008) quanto o impacto da rentabilidade e variáveis 
+ligadas à explicações de fluxos de futuros na *cross-section* dos retornos 
+médios. O cerne de Hou *et al*. (2015) está na *q-theory*, cujas pressuposições 
+indicam mudanças no valor investido ou desinvestido das empresas com base nos 
+retornos esperados. Para a *q-theory* o investidor (tratado no artigo como 
+famílias) apenas investe quando há expectativa de retornos futuros. Esse 
+trade-off entre investir ou desinvestir influencia tanto o retorno esperado 
+quanto, a sua relação paralela com a rentabilidade também contribui para relação 
+entre a rentabilidade e os retornos médios.
+
+Associada a essa discussão, Hou *et al*. (2015) enfatizam o fato de a taxa de 
+desconto divergir entre as empresas, demonstrando a heterogeneidade a ser 
+esperada nas decisões empresariais. Fundamentada na teoria neoclássica, a 
+*q-theory* parte das decisões empresariais alterando o contexto macro (mercado). 
+As decisões de investimento e desinvestimento com base na taxa de desconto 
+(quanto maior a taxa de desconto menor a possibilidade de investimento) 
+possibilita a caracterização das empresas em diversos aspectos capazes de tornar 
+o investimento e rentabilidade como de explicação dos retornos médios das 
+empresas. Entretanto, os preços não se ajustam para dar origem à *cross-section* 
+de taxas de descontos constantes, pois nesse caso assumiria a improvável 
+situação de risco igual para todas as empresas.
+
+Os retornos esperados se alinham com a rentabilidade e os investimentos quando o 
+mercado equilibra o investimento realizado com base na rentabilidade esperada e,
+consequentemente, no retorno obtido. A relação negativa entre retornos e 
+investimento esperado é intuitiva: Firmas investem mais quando seu q marginal 
+(valor presente líquido dos fluxos de caixa futuro gerados por uma unidade 
+adicional de ativos) é alta. Por outro lado, firmas com maior rentabilidade 
+esperada devem obter retornos maiores em relação às firmas com baixa expectativa 
+de retorno. Essas classificações com base em rentabilidade e investimento captam 
+diversas anomalias. A classificação de emissões líquidas de ações, composição 
+das emissões, *book-to-market*, e outras são mais próximas de investimento do 
+que rentabilidade. A relação entre retorno e rentabilidade esperada é 
+consistente com momentum, efeitos pós anúncio de lucros e efeitos de crises 
+financeiras. A classificação em ganhos acima do esperado deve produzir um 
+*spread* de rentabilidade entre os portfólios extremos. (Hou et al., 2015).
+
+Algumas limitações elencadas por Hou *et al*. (2015) dizem respeito ao modelo 
+com investimentos ou rentabilidade similares pressupor a mesma direção na 
+predição dos retornos, mas a equação proposta não fazer isso, pelo menos não 
+diretamente. Para que o fator-q alcançasse o rigor da teoria de precificação 
+baseada em investimento, deveria ir além da equação proposta, especificando 
+completamente a dinâmica dos modelos de investimento para quantificar claramente 
+os fatores-q tão bem quanto os geradores heterogêneos do investimento e 
+rentabilidade. A formação dos fatores de Hou *et al*. (2015) contemplou o efeito 
+tamanho, investimento e rentabilidade (ROE) sob a justificativa de haver maiores 
+efeitos de lucros e investimentos em empresas pequenas relacionadas às grandes. 
+Assim, classificar ROE e investimento conjuntamente é consistente com o modelo 
+econômico e mostra que o efeito de ambos são condições naturais.
+
+A proposta de Hou *et al*. (2015) consistiu em avaliar 80 anomalias agrupadas em 
+(i) momentum; (ii) Valor x Crescimento; (iii) Investimento; (iv) Rentabilidade; 
+(v) Intangíveis; e (vi) atritos comerciais. A construção dos portfólios adotou 
+frequência de dados diferentes: os portfólios de investimento (accruals e 
+book-to-market) são construídos anualmente e os de ROE (momentum, lucros 
+inesperados e crises financeiras), mensalmente. Essa estratégia permite capturar 
+os efeitos de anomalias que também ocorrem com frequências distintas. 
+Diferentemente de Fama e French (2008), as *microcaps* foram excluídas (3% da 
+amostra), pois devido aos custos de transação e falta de liquidez não se costuma 
+explorá-las na prática (Hou et al., 2015).
+
+No geral, o modelo fator-q, proposto por Hou *et al*. (2015), performou melhor 
+em relação aos modelos de Fama e French e Carhart, cujas demonstrações são 
+descritas ao longo de seu artigo com apresentação de alfas de *book-to-market*
+significativos em número bem menor e pela corroboração com o trabalho de Gibbons, 
+Ross e Shanken ao rejeitar os três modelos (fator-q, FF e Carhart), mas com menos 
+decis rejeitos para o primeiro. O modelo fator-q apenas não performa melhor que 
+Carhart e FF na captura de anomalias de *accrual* operacional e P&D/Mercado. As 
+conclusões de Hou *et al*. (2015) se direcionam para o fato de que as ponderações 
+em ações com baixa liquidez e valor (*microcaps*) podem explicar o aparente 
+exagero quanto as anomalias elencadas na literatura. Muitas anomalias 
+aparentemente não relacionadas podem ser diferentes manifestações dos efeitos 
+investimento e rentabilidade. Os resultados empíricos destacam a importância da 
+compreensão das forças motrizes ligadas aos fatores-q e seu amplo poder empírico 
+na *cross-section*.
+
+Enquanto Fama e French (2008) e Hou *et al*. (2015) disputam modelagens para 
+capturar explicações para a *cross-section* de retornos médios, outras pesquisas 
+se voltam a discutir a real existência de anomalias, pois, essencialmente, essas 
+somem após a sua divulgação. Schwert (2002) alerta para o fato das anomalias 
+serem resultados empíricos aparentemente inconsistentes com teorias de 
+comportamento de precificação de ativos. Elas indicam ineficiências do mercado
+(oportunidades de lucro) ou inadequações ao modelo de precificação de ativos 
+subjacente. Depois de documentadas e analisadas na literatura acadêmica, as 
+anomalias muitas vezes parecem desaparecer, reverter ou atenuar, levantando a 
+questão sobre as oportunidades de lucro terem existido ou serem simplesmente 
+aberrações estatísticas que atraíram a atenção de acadêmicos e profissionais.
+
+O aparato tecnológico e o acesso a dados com frequência da vez menores 
+possibilitaram a expansão de pesquisas sobre precificação de ativos, 
+especialmente após as evidencias de Lintner e Sharpe (anos 60). O aspecto 
+cauteloso levantado por Schwert (2002) é o fato de pesquisas documentarem uma 
+anomalia e as pesquisas posteriores não a identificarem. Esse fato põe em dúvida 
+a existência da anomalia, assim como a metodologia empregada para sua evidência. 
+Nessa linha a proposta de Schwert (2002) é levantar questões sobre as 
+implicações desses achados para a atuação profissional e acadêmica decorrentes. 
+Após listar diversas anomalias e suas refutações posteriores, é possível 
+perceber alguns fenômenos identificados como anômalos como aspectos não 
+identificados nos modelos de precificação utilizados, como por exemplo os casos 
+de gênero levantados por Barden e Odean em seus achados de 2000 e 2001.
+
+As decisões sobre as políticas financeiras das empresas (IPOs, oferta de ações, 
+fusão, etc) são tomadas para terem efeitos de curto prazo nos preços, entretanto, 
+Schwert (2002) identifica uma sistemática adoção de medidas de longo prazo para 
+análise do seu comportamento a ponto de descobrirem a sua ineficácia na maioria 
+das situações. O processo de aprendizado lento sugerido nas pesquisas não condiz 
+com o pressuposto da hipótese de mercados eficientes. Mesmo aceitando a lentidão 
+do mercado em compreender a política financeira das empresas, a incerteza 
+associada ao preço durante cinco é tão longo a ponto de não fazer sentido para 
+as empresas informarem suas escolhas financeiras.
+
+Todas estas descobertas levantam a possibilidade de que as anomalias são mais
+aparentes do que real. A notoriedade associada com os achados de evidências 
+incomuns leva autores a investigar anomalias intrigantes para explicá-las 
+posteriormente. Mesmo existindo no período da amostra, as anomalias geradoras de 
+estratégias para tirar proveito de suas características acabam desaparecendo por 
+ser de conhecimento geral, consonante com a hipótese de mercado eficiente 
+(Schwert, 2002). De forma complementar, Doran e Wright (2007) levantam a questão 
+da falta de proveito do pesquisador ao identificar uma anomalia. Se for possível 
+tirar proveito da anomalia, então não haveria motivos para torná-la pública. 
+Trata-se de uma ação aparentemente irracional.
+
+A ação de um pesquisador de finanças para a teoria proposta por Doran e Wright 
+(2007) seria racional. Então seriam, como esperado, maximizadores racionais de 
+utilidade, confrontando-se com a sua reputação enquanto pesquisador. Por meio da 
+análise da probabilidade de publicação de uma anomalia por um professor, foi 
+possível relacionar a publicação e o tempo de término de seu doutoramento 
+(reputação). A expectativa e na publicação tardia de uma anomalia rentável. 
+Considerando a reputação, apenas pesquisadores com alta reputação tenderiam a 
+publicar anomalias rentáveis. Dentro da especificação do modelo artigos em 
+*journals* considerados *top* são pontuados positivamente para o pesquisador, 
+assim como o número de citações nos seus artigos.
+
+Os resultados indicam a reputação como fator de estímulo à publicação de 
+anomalias. As anomalias tendem a ser publicadas, em média, por pesquisadores com 
+pouca publicação e neófitos na área de finanças. Objetivamente, a pulverização 
+de publicações sobre anomalias se deve, em sua maioria, a professores com baixa
+produtividade acadêmica, seja em número de publicações ou pela qualidade 
+(*journals top*). A publicação de anomalias se deve a necessidade de formação de 
+reputação pelos pesquisadores, os quais ganham mais utilidade ao publicá-las em 
+relação a mantê-las para ganho pessoal. O comportamento dos pesquisadores não 
+podem ser confundidos, entretanto, com o corpo editorial (Schwert, 2002).
+
+
+---
+
+Doran, J. S., & Wright, C. (2007). So you discovered an anomaly... gonna publish 
+it? an investigation into the rationality of publishing a market anomaly. 
+*SSRN Electronic Journal*, (January), 1–47.
+
+Fama, E. F., & French, K. R. (2008). Dissecting anomalies. 
+*The Journal of Finance*, *63*(4), 1653–1678.
+
+Hou, K., Xue, C., & Zhang, L. (2015). Digesting anomalies: an investment 
+approach. *Review of Financial Studies*, *28*(3), 650–705.
+
+Schwert, G. W. (2002). Anomalies and market efficiency. 
+*SSRN Electronic Journal*, (October), 1–52.
+
+---

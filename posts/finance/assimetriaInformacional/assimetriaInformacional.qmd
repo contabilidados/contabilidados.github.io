@@ -1,0 +1,248 @@
+---
+title: "Assimetria Informacional"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Assimetria
+  - Risco
+  - Contratos
+date: 2020-10-12
+toc: true
+image: "assimetriaInformacional.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](assimetriaInformacional.png)
+
+As relações contratuais da firma devem constituir-se de confiança entre as 
+partes por meio de fluxo de informações esclarecedoras sobre a situação atual e 
+o desempenho da firma para uma alocação ótima de recursos pelos agentes. 
+Contudo, a informação detida por alguns agentes podem não ser de conhecimento 
+dos demais, revelando a assimetria informacional entre os agentes.
+
+A assimetria de informação constitui a diferença de informações entre dois 
+agentes negociadores. Jensen e Meckling (1976) tratam dessa diferenciação quando 
+o proprietário de uma empresa resolve delegar suas funções a um gestor. A partir 
+desse momento o proprietário passa a não conhecer tudo quanto o gestor conhece, 
+tal qual acontece na relação entre um comprador e um vendedor. O vendedor sempre 
+tem mais informações sobre o produto a ser vendido, comparado ao comprador.
+
+Essa diferença tem motivado pesquisas imbuídas em discutir as tomadas de 
+decisões com informações privadas, pois os conflitos decorrentes da assimetria 
+informacional podem levar o acionista controlador ou majoritário a usar 
+informações privadas no processo de negociação da firma (Martins & Paulo, 2014).
+
+A informação privada, ressaltam Martins e Paulo (2014), pode ser de detenção de 
+qualquer participante do mercado, denominador *insider*. O *insider* é o agente 
+possuidor de informação não divulgada ao público em geral capaz de proporcionar 
+vantagens competitivas ao seu detentor.
+
+Conforme Clarke e Shastri (2000), existem duas classes gerais de *proxies* na 
+literatura de finanças corporativas para identificação de assimetria de 
+informação. A primeira baseadas na oportunidade de investimento de uma empresa e 
+a segunda com base na convergência de opiniões a respeito de ganhos futuros 
+esperados da empresa, normalmente derivados de previsões de lucros por 
+analistas.
+
+A discussão realizada nesse *position paper* será delineada pela discussão da 
+existência da informação assimétrica no mercado de capitais, sua mensuração e 
+abordagens em pesquisas científicas.
+
+A economia da informação, segundo Macho-Stadler e Pérez-Castrillo (2001), 
+volta-se para o formato e o fluxo de informações nas relações contratuais da 
+firma quando um dos participantes tem mais informações. O reconhecimento desse 
+ambiente de incerteza, já abordado em Akerlof (1970) é importante para a 
+economia por provocar a criação de mecanismos para qualificação do ambiente 
+econômico, especialmente para otimização dos contratos firmados.
+
+O cerne da discussão sobre a economia da informação reside na diferença de 
+informações entre os agentes antes ou durante a vigência de um contrato entre 
+ambos, definida como assimetria informacional. Os contratos, dentro da teoria 
+contratual da firma, podem ser formais ou informais. Portanto, os acordos 
+celebrados entre as partes possuem o trato contratual formal, mas também é 
+delineado nos costumes e na interação entre os agentes.
+
+Macho-Stadler e Pérez-Castrillo (2001) definem os tipos de assimetria 
+informacional referenciando o momento de cada um em relação ao contrato firmado, 
+quais sejam o risco moral, a seleção adversa e a sinalização.
+
+A seleção adversa e a sinalização ocorrem antes da celebração do contrato. 
+Nesses casos há uma relação de confiança entre os agentes (principal-agente), 
+pois na ausência de confiança o custo pode ser superior à própria assimetria da 
+informação. Para Akerlof (1970), o custo também deve incluir a perda incorrida 
+de conduzir negócios legítimos.
+
+A seleção adversa surge quando o agente possui informações privadas antes da 
+celebração de um contrato, assim a outra parte não possui a mesma informação. A 
+prática da seleção adversa usada de forma inoportuna pode causar danos ao 
+mercado em geral. Na ausência de informação, a parte menos informada tende a 
+reduzir o preço do produto contratado (insumos ou serviços) ao ponderar sob o 
+risco envolvido na operação.
+
+Um risco a ser considerado na assimetria informacional, em especial na seleção 
+adversa, é o fato de os piores produtos prevalecerem sobre os melhores. Um 
+ambiente totalmente assimétrico provocaria uma queda nos preços dos produtos, 
+independente de serem bons ou maus. Deve-se ao fato de não haver confiança nos
+produtos/serviços oferecidos e, portanto, sem credibilidade o mercado puniria 
+com menores preços no momento da negociação.
+
+Problemas com seleção adversa também influenciam a remuneração e contratação 
+entre principal e agente. Conforme Macho-Stadler e Pérez-Castrillo (2001), o 
+principal pode ofertar um portfólio de contratos para o agente de forma a 
+deixá-lo livre para a melhor escolha dentre as opções. Ressalta o momento após 
+assinatura do contrato, onde o agente passa a aceitar todas as condições do 
+portfólio sem saber as implicações para si.
+
+Outro problema decorrente da assimetria informacional é a sinalização. Consiste 
+em outro aspecto ocorrido antes da assinatura do contrato. Nesse caso, o agente 
+mais informado é capaz de revelar informações privadas espontaneamente antes do 
+contrato ser firmado. (Macho-Stadler & Pérez-Castrillo, 2001)
+
+Duas situações são importantes serem levadas em consideração quando se analisa 
+a sinalização. A primeira é o fato de o agente sinalizar apenas as informações 
+favoráveis a sua utilidade, contribuindo para sua melhor participação no 
+contrato. A outra diz respeito ao custo da informação durante a contratação.
+
+Para uma sinalização ser eficiente precisa do entendimento da outra parte. 
+Assim, há uma propensão em sinalizar com “coisas boas” capazes de ampliar a 
+utilidade do agente sinalizador, porém a má interpretação da sinalização pode 
+ter efeito reverso gerando um custo inesperado em uma contratação possivelmente 
+exitosa.
+
+Do contexto quanto a sinalização pode-se propor a não ocorrência de redução 
+assimetria quando da exposição de informações privadas aos agentes menos 
+informados. Isso se deve ao fato de ocorrem sinalizações “falsas”, isto é a 
+sinalização indicar uma característica importante e bem vista pelo agente menos 
+informado, contudo pode essa característica não ser, em essência, pertencente 
+ao agente sinalizador.
+
+Um exemplo desse contexto é o caso de empresas exportadoras sinalizarem a adoção 
+de práticas de gerenciamento de estoques aos padrões exigidos por seus clientes, 
+todavia não reflete ao internamente praticado. Assim rotula-se a empresa de uma 
+forma e, de fato, é uma realidade oposta. Ressalta-se não ser exposto esse fato 
+com má fé, mas sim como inexperiência ou incapacidade operacional de realizar 
+tal compromisso firmado de forma ótima.
+
+Pode ocorrer, dessa forma, alterações nas remunerações contratuais advindas do 
+processo de sinalização. Se no caso da seleção adversa a remuneração é 
+influenciada pela falta de informação, a indicação de novas informações pode 
+sugerir alterações na remuneração contratada.
+
+Portanto, no contexto da assimetria informacional, a seleção adversa e a 
+sinalização são importantes por ocorrerem antes da formalização contratual, 
+permitindo a partes menos favorecidas escolherem permanecer ou refutar o 
+contrato.
+
+Problemas de assimetria ocorridos após o contrato ser firmado trata-se do risco 
+moral. Para Macho-Stadler e Pérez-Castrillo (2001) o risco moral decorre do fato 
+de o principal não ser capaz de acompanhar o comportamento do agente após o 
+acerto contratual.
+
+Questões relacionadas ao esforço despendido para realização do contrato é o 
+cerne da resolução do contrato a ser firmado. Se por um lado o agente pode se 
+beneficiar da falta de monitoramento, do outro o principal, cônscio dessa 
+possibilidade pode precificar o risco moral e reduzir a remuneração contratada 
+ou propor incentivos para alinhamento dos interesses de ambos (principal e
+agente).
+
+Ainda assim permanecem problemas quanto ao equilíbrio contratual. A dificuldade 
+de saber a ação do agente pode levar o principal a sempre precificar esse risco 
+e remunerar agentes com incentivos desnecessários. Dessa forma, é preciso 
+diferenciar cada agente e reconhecer os reais riscos existentes na relação.
+
+Comparativamente à seleção adversa, o risco moral diferencia-se por representar 
+ações não divulgadas, enquanto a primeira baseia-se em informações não 
+divulgadas. Assim, ambos carecem do real interesse do agente na concretização de 
+redução de assimetria.
+
+A mensuração da assimetria é proposta por Clarke e Shastri (2000) em duas 
+vertentes: com base em oportunidades de investimento das empresas e com base em 
+previsão de resultados futuros da firma. Para Clarke e Shastri (2000), alguns 
+estudos empíricos têm argumentado maior gravidade do problema assimetria de 
+informações em empresas com oportunidades significativas de crescimento e, 
+consequentemente, terem usado *proxies* para oportunidade de investimento de uma 
+empresa como medidas de assimetria de informação. Outra vertente da pesquisa 
+observa que um aumento da informação sobre uma empresa tende a levar a uma 
+convergência de opiniões a respeito de ganhos futuros esperados da empresa, 
+utilizando *proxies* para assimetria de informação derivadas de previsões de 
+lucro por ação de analistas.
+
+Uma *proxy*, também consolidada na literatura, foi utilizada por Martins e Paulo 
+(2014) no intuito de mensurar assimetria informacional, qual seja a PIN – 
+*Probability of Informed Trading*. Trata-se da probabilidade de negociações com 
+informações privadas, avaliadas por Martins e Paulo (2014) por meio do modelo 
+EHO o qual se baseia no desequilíbrio entre os eventos de compra e venda de 
+ações em determinado espaço de tempo. Os achados da pesquisa identificaram 
+negociações no mercado brasileiro com informações privilegiadas, questionando, 
+portanto, a hipótese de mercados eficientes na sua forma forte.
+
+Para Healy e Palepu (2001) as soluções possíveis para a redução de assimetria 
+seriam a criação de contratos ótimos, regulação da evidenciação e a utilização 
+de intermediários da informação. A realização de contratos ótimos, como 
+mencionado, é um desafio por ter a assimetria origem em informações ou ações 
+ocultas, necessitando do interesse do agente em divulgá-las. A regulação reflete 
+a pretensão de sanar pontos identificados como críticos, mas não conseguem o 
+monitoramento necessário para corrigir problemas de assimetria. Já a utilização 
+de intermediários, embora importante como os demais, passa pelo problema da 
+identificação das ações e informações ocultas.
+
+Mesmo apresentando dificuldades em cada uma das proposições de Healy e Palepu 
+(2001), as ações corretivas são necessárias pelo fato de ser possíveis 
+identificar práticas reguláveis ou até mesmo passíveis de serem coibidas. 
+
+A assimetria de informação é inerente a qualquer contrato firmado entre a firma 
+e seus agentes. O interesse em manter todas as partes informadas trata-se de uma 
+expectativa de todos os agentes para uma relação transparente com vistas a 
+reduzir custos de transação, em especial por meio de redução de mecanismos de 
+monitoramento do principal e dos agentes.
+
+Outra vantagem da manutenção de informações entre todos os agentes trata-se da 
+qualificação do mercado de acordo com a proposição de Akerlof (1970), pois em 
+ambiente altamente assimétrico os produtos a serem oferecidos seriam os piores 
+dada a precificação de ativos para baixo pelo risco desconhecido pelos agentes.
+
+A mensuração da informação privada por meio de *proxies* é um importante 
+mecanismo de pesquisas para compreensão do mercado onde as empresas atuam. 
+Políticas inibidoras e fomento à otimização dos contratos podem decorrer do 
+conhecimento de possíveis estímulos ao uso de informações privadas, 
+oportunizando a ocorrência de retornos anormais por partes de alguns agentes e
+desqualificando, portanto, o mercado.
+
+Por fim, é possível encontrarmos problemas de assimetria informacional nas 
+diversas formas de contratação na cadeia teórica da firma. A dimensão de ajustes 
+e monitoramentos necessários para um real alinhamento de interesses entre todos 
+é um desafio a ser superado ou pelo menos aliviado. As informações contábeis, 
+assim como mecanismos de governança, podem subsidiar esse processo de 
+monitoramento e ajuste de interesses quando utilizada para mensurar a 
+participação de cada agente no processo decisório da firma ou parar inibir essa 
+prática.
+
+
+---
+
+Akerlof, G. A. (1970). The market for ‘lemons’: quality uncertainty and the 
+market mecha-nism. *Quarterly Journal of Economics*, *84*(3), 488-500.
+
+Clarke, J., & Shastri, K. (2000). On information asymmetry metrics. 
+*SSRN Working Paper*, 1-60.
+
+Healy, Paulo; Palepu, Krishna. (2001). Information asymmetry, corporate 
+disclosure and capital markets: A review of empirical disclosure literature. 
+*Journal of Accounting and Economics*, *31*, 405-440.
+
+Macho-Stadler, I.; Pérez-castrillo, J. D. (2001). 
+*An introduction to the economics of information* (2$_{a}$ ed.). Oxford: Oxford 
+Unviersity Press.
+
+Martins, O. S., & Paulo, E. (2014). Assimetria de informação na negociação de 
+ações, caracte-rísticas econômico-financeiras e governança corporativa no 
+mercado acionário brasileiro. *Revista Contabilidade & Finanças*, *25*(64), 
+33-45.
+
+---

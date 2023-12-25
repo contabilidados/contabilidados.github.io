@@ -1,0 +1,229 @@
+---
+title: "Teoria da Agência"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Teoria da Agência
+  - Agentes
+date: 2018-10-25
+toc: true
+image: "teoriaAgencia.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](teoriaAgencia.png)
+
+A teoria da agência tem suas raízes na literatura da economia da informação e, 
+dessa forma, a contabilidade e outras informações são colocadas explicitamente 
+nas configurações da tomada de decisão. O valor da informação é derivado das 
+melhores decisões resultantes do seu uso. Outra importante abordagem da 
+informação econômica é a ideia de que o meio mais significativo para comparar 
+sistemas de mensuração contábil / desempenho é comparar cada sistema quando 
+usado em sua forma ótima. (Lambert, 2001).
+
+O trecho obtido em Lambert (2001) desperta pontos importantes decorrentes da 
+teoria da agência, tais como a qualidade da tomada de decisão e os sistemas de 
+informações. Ambos são relevantes, pois a teoria da agência trata da relação 
+principal-agente como fator de influência nos na eficiência das organizações e,
+dessa forma, a relação e os interesses de cada componente da cadeia teórica da 
+firma podem conduzir a informações divergentes, seguidas de tomadas de decisão 
+equivocada ou enviesada.
+
+Eisenhardt (1989) expõe duas correntes de pesquisa dentro da teoria da agência: 
+a da teoria da agência positivista e a da pesquisa principal-agente. Para a 
+teoria positivista o foco da pesquisa é a identificação de situações em que o 
+principal e o agente provavelmente terão objetivos conflitantes e então descreve 
+mecanismos de governança para limitar o comportamento de satisfação pessoal pelo 
+agente. Em contrapartida, pesquisas principal-agente estão preocupadas com uma
+teoria geral da relação principal-agente, uma teoria que possa ser empregada nas 
+relações entre empregador-empregado, advogado-cliente, comprador-fornecedor e 
+outras relações entre agentes.
+
+A teoria da firma proposta por Jensen e Meckling (1976) preocupou-se em abordar 
+a separação da propriedade e controle, a responsabilidade social dos negócios, a 
+definição de uma função corporativa objetiva, a determinação de uma estrutura 
+ótima de capital, a especificação dos termos dos contratos de crédito, a teoria 
+das organizações e os problemas de suprimento integral dos problemas de mercado. 
+Utilizaram como plano de fundo direitos de propriedade, agência e o 
+financiamento para desenvolver uma teoria de estrutura de propriedade para a 
+firma.
+
+Note-se a presença de um ponto comum nos três estudos citados: a divergência de 
+interesses entre os agentes que compõem a firma. Todos mesmo tratando de 
+abordagens essencialmente teóricas vislumbraram o mesmo horizonte para 
+explicação do desempenho da firma.  Jensen e Meckling (1976) com uma abordagem 
+mais teórica, seguidos de Eisenhardt (1989) e Lambert (2001) tratando de 
+abordagens empíricas por meio de teste à teoria, apresentam uma variedade de 
+opções de linhas de pesquisa adotando como plano de fundo a teoria da agência.
+
+Baseando-se na teoria da firma de Coase (1937), é possível afirmar que as firmas 
+são um emaranhado de relações entre agentes com interesses diversos naquela 
+estrutura formal/informal/legal formando contratos implícitos e explícitos 
+geradores de demanda por monitoramento de todas as partes. Esse monitoramento, 
+denominado em Jensen e Meckling (1976) de custos de agência embora existente 
+entres todos os agentes, destaca-se entre a relação de todos com o gestor 
+(*management*). Deve-se ao fato de todos os agentes delegarem poder ao gestor 
+das empresas para tomar as melhores decisões. Essas entendidas como a que 
+maximiza o valor da firma e atende os interesses de todos os agentes envolvidos 
+na relação contratual.
+
+Jensen e Meckling (1976) definem os custos de agência como a soma de: 
+a) despesas de monitoramento por parte do agente; b) obrigações pelo agente, e; 
+c) perdas residuais. A ocorrência desses custos normalmente aumenta pelo fato de 
+cada agente procurar, de acordo com a teoria da agência, agir com comportamento 
+oportunista buscando maximizar seus resultados em detrimento dos demais.
+
+Dessa forma, é possível visualizar a pulverização de formas como ocorrem os 
+custos de agência. Tal como em um produto cada empresa possui sua estrutura de 
+custos, os custos de agência também são singulares dada a particularidade e as 
+formas como se tratam as relações entre os agentes de cada empresa. Nesse 
+contexto a contabilidade assume o papel de “gestora dos desempenhos de cada 
+parte do contrato” procurando os melhores meios para mensurar coerentemente o 
+resultado de cada parte.
+
+Nessa linha, Eisenhardt (1989) atribui à teoria da agência a contribuição quanto 
+ao reestabelecimento da importância dos incentivos e do interesse pessoal no 
+pensamento organizacional. Para os autores a teoria também enfatiza a 
+importância de um problema de estrutura comum entre os temas de pesquisa. A 
+teoria da agência lembra da possibilidade de inter-relação entre problemas de 
+áreas diferentes. O problema de uma determinada linha de pesquisa pode encontrar 
+respaldo em outra linha.
+
+Outras duas contribuições da teoria da agência são elencadas por Eisenhardt 
+(1989) quais sejam o tratamento das informações, pois a trata como commodity e, 
+portanto, tem custo e pode ser comprada. Assim, os sistemas de informação formal 
+assumem papel importante, pois podem ser adquiridos com a finalidade de 
+monitorar o oportunismo dos agentes. A outra contribuição é a implicação em 
+risco. Significa que organizações são formadas com incertezas futuras, pois o 
+futuro pode trazer prosperidade, corrupção, alguns resultados intermediários e 
+por ser parcialmente controlado.
+
+Dessas contribuições surgem algumas práticas importantes do mercado atual como 
+os princípios de governança. Jensen e Meckling (1976) propõem algumas medidas 
+para controle do comportamento oportunista do agente, tais como uma cuidadosa
+avaliação/especificação dos direitos contratuais de ambos os lados, o papel do 
+conselho de diretores e os custos de coordenação que surgem com a mudança de 
+políticas.
+
+Lambert (2001) e Eisenhardt (1989) também ressaltam a importância do conselho de 
+diretores. Trata-se de uma prática bastante difundida quando se discute práticas 
+de governança: o papel do conselho de diretores. Em grandes empresas funciona 
+como um sistema de informações a ser utilizado pelos acionistas para controlar o 
+oportunismo dos gestores-presidentes.
+
+Nessa perspectiva, Jensen e Meckling (1976) descrevem como o crescimento da 
+participação dos executivos nos resultados influenciam no decréscimo de 
+oportunismo por parte destes. Eisenhardt (1989) propõe que quando um contrato 
+entre o principal e o agente é baseado em resultados, o agente é mais propenso a 
+se comportar alinhado ao interesse do principal.
+
+Até então o que se discute são as formas de controle dos contratos entre os 
+agentes, dado o oportunismo ou o próprio conflito naturalmente gerado nas 
+relações. O mesmo contrato deve servir a duas partes com interesses distintos, 
+portanto, não sendo bem executado ou executado com oportunismo pode prejudicar a 
+relação e trazer custos adicionais para a firma em forma de custos de transação.
+
+Assim, a forma como o contrato é firmado importa na relação principal-agente, 
+pois pode ser baseado no comportamento do gestor ou baseado no resultado 
+apresentado por esse. Eisenhardt (1989) propõe que o contrato seja baseado em
+comportamento quando o principal puder acompanhar as atividades do gestor e 
+conseguir monitorá-lo suficientemente para inibi-lo de práticas oportunistas. 
+Normalmente, esse acompanhamento se dá por meio de sistemas de informações 
+apropriados. Para a autora, quando o principal tem informações para verificar o
+comportamento do agente, este provavelmente se comportará como esperado pelo 
+principal.
+
+Eisenhardt (1989) levanta outras diversas hipóteses baseadas no formato do 
+contrato considerando: a) o sistema de informações (positivamente relacionado 
+com contratos baseados em comportamento); b) incerteza dos resultados 
+(negativamente relacionado com contratos baseados em resultados); c) aversão ao 
+risco do agente (positivamente relacionado com contratos baseados em 
+comportamento); d) aversão ao risco do principal (negativamente relacionado com 
+contratos baseados em comportamento); e) objetivos conflitantes entre principal 
+e agente (negativamente relacionado com contratos baseados em comportamento); 
+f) tarefas programadas (positivamente relacionado com contratos baseados em 
+comportamento); g) resultados mensuráveis (positivamente relacionado com 
+contratos baseados em comportamento), e; h) o prazo da relação entre os agentes
+(positivamente relacionado com contratos baseados em comportamento).
+
+Depreende-se que a forma de contratar é relevante para o processo de redução de 
+custos de transação. Conforme hipóteses formuladas, o oportunismo do agente pode 
+variar dependendo da circunstância na qual o contrato foi celebrado. Identificar 
+o cerne do interesse das partes torna-se vital para proporcionar resultados 
+condizentes com a maximização da firma.
+
+Resultados de pesquisas empíricas, dentro da corrente positivista, demonstram 
+como a política ou comportamento nos quais acionistas e gestores divergem seus 
+interesses. Os achados propõem uma variedade de formatos de contratos, 
+normalmente buscando naqueles baseados em resultados a explicação para redução 
+de assimetria de interesses em grandes empresas, como de praxe para essa 
+corrente de pesquisa.
+
+Pesquisas da corrente principal-agente são mais direcionadas no contrato em si 
+entre o principal e o agente. A corrente positivista assume a existência do 
+problema de agência e avaliam várias alternativas de contrato. Já a corrente
+principal-agente indicar quais dos contratos é mais eficiente para a relação, 
+dada uma determinada situação.
+
+Como mencionam Jensen e Meckling (1976), os custos de agência são tão reais 
+quanto outros custos. As corporações sobreviveram, até agora, com a existência 
+desses custos, mas é inegável que o nível de conflito de agência decorre da 
+maturidade contratual entre os agentes. Lambert (2001) acrescenta que um dos 
+grandes desafios para pesquisadores da teoria da agência está relacionado com a 
+construção de modelos multi-períodos que sejam tratados para resolver problemas 
+relacionados à teoria, contudo problemas de mensuração ao longo do tempo são 
+fatores inibidores desse tipo de pesquisa. Precisa-se ter um claro objetivo de 
+que as medições de desempenho no âmbito interno das firmas se voltem para 
+consideração dos problemas de agência.
+
+Outras teorias também são similares com a teoria da agência. Eisenhardt (1989) 
+expõe a similaridade com a teoria da contingência. Para a autora, ambas as 
+perspectivas teóricas são teorias de informação. Elas assumem que indivíduos são
+limitadamente racionais e que a informação é assimetricamente distribuída na 
+organização. Elas usam processo eficiente de informação como critério de escolha 
+entre várias formas organizacionais.
+
+A diferença entre ambas reside no fato de a teoria da contingência se concentrar 
+na estrutura ótima de relações de subordinação e responsabilidades na tomada de 
+decisão. A teoria da agência se preocupa com a estrutura de relações de controle 
+resultantes desta subordinação e meios para tomada de decisão.
+
+Um exemplo citado por Eisenhardt (1989) é que usando a teoria da contingência, a 
+preocupação residiriam em se uma firma é organizada de forma centralizada ou 
+divisional. Usando teoria da agência o foco seria se os gestores na estrutura 
+escolhida estariam sendo compensados pelos incentivos de performance.
+
+Em comparação com a teoria institucional, a teoria da agência se assemelha 
+quanto ao fato de assumir a racionalidade limitada dos agentes e na dispersão de 
+estruturas e comportamentos das organizações. Preocupa-se em explicar a 
+variedade de organizações. Considerando os diversos interesses na teoria 
+contratual da firma, cada organização terá um formato de relações, implicando 
+nos estudos da teoria da agência, assim como na teoria institucional.
+
+Por fim, é inegável a importância de se acompanhar os conflitos entre os agentes, 
+dados os custos decorrentes da sua relação com o principal. Diversas teorias se 
+preocupam com essa demanda. A contabilidade assume papel importante nessa demanda 
+por lhe competir mensurar e registrar as alterações ocorrida no patrimônio das 
+empresas. Assim, questiona-se: a contabilidade possui mecanismos capazes de 
+verificar e divulgar os custos de agência? Se sim, seria capaz de reduzi-los?
+
+
+---
+
+Eisendhart, K,E. (1989). Agency Theory: an assessment and review. 
+*Academy of Management Review*, *14*, 57-74.
+
+Jensen, M. C. & Meckling, W. H. (1976). Theory of the Firm: Managerial Behavior,
+Agency Costs and Ownership Structure. *Journal of Financial Economics*, *3*(4),
+305-360.
+
+Lambert, R. A. (2001). Contracting theory and accounting. 
+*Journal of Accounting and Economics*, *32*(1–3), 3–87.
+
+---

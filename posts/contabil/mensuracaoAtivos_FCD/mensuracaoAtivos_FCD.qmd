@@ -1,0 +1,328 @@
+---
+title: "Mensuração Contábil - Fluxo de Caixa Descontado"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Mensuração
+  - Valor Presente
+  - Fluxo de Caixa Descontado
+date: 2018-05-10
+toc: true
+image: "mensuracaoAtivos_FCD.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](mensuracaoAtivos_FCD.png)
+
+**Qual a melhor maneira de medir ativos?**
+
+Esse questionamento foi exposto por Hendriksen e Van Breda (1999) como um debate 
+complexo e confuso, sendo tratado há diversas décadas. O cerne da discussão está 
+na real função dos números representados pela contabilidade. Entre refletir pelo 
+custo histórico e custo corrente, alguns historiadores defendem o uso do custo 
+histórico como mais relevante por ser mais observável e representar melhor a 
+história da empresa. Para outros, custos correntes refletem melhor o futuro da 
+empresa.
+
+O reflexo do patrimônio ou do resultado do período também são focos de debate, 
+pois, conforme Hendriksen e Van Breda (1999), ao se discutir os métodos PEPS e 
+UEPS, acaba-se visualizando uma discussão entre a melhor representação no 
+Balanço Patrimonial – BP ou na Demonstração do Resultado do Exercício – DRE. Os 
+defensores do método UEPS, mesmo conhecendo suas desvantagens, o preferem por 
+representar o melhor lucro bruto (DRE) nos períodos de inflação. O PEPS é 
+exaltado quando se pretende uma melhor medida dos ativos no BP, pois no UEPS o 
+valor dos estoques fica prejudicado.
+
+Inevitavelmente a contabilidade precisa de uma quantificação para ser completa. 
+O reconhecimento de qualquer componente patrimonial carece de uma mensuração, em 
+termos monetários. Assim, todas as transações da empresa, geradores de mutações 
+no patrimônio, precisam ser representadas monetariamente pela contabilidade. 
+
+Ressalta-se, porém, o conceito de capital físico e capital financeiro tratado na 
+estrutura conceitual do CPC. De acordo com o Comitê de Pronunciamentos Contábeis
+(2011), é possível identificar divergências no interesse do resultado, pois pode
+tratar de questões relacionadas ao excedente financeiro do final do período em
+relação ao início do mesmo período (manutenção do capital financeiro), ou, por
+outro lado, na capacidade física produtiva do final do período em relação ao
+início do mesmo período (manutenção do capital físico). Essa diferenciação é
+importante, pois embora esse resumo crítico se direcione na linha financeira
+(como geralmente é tratado na literatura), nem sempre as tomadas de decisão são
+pautadas sob essa ótica. Hendriksen e Van Breda (1999) alertam para relevância
+de dados como capacidade de produção ou número de operários para certas
+predições, reforçando a ideia de abandonar, por vezes, a mensuração com base em
+informações financeiras.
+
+Considerando a divulgação das demonstrações ser essencialmente financeira, a 
+grande questão a ser discutida, portanto, é quais atributos serão considerados 
+na avaliação dos ativos. Dada a diversidade de decisões a serem tomadas, os 
+atributos para avaliação dos ativos também são diversos, influenciando na 
+conceituação e na escolha do critério de mensuração a ser utilizado. 
+(Hendriksen & Van Breda, 1999).
+
+Antes de adentrar nos critérios de mensuração utilizados ou geralmente 
+conhecidos via literatura, é importante rebuscar o conceito de ativo. De acordo 
+com Comitê de Pronunciamentos Contábeis (2011) o ativo “é um recurso controlado
+pela entidade como resultado de eventos passados e do qual se espera que fluam
+futuros benefícios econômicos para a entidade”. Desse conceito, destaca-se,
+para fins de discussão sobre mensuração, o termo ‘futuros benefícios econômicos’.
+Esse termo indica a necessidade de representar o quanto de benefícios a entidade
+é capaz de gerar em dado período. Essa capacidade se baseia em expectativa futura
+e, assim, sua avaliação deve refletir o *quantum* de retorno a ser gerado pela
+entidade.
+
+Considerando os atributos dos ativos, Hendriksen e Van Breda (1999) demonstram 
+seis bases para mensuração de ativos, sendo três com base em valores de entrada 
+e três em valores de saída. Por valores de entrada deve-se abstrair a mensuração 
+cujos valores são repassados aos ativos com base no valor de aquisição, portanto 
+pago no momento de ingresso dos ativos na entidade. Os valores de saída são 
+obtidos considerando o valor atribuído ao ativo quando este deixa a entidade.
+
+Retomando o termo ‘futuros benefícios econômicos’ poder-se-ia imaginar valores 
+de saída como os mais indicados para refletir tais benefícios, pois seriam 
+coletados com base no valor a ser (futuro) transacionado pela empresa. Contudo, 
+o custo histórico permanece sendo o valor geralmente utilizado e defendido pelo 
+FASB, dada a sua objetividade. Os valores de entrada serão discutidos a seguir, 
+baseados em Hendriksen e Van Breda (1999), sob a perspectiva da possibilidade de 
+refletirem (ou não) futuros benefícios econômicos.
+
+Os custos históricos de entrada refletem o valor da operação no momento de 
+ingresso dos ativos na empresa. Possui a vantagem de ser verificável, pois a 
+transação é conhecida por ambas as partes e facilmente reportada para os 
+usuários interessados nos ativos da empresa. Contudo, é inexorável a mudança de 
+valor do ativo com o passar do tempo. Dessa forma, o valor do custo acaba se 
+desatualizando com o tempo. A única forma de evitar esse problema seria a 
+rotatividade rápida do ativo, mas não é o comumente observado.
+
+Hendriksen e Van Breda (1999), atribuem outras classificações para os custos 
+históricos, quais sejam os custos prudentes, onde revela-se os valores 
+indubitavelmente incorporados aos ativos e, consequentemente seriam de difícil 
+aplicação dada a utilização de juízos de valor nessa mensuração quanto a 
+definição dos ativos necessários ou não.
+
+A outra classificação são os custos-padrão onde seriam estabelecidas hipóteses 
+para determinação do custo em determinada circunstância e, como os custos 
+prudentes, não absorveriam os custos de ineficiências. Foram considerados pelo 
+AICPA como uma boa métrica para avaliação de ativos, contudo o lapso temporal 
+deveria ser curto para sua efetiva validação. A sua desvantagem é atribuída 
+quanto ao fato de não poderem ser utilizados para refletir os custos correntes 
+da produção sob condições eficientes e normais. Os custos correntes, constitui 
+outra forma de mensuração a valores de entrada a ser abordada mais adiante nessa 
+resenha crítica.
+
+A última classificação dos custos históricos são os custos originais, cuja 
+utilização é voltada a regulação de serviços de utilidade pública, sob a 
+premissa de não haver lucros excessivos por concessionárias na venda de seus 
+ativos. Assim, o valor do custo original não possui muita aplicação prática no 
+setor competitivo da economia.
+
+Os custos correntes de entrada, já citados nesse documento, representam o preço 
+de troca atual para adquirir o mesmo ativo ou equivalente. Sua utilização é 
+bastante útil em ambientes inflacionários. Reflete o valor a ser investido para 
+se possuir a mesma capacidade de geração de benefícios futuros. Dentre suas 
+críticas, destacam-se a cotação de itens sazonais por serem subjetivos dada a 
+obsolescência de alguns itens, a variação dos custos correntes não 
+necessariamente acompanha a variação dos preços correntes e, essencialmente não 
+conseguir refletir uma ideia objetiva de lucro do período, dado o momento de 
+realização dos ativos. Por exemplo, uma empresa pode considerar lucrativa 
+determinada transação, mas os preços permaneceriam inalterados.
+
+A última base de mensuração a valores de entrada são os custos futuros de 
+entrada descontados. Essa base é normalmente indicada em casos nos quais a 
+empresa conta com a alternativa de adquirir os serviços ao ritmo de suas 
+necessidades e não de uma vez só. Embora mais exigente na elaboração de sua 
+mensuração, possui os mesmos defeitos do custo histórico, adicionado da 
+subjetividade do desconto do valor do ativo.
+
+Mesmo com toda a desvantagem conceitual, o custo histórico permanece sendo o 
+preferido dentre os métodos de entrada, dada a sua verificabilidade e 
+objetividade. A noção de ganho ou lucro é mais evidente. Esse contexto contribui 
+para uma tomada de decisão mais objetiva e pautada em valores mais confiáveis, 
+embora questionados sob o ponto de vista de capacidade de previsão.
+
+Já as medidas de saída, relacionadas ao volume de caixa, ou outra forma de 
+pagamento, recebido quando um ativo deixa a empresa, podem ser classificadas em 
+valores realizáveis líquidos, valores de liquidação e valores descontados de 
+fluxos de caixa futuros.
+
+Os valores realizáveis líquidos sugerem uma avaliação dos ativos com base na 
+subtração do preço corrente de venda e dos custos correntes, assegurando a 
+contabilização dos custos adicionais de conclusão ou venda e cobrança no 
+exercício de registro da receita. A dificuldade de sua mensuração reside na 
+estimação de desembolsos adicionais para completar a transação do ativo. Para 
+Hendriksen e Van Breda (1999), a dificuldade de demonstrar um lucro líquido 
+fiável e o caráter arbitrário da mensuração torna o valor realizável líquido um 
+ideal teórico, mas sem uma meta prática.
+
+Valores de liquidação correspondem aos preços correntes de saída em uma venda 
+forçada, ou seja, valores atribuídos aos ativos com base na descontinuidade do 
+negócio. Por serem avaliados, normalmente, abaixo do custo, não podem sugerir 
+uma avaliação de benefícios econômicos futuros. A última medida de saída são 
+valores descontados de fluxos de caixa futuros, correspondentes ao valor 
+presente dos recebimentos esperados descontados a uma taxa de juros, 
+considerando a probabilidade de recebimento dessas quantias. Quando utilizadas 
+em projetos específicos possui grande relevância, contudo em caso de empresas 
+onde os ativos são utilizados conjuntamente se torna de aplicação mais 
+complicada.
+
+Dessa forma, todos as bases de mensuração possuem suas fragilidades e 
+oportunidades, mas o custo histórico permanece, dentre todas, como a mais 
+utilizada dada a sua verificabilidade e reduzido uso de subjetivismo.
+
+O subjetivismo da mensuração tem levado o custo histórico ao patamar de 
+facilidade de mensuração e de tomada de decisão mais eficiente, contudo sua 
+mensuração é normalmente questionada. A situação apresentada é a de “se não tem 
+outro melhor, utilizemos a melhor situação possível”. Assim, os estudos, tanto 
+acadêmicos quanto dos órgãos reguladores, se direcionam para avaliar os melhores 
+métodos de avaliação de ativos.
+
+Pode-se considerar como de concordância geral o fato de não utilizar a mesma 
+base de mensuração para todos os ativos, pois não é possível absorver os 
+atributos de todos os ativos em uma única forma de medi-los. Assim, a depender 
+do componente patrimonial a ser avaliado, a base de mensuração tende a mudar. O 
+valor justo tem sido discutido como uma alternativa viável de se avaliar ativos, 
+em especial os instrumentos financeiros ou outros com mercado ativo, cujo valor 
+possa ser assimilado por todos.
+
+Schroeder, Clark e Cathey (2011) discutem a formação do capital de giro 
+evidenciando a formação do capital circulante líquido com base nos ativos e 
+passivos circulantes. A base de mensuração desses ativos normalmente é voltada 
+ao custo histórico, justificado também pela alta rotatividade desses ativos. 
+Contudo, os autores ainda levantam a possibilidade de haver conflito em se 
+voltar os olhos apenas para o circulante, pois dessa forma o pressuposto da 
+continuidade estaria prejudicado. Assim, há outros ativos com base no longo 
+prazo tais como investimentos, imobilizado e intangíveis.
+
+Os ativos de curto prazo como caixa e equivalentes de caixa normalmente já 
+refletem seu valor compatível com a realidade econômica da empresa. A 
+rotatividade desses ativos permite uma avaliação mais objetiva, pois o interim 
+entre a aquisição e a saída do ativo é muito estreito. Mesmo saindo do foco de 
+caixa e seus equivalentes e adentrando em recebíveis e estoques, deve-se 
+observar a rapidez de realização desses ativos. Ambos são reconhecidos com a 
+premissa de realização até o final do exercício subsequente, com raras exceções.
+
+Dessa forma, Schroeder, Clark e Cathey (2011) mencionam a evolução dos capitais 
+circulantes e não circulantes, expondo esses últimos como os reais geradores de 
+benefícios futuros. Os autores discutem a avaliação de ativos de longo prazo 
+(investimentos, imobilizado e intangíveis) demonstrando formas de mensuração 
+possíveis, mas sempre enfatizam a confiabilidade e verificabilidade do método do 
+custo.
+
+A forma de mensuração mais discutida pelo FASB e IASB é a incorporação do valor 
+justo nos componentes da contabilidade. Nessa linha, será criticada adiante a 
+mensuração pelo valor justo de alguns ativos de longo prazo.
+
+Schroeder, Clark e Cathey (2011) destacam propriedades, prédios de instalação e 
+equipamentos como intensivos na indústria. Sua mensuração normalmente ocorre 
+pelo custo e sofrem influência da perda de valor pela obsolescência, mensurada 
+contabilmente como depreciação. Neste ponto tem-se duas discussões: a mensuração 
+do ativo quando ingressa na entidade e a alocação da sua perda de capacidade de 
+geração de benefícios futuros. Mensurar os ativos imobilizados mencionados a 
+valor justo seria desproporcional entre empresas, pois o uso de cada ativo é 
+diferente em cada empresa e o mercado desses ativos não estabelece um parâmetro 
+regular de mensuração. Quanto a alocação sistemática da perda da capacidade de 
+geração de caixa, a depreciação, tem-se a busca por valores objetivos, 
+geralmente tratados com base em vida útil e taxas quase pré-determinadas. A 
+alocação linear é bastante utilizada pela facilidade de sua mensuração, contudo 
+a sua determinação ideal seria identificar a perda do potencial de geração de 
+caixa, otimizando a mensuração do ativo depreciado de forma a permanecer com seu 
+valor mensurado próximo à realidade econômica da empresa.
+
+Portanto, a mensuração a valor justo é mais aceita pelos reguladores e pelos 
+usuários da informação quando há um mercado ativo desses ativos. Dessa forma, é 
+possível obter-se uma melhor verificabilidade do valor transacionado e 
+compará-lo com uma base confiável. Essa mesma aplicação, entretanto, seria 
+possível com a valoração a valor justo. Essa possibilidade se confirmaria sob o 
+efeito da ideia conceitual do valor justo, perfeita no âmbito conceitual, mas de 
+difícil aplicação prática.
+
+Nos instrumentos financeiros, como já mencionado, há uma predileção pela 
+mensuração pelo valor justo. A sua mensuração, conforme Schroeder *et al.*
+(2011), deve observar o custo amortizado quando forem classificados como 
+mantidos até o vencimento. Nesse caso, serão considerados os custos de colocação 
+do título e os juros cobrados em cada instrumento de acordo com a sua taxa 
+efetiva (normalmente a TIR). A definição da taxa de juros indicará o montante a 
+ser amortizado em cada período até o consumo total do ativo no vencimento. 
+Quando classificado como disponível para venda deverá ser avaliado pelo valo 
+justo. (Schroeder *et al.*, 2011).
+
+Outro destaque importante na discussão sobre mensuração de ativos é a mensuração 
+dos ativos intangíveis. Esses ativos possuem uma métrica de avaliação 
+*sui generis*, pois são reconhecidos como potenciais geradores de benefícios 
+econômicos futuros, mas sua mensuração acaba não refletindo esse potencial. A 
+ausência de fatores pragmáticos como a propriedade ou posse dos intangíveis é 
+crucial na definição de sua mensuração. Devido a esse pragmatismo e a busca por
+verificabilidade na mensuração dos ativos intangíveis, aqueles gerados 
+internamente não são reconhecidos nas demonstrações contábeis, embora sejam 
+reconhecidos gerencialmente e, por vezes, no mercado.
+
+Conforme Schroeder *et al.* (2011), o processo de avaliação dos ativos 
+intangíveis geralmente segue o mesmo padrão empregado em outros ativos de longo 
+prazo, incluindo os todos os dispêndios necessários para adquiri-lo e deixá-lo 
+pronto para uso. Essa mensuração com base no custo desse processo é aplicada em 
+marcas e patentes, por exemplo, onde se registra o custo de aquisição desses 
+ativos no momento da mensuração.
+
+Os ativos intangíveis passam a ter seu reconhecimento exigido com o valor 
+próximo ao valor justo quando são adquiridos de terceiros. O valor da transação 
+na compra de empresas, caracterizando uma combinação de negócios, por exemplo, 
+exemplifica esse fato.
+
+Na consolidação de uma combinação de negócios geralmente há um dispêndio acima 
+do valor ofertado pelo mercado e acima do custo, denominado de *goodwill*. Um 
+ativo adquirido nessas condições deve tem o valor do custo superado pela 
+mais-valia (valor ofertado pelo mercado acima do custo) e pelo *goodwill*, 
+representando o valor acima da expectativa de mercado dada a crença da geração 
+de benefícios econômicos futuros com esse ativo. Sob a perspectiva teórica, 
+Schroeder *et al.* (2011) definem o valor do *goodwill* sendo igual ao 
+valor presente descontado dos lucros superiores esperados. Tal qual um processo 
+utilizado na contabilidade dos ativos imobilizados, no *goodwill* e outros 
+intangíveis há a necessidade de se avaliar a necessidade de amortização desses 
+valores. A amortização dependerá de os ativos intangíveis terem vida útil ou 
+não. Caso seja definida a amortização será mensurada com base na vida útil. Caso 
+negativo será realizado, periodicamente, o *impairment test*.
+
+Importante destacar o *impairment test* após expor pontos importantes na 
+mensuração de ativos. O *impairment* constitui na verificação de haver 
+excedentes de valor do custo ao valor real dos ativos. Esse valor real é 
+mensurado com base no valor em uso do ativo ou no seu valor de venda (justo). 
+Sob o ponto de vista da mensuração se discute o conservadorismo desse teste, 
+pois verificado o excedente de valor com base no custo, deve-se reconhecer uma 
+perda de forma a tornar o valor recuperável reconhecido no balanço patrimonial. 
+Todavia, se o valor em uso ou de venda superarem o valor com base no custo, não 
+há um reajuste do valor do ativo. Assim, o ativo fica avaliado, no máximo, ao 
+valor de custo.
+
+Por fim, a mensuração de ativos é complexa e merece atenção dos elaboradores das
+demonstrações contábeis e dos reguladores, pois ainda há uma distância relevante 
+entre a teoria contábil sobre o conceito de ativos e a sua mensuração efetiva. A 
+dificuldade de retratar a real potencialidade de geração de benefícios 
+econômicos futuros permanece e não será absorvida pela mensuração com base no 
+custo histórico. Por outro lado, mensurar com base no valor justo pode não 
+tranquilizar o mercado ao gerar incertezas ou até mesmo credibilidade nos 
+números reportados. O dilema a ser encarado é a objetividade da mensuração ou a 
+relevância da mensuração realizada. Valerá a pena o custo em produzir uma 
+mensuração com base no valor justo ou outro próximo da realidade econômica da 
+empresa? A mensuração com base no custo histórico não oferece a base necessária 
+para decisões gerais dos usuários?
+
+
+---
+
+Comitê de Pronunciamentos Contábeis. (2011). CPC 00 (R1): estrutura
+conceitual para elaboração e divulgação de relatório contábil-financeiro. 
+Disponível em <http://www.cpc.org.br/Arquivos/Documentos/147_CPC00_R1.pdf>. 
+Acesso em 04.jun.2015.
+
+Hendriksen, E. S. & Van Breda, M. F. (1999). *Teoria da contabilidade*.
+São Paulo: Atlas.
+
+Schroeder, R. G., Clark, M. W. & Cathey, J. M. (2011). *Financial accounting:*
+*theory and analysis*. (10$_{a}$ ed.). New York: John Wiley & Sons.
+
+---

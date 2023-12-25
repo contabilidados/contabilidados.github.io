@@ -1,0 +1,228 @@
+---
+title: "Modelos de Estruturas de Governança Corporativa"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Governança
+  - Controle Acionário
+date: 2021-03-03
+toc: true
+image: "modelosGovernanca.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](modelosGovernanca.png)
+
+As firmas surgem pela necessidade de redução de custos na transação entre vários 
+agentes. O interesse de vários agentes converge para a relação contratual quando 
+o benefício pleiteado por cada parte se torna possível via esse novo ente 
+denominado firma. Na prática, a maioria dos envolvidos endossa poderes a um 
+desses agentes para gerir todo o processo contratual de onde se espera a 
+satisfação de seus pleitos no contrato.
+
+A emergência de modelos de estrutura de governança se dá pela necessidade de 
+maior transparência na distribuição dos ganhos da firma entre os agentes 
+responsáveis pela constituição da firma. Alguns agentes possuem informações mais 
+abrangentes e apuradas sobre a firma e os demais não o possui, mas podem 
+pleiteá-las para ratificar sua permanência no contrato.
+
+Nas firmas existem agentes com os interesses mais diversos dos quais pode-se 
+abordar os acionistas por aplicarem recursos em troca de remuneração do capital 
+por meio lucros, os credores por aplicarem recursos em troca de remuneração por 
+meio de juros e os demais interessados por serem responsáveis pela execução dos 
+objetivos da firma. A estrutura de governança das empresas deve cumprir com os 
+interesses de todos os envolvidos, contudo o ambiente ou a ideologia nos quais 
+se encontram as empresas podem enviesar sua eficácia.
+
+Serão abordados modelos de estrutura de governança voltados para os interesses 
+de grupos de *stakeholder* diferentes. As diferenças entre os modelos revelam a 
+importância de estudos sobre o alinhamento de interesses entre os agentes da 
+firma, além de demonstrar a dificuldade de se chegar a um consenso sobre o papel 
+da firma e como distribuir a riqueza gerada pela firma de forma justa.
+
+Na estrutura conceitual da firma cada agente possui interesse próprio na firma 
+constituída, porém alguns defendem seus direitos com maior garantia. 
+Essencialmente, os acionistas possuem acesso a todas as informações disponíveis 
+na firma ou dispõem de mecanismos capazes de requerer seus direitos. Por outro 
+lado, os demais *stakeholders* possuem acesso limitado às informações e contam 
+com a transparência da empresa por meio de sua gestão. Sob o ponto de vista da 
+aplicação do capital destacam-se os bancos e os acionistas, cada um com papel 
+diferente na firma, mas com interesse de reembolsar o capital empregado.
+
+Os acionistas possuem diferentes dispositivos de governança para defender seus 
+interesses. Anderson, Mansi e Reeb (2010) destacam a possibilidade de o 
+acionista, internamente, poder usar o conselho de administração, sistemas de 
+remuneração de executivos, privilégios, dentre outros mecanismos para terem 
+atendidas as suas reivindicações. Não sendo suficiente, externamente poderá 
+vender suas ações. O acionista busca a remuneração ótima para o seu capital. 
+Esses mecanismos internos e externos contribuem para os interesses do acionista,
+mas não são eficazes quando se trata dos interesses dos credores, por exemplo.
+
+De acordo com Anderson, Mansi e Reeb (2010), Berle e Means, em 1932, 
+argumentavam a existência de acionistas ‘atômicos’ no mercado americano, 
+referindo-se aos acionistas com pouca influência na empresa, pouco acesso à 
+informações e dependentes da gestão para terem seus interesses atendidos. Mesmo 
+sendo gestores profissionais, haveria menor diligência na escolha de projetos. 
+Os gestores, segundo os economistas da época, selecionariam projetos com maior 
+benefício próprio ao invés de benefícios para os fornecedores de capital.
+
+Em 1976, Jensen e Meckling, se preocupara na redução do conflito existente entre 
+o principal e o agente. Os proprietários controladores forneceriam incentivos 
+monetários em troca de um melhor desempenho empresarial e aumento dos fluxos de 
+caixa da empresa. Assim, os investidores seriam beneficiados. Contudo, os 
+gestores poderiam comporta-se de forma diversa ao contratado. No modelo de 
+Jensen e Meckling a gestão reduziria seus incentivos em adotar má conduta quando 
+a participação acionária aumentasse. Nesse caso o custo da má conduta aumentaria 
+dado ao aumento da probabilidade de identificação dessa prática. (Anderson, 
+Mansi, & Reeb, 2010).
+
+Um modelo alternativo ao da teoria da agência é o modelo baseado na teoria do 
+Stewardship, segundo a qual a empresa capacitaria seus gestores e fomentaria o 
+empenho desses com a empresa. Nesse modelo, o gestor teria incentivos e 
+motivações para alinhar seus interesses ao da empresa e agir eficazmente em prol 
+do desempenho da empresa. Segundo Anderson, Mansi e Reeb (2010), os argumentos 
+baseados na teoria do Stewardship sugerem que os sistemas de controle interno 
+agem para limitar ou diminuir o compromisso gerencial e a identificação com a 
+empresa. Assim, o conselho diretor possui um efeito moderador sobre a posse 
+gerencial. Os efeitos do monitoramento recaem sobre o custo da dívida,
+diminuindo-o quando o controle se torna mais eficiente. Portanto, enquanto a 
+propriedade dos gestores aumenta o compromisso e a influência da gestão, o nível 
+de monitoramento inibe a utilidade da gestão, reduzindo o custo de dívida.
+
+A discussão sobre remuneração de executivos e da participação dos conselhos 
+nessa seara é discutida por Adams (2010) com foco nos conselhos de instituições 
+financeira que, embora não sejam recorrente foco de pesquisa e de discussões, 
+são importantes para entendimento sobre o comportamento de seus membros dado o 
+ambiente regulado ao qual essas empresas estão sujeitas. O sistema bancário 
+normalmente é responsabilidade pelas crises financeiras em nível mundial, cujas 
+decisões passam pelos seus conselhos. Espera-se dos conselhos dessas 
+instituições uma responsabilidade adicional, pois suas decisões impactam o 
+mercado de forma generalizada. Conforme Adams (2010), o fato de nenhum estudo 
+ter analisado as características dos conselhos de empresas financeiras sugere 
+que eles são relativamente menos importantes em relação aos de empresas 
+não-financeiras.
+
+A regulação bancária influencia a atuação da diretoria dos bancos direta e 
+indiretamente por impor restrições específicas sobre os conselhos, tais como 
+tamanho, residência. Assim, os conselhos têm papel relevante para o desempenho 
+dos bancos inferindo sobre capacidade de endividamento de firmas tomadoras de 
+crédito. A falta de medidas preventivas pode prejudicar a saúde financeira do 
+banco, impactando em todo o mercado – motivo pelo qual Adams (2010) 
+contextualiza a responsabilidade bancária com crises mundiais. A governança dos 
+bancos é, portanto, influenciada pela regulação em casos como a proibição de 
+participação de membros dos conselhos em concorrentes, limitando a capacidade de
+conhecimento de mercado desses membros.
+
+Além de acionistas e credores, os demais *stakeholders* também possuem interesse 
+na governança das empresas, afinal as organizações são entidades complexas e têm 
+muitas outras partes envolvidas, incluindo reguladores, clientes, fornecedores e 
+cidadãos locais. A relevância destes agentes e sua participação na organização 
+varia marcadamente dependendo do tipo de negócio, setor e do país no qual a 
+empresa opera. Para todas as organizações, uma das partes-chave interessadas e 
+influente são as pessoas que trabalham no negócio (funcionários, empreiteiros, 
+consultores, pessoal da agência e outros). O sucesso da firma depende desses 
+agentes. (Goergen, Brewster, & Wood, 2010).
+
+A racionalidade nos incentivos do ponto de vista do acionista e dos demais 
+*stakeholders* aparecem como mutuamente excludentes. Enquanto os acionistas 
+buscam retornos para seus investimentos expropriando riqueza da firma, os demais
+*stakeholders* tem interesse na retenção de recursos para garantia futura da 
+empresa. O sistema jurídico ao qual as empresas estão sujeitas também importa 
+nessa diferença. Os sistemas jurídicos *common law* têm tradicionalmente 
+privilegiado os direitos dos proprietários, pois em tribunais os resultados 
+tendem a favorecer o lado com mais recursos legais à sua disposição. Em 
+contextos onde os direitos das partes interessadas são mais fortes, há menor 
+propensão dos acionistas controladores abusarem na expropriação dos minoritários 
+e dos demais interessados na firma. (Goergen, Brewster, & Wood, 2010).
+
+A discussão apresentada permeia-se na função social da firma. Enquanto a visão 
+de acionistas pode ser a de retorno sobre o investimento, os demais interessados 
+na firma buscam uma distribuição ampla dos recursos da firma. Assim, a ideia de 
+remuneração residual dos proprietários seria mais evidente. Contudo, o risco do 
+proprietário supera os dos demais participantes da firma, justificando, para 
+esse, remunerações mais concretas e maiores quando a firma tiver condições de 
+aportar a remuneração.
+
+Surge a discussão de uma espécie de capitalismo responsável abordados nos 
+discursos sobre sustentabilidade. Um modelo no qual todas as partes teriam 
+segurança na contratação com a firma e a gestão deveria ponderar pelo bem-estar 
+de toda a teia contratual. Goergen, Brewster e Wood (2010) apresentam aspectos 
+inerentes a diversos contextos, demonstrando problemas quanto a dissipar o poder 
+dentre todas as partes. Abordagens racionais sugerem que o bem-estar dos 
+acionistas é atendido os demais interessados são beneficiados. Uma suposição é 
+que, em contextos onde os direitos de propriedade são as mais fortes, as 
+empresas terão um melhor desempenho. Em contraste, as abordagens 
+sócio-econômicas veem a empresa como o centro de uma teia de relações sociais.
+
+Embora não seja possível determinar qual a mais importante, pode-se afirmar a 
+tendência de a governança corporativa suprir ambos os interesses. Há contextos
+institucionais específicos onde a governança corporativa funcionará melhor, 
+especialmente naqueles onde os direitos de propriedade são fracos.
+
+A satisfação de todos os agentes da firma não constitui uma demanda fácil de ser 
+atendida. Os esforços em torno de modelos de governança para equalizar os 
+interesses e a distribuição da riqueza gerada pelas firmas deve persistir, pois 
+não há consenso sobre o tema, nem mesmo um norte claro. A dificuldade definir um 
+modelo ideal continua próxima da discussão de modelos de governança o interesse 
+do acionista parece ser o prevalente na prática.
+
+Modelos de governança voltados para informar o acionista são pioneiros e 
+permanecem fortes na discussão sobre o privilégio desse *stakeholder* em relação 
+aos demais. O fato de o acionista possuir o maior risco e a remuneração residual 
+da firma dá-lhe a pretensão de ser mais informado e melhor remunerado. Nesse 
+caso, os modelos de governança se voltam para o excesso na definição de 
+remuneração, sobretudo quando os acionistas assumem o controle da empresa. Os 
+mecanismos de governança são robustos no sentido de inibir remunerações 
+extraordinárias, mas ainda permanecem interesses escusos dependendo do ambiente 
+e da modelagem da propriedade da firma.
+
+Os bancos, enquanto participantes da firma como credores, possuem na regulação 
+um limitador de mecanismos de governança. A definição exaustiva de composição de 
+conselhos, formas de atuação e outras dificultam a qualificação dos conselhos de 
+entidade financeiras, impactando em decisões muito das vezes baseadas na força 
+política ou na divulgação de informações das empresas tomadoras de crédito. A 
+concessão de crédito responsável pelo sistema bancário pode evitar, em alguns 
+casos, crises de abrangência mundial. A qualificação dos conselhos do sistema 
+bancário além de qualificar o mercado, tendência as empresas tomadoras de 
+crédito para a responsabilidade.
+
+Na contramão dos modelos baseados nos acionistas e nos credores estão os modelos 
+de cunho social para os quais os interesses de todos os *stakeholders* possuem 
+mesmo peso nas decisões empresariais. Embora sejam modelos vanguardistas, não 
+são absorvidos com facilidade, especialmente em ambientes onde há concentração 
+de propriedade.
+
+Por fim, permanece a máxima de que os acionistas possuem preferência nas tomadas 
+de decisão devido ao risco incorrido e pelo fato de sua satisfação implicar na 
+continuidade da empresa. Assim como a remuneração do acionista é residual, a 
+contrapartida para os demais *stakeholders* seria a preferência residual. O 
+desafio é ponderar quanto a expropriação de direitos de *stakeholders* menos 
+favorecidos de informação e de preferência na decisão por aqueles detentores de 
+poder e propriedade. Portanto, não é a estrutura que define um bom modelo de 
+governança, mas os atos praticados pela estrutura.
+
+
+---
+
+Adams, R. B. (2010). Governance of banking institutions. In H. K. Baker & R. 
+Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 23, 
+pp. 451-467). New Jersey: Wiley.
+
+Anderson, R., Mansi, S., & Reeb, D. (2010). Executive behavior: a creditor 
+perspective on managerial ownership. In H. K. Baker & R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 22, 
+pp. 427-450). New Jersey: Wiley.
+
+Goergen, M., Brewster, C., & Wood, G. (2010). Corporate governance: nonequity 
+stakeholders. In H. K. Baker & R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 24, 
+pp. 469-495). New Jersey: Wiley.
+
+---

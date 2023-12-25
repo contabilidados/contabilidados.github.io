@@ -1,0 +1,359 @@
+---
+title: "Precificação de Ativos: modelos de fatores"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Precificação
+  - CAPM
+  - Fatores
+date: 2021-03-23
+toc: true
+image: "precificacaoAtivos_portfolio.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](precificacaoAtivos_portfolio.png)
+
+No ano de 2004 Fama e French apresentaram uma revisão de literatura sobre o CAPM 
+(*Capital Asset Pricing Model*), destacando a fragilidade dos achados ao 
+apresentar críticas ao modelo e às variáveis utilizadas por ele. Entretanto, não 
+há outro modelo tão parcimonioso quanto o CAPM para precificação de ativos. As 
+sugestões quanto à incorporação de novas variáveis ao modelo, tornando-o mais 
+complexo pode não possuir aplicação prática viável levando novas pesquisas a 
+buscarem fatores novos ou novas proxies para o modelo do CAPM ou até mesmo 
+propondo modelos alternativos. Nessa resenha serão discutidos artigos empíricos 
+interessados na precificação de ativos com base no modelo de CAPM, seja propondo 
+novos modelos (Chen & Zhang, 2010), criticando e/ou adaptando-o (Fama & French, 
+2015; Liu, 2006) ou confirmando melhorias na precificação de ativos por meio de 
+seus fatores (Machado & Medeiros, 2011).
+
+De forma mais crítica ao modelo CAPM, Chen e Zhang (2010) propõe um modelo de 
+três fatores com novas formas de mensuração e avaliação de fatores. O modelo 
+CAPM não sendo capaz de explicar muitos padrões dos retornos das ações, motivou 
+a criação de um novo modelo de três fatores com base na *q-theory* (proposta por 
+Tobin, em 1966, com foco na emissão de ações para financiar despesas de 
+investimento) com poder de explicações superior ao modelo de Fama e French. 
+Nesse novo modelo o excesso de retorno de um portfólio ($E[r_{j}] – r_{f}$) é
+descrito por três variáveis (fatores) quais sejam o excesso de retorno de mercado
+($r_{MKT}$), a diferença entre o retorno de um portfólio de baixo investimento e
+outro de alto investimento ($r_{INV}$) e a diferença entre o retorno de um 
+portfólio com altos retornos sobre o ativo e um de baixos retornos sobre o ativo 
+($r_{ROA}$). O modelo de fatores da *q-theory* supera o desempenho do CAPM ao 
+capturar todos esses efeitos com margens frequentemente maiores (Chen & Zhang, 
+2010).
+
+As hipóteses testáveis com base na *q-theory* trataram da hipótese de 
+investimento e a hipótese de rentabilidade ROA. Ambas se baseiam na formulação 
+de custo-benefício proposta pela *q-theory* para a qual os rendimentos geradores 
+dos fluxos de caixa futuros são relacionados com o custo de reinvestimento nos 
+ativos geradores desses fluxos, conforme a Equação 1:
+
+$$r_{j} = \frac{\prod_{j1}+1-\delta}{1+\alpha(\frac{I_{j0}}{A_{j0}})}$$
+
+A Equação 1, correspondente à derivada de primeira ordem de uma equação de 
+maximização do valor firma proposta por Chen e Zhang (2010), trata de uma 
+condição de otimização na qual o numerador (lado direito) é o benefício marginal 
+do investimento incluindo o ROA (produtório dos retornos de todos os ativos do 
+portfólio no período $1 – \prod_{j1}$) adicionado do valor de capital marginal de 
+liquidação ($1 – \delta$, onde $\delta$ é a taxa de depreciação do ativo). O
+denominador é o custo marginal do investimento incluindo o custo de aquisição de
+novos investimentos na data 0. Ressalta-se o delineamento proposto em dois
+períodos: 0 e 1. O retorno do investimento, definido como a razão do benefício 
+marginal do investimento na data 1 (numerador) dividido pelo custo marginal do 
+investimento na data 0 (denominador) deve ser igual a taxa de desconto, conforme
+contribuição de Cochrane para a *q-theory*.
+
+De acordo com a hipótese de investimento, dado o valor esperado do ROA, o 
+retorno esperado decresce com o investimento em ativos. Esse mecanismo demonstra 
+a relação negativa entre os retornos médios e a emissão de ações, crescimento de 
+ativos, taxas de *valuation*, crescimento de vendas de longo prazo passadas e 
+retornos anteriores de longo prazo. A intuição dessa hipótese preconiza um maior 
+investimento pelas firmas quando o seu *q* marginal é alto. Assim, quanto maior 
+a taxa de descontos, menor o investimento em ativos. A hipótese do ROA 
+(rentabilidade) estabelece um ganho maior para empresas com altos valores 
+esperados de ROA em relações a firmas com baixo valor esperado de ROA. A 
+intuição para a segunda hipótese se dá de duas formas: i) pela forma do 
+desconto, fazendo uma equivalência com o Modelo de Crescimento de Gordon e, 
+ii) pelo orçamento de capital – ambos baseados na taxa de desconto proposta na 
+Equação 1 (Chen & Zhang, 2010).
+
+Com base nessas duas hipóteses e nos três fatores propostos, o modelo de três 
+fatores de Chen e Zhang (2010) captura muitos padrões anômalos para o modelo de 
+Fama e French. Ao serem motivados pela *q-theory* (sem de fato testá-la), em 
+contraponto ao CAPM tal como em Fama e French, foi possível fornecer uma 
+descrição parcimoniosa da *cross-section* dos retornos esperados das ações. 
+Dessa forma, o novo modelo com os fatores propostos por Chen e Zhang (2010) é 
+útil para avaliar o desempenho de fundos mútuos, medir retornos anormais em 
+estudos de eventos, estimação de retornos esperados para alocação de ativos e 
+calcular custo de capital próprio para orçamentos e avaliação de ações. Essas 
+aplicações dependem da performance do modelo e da intuição econômica baseada na 
+*q-theory* para aumentar a probabilidade de persistência de seus resultados no 
+futuro.
+
+Diferentemente de Chen e Zhang (2010), a pesquisa de Liu (2006) analisou tanto o 
+CAPM, quanto o modelo de três fatores de Fama e French, objetivando a criação de 
+uma nova medida de liquidez para ativos individuais, cuja proposta 
+multidimensional captura aspectos como velocidade de negociação, quantidade de 
+negócios e custo de negociação. A liquidez como fator de risco a ser incorporado 
+é uma proposta pouco explorada na literatura e, dada a sua característica 
+multidimensional, pode ser limitada (falta de acurácia) pelo fato de não ser 
+capaz de captar o risco de liquidez completamente. Porém, a nova variável para a 
+liquidez proposta possui alta correlação com o *bid-ask spread*, *turnover* e 
+medidas de retorno por volume. Trata-se de uma medida materialmente diferente 
+das existentes com a possibilidade de prever retornos de ações de um ano a 
+frente ou mais.
+
+A medida de liquidez definida como o número padronizado ajustado ao *turnover* 
+dos volumes diários sem transações sobre os x meses anteriores 
+(x = 1, 6, 12, ...), sendo da variável LM1 a variável de liquidez considerando 
+os 21 dias de negociações anteriores e, a variável LM12, relativa a 252 dias de 
+negociações anteriores (aproximadamente 1 ano). Baseado em dados diários foi 
+também criada a variável LMx para medir a liquidez no fim de cada mês por cada 
+ação individual com base nos dados diários. A variável criada captura múltiplas 
+dimensões da liquidez com ênfase na velocidade de negociação (ignorada na 
+maioria das pesquisas existentes). Ao considerar o período sem negociações 
+(*zero daily trading volume*) em relação aos x meses anteriores captura a 
+continuidade da negociação e o potencial *delay* ou dificuldade em executar uma 
+ordem. Portanto, a falta de negociação de uma ação indicia o seu grau de 
+liquidez – quanto menor a frequência de negociação menos líquida é a ação 
+(Liu, 2006).
+
+A utilidade relativa da medida de liquidez é demonstrada ao calcular e examinar 
+o *turnover* sobre os 12 meses anteriores (TO12), o *bid-ask*¬ *spread* (BA12) e 
+o retorno por volume (RtoV12). Essa última corresponde à razão dos retornos 
+absolutos de um dia específico e o volume em dólar negociado nos últimos 12 
+meses. Dada o inflado volume de negociação das ações da NASDAQ em relação às 
+ações da NYSE/AMEX, o efeito líquido das ações da NASDAQ foi calculado 
+separadamente, tendo um abrangente exame da liquidez baseada nas ações da 
+NYSE/AMEX. As estatísticas descritivas evidenciam uma boa dispersão entre os 
+dados de liquidez. Como esperado, a nova medida de liquidez é possui correlação 
+negativa relevante com a medida de *turnover*, indicando uma boa captura de 
+informações dessa característica de liquidez. A correlação como tamanho também é 
+negativa, implicando no fato de o tamanho ser uma *proxy* razoável para liquidez, 
+pois pequenas firmas são menos líquidas em relação às grandes.
+
+Adicionalmente, observou-se a relação positiva entre nova medida de liquidez e a 
+medida de retorno por volume (RtoV12), revelando a captura a dimensão do impacto 
+do preço da liquidez, contudo, a proximidade de correlação negativa perfeita 
+entre o valor de mercado e o retorno por volume (RtoV12) indica a possibilidade 
+do modelo de três fatores de Fama e French ordenar o efeito do retorno em 
+relação ao volume, consistente com o desaparecimento do efeito tamanho (Liu, 
+2006). Dessa forma, é possível verificar o efeito liquidez captado no modelo de 
+Fama e French por meio da utilização do *book-to-market*, dada a proximidade 
+entre indicadores de liquidez (RtoV12) ser muito próximo do valor de mercado, 
+funcionando na aplicação como uma variável instrumental.
+
+Após realizados testes em diversos portfólios baseados em FF, Liu (2006) 
+evidencia a necessidade de novas pesquisas sobre o efeito liquidez, pois os 
+modelos de dois fatores (mercado e liquidez) descreveu com sucesso a 
+*cross-section* dos retornos das ações, não apenas capturando o risco de 
+liquidez, não captado pelo CAPM ou FF 3 fatores, mas fornece evidências de 
+suportar a explicação do risco de liquidez para várias anomalias de mercado. O 
+poder explanatório da incorporação do efeito liquidez foi superior aos de FF, 
+pois o alguns portfólios não classificados por FF conseguiram êxito no modelo de 
+Liu (2006). Evidências no Brasil sobre o efeito liquidez foi o foco da pesquisa 
+de Machado e Medeiros (2011) a ser abordado a seguir.
+
+O efeito liquidez, considerado como mais um fator capaz de influenciar os 
+retornos esperados, relacionam-se aos fatores de risco dos modelos de 
+precificação de ativos quando se observa uma demanda por taxas de retorno 
+maiores em ativos menos líquidos em relação aos menos líquidos. Machado e 
+Medeiros (2011) os preços de ações pouco líquidas deve cair bastante para ser 
+atrativo aos investidores, assumindo os retornos esperados serem função 
+crescente do risco e da iliquidez. Esse fato sugere o uso do fator liquidez no 
+processo de avaliação de ativos. Com base nesses fatos, Machado e Medeiros 
+(2011) testam se existe o efeito liquidez no mercado brasileiro e se essa é 
+precificada, além de explicar parte das variações dos retornos das ações.
+
+No desdobramento de sua pesquisa, Machado e Medeiros (2011) analisaram 149 ações 
+em média no período de 1 de junho de 1995 a 30 de junho de 2008. A formação de 
+carteiras utilizou-se os mesmos procedimentos da pesquisa do ano 1993 de Fama e 
+French. A mensuração da liquidez observou a multidimensionalidade dessa variável, 
+dado não haver uma variável universalmente aceita. Com base em Liu (2006), foram 
+captadas variáveis referentes ao *turnover* (n° de ações negociadas / n° de 
+ações emitidas), volume negociado mensalmente com a ação, a quantidade negociada
+mensalmente com a ação, negociabilidade e o *turnover* padronizado. Sob o ponto 
+de vista de formação das carteiras, de forma objetiva, incorporaram efeito 
+liquidez no modelo de três fatores de Fama e French, associado à inclusão do 
+fator momento de Carhart. No final foram construídas 24 carteiras (2x3x2x2) com 
+base no valor de mercado (**B**ig e **S**mall), índice BM (**H**igh, **L**ow e 
+**M**edium), retornos acumulados (**LOS**s e **WIN**) e liquidez com base no
+volume negociado (**H**igh **L**iquidity e **L**ow **L**iquidity).
+
+A construção das carteiras permitiu, além da análise individual dos modelos, 
+estabelecer um panorama da distribuição do valor de mercado total entre elas. 
+Constatou-se uma concentração do valor de mercado, por exemplo, de 97,33% e de 
+79,12% entre as carteiras de maior valor (*Big*) e de alta liquidez 
+(*high liquidity*), respectivamente. Já as carteiras formadas por ações com 
+retornos passados altos (*win*) e baixos (*loss*) tiveram o mesmo percentual de
+participação, contrariando achados pretéritos. Para obtenção do retorno das 
+carteiras utilizou-se a Selic como retorno de ativo livre de risco, cujo valor 
+subtraído do retorno mensal de cada carteira, sendo possível verificar 
+disparidade entre os valores médios da pesquisa e de outros achados, dado o 
+desempenho do mercado brasileiro e diferença na formação das carteiras. Os 
+fatores de risco utilizados foram os três fatores de Fama e French (Mercado, 
+Tamanho e *Book-to-Market*), o fator momento de Carhart e, foram incorporadas 5 
+variáveis referentes à liquidez (volume, *turnover*, quantidade de negócios, 
+negociabilidade e *turnover* padronizado).
+
+Após relatarem as divergências e convergências dos valores referentes a cada 
+fator com outras pesquisas, utilizaram o modelo de fator único (CAPM), o modelo 
+de três fatores de Fama e French, o modelo de quatro fatores com a inclusão do 
+fator momento e o modelo de cinco fatores, incorporando a liquidez. Os 
+resultados demonstram melhorias com a inclusão do fator liquidez, pois os 
+interceptos das regressões passaram a ser não significativos em maior número com
+concentração de interceptos significativos entre as carteiras com baixa liquidez 
+(resultado também verificado em Keene e Peterson, de 2007). A superioridade do 
+modelo de cinco fatores foi demonstrada tanto em nível de poder explicativo 
+quanto em robustez, sendo possível concluir pela existência de um prêmio de 
+liquidez (inclusive considerando o efeito janeiro) e este é precificado, 
+explicando parte das variações dos retornos das ações no mercado brasileiro.
+
+Considerando as evidências contra o modelo de três fatores Fama e French (2015) 
+avaliam um modelo de cinco fatores incorporando as evidências de várias 
+pesquisas, dentre elas citam duas: uma no ano de 2013 proposta por Novy-Marx e 
+outra de 2004 proposta por Titman, Wei e Xie. De acordo com essas evidências, o 
+modelo de três fatores é incompleto para retornos esperados porque seus três 
+fatores perdem muita variação na média dos retornos relacionados a rentabilidade 
+e investimento. Motivados por essas evidências Fama e French (2015) incorporam a
+rentabilidade e o investimento ao modelo de três fatores, passando a analisar um 
+novo modelo com cinco fatores.
+
+Para fundamentar a inserção dessas duas variáveis ao modelo de três fatores, 
+Fama e French (2015) utilizam a base conceitual do modelo de desconto de 
+dividendos, o qual estabelece a igualdade entre o preço da ação e o valor 
+presente dos dividendos esperados:
+$m_{t} = \sum_{t=1}^{\infty} E(d_{t+\tau})/(1 + r)^\tau$. Nesta equação, $m_{t}$
+é o preço da ação no tempo t; $E(d_{t+\tau})$ é o dividendo por ação esperado e
+o r é o retorno esperado médio das ações de longo prazo (taxa interna de retorno
+dos dividendos esperados). Com base nessa equação, se no tempo t, duas firmas
+com o mesmo valor de dividendos esperados, mas com preços diferentes definem se
+a empresa é rentável ou arriscada. Sendo o preço racional, os dividendos futuros
+da ação com baixo preço devem ter alto risco. Assim, a previsão do preço é o
+mesmo, independente de racionalidade ou não.
+
+O ajuste da equação de desconto de dividendos e a utilização do modelo para 
+determinação do valor da firma de Modigliani e Miller permitiu a inclusão 
+fundamentada da rentabilidade e investimento no modelo de três fatores de Fama e 
+French. Para o modelo de Modigliani e Miller o valar da firma ($M_{t}$)
+corresponde ao valor esperado do valor presente da soma entre os lucros
+($Y_{t+\tau}$) deduzidos do valor contábil do Patrimônio Líquido ($dB_{t+\tau}$)
+– *clean surplus accounting*. A equação é dada por:
+$M_{t} = \sum_{t=1}^{\infty} E(Y_{t+\tau} - dB_{t+\tau}) / (1+r)^\tau$. 
+Dividindo ambos os lados da equação pelo valor contábil do Patrimônio Líquido 
+($B_{t}$), tem-se:
+
+$$\frac{M_{t}}{B_{t}} = \frac{\sum_{t=1}^{\infty} E(Y_{t+\tau} - dB_{t+\tau}) / (1+r)^\tau}{B_{t}}$$
+
+Essa equação estabelece: i) considerando todos os termos fixos, exceto o valor 
+corrente da ação ($M_{t}$) e seu retorno esperado (r), então o um alto índice 
+*book-to-market* implica em alto retorno esperado; ii) considerando todos os 
+termos fixos, exceto lucros futuros ($Y_{t+\tau$) e retorno esperado da ação (r),
+a equação estabelece um maior retorno esperado quando os lucros são maiores; iii) 
+mantendo os demais termos fixos, um crescimento esperado no valor do patrimônio 
+líquido (investimentos) implica em menor retorno esperado. Em suma e, de forma 
+mais familiar, os termos da equação permitem denotar o índice *book-to-market* 
+como uma *proxy* com ruído, pois o valor corrente da ação ($M_{t}$) também 
+responde a previsões de lucros e investimentos. A dificuldade relatada seria
+identificar *proxies* apropriadas para lucros e investimentos esperados (Fama & 
+French, 2015).
+
+A decomposição do fluxo de caixa proposto na equação determina cada retorno 
+esperado relevante da ação como função do seu índice preço/PL e das expectativas 
+de rentabilidade e investimento. Se variáveis não explicitamente ligadas a essa
+decomposição, como tamanho e momento, contribuem para a previsão de retornos, 
+então elas devem fazê-lo implicitamente de forma a melhorar a capacidade da 
+rentabilidade e dos investimentos em capturar (previsão) os efeitos futuros nos 
+retornos esperados. Assim, o modelo de cinco fatores incorpora os fatores de 
+valor, tamanho, *book-to-market*, rentabilidade e investimento, passando a 
+compor o seguinte modelo de regressão:
+
+$$R_{it}-R{Ft} = \alpha_{i} + b_{i}(R_{Mt}-R_{Ft}) + s_{i}SMB_{t} + h_{i}HML_{t}
++ r_{i}RMW_{t} + c_{i}CMA_{t} + e_{it}$$
+
+A proposta de análise segue a do modelo de três fatores quanto a montagem de 
+portfólios, sendo cogitada a possibilidade de se incluir uma classificação 
+3x3x3x3, resultando em 81 portfólios. Entretanto, observou-se a inviabilidade da
+diversificação nesse número de portfolios dado o baixo nos testes de 
+precificação de ativos. Assim, optou-se por uma classificação 2x4x4 (32 
+portfolios), sendo utilizado o tamanho e os quartis das variáveis de interesse. 
+Ressalta-se as nomenclaturas utilizadas para os portfólios compostos com as 
+novas variáveis, sendo: lucro operacional (OP) e investimento (inv). As 
+extremidades da classificação de cada uma das novas variáveis ficaram assim 
+estabelecidas: lucro operacional (**R**obust e **W**eak) e investimento
+(**C**onservative e **A**gressive). Portanto, o fator $r_{i}$ é dado por
+*Robust minus Weak* (RMW) e o fator $c_{i}$ é dado por
+*Conservative minus Agressive* (CMA). As demais variáveis/fatores 
+seguem o modelo de três fatores de Fama e French. A construção dos fatores são
+detalhadamente demonstradas em Fama e French (2015).
+
+As análises consistiram, como de praxe nas pesquisas de precificação de ativos, 
+na avaliação dos efeitos esperados com base nos valores dos portfólios 
+localizados nas extremidades. Associado a essas análises, foram realizados 
+testes para avaliar a igualdade dos interceptos. Considera-se uma precificação 
+consistente quando o intercepto é igual a zero. Dentre as diversas análises 
+descritivas realizadas demonstrando consistências e coerências com os efeitos 
+esperados destaca-se, nessa resenha, a correlação entre *book-to-market* (HML) e 
+o investimento (CMA). Na classificação 2x3 e 2x2 fatores a correlação se 
+apresenta em torno de 70%. Entretanto, na classificação de 2x2x2x2 fatores parte 
+dessa correlação é absorvida pelo lucro operacional (RMW). Assim, observa-se o 
+HML como um fator redundante, sugerindo sua falta de contribuição para um 
+portfólio eficiente em média-variância, em relação a um portfólio com SMB, RMW e 
+CMA.
+
+Os resultados decorrentes da amostra, cujos dados foram coletados no período de 
+julho/1963 a dezembro/2013, no mercado americano, revelam o melhor desempenho do 
+modelo de cinco fatore em relação ao de três fatores. Contudo, a redundância do 
+fator HML leva a conclusão de haver padrões na média dos retornos relacionados 
+ao tamanho, B/M, rentabilidade e investimento. Pelo teste GRS, um quinto fator 
+foi facilmente rejeitado, mas as explicações do modelo giram entre 71% e 94% ao
+desconsiderar o fator redundante. Os resultados decorrentes das classificações 
+2x2 e 2x3 se demonstraram melhor em relação à classificação 2x2x2x2, sendo 
+problemática o controle por mais classificações (inclusão do fator momento, por 
+exemplo). A classificação dos portfólios é importante, pois os resultados variam 
+quando se troca os critérios para sua formação (Fama & French, 2015).
+
+Os resultados de Fama e French (2015) revelam um modelo mais parcimonioso (se 
+esse for o critério desejado) com a remoção do HML do modelo, mas podendo 
+substituí-lo pelo HMLO – um vetor de HML ortogonal com base na soma do 
+intercepto e o resíduo da regressões entre o HML e as demais variáveis do modelo. 
+Ainda assim, os testes realizados entre o modelo com quatro fatores e com cinco 
+fatores (incluído o HMLO) demonstrou melhor performance do primeiro em relação 
+ao segundo. Os autores consideram interessante os resultados de carteiras de 
+pequenas ações com exposições negativas a RMW e CMA por serem o maior problema 
+de precificação de ativos em quatro dos seis grupos de carteiras LHS examinados. 
+As exposições com CMA negativos das carteiras problemáticas se alinham com o 
+fato de as empresas componentes investirem muito. Entretanto, exposições 
+negativas a RMW na classificação 5x5 (Size-BM e Size-Inv) não correspondem a 
+baixa rentabilidade.
+
+Por fim, as carteiras mais problemáticas contêm pequenas ações de empresas 
+agressivas em investimento, mesmo diante de baixa rentabilidade. Essas carteiras 
+são um gancho para leitores de Fama e French, pois carteiras com propriedades 
+semelhantes desempenho grande papel nos testes para o modelo de cinco fatores e 
+propensas variáveis para anomalias tais como *accruals*, emissões líquidas de 
+ações e volatilidade.
+
+
+---
+
+Chen, L., & Zhang, L. (2010). A better three-factor model that explains more 
+anomalies. *Journal of Finance*, *65*(2), 563–594.
+
+Fama, E. F., & French, K. R. (2015). A five-factor asset pricing model. 
+*Journal of Financial Economics*, *116*(1), 1–22.
+
+Liu, W. (2006). A liquidity-augmented capital asset pricing model. 
+*Journal of Financial Economics*, *82*(3), 631–671.
+
+Machado, M. A. V., & Medeiros, O. R. de. (2011). Modelos de precificação de 
+ativos e o efeito liquidez: evidências empíricas no mercado acionário brasileiro. 
+*Revista Brasileira de Finanças*, *9*(3), 383–412.
+
+---

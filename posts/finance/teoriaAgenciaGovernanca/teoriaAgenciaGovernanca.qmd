@@ -1,0 +1,299 @@
+---
+title: "Teoria de Agência e Governança Corporativa"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Teoria da Agência
+  - Governança Corporativa
+date: 2021-10-28
+toc: true
+image: "teoriaAgenciaGovernanca.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](teoriaAgenciaGovernanca.png)
+
+A temática de teoria da agência abordada nessa resenha centra-se no marco 
+inicial proposto por (Coase, 1937) ao questionar a natureza das empresas, embora 
+sua discussão seminal seja atribuída a Berle e Means, no início dos anos 30. 
+Nessa abordagem, a firma deixaria de representar um mero agente combinador de 
+fatores de produção, dada a autonomia do mercado (teoria neoclássica da 
+economia) e passaria a representar um mecanismo utilizado pelos agentes para 
+redução de custos de transação. Constatou-se a redução de custos ao 
+operacionalizar a empresa internamente em relação a transacionar com o mercado. 
+Nessa perspectiva, a visão sobre o papel da firma passou a ser de um conjunto de 
+contratos (teoria da firma) no qual os agentes acordariam seus interesses para 
+participação na firma. A emergência da Teoria de Agência se deu na identificação 
+de conflitos nos interesses dos agentes os quais buscavam maximizar sua 
+utilidade.
+
+A relação de agência surge quando duas ou mais partes possuem interesse na 
+execução de um serviço em que uma das partes, o principal, delega à outra parte, 
+o agente, o papel de execução do serviço. Considerando ambas as partes 
+maximizadoras de utilidade, há boas razões para acreditar no interesse parcial 
+do agente em atingir os interesses do principal. Dessa forma, o principal 
+incorrerá em custos para defender seus interesses e o agente arcará com o ônus 
+de concessão de garantias para com o principal (Jensen & Meckling, 1976). A 
+separação entre a propriedade e controle foi o foco teórico de Jensen e Meckling 
+(1976), cujo desenvolvimento recorreu às teorias dos direitos de propriedade, da 
+agência e das finanças para lançar luz à definição da firma, separação entre 
+posse e controle, responsabilidade social, definição de uma função objetiva 
+corporativa, identificação de uma estrutura de capital ótima, dentre outros.
+
+Ao relatar diversas relações de agência existentes na firma, Jensen e Meckling 
+(1976) reconhecem a dificuldade de criar uma teoria capaz de abranger todas as 
+relações. Consideram difícil o desenvolvimento de teorias para explicar a forma 
+como os custos de agência acontecem em cada situação, dada a diferença 
+significativa nas relações contratuais. A abordagem da teoria de agência 
+proposta nessa pesquisa se concentra, portanto, em uma pequena parcela dentre as 
+diversas relações – a análise dos custos de agência gerados pelos arranjos 
+contratuais entre proprietários e a alta gerência da corporação. Quanto a 
+abordagem, divergiram das demais teorias até então existente pela abordagem 
+positiva adotada. As pesquisas tratavam exclusivamente de aspectos normativos 
+(como estruturar as relações contratuais). A inovação decorre do fato de 
+presumirem que os problemas normativos são solucionados pelos indivíduos e 
+passarem a investigar os incentivos de cada uma das partes e os elementos 
+envolvidos no estabelecimento do equilíbrio contratual entre agente e principal.
+
+Os incentivos passaram a ser avaliados como forma de otimização do valor da 
+firma. Assumem a necessidade de haver incentivos para alinhamento de interesses 
+entre agente e principal e, nessa perspectiva, Jensen e Meckling (1976) utilizam 
+o Ótimo de Pareto para avaliar a eficiência contratual. De acordo com o Ótimo de 
+Pareto abordado na teoria da agência de Jensen e Meckling (1976) o contrato 
+eficiente teria que prevê o nível máximo de incentivo até o ponto de maximização 
+do valor da firma. Busca-se um ponto de equilíbrio no qual não há margem para 
+melhoria. Assim, com exceção da situação hipotética de o agente agir totalmente 
+em prol do principal (situação na qual os custos de agência são anulados ou 
+praticamente eliminados), não dá para maximizar o valor da firma sem incorrer 
+nos custos de transação.
+
+Além da relação entre agente e principal, especificamente o proprietário a 
+alta gestão, Jensen e Meckling (1976) ampliam a abordagem de seu trabalho para 
+a possibilidade de financiamento da empresa via captação de recursos de 
+terceiros. Para essa abordagem, associam as vantagens do proprietário-
+administrador ao repassar parte de sua parcela de ganhos para terceiros, 
+arcando com todos os efeitos dos custos de agência da dívida sobre a riqueza e 
+se favorecendo com os ganhos de sua redução. A principal questão sobre 
+contrair as dívidas é possível perda de investimento potenciais. O incremento 
+decorrente das oportunidades de investimento compensaria os custos de dívida. 
+Dessa forma, utilizam os conceitos de teoria de agência e fundamentam uma teoria 
+de estrutura de propriedade, diferenciando-se de estrutura de capital por ter o 
+foco, também, nas parcelas de capital de posse do administrador. A teoria 
+determina três variáveis: o capital interno (administrador), capital próprio 
+externo e o de terceiros (qualquer pessoa fora da empresa).
+
+A conclusão de Jensen e Meckling (1976) é de que mesmo na certeza dos custos de 
+agência, o formato corporativo tem agradado, de forma geral, investidores e 
+credores. Se espera a melhoria dos mecanismos capazes de reduzir esses custos, 
+pois estes são certos como quaisquer outros custos, entretanto, dependem de 
+aspectos como regulamentação, sistema legal e habilidade humana ao elaborar os 
+contratos. Apontam para a criação de novas formas de lidar com as corporações 
+para reduzirem custos e atenderem as expectativas de seus agentes. Nessa 
+perspectiva, Fama e Jensen (1983) buscam analisar a sobrevivência das empresas 
+diante dos problemas de agência, ponderando sobre a necessidade de obtenção de 
+lucros.
+
+De acordo com Fama e Jensen (1983), os contratos essenciais em qualquer 
+organização especificam a natureza dos direitos residuais e o escopo do processo 
+decisório entre agentes. Esses contratos distinguem as organizações umas das 
+outras e explicam o porquê de organizações específicas sobreviverem. Os direitos 
+residuais diferem entre as diversas organizações, como por exemplo, o caso de 
+empresas de capital aberto nas quais os acionistas não possuem interesse em 
+desempenhar qualquer papel na firma, mas possuem direito irrestrito de alienar 
+seus direitos e repassar seu risco para outros acionistas. Em firmas de capital 
+fechado (geralmente menores) geralmente os diretores restringem para 
+participação em decisões internas. O processo decisório (planejamento, execução 
+e controle) também é importante para definir a sobrevivência das empresas. 
+Assim, os contratos buscam prevê cada passo da decisão.
+
+O desmembramento do processo decisório entre decisões gerenciais (iniciação e 
+implementação) e decisões de controle (ratificação e monitoramento) direcionam 
+as duas hipóteses propostas por Fama e Jensen (1983). Para a primeira hipótese, 
+a separação do risco residual arcado pelas decisões gerenciais leva a sistemas 
+de decisão que separam a decisão gerencial da decisão de controle. A segunda 
+propõe que a combinação das decisões gerenciais e de controle em poucos agentes 
+levam a direitos residuais geralmente restritos a esses agentes. O conselho 
+administrativo (*board*) caracteriza-se pela combinação de decisões, entretanto, 
+é capaz de reduzir os conflitos de agência e reduzir seus custos decorrentes. O 
+principal papel do *board* é desenvolver decisões consensuais para as 
+informações por meio de seus comitês, cuja é a redução de problemas de agência 
+entre parceiros.
+
+A combinação de decisões gerenciais e de controle por meio do *board* é 
+eficiente quando há poucos agentes, portanto, essa proposição é melhor 
+visualizada em empresas individuais (*proprietorship*), pequenas parcerias e 
+empresas fechadas com baixa escala de produção e atividades. Essas organizações,
+essencialmente, são caracterizadas por sistemas de decisão concentrados e 
+direitos residuais restritos aos agentes decisórios. Nessas empresas os custos 
+de agência são mais fáceis de serem minimizados. Para empresas de maior porte, 
+há a necessidade de outras estruturas e difusão de mecanismos capazes de reduzir 
+as divergências entre os tomadores de decisão gerencial e os tomadores de 
+decisão de controle (Fama & Jensen, 1983).
+
+Assim, firmas maiores são mais complexas e ampliam a possibilidade de ocorrência 
+de problemas de agência. Fama e Jensen (1983) abordam a possibilidade de um 
+gestor com participação expressiva no capital votante atribuir-lhe garantias de
+empregabilidade com uma remuneração atrativa. Então, em organizações complexas a 
+separação entre o risco residual arcado pelas decisões de gerenciamento aumenta, 
+em parte, devido à necessidade de tomadas de decisões eficientes – é caso do 
+papel do conhecimento específico. Nessas organizações os detentores de direitos 
+são em grande número e o processo decisória ficaria inviabilizado dada o alto 
+custo de envolvimento de todos nesse processo (papel da difusão dos direitos 
+residuais). Por último, estão as características comuns nos sistemas de decisão 
+nos quais os responsáveis pela gestão atuam em conformidade com os parâmetro 
+estabelecidos pelo *board* e melhor acompanhados pelos gestores de controle 
+(Fama & Jensen, 1983).
+
+Até então, os trabalhos de (Fama & Jensen, 1983; Jensen & Meckling, 1976) 
+apresentam teorias para a existência dos problemas de agência e buscam 
+mecanismos capazes de reduzir dos custos de agência, sendo atribuído por Jensen 
+e Meckling (1976) os incentivos capazes de minimizar esses custos e Fama e 
+Jensen (1983) a observação do tipo de empresa, conforme seu processo decisório, 
+sendo os custos de agência mais aplicáveis (ou mais presentes) em empresas 
+complexas – normalmente de grande porte. Esse cenário leva a discussões 
+persistentes sobre como tratar melhor a relação propriedade e controle e abre 
+margem para discussão sobre a governança corporativa por tratar de iniciativas 
+gerenciais preocupadas em reduzir os conflitos de agência. Para essa discussão,
+apresenta-se, nessa resenha, as discussões de dois *surveys* aplicados por (La 
+Porta, Lopez-de-Silanes, & Shleifer, 1998; Shleifer & Vishny, 1997), os quais 
+abordam, respectivamente, os aspectos sobre propriedade e controle no mundo e os 
+aspectos da governança corporativa.
+
+Ao buscar avaliar o cenário quanto a propriedade e controle das empresas 
+visualizador por Berle e Means, em 1932, no qual as empresas americanas 
+apresentavam uma propriedade pulverizada em pequenos investidores e seu controle 
+nas mãos de gestores, La Porta et al. (1998) traça um novo panorama sobre a 
+propriedade e controle das 20 maiores empresas, ranqueadas pela capitalização de 
+mercado em ações ordinárias no final de 1995, nos 27 países mais ricos do mundo 
+de acordo com a lucro *per capita* em 1993. Portanto, as empresas se assemelham 
+as estudadas por Berle e Means quanto ao porte. Entretanto, os resultados da 
+pesquisa mostram uma realidade diferente da relatada pelo trabalho seminal.
+
+Um aspecto metodológico importante, tratado em (La Porta et al., 1998), é a 
+definição de estrutura de propriedade – seja quanto a definição de controle ou 
+quanto a definição de uma estrutura piramidal. Os achados, discutidos adiante, 
+demonstrarão questões voltadas ao controle, assim como ao aspecto piramidal e 
+familiar. Destaca-se o caráter dificilmente operacional em se coletar dados 
+quanto a estrutura de propriedades das empresas. O entendimento da estrutura 
+real constitui tarefa analítica, cujas particularidades são diversas. Assim, La 
+Porta et al. (1998) apresentam detalhadamente cada definição e a forma como 
+consideraram cada categoria a ser analisada, consistindo em tutorial conceitual 
+para replicações ou adaptações em pesquisas futuras.
+
+Os resultados quanto “quem são os proprietários das firmas” demonstra uma 
+realidade diferente da relatada por Berle e Means. Os achados de La Porta et al. 
+(1998) demonstram que apenas 36% das maiores empresas possuem dispersão de 
+propriedade, 30% controladas por famílias e 18% controladas pelo estado. Os 
+autores associam esse resultado a um cenário de concentração de propriedade, 
+dado que pouco mais de um terço representa empresas com propriedade dispersa. A 
+participação estatal, juntamente com as famílias, nas firmas também foi um fato 
+que chamou atenção, mas não apresentou surpresa devido ao fato de a amostra 
+contar com países nos quais o processo de privatização ainda não se encerrado. 
+A proteção legal dos investidores foi o aspecto determinante para o aumento 
+percentual de empresas com maior dispersão acionária.
+
+Além da identificação dos proprietários, La Porta et al. (1998) identificaram os 
+mecanismos de controle e exercício de poder utilizados nas empresas. Nesse caso 
+demonstraram que múltiplas classes de ações não é um mecanismo capaz de separar 
+propriedade e controle, cientes do controle de acionistas quanto ao fluxo de 
+caixa para evitar expropriação de minoritários. Ao mesmo tempo, 26 por cento das 
+firmas são controladas através de pirâmides (quando um acionista possui 
+participação em empresas com participação em outras, controlando e se 
+beneficiando de toda a cadeia de corporações), tendo menor representatividade 
+quando há maior proteção ao investidor. As empresas controladas por famílias 
+também apresentam percentual expressivo, participando do controle dessas firmas.
+Diferentemente das famílias, os bancos não demonstram interesse em exercer 
+controle.
+
+Dado que a proteção legal parece ser influente na estrutura de propriedade das 
+empresas, classificou-se as empresas de acordo com a proteção legal. Os 
+resultados revelam a possibilidade de entrincheiramento e redução de direitos 
+dos minoritários quando os países possuem poderes políticos e econômicos para 
+controlar os acionistas. Esses resultados também são evidenciados quando 
+classificam as empresas em *bank-centered* e *market-centered*. Respectivamente, 
+representam países cujas estruturas de financiamento são baseadas em bancos e 
+baseadas no mercado. A proteção do investidor, de acordo com La Porta et al. 
+(1998), é uma boa *proxy* para sistemas de governança corporativa em países 
+fundamentados no financiamento via bancos (*bank-centered*).
+
+De forma paralela e complementar, a pesquisa de Shleifer e Vishny (1997) 
+preocupou-se em identificar a forma como o gestor atenderá os fornecedores de 
+capital e, ainda, se não optará por projetos ruins para a empresa. Uma questão 
+aventada pelos autores é o fato de os fornecedores de capital, após a entrega 
+dos recursos, não desempenharem nenhum papel para a formação dos resultados. 
+Esse papel é exercido pelo gestor a quem os capitalistas confiam o retorno de 
+suas remunerações, mas nem sempre o gestor atua para essa finalidade. Os 
+mecanismos de governança corporativa surgem como instituições econômicas e 
+legais que podem alterar o processo político da empresas no intuito de melhorar 
+a relação entre os agentes, sendo nesse caso definido para melhor (Shleifer & 
+Vishny, 1997).
+
+O estudo de Shleifer e Vishny (1997) divide-se em 8 seções, nas quais os autores 
+traçam o marco teórico da teoria da agência com vistas às motivações para 
+fornecedores de capital confiarem seus recursos a um gestor. Adicionalmente, 
+tratam discutem a proteção legal dos investidores e a concentração de capital 
+como as duas abordagens mais comuns ao se tratar de governança corporativa. Fica 
+evidenciado que a diversidade de sistemas de governança entre os países (por 
+exemplo, os modelos americano, alemão e japonês). Contudo, os autores alertam 
+para a inexistência de um sistema superior. Não se trata de adotar o sistema 
+adotado por um país, independentemente do quão eficiente pareça, mas avaliar 
+como introduzir mecanismos de proteção legal aos investidores. Além dos 
+investidores tradicionais, os credores também dispensam atenção relevante para 
+a governança corporativa, pois possuem altos investimentos e, evidentemente, tem 
+interesse no seu retorno. Os credores, tais como bancos, exercem poder sobre os 
+direitos dos minoritários e investidores por meio de suas cláusulas contratuais 
+para concessão de crédito (*covenants*) além de sua remuneração não ser 
+residual.
+
+O *survey* de Shleifer e Vishny (1997) revelou limitações nos sistemas de 
+governança ao redor do mundo. Seja pelo fato de o sistema legal dos países 
+divergirem, a concentração de capital está presente em percentual importante das 
+firmas (Fama & Jensen, 1983; Shleifer & Vishny, 1997), o custo benefício da 
+implantação de sistemas de governança não ser muito claro, o nível informacional 
+fora de mercados maduros (como o americano) ou pelo fato de não haver certeza 
+quanto a eficiência da governança corporativa frente às dinâmicas políticas e 
+econômicas de cada país, Shleifer e Vishny (1997) não arriscam lançar opiniões 
+sobre as questões de governança corporativa levantadas por eles. São céticos 
+quanto a disponibilidade de respostas persuasivas sobre a temática.
+
+Portanto, de acordo com as pesquisas discutidas nessa resenha (Fama & Jensen, 
+1983; Jensen & Meckling, 1976; La Porta et al., 1998; Shleifer & Vishny, 1997), 
+é possível observar a persistência dos problemas de agência desde sua divulgação
+acadêmica, nos anos 30, até os dias atuais. Os esforços empreendidos pela 
+academia e pelos profissionais das corporações se direcionam para reduzir os 
+conflitos de agência e nunca os eliminar. Possivelmente, a condição utilitarista 
+do ser humano, já descrito por Jensen e Meckling (1976) ao citar Adam Smith e 
+corroborar em sua pesquisa, seja persistente por muito mais tempo. Assim, as 
+práticas de sobrevivência das empresas, apontadas por Fama e Jensen (1983), são 
+úteis na redução de custos de agência, entretanto os dois *surveys* apresentados 
+(La Porta et al., 1998; Shleifer & Vishny, 1997), demonstram preponderância de 
+práticas que indicam esforços de agentes com *empowerment* em atingir seus 
+interesses em detrimento de outrem. O mercado precisa e sobrevive sob a 
+perspectiva de cumprimento de contratos e se espera, então, inovação nos 
+mecanismos capazes de reduzir o risco de seu inadimplemento.
+
+
+---
+
+Coase, R. H. (1937). The nature of the firm. *Economica*, 4(16), 386–405.
+
+Fama, E. F., & Jensen, M. C. (1983). Separation of ownership and control. 
+*Journal of Law and Economics*, 26(2), 301–325.
+
+Jensen, M. C., & Meckling, W. H. (1976). Theory of the firm: managerial 
+behavior, agency costs and ownership structure. 
+*Journal of Financial Economics*, 3, 305–360.
+
+La Porta, R., Lopez-de-Silanes, F., & Shleifer, A. (1998). Corporate ownership 
+around the world. *Ssrn*, 1, 1–69.
+
+Shleifer, A., & Vishny, R. W. (1997). A survey of corporate governance. 
+*The Journal of Finance*, 52(2), 737–783.
+
+---

@@ -1,0 +1,234 @@
+---
+title: "Visão Geral de Finanças"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Moderna Teoria Finanças
+  - Valor
+date: 2021-10-25
+toc: true
+image: "visaoGeralFinancas.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](visaoGeralFinancas.png)
+
+A moderna teoria de finanças se iniciou nos anos 50 com marcos de inovação nas 
+pesquisas voltadas a compreender os efeitos das decisões no equilíbrio do 
+mercado. Nos anos precedentes, os assuntos de finanças tratavam, essencialmente, 
+de definir como os gestores deveriam tomar decisões com base em custo ótimo de 
+capital, política de dividendos, dentre outros. Com a emergência das pesquisas 
+denominadas positivas, as finanças passaram a ser abordadas sob vários aspectos, 
+cujos resultados ampliaram o entendimento das implicações práticas das tomadas 
+de decisão. Esses aspectos, assim como as motivações e implicações de seu 
+surgimento são discutidos sob prismas convergentes (mas não totalmente 
+semelhantes) por Jensen e Smith Jr. (1984) e por Miller (1999). Ambos são 
+objetos dessa resenha. Tratam do momento de *trade-off* entre os aspectos 
+normativo e positivo das finanças, além de discorrem sobre a construção lógica 
+para a construção de cada teoria abordada.
+
+A revisão do desenvolvimento da teoria moderna das finanças apresentada por 
+(Jensen & Smith Jr., 1984) se desenvolve fazendo um contraponto da teoria 
+positiva com o que denominou de teoria normativamente orientada 
+(*normatively oriented*) para demonstrar a fragilidade da teoria de finanças até 
+então difundida (década de 50). Na discussão proposta por (Miller, 1999), a 
+proposta é a mesma sendo definidos os contrapontos entre as abordagens 
+*business school* (normativa) e *economic department* (positiva). Assim, 
+enquanto o primeiro traça uma revisão de literatura sobre a teoria de finanças, 
+o segundo se desprende da obrigação de um *survey* abrangente e escolhe os temas 
+considerados relevantes pelo autor. Ambos apontam para a abordagem positiva como 
+melhor para o processo decisório. Para Jensen e Smith Jr. (1984), não é possível 
+decidir qual ação tomar e esperar atender seu objetivo se não se sabe o efeito 
+da decisão.
+
+A discussão entre abordagem normativa e positiva em finanças é intrigante, pois 
+durante o desenvolvimento teórico houveram divergências quanto a essa 
+classificação. O trabalho de Markowitz sobre a teoria das carteiras, em 1952, 
+foi considerado por Milton Friedman (economista da escola de Chicago, influente 
+em vários campos de pesquisa em sua área) como não pertencente ao departamento 
+de economia, dado seu aspecto normativo. Entretanto, sua tese fora defendida no 
+departamento de economia (Miller, 1999). Markowitz, identificou o rendimento 
+esperado de um investimento com base na sua média e variância, cujo resultado 
+permite ao tomador de decisão escolher o melhor investimento. De acordo com o 
+algoritmo de média-variância de Markowitz define-se um conjunto eficiente de 
+portfólios como aquele que fornece um máximo de retorno para uma dada variância 
+e um mínimo de variância para um retorno esperado (Jensen & Smith Jr., 1984).
+
+O retorno esperado obtido por meio da proposta de Markowitz apresenta 
+fragilidades importantes, essencialmente quanto ao fato de não fornecer um 
+portfólio ótimo, pois se os inputs do modelo são os mesmos, todos os 
+investidores tenderão a possuir o mesmo portfólio (Miller, 1999). Com base na 
+abordagem normativa de Markowitz, as pesquisas individuais de Treynor, Sharpe e 
+Lintner criaram uma teoria positiva para a determinação dos preços dos ativos. 
+O fato de o modelo de Markowitz assumir variáveis fixas foi resolvido por meio 
+da incorporação da análise da covariância entre o retorno da empresa alvo com o 
+retorno de todos os ativos. A partir do momento em que um número crescente de 
+investidores passaram a investir em índices de fundos, o risco de mercado passou 
+a ser definido abrindo espaço para definição do retorno do mercado. Dessa 
+metodologia surgiu a medida de risco conhecida e utilizada até a atualidade: o 
+Beta (Jensen & Smith Jr., 1984; Miller, 1999).
+
+O beta, juntamente com a taxa livre de risco e retorno do mercado passaram a 
+compor o Modelo de Precificação de Ativos – CAPM 
+(*Capital Assets Pricing Model*). A teoria de precificação de ativos define, 
+portanto, o custo de oportunidade da empresa em decisões orçamentárias (Jensen 
+& Smith Jr., 1984). Uma das vantagens do CAPM, mencionada por Miller (1999), é o 
+fato de a ciência buscar explicar muito com pouco e o CAPM atender essa demanda 
+como poucos modelos em finanças. Os benefícios do CAPM foram importantes a ponto 
+de gerar grande volume de pesquisas empíricas testando-o, sendo abordado em 
+pesquisas teóricas e empíricas. Sua desvantagem (ou consenso entre 
+profissionais) é que uma única medida de risco pode não ser suficiente para 
+descrever uma *cross section* de retornos esperados. Além do mais, o fator 
+mercado e outros dois riscos (risco e tamanho) foram identificados para ações 
+ordinárias (Miller, 1999).
+
+Esses fatores correspondem ao fato de quanto mais arriscada, maior o retorno 
+(fator risco), quanto menor a firma, maior a seus retornos (fator tamanho) e 
+quanto maior o *book-to-market* das empresas maiores os seus retornos (fator 
+mercado). Assim, a depender da sofisticação do investidor, seus retornos 
+poderiam ser maiores ao observar a possibilidade de ganhos superiores em 
+determinadas firmas. Entretanto, a Hipótese de Eficiência do Mercado (HME) 
+propõe ser impossível obter ganhos econômicos anormais (bater o mercado) com 
+base em informações disponíveis. De acordo com Miller (1999), nos anos trinta 
+foi documentada a inabilidade de 45 agências profissionais preverem as mudanças 
+nos preços. Alguns estatísticos (Working, Kendall e Osborne) também buscaram,
+individualmente, identificar explicações para as mudanças nos preços, porém 
+acabaram definindo a mudança nos preços como um “passeio aleatório” 
+(*random walk*). Isso significa não haver padrão definido (ou definível) para os 
+dados (Jensen & Smith Jr., 1984; Miller, 1999).
+
+Posteriormente, as evidências de Samuelson e Mandelbrot forneceram uma moderna 
+justificativa teórica para a HME. Para essas pesquisas uma mudança inesperada 
+nos preços em mercado especulativo comporta-se com passeio aleatório se o 
+mercado é competitivo e os lucros são zero. Os argumentos são de que mudanças 
+inesperadas nos preços refletem novas informações (Jensen & Smith Jr., 1984). 
+Para Miller (1999), a HME deveria ser reconhecida com Prêmio Nobel (como a 
+teoria das carteiras, da precificação de ativos e da estrutura de capital), pois 
+se trata de um dos assuntos mais discutidos pela academia. Seus pressupostos já 
+foram bastante estudados, especialmente pelo fato de disponibilização de dados 
+de preços de fechamento mensais, dividendos para todas as ações da New York 
+Exchange (NYSE) desde 1926, sobre as quais diversas evidências empíricas foram 
+realizadas. Muitas pesquisas refutam sua robustez, entretanto ainda é testada.
+
+Consequentemente, retornos anormais são encontrados em qualquer lugar, mas 
+carregam a semente de sua queda. Com essa afirmativa Miller (1999) defende a 
+fundamentação da HME, sob a justificativa de que imitadores acabariam competindo 
+pelos retornos anormais, estabelecendo equilíbrio no mercado. Com essa mudança 
+refuta-se a ideia de passeio aleatório e reforça a HME especialmente quando muda 
+o foco para custo e retorno ajustados ao risco. Deixa de ser um assunto de 
+estatística e passa a ser econômico. O valor da empresa é, portanto, alterado 
+sob diversas circunstâncias e, dentre elas, mudanças na estrutura de capital. 
+Modigliani e Miller (M&M) propõem, em primeiro momento, não haver relação entre 
+o valor da firma e a mudança na estrutura de capital. Ao assumirem essa relação 
+observa-se proximidade com a HME. Para Miller (1999), a proximidade entre a 
+revisão de M&M e HME não é acidental, pois as firmas mudariam sua estrutura de 
+capital com vistas aos prospectos futuros da firma.
+
+O próximo evento relevante para as finanças foi a possibilidade de negociação do 
+valor da firma com base nos prospectos futuros. Após fixados os fluxos de caixa 
+estimadas para a firma, é possível estabelecer um valor futuro e negociá-lo. Uma 
+opção de compra dá direito de comprar uma ação por um preço específico (preço de 
+exercício) a qualquer tempo para exercê-la em data específica. Para evitar 
+oportunidades de lucros sem risco o retorno da proteção (*hedge*) deve ser igual 
+à taxa livre de risco (Jensen & Smith Jr., 1984).  Embora com informações 
+observáveis, as opções dependem de dados não observáveis como a variância da 
+distribuição dos retornos do ativo subjacente que é estimada. Miller (1999) 
+observa as opções como uma das questões mais férteis para pesquisas futuras em 
+finanças.
+
+Até então, observa-se um encadeamento de teorias migrando da abordagem normativa 
+para a abordagem positiva. Tanto em Miller (1999) quanto em Jensen e Smith Jr. 
+(1984) as abordagens sobre essas teorias são convergentes e a classificação, 
+embora com nomenclatura diferente, possuem a mesma conotação quanto aos aspectos 
+normativos e positivos. Ambos demonstram haver melhor qualidade nas pesquisas 
+quando se aborda o problema sob a abordagem positiva. Considerando a escolha de 
+discussão proposta por Miller (1999), a teoria da agência surge apenas como uma 
+preocupação para psicólogos e não para economistas. Das teorias até então 
+abordadas nessa resenha ambos os trabalhos analisados são contemplados. Quanto a 
+teoria da agência, Smith Jr. (1984) tratam com maior detalhe dado que propõem 
+uma revisão de literatura e não uma escolha pessoal como em Miller (1999).
+
+A teoria da agência é abordagem em Smith Jr. (1984) de forma essencialmente 
+conceitual. Além das abordagens teóricas, algumas discussões com as teorias já 
+abordada surgem em relação à composição da estrutura de capital, pois o conflito 
+de agência pode-se definir a depender do quão monitorado esteja o gestor 
+(agente). Teorias baseadas em *trade-offs* de compartilhamento de risco e outras 
+vantagens da forma corporativa com seus custos de agência para definir a 
+sobrevivência das empresas no longo prazo são importantes para a análises 
+positivas sobre o valor da firma. Contudo, a dificuldade de avaliação do 
+interesse e o real cumprimento de contratos dificultam ou enfraquecem as 
+abordagens quantitativas. Possivelmente, por esse motivo, nenhuma das pesquisas 
+resenhadas adentrou em aspectos positivos advindos dos problemas de agência, 
+embora com vasta literatura teórica e empírica disponível. A teoria de agência é 
+abordada por Smith Jr. (1984) como um “plano de fundo” para as demais teorias.
+
+Mais duas pesquisas também comporão essa resenha. Trata-se de pesquisas 
+preocupadas no estudo de finanças no mercado brasileiro. Nenhuma das duas, 
+porém, lançam novas teorias ou constructos para essa área. A abordagem de 
+estrutura de capital e de propriedade é visto em (Leal & Saito, 2003) e um 
+trabalho bibliométrico do período de 2000 a 2010 foi realizado por (Leal, 
+Almeida, & Bortolon, 2013) sobre a produção científica brasileira em finanças. 
+Esses estudos demonstram a realidade brasileira em finanças sob dois prismas: 
+produção acadêmica (Leal et al., 2013) e prática (Leal & Saito, 2003). 
+Considerando a origem das teorias de finanças em evidência com empresas 
+americanas, algumas discussões podem ser traçadas com base nos achados de cada 
+uma dessas pesquisas a fim de lançar comparações entre teorias gerais e 
+aplicação em mercados em desenvolvimento.
+
+Com base em Leal e Saito (2003), observa-se a dificuldade de se aplicar teorias 
+de finanças no Brasil. Os custos de agência e monitoramento excessivos, 
+associados ao alto custo de capital, desestimulam o ingresso de empresas no 
+mercado de capitais. O padrão típico de países emergentes revela uma estrutura 
+concentrada favorece a ação oportunista dos controladores. Assim, sob a égide da 
+teoria da agência, os conflitos principal-agente são minimizados e passa-se a 
+chamar atenção os conflitos principal-principal no qual há a possibilidade 
+expropriação dos minoritários. A única forma de reduzir essas assimetrias e 
+problemas de agência são evidenciados por meio de política de dividendos e 
+recompra de ações. A ausência de estruturas adequadas na composição do mercado 
+acionário brasileiro pode, portanto, dificultar pesquisas e práticas com base 
+em teorias de finanças aceitas em mercados maduros.
+
+O estudo bibliométrico de Leal et al. (2013) demonstra fragilidade nas pesquisas 
+sobre finanças realizadas no Brasil. Não se observa uma consistência em 
+publicações ou até mesmo a definição clara de estudos voltados ao Brasil. A 
+formação de parcerias é um aspecto positivo levantado pela pesquisa, entretanto, 
+propõem melhorias na qualidade das publicações. Os autores abordam a 
+profundidade metodológica e inovação teórica como um ponto frágil comparado a 
+países desenvolvidos. Embora não abordem por essa linha, a dificuldade de acesso 
+a dados, o número de empresas em mercado de capitais e a própria estrutura de 
+propriedade podem destoar os resultados e análises empíricas quando se busca 
+analisar teorias em mercados emergentes.
+
+Por fim, as teorias em finanças finalizaram por volta dos anos 70. Poucas 
+pesquisas de maior relevância foram apresentadas ou incorporou a denominada 
+Moderna Teoria de Finanças. O amadurecimento dos mercados e a diferença nas suas 
+operações – seja por novas transações ou por novas tecnologias – remete a 
+emergência de novas teorias capazes de acompanhar o comportamento de empresas e 
+seus reflexos no valor da firma. É possível propor, ainda, a definição de 
+teorias específicas para países emergentes nos quais o ambiente de mercado 
+difere daquele onde as teorias de finanças se originam.
+
+	
+---
+
+Jensen, M. C., & Smith Jr., C. W. (1984). The theory of corporate finance: a 
+historical overview. In M. C. Jensen & C. W. Smith Jr. (Orgs.), 
+*The Modern Theory of Corporate Finance* (p. 2–20). New York: McGraw-Hill.
+
+Leal, R. P. C., Almeida, V. de S. e, & Bortolon, P. M. (2013). Produção 
+científica brasileira em finanças no período 2000-2010. 
+*Revista de Administração de Empresas*, 53(1), 46–55.
+
+Leal, R. P. C., & Saito, R. (2003). Finanças corporativas no Brasil. 
+*RAE eletrônica*, 2(2), 1–15.
+
+Miller, M. H. (1999). The history of finance. 
+*The Journal of Portfolio Management*, 95–101.
+
+---

@@ -1,0 +1,204 @@
+---
+title: "Política de Dividendos"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Dividendos
+  - Lucro
+  - Acionistas
+date: 2022-08-18
+toc: true
+image: "politicaDividendos.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](politicaDividendos.png)
+
+A política de dividendos trata da forma como a empresa distribui seu lucro aos 
+acionistas. O tema se demonstra simples pelo fato de tratar de uma expectativa 
+natural de qualquer investidor, qual seja a geração de fluxo de caixa por meio 
+de retornos de seus investimentos. Os dividendos constituem o rendimento direto 
+da aplicação de recursos na participação acionária das empresas. Entretanto, 
+diversos aspectos permeiam esse tema a ponto de surgirem vertentes diferentes 
+para definições das políticas de dividendos das empresas. Nessa resenha serão 
+discutidos os resultados de pesquisas elaboradas por Brav, Graham, Harvey e 
+Michaely (2004) relacionados à política de dividendos, Heineberg e Procianoy 
+(2003) quanto aos aspectos determinantes do pagamento de proventos em dinheiro, 
+Procianoy e Verdi (2003) tratando do efeito clientela e, por último, Procianoy 
+e Vieira (n.d.) tratando das reações do mercado de capitais aos dividendos.
+
+O estudo de Brav *et. Al* (2004) tratou de realizar um *survey* com executivos 
+financeiros à luz da pesquisa de Lintner, nos anos 50. A proposta de Brav 
+*et. Al* (2004) foi determinar fatores que direcionam as decisões de pagamento 
+de dividendos ou recompra de ações. Foram realizadas diversas perguntas com 
+gestores contemporâneos (o artigo cita século XXI), sobre questões relacionadas 
+ás motivações para pagamentos de dividendos e utilização de questões de agência 
+e sinalização. Nos executivos das 28 empresas pesquisadas por Lintner, 50 anos 
+antes, as evidências mostram maior propensão de pagamento de dividendos por 
+empresas maduras e geradoras de lucros persistentes no longo prazo. Nas 
+evidências e Brav *et. Al* (2004) já se observa a pretensão pela flexibilidade 
+da recompra de ações.
+
+O contraponto de Brav *et. Al* (2004) com os achados de Lintner se deu em duas
+vertentes, quais sejam o conservadorismo e a decisão com base no índice de 
+*payout*. Os executivos contemporâneos, diferente de seus pares dos anos 50, 
+demonstraram menor conservadorismo e distanciamento das decisões com base no 
+*payout*. As decisões de investimento na empresa passaram determinar as decisões. 
+Os aumentos de dividendos passaram a ser considerados após supridas as 
+necessidades de investimentos e liquidez. De acordo com as entrevistas 
+realizadas verificou-se a propensão dos gestores em aceitar redução na recompra 
+de ação em relação a redução de dividendos – menor conservadorismo. Apenas 22% 
+dos respondentes acreditam no efeito negativo da recompra de ações e 90% dos 
+respondentes atribuem um fato negativo ao se reduzir dividendos. Outro 
+percentual revelador da evidência dos dividendos é 40% dos respondentes 
+declararem ter como alvo o dividendo por ação.
+
+Por meio de uma regressão linear considerando os dividendos defasados e lucros 
+correntes para explicar os dividendos atuais, Brav *et. Al* (2004) compararam os 
+resultados dos respondentes com uma amostra de não-respondentes retiradas do 
+Compustat. Os resultados confirmaram o fato de o prêmio de dividendos não ser 
+mais tão importante quanto na época de Lintner. Uma discussão realizada na 
+pesquisa é o fato de haver relação entre o lucro do período o fato de haver ou 
+não meta de dividendos. Os resultados sugeriram haver respostas no sentido de 
+não objetivar dividendos quando as metas não são alcançadas. Ao mesmo tempo, 
+empresas sem objetivo de dividendos possuem baixo crescimento dos lucros, altos 
+índices de endividamento e pagam poucos dividendos.
+
+As implicações para decisões de dividendos ou recompra de ações se deve a 
+fatores como tributos, clientela, conflitos de agência e sinalização. Sob o 
+ponto de vista dos tributos, Brav *et. Al* (2004) identificam a sua influência 
+nas decisões de *payout*. Quanto a clientela, observam não haver preferência por 
+dividendos pelos investidores institucionais. Diversos respondentes discordam 
+que dividendos atraiam esses investidores. Entretanto, os dividendos são vistos 
+como redutores de conflitos de agência mais eficazes relação a recompra de 
+ações. O fato de ter a política de pagamento de dividendos, segundo respondentes, 
+aumenta o monitoramento das atividades da gestão. Quanto a sinalização, 
+permaneceu a lacuna de como o mercado absorve a informação quanto ao pagamento 
+de dividendos ou recompra de ações. Inicialmente Brav *et. Al* (2004) esperavam 
+a existência de associação entre dividendos e recompra de ações com a 
+informação.
+
+No mercado brasileiro, os determinantes para política de dividendos foram 
+analisados por Heineberg e Procianoy (2003) com empresas listadas na então 
+Bovespa no período de 1994 a 2000. Um ponto importante nessa pesquisa é o trato 
+do termo dividendos para proventos. A pesquisa abrange não apenas dividendos, 
+mas os juros sobre capital próprio – uma particularidade do mercado brasileiro. 
+Nesse cenário o efeito tributário se torna mais evidente dada a possibilidade de 
+escolha pela distribuição de lucros ou pagamento de juros sobre capital próprio. 
+O Brasil é um ambiente propício para análises dessa natureza, pois ao longo dos 
+períodos anteriores à pesquisa, os fatores relacionados a política de dividendos 
+oscilaram bastante (Heineberg & Procianoy, 2003).
+
+Os resultados de Heineberg e Procianoy (2003) foram analisados por meio de dados 
+em painel com variáveis voltadas a captar efeitos na política de proventos 
+(variável dependente). Além dos lucros/prejuízos, já recorrentes na literatura 
+desde Lintner em 1956, foram analisados a estabilidade da política com o passar 
+dos anos, a tributação, inflação, endividamento, crescimento/investimento, 
+tamanho e setor da empresa. Cada variável possui implicação na política de 
+pagamento de proventos como é o caso do endividamento que, por gerar despesas 
+dedutíveis, interfere no resultado e no desempenho do gestor. Oportunidades de 
+crescimento, por sua vez, exigem maior retenção de recursos e, consequentemente, 
+menor distribuição de proventos.
+
+Os autores (Heineberg & Procianoy, 2003) experimentaram segmentar os resultados 
+por setor e por quintis de *payout*. Os resultados dessa segmentação revelaram 
+haver diferenças nas informações utilizadas por cada setor ao definir a sua 
+política de dividendos. Os *payouts*, por outro lado, demonstraram-se iguais com 
+divergência marginal em poder explicativo entre os quintis. De um modo geral, 
+observou-se que no mercado brasileiro há uma política consistente de pagamento 
+no sentido de dar previsibilidade de fluxo de caixa para os acionistas 
+interessados em proventos (Heineberg & Procianoy, 2003). Associa-se a 
+possibilidade de a empresa sinalizar ao mercado por meio da emissão desvantajosa 
+(sob o aspecto tributário) de dividendos. Emitir dividendos, mesmo sob efeito da 
+tributação, indicaria uma expectativa futura positiva.
+
+Por outro lado, Procianoy e Verdi (2003) avaliam o efeito clientela no qual 
+investidores sujeitos a altos impostos sobre dividendos passam a se interessar 
+em adquirir ações, mesmo com baixos rendimentos. Sob uma baixa alíquota o 
+interesse seria o interesse se concentraria em ações com altos rendimentos. Esse 
+efeito é indicado por Miller e Modigliani em seu estudo de 1961. Os proventos 
+analisados no período de pesquisa (1989 a 1993) foram marcados por uma 
+divergência importante, qual seja a tributação apenas no ganho de capital (juros 
+sobre capital próprio) e isenção dos dividendos.
+
+A proposta da pesquisa é avaliar o comportamento dos retornos após o anúncio dos 
+dividendos. Para tal, avaliou o comportamento das ações pagadoras de dividendos 
+com base no modelo de Elton e Gruber (variação do preço da ação no primeiro dia 
+de negociação do título sem direito ao dividendo anunciado) e verificaram a 
+existência de retornos anormais num período de 11 dias em torno da data em que 
+as ações foram negociadas com direito a receber dividendo. A definição do 
+retorno anormal se deu por comparação (subtração) do retorno média da empresa e 
+do portfólio de mercado (IBOVESPA) calculados no período da janela do evento 
+(Procianoy & Verdi, 2003).
+
+Considerando a isenção dos dividendos e uma tributação de 0% ou 25% para os 
+juros sobre o capital próprio, o intervalo esperado para o preço da ação deveria 
+se situar entre o preço anterior deduzidos dos proventos e o preço anterior 
+deduzido dos proventos sob influência tributária (proventos / (1–0,25)). O 
+estudo foi realizado com ações pagadoras de pelos menos um dividendo, negociadas 
+na então BOVESPA no período de 1989 a 1993. O alvo inicial de 1569 distribuições 
+de dividendos resultou na amostra de 693 eventos analisados (132 empresas), dada 
+a falta de negociações nos períodos *cumdividend* e *ex-dividend* (Procianoy & 
+Verdi, 2003).
+
+Os resultados apresentados em Procianoy e Verdi (2003) contrariam a literatura 
+por não apresentar efeito anormal do anúncio de dividendo nos preços das ações. 
+Apenas 5% dos 693 casos analisados apresentaram o preço dentro do intervalo 
+teórico determinado pela pesquisa. Verificou-se que 47% dos eventos apresentaram 
+um resultado surpreendente na medida em que o preço da ação no primeiro dia 
+*ex-dividend* foi maior do que na data em que a ação tinha direito de receber 
+dividendos. Isso propõe um comportamento irracional, pois não faria sentido 
+pagar um valor maior por uma ação após exercido o direito de receber os 
+dividendos. A preocupação de como os dividendos interferem no mercado de ações 
+com retornos anormais constituiu preocupação em texto de Procianoy e Vieira (n.d.), 
+sendo o último a ser discutido nessa resenha.
+
+Nesse texto, Procianoy e Vieira (n.d.) demonstram haver evidências empíricas no
+mercado americano de que *stock dividends* (bonificação com ações) estão associados
+a retornos anormais no dia da execução. Contudo, não haveria razão lógica para tal 
+relação, pois a bonificação de acionistas com ações na mesma proporção das já 
+possuídas não altera a composição acionária, nem política de investimentos e 
+financiamentos. A alteração da bonificação causa efeito apenas no aumento do 
+valor do patrimônio líquido das empresas por meio de aumento de reservas. As 
+*stock dividends* são tidas na literatura como uma decisão cosmética, dada a sua 
+evidente falta de efeito nas empresas.
+
+Todavia, essa não é a evidência encontrada por Procianoy e Vieira (n.d.). Seus 
+resultados, obtidos por meio de estudo de evento com empresas de capital aberto 
+negociadas no Brasil, Argentina, Chile, Colômbia e México com realização de 
+*stock dividends* no período de janeiro de 1987 a maio de 1997. Considerando 
+evento a data da realização da assembleia deliberativa sobre a realização da 
+bonificação, utilizou-se uma janela de 61 dias, sendo 30 dias úteis anteriores e 
+30 dias úteis posteriores ao evento, mais a data do próprio evento que foi 
+excluído o cálculo dos retornos. Os resultados sugerem a ocorrência de 
+*insider trading*, pois há a sugestão de antecipação das decisões de 
+investidores aos resultados devida a vazamento de informações ou pela crença de 
+aprovação corriqueira das propostas de bonificação. Com base nos resultados foi 
+possível conjecturar que a informação, embora disponível, foi negligenciada por 
+investidores menos atentos, abrindo espaço para investidores qualificados 
+obterem retornos anormais. 
+
+
+---
+
+Brav, A., Graham, J. R., Harvey, C. R., & Michaely, R. (2004, june). Payout 
+policy in the 21st century. *Working Paper*, *14*, 1-42.
+
+Heineberg, R. & Procianoy, J. L. (2003, setembro). Aspectos determinantes do 
+pagamento de proventos em dinheiro das empresas com ações negociadas na Bovespa. 
+*Anais do Encontro da ANPAD*, Atibaia, SP, Brasil, 27.
+
+Procianoy, J. L. & Verdi, R. (2003). O efeito clientela no mercado brasileiro: 
+será que os investidores são irracionais? *Revista Brasileira de Finanças*, 
+*(2), 1-23.
+
+Procianoy, J. L. & Vieira, K. (n.d.). *Capital market reaction to stock dividends: 
+event study in latin America*.
+
+---

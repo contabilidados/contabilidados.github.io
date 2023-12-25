@@ -1,0 +1,201 @@
+---
+title: "Fluxo de Caixa, Lucro e Accruals"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Fluxo de Caixa
+  - Lucro
+  - Accruals
+date: 2019-08-24
+toc: true
+image: "flxCxAccruals.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](flxCxAccruals.png)
+
+A teoria contábil possui, dentre seus principais objetivos, a apuração e 
+divulgação do lucro contábil. Embora pareça de fácil compreensão, o lucro possui 
+diversas conceituações e perpassa pela conceituação dos demais elementos 
+contábeis. Contudo, não se trata apenas de um desafio conceitual, mas de uma 
+diversidade de entendimentos nos mais diversos países. Esse contexto fortalece a 
+discussão sobre a formação do lucro e como estes podem ser mensurados em prol 
+dos interesses de seus elaboradores em detrimento da revelação do real 
+desempenho da empresa. (Coelho & Carvalho, 2007).
+
+Observa-se a importância do lucro para a relação entre a empresa e os demais 
+agentes envolvidos nas suas operações, pois, conforme Sunder (2014) a firma 
+constitui uma fonte de renda para cada agente participante. A participação em 
+uma firma se deve à expectativa de retorno superior a contribuição de cada 
+agente em proporção maior comparada a aplicação dessa contribuição em outros 
+investimentos. (Sunder, 2014).
+
+A expectativa de retorno é mensurada por meio da contabilidade, baseada em 
+critérios de mensuração diversos com base no momento do reconhecimento de 
+receitas e despesas. Dessa forma, a apuração do lucro econômico pela 
+contabilidade gera a necessidade de reconhecimento de receitas e despesas no 
+momento de sua ocorrência, independentemente da ocorrência de movimentação 
+financeira. Esse procedimento, denominado de regime de competência, provoca uma 
+diferença entre o lucro líquido e o fluxo de caixa líquido.
+
+Dechow, Ge e Schrand (2010) apresentam um conceito de qualidade de lucros focado 
+na especificidade da tomada de decisão. Para as autoras uma qualidade mais 
+elevada nos lucros depende de mais informações sobre as características de 
+desempenho financeiro de uma empresa, pois são relevantes para uma decisão 
+específica feita por um tomador de decisão específica.
+
+Se espera, assim, resultados considerados como qualificados para tomadas de 
+decisão. Dechow e Schrand (2004) avaliam a qualidade dos lucros, sob a 
+perspectiva dos analistas. Os objetivos da análise financeira são avaliar o 
+desempenho da empresa e, com base nesta análise, determinar se o preço atual das 
+ações reflete o valor intrínseco da empresa. Em outras palavras, procuram 
+identificar se os números revelados pela contabilidade são bons indicadores de 
+desempenho futuro.
+
+Contudo, a adoção do regime de competência permite o desencontro entre o 
+reconhecimento da receita e o seu efetivo recebimento, assim como acontece entre 
+despesas e contas a pagar. De acordo com Martins (1999), como ambos os fluxos 
+financeiros não acontecem simultaneamente, o regime de caixa puro e simples 
+produziria distorções enormes na mensuração do quanto se está ganhando ou 
+perdendo nas operações. O regime de competência permite reconhecer os resultados 
+com base no período de ocorrência do resultado.
+
+A utilização do regime de competência evita a distorção causada, por exemplo, 
+por um gestor quando efetua a venda em um período com concessão de prazo para 
+recebimento. Se o resultado for mensurado com base no caixa (regime de caixa), 
+ou seja, quando do efetivo recebimento, outro gestor poderá ter assumido o cargo 
+o bônus pela venda ficaria com o segundo gestor. Pelo regime de competência, o 
+bônus cabe ao gestor efetivamente realizador da operação, portanto aquele 
+responsável pela venda do produto.
+
+Para Dechow, Kothari e Watts (1998) o lucro ocupa uma posição central na 
+contabilidade. Trata-se do resumo da contabilidade por meio da medida de 
+desempenho de uma empresa. Apesar de modelos teóricos valorizarem os fluxos de 
+caixa, o lucro contábil é amplamente utilizado na valorização das ações e para 
+medir o desempenho em contratos de gestão e de dívida.
+
+Considerando a discussão até então proposta, é possível identificar a predileção 
+pela avaliação do lucro contábil com base no princípio de competência, ao invés 
+do regime de caixa. As vantagens do regime de competência se concentram no fato 
+de representar melhor o resultado de cada período, além de incluir em sua 
+mensuração a expectativa de caixa futuro. As desvantagens do regime de 
+competência residem na apropriação indevida de resultados, dada a subjetividade 
+na apuração do lucro e no pressuposto teórico de utilidade do gestor.
+
+O lucro contábil foi incorporado no modelo de avaliação de empresas elaborado 
+por Ohlson. Dechow, Hutton e Sloan (1999) avaliaram implicações empíricas do 
+modelo de Ohlson confirmando a proposição da influência dos lucros residuais no 
+valor da empresa captado na previsão dos analistas, mesmo sendo relacionados às 
+previsões de curto prazo.
+
+Assim, não há como dispensar a análise sobre o lucro evidenciado na 
+contabilidade, sobretudo quando se confirma sua capacidade em subsidiar decisões 
+com base em expectativas futuras. Contudo, é importante se discutir sobre a sua 
+formação e possível manipulações por gestores.
+
+O poder de alteração do resultado decorre das acumulações discricionárias 
+(*discretionary accruals*), assim descritas pela acumulação de valores aderentes 
+aos critérios de reconhecimento no resultado, mas sem gerar caixa ou 
+equivalentes. A discricionariedade dos gestores não é caracterizada, todavia,
+como fraudes. Trata-se da aplicação do julgamento de gestores com implicações 
+nas demonstrações contábeis em decorrência da atividade natural do negócio.
+
+Jones (1991) ao estudar indústrias americanas durante o período de isenção na 
+importação verificou haver gerenciamento de resultados por parte das empresas 
+para se enquadrarem dentro de tal política. O estudo analisou hipóteses, quais 
+sejam: (a) os incentivos conflitantes, onde previa que, por exemplo, credores 
+permitiriam a alteração ou anulação de contratos durante a isenção, pois os 
+resultados menores desse período seriam compensados com situações favoráveis 
+futuras; (b) o *free-rider problem*, referente a uniformização de procedimentos 
+pelas indústrias durante o período de isenção para manutenção equânime dos 
+resultados e, (c) os tipos de investigação, pois o ITC – 
+*International Trade Commission* normalmente requeria informações dos últimos 
+cinco anos e com previsão de sanções para faltas graves, os gestores poderiam 
+preferir opções com menores sanções, em detrimento, inclusive, de sua 
+remuneração.
+
+Esse contexto provocou a discussão sobre a qualidade dos lucros com base no 
+conhecimento dos *accruals* embutidos nos resultados reportados pelas empresas. 
+DeFond (2010) demonstra em sua pesquisa os interesses pela qualidade do lucro, 
+expondo como seus determinantes as duras acusações da SEC – 
+*Securities Exchange Comission* quanto a fragilidade da contabilidade em conter 
+a discricionariedade indevida na apuração de lucros, a adoção do modelo de Jones 
+como proxy para identificação de gerenciamento de resultados e a implantação de 
+normas internacionais de contabilidade.
+
+DeFond (2010) também relaciona a busca por *proxies* de retornos anormais como 
+meio para difundir o interesse na qualidade do lucro. Outros fatores como 
+qualidade na auditoria, controles internos e reconhecimento de perdas em tempo 
+hábil também compõe o portfólio de mecanismos para identificação de qualidade de 
+lucros nas pesquisas. A grande importância dessas pesquisas, conforme DeFond 
+(2010), é a obtenção de uma melhor compreensão sobre os impactos da qualidade 
+dos lucros nas tomadas de decisão.
+
+A mensuração da qualidade dos lucros foi proposta em modelos específicos como em 
+Dechow e Dichev (2002) cujo foco foi proporcionam uma forma alternativa para 
+obter medidas de qualidade de *accruals*. Os resultados da pesquisa indicaram 
+uma forte relação negativa entre a qualidade dos *accruals* e persistência do 
+lucro. Assim, para as empresas a parcela maior de *accruals* do resultado atual 
+é um mal indicador de lucros futuros, implicando na menor persistência de 
+lucros.
+
+A avaliação de qualidade de lucro com base em *accruals* ou na relação com a sua 
+aceitação pelo mercado não são suficientes para determinar a importância do 
+lucro para as tomadas de decisão. Para Dechow e Schrand (2004), o uso de lucro 
+em modelos de avaliação pode ser teoricamente justificado, porém a questão 
+crucial é se os analistas estão em situação favorável para previsões ou se a 
+previsão se baseia na expectativa de caixa futuro. Os próprios autores já 
+demonstram ser o modelo baseado em lucros mais eficiente, comparado aos modelos 
+baseados em fluxos de caixa.
+
+Por fim, considera-se a relação entre lucro, fluxo de caixa e *accruals* uma 
+ferramenta importante para a tomada de decisões econômicas. A formação do lucro 
+das empresas é repleta de facetas contábeis voltadas a qualificar a informação 
+prestada aos usuários, contudo podem ser prejudiciais quando utilizados de forma 
+indevida. Portanto a sequência lógica iniciada com o lucro como indicador de 
+fluxo de caixa e os *accruals* como parte do lucro não realizado em caixa podem 
+determinar a confiabilidade de uma empresa. Assim, como é possível gerar 
+credibilidade no lucro mesmo contendo *accruals*?
+
+
+---
+
+Coelho, A. C. D. & Carvalho, L. N. (2007). Análise conceitual de lucro
+abrangente e lucro operacional corrente: evidências no setor financeiro 
+brasileiro. *BBR – Brazilian Business Review*, *4*(2), 119-139.
+
+Dechow, P. M. & Dichev, I. D. (2002). The quality of accruals and earnings: the 
+role of accrual estimation errors. *The Accounting Review*, *77*(4), 35-59.
+
+Dechow, P. M., Ge, Weili & Schrand, C. M. (2010). Understanding earnings 
+quality: a review of proxies, their determinants and their consequences.
+*Journal of Accounting and Economics*, *50*(2-3), 344-401.
+
+Dechow, P. M. & Schrand, C. M. (2004). *Earnings quality*. Charlottesville 
+(Virginia): CFA Institute.
+
+Dechow, P., Hutton, A. & Sloan R. (1999). An empirical assessment of the
+residual income valuation model. *Journal of Accounting and Economics*, *26*(1-3),
+1-34.
+
+Dechow, P. M., Kothari, S. P. & Watts, R. L. (1998). The relationship between
+earnings and cash flows. *Journal of Accounting and Economics*, *25*(2), 133-168. 
+
+DeFond, M. L. (2010). Earnings quality research: advances, challenges and
+future research. *Journal of Accounting and Economics*. *50*(2-3), 402-409.
+
+Jones, J. J. (1991). Earnings management during importe relief investigations.
+*Journal of accounting research*. *29*(2), 193-228.
+
+Martins, E. (1999). Contabilidade *versus* fluxo de caixa.
+*Caderno de Estudos da Fipecafi*, *20*, 1-10.
+
+Sunder, S. (2014). *Teoria da contabilidade e do controle*. São Paulo: Atlas.
+
+---

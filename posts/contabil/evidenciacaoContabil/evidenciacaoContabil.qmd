@@ -1,0 +1,171 @@
+---
+title: "Evidenciação Contábil"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Disclosure
+  - Divulgação
+date: 2018-01-18
+toc: true
+image: "evidenciacaoContabil.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](evidenciacaoContabil.png)
+
+A contabilidade se estabelece na economia como um instrumento de redução de 
+assimetrias por meio da elaboração e emissão de informações empresarias no 
+intuito de suprir agentes de mercado com informações úteis para suas tomadas de 
+decisão. Na relação contratual da firma as decisões são voltadas a permanência 
+nos contratos assumidos entre os agentes. A contabilidade ao mensurar e divulgar 
+o resultado de cada agente, sofre influência das partes contratantes em nível 
+compatível com sua participação no contrato.
+
+É imprescindível a utilidade da informação contábil nesse contexto, pois, 
+conforme Paulo (2007), além de medir o desempenho da gestão, serve de 
+monitoramento de contratos, ampliando seu interesse pelos diversos agentes 
+possíveis da empresa. Um desafio para contabilidade é gerar informações 
+pertinentes para todos os interessados (*stakeholders*) na informação. Elaborar 
+uma informação sob medida para cada interessado torna-se inviável sob o ponto de 
+vista do custo benefício. Os custos de transação seriam elevados.
+
+Acionistas e credores divergem nos seus interesses, por exemplo. Enquanto os 
+acionistas visam o resultado da empresa, balizando-o com o resultado da gestão, 
+os credores procuram informações voltadas à capacidade de pagamento, risco e 
+outras modalidade relacionadas ao crédito. Dessa forma, a empresa poderá tender 
+a formular suas informações voltadas ao agente com maior influência dentre os 
+seus contratos.
+
+A informação contábil constitui, portanto, um pilar importante para 
+direcionamento das escolhas de políticas e procedimentos contábeis, em especial 
+no mercado financeiro. O processo de reconhecimento e mensuração dos componentes 
+contábeis revela a situação econômica de uma empresa através da emissão de 
+demonstrativos contábeis padronizados e elaborados para fins de informação. A 
+informação complementa-se com a divulgação dos métodos, técnicas e julgamentos 
+empregados durante o reconhecimento e a mensuração. (Lopes & Martins, 2005).
+
+Para o mercado, a evidenciação de todos os fatos impactantes nos números 
+contábeis das empresas é imprescindível na redução dos custos do processo de 
+negociação entre os agentes. (Watts & Zimmerman, 1990) e (Jensen & Meckling, 
+1976). Parte-se do pressuposto de um mercado onde as informações estejam 
+disponíveis para todos, denotando uma eficiência de mercado.
+
+Aklerlof (1970) pressupõe o uso de informações privilegiadas por apenas uma 
+dessas partes, cuja redução depende do desprendimento dessas informações 
+intrínsecas através de aumento de seu disclosure. Healy e Palepu (2001) 
+acrescentam o desafio crítico de uma alocação ótima de investimentos para 
+qualquer economia face às subjetividades implícitas nas informações divulgadas. 
+Hunton, Libby e Mazza (2006) indicam a crença dos gestores no aspecto positivo 
+de tornar as divulgações menos transparentes, reforçados na premissa de uma 
+menor intensidade de reação dos mercados à informação desconhecida e na alegação 
+de haver sanções a empresas transparentes.
+
+Portanto, a otimização do mercado de capitais depende da real intenção de manter 
+os usuários da informação contábil cientes de todos os fatos incidentes sobre 
+sua decisão de investimento. Essa atitude é dificultada por questões culturais e 
+legais tais como o ordenamento jurídico de um país. No Brasil, país *code law*, 
+há a tradição da decisão/escolha contábil pela regra e, possivelmente pela 
+divulgação daquilo dito como obrigatório.	
+
+Problemas de assimetria ocorridos após o contrato ser firmado trata-se do risco 
+moral. Para Macho-Stadler e Pérez-Castrillo (2001) o risco moral decorre do fato 
+de o principal não ser capaz de acompanhar o comportamento do agente após o 
+acerto contratual.
+
+Questões relacionadas ao esforço despendido para realização do contrato é o 
+cerne da resolução do contrato a ser firmado. Se por um lado o agente pode se 
+beneficiar da falta de monitoramento, do outro o principal, cônscio dessa 
+possibilidade pode precificar o risco moral e reduzir a remuneração contratada 
+ou propor incentivos para alinhamento dos interesses de ambos (principal e 
+agente).
+
+Ainda assim, permanecem problemas quanto ao equilíbrio contratual. A dificuldade 
+de saber a ação do agente pode levar o principal a sempre precificar esse risco 
+e remunerar agentes com incentivos desnecessários. Dessa forma, é preciso 
+diferenciar cada agente e reconhecer os reais riscos existentes na relação.
+
+Comparativamente à seleção adversa, o risco moral diferencia-se por representar 
+*ações* não divulgadas, enquanto a primeira baseia-se em *informações* não 
+divulgadas. Assim, ambos carecem do real interesse do agente na concretização de 
+redução de assimetria.
+
+Sob o ponto de vista contábil, é possível atuar mensurando confiavelmente a 
+remuneração baseada em desempenhos. Pressupõe-se a acurácia do resultado 
+divulgado e a confiança na metodologia utilizada para seu cálculo. Com base nos 
+resultados obtidos verifica-se o reflexo do interesse do principal. Ainda assim, 
+a remuneração do agente pode conter valoração baseadas em riscos inexistentes.
+
+Verrechia (2001) estabelece três categorias de *disclosure* que direcionam as 
+pesquisas nessa área: a) divulgação baseada em associação; b) divulgação baseada 
+em julgamento; e, c) Divulgação baseada em eficiência.
+
+A divulgação baseada em associação interessa aquelas pesquisas com intuito de 
+associar a divulgação com outras variáveis. O custo de capital, preço das ações,
+rentabilidade são exemplos de variáveis retratadas em pesquisa dessa natureza 
+com associação ao *disclosure*. As pesquisas baseadas em associação pressupõem a 
+informação ser diferente entre os participantes do mercado e estes a 
+interpretarem de forma diferente. (Salotti & Yamamoto, 2005)
+
+A análise do processo endógeno da firma quanto a divulgação remete ao 
+*disclosure* baseado em julgamento. Trata-se do processo onde pesquisadores 
+avaliam a divulgação discricionária de informações pelos gestores. Consideram-se 
+os incentivos dos gestores para divulgar determinada informação. Os interesses 
+são diversos: sinalização de notícias boas ou más, demonstração de informações 
+que a diferencie das demais, dentre outras. (Salotti & Yamamoto, 2005)
+
+A divulgação com base no julgamento normalmente desencadeia um interesse 
+especial, qual seja o desempenho. Assim, a terceira categoria proposta por 
+Verrechia (2001) consiste na divulgação baseada em eficiência para a qual as 
+informações serão divulgadas pelos gestores por entenderem gerarem melhor 
+eficiência nos seus resultados.
+
+Por fim, o processo de divulgação não se desvincula da discricionariedade da 
+gestão. As informações são divulgadas para atender especificações legais, mas 
+também para satisfazer o interesse da gestão. Diversas pesquisas são realizadas 
+no sentido de verificar níveis de *disclosure*, cujos resultados não convergem 
+para o mesmo ponto. Seja pela metodologia aplicada ou pela dificuldade de se 
+mensurar o nível de divulgação, há que se considerar a possibilidade de, mesmo 
+com exigências legais, a gestão pode preterir algumas divulgações em favor de 
+outras.
+
+---
+
+Akerlof, G. A. (1970). The Market for "Lemons": Quality Uncertainty and the
+Market Mechanism. *The Quarterly Journal of Economics*, *84*(3), 488-500.
+
+Hunton, J. E., Libby, R. & Mazza, C. L. (2006). Financial reporting transparency 
+and earnings management. *The Accounting Review*, *81*(1), 135-157.
+
+Healy, P. M. & Palepu, K. G. (2001). Information asymmetry, corporate disclosure, and the
+capital markets: A review of the empirical disclosure literature. *Journal of Accounting*
+*and Economics*, *31*(1-3), 405-440.
+
+Jensen, M. C. & Meckling, W. H. (1976). Theory of the firm: Managerial behavior, agency
+costs and ownership structure. *Journal of Financial Economics*, *3*(4), 305-360.
+
+Lopes, A. B. & Martins, E. (2005). *Teoria da contabilidade: uma nova abordagem*.
+São Paulo: Atlas.
+
+Macho-Stadler, I. & Pérez-Castrillo, J. D. (2001). *An introduction to the*
+*economics of information*. (2$^{a}$ ed). Oxford: Oxford Unviersity Press.
+
+Paulo E. (2007). *Manipulação das informações contábeis: uma análise teórica e empírica sobre*
+*os modelos operacionais de detecção de gerenciamento de resultados*. Tese de Doutorado,
+Universidade de São Paulo, SP, Brasil.
+
+Salotti, B. M. & Yamamoto, M. M. (2005). Ensaio Sobre a Teoria da Divulgação.
+*Brazilian Business Review*, *2*(1), 53-70.
+
+Verrechia. R. E. (1990). Information quality and discretionary disclosure. *Journal of*
+*Accounting and Economics*, *12*(4), 365-380.
+
+Watts, R. L. & Zimmerman, J. L. (1990). Positive accounting theory: a ten year perspective.
+*The Accounting Review*, *65*(1), 131-156.
+
+---

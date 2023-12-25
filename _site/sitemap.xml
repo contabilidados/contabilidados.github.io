@@ -2,74 +2,178 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://contabilidados.com.br/cntdd/about.html</loc>
-    <lastmod>2023-12-19T23:14:12.410Z</lastmod>
+    <lastmod>2023-12-22T12:16:39.265Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/cntdd.html</loc>
-    <lastmod>2023-12-19T23:17:16.973Z</lastmod>
+    <lastmod>2023-12-22T12:16:40.670Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/curriculum/alunos/aluno.html</loc>
-    <lastmod>2023-12-19T23:14:13.938Z</lastmod>
+    <lastmod>2023-12-22T12:16:41.089Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/curriculum/profs/kleber.html</loc>
-    <lastmod>2023-12-19T23:14:14.336Z</lastmod>
+    <lastmod>2023-12-22T12:16:41.510Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html</loc>
-    <lastmod>2023-12-19T23:14:18.286Z</lastmod>
+    <lastmod>2023-12-25T17:54:51.955Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/eventos/economaticaR/economaticaR.html</loc>
-    <lastmod>2023-12-19T23:14:21.227Z</lastmod>
+    <lastmod>2023-12-22T12:16:48.126Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/index.html</loc>
-    <lastmod>2023-12-19T23:15:50.704Z</lastmod>
+    <lastmod>2023-12-25T17:54:43.883Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/meetings.html</loc>
-    <lastmod>2023-12-19T23:14:22.487Z</lastmod>
+    <lastmod>2023-12-25T17:54:44.381Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/membros.html</loc>
-    <lastmod>2023-12-19T23:17:28.082Z</lastmod>
+    <lastmod>2023-12-22T12:16:51.918Z</lastmod>
   </url>
   <url>
-    <loc>https://contabilidados.com.br/cntdd/pacotes/indices/liqCorrente.html</loc>
-    <lastmod>2023-12-19T23:14:34.145Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contabilidados.com.br/cntdd/pacotes/indices/liqSeca.html</loc>
-    <lastmod>2023-12-19T23:14:43.559Z</lastmod>
+    <loc>https://contabilidados.com.br/cntdd/pacotes/indices/liquidezSeca/liqSeca.html</loc>
+    <lastmod>2023-12-22T12:17:03.261Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/posts/contabil/accountingHistory/accountingHistory.html</loc>
-    <lastmod>2023-12-19T23:15:40.195Z</lastmod>
+    <lastmod>2023-12-22T12:17:06.791Z</lastmod>
   </url>
   <url>
-    <loc>https://contabilidados.com.br/cntdd/posts/contabil/resenha_escolhasContabeis/escolhasContabeis.html</loc>
-    <lastmod>2023-12-19T23:14:50.018Z</lastmod>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/economiaInformacao/economiaInformacao.html</loc>
+    <lastmod>2023-12-22T12:17:10.268Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/escolhasContabeis/escolhasContabeis.html</loc>
+    <lastmod>2023-12-22T12:17:13.830Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/estruturaConceitual/estruturaConceitual.html</loc>
+    <lastmod>2023-12-22T12:17:17.519Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html</loc>
+    <lastmod>2023-12-22T12:17:21.236Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/flxCxAccruals/flxCxAccruals.html</loc>
+    <lastmod>2023-12-22T12:17:24.906Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html</loc>
+    <lastmod>2023-12-22T12:17:28.496Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html</loc>
+    <lastmod>2023-12-22T12:17:32.635Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/pesquisaContabil/pesquisaContabil.html</loc>
+    <lastmod>2023-12-22T12:17:36.916Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/qualidadeInformacao/qualidadeInformacao.html</loc>
+    <lastmod>2023-12-22T12:17:41.113Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/regulacaoContabil/regulacaoContabil.html</loc>
+    <lastmod>2023-12-22T12:17:45.042Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/contabil/teoriaAgencia/teoriaAgencia.html</loc>
+    <lastmod>2023-12-22T12:17:48.731Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/posts/contabil/valueRelevance/valueRelevance.html</loc>
-    <lastmod>2023-12-19T23:14:54.165Z</lastmod>
+    <lastmod>2023-12-22T12:17:52.292Z</lastmod>
   </url>
   <url>
-    <loc>https://contabilidados.com.br/cntdd/posts/finance/apresentacao/presentationCINCO.html</loc>
-    <lastmod>2023-12-19T23:14:59.575Z</lastmod>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/anomalias/anomalias.html</loc>
+    <lastmod>2023-12-22T12:17:56.316Z</lastmod>
   </url>
   <url>
-    <loc>https://contabilidados.com.br/cntdd/posts/finance/exemploFinancas/index.html</loc>
-    <lastmod>2023-12-19T23:15:03.515Z</lastmod>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/assimetriaInformacional/assimetriaInformacional.html</loc>
+    <lastmod>2023-12-22T12:18:00.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/custoEstruturaCapital/custoEstruturaCapital.html</loc>
+    <lastmod>2023-12-22T12:18:04.101Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html</loc>
+    <lastmod>2023-12-22T12:18:07.756Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.html</loc>
+    <lastmod>2023-12-22T12:18:11.829Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/governancaCorporativa/governancaCorporativa.html</loc>
+    <lastmod>2023-12-22T12:18:15.643Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html</loc>
+    <lastmod>2023-12-22T12:18:19.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.html</loc>
+    <lastmod>2023-12-22T12:18:23.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/HME/HME.html</loc>
+    <lastmod>2023-12-22T12:18:27.035Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html</loc>
+    <lastmod>2023-12-22T12:18:30.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/modelosGovernanca/modelosGovernanca.html</loc>
+    <lastmod>2023-12-22T12:18:35.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/politicaDividendos/politicaDividendos.html</loc>
+    <lastmod>2023-12-22T12:18:39.013Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.html</loc>
+    <lastmod>2023-12-22T12:18:42.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html</loc>
+    <lastmod>2023-12-22T12:18:46.556Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/sentimentoInvestidor/sentimentoInvestidor.html</loc>
+    <lastmod>2023-12-22T12:18:50.136Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html</loc>
+    <lastmod>2023-12-22T12:18:54.242Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.html</loc>
+    <lastmod>2023-12-22T12:18:57.840Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html</loc>
+    <lastmod>2023-12-22T12:19:01.333Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contabilidados.com.br/cntdd/posts/finance/visaoGeralFinancas/visaoGeralFinancas.html</loc>
+    <lastmod>2023-12-22T12:19:05.026Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/posts.html</loc>
-    <lastmod>2023-12-19T23:16:26.864Z</lastmod>
+    <lastmod>2023-12-22T12:21:03.067Z</lastmod>
   </url>
   <url>
     <loc>https://contabilidados.com.br/cntdd/team/about.html</loc>
-    <lastmod>2023-12-19T23:15:04.774Z</lastmod>
+    <lastmod>2023-12-22T12:19:07.931Z</lastmod>
   </url>
 </urlset>

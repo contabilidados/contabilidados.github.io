@@ -1,0 +1,164 @@
+---
+title: "Teoria da Eficiência de Mercado"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - HME
+  - Preços
+date: 2021-12-23
+toc: true
+image: "teoriaEficienciaMercado.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](teoriaEficienciaMercado.png)
+
+A Hipótese de Eficiência do Mercado (HME) trata da absorção das informações 
+disponíveis pelos preços de valores mobiliários, cujo termo “eficiência” decorre 
+da capacidade de os agentes alocarem eficientemente seus capitais por meio do 
+conhecimento equânime dessas informações. De acordo com HME, não há como 
+qualquer agente obter ganhos anormais, considerando o mesmo acesso informacional 
+entre os agentes. Dessa forma, a alocação da propriedade do capital da economia, 
+papel principal do mercado de capitais é satisfeito (Fama, 1970). Trata-se de 
+uma área ampla, tendo o estudo de Fama (1970) se proposto a traçar um panorama
+sobre as principais linhas dessa teoria com as abordagens de uma eficiência na 
+forma forte, semiforte e fraca, cujos níveis são relacionados ao nível de 
+informação disponível em cada subconjunto.
+
+O ponto crucial na definição da HME é fato de o termo “totalmente refletido nos 
+preços” ser tão geral a ponto de não haver implicações testáveis. Para torná-la 
+testável, Fama (1970) buscou especificar com mais detalhes o processo de 
+formação dos preços. Com base no modelo denominado de *fair game*, baseado no 
+retorno esperado, conforme Equação 1:
+
+$$E(\tilde{p}_{j,t+1}|\Phi_{t}) = [1 + E(\tilde{r}_{j,t+1}|\Phi_{t})]p_{jt}$$
+
+De acordo com a Equação 1, o preço esperado (p) de um ativo j para o período 
+seguinte (t+1) corresponde ao seu preço atual (t) acrescido de uma taxa de 
+retorno esperado (r), ambos baseados na informação atualmente disponível ($\Phi_{t}$). 
+Por meio dessa formulação foi possível determinar as condições de equilíbrio do 
+mercado para poder ser declarado em termos de expectativa de retorno, ficando o 
+termo “completamente refletido” baseado no conjunto de informações determinados 
+por $\Phi_{t}$ e, tendo maior implicação empírica. A partir de então definiu-se
+o preço e, consequentemente, o retorno do período seguinte iguais a zero quando
+a decisão for tomada com base nas informações atualmente disponíveis. Assim,
+$E(\tilde{p}_{j,t+1}|\Phi_{t}) = 0$ e $E(\tilde{r}_{j,t+1}|\Phi_{t}) = 0$.
+O retorno esperado (*fair game model*) possui implicações testáveis, entretanto,
+dois casos são considerados por Fama (1970) como especiais, quais sejam o 
+*random walk* e o submartingale.
+
+No modelo submartingale há o pressuposto de retornos esperados não negativos 
+$E(\tilde{r}_{j,t+1}|\Phi_{t}) \geq 0$, implicando no fato de os valores
+esperados de um ativo j para o próximo período, projetados com base na
+informação disponível ($\phi_{t}$), são iguais ou maiores em relação ao preço
+corrente. Caso seja uma igualdade, a mudança de preço é igual a zero e, portanto,
+segue um modelo martingale. Assim, um investidor não poderia obter retornos
+anormais ao longo de tempo dada a imprevisibilidade dos retornos. Já o modelo
+*random walk* trata da aleatoriedade dos retornos futuros. O processo *Random*
+*Walk* estabelece a falta de memória na precificação de títulos, pois seu preço 
+atual reflete “totalmente a informação disponível”, portanto o preço futuro é
+altamente aleatório considerando a distribuição dos retornos passados não
+determinar a distribuição de retornos futuros. A função densidade probabilidade
+de um retorno dadas as informações disponíveis é a mesma para qualquer período,
+assim, $[f(r_{j,t+1}|\Phi_{t}) = f(r_{j,t+1}), ~~~\forall{t}]$. Portanto, os retornos
+esperados não mudam em virtude das informações disponíveis no tempo t.
+
+Definidas as premissas com base no *fair game*, *random walk* e submartingale, 
+Fama (1970) citou, antes de demonstrar suas evidências empíricas, algumas 
+condições consistentes com a eficiência. Considerando fácil essa tarefa 
+idealizou um mercado sem custos de transação em títulos, disponibilidade de 
+informações a todos os participantes a custo zero e todos os participantes 
+concordam com o preço atual e futuro dos títulos negociados. Nesse mercado, toda 
+a informação disponível estaria, obviamente, refletida no preço. Entretanto, não 
+correspondem à prática e, por outro lado, essas questões são suficientes, mas 
+não necessárias para a eficiência de mercado. Todavia, a existência desses 
+fatores não significa ineficiência, mesmo sendo fontes potenciais. A mensuração 
+dos efeitos desses fatores sobre o processo de formação de preços é o maior 
+objetivo dos trabalhos empíricos nessa área (Fama, 1970).
+
+As pesquisas empíricas em teoria da eficiência de mercado se preocuparam em 
+identificar se os preços refletiam totalmente as informações disponíveis em
+subconjuntos particulares. Inicialmente, os estudos se preocuparam com o reflexo 
+dos preços decorrentes dos preços históricos. Esse subconjunto (preços 
+históricos) constituem a **forma fraca** da eficiência de mercado. Após diversos 
+testes parecerem suportar essa hipótese de eficiência, a atenção se volta à 
+informações publicamente disponíveis (anúncio de dividendos, relatórios anuais, 
+demonstrações contábeis, etc), sendo essa a **forma semiforte**. Por fim, a
+**forma forte** testando se algum investidor (ou grupo de investidores) possuem
+acesso privilegiados a informações para formação de suas expectativas de preços.
+
+A generalidade da forma forte da HME torna seus testes impraticáveis e sofre, 
+portanto, críticas importantes, observadas em Fama (1991) quando propõe mudar o 
+foco de cada teste da HME. A forma fraca se preocuparia com uma área ampla de 
+teste de previsões de retorno, incluindo teste com dividendos, taxas de juros e 
+sazonalidade (efeito janeiro). Para a forma semiforte o autor propôs uma mudança 
+no título para estudo de eventos e na forma forte mudança no título para teste 
+de informação privada. Desta forma, as pesquisas se concentrariam na 
+previsibilidade de retornos com base em retornos passados e política de 
+dividendos, na forma fraca. Na forma semiforte os estudos se direcionariam para 
+análise do impacto da publicação de informações ao mercado no preço dos títulos 
+com base em estudo de eventos, para o qual seriam avaliadas alterações nos 
+preços em períodos *ex ante* e *ex post* a determinado evento. E, por fim, na 
+forma forte as pesquisas procurariam a compreensão, por meio de testes de 
+informações privadas (ou privilegiadas), sobre o comportamento dos preços de 
+títulos na presença de agentes com informações mais completas perante seus 
+pares.
+
+A dificuldade de testes da HME provocou algumas pesquisas empíricas no sentido 
+de entender a precificação de ativos, dentre os quais Fama (1991) cita: a) O 
+Modelo de Sharpe-Lintner-Black (SLB) para o qual carteiras não correlacionadas 
+com o mercado oferecem retorno igual à taxa livre de risco; b) Merton (1973) e 
+Ross (1976), complementando o modelo SLB, por meio da avaliação de múltiplos 
+fatores na geração de retornos, além do fato de os retornos previstos limitar-se 
+a sensibilidades; c) Os Modelos baseado em consumo (Rubinstein, 1976; Lucas, 
+1978; Breeden, 1979) onde os retornos esperados sobre os títulos seria função 
+linear e positiva de seu consumo. O modelo multifatorial de Merton e Ross, 
+segundo Fama (1991) é o sobressalente dentre todos.
+
+Há uma indicação por Fama (1991) para a contribuição mais eficaz nos estudos de 
+eventos, especialmente quando tratado em nível diário. Na forma forte, tratada 
+em pesquisas sobre informações privadas, são indicados a análise da 
+rentabilidade do *insider trading*, pois algumas pesquisas indicam a existência 
+de informações privadas no mercado (*value line*, analistas de seguros, gestores 
+de investimentos). Contudo o custo para o acesso a essas informações pode 
+explicar o retorno anômalo para esses casos, denotando um mercado não tão 
+eficiente, mas não foge da premissa da racionalidade dos investidores.
+
+Malkiel (2003) avalia críticas à HME por meio de resultados estatísticos 
+definindo eficiência quando retornos anormais são decorrentes de riscos anômalos. 
+Para Malkiel (2003) existem evidências explícitas para a ineficiência do mercado. 
+Cita alguns casos como a bolha da internet, em 2000, e outros casos como em 1987 
+quando o mercado perdeu um terço de seu valor sem indicações de mudanças no 
+ambiente. O efeito janeiro também é abordado por ser um fato conhecido do 
+mercado, mas recorrente. No caso do “efeito janeiro” os preços das ações tendem 
+a crescer no início de janeiro de cada ano e se a HME fosse verdadeira, o 
+mercado já teria ajustado essa informação no preço, impedindo sua recorrência, 
+mas não é o caso.
+
+A diferença explícita entre a HME e a proposição de Malkiel (2003) consiste na 
+incorporação parcial ou total da informação na variação dos preços de títulos. 
+Para a HME as variações de preços incorporam todas as informações a respeito das 
+empresas, enquanto Malkiel (2003) propõe a possibilidade de haver ruídos no 
+fluxo informacional, dificultando o reflexo da informação nos preços. Dessa 
+forma, o mercado de capitais é muito mais eficiente e muito menos previsível 
+comparados aos resultados de trabalhos empíricos dispostos na literatura.
+
+
+---
+
+Fama, E. F. (1970). Efficient capital markets: a review of theory and empirical 
+work. *The Journal of Finance*, *25*(2), 383–417.
+
+Fama, E. F. (1991). Efficient capital markets: II. 
+*The Journal of Finance*, *46*(5), 1575–1617.
+
+Malkiel, B. G. (2003). The efficient market hypothesis and its critics. 
+*The Journal of Economic Perspectives*, *17*(1), 59–82.
+
+---

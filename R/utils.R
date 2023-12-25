@@ -15,7 +15,7 @@ rename_md_to_qmd <- function(folder = "talks/pt"){
 
 alterar_yaml <- function(input_file) {
   # o que tem apos o yaml??
-  input_lines <- readLines(input_file)
+  input_lines <- readLines(input_file, encoding = "UTF-8")
   delimiters <- grep("^---\\s*$", input_lines)
   apos_yaml <- input_lines[delimiters[2]:length(input_lines)]
 
@@ -66,7 +66,7 @@ toc: true",
 
 read_yaml_matter <- function(input_file) {
   # https://stackoverflow.com/questions/62095329/how-to-edit-an-r-markdown-yaml-header-programmatically/62096216#62096216
-  input_lines <- readLines(input_file)
+  input_lines <- readLines(input_file, encoding = "UTF-8")
   delimiters <- grep("^---\\s*$", input_lines)
   if (!length(delimiters)) {
     stop("unable to find yaml delimiters")

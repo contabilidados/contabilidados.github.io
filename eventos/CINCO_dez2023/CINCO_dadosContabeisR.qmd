@@ -3,7 +3,7 @@ toc: true
 author: cntdd
 categories: [R, Economatica, Análise de Dados]
 date: '2023-12-14'
-event: "Noções Básicas de Técnicas Contábeis e Financeiras com o R"
+event: "CINCO - I Congresso Interinstitucional de Contabilidade e Controladoria"
 event_url: https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCO
 links:
 - icon: file-pdf
@@ -19,7 +19,7 @@ links:
   name: "Dia 2"
   url: https://www.youtube.com/watch?v=7mgmchEo-1w
 location: Online
-title: "Análise de dados com R e Economatica"
+title: "Noções Básicas de Técnicas Contábeis e Financeiras com o R"
 image: figs/cinco.png
 draft: false
 ---
@@ -33,4 +33,8 @@ read_yaml_talks_pt()
 
 <br>
 
-Minicurso que abordou...
+O minicurso abordou a importância da análise de dados como uma habilidade para
+o profissional contábil, demonstrando como o tratamento estratégico dados aos dados
+otimiza o processo de coleta e análise de informações relevantes para o processo
+decisório. No aspecto prático, foi demonstrado como algumas técnicas contábeis e
+financeiras podem ser realizadas com a aplicação R Programming.

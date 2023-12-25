@@ -1,0 +1,229 @@
+---
+title: "Teoria da Agência e Teoria dos Stakeholders"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Teoria da Firma
+  - Teoria Agência
+  - Stakeholders
+date: 2020-09-18
+toc: true
+image: "teoriaAgenciaStakeHolders.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](teoriaAgenciaStakeHolders.png)
+
+A continuidade das atividades é uma meta permanente para todo empreendimento, 
+pois representa o sucesso do investimento e efetivação da empresa na relação 
+contratual motivadora de sua existência. A responsabilidade pelo êxito 
+empresarial não depende de apenas um indivíduo ou grupo, mas de todos os 
+interessados na fixação do negócio no mercado.
+
+Embora esse contexto pareça óbvio, norteia a discussão conceitual e teórica de 
+abordagens tratadas no âmbito da firma. Especificamente, serão discutidas as 
+teorias da agência (TAg) e a teoria dos *stakeholders* (TSh), cujas abordagens 
+diferem quanto ao foco a ser dado para a existência e continuidade das firmas.
+
+Ambas teorias revelam um papel endógeno da firma, contrariamente ao contexto 
+envolto em princípios econômicos neoclássicos, para os quais a firma 
+desempenharia papel secundário na economia. A firma, no âmbito da TAg e TSh,
+responsabiliza-se pelo seu desempenho e a partir da sua efetivação, provoca 
+modificações no ambiente levando concorrentes e demais agentes a acompanhar 
+novos paradigmas exitosos.
+
+O questionamento a ser discutido é quanto ao foco da empresa: o acionista ou 
+todas as partes interessadas?
+
+Para Jensen e Meckling (1976) as relações contratuais compõem a essência da 
+firma e tratam dos problemas de agência enfrentados nessas relações. Contudo, 
+embora reconheçam as relações entre a firma e outras partes interessadas como 
+empregados, clientes e fornecedores, focam essencialmente na relação entre 
+acionistas e administradores (alta administração).
+
+Propondo complementar a abordagem da TAg, a TSh assimila outros participantes na 
+relação contratual da firma além do acionista e gestores. Conforme Hill e Jones 
+(1992), autores interessados em áreas ainda não exploradas inerentes ao 
+comportamento organizacional, teoria organizacional e gestão estratégica buscam 
+explicar a natureza das relações contratuais implícitas e explícitas existentes 
+entre os *stakeholders* da firma. Além de gestores e acionistas, *stakeholders* 
+incluem empregados, clientes, fornecedores e público em geral. (Hill & Jones, 
+1992).
+
+A discussão a seguir trata de apresentar e comparar as abordagens trazidas pela 
+TAg e pela TSh. Se por um lado os gestores e acionistas são o foco de atenção 
+por serem os responsáveis pela maximização dos resultados da firma, de outro 
+lado tem-se todas as demais relações da firma com o meio também influentes e 
+interessados no resultado da firma.
+
+A literatura econômica das décadas de 60 e 70 centrou-se nas relações 
+empresariais entre gestores e acionistas, especificamente quanto ao valor da 
+firma considerando o valor de uma firma quando gerida pelos proprietários e 
+quando gerida por gestores profissionais.
+
+A separação entre propriedade e controle é abordada em Jensen e Meckling (1976) 
+para a relação entre elementos da teoria dos direitos de propriedades, teoria da 
+agência (TAg) e teoria das finanças. Para a abordagem desse *position paper* 
+interessa a discussão quanto a TAg, em especial o pressuposto da maximização de 
+utilidade de gestores e acionistas. Para Jensen e Meckling (1976), se ambos 
+buscam otimizar seus resultados há boas razões para o agente agir, algumas vezes, 
+em prol de seus interesses em detrimento ao interesse dos acionistas.
+
+Constitui-se a relação principal-agente sobre a qual são explorados os conflitos 
+de interesse entre o transmissor de poderes (principal) e o executor (agente). 
+Essa relação recebe, de acordo com Jensen e Meckling (1976), uma conotação 
+metafórica de contrato. O contrato é a unidade de análise responsável pela 
+regência dos limites da relação entre o principal e o agente. As pesquisas 
+interessadas nessa linha de atuação procuram meios para determinação do contrato 
+mais eficiente ou descrever mecanismos capazes de limitar a atuação oportunista 
+do agente.
+
+Para Eisenhardt (1989), um contrato eficiente seria aquele capaz de alinhar os 
+interesses do principal e do acionista. Para tal, seria preciso escolher entre 
+um contrato baseado em resultado ou baseado em comportamento. Para o primeiro 
+(resultado) o agente teria incentivos para agir tal qual o principal por meio de
+participação acionária, comissões, direitos de propriedade. Já para o segundo
+(comportamento) seriam utilizados mecanismos como salários fixos, *status* e 
+hierarquia na empresa.
+
+Estabelecem-se, dentro da teoria da firma, duas linhas com a mesma unidade de 
+análise qual seja o contrato entre principal e agente: a linha positivista e a 
+linha principal-agente. A linha positivista preocupada na identificação de 
+situações onde os objetivos do principal e agente são conflitantes e de cunho 
+menos matemático. Para os positivistas da TAg, os contratos baseados em 
+resultados são mais eficientes. Na linha principal-agente procura-se uma teoria 
+geral desse relacionamento com aplicação em relações como empregador-empregado,
+comprador-fornecedor, dentre outras. Para a linha do principal-agente os 
+pressupostos são cuidadosamente especificados, seguidos de dedução lógica e 
+prova matemática. (Eisenhardt, 1989).
+
+Quão avançadas forem as descobertas acerca de mecanismos inibidores de práticas 
+oportunistas do agente, maiores serão os reflexos (positivos ou negativos) sobre 
+os custos de agência. Os custos de agência são definidos por Jensen e Meckling 
+(1976) como o desembolso necessário para monitoramento e segurança de decisões 
+ótimas pelo agente com vistas a atender às exigências do principal. Dada a 
+certeza da existência dos custos de agência (Jensen & Meckling, 1976), há a 
+propensão em procurar reduzi-los por meio de contratos eficazes. Nesse campo 
+emergem campos para pesquisas preocupadas em descrever ou identificar mecanismos 
+com o potencial de alinhar os interesses entre principal e agente.
+
+O foco da relação entre o principal e o agente, conforme aborda a TAg, denota 
+haver a maximização do valor da firma quando o esse contrato é eficiente. 
+Contudo, Jensen e Meckling (1976) enfatizam ser apenas uma pequena parcela dos 
+problemas geradores dos custos de agência. Trata-se de um recorte metodológico 
+na avaliação do objeto de estudo proposto para análise entre a propriedade e a 
+alta administração da empresa.
+
+Outras pesquisas propuseram analisar o problema de agência de forma ampla ao 
+considerar todas as relações contratuais implícitas e explícitas entre todas as 
+partes interessadas na firma. Edith Penrose ao publicar 
+*A Teoria do Crescimento da Firma* lançou as bases conceituais para essa teoria
+mais abrangente do ponto de vista da análise, denominada Teoria dos 
+*Stakeholders* (TSh). (Clarke, 1998).
+
+Os objetivos das empresas devem derivar do equilíbrio entre as reivindicações 
+das várias partes interessadas nas empresas. Assim, o interesse não apenas de 
+acionistas e gestores, mas de funcionários, fornecedores, clientes, dentre 
+outros, deveriam ser considerados como essenciais para maximização do valor da 
+firma. Especialmente em ambiente competitivo onde os valores intangíveis são 
+variáveis inerentes.
+
+Embora haja diferenciações entre a TAg e a TSh, seus focos de análise são os 
+conflitos entre agentes do processo contratual da firma. A distinção essencial 
+reside no foco restrito da TAg por tratar apenas da relação entre acionistas e 
+gestores da alta administração, comparado ao foco mais abrangente da TSh por 
+abranger todas as relações contratuais da firma. Ressalta-se serem ambas 
+incorporadas à ideia da teoria da agência, preocupando-se com aspectos 
+diferentes (ou complementares) das motivações para a maximização do valor da 
+firma.
+
+Essas divergências são destacadas por Hill e Jones (1992) quando relatam serem 
+similares em muitos aspectos ambas as teorias. Para os autores, a TSh baseia-se 
+em pressupostos relativos a processos de mercado substancialmente diferentes 
+daqueles subjacentes à versão da TAg. Enquanto a TAg pressupõe a eficiência dos 
+mercados na qual há um ajuste rápido do mercado à novas circunstâncias, a TSh 
+admite ineficiências nesse processo. A eficiência de mercado implica em trânsito 
+livre (saída e entrada) dos principais e agentes pelo contrato. Para a TAg essa 
+liberdade não existe, pois existem fatores impeditivos, tais como escassez de 
+bons gestores, além de não haver sempre possibilidade de escolha imediata.
+
+A TSh é utilizada por algumas pesquisas de caráter descritivo/empírico para 
+explicar características e comportamentos específicos tais como a natureza da 
+empresa, a forma como os gerentes pensam sobre a gestão das empresas, como os 
+membros do conselho enxergam a gestão. (Donaldson & Preston,1995). Pesquisas 
+instrumentais são caracterizadas por proporem práticas a serem adotadas pelas 
+partes interessadas no intuito de alcançar a otimização do desempenho e as 
+pesquisas normativas, indicadas por Donaldson e Preston (1995) como a mais 
+contributiva para a TSh, buscam interpretar a função da empresa, nesse esforço 
+incluem orientações morais e filosóficas sobre as operações e gestão das 
+empresas.
+
+É importante considerar todos os *stakeholders* da firma na perspectiva de serem 
+a razão de existência da firma. Clarke (1998) demonstra essa perspectiva como 
+sendo o conceito seminal do termo *stakeholder*. Clarke (1998) ainda menciona 
+outras iniciativas como fomentadoras do foco da gestão para os *stakeholders*, 
+quais sejam as relações com clientes e investidores.
+
+As abordagens de Clarke (1998) demonstram tendências para gestões modernas. Se 
+antes o foco era o acionista, hodiernamente temos toda a cadeia de relações como 
+importantes para o futuro da empresa. A concorrência acirrada com possibilidade 
+de informações positivas e negativas sobre os negócios, praticamente em tempo 
+real, empurram as gestões para novos paradigmas de sobrevivência.
+
+	
+Assim, os conflitos existentes no elo contratual da firma são verdadeiros e não
+podem ser negligenciados no momento de se estabelecer estratégias empresariais.
+No mínimo, deve-se observar a existência de custos de transação no processo de 
+contratação da firma com outros agentes.
+
+O monitoramento da gestão realizada pelo acionista, foco de análise da teoria da 
+agência trata-se de um dos principais objetos de análise nas pesquisas sobre 
+esses conflitos. O fato de o acionista não poder acessar todas as ações do 
+gestor contribui para criação de mecanismos inibidores de práticas oportunistas 
+em detrimento à maximização do valor da firma.
+
+Contudo, em tempos mais recentes, a maximização da riqueza do acionista passou a 
+ser questionada do ponto de vista do papel social das empresas, pois aquelas com 
+melhor tratamento com seus pares de contrato possuem mais receptividade, 
+comparadas àquelas com foco no lucro e nos interesses dos acionistas.
+
+Desta forma, emergem interesses por pesquisas sobre a teoria dos *stakeholders* 
+para a qual todos os interessados na empresa possuem reivindicações específicas 
+a serem atendidas pela gestão, sob pena de fuga de partes contratantes para 
+contratos mais viáveis.
+
+Conclui-se, por conseguinte, pelo direcionamento de pesquisas voltadas à 
+compreensão do bojo contratual da firma e não apenas de uma relação apenas como 
+propõe a teoria da firma. Ainda assim, é importante mencionar a importância da 
+relação principal-agente dentre as demais, pois o caráter residual da 
+remuneração dos acionistas lhes colocam em posição de maior risco. Nas demais 
+relações contratuais, os principais possuem direitos contratuais mais explícitos 
+e, por muitas vezes, garantias não dedicadas aos acionistas.
+
+
+---
+
+Clarke, T. (1998). The stakeholder corporation: A business philosophy for the 
+information age. *Long Range Planning*, *31*(2), 182-194.
+
+Donaldson, T. & Preston, L. E. (1995). The stakeholder theory of the Corporation: 
+concepts, evidence, and implications. *Academy of Management Review*, *20*(1), 
+65-91.
+
+Eisenhardt, K.M. (1989). Agency Theory: An Assessment and Review. 
+*The Academy of Management Review*, *14*(1), 57-74.
+
+Hill, C. W. L., & Jones, T. M. (1992). Stakeholder-agency theory. 
+*Journal of Management Studies*, *29*(2), 131-154.
+
+Jensen, M. C. & Meckling, W. H. (1976). Theory of the firm: managerial behavior, 
+agency costs and ownership structure. *Journal of Financial Economics*, *3*(4), 
+305-360.
+
+---

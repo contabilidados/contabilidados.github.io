@@ -1,0 +1,317 @@
+---
+title: "Estrutura Conceitual da Contabilidade"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - IFRS
+  - CPC
+  - FASB
+  - IASB
+date: 2019-05-15
+toc: true
+image: "estruturaConceitual.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](estruturaConceitual.png)
+
+Os conceitos subjacentes à preparação e apresentação das demonstrações contábeis 
+são estabelecidos, conforme o International Accounting Standards Board (2013),
+pela Estrutura Conceitual para Relatórios Financeiros (*Conceptual Framework for*
+*Financial Reporting*). Procura-se um sistema coerente de objetivos 
+inter-relacionados para levar a padrões contábeis consistentes na tentativa de 
+fornecer uma teoria estruturada da contabilidade (Deegan & Unerman, 2011).
+
+Para Deegan e Unerman (2011) estruturas conceituais de contabilidade prescrevem 
+a natureza, a função e os limites da contabilização. Os procedimentos contábeis 
+prescritos se encaixam em um padrão normativo, cujo propósito é estabelecer 
+uniformidade das ações ao ponto de permitir a comparação entre as informações 
+prestadas pelas entidades. De acordo com Financial Accounting Standards Board
+(2014), a estrutura conceitual objetiva desenvolver um quadro conceitual capaz 
+de fornecer uma base sólida para o desenvolvimento de normas contábeis futuras.
+
+De acordo com Godfrey *et al*, (2010), as estruturas conceituais do IASB 
+(*International Accounting Standards Board*) e do FASB 
+(*Financial Accounting Standards Board*) consideram o principal objetivo dos 
+relatórios financeiros sendo comunicar informação financeira para os usuários. 
+Com base na utilidade da informação, o processo de decisão econômica deve ser 
+útil na tomada de decisões econômicas, em avaliar as perspectivas de fluxo de 
+caixa e sobre os recursos da empresa.
+
+A demanda pelas informações contábeis origina-se nos contratos estabelecidos 
+entre a entidade que reporta a informação e seus usuários, ou seja, os agentes
+contratualmente envolvidos nas suas operações. Assim, o padrão contábil 
+estabelecido deverá atender a diversas demandas, dados os interesses de cada 
+agente. Deegan e Unerman (2011) estabelecem a emergência de um acordo para esse 
+padrão, pois sem esse critério comum a contabilidade seria desenvolvida de forma 
+específica para cada caso, limitando sua consistência.
+
+Embora com vários usuários, credores e acionistas possuem preferência na 
+informação prestada com base na estrutura conceitual. Para Financial Accounting
+Standards Board (2014), a estrutura conceitual é essencial para cumprir sua meta 
+de desenvolver padrões baseados em princípios, fornecendo as informações para
+qualificação da tomada de decisão dos provedores de capital. Nota-se o
+direcionamento aos provedores de capital, nessa afirmação do FASB. Esse viés 
+deve-se ao fato do risco envolvido na aplicação do capital e na oportunidade dos
+credores e investidores realizar novos investimentos ou realocar seu capital 
+para empresas com números mais viáveis.
+
+Uma prova do empenho para unificação do padrão contábil é relatada em IFRS (2013) 
+ao mencionar o esforço do IASB e o FASB. Ambos são órgãos emissores de padrões
+contábeis, sendo o primeiro influente inicialmente na Europa e, atualmente, na
+maioria dos países e, o segundo, no padrão contábil americano. Embora convirjam 
+para uma estrutura conceitual baseada em princípios o padrão do FASB tende a
+estabelecer um caráter mais normativo após o estabelecimento dos princípios a 
+serem adotados para cada operação.
+
+Dessa forma, alguns conceitos se confrontam entre o FASB e o IASB. Contudo, em 
+2004 deram início a um projeto conjunto no sentido de revisarem a estrutura 
+conceitual. Em 2010 emitiram dois capítulos de uma estrutura conceitual revista, 
+cuja vigência iniciou-se logo após sua publicação. Nesse mesmo ano suspenderam 
+os trabalhos para voltar-se a projetos próprios. Em 2012, o IASB, isoladamente, 
+realizou uma audiência pública onde constatou a prioridade da estrutura 
+conceitual para os projetos do IASB. (IFRS, 2013).
+
+As divergências desse processo são atribuídas ao fato de o IASB entender a 
+necessidade de emitir a estrutura conceitual completa, permitindo uma 
+visualização da norma como um todo, enquanto o FASB entendia a implementação de 
+forma gradual, em oito etapas, como a melhor maneira de percepção pelos usuários. 
+Assim, as agendas acabaram se individualizando, não sendo possível lançarem uma 
+estrutura conjunto, mesmo convergindo em diversos conceitos e opiniões.
+
+Importante comentar não haver consenso quanto à unificação do padrão pelo IASB e 
+o FASB. A existência de dois padrões permite a noção de maturação de cada padrão 
+proposto. Portanto, uma norma emitida pelo IASB pode ser confrontada com a do 
+FASB e vice-versa. Na existência de apenas um padrão essa análise seria 
+impossível. Portanto, definir o objetivo das demonstrações contábeis é de suma 
+importância para a convergência a pontos comuns.
+
+Para Riahi-Belkaoui (2004), formular os objetivos da contabilidade perpassa pela 
+resolução de conflitos de interesse existente o mercado da informação. 
+Especificamente o autor menciona que as demonstrações financeiras resultam da 
+interação de três grupos: a firma, os usuários e o profissional contábil. Os 
+interesses dispersos nessa interação geram o conflito entre eles na busca pela 
+informação contábil mais benéfica para si.
+
+Nessa linha, há três abordagens a serem discutidas: a primeira a abordagem 
+orientada na firma (*firm-oriented*) na qual a empresa estaria pronta para 
+divulgar e tentar encontrar as melhores maneiras de mensurar e verificar suas 
+informações. A abordagem orientada no profissional (*profession-oriented*), em 
+segundo, considera a capacidade do profissional em tentar mensurar e verificar 
+as informações contábeis e tentar acomodá-las ao interesse dos usuários e firmas 
+por meio das várias opções contábeis. Por último, a abordagem orientada nos 
+usuários (*user-oriented*) para a qual o usuário é o foco central da informação 
+contábil e encoraja profissionais e firmas a produzir e verificá-las para 
+atender às expectativas informacionais dos usuários.
+
+Essas abordagens acabam orientando a postura de órgãos normalizadores como o 
+IASB e o FASB. A escolha por um grupo de usuários específicos direciona a forma 
+como seus posicionamentos serão firmados. Kothari, Ramanna e Skinner (2010) 
+destacam três teorias de regulação norteadoras de órgãos reguladores: interesse 
+público, captura e ideologia. Sob a teoria de interesse público, a regulação a 
+normatização leva em consideração a benevolência dos elaboradores da norma para 
+“falhas naturais'' de mercado. Na prática, a regulamentação é mais adequadamente 
+descrita pelas teorias de captura ou ideologia, porque há pouco suporte empírico 
+para o modelo de um fabricante de política benevolente e onisciente. Segundo a 
+teoria da captura, as normas seriam resultado de tentativas de contabilistas e 
+auditores adequarem a socialização dos custos esperados para elaboração da norma. 
+Sob a teoria da ideologia observa-se o resultado combinado das ideologias dos 
+formadores normas e os princípios de contabilidade, não sendo necessariamente 
+ideal para facilitar as tomadas de decisão.
+
+A teoria do interesse público deveria prevalecer, mas conforme indicado por 
+Kothari, Ramanna e Skinner (2010) as teorias da captura e da ideologia 
+prevalecem. Assim, o FASB ou IASB devem buscar atender a um público específico. 
+Nessa linha, Deegan e Unerman (2011) demonstram a complementaridade dos 
+objetivos das demonstrações contábeis indicadas pelo FASB e pelo IASB. Para os 
+autores, o FASB considera como objetivo da informação contábil o fornecimento de 
+informações úteis a potenciais investidores e credores, além de outros usuários 
+na tomada de decisão racional de investimentos, crédito, dentre outros 
+semelhantes. Para o IASB, o objetivo das demonstrações contábeis é fornecer 
+informação sobre a posição financeira, desempenho e mudanças na posição 
+financeira de forma a ser útil para uma ampla gama de usuários de decisões 
+econômicas.
+
+Não há dúvida quanto aos objetivos propostos pelo FASB ou pelo IASB, pois ambos 
+se complementam além de serem claros quanto à utilidade da informação para os 
+usuários, ou seja, a informação contábil deverá permitir a tomada de decisão por 
+todos os agentes envolvidos na estrutura conceitua da firma. Portanto, é 
+necessário ressaltar, a qualificação da informação também tratada na estrutura 
+conceitual da contabilidade. Para Deegan e Unerman (2011), se uma informação 
+contábil é considerada útil para os tomadores de decisão, então contém atributos 
+e qualidades próprios.
+
+Deegan e Unerman (2011) demonstram as características expostas pela estrutura 
+conceitual do IASB, porém elas não divergem de *frameworks* de outros países. 
+São a compreensibilidade, a relevância, a confiabilidade e a comparabilidade.
+
+A compreensibilidade significa a possibilidade de um usuário com algum 
+conhecimento em negócios e contabilidade compreender as informações prestadas. 
+Possui importância, pois uma decisão será tomada com base na contabilidade se a 
+informação prestada for compreendida. Deegan e Unerman (2011) esclarecem não 
+haver a necessidade de se omitir informações complexas devido a possibilidade de 
+não ser compreendida por alguns usuários. Os autores indicam a compreensibilidade 
+como um desafio dentre as demais características qualitativas mencionadas, pois 
+atendida a compreensibilidade o usuário está apto a tomar alguma decisão.
+
+Porém, a compreensibilidade pode ser discutida em paralelo com a relevância no 
+sentido de não haver informação de qualidade se ela não puder contribuir para a 
+tomada de decisão. Assim, uma informação compreensível pode não ter utilidade na 
+tomada de decisão para algum usuário. Deegan e Unerman (2011) apresentam a 
+definição do IASB para essa segunda característica: a relevância. Para o IASB 
+uma informação é relevante se influenciar decisões econômicas dos usuários, 
+ajudando-os a avaliar eventos passados, presentes ou futuros, e ainda, 
+confirmando ou corrigindo suas avaliações passadas.
+
+Assim, há dois aspectos principais para a relevância. Uma informação passa a ser 
+relevante se tiver valor preditivo e *feedback* (valor confirmatório). Para 
+Schroeder, Clark e Cathey (2011), normalmente a informação faz as duas coisas ao 
+mesmo tempo porque o conhecimento sobre o resultado das ações já tomadas, em 
+geral, melhorará as habilidades dos tomadores de decisão em prever os resultados 
+das ações semelhantes futuramente.
+
+Quanto a confiabilidade, para Schroeder, Clark e Cathey (2011), repousa sob a 
+fidelidade com a representação proposta, acoplada com a garantia de os usuários 
+possuírem aquela qualidade representacional. Ou seja, a informação contábil deve 
+ser fiel ao real valor econômico da operação em destaque. Assim, o usuário deve 
+ter a convicção de ser uma informação verificável e neutra. Verificável no 
+sentido de ser possível entender o método utilizado na sua formação. E, neutra, 
+ao ponto de não atender prioritariamente a qualquer agente envolvido na relação 
+contratual do fenômeno avaliado.
+
+Portanto, para ser útil a informação deve ser relevante e confiável. Embora não 
+seja possível avaliar o quão relevante ou confiável seja a informação, é 
+necessário ponderar sobre o atendimento dessas duas características qualitativas.
+Importante, ressaltar não ser indicado enfatizar uma em detrimento da outra.
+
+Por fim, trata-se da comparabilidade. Consiste em permitir aos usuários avaliarem 
+diversas empresas diferentes ao longo do tempo ou em determinado tempo, ou ainda, 
+uma única empresa ao longo do tempo. Essa dinâmica temporal da avaliação 
+consistem em comparar os dados de um período com outro para indicação de melhoria 
+ou piora da continuidade da empresa, permitindo escolher outra empresa para 
+investimento ou retirada de capital do mercado.
+
+No ambiente brasileiro, por meio do Comitê de Pronunciamentos Contábeis – CPC, 
+cuja estrutura conceitual converge com a do IASB, a relevância e a confiabilidade 
+são tratadas como características fundamentais da informação contábil. As 
+características de melhoria da informação são a comparabilidade, a 
+compreensibilidade, a verificabilidade e a tempestividade. (Comitê de
+Pronunciamentos Contábeis, 2011).
+
+Definido o objetivo e as características da informação contábil, a estrutura 
+conceitual da contabilidade define critérios de reconhecimento, mensuração e 
+divulgação dos componentes patrimoniais. Antes de adentrar nos critérios, porém, 
+é importante esclarecer o papel do pressuposto da continuidade nas demonstrações 
+contábeis. Sendo o foco principal do relatório financeiro a informação sobre os 
+lucros e os seus componentes. Informação sobre o lucro da empresa com base na 
+contabilidade real/vigente geralmente fornece uma melhor indicação do presente 
+das empresas quanto a sua capacidade de continuidade, ou seja, capacidade para 
+gerar fluxos de caixa futuros indicando a perenidade da empresa.
+
+Relacionado ao reconhecimento, Riahi-Belkaoui (2004), expõe a necessidade de 
+todos os valores referentes às operações empresariais serem feitos via 
+demonstrações contábeis, pois qualquer divulgação realizada por outros meios 
+diferentes das demonstrações financeiras não é reconhecimento.
+
+O reconhecimento constitui o momento de indicar a ocorrência de um elemento 
+contábil, dado determinado fenômeno. Riahi-Belkaoui (2004) apresenta uma 
+diferença entre receita, ganhos e resultados, demonstrando a divergência dos 
+ganhos diferem da receita por exclusão de determinados ajustes contábeis de 
+períodos anteriores que não são reconhecidos no período em curso. A diferença 
+entre os ganhos e resultado abrangente também implicam em diferenciação de 
+reconhecimento, visto o primeiro ser reconhecido na demonstração de resultados, 
+impactando diretamente no resultado. Já o resultado abrangente afeta o 
+patrimônio líquido diretamente, sem transitar pelo resultado da empresa.
+
+Os critérios de reconhecimento incluem: *a)* O item satisfaça a definição de um 
+elemento das demonstrações financeiras; *b)* possuir um atributo relevante 
+mensuráveis com suficiente segurança; *c)* as informações serem capazes de fazer
+a diferença nas decisões usuário; *d)* a informação é representa o proposto, 
+fiel, verificável e neutro. (Riahi-Belkaoui, 2004).
+
+Quanto a mensuração, pode ser realizada de diversas forma, com o custo histórico, 
+o custo de reposição, valor atual de mercado, valor realizável líquido e valor 
+presente dos fluxos de caixa. Cada forma de mensurar um elemento patrimonial é 
+estabelecida ou regulada a depender do uso da informação.
+
+Informações contábeis para usuários em geral têm-se voltado para o custo 
+histórico, contudo o IASB busca incorporar o sentido de valor justo e buscar 
+reduzir a distância entre o valor real da empresa e o valor contábil.
+
+A evidenciação das informações contábeis constitui-se, na revelação de 
+informações adicionais ou complementares aos valores reconhecidos e mensurados 
+nas demonstrações contábeis. A estrutura conceitual dos diversos órgãos (IASB e 
+FASB, por exemplo) convergem em diversos aspectos. O FASB privilegia uma 
+informação verificável, na qual quaisquer dúvidas são evidenciadas em notas 
+explicativas. Já o IASB prepondera a exploração das notas explicativas quanto 
+aos julgamentos realizados nos componentes reconhecidos e mensurados com base em
+discricionariedade mais acentuada.
+
+Assim, a definição de itens a serem evidenciados são importantes para uma 
+padronização de informações a serem prestadas aos usuários, pois conforme Sunder 
+(2014), os padrões economizam custos de transação. O autor aborda a redução de 
+assimetria quando o usuário percebe melhor as informações prestadas pelas 
+empresas.
+
+Por fim, destaca-se dois conceitos de manutenção de capital abordados nas 
+estruturas conceituais. São os conceitos de manutenção de capital financeiro e 
+capital físico. Na manutenção do capital financeiro o lucro é auferido somente 
+se o montante financeiro dos ativos líquidos no fim do período excede o seu 
+montante financeiro no começo do período. Esse é o método mais difundido e 
+conhecido pelos contadores em geral, pois as demonstrações contábeis revelam 
+lucros nessa perspectiva. Já na manutenção do capital físico o lucro é 
+reconhecido quando a capacidade física produtiva da entidade no final do período 
+excede a do início do período. Representa uma forma de avaliação de lucro com 
+base em capacidade operacional, por exemplo. Como o caso da indústria 
+automobilística quando avalia sua capacidade de produzir carros conforme a 
+demanda ampliada de um ano para outro.
+
+Do exposto pode-se concluir pela necessidade clara e objetiva de uma estrutura 
+conceitual para a contabilidade. A padronização de conceitos e de formas de 
+reconhecimento e mensuração de elementos contábeis são importantes para 
+elaboração de demonstrações contábeis consistentes e comparáveis em empresas de 
+mesmo país ou de países diferentes, independentemente de haver mais de um órgão 
+emissor de normas contábeis.
+
+
+
+---
+
+Comitê de Pronunciamentos Contábeis. CPC 00 (R1): estrutura conceitual 
+para elaboração e divulgação de relatório contábil-financeiro. (2011). Disponível 
+em <http://www.cpc.org.br/Arquivos/Documentos/147_CPC00_R1.pdf>. Acesso em 
+04.jun.2015.
+
+Deegan, C. & Unerman, J. (2011). *Financial accounting theory*. (2$_{a}$ ed.).
+London: McGraw-Hill.
+
+Financial Accounting Standards Board. Conceptual framework: project information
+page. 2014. Disponível em:
+<http://www.fasb.org/jsp/FASB/FASBContent_C/ProjectUpdatePage&cid=900000011090>. 
+Acesso em 02.jun.2015.
+
+Godfrey, J., Hodgson, A, Holmes, S.; Tarca, A. (2010). *Accounting theory*. 
+(7$_{a}$ ed.). New York: Wiley.
+
+International Accounting Standards Board. (2013). *A review of the conceptual*
+*framework for financial reporting DP/2013/1*. London: IFRS Foundation.
+
+Kothari, S. P., Ramanna, K. & Skinner, D. J. (2010). Implications for GAAP from 
+an analysis of positive research in accounting. *Journal of Accounting and* 
+*Economics*, *50*, 246–286.
+
+Riahi-Belkaoui, A. (2004). *Accounting theory*. (5$_{a}$ ed). London: Cengage
+Learning. 
+
+Schroeder, R. G., Clark, M. W. & Cathey, J. M. (2011). *Financial accounting:* 
+*theory and analysis*. (10$_{a}$ ed). New York: John Wiley & Sons.
+
+Sunder, S. (2014). *Teoria da contabilidade e do controle*. São Paulo: Atlas.
+
+---

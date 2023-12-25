@@ -1,0 +1,214 @@
+---
+title: "Governança Corporativa: Sinalização"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Governança Corporativa
+  - Sinalização
+date: 2021-02-13
+toc: true
+image: "GovernancaDesempenho.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](GovernancaDesempenho.png)
+
+As empresas sinalizam a sua adoção de práticas de governança corporativa para 
+atrair investidores na expectativa de obter ganhos econômicos. Contudo, o 
+resultado econômico, uma medida da eficiência da gestão, pode não ser o único 
+interesse das partes interessadas na firma. Investidores e governos podem ter 
+outras preocupações, como a diligência, boa-fé, honestidade, transparência e 
+prestação de contas dos detentores do poder. Dessa forma, é viável criar 
+expectativas positivas quando o poder corporativo é exercido por conselheiros, 
+diretores, acionistas dominantes, e em algumas situações as partes interessadas, 
+tais como sindicatos, banqueiros, grandes fornecedores e / ou clientes.
+
+Turnbull (2010) define a boa governança, em termos práticos, como a capacidade 
+de as empresas atingirem eficazmente o seu propósito, minimizando os 
+envolvimentos legais ou regulatórios, protegendo e promovendo os interesses das 
+partes interessadas na empresa e da sociedade em geral. Torna-se uma forma de 
+enriquecer a governança da sociedade, permitindo às partes interessadas obterem 
+as informações, vontade e poder para proteger e promover seus interesses. Trata 
+da participação de um sistema político, cuja finalidade é definir como o poder 
+é distribuído e exercido na sociedade.
+
+A Governança Corporativa é o conjunto de processos imbuídos em garantir uma 
+remuneração justa ao investimento. Para tal, foca no problema de agência para o 
+qual surge quando os proprietários delegam o controle da companhia a outrem, 
+propiciando interesses adversos entre o proprietário e seu contratado. As regras 
+corporativas para mitigar esses problemas fornecem uma estrutura de organização 
+para facilitar a relação entre os agentes, onde os gestores são incentivados a 
+agir em consonância com o interesse dos acionistas. Alguns desses instrumentos 
+são conselho de administração, reuniões de acionistas e de votação e remuneração 
+de executivos. (Bhagat, Bolton, & Romano, 2010).
+
+O país onde a governança corporativa é implementada também influencia na sua 
+eficácia ou melhor utilização. Para Denis (2010), alguns fatores influenciam a 
+diferença sistemática entre países tais como o sistema legal, o grau de proteção 
+do investidor, questões cultuais e sociais. Os sistemas de governança dos países, 
+tanto afetam como são afetados por níveis de desenvolvimento econômico e 
+financeiro de cada país, além de seus graus de investimento e níveis de 
+globalização.
+
+De fato, a adoção de práticas de governança é interessante e, ao mesmo tempo, 
+controversa. Alguns procedimentos simples, em teoria, são de difícil 
+aplicabilidade por esbarrar no comportamento humano e na tradição empresarial do 
+lucro pelo lucro. Portanto, serão discutidas possíveis falhas nessas práticas, 
+seja de ordem teórica ou prática. A incerteza quanto a relação direta entre a 
+governança corporativa e o desempenho das empresas também será abordada nesse 
+*position paper* e, por fim, apresentados as potenciais linhas de pesquisas 
+sobre governança a serem realizadas.
+
+A gestão empresarial é norteada pelos objetivos traçados pelas empresas em prol 
+de sua continuidade. Além do lucro, as empresas se prestam a atender demandas de 
+outros usuários como clientes, fornecedores, governo, etc., como forma de se 
+destacar das demais e gerar valor ao acionista. A estratégia empresarial deve 
+reconhecer e atender esse emaranhado de interesses além da expectativa legal, 
+afinal de contas a continuidade da empresa depende desses parceiros. Essa 
+atitude é definida por Turnbull (2010) como “boa governança”.
+
+Assim, a definição de boa governança pode ser a eficácia das empresas em atingir 
+seus propósitos, minimizando o envolvimento legal e promovendo o interesse de 
+todas as partes interessadas, inclusive a sociedade em geral. A boa governança 
+corporativa torna-se uma forma de enriquecer a governança da sociedade, 
+permitindo acesso às informações necessárias a tomada de decisão de todos e 
+distribuindo o poder de forma equânime para atendimento igualitário de direitos.
+
+A separação entre o proprietário e gestor promoveu a necessidade de 
+monitoramento de ações no intuito de avaliar o alinhamento de interesses entre 
+ambos. Eventualmente (ou humanamente natural), o gestor iria satisfazer sua 
+utilidade em detrimento dos objetivos empresariais. Ao transacionar no mercado a 
+empresa incorre, portanto em custos denominados de custos de transação.
+
+O desenvolvimento sustentável das empresas precisa de uma explicação sobre o a 
+existência da empresa e como criar uma estrutura sustentavelmente eficaz. Na 
+teoria dos custos de transação de Williamson, esses custos são socialmente 
+desenvolvidos, mas difíceis de identificar e medir sem antes lançar suposições 
+sobre as relativas contribuições desses nos custos fixos e variáveis. A prática 
+de governança, para ser viável, deve propor custos de monitoramento 
+suficientemente baixos para não prejudicar o resultado da empresa.
+
+A adoção das melhores práticas sugere haver melhoria nos resultados das empresas, 
+contudo, essa relação não é confirmada empiricamente e as práticas adotadas 
+podem ser utilizadas para sinalizar algo positivo ao mercado, mas sem praticá-las
+efetivamente. Turnbull (2010) alerta para o fato de muitos fundos de investimento 
+tomarem decisões por diversos investidores de fato. Os interesses dessas 
+entidades de investimento podem conflitar com os interesses dos investidores 
+pessoais e da sociedade.
+
+Constitui-se, no contexto apontado por Turnbull (2010) um ambiente suscetível a 
+falhas interesses mais amplos são colocados em pauta. A realidade dos poderosos 
+permaneceria inalterada. Até mesmo a independência da auditoria pode ser 
+questionada, pois a presidência da comissão de auditoria, geralmente alcançada 
+por executivos diretos, pode ter interesses privados, mas não os assume. As 
+regras impostas podem não alcançar todas as facetas utilizadas para utilização 
+de meios escusos aos interesses das empresas.
+
+A preferência seria a punição da gestão quando houvesse falhas na condução das 
+estratégias definidas, observado o ambiente da empresa, pois não há como aplicar 
+melhores práticas em ambientes falhos. Momentos de crise, entretanto, contribuem 
+para reflexão de melhorias futuras nas práticas de governança. (Turnbull, 2010).
+
+As dificuldades apresentadas por Turnbull (2010) parecem lógicas, mas a 
+ocorrências de crises decorrentes de falta de informações válidas retoma a 
+necessidade de normas cada vez mais eficazes no combate aos conflitos nas 
+relações contratuais. O desempenho da firma deve ser revelado com a clareza e 
+objetividade. Todas as nuances envolvendo os resultados presente e futuro das 
+empresas devem ser divulgados, reduzindo as chances de falhas nos processos de 
+escolhas de investimentos.
+
+De acordo com Bhagat *et al*. (2010), apesar da crença generalizada na 
+importância dos mecanismos de governança para a resolução de problemas de 
+agência, a literatura empírica sobre o efeito dos mecanismos de governança 
+corporativa no desempenho das empresas não identificou efeitos positivos. Tem 
+havido inúmeros estudos examinando o impacto da composição do conselho no 
+desempenho. Da mesma forma, a maioria dos estudos interessados em medir o 
+impacto da ação ativa dos acionistas no desempenho também não encontram relação. 
+Diversas outras proxies são utilizadas para tentar chegar a uma relação entre 
+governança e desempenho, mas não foram exitosas. A exceção está nos estudos 
+interessados na relação entre direitos de voto e desempenho. Nessas pesquisas 
+foram encontradas relações significantes e positivas entre as variáveis.
+
+O desafio das pesquisas sobre governança é o fato de a assimetria de informações 
+entre os agentes acontecer em nível da firma. Mensurar o comportamento gerencial 
+ou a habilidade de quem conduz a gestão da empresa não constitui tarefa fácil e 
+relacionar essa variável com o desempenho apoia negativamente esse cenário. 
+Tanto as ações de governança quanto o desempenho são endógenos. Além do mais, o 
+desempenho relatado pelas empresas não é decorrente das ações gerenciais do 
+mesmo período. Dificilmente acontecerão concomitantemente, indicando haver outro 
+obstáculo na relação governança-desempenho qual seja o momento da causalidade 
+entre ambos.
+
+Esses percalços metodológicos evidenciam, todavia, a dificuldade de se 
+relacionar empiricamente essas duas variáveis. Do ponto de vista teórico é 
+bastante razoável relacioná-las, afinal espera-se da parte contratante menos 
+favorecida de informação sempre um sinal positivo quando se demonstra 
+transparência e responsabilidade na relação.
+
+Então, quais são os mecanismos protetores do retorno adequado aos acionistas, 
+considerando a possibilidade de sua expropriação pelos controladores dos ativos 
+da corporação? Esse questionamento, levantado por Denis (2010) reflete a 
+expectativa da relação entre atitudes de governança e o desempenho das empresas.
+
+Para Denis (2010), a primeira geração de pesquisas sobre governança corporativa 
+inclui mecanismos internos, como o conselho de administração, os planos de 
+remuneração de executivos e a estrutura de propriedade como resposta ao 
+questionamento. Já a segunda geração inclui o sistema jurídico dos países, o 
+grau de proteção legal do investidor, além de fatores culturais e sociais.
+
+A pesquisa internacional sobre governança corporativa, até o presente momento, 
+fornece muita informação sobre o porquê e como as empresas empregam vários 
+mecanismos de governança e a sua eficácia nos sistemas conhecidos pela empresa. 
+Para Denis (2010) duas questões surgem: qual o direcionamento futuro da 
+governança corporativa e onde deve ser comandado? A adoção de regras comuns 
+para mercados diferentes para não ser a forma mais viável de regulação.
+
+A emergência da governança corporativa deveu-se a fatores comportais inerentes 
+ao homem. A busca pela maximização da utilidade do indivíduo permanece sendo o 
+maior entrave para se entender a viabilidade de se implementar normas de 
+governança nas empresas. Normalmente são dispendiosas e requerem um esforço 
+conjunto para serem implementadas. Na ausência de maximização de utilidade, se 
+esperariam empresas imbuídas em atender todas as exigências da outra parte 
+relacionada e com interesse na firma – um comportamento inverso ao observado 
+pelos meios acadêmico e profissional. 
+
+O caráter endógeno e subjetivo da governança dificulta a realização de pesquisas 
+preocupadas na sua relação com o desempenho das firmas. Os resultados negativos 
+para sua grande maioria podem decorrer da mensuração das variáveis por meio de 
+proxies. Medir comportamentos, atitudes e efeitos de regras não são em nada 
+fácil de executar. Assim, toda a teoria fundamentadora da governança corporativa 
+fica prejudicada, considerando os resultados empíricos ainda não a confirmarem.
+
+Portanto possíveis erros teóricos da governança ainda estão por serem refutados
+objetivamente. A regulação em torno desse tema deve progredir em níveis mais 
+específicos. O comportamento de empresas, empresários e gestores em economias 
+diversas podem diferir e a “receita” para reduzir o conflito de agência em 
+determinado mercado pode não servir para outro. Os reguladores devem ficar 
+atentos a todas as nuances comportamentais antes de emitir normas ou 
+regulamentos e a academia deve permanecer na busca de determinantes para o 
+desempenho da firma e, quem sabe, a governança possa ser um deles.
+
+---
+
+Turnbull, C. S. S. (2010). What’s wrong with corporate governance best 
+practices?. In H. K. Baker & R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 5, 
+pp. 79-96). New Jersey: Wiley.
+
+Bhagat, S., Bolton, B., & Romano, R. (2010). The effect of corporate governance 
+on performance. In H. K. Baker & R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 6, 
+pp. 97-122). New Jersey: Wiley.
+
+Denis, D. K. (2010). International corporate governance research. In H. K. Baker 
+& R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 7, 
+pp. 123-140). New Jersey: Wiley.
+
+---

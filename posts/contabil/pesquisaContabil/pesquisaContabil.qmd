@@ -1,0 +1,248 @@
+---
+title: "A pesquisa em contabilidade"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Pesquisa
+  - Mercado de capitais
+date: 2019-03-31
+toc: true
+image: "pesquisaContabil.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](pesquisaContabil.png)
+
+A pesquisa em contabilidade pode ter seu marco delimitado antes e após as 
+pesquisas de Ball e Brown (1968). Anteriormente a essas pesquisas a 
+contabilidade tinha o foco normativo, buscando explicar a utilização de 
+metodologias e critérios de reconhecimento e mensuração dos componentes 
+patrimoniais. Ball e Brown (1968) e Beaver (1968) inauguram nova abordagem, 
+denominada teoria positiva da contabilidade. Buscavam, a partir de então, prever
+comportamentos de escolhas contábeis. Passou a ser foco das pesquisas em 
+contabilidade a relação entre a contabilidade e o mercado de capitais.
+
+Para Kothari (2001), sua revisão de literatura baseia-se na identificação de 
+trabalhos empíricos, contudo não há como se desvincular da base teórica. Para o 
+autor, pesquisas empíricas devem serva baseadas em teorias, pois a interpretação 
+dos resultados empíricos é impossível sem um respaldo teórico.
+
+As pesquisas em contabilidade, sobre o mercado de capitais, abordam temas 
+variados incluindo coeficientes de responsabilidade de ganhos, previsão de 
+analistas, análise fundamental, *valuation* e testes de eficiência de mercado. 
+Para Kothari (2001), as pesquisas recentes sobre o mercado de capitais parecem 
+focar nos testes de eficiência de mercado quanto a informação, análise 
+fundamentalista, *valuation* e *value relevance*. A explicação para esse 
+direcionamento nos estudos encontra fundamento na crescente concepção da 
+ineficiência de mercado. Ou seja, como o mercado não disponibiliza todas as 
+informações necessárias para a tomada de uma decisão ótima, surgem os números 
+contábeis para dar um aparato informacional relevante para o mercado sobre os 
+investimentos, alimentando o interesse na análise fundamentalista, por exemplo.
+
+Ohlson (2005) discute a formação do valor da empresa com base em números 
+extraídos da contabilidade. Atribui como sendo valor da empresa o valor 
+presente dos dividendos esperados. Supõe, então, que a relação de lucro limpo 
+substitui os dividendos pelo lucro e o valor contábil do patrimônio líquido na 
+fórmula do valor presente. O comportamento estocástico dos lucros e do 
+patrimônio líquido conduzem a incertezas quanto a data e a forma como atuam na 
+formação do valor.
+
+O modelo admite informações que vão além do lucro, valor contábil do patrimônio 
+líquido e dividendos. As informações adicionais são motivadas pela ideia de que 
+alguns eventos relevantes em termos de valor possam afetar os lucros especados 
+para o futuro – ao contrário do que acontece com o lucro atual. Essa afirmação é 
+importante por evidenciar a imperfeição dos números contábeis, ou seja, não são 
+completos. Mesmo assim, a média ponderada do valor presente dos lucros e do 
+valor contábil do patrimônio líquido ainda oferece a essência da função de 
+avaliação.
+
+Tendo os números contábeis importância nas pesquisas em contabilidade, Kothari 
+(2001) expõe ainda a sua utilidade na análise fundamentalista. A análise 
+fundamentalista utiliza-se de dados contábeis atuais e passados para 
+determinação do valor intrínseco da firma. Comparado com o valor real da firma, 
+os valores da análise fundamental reportam as recompensas esperadas para se 
+investir com seguranças. Portanto, Kothari (2001) indica que não se pode separar 
+a análise fundamental das pesquisas sobre mercados de capitais quanto a 
+eficiência de mercados.
+
+O interesse nos números contábeis decorre do fato destes informarem com 
+segurança a repartição da riqueza da firma entre os agentes. Caso o mercado 
+fosse realmente eficiente não haveria necessidade de contabilidade. Para Kothari 
+(2001) aspectos quanto a sinalização, divulgação, esclarecimentos em notas de 
+rodapé, dentre outros aspectos relacionados à contabilidade seriam inúteis em 
+mercados eficientes. Considerando serem úteis, pode-se pressupor o mercado não 
+eficiente.
+
+O valor contábil, por sua vez pode sofrer interferências externas de atos como a 
+regulação da informação contábil. Assim, pesquisas sobre o mercado de capitais 
+podem auxiliar na avaliação das normas emitidas pelo FASB, por exemplo. É 
+possível avaliar se as informações contábeis elaboradas de acordo com normas de 
+órgãos reguladores possuem serventia às tomadas de decisão no mercado de 
+capitais. As implicações econômicas das normas emitidas também são avaliadas 
+nessas pesquisas. Portanto, há o interesse de organismos de regulação nas 
+pesquisas baseadas em números contábeis, em especial aquelas com foco na 
+eficiência de mercado.
+
+Relacionando-se a teorias, a pesquisa contábil pode se valer de bases teóricas 
+advindas da administração e da economia. Essas teorias influenciam a forma como 
+a contabilidade é visualizada e como a informação contábil pode ser preparada ou 
+tratada.
+
+Passa-se a delimitar a influência de algumas teorias na informação contábil, 
+dentre elas a teoria da regulação, a teoria da divulgação voluntária, a teoria 
+da sinalização e a teoria dos jogos.
+
+A regulação, definida como uma limitação imposta pelo estado sobre a discrição 
+que pode ser exercida pelos indivíduos ou organizações, as quais são sustentadas 
+pela ameaça de sanção, é normalmente exercida para evitar ações monopolistas e 
+de expansão desordenada de determinados setores. Preocupa-se com o desempenho de 
+setores considerados importantes para o Estado e, portanto, devem ter seus 
+resultados controlados com base em definição de receitas e despesas. Com base na 
+eficiência de custos e controle de resultados é capaz de fomentar capital 
+externo, estabilizando as contas.
+
+A teoria da regulação é abordada por três prismas: a) teoria do interesse 
+público; b) teoria da captura, e; c) teoria dos grupos de interesse. Todas 
+influenciam a informação contábil de forma diferente, pois o tratamento dado a 
+regulação varia de acordo com o interesse principal da regulação.
+
+Na teoria do interesse público busca-se intervir contra a concentração de poder 
+econômico. Então, grandes empresas ficariam impossibilitadas de exercer poder em 
+favor próprio. Os preços, normalmente regulados pelas empresas quando em 
+ambiente monopolizado teriam intervenção do Estado em favor do interesse social. 
+Nesses ambientes, a informação contábil pode ser regulada para aproximar-se de 
+um dado mais real, tendo em vista a busca por um valor justo na relação.
+
+A teoria da captura é realizada com vistas a atender os interesses de entidades 
+reguladas. Espera-se uma informação contábil voltada a atender o interesse 
+específico de determinadas entidades. Por exemplo, empresas aéreas podem ter 
+interesse específico na normatização do reconhecimento e mensuração das 
+operações de leasing por terem essa operação presente na preponderância de suas 
+operações.
+
+Na teoria dos grupos de interesse, mais presente na normatização das informações 
+contábeis, há uma preocupação egoísta no sentido de forçar o regulador a emitir 
+normas que atendam a necessidade de um grupo maior com força política suficiente 
+para tal. Como a informação contábil é formatada para usuários gerais, há uma 
+tendência em se buscar uma generalização da informação para atender a todos os 
+interesses. Contudo, os grupos com maior força política terão privilégio sobre a
+normatização, comparado aos demais.
+
+Dessa forma, a normatização, ao mesmo tempo que qualifica a informação no 
+sentido de permitir melhor comparabilidade intercompanhias, tende a ser 
+enviesada para umadas partes.
+
+Outra teoria a ser abordada como fundamento para o uso da informação contábil 
+pelo mercado de capitais é a teoria da divulgação voluntária. De acordo com 
+Salloti e Yamamoto (2005), o principal objetivo dessa linha de pesquisa é 
+explicar o fenômeno da divulgação de informações financeiras, a partir de 
+diversas perspectivas, como por exemplo, determinar qual é o efeito da 
+divulgação de demonstrações contábeis no preço das ações, explicar quais as 
+razões econômicas para que determinada informação seja divulgada voluntariamente 
+etc.
+
+A lógica de se divulgar informações ao mercado encontra-se na seleção adversa 
+que sugere haver uma redução do valor dos ativos quando o investidor acredita 
+haver informações importantes não divulgadas. Assim, Verrechia (2001) propõe que 
+é interesse da companhia reduzir a assimetria informacional a fim de buscar a 
+diminuição do custo de capital ao emitir ações ou títulos. Portanto, a 
+informação contábil tende a ser mais acurada quando divulgada para um número 
+maior de usuários, pois deverá ser útil a todos.
+
+A divulgação, embora traga um aspecto de sinalização ao mercado, diferencia-se 
+da proposta da teoria da sinalização pelo fato de existirem divulgações 
+obrigatórias e, portanto, iguais para toda a população abrangida pela obrigação. 
+Na teoria da sinalização, pressupões que a empresa sinalizará ao mercado suas
+características influenciadoras no mercado, seja sob o aspecto positivo 
+(notícias boas), neutro (notícias sem efeito) ou negativo (notícias más).
+
+Um sinal de uma certa atividade ou alguma decisão comprova que o agente possui 
+uma certa capacidade ou característica, ou possui certas informações, ou em 
+outras palavras, pertence a um determinado subconjunto da totalidade da 
+população. Para o sinal ser informativo, apenas os agentes notadamente inseridos 
+do grupo populacional devem estar interessados em realizar a atividade de 
+sinalização - aqueles que podem realmente ganhar alguma coisa, revelando suas
+características (Macho-Stadler & Pérez-Castrillo, 2001).
+
+Quanto a informação contábil em si, a empresa pode sinalizar ao mercado a 
+utilização de técnicas ou procedimentos acurados no reconhecimento e mensuração 
+dos componentes patrimoniais como forma de sinalização de acurácia de seus 
+resultados e posição patrimonial. Dessa forma, esperam-se informações fidedignas 
+e tempestivas ao mercado.
+
+Por último, aborda-se a teoria dos jogos que trata de um conjunto de regras, que 
+definem quais são os jogadores, as suas ações possíveis e o conjunto de 
+informações disponíveis para cada jogador. De acordo com as regras, existe um 
+conjunto possível de resultados (conhecidos também como *pay-offs*) e os 
+jogadores tomam as suas ações de modo racional com o objetivo de maximizarem os 
+seus resultados.
+
+O simples fato de optar em divulgar ou não informações ao mercado e esperar dele 
+uma resposta positiva ou negativa constitui a ideia de jogo. Contudo os 
+jogadores desse cenário atuam de forma simultânea, ou seja, suas jogadas são 
+realizadas simultaneamente e sem o conhecimento da outra parte. Assim, 
+trabalha-se com informações incompletas, pois os jogadores não conhecem os 
+objetivos dos rivais e imperfeitas por não poder observar os movimentos dos 
+demais jogadores.
+
+Nesse caso a informação passa a ser considerada como bem precioso, onde a sua 
+divulgação no mercado pode trazer benefícios com a exposição da empresa e, ao 
+mesmo tempo, malefícios dado conhecimento da empresa pelos concorrentes que 
+podem adotar postura diferente.
+
+Baseado na taxonomia de Verrechia (2001), Salloti e Yamamoto (2005) sugerem uma 
+relação entre teoria dos jogos e divulgação. Para os autores quando a divulgação 
+é baseada em associação, que examina a relação entre o fenômeno da divulgação e 
+a mudança nas atividades dos investidores diversificados e competidores no 
+mercado de capitais para maximizar as suas riquezas individuais, a teoria dos 
+jogos pode fornecer modelos para avaliação do comportamento dos investidores.
+
+Quando a divulgação é baseada em julgamento, onde a divulgação é um processo 
+discricionário da gestão, a teoria dos jogos propõe um jogo sob a perspectiva da 
+empresa, onde a divulgação é realizada com base na decisão dos investidores. E, 
+quando baseada em eficiência, de onde se espera um menor custo de capital ou 
+resultados com a divulgação da informação, a teoria dos jogos sugere uma solução 
+ótima para ambos os jogadores, pois apenas assim, o ganho para a empresa é 
+maximizado.
+
+Do exposto, pode-se concluir que as informações contábeis são importantes no 
+mercado de capitais tendo em vista constituir-se de base para formulação de 
+teorias e, especialmente por serem demandadas por especialistas e analistas. 
+Contudo, a normatização acaba por impor fragilidade a sua composição e, ao mesmo 
+tempo, convenciona resultados e valores capazes de gerar comparabilidade entre as
+informações – o que é positivo.
+
+As pesquisas na área contábil, por conseguinte, são imprescindíveis e precisam 
+aprimorar-se ao acompanhar as demandas de mercado o tentar otimizar as tomadas 
+de decisão. Foi visualizado em todas as leituras citadas a utilização de 
+informações contábeis em modelos e no embasamento de teorias. Permanece o 
+questionamento: como o mercado de capitais percebe as informações contábeis?
+
+
+---
+
+Kothari, S. P. (2001). Capital markets research in accounting.
+*Journal of Accounting and Economics*. *31*(1-3), 105-231.
+
+Macho-Stadler, I. & Pérez-Castrillo, J. D. (2001). *An introduction to the*
+*economics of information*. (2$^{a}$ ed). Oxford: Oxford Unviersity Press.
+
+Ohlson, J.A. (2005). On accounting based valuation formulae.
+*Review of Accounting Studies*, *10*, 323-347.
+
+Salotti, B. M. & Yamamoto, M. M. (2005). Ensaio Sobre a Teoria da Divulgação.
+*Brazilian Business Review*, *2*(1), 53-70.
+
+Verrecchia, R. (2001). Essays on disclosure. *Journal of Accounting and Economics*,
+(32), 97-180.
+
+Viscusi, W. K., Harrington Jr., J. E. & Vernon, J. M. (2005). Economics of
+regulation and antitrust. (4$_{a}$ ed). Cambridge: The MIT Press.
+
+---

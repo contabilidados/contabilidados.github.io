@@ -1,0 +1,217 @@
+---
+title: "Governança Corporativa em Situações Especiais"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Governança
+  - Procurações
+  - Proxy
+  - Voto
+date: 2021-05-12
+toc: true
+image: "governancaCasosEspeciais.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](governancaCasosEspeciais.png)
+
+A governança corporativa é fundada sob o conflito de agência entre propriedade e 
+controle. As suas ações são dirigidas à mitigação ou redução de assimetrias 
+existentes dada a utilidade requerida por cada agente no momento da contratação. 
+Diversos esforços já são de conhecimento público – mesmo com implementação 
+difícil – e são completas sob o ponto de vista teórico. Contudo, algumas 
+práticas podem colocar em dúvida a eficácia dos mecanismos de governança, dentre 
+os quais destaca-se, nessa discussão, a ocorrência de aquisições hostis.
+
+A possível mudança de controle da empresa sem o consentimento da maioria, seja 
+pela própria mudança ou por quem está detendo o controle, pode interferir na 
+gestão operacional das empresas afetando a capacidade das empresas em gerar 
+valor. Nesse *trade-off* de controle corporativo a opinião dos acionistas, 
+revertidas em seus votos são importantes na escolha do formato pelo qual a 
+empresa operará. Os minoritários, por sua vez, possuem pouca influência 
+individual na decisão e se utilizam da cessão de poderes a um único personagem, 
+responsável por defender os interesses do bloco minoritário, revelando uma 
+disputa de procurações nas decisões corporativas.
+
+Embora tenha seus pontos positivos, as decisões por meio de procuração são 
+também discutidas na literatura como uma “erva daninha” aos preceitos da 
+governança corporativa. A discussão quanto a essa prática permeia a real 
+intenção dos minoritários da empresa quando da sua combinação com outros 
+negócios. Pressupondo o interesse dos minoritários pela maximização do valor da 
+empresa, o esforço em procurar interesses comuns deveria ser nessa direção, mas 
+não é o verificado no mercado americano.
+
+O mecanismo eficiente emergente na governança corporativa em contraponto às 
+disputas por procuração é o processo de aquisições corporativas e reestruturação 
+atuando, especialmente na redução do conflito principal-agente ao definir nova 
+gestão com base no desempenho das gestões pretéritas. Embora com diferenças no 
+comportamento, o Reino-Unido e a Europa apresentam os patamares esperados quanto 
+ao retorno anormal dos lucros após processo de aquisição.
+
+A geração de valor para a empresa pode ser prejudicada a depender da forma como 
+a empresa sofre alterações na estrutura de sua alta gestão, comprometendo a 
+pilares de redução de conflitos de agência. Discute-se, portanto, a forma como o 
+controle das entidades pode influenciar a governança interna e externa.
+
+O conflito de agência, discutido na teoria da firma, vem sendo mitigado pelas 
+práticas de governança corporativa. A satisfação das utilidades dos agentes por 
+meio do controle das firmas representa uma prática normalmente conflitante com a 
+geração de valor para as empresas. Aquisições hostis, disputa de procurações 
+emitidas por minoritários, reestruturações societárias e outras combinações de 
+negócios passaram a ser praticadas após a década de 80, possuindo pontos 
+convergentes e divergentes aos preceitos da governança corporativa.
+
+As práticas de mercado podem ter aspectos positivos e negativas a depender do 
+comportamento de quem as pratica. O *empowerment* de quaisquer agentes não 
+significa prejuízo para a firma, mas a possibilidade de seus interesses serem 
+priorizados em detrimento aos demais preocupa o mercado, prejudicando a relação 
+contratual e gerando custos de monitoramento das transações.
+
+No caso das procurações emitidas por minoritários um representante no intuito de 
+ampliar o seu poder de voto, trata-se de um mecanismo capaz de modificar a 
+composição de um conselho e influenciar o destino da corporação em casos de 
+mudança de propriedade. Essa prática foi bem recepcionada até os anos 90, mas em 
+virtude de dispositivos legais contrários a mudanças bruscas de controle onde os 
+interesses da firma acabavam preteridos. Anteriormente os investidores 
+individuais não possuíam recursos suficientes para reivindicar assentos nos 
+conselhos, recorrendo a entidades empresariais para disputar por meio de 
+procurações. Na década de 2000, os fundos de hedge passaram a dominar disputas 
+por procuração com foco em orientar objetivos de curto prazo relacionados a 
+incorporações, cisões, recompras de ações ou pagamento de dividendos. (Szilagyi, 
+2010).
+
+O uso sistema no uso de procurações não se mostrou eficiente, especialmente pela 
+dificuldade de convencimento dos acionistas sobre determinadas escolhas. Mesmo a 
+SEC intervindo no processo, permitindo comunicações *on-line* entre acionistas e 
+adoção de sistemas eletrônicos de procuração, convencer os acionistas sobre o 
+benefício das ações do dissidente não constitui tarefa fácil. Para Szilagyi 
+(2010), A possibilidade de os dissidentes poderem agir em benefício próprio 
+dificulta a crença de acionistas dispersos quanto a efetividade no atendimento 
+de seus interesses, voltando-se para as decisões da gestão já estabelecida.
+
+Szilagyi (2010), com base em pesquisas empíricas, relata a dificuldade de os 
+dissidentes alcançarem o controle majoritário do conselho, dado o risco 
+intrínseco a eles. Entretanto, normalmente as disputas por procuração acabam 
+delegando diretorias aos dissidentes. Os fundos de hedge, por exemplo, 
+conseguiram 67% de participação nas disputas das quais participou desde 2001. Os 
+fatores identificados como explicativos para esse cenário é o empenho dos 
+recursos dos dissidentes e o desempenho operacional da empresa-alvo no processo 
+de aquisição de controle.
+
+A difusão das disputas por procuração foi ampliada a partir da década de 2000, 
+especialmente pela facilidade de emissão de procurações e comunicação por meio 
+da internet, tornando mais fácil e barato para os dissidentes comunicarem-se 
+publicamente. No entanto a SEC já procura reduzir o *empowerment* dos 
+dissidentes limitando o número de diretorias a serem ocupadas por meio de 
+procuração. Conforme Szilagyi (2010), as novas regras permitem a inclusão, 
+pelos acionistas, de até 25% das diretorias disponíveis.
+
+Uma forma importante indicada por Stegemoller (2010) para aquisição de outras 
+entidades são as aquisições corporativas e reestruturações quando realizadas por 
+meio de sinergias positivas, aproveitando preços desfavoráveis no mercado, 
+reduzindo o risco do negócio adquirido ou baseados na baixa performance. Nesse 
+caso esse mecanismo de governança surgiria por via externa ao negócio-alvo e 
+buscaria maximizar os interesses dos acionistas, mitigando o conflito 
+principal-agente.
+
+Stegemoller (2010) elenca alguns motivos para a realização de aquisições, dentre 
+eles: a) a expansão da capacidade; b) realocação de ativos; c) problemas de 
+agência; d) sinergia; e d) entrincheiramento gerencial. Esses motivos se chocam, 
+pois não são mutuamente excludentes. Assim, a resolução de um problema pode 
+ampliar outro. Espera-se grandes mudanças na governança interna como forma de 
+recuperar resultados insatisfatório das empresa-alvo. Nesse caso a mudança de 
+controle funcionaria como um mecanismo benéfico para a continuidade do negócio.
+
+A contribuição de aquisições e reestruturações é evidente quando consegue se 
+consegue a eficiência operacional. A dispersão de setores pode ampliar o 
+conflito de agência interno. De acordo com Stegemoller (2010), quanto mais 
+setores operantes na empresa, maior a dificuldade em avaliar corretamente as 
+informações disponíveis. Nesse caso, o comportamento dos gestores é escondido 
+com maior facilidade, deixando margem para destruição de valor em nível da 
+firma.
+
+O incentivo em nível da firma ocorre com a remuneração em base de ações. A 
+preferência pelo financiamento das subsidiárias por meio da adquirente faz com 
+que ambas as entidades convirjam para o mesmo fim. Como entidades separadas, os 
+ativos de ambas as firmas serão facilmente transferidos para interessados na 
+firma. (Stegemoller, 2010).
+
+Martynova e Renneboog (2010) visualizam as aquisições de empresas como uma forma 
+de geração de riqueza para firma. Parte-se do pressuposto da criação de 
+sinergias quando dos anúncios de novas aquisições. Os autores verificam retornos 
+anormais ao serem anunciadas reestruturações. Trata-se de uma “aposta” arriscada 
+para os acionistas da empresa adquirente, pois os valores as altas no valor da 
+empresa adquirida podem corroer os ganhos pós aquisição.
+
+Para reduzir riscos essas operações normalmente incluem modificação na gestão, 
+onde a empresas adquirente substitui a gestão pela seu *know-how*, sinalizando 
+continuidade de políticas já conhecidas pelos acionistas. Martynova e Renneboog 
+(2010) citam que aquisições hostis acontecem nesse ambiente quando a gestão da 
+empresa adquirida não é eficiente na aplicação dos mecanismos internos de 
+governança corporativa. Busca-se a melhor forma de realizar a transição de um 
+controle para outro em prol dos interesses da adquirente.
+
+Alguns mecanismos de proteção aos minoritários, por sua vez, põem em risco os 
+interesses dos acionistas da empresa adquirente. Obrigações de oferta de 
+direitos para minoritário (*tag along*, por exemplo) podem encarecer a aquisição 
+da empresa-alvo, permitindo aos acionistas minoritários um maior pedaço. Esse 
+mecanismo positivo para os minoritários pode intervir negativamente no mecanismo 
+de aquisição, prejudicando a eficiência do sistema de governança, embora sejam 
+relatados pelos autores vários atributos negativos para a diversificação de 
+empresas.
+
+As desvantagens de diversificação podem superar as sinergias e resultar em 
+destruição de riqueza para os acionistas da adquirente. A diversificação de 
+fusões e aquisições tendem a gerar retornos mais baixos para os acionistas da 
+adquirente quando as atividades da empresa-alvo são diferentes. Já os acionistas 
+da empresa-alvo podem se beneficiar dessas operações. Assim, a expectativa de 
+que a adquirente atue de forma mais agressiva é fator para o encarecimento da 
+aquisição de empresas com atividades distintas.
+
+A troca de controle entre as empresas é uma realidade no meio corporativo. Os 
+mecanismos da governança corporativa têm-se modificado em virtude de novas 
+origens do conflito de agência nas empresas. Conflitos existentes em nível de 
+acionistas controladores e minoritários revela-se no contexto de aquisições e 
+fusões, pois seus interesses em maximização de capital são, por vezes, 
+divergentes.
+
+Um ponto a destacar é a preocupação com a continuidade das operações da 
+empresa-alvo. A troca de gestão pode desalinhar as atividades da empresa e não 
+gerar a sinergia esperada em um processo de aquisição. Os interesses envolvidos 
+no processo de aquisição devem dar lugar à análise da permanência da geração de 
+lucros pela empresa-alvo. O risco associado a descontinuidade do negócio por 
+falta de sinergia pode ser mitigado por práticas de governança corporativa, 
+especialmente quando trata de alinhar interesses inter-companhias. Sob esse 
+aspecto, acionistas da empresa-alvo e da adquirente podem se utilizar de 
+assimetria de informações e auferir ganhos anormais.
+
+Por fim, a troca de controla sob os diversos mecanismos existentes merece a 
+atenção do mercado e aplicação de regras coerentes e atentas às diversas de 
+formas de expropriação de riquezas entre os agentes. Questões relacionadas a 
+anúncios de aquisições, aquisições hostis, dentre outras devem fazer parte do 
+portfólio de riscos capazes de tornar o mercado menos confiável.
+
+	
+---
+
+Martynova, M. & Renneboog, L. (2010). Corporate takeovers and wealth creation. 
+In H. K. Baker & R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 27, 
+pp. 535-558). New Jersey: Wiley.
+
+Stegemoller, M. (2010). Corporate takeovers and restructurings. In H. K. Baker & 
+R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 26, 
+pp. 517-533). New Jersey: Wiley.
+
+Szilagyi, P. G. (2010). Proxy Contests. In H. K. Baker & R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 25, 
+pp. 497-516). New Jersey: Wiley.
+
+---

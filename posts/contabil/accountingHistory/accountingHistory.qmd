@@ -18,6 +18,8 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 
 <style> body {text-align: justify} </style>
 
+![](accountingHistory.png)
+
 A informação contábil deve alterar o estado da arte do conhecimento de seu
 usuário em relação à empresa, permitindo interpretações, uso em soluções de 
 problemas e, por fim, ratificando ou alterando a opinião sobre as atividades 

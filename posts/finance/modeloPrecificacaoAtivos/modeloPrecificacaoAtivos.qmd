@@ -1,0 +1,246 @@
+---
+title: "Modelos de Precificação de Ativos"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - CAPM
+  - Precificação
+date: 2020-07-19
+toc: true
+image: "modeloPrecificacaoAtivos.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](modeloPrecificacaoAtivos.png)
+
+A discussão acerca do modelo de precificação de ativos, com os trabalhos 
+individuais de Sharpe, Lintner e Black (1964-1972), direcionou-se pelo 
+tratamento da média-variância das carteiras de mercado proposta por Markowitz, 
+em 1959. Entretanto a predição central de profissionais e acadêmicos giravam em 
+torno do beta (β) de mercado, sob a justificativa de ser uma função linear 
+positiva dos retornos esperados (a inclinação da regressão gerada pelo retorno 
+de uma ação em relação ao de mercado) e de ser suficiente para descrever a 
+*cross-section* de retornos esperados. Nessa resenha serão abordados os aspectos 
+propostos por (Carhart, 1997; Fama & French, 1992, 1993, 2004) quanto a 
+fragilidade do beta de mercado, isoladamente, prever retornos futuros. 
+Especificamente, serão demonstrados outros fatores discutidos nessa literatura 
+capazes de melhorar a previsão de retornos e avaliar os custos para obter 
+previsões mais precisas.
+
+A pesquisa de Fama e French (1992) se inicia discutindo as contradições do 
+modelo de Sharpe, Lintner e Black (SLB) para os quais o beta captaria todos os 
+efeitos da média dos retornos das ações. Entretanto, a pesquisa de Banz, em 1991, 
+é citada em Fama e French (1992) por revelar essa relação com o *tamanho* 
+(ME – *Market Equity*: Patrimônio Líquido a valor de mercado calculado pela 
+multiplicação do preço das ações *outstanding* e o número dessas ações), pois 
+empresas maiores possuem um menores médias de retornos em relação às menores. 
+Outra contradição é demonstrada nos achados de Bhandari, em 1988, quanto a 
+relação positiva entre a *alavancagem* e os retornos médios. Para Fama e French 
+(1992), essa associação é aceitável, todavia, no modelo SLB o risco oriundo da 
+alavancagem é capturado pelo beta de mercado. Dessa forma, além do tamanho e do 
+beta, Bhandari evidencia a contribuição da alavancagem em explicar a série de
+retornos médios das ações.
+
+Adicionalmente, Fama e French (1992) abordam o fato de o *book-to-market equity* 
+(razão entre o valor contábil das ações ordinárias das firmas e o seu valor de 
+mercado) também ser um fator explicativo do retorno médio das ações, baseados 
+nos trabalhos de Stattman, de 1980, e o de Rosenberg, Reid e Lanstein, de 1985 
+cujos resultados indicam uma relação positiva entre ambos, corroborados pelas 
+evidências empíricas de Chan, Hamao e Lakonishok também foram abordadas, as 
+quais revelam essa relação no mercado japonês. E, por fim, um quarto fator é 
+apresentado, qual seja a *razão entre lucro e preço* baseados nos achados 
+individuais de Basu e Ball em suas pesquisas de 1983 e 1978, respectivamente. 
+De acordo com esses achados, quando os preços são mais baixos que os lucros, 
+tornando o índice lucro/preço mais alto, os retornos e o risco das ações também 
+são mais altos.
+
+Ressaltou-se o fato dessas variáveis, em especial a razão lucro/preço, o tamanho 
+(valor de mercado das ações em circulação), endividamento e o índice 
+*market-to-book* serem escalonadas pelo preço. Esse fato corrobora para uma 
+possível redundância na descrição dos retornos médios das firmas. Ainda assim, 
+Fama e French (1992) objetiva avaliar o papel conjunto de todas essas variáveis 
+na explicação dos retornos médios das ações listadas nas bolsas AMEX, NYSE e 
+NASDAQ. Para o cumprimento desse objetivo a pesquisa, em atenção ao fato da 
+proximidade das variáveis explicativas, a correlação entre todas elas foram 
+avaliadas como forma de evitar atribuição de explicação do retorno médio das 
+ações com variáveis similares. Contudo, na avaliação de Fama e French (1992) as 
+correlações entre as variáveis e o beta, por vezes se demonstraram altamente 
+correlacionadas, como no caso dos portfólios criados com base no tamanho. Embora 
+não discutam na pesquisa, ressalta-se a formação do tamanho e do retorno ser 
+realizada por meio do preço, essencialmente.
+
+Dos achados de Fama e French (1992) destaca-se a confirmação da fragilidade do 
+beta como variável explicativa do retorno médio das ações. Os autores, no 
+entanto, buscam motivações para essa fragilidade na correlação entre as 
+variáveis explicativas e sua “obscura” relação com os retornos médios. Porém, 
+essa iniciativa não teve sucesso, dada a falta de poder explicativo do beta 
+quando os autores analisaram a relação dos retornos médios com o beta sozinho. O 
+resultado principal de Fama e French (1992) é o fato de apenas o tamanho e o 
+*book-to-market equity* serem capazes de explicar o retorno médio das ações no 
+período analisado.
+
+Dessa perspectiva, Fama e French (1993) partem de seus achados de 1992 e ampliam 
+os testes do modelo de precificação de ativos em três vertentes. A primeira 
+tratou de aumentar o conjunto de retornos de ativos a serem explicados, 
+incluindo, além das ações, os títulos corporativos e governamentais, pois apenas 
+as ações ordinárias foram consideradas no estudo de 1992. Na segunda vertente, 
+ampliaram as variáveis para atender os resultados oriundos da análise de títulos 
+com o objetivo de examinar se as variáveis importantes para a análise do retorno 
+dos títulos ajudam a explicar os retornos das ações e vice-versa. Partiu-se do 
+pressuposto da integração do mercado entre títulos e ações. O método de análise 
+consistiu na terceira vertente (destacada como mais importante) explorada em 
+Fama e French (1993). Tratou de usar regressões de séries temporais ao invés de 
+regressão *cross-section*. Dessa forma, retornos mensais e títulos são 
+regredidos com o retorno de um portfólio e simulando portfólio por tamanho, 
+*book-to-market equity* e fatores de risco nas estruturas dos termos.
+
+Foram construídos seis portfólios com a interseção de dois grupos do fator 
+tamanho e três grupos do fator *book-to-market*. As análises foram realizadas, 
+portanto, considerando os grupos: S/L, S/M, S/H, B/L, B/M e B/H. O *S* e *B* 
+correspondem ao porte pequeno (*Small*) ou grande (*Big*) e as letras *L*, *M* 
+e *H* correspondem, respectivamente, aos onde grupos de baixo 
+*book-to-maket equity* (*Low*), médio (*Medium*) e alto (*High*). Considerando a 
+análise por quintis foi possível analisar 25 portfólios. Essas divisões por 
+grupos e por quintis permitiu visualizar concentrações de até 74% do valor total 
+pelas maiores empresas. Essa informação é relevante nas análises e para os 
+achados da pesquisa.
+
+Os fatores analisados foram cinco: Prêmio de risco (Rm – Rf), tamanho 
+(SMB – Small minus Big), *book-to-market* (HML – High minus Low), diferença 
+entre retorno mensal dos títulos de longo prazo do governo e taxa do tesouro do 
+mês anterior (TERM) e a diferença entre a o retorno de um portfólio de mercado 
+de títulos de longo prazo e o retorno mensal dos títulos de longo prazo do 
+governo. Usados sozinhos, fatores de títulos de mercado capturam variações 
+comuns no retorno das ações assim como nos retornos de títulos. De forma 
+similar, fatores de mercado capturam variações compartilhadas nos retornos de 
+títulos tão bem quanto o faz com os títulos de dívida. Essa verificação foi 
+importante, pois a relação entre ações e títulos de dívida teve sua 
+fundamentação obscurecida até então.
+
+Os achados baseados nas regressões de séries temporais demonstrou-se 
+interessante, segundo Fama e French (1993), considerada a similaridade entre as
+*cross-sections* utilizadas no estudo de 1992 e as regressões de séries 
+temporais quando identificam o tamanho e o *book-to-market equity* como os 
+fatores capazes de explicar os retornos médios das ações (R – Rf). Entretanto, 
+a maior diferença entre os retornos médios das ações e a taxa livre de risco 
+(Rf – one-month bill rate) não são explicadas por esses fatores sozinhos. Para 
+essa finalidade destacou-se o fator mercado. Assim, o prêmio de risco para o 
+fator mercado alinha o retorno médio das ações e as dívidas quando produzem 
+inclinação na reta da regressão composta por tamanho e *book-to-market*.
+
+De um modo geral os cinco fatores utilizados em Fama e French (1993) estão 
+relacionados. Utilizando os portfolios com base em tamanho e *book-to-market* 
+foi possível avaliarem a associação por meio da covariância entre ações de mesmo 
+grupo. Os três fatores de mercado de ações se demonstraram amplamente não 
+correlacionados com qualquer outro dos dois fatores de estrutura dos termos 
+relacionados aos títulos, permitindo um bom resumo da separação dos papeis 
+desses cincos fatores na volatilidade dos retornos e na *cross-section* dos 
+retornos médios.
+
+Para Fama de French (1993) a escolha de fatores sem uma teoria subjacente se
+torna arbitrária. A escolha de fatores, especialmente o tamanho e o 
+*book-to-market* é motivada pela experiência empírica, sendo os demais fatores 
+detalhados na pesquisa sob diversas formas para tornar sugestivas as associações 
+com versões particulares dos fatores, contudo não definitivas. Com base nessas 
+associações é possível, segundo Fama e French (1993), selecionar portfólios, 
+avaliar a performance de portfólios, medir retorno anormal em estudos de eventos 
+e estimar o custo de capital, a depender da capacidade dos cinco fatores 
+evidenciarem uma boa descrição dos retornos médios. Então, a habilidade de 
+gestores em identificar fatores capazes de prever retornos seria uma boa 
+estratégia frente aos demais investidores no mercado.
+
+A persistência do bom desempenho nos investimento de fundos mútuos foi estudada 
+por Carhart (1997) em horizontes curtos de até três anos, buscando responder as 
+motivações para desempenhos persistentes não documentados na literatura. Na sua 
+análise incorpora o fator momento (*momentum*) ao perceber, com base na 
+literatura, o consumo de ganhos pelos custos de transação. Demonstra-se que as 
+despesas têm, no mínimo, um impacto negativo na performance, chegando a 
+aproximadamente 0,95 por cento do valor de mercado das negociações. Nessa 
+perspectiva, mantendo as taxas de despesas constantes, os fundos podem perder 
+rendimentos na base de 80 pontos por ano.
+
+Para as análises da pesquisa Carhart (1997) utilizou a seleção de portfólios por 
+decis da qual identificou se a persistência nos retornos dos fundos mútuos se 
+deviam a heterogeneidade nas características médias dos fundos por decil com 
+base em estatísticas descritivas. Mesmo identificando algumas divergências entre 
+os decis (portfólios) Carhart (1997) evidencia a principal motivação para os 
+resultados positivos e persistentes dos fundos mútuos por meio dos custos de 
+transação. As evidências não constituem má precificação (*mispricing*), pois os 
+altos alfas (valores não explicados pelos fatores de Fama e French) dos fundos 
+eram relativos às despesas do período. Depreende-se, dessa forma, a consistência 
+com a eficiência de mercado quando não há ganhos excessivos por parte dos fundos. 
+O alto rendimento é contrabalanceado com altos custos de transação, tornando os 
+ganhos, em média, compatível com os demais participantes de mercado.
+
+Portanto, para investimento em fundos, Carhart (1997) lança mão de três 
+importantes regras quais sejam: i) evitar fundos com desempenho baixo 
+persistente; ii) as expectativas de retornos são acima da média em anos 
+posteriores a retornos altos; iii) custos de transação e de carga no fundo 
+possuem impacto direto na sua performance. Com essas regras é possível não 
+endeusar a gestão dos fundos pela sua performance, pois os altos rendimentos 
+possuem relação positiva com o aumento dos custos.
+
+As proposições de (Carhart, 1997; Fama & French, 1992, 1993) demonstram a 
+importância da teoria da precificação inauguradas por Sharpe e Lintner na década 
+de 60. Porém, passados diversos anos e discussões variadas não há consistência 
+na sua utilização para definição dos retornos futuros. Fama e French (2004) 
+realizam uma revisão da literatura envolta no CAPM – 
+*Capital Asset Pricing Model* e concluem pela sua fragilidade para medir a risco 
+e a relação com o retorno e risco esperado. Para os autores, infelizmente as 
+aplicações do CAPM são frágeis possivelmente por falhas teóricas em consequência 
+da simplificação de muitos pressupostos. A pesquisa de Fama e French de 1992 
+marca o ponto quando o CAPM passa a ter seus problemas fatais potencialmente 
+reconhecidos. (Fama & French, 2004).
+
+Dentre os defensores da fatalidade das falhas do CAPM predominam os
+comportamentalistas (behavioristas – *behavioralists*), cuja visão baseia-se na 
+evidência de que a relação *market-to-book* não consegue estabelecer uma 
+diferenciação clara de valor para a empresa quando está em crescimento ou em 
+dificuldades. A outra frente de crítica ao CAPM trata das premissas irreais 
+tratadas no modelo, indicando a necessidade de um modelo mais complexo capaz de 
+realmente precificar os ativos. Na prática, não é fácil determinar se o problema 
+é no modelo ou de má precificação, pois o preço sempre pode ser expresso como o 
+valor presente dos fluxos de caixa. Então, se duas ações de mesmo preço 
+possuírem fluxos de caixa diferentes, a de maior fluxo de caixa esperado terá o 
+maior retorno esperado (Fama & French, 2004).
+
+Outros aspectos de crítica são apontados por Fama e French (2004), dos quais se 
+destaca a adoção das *proxies* para a carteira de mercado. Os autores citam Roll 
+(1974) quando argumenta jamais ter ocorrido teste empírico do CAPM dada a falta 
+de uma carteira de mercado real. Para Fama e French é possível que *proxies* 
+sejam utilizadas para a carteira de mercado, porém a sua utilização pode ser 
+refutada quando utilizam o mercado americano como *benchmark* em relações não 
+aplicáveis, levando a rejeição dos testes empíricos. A má utilização dessas 
+*proxies* leva a estimativas errôneas de retorno esperado nas aplicações, como 
+por exemplo as estimativas de custo de capital baixas para ações pequenas com 
+alto *book-to-market*.
+
+Por fim, Fama e French (2004) destacam que a versão do CAPM desenvolvida por 
+Sharpe e Lintner nunca teve sucesso, sendo melhor aceita na versão de Black. 
+Após a década de 70 outras variáveis foram incorporadas ao modelo, tendo em 
+vista a fragilidade explícita do beta em prever retornos médios, cujas 
+evidências poderiam ser espúrias. Assim, os problemas do CAPM são tão evidentes 
+e tão graves a pontos de invalidar a maioria das suas aplicações.
+
+
+---
+
+Carhart, M. M. (1997). On persistence in mutual fund performance. 
+*The Journal of Finance*, *52*(1), 57–82.
+
+Fama, E. F., & French, K. R. (1992). The cross-section of expected stock returns. 
+*The Journal of Finance*, *47*(2), 427–465.
+
+Fama, E. F., & French, K. R. (1993). Common risk factors in the returns on 
+stocks and bonds. *Journal of Financial Economics*, *33*, 3–56.
+
+Fama, E. F., & French, K. R. (2004). The capital asset pricing model: theory and 
+evidence. *Journal of Economic Perspectives*, *18*(3), 25–46.
+
+---

@@ -1,0 +1,204 @@
+---
+title: "Economia da Informação"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Contrato
+  - HME
+  - Assimetria
+date: 2018-08-29
+toc: true
+image: "economiaInformacao.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](economiaInformacao.png)
+
+A economia da informação, segundo Macho-Stadler e Pérez-Castrillo (2001), 
+volta-se para o formato e o fluxo de informações nas relações contratuais da 
+firma quando um dos participantes tem mais informações. O reconhecimento desse 
+ambiente de incerteza, já abordado em Akerlof (1970) é importante para a 
+economia por provocar a criação de mecanismos para qualificação do ambiente 
+econômico, especialmente para otimização dos contratos firmados.
+
+O cerne da discussão sobre a economia da informação reside na diferença de 
+informações entre os agentes antes ou durante a vigência de um contrato entre 
+ambos, definida como assimetria informacional. Os contratos, dentro da teoria 
+contratual da firma, podem ser formais ou informais. Portanto, os acordos 
+celebrados entre as partes possuem o trato contratual formal, mas também é 
+delineado nos costumes e na interação entre os agentes.
+
+Macho-Stadler e Pérez-Castrillo (2001) definem os tipos de assimetria 
+informacional referenciando o momento de cada um em relação ao contrato firmado, 
+quais sejam o risco moral, a seleção adversa e a sinalização.
+
+A seleção adversa e a sinalização ocorrem antes da celebração do contrato. 
+Nesses casos há uma relação de confiança entre os agentes (principal-agente), 
+pois na ausência de confiança o custo pode ser superior à própria assimetria da 
+informação. Para Akerlof (1970), o custo também deve incluir a perda incorrida 
+de conduzir negócios legítimos.
+
+A seleção adversa surge quando o agente possui informações privadas antes da 
+celebração de um contrato, assim a outra parte não possui a mesma informação. A 
+prática da seleção adversa usada de forma inoportuna pode causar danos ao 
+mercado em geral. Na ausência de informação, a parte menos informada tende a 
+reduzir o preço do produto contratado (insumos ou serviços) ao ponderar sob o 
+risco envolvido na operação.
+
+Um risco a ser considerado na assimetria informacional, em especial na seleção 
+adversa, é o fato de os piores produtos prevalecerem sobre os melhores. Um 
+ambiente totalmente assimétrico provocaria uma queda nos preços dos produtos, 
+independente de serem bons ou maus. Deve-se ao fato de não haver confiança nos
+produtos/serviços oferecidos e, portanto, sem credibilidade o mercado puniria 
+com menores preços no momento da negociação.
+
+Problemas com seleção adversa também influenciam a remuneração e contratação 
+entre principal e agente. Conforme Macho-Stadler e Pérez-Castrillo (2001), o 
+principal pode ofertar um portfólio de contratos para o agente de forma a 
+deixá-lo livre para a melhor escolha dentre as opções. Ressalta o momento após 
+assinatura do contrato, onde o agente passa a aceitar todas as condições do 
+portfólio sem saber as implicações para si.
+
+Outro problema decorrente da assimetria informacional é a sinalização. Consiste 
+em outro aspecto ocorrido antes da assinatura do contrato. Nesse caso, o agente 
+mais informado é capaz de revelar informações privadas espontaneamente antes do 
+contrato ser firmado. (Macho-Stadler & Pérez-Castrillo, 2001)
+
+Duas situações são importantes serem levadas em consideração quando se analisa a 
+sinalização. A primeira é o fato de o agente sinalizar apenas as informações 
+favoráveis a sua utilidade, contribuindo para sua melhor participação no 
+contrato. A outra diz respeito ao custo da informação durante a contratação.
+
+Para uma sinalização ser eficiente precisa do entendimento da outra parte. 
+Assim, há uma propensão em sinalizar com “coisas boas” capazes de ampliar a 
+utilidade do agente sinalizador, porém a má interpretação da sinalização pode 
+ter efeito reverso gerando um custo inesperado em uma contratação possivelmente 
+exitosa.
+
+Do contexto quanto a sinalização pode-se propor a não ocorrência de redução 
+assimetria quando da exposição de informações privadas aos agentes menos 
+informados. Isso se deve ao fato de ocorrem sinalizações “falsas”, isto é a 
+sinalização indicar uma característica importante e bem vista pelo agente menos 
+informado, contudo pode essa característica não ser, em essência, pertencente 
+ao agente sinalizador.
+
+Um exemplo desse contexto é o caso de empresas exportadoras sinalizarem a adoção 
+de práticas de gerenciamento de estoques aos padrões exigidos por seus clientes, 
+todavia não reflete ao internamente praticado. Assim rotula-se a empresa de uma 
+forma e, de fato, é uma realidade oposta. Ressalta-se não ser exposto esse fato 
+com má fé, mas sim como inexperiência ou incapacidade operacional de realizar 
+tal compromisso firmado de forma ótima.
+
+Pode ocorrer, dessa forma, alterações nas remunerações contratuais advindas do 
+processo de sinalização. Se no caso da seleção adversa a remuneração é 
+influenciada pela falta de informação, a indicação de novas informações pode 
+sugerir alterações na remuneração contratada.
+
+Portanto, no contexto da assimetria informacional, a seleção adversa e a 
+sinalização são importantes por ocorrerem antes da formalização contratual, 
+permitindo a partes menos favorecidas escolherem permanecer ou refutar o 
+contrato.
+
+Problemas de assimetria ocorridos após o contrato ser firmado trata-se do risco 
+moral. Para Macho-Stadler e Pérez-Castrillo (2001) o risco moral decorre do fato 
+de o principal não ser capaz de acompanhar o comportamento do agente após o 
+acerto contratual.
+
+Questões relacionadas ao esforço despendido para realização do contrato é o 
+cerne da resolução do contrato a ser firmado. Se por um lado o agente pode se 
+beneficiar da falta de monitoramento, do outro o principal, cônscio dessa 
+possibilidade pode precificar o risco moral e reduzir a remuneração contratada 
+ou propor incentivos para alinhamento dos interesses de ambos (principal e 
+agente).
+
+Ainda assim permanecem problemas quanto ao equilíbrio contratual. A dificuldade 
+de saber a ação do agente pode levar o principal a sempre precificar esse risco 
+e remunerar agentes com incentivos desnecessários. Dessa forma, é preciso 
+diferenciar cada agente e reconhecer os reais riscos existentes na relação.
+
+Comparativamente à seleção adversa, o risco moral diferencia-se por representar 
+ações não divulgadas, enquanto a primeira baseia-se em informações não 
+divulgadas. Assim, ambos carecem do real interesse do agente na concretização de 
+redução de assimetria.
+
+Sob o ponto de vista contábil, é possível visualizar o uso de sua informação na 
+redução de assimetria sob os três aspectos mencionados: a seleção adversa, a 
+sinalização e o risco moral.
+
+Na seleção adversa e no risco moral pode atuar mensurando confiavelmente a 
+remuneração baseada em desempenhos. Pressupõe-se a acurácia do resultado 
+divulgado e a confiança na metodologia utilizada para seu cálculo. Com base nos 
+resultados obtidos verifica-se o reflexo do interesse do principal. Ainda assim, 
+a remuneração do agente pode conter valoração baseadas em riscos inexistentes. 
+Esse é um desafio a ser vencido. 
+
+Quanto a sinalização, a sinalização de bons resultados por meio da contabilidade 
+pode levar principais (diretores, acionistas, etc.) a refletir sobre novas 
+decisões, modificando o cenário da empresa.
+
+Difícil, pois, dissociar problemas de assimetria informação da discussão sobre a 
+hipótese de mercado eficiente (HME) proposta em 1970 por Eugene Fama.
+
+Na HME, o preço dos títulos reflete imediatamente as informações disponíveis,
+impossibilitando o retorno anormal. Assim, caso ocorram informações 
+privilegiadas, o próprio mercado ajustaria o preço dos títulos referente a estas
+informações.
+
+Para Healy e Palepu (2001) as soluções possíveis para a redução de assimetria 
+seriam a criação de contratos ótimos, regulação da evidenciação e a utilização 
+de intermediários da informação. A realização de contratos ótimos, como 
+mencionado, é um desafio por ter a assimetria origem em informações ou ações 
+ocultas, necessitando do interesse do agente em divulgá-las. A regulação reflete 
+a pretensão de sanar pontos identificados como críticos, mas não conseguem o 
+monitoramento necessário para corrigir problemas de assimetria. Já a utilização 
+de intermediários, embora importante como os demais, passa pelo problema da 
+identificação das ações e informações ocultas.
+
+Mesmo apresentando dificuldades em cada uma das proposições de Healy e Palepu 
+(2001), as ações corretivas são necessárias pelo fato de ser possíveis 
+identificar práticas reguláveis ou até mesmo passíveis de serem coibidas.
+
+Assim, a proposição da HME quanto a impossibilidade de ocorrem retornos anormais, 
+dada a percepção do mercado a novas informações públicas ou privadas fica em 
+xeque. Kothari (2001) aborda que as evidências encontradas na literatura sobre a 
+aparente ineficiência de mercado tem sido interesse de pesquisadores em análise
+fundamentalista, avaliação contábil e testes de eficiência.
+
+Aliado ao fato de outras pesquisas relacionarem divulgação e preço de ações, é 
+possível pressupor a existência de informações ocultas impossíveis de serem 
+descobertas sem o consenso de seu detentor, desafiando a ideia de Fama quanto a 
+HME.
+
+Por fim, é possível encontrarmos problemas de assimetria informacional nas 
+diversas formas de contratação na cadeia teórica da firma. A dimensão de ajustes 
+e monitoramentos necessários para um real alinhamento de interesses entre todos 
+é um desafio a ser superado ou pelo menos aliviado. As informações contábeis 
+podem subsidiar esse processo de monitoramento e ajuste de interesses quando 
+utilizada para mensurar a participação de cada agente no processo decisório da 
+firma. Então, é possível termos informações simétricas ou sempre precisaremos da
+contabilidade na redução de assimetria de informação por ser o caráter 
+utilitarista proveniente de uma característica humana e não econômica?
+
+
+---
+
+Akerlof, G. A. (1970). The Market for "Lemons": Quality Uncertainty and the
+Market Mechanism. *The Quarterly Journal of Economics*, *84*(3), 488-500.
+
+Healy, Paulo & Palepu, Krishna. (2001). Information asymmetry, corporate
+disclosure and capital markets: a review of empirical disclosure literature.
+*Journal of Accounting and Economics*, *31*, 405-440.
+
+Kothari, S. P. (2001). Capital markets research in accounting.
+*Journal of Accounting and Economics*. *31*(1-3), 105-231.
+
+Macho-Stadler, I. & Pérez-Castrillo, J. D. (2001). *An introduction to the*
+*economics of information*. (2$^{a}$ ed). Oxford: Oxford Unviersity Press.
+
+---

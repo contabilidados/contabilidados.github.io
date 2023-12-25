@@ -33,4 +33,8 @@ read_yaml_talks_pt()
 
 <br>
 
-Esse evento foi realizado e teve a participação... mostrou...
+Essa palestra demonstrou como dados coletados na plataforma Economatica podem
+ser importados e analisados por meio do R Programming. Foram apresentados aspectos
+práticos relacionados à academia ao setor contábil em geral. Ao final, foi 
+demonstrado como montar uma base de dados para deixá-la pronta para aplicação
+em modelos estatísticos.

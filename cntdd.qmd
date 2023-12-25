@@ -21,7 +21,7 @@ listing:
     filter-ui: true
     page-size: 3
   - id: indices
-    contents: pacotes/indices/*.qmd
+    contents: pacotes/indices/*/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]
     sort: "date desc"

@@ -3,7 +3,7 @@
     "cntdd.qmd": [
       "pacotes/utils/*.qmd",
       "pacotes/stats/*.qmd",
-      "pacotes/indices/*.qmd"
+      "pacotes/indices/*/*.qmd"
     ],
     "index.qmd": [
       "posts/**/*.qmd",

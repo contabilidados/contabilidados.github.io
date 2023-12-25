@@ -28,10 +28,11 @@ about:
 ```{=html}
 <style>body {text-align: justify}</style>
 ```
-Olá! Meu nome é Kléber. Sou professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA).
+
+Olá! Meu nome é Kléber. Atuo como professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA). Sou contador com doutorado em Ciências Contábeis pela Universidade Federal da Paraíba (UFPB) e Mestre em Administração e Controladoria pela Universidade Federal do Ceará (UFC).
 
 Sou entusiasta da análise de dados e acredito que está será a habilidade mais requerida de contadores para as demandas contábeis. Embora tenha contato com outras linguagens, adotei o R Programming como a principal para as minhas abordagens.
 
-Em 2019 criei o grupo de pesquisa contabiliDados para envolver professores e alunos em discussões sobre contabilidade, finanças e análise de dados. Esse blog é fruto desse grupo.
-
-Sou contador com doutorado em Ciências Contábeis pela Universidade Federal da Paraíba (UFPB) e Mestre em Administração e Controladoria pela Universidade Federal do Ceará (UFC).
+Participo do grupo de pesquisa **contabiliDados** - 
+Contabilidade e Finanças, cujo objetivo é envolver
+professores e alunos em discussões sobre contabilidade, finanças e análise de dados. Esse blog é fruto desse grupo.

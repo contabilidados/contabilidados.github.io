@@ -1,0 +1,209 @@
+---
+title: "Hipótese de Mercados Eficientes"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - HME
+  - Preços
+date: 2020-07-19
+toc: true
+image: "HME.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](HME.png)
+
+Ambientes de negócios devem ser caracterizados pela confiabilidade das 
+informações prestadas e, essencialmente, deve permitir a todos os envolvidos na 
+negociação o acesso as mesmas informações para sua utilização na tomada de 
+decisão ótima. A informação prestada equanimemente proporciona uma precificação 
+eficiente dos títulos negociados, qualificando o mercado. Esse contexto é 
+abordado na hipótese de mercados eficiente (HME).
+
+A discussão da HME se concentra no quão capaz é o mercado em absorver 
+informações para a precificação de valores mobiliários. As informações advêm de 
+períodos passados ou presentes, cujas percepções são incorporadas aos preços de 
+títulos negociados. Sob o pressuposto da racionalidade, da utilidade e da 
+capacidade de processamento dessas informações pelo ser humano, para a HME todos 
+os agentes agiriam de forma similar no mercado.
+
+De acordo com Fama (1970) um mercado é, pois, eficiente quando os preços 
+refletem totalmente toda a informação disponível. Nessa pesquisa, Fama (1970) 
+pressupõe o equilíbrio de mercado onde qualquer desvio seria ajustado pela ação 
+dos demais agentes. Essa noção de equilíbrio indica ao investidor a 
+possibilidade de ser remunerado de acordo com o risco aceito.
+
+Esse pressuposto passou a ser questionado pelo fato de não haver possibilidade 
+de ser testado empiricamente. Fama (1991) reconhece essa possibilidade, porém 
+enaltece a importância da HME para modelagens e testes econométricos. Em sua 
+nova abordagem, Fama (1991) propõe novos conceitos às proposições de mercados de 
+forma fraca, semi-forte e forte para aperfeiçoamento de testes para cada 
+conceito.
+
+Da mesma forma, Malkiel (2003) reconhece não ser possível haver um mercado 
+perfeitamente eficiente, pois dessa forma não haveria incentivo para agentes de 
+mercado buscarem melhores desempenhos. Para Malkiel (2003), um mercado é 
+eficiente quando não permite aos investidores obterem retornos anormais sem o 
+consequente risco na mesma proporção.
+
+A HME tratada por Fama (1970) corresponde à possibilidade de um grande número de 
+investidores racionais, com foco na maximização do lucro, buscarem prevê o preço 
+futuro de um título (ação, por exemplo). O acesso a informações capazes de gerar 
+essa previsão daria ao investidor a garantia de retornos acima do mercado. A 
+busca pelo melhor desempenho desencadeia uma competição entre os investidores, 
+contudo para a HME os preços atuais já são reflexo das informações passadas e 
+presentes ao considerar as expectativas quanto a valoração futura dos títulos. 
+Assim, um mercado altamente eficiente seria aquele no qual o valor intrínseco de 
+um título seria bem estimado pelo seu preço em qualquer momento.
+
+Assim, o principal papel do mercado de capital, conforme Fama (1970), é 
+disciplinar a alocação de recursos pelos investidores com base nos preços dos 
+títulos. O valor positivo ou negativo do título indica ao investidor a alocação, 
+ou não, de recursos no mercado, podendo trocar de alternativas na busca pelo 
+melhor investimento (maximização do lucro).
+
+Dessa forma, não seria possível para um investidor possuir retornos anormais sem 
+haver anormalidade no risco assumido (Malkiel, 2003). Ao propor traçar um estudo 
+teórico e empírico sobre a HME, Fama (1970) apresenta três formas de testes para 
+pesquisas sobre HME, quais sejam a fraca, a semi-forte e a forte. Esses testes 
+se dedicam a explicar as possibilidades de haver possibilidades de retornos 
+anormais com base no tipo de mercado onde atua.
+
+Em mercados onde se apresenta a forma fraca, os preços dos títulos são baseados,
+essencialmente, por dados históricos e, portanto, de fácil acesso a todos os 
+investidores. Quando há informações disponibilizadas para o público em geral, 
+tais como demonstrações contábeis, ocorre a forma semi-forte da HME. Baseado na 
+premissa de todos investidores serem racionais e capazes de processar todas as 
+informações disponíveis de forma a maximizar seus resultados, nessas duas formas 
+não seria possível haver retornos anormais, dada a possibilidade de os 
+investidores tomarem decisões ótimas com as mesmas informações.
+
+A forma forte da HME é a mais criticada por propor um contexto no qual não há 
+informações privilegiadas para nenhum investidor e, portanto, todas as 
+informações disponíveis estão devidamente precificadas. Fama (1970) já alerta 
+para o fato de não ter encontrado evidências contrárias às formas fraca e 
+semi-forte, contudo esse resultado não foi o mesmo para a forma forte, indicando 
+haver investidores ou grupo de investidores com acesso privilegiado de 
+informações.
+
+Outros testes foram realizados para avaliar o reflexo das informações no preço 
+de títulos. O *fair game* pressupõe retornos anômalos iguais a zero, pois todas 
+as informações passadas já estão incorporadas no preço das ações, não gerando 
+diferença entre os investidores. Portanto o retorno estimado e o retorno médio 
+não possuem informações sobre retornos futuros. No modelo *fair game* as 
+condições de equilíbrio de mercado podem ser estabelecidas em termos de retornos 
+previstos e aborda pouco sobre os detalhes da geração de retornos do processo 
+estocástico. O processo *Random Walk* estabelece a falta de memória na 
+precificação de títulos, pois seu preço atual reflete “totalmente a informação 
+disponível”, portanto o preço futuro é altamente aleatório considerando a 
+distribuição dos retornos passados não determinar a distribuição de retornos 
+futuros. Num mercado *Submartingale*, segue a linha do *Random Walk*, contudo 
+apresenta a imprevisibilidade dos retornos, impossibilitando a ocorrência de 
+retornos anormais, pressupõe um retorno maior nos períodos posteriores.
+
+A generalidade da forma forte da HME torna seus testes impraticáveis e sofre, 
+portanto, críticas importantes, observadas em Fama (1991) quando propõe mudar o 
+foco de cada teste da HME. A forma fraca se preocuparia com uma área ampla de 
+teste de previsões de retorno, incluindo teste com dividendos, taxas de juros e 
+sazonalidade (efeito janeiro). Para a forma semi-forte o autor propôs uma 
+mudança no título para estudo de eventos e na forma forte mudança no título para 
+teste de informação privada.
+
+Desta forma, as pesquisas se concentrariam na previsibilidade de retornos com 
+base em retornos passados e política de dividendos, na forma fraca. Na forma 
+semi-forte os estudos se direcionariam para análise do impacto da publicação de 
+informações ao mercado no preço dos títulos com base em estudo de eventos, para 
+o qual seriam avaliadas alterações nos preços em períodos *ex ante* e *ex post* 
+a determinado evento. E, por fim, na forma forte as pesquisas procurariam a 
+compreensão, por meio de testes de informações privadas (ou privilegiadas), 
+sobre o comportamento dos preços de títulos na presença de agentes com 
+informações mais completas perante seus pares.
+
+A dificuldade de testes da HME provocou algumas pesquisas empíricas no sentido 
+de entender a precificação de ativos, dentre os quais Fama (1991) cita: a) O 
+Modelo de Sharpe-Lintner-Black (SLB) para o qual carteiras não correlacionadas 
+com o mercado oferecem retorno igual à taxa livre de risco; b) Merton (1973) e 
+Ross (1976), complementando o modelo SLB, por meio da avaliação de múltiplos 
+fatores na geração de retornos, além do fato de os retornos previstos limitar-se 
+a sensibilidades; c) Os Modelos baseado em consumo (Rubinstein, 1976; Lucas, 
+1978; Breeden, 1979) onde os retornos esperados sobre os títulos seria função 
+linear e positiva de seu consumo. O modelo multifatorial de Merton e Ross, 
+segundo Fama (1991) é o sobressalente dentre todos.
+
+Há uma indicação por Fama (1991) para a contribuição mais eficaz nos estudos de 
+ventos, especialmente quando tratado em nível diário. Na forma forte, tratada em 
+pesquisas sobre informações privadas, são indicados a análise da rentabilidade 
+do *insider trading*, pois algumas pesquisas indicam a existência de informações 
+privadas no mercado (*value line*, analistas de seguros, gestores de 
+investimentos). Contudo o custo para o acesso a essas informações pode explicar 
+o retorno anômalo para esses casos, denotando um mercado não tão eficiente, mas 
+não foge da premissa da racionalidade dos investidores.
+
+Malkiel (2003) avalia críticas à HME por meio de resultados estatísticos 
+definindo eficiência quando retornos anormais são decorrentes de riscos anômalos. 
+Para Malkiel (2003) existem evidências explícitas para a ineficiência do mercado. 
+Cita alguns casos como a bolha da internet, em 2000, e outros casos como em 1987 
+quando o mercado perdeu um terço de seu valor sem indicações de mudanças no 
+ambiente. O efeito janeiro também é abordado por ser um fato conhecido do 
+mercado, mas recorrente. No caso do “efeito janeiro” os preços das ações tendem 
+a crescer no início de janeiro de cada ano e se a HME fosse verdadeira, o 
+mercado já teria ajustado essa informação no preço, impedindo sua recorrência, 
+mas não é o caso.
+
+A diferença explícita entre a HME e a proposição de Malkiel (2003) consiste na 
+incorporação parcial ou total da informação na variação dos preços de títulos. 
+Para a HME as variações de preços incorporam todas as informações a respeito das 
+empresas, enquanto Malkiel (2003) propõe a possibilidade de haver ruídos no 
+fluxo informacional, dificultando o reflexo da informação nos preços.
+
+A HME define, portanto, um ambiente no qual os investidores alocam seus recursos de forme 
+eficiente, assegurados pelo acesso e assimilação de toda informação disponível, 
+contudo algumas anomalias de mercado foram identificadas colocando em descrédito 
+a HME. Ações com grandes dividendos, por exemplo, apresentam melhor desempenho 
+em períodos subsequentes. Para a HME quaisquer informações conhecidas seriam 
+incorporadas ao preço, impossibilitando investidores a obterem retornos 
+excessivos.
+
+Fama (1970) já identifica fragilidade na HME em sua forma forte por ser genérica 
+e de difícil exposição a testes. Os resultados empíricos contrários á HME 
+sugerem haver relação entre previsão de analistas e o preço de títulos. Esse 
+fato põe em dúvida a passeio aleatório proposto pela HME, no qual os preços 
+futuros são frutos de informações futuras e não poderiam ser previstos.
+
+Contudo, desconsiderar a HME não parece ser salutar para as pesquisas acadêmicas 
+e para a compreensão do mercado. Suas premissas são consistentes, mas 
+suscetíveis ao comportamento humano. Assim, a reação dos agentes às novidades
+disponibilizadas ao mercado desencadeará novos reflexos aos preços, cuja 
+compreensão se faz necessária.
+
+É importante observar a estimação de retornos diários com base em retornos 
+diários e semanais, como disposto por Fama (1970), pois algumas pesquisas 
+empíricas relatam esses achados como contrários à HME, enquanto os defensores da 
+HME denominam essas relações como espúrias provocadas pela tendência dos 
+analistas em expor apenas resultados de acordo com seus interesses.
+
+Por fim, é possível concluir pela impossibilidade de existência de um mercado 
+eficiente como proposto pela HME (o próprio Fama, reconhece essa proposição), 
+sobretudo por haver informações não incorporadas aos preços, conforme Malkiel 
+(2003), seja por informações privadas ou pela impossibilidade de todos os 
+agentes assimilarem igual e racionalmente toda a informação disponível.
+
+
+---
+
+Fama, E. F. (1970). Efficient capital markets: a review of theory and empirical 
+work. *The Journal of Finance*, *25*(2), 383-417.
+
+Fama, E. F. (1991). Efficient capital markets: II. 
+*The Journal of Finance*, *46*(5), 1575-1617.
+
+Maikael, B. G. (2003). The efficiency market hypothesis and it critics. 
+*Journal of Economic Perspectives*, *17*(1), 59-82.
+
+---

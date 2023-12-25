@@ -1,0 +1,228 @@
+---
+title: "Sentimento do investidor no mercado de ações"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Sentimento
+  - Retornos
+date: 2021-08-06
+toc: true
+image: "sentimentoInvestidor.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](sentimentoInvestidor.png)
+
+Eventos históricos no mercado de capitais são de explicação desafiadora. O 
+modelo financeiro padrão, no qual os preços são o valor presente dos futuros 
+fluxos de caixa esperados, possui dificuldades em se ajustar a esses padrões. As 
+finanças comportamentais sugerem um modelo com duas premissas: 1) Sentimento do 
+investidor origina-se na crença sobre fluxos de caixa futuros e riscos de 
+investimento que não são justificados pelos fatos disponíveis (à mão - at hand); 
+2) Apostar contra investidores baseados em sentimento é caro e arriscado. Assim, 
+os investidores racionais negligenciam os fundamentos (sugerido pelo modelo 
+padrão). Portanto, há limite para arbitragem. Entretanto, antes de períodos de 
+quebra/crise o que se observa é a majoração dos preços ao invés de criação de 
+mecanismos contrários aos arbitradores (Baker & Wurgler, 2007).
+
+Nesse contexto, é incontestável a influência do sentimento do investidor no 
+mercado de capitais (preços). Assim, a questão não é sua existência, mas a sua 
+mensuração. Baker e Wurgler (2007) expõem duas abordagens possível para 
+mensuração do sentimento. Pela abordagem *bottom-up* (de baixo para cima) usa-se 
+o viés do investidor individual tais como excesso de confiança, 
+representatividade e conservadorismo para explicar como investidores individuais 
+reagem positiva ou negativamente aos retornos passados ou aos fundamentos. 
+Quando agregados, modelos individuais fornecem previsões sobre padrões no 
+sentimento do investidor, preços de ações e volume do mercado como um todo. A 
+abordagem *bottom-up* possui pouca variação com o passar do tempo na psicologia 
+de massa. Diferentemente da abordagem *bottom-up*, a abordagem *top-down* (de 
+cima para baixo) foca na mensuração de forma reduzida, sentimento agregado e 
+traça seus efeitos no retorno de mercado e ações individuais.
+
+O sentimento do investidor proposto por Baker e Wurgler (2007) utilizam a 
+abordagem *top-down*. Busca-se dois pressupostos mais amplos e irrefutáveis: 
+sentimento e limites de arbitragem. Explica-se quais ações são mais prováveis de 
+serem mais afetadas pelo sentimento ao invés de simplesmente indicar qual o 
+nível de preços agregado depende do sentimento. Algumas características são mais 
+suscetíveis ao sentimento do investidor, quais sejam a baixa capitalização, 
+pouco tempo de existência, pouca rentabilidade, alta volatilidade, não pagamento 
+de dividendos, está em crescimento ou crise, dentre outros. Dessa forma, alguns 
+aspectos das abordagens *top-down* ou *bottom-up* se demonstram favoráveis à 
+análise do sentimento do investidor.
+
+A vantagem da abordagem *top-down* é seu potencial de abrangência de bolhas, 
+crises e mais padrões diários nos preços das ações de forma simples, intuitiva e 
+abrangente. A vantagem do modelo *bottom-up* é fornecer microfundamentos para a 
+variação no sentimento do investidor, considerado exógeno pelo modelo *top-down*. 
+Os trabalhos pioneiros surgiram na década de 80 sem teorias (ateóricos) testando 
+de várias formas a possibilidade de o mercado como um todo ser mau precificado. 
+Testava-se a reversão à média dos retornos ou previsibilidade dos retornos 
+agregados usando quocientes de *valuation*. Nesses estudos o papel do sentimento 
+ficou implícito, associado à fragilidade das evidências estatísticas. A 
+previsibilidade dos retornos poderia refletir uma correção da má precificação do 
+sentimento induzido (Baker & Wurgler, 2007).
+
+O trabalho de Baker e Wurgler em 2006 utilizam avanços na teoria de finanças 
+comportamentais ao fornecer testes mais nítidos para os efeitos do sentimento. 
+Nesses modelos os investidores são de dois tipos: a) arbitradores racionais: 
+imunes ao sentimento de mercado por basear-se em fundamentos; b) negociadores 
+irracionais: sujeitos ao sentimento exógeno. Esses investidores competem no 
+mercado fixando preços e retornos esperados. O limiar entre ambos acontece 
+devido ao limite dos arbitradores quanto a visualização em horizontes de tempo 
+curto e pelos custos e riscos de negociar a descoberto. Os investidores 
+irracionais acabam influenciando no preço e nem sempre os preços são valores 
+baseados em fundamentos. Assim a má precificação pode vir da irracionalidade de 
+alguns investidores ou da limitação de outros (Baker & Wurgler, 2007).
+
+Verifica-se, portanto, que choques de demanda baseados em sentimento variam 
+entre as firmas, mas a arbitragem não. O sentimento é mais demandado em títulos
+especulativos. Quando o sentimento aumenta, esperamos que ações especulativas 
+tenham retornos atuais maiores. Para Baker e Wurgler (2007) a dificuldade e 
+subjetividade na avaliação das firmas são características que tornam ações mais 
+especulativas em relação as demais. Firmas mais jovens e/ou em crescimento estão 
+mais propensas a especulação e, portanto, aos efeitos do sentimento. A incerteza 
+significa que o efeito do excesso de confiança, representatividade e 
+conservadorismo são mais pronunciados. A mudança na propensão a especular surge 
+da diferença de opinião entre investidores com a mesma informação básica. Não se 
+espera, dessa forma, a mesma reação sobre a informação disponível.
+
+Mesmo com a arbitragem variando entre as firmas (jovens, pequenas, baixa 
+rentabilidade ou em alto potencial de crescimento) os arbitradores tenderão a 
+fugir desses papeis quando sua má precificação for muito alta. Por não pagar 
+dividendos, os seus fundamentos são adiados, ficando sujeitos a especulação. 
+Mostra-se que o sentimento tem grande efeito sobre esses papeis. A conclusão a 
+que se chega é que empresas com características específicas (jovens, pequenas, 
+mais voláteis, pouca rentabilidade, não pagadora de dividendos, em crise ou em 
+potencial de crescimento extremo - ou companhias com características análogas) 
+estão mais sujeitas ao sentimento do investidor. Contrariamente, ações melhores 
+no mercado (*bond-like*) são menos gerenciadas pelo sentimento.
+
+A discussão sobre a mensuração do sentimento do investidor perpassa, portanto, 
+para a indicação de algumas proxies, sendo possível propor algumas medidas e 
+demonstrar seu comportamento em relação aos principais episódios especulativos 
+dos últimos 40 anos. Um choque exógeno no sentimento do investidor influencia 
+uma cadeia de eventos que pode ser observado por todas as suas partes. As 
+crenças do investidor, por exemplo, podem ser pesquisadas. Os resultados dessa 
+pesquisa podem traduzir padrões de negociação que são registrados. A arbitragem 
+limitada sofre pressão, gerando alguns *mispricings* que podem ser usados pelo 
+*benchmark* em fundamentos (book-to-market, por exemplo). Esses *mispricings* 
+podem gerar uma informação privilegiada para *insiders* (executivos) que podem 
+ter incentivos para levar vantagem com a informação e, então, ajustar sua 
+estrutura de capital.
+
+Cada parte dessa cadeia sofre influências conflitantes. Os economistas tendem a 
+suspeitar das pesquisas, pois a resposta nem sempre reflete o real comportamento 
+do respondente. Negociações tendem a zero (não há ganhos anormais), então medir 
+sentimento com atividades de negócios significa se posicionar alinhado com 
+investidores irracionais. O preço de mercado normalmente reflete fundamentos, de 
+modo geral, com sentimento desempenhando um papel menor. Assim, a alteração da 
+estrutura financeira pode acontecer por muitas razões, inclusive pela mudança de 
+fundamentos dos negócios em vez de simplesmente agir como arbitradores 
+corporativos. A utilização de proxies para sentimento se torna imprescindível. 
+Nessa perspectiva, Baker e Wurgler (2007) listam algumas possíveis *proxies*.
+
+Pesquisas com investidores questionando o quão otimista eles estão pode dar 
+alguns insights quanto aos investidores irracionais marginais. O índice de 
+confiança do consumidor possui correlação forte com o índice UBS/Gallup 
+(*survey* com investidores caseiros e profissionais), especialmente com retornos 
+de pequenas ações ou por ações dominadas por investidores de varejo. Humor do 
+investidor (sem muita ênfase dada por Baker e Wurgler (2007)), possivelmente por 
+ser mais subjetivo, relaciona atributos emocionais (transtornos depressivos no 
+entardecer, resultados de jogos de futebol) associando esses humores com baixos 
+retornos, em especial de pequenas ações. A negociação de investidores de varejo 
+é interessante, pois foi são mais prováveis em está suscetíveis ao sentimento, 
+pois a literatura identificou que esses investidores compraram mais ações 
+próximo a bolha da internet (Baker & Wurgler, 2007).
+
+A forma como investidores alocam seus recursos em fundos mútuos é facilmente 
+identificada em dados disponíveis. Uma medida de sentimento proposta por outros 
+autores é baseada no movimento entre fundos de maior ou menor risco. Os fundos 
+são conhecidamente investidores em investimento com altos retornos. Outra 
+evidência empírica é que os fundos ao permanecerem com uma ação rentável na 
+compra, possuem retornos pobres em períodos posteriores. O Volume de negociação 
+(ou liquidez) é uma boa *proxy* para sentimento do investidor. Vendas a 
+descoberto (*short-selling*) são mais caras que posições de longo prazo. 
+Investidores irracionais são mais propensos a negociar (aumentar a liquidez) 
+quando estão otimistas ou apostar no crescimento das ações em relação quando 
+estão pessimistas. O *Market Turnover*, a razão entre o volume negociado e o 
+número de ações listadas na NYSE é uma *proxy* simples para este conceito (Baker 
+& Wurgler, 2007).
+
+A característica de pagar ou não dividendos pode ser determinante para a 
+ocorrência do sentimento. Quando empresas são pagadoras de dividendos se 
+assemelham a títulos com resultados previstos. O prêmio de dividendos decorre no 
+estudo de 2004 de Baker e Wurgler como a diferença entre o *book-value* de 
+empresas pagadoras e não paradoras de dividendos. O prêmio de dividendo explica 
+a maior parte da tendência histórica da propensão da firma pagar dividendos. As 
+empresas parecem atender ao sentimento quando esse está contra ou a favor à 
+segurança ao se decidir pagar dividendos. Há uma associação entre fundos 
+fechados e o sentimento, pois os esses fundos são dominados por pequenos 
+investidores (*retail investor*). O desconto cobrado nesses fundos pode ser uma 
+*proxy* para sentimento, pois tende a aumentar quando os pequenos investidores 
+estão em baixa (Baker & Wurgler, 2007).
+
+Os preços das opções aumentam quando o ativo subjacente tem sua volatilidade 
+esperada aumentada. Os modelos de opções (BS) podem ser invertidos para ganhos 
+implícitos de volatilidade como uma função dos preços das opções. O Índice de
+Volatilidade do Mercado (VIX), da bolsa de Chicago que mede a volatilidade 
+implícita das opções das 100 ações do índice S&P, também chamada de índice do 
+medo, discute os picos do VIX em períodos como o crash de outubro/1987 e a crise 
+do gerenciamento de capital de longo prazo em 1998. O primeiro dia após o IPO 
+apresenta notáveis retornos que são difíceis de ser explicados a não ser pelo 
+entusiasmo do investidor. Os retornos dos primeiros dias após o IPO mostram 
+picos e baixas altamente correlacionados com o volume de IPO. A demanda por IPO 
+(volume de IPO) é extremamente sensível ao sentimento do investidor. Os bancos 
+de investimento falam em janelas de oportunidade para IPO que caprichosamente 
+abre e fecha. As flutuações no volume são selvagens, saindo de 100 para zero por 
+mês (Baker & Wurgler, 2007).
+
+A alta emissão de ações em relação à emissão total (dívidas mais ações, 
+inclusive IPO) são associados a baixos retornos em período posterior, sugerindo 
+um padrão no qual as firmas trocam sua estrutura de capital com redução de custo 
+de capital. Não implica em previsão de preços do mercado como um todo, mas má 
+precificação relacionadas entre firmas que as levam a ações gerenciais 
+correlacionadas que podem então prever retornos. O *insider trading* no qual 
+executivos possuem melhor informação sobre o valor de suas empresas em relação 
+aos demais participantes. Deixada a legalidade de lado, as decisões do 
+*portfólio* pessoal dos executivos podem revelar suas visões sobre a má 
+precificação de suas firmas. Se o sentimento leva à má precificação 
+correlacionada, padrões de *insider trading* podem conter um componente de 
+sentimento sistemático (Baker & Wurgler, 2007).
+
+As possibilidades de *proxies* para sentimento são diversas, entretanto, a 
+disponibilidade de dados reduz consideravelmente a possibilidade de escolha das 
+variáveis para cálculo do sentimento do investidor. Embora possa variar 
+diariamente, a maioria dos eventos ocorrem anualmente. Os testes mais 
+convincentes sobre os efeitos do sentimento são aqueles preocupados em predizer 
+um longo horizontes de retornos. A escolha feita por Baker e Wurgler (2007) 
+foram 6 *proxies*: o turnover (TURN), volume de IPO (NIPO), primeiro dia de 
+retorno do IPO (RIPO), prêmio de dividendos (PDND), emissão de novas ações (S) e 
+desconto de fechamento dos fundos (CEFD). Essas variáveis foram analisadas pelo 
+método de componentes principais, cujos cofatores indicam quando de cada 
+variável implicará na formação da variável de sentimento.
+
+Os resultados sugerem que o sentimento de mercado, especialmente o calculado 
+pela sua variação, explicam melhores momentos de bolha ou de crises. A 
+volatilidade do sentimento aumenta nesses episódios, sugerindo a mudança com o 
+tempo na relação entre o sentimento e os fundamentos. Há, contudo, evidência de 
+que o sentimento do investidor afeta o retorno das ações, embora possa está 
+poluído de outros elementos econômicos que torna a relação possível. Baker e 
+Wurgler (2007) apresentam alguns desafios para a análise do sentimento quais 
+sejam caracterizar e medir o sentimento do investidor e determinar quais ações 
+atraem os especuladores ou tem potencial limitado de arbitragem. Mesmo com os 
+desafios e ainda tendo bastante evidência a ser desvendada, há ganho substancial 
+na melhor compreensão do sentimento dos investidores (Baker & Wurgler, 2007).
+
+
+---
+
+Baker, M., & Wurgler, J. (2007). Investor sentiment in the stock market. 
+*The Journal of Economic Perspectives*, *21*(2), 129–151.
+
+---

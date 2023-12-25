@@ -1,0 +1,214 @@
+---
+title: "Mensuração Contábil"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Mensuração
+  - Valor Justo
+date: 2019-12-14
+toc: true
+image: "mensuracaoAtivos.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](mensuracaoAtivos.png)
+
+A necessidade de mensuração é presente nas diversas áreas do conhecimento, sendo 
+solicitada quando se pretende comparar algo com seu similar de referência. Assim, 
+se estabelecem os padrões de mensuração. Exemplos práticos dessa necessidade são 
+presentes no cotidiano das pessoas quando pretendem medir sua pressão arterial 
+ou sua temperatura. Embora leigos em medicina, a maioria das pessoas tomam 
+decisões de procurar um médico após atestar sua temperatura acima do “normal”, 
+assim como sua pressão. O estabelecimento de um padrão na mensuração de diversos 
+aspectos contribui para tomadas de decisão. Dessa forma, a acurácia da mensuração 
+é sempre observada pela probabilidade de causar danos quando sua medida não é 
+precisa.
+
+Com a contabilidade não é diferente. A mensuração do patrimônio de uma empresa 
+também é estabelecida com base em padrões pré-definidos e, essencialmente 
+regulados. Contudo, no caso contábil, há a demanda pela revelação de um 
+patrimônio próximo da realidade econômica, onde os valores alocados ao 
+patrimônio apresentem uma visão verdadeira e justa da posição patrimonial e do 
+desempenho. Essa é a discussão norteadora desse resumo crítico sobre mensuração 
+contábil. Serão delineados os entendimentos sobre como a contabilidade trata os 
+valores incorporados ao patrimônio das empresas e como os agentes reguladores e 
+o mercado visualizam essas informações.
+
+As informações contábeis servem para dois propósitos quais sejam a avaliação por 
+gestores das suas decisões anteriores para otimização das novas decisões e 
+avaliação da gestão pelos acionistas, credores e outros (Edwards & Bell, 1961).
+
+Martins (2000), já expunha as enormes discussões provocadas nos meio meios 
+acadêmico e profissional, ao longo do tempo, quanto a avaliação patrimonial das 
+empresas. Para o autor, são diversas as formas de se medir o patrimônio e o 
+lucro de uma empresa, indo de um custo histórico, baseado em transações 
+ocorridas, passando pelo custo corrente, com base na reposição do consumo 
+decorrente da produção, até se chegar ao valor presente dos fluxos de caixa 
+futuro.
+
+Todas essas medidas são aceitas e utilizadas, a depender da decisão pretendida 
+por cada usuário, convergindo para um único elemento, qual seja o caixa. O 
+interesse em qualquer decisão econômica se direciona ao caixa, ou seja, no 
+dinheiro disponível. No custo histórico se avalia o caixa ocorrido. No custo 
+corrente, o caixa a prestes a acontecer e, no fluxo de caixa futuro, o caixa 
+esperado (Martins, 2000).
+
+De acordo com Bierman Jr. (1963), o equívoco defendido por alguns quanto a 
+capacidade dos contadores apresentarem medida verdadeira tem dificultado o 
+progresso na prestação de informação financeira. Se a contabilidade se limitou a 
+apresentar a quantidade de dinheiro no banco, uma medida é verdadeiramente 
+atingível. Mas quando o âmbito da contabilidade é ampliado a partir do objetivo 
+limitado de medição de caixa, a possibilidade de encontrar uma medida verdadeira 
+fica fora de alcance.
+
+Assim, se espera uma contabilidade capaz de definir o melhor aparato 
+informacional para definir qual mensuração é mais adequada para revelar o valor 
+patrimonial de uma empresa. Essa decisão passa, inexoravelmente, pela 
+normatização da contabilidade, de onde se espera a melhor escolha no padrão 
+contábil em benefício da maior gama de usuários.
+
+Porém, deve-se observar as características qualitativas da informação contábil, 
+em especial, para essa discussão, as características fundamentais da relevância 
+e da representação fidedigna e as características de melhoria da comparabilidade 
+e da verificabilidade. As demais características de melhoria da tempestividade e 
+da compreensibilidade, embora importantes, no processo de mensuração, podem ser 
+absorvidas na discussão das demais características propostas.
+
+De acordo com Comitê de Pronunciamentos Contábeis (2011), uma informação para
+ser relevante precisa ter utilidade na tomada de decisão. Portanto a mensuração
+de quaisquer elementos contábeis deve ter por finalidade provocar a decisão de 
+um usuário. Contudo, a busca pela melhor informação possível pode não ser 
+apropriada no caso da contabilidade, pois embora se espere uma informação com
+melhor acurácia, se espera ter essa informação tempestivamente em todos os 
+períodos para poder comparar a informação de uma empresa com outra e, também,
+as informações de uma mesma empresa durante diversos períodos. Assim, uma
+informação elaborada em determinado período deve ter seu procedimento de
+mensuração repetido em outros momentos. A ausência de integridade nas informações
+acaba por influenciar a confiabilidade da informação, outro atributo qualitativo
+da informação.
+
+Para Godfrey *et al*. (2010), a possibilidade de erro na mensuração é iminente e 
+possui diversas fontes. As operações mensuradas estabelecidas imprecisamente, 
+por exemplo, refletem o caso onde as premissas utilizadas para definir como a 
+informação deve ser mensurada pode ser impreciso. Então, quando um órgão 
+normatizador define o custo histórico como a melhor medida de medição estoque 
+pode gerar informações imprecisas pelos elaboradores, mas aceita no meio dada a 
+sua regulação. O elaborador da medição (*measurer*) também representa outra 
+fonte de erro, pois pode interpretar erroneamente algum procedimento da medição 
+e enviesar a informação prestada, podendo ocorrer deliberadamente ou por erro.
+
+Outras fontes de erro são decorrentes do instrumento de medição, do ambiente, de 
+atributos obscuros e do risco e incerteza. O instrumento de medição se refere ao 
+fato de a forma como a mensuração é captada (gráficos, planilhas, controles) 
+pode conter vieses ou imperfeições na coleta e inserção de informações. O 
+ambiente influencia a informações no sentido de restringir a ação do *measurer*, 
+tais como ambiente regulado, com ausência de punições adequadas ou até mesmo a 
+oferta de bônus aos *measurers*. Os atributos obscuros (*attribute unclean*) são 
+fontes de erro por incorporarem a possibilidade de não haver clareza na medição 
+realizada, como é o caso do próprio lucro quando mensurado por diversas formas 
+de avaliação, mas normalmente é indicado o custo histórico. Por último, o risco 
+e a incerteza são fontes de erro devido a existência de valores nas empresas 
+cuja mensuração não é certa, mas ainda assim é importante ser evidenciado. É o 
+caso dos intangíveis, pois não se sabe ao certo se o retorno proposto na sua 
+mensuração é dado como certo. (Godfrey *et al*. 2010).
+
+No contexto até então exposto percebe-se a dificuldade, quando da elaboração das
+demonstrações contábeis, de apresentação de valores referentes à posição 
+patrimonial e ao desempenho das empresas em consonância com a realidade. A 
+utilização da informação pelos diversos usuários dificulta a adoção de um único 
+procedimento de mensuração para as informações contábeis. A possibilidade de 
+erro de mensuração perpassa desde falhas operacionais até a própria utilização 
+indevida (deliberada ou não) dos critérios de mensuração pelos elaboradores das
+demonstrações.
+
+Considerando as normatizações vigentes no mercado internacional quanto a 
+mensuração de informações contábeis destaca-se a tendência da adoção do valor 
+justo como o valor representativo da visão justa e verdadeira 
+(*true and fair view – TFV*) do valor patrimonial.
+
+À primeira vista, valores de saída ou valores obtidos no mercado onde a empresa 
+opera, embora mais subjetivos, dão a impressão de serem mais próximos da 
+realidade. Considera-se a precificação das transações ocorridas como o valor 
+real do ativo negociado. Assim, há uma discussão recorrente sobre a mensuração 
+dos componentes contábeis pelo valor justo. Para IASB (2011), o valor justo é o 
+preço a ser recebido na venda de um ativo ou pago para transferir um passivo em 
+uma transação ordenada entre os participantes de um mercado na data de 
+mensuração, ou seja, um preço de saída.
+
+De acordo com KPMG (2011), o valor justo leva em conta as características dos 
+ativos e passivo e não do as características específicas da entidade. Sua 
+mensuração presume uma transação no mercado principal, cujo preço não é ajustado 
+pelos custos de transação. Portanto, maximiza o uso de *inputs* observáveis e 
+minimiza os não observáveis. Dentre esses princípios observam-se as vantagens 
+para o uso do valor justo como medida para ativos e passivos. Contudo, Barth e 
+Landsman (1995) alertam para o comportamento utilitarista dos gestores na 
+mensuração do valor justo. Em um mercado perfeito, as demonstrações contábeis 
+efetuadas com base no valor justo refletiriam toda relevância de valor da 
+informação. Porém, em mercados mais realistas, o valor justo pode ter sua 
+relevância diminuída.
+
+Na crise subprime de 2008, quando o mercado em euforia acabou supervalorizando 
+imóveis e subavaliando os riscos, a contabilidade foi atacada pelo fato da 
+mensuração a valor justo, especialmente pelo excesso de otimismo na mensuração 
+de ativos. Dessa provocação, o IASB e o FASB emitiram parecer conjunto sobre a 
+avaliação a valor justo, gerando alterações na IFRS 13 (IASB) e no Tópico 820 
+(FASB).
+
+De acordo com o IFRS 13, a mensuração do valor justo se aplica a IFRS onde o 
+valor justo é exigido ou permitido nas mensurações ou divulgações e proporciona 
+um quadro único para IFRS. De acordo com FASB (2011), A harmonização dos 
+requisitos de mensuração do valor justo e divulgação constitui um elemento 
+importante da resposta dos *boards* à crise financeira global. Importante 
+ressaltar a vasta discussão acerca de como se demonstrar como mensurar a valor 
+justo, sendo inclusive ponto de pauta a inserção de exemplos na norma, 
+optando-se ao final, pela extensão das alterações da norma com situações mais 
+detalhas.
+
+O IFRS 13 estabelece o valor justo como uma medida baseada no mercado, mesmo 
+reconhecendo em alguns casos as informações possam não serem observáveis. Não se 
+estabelece ou prescreve o uso de uma técnica específica para mensuração.
+(IASB, 2011).
+
+Portanto, a busca por uma contabilidade a valor justo permanece sendo um desafio 
+para os elaboradores das normas, assim como para os gestores das empresas. A 
+escolha pelo valor justo, embora não seja consenso, tem demandado estudos a fim 
+de normatizar o melhor uso do valor justo nas demonstrações contábeis.
+
+
+---
+
+Barth,  M. E. & Landsman,  W. (1995). Fundamental  issues  related  to  using
+fair value  accounting  for  financial reporting. *Accounting Horizons*,
+*9*(4), 97-107.
+
+Bierman Jr., H. (1963) Measurement and accounting. *The Accounting Review*,
+*38*(3), 501-507.
+
+Comitê de Pronunciamentos Contábeis. (2011). CPC 00 (R1): estrutura
+conceitual para elaboração e divulgação de relatório contábil-financeiro. 
+Disponível em <http://www.cpc.org.br/Arquivos/Documentos/147_CPC00_R1.pdf>. 
+Acesso em 04.jun.2015.
+
+Edwards, E. O. & Bell, P. W. (1961). *The theory and measurement business*
+*income*. California: University California Press.
+
+Financial Accounting Standards Board. (2011). *Fair Value Measurement (Topic 820):*
+*amendments to achieve common fair value measurement and disclosure*
+*requirements in U.S. GAAP and IFRSs*. FASB.
+
+Godfrey, J., Hodgson, A., Holmes, S. & Tarca, A. (2010). *Accounting theory*. 
+(7$_{a}$ ed.). New York: Wiley.
+
+International Accounting Standards Board. (2011). IFRS 13: *Fair Value*
+*Measurement*. London: IASB.
+
+KPMG. (2011). Orientação unificada para mensuração e divulgação do valor justo
+para IFRS. IFRS em destaque.
+
+---

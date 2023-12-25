@@ -1,0 +1,244 @@
+---
+title: "Governança Corporativa: Sistemas e melhores práticas"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Governança Corporativa
+  - Principal
+  - Agente
+date: 2021-01-21
+toc: true
+image: "governancaCorporativa.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](governancaCorporativa.png)
+
+Os colapsos empresariais ocorridos no início do século XXI marcam a demanda pela 
+gestão profissional. A riqueza do acionista ficou prejudicada com as fraudes 
+gerenciais e comportamentos inadequados de gestores no período marcado por 
+revoluções econômicas com presença de monopólios. A solução viável para o 
+contexto consistiu em separar a propriedade do controle. Significa definir os 
+papéis do proprietário, responsável pelo aporte de recursos na empresa e o 
+gestor, com a incumbência de cuidar do patrimônio do proprietário, gerando valor 
+a sua riqueza. (Baker & Anderson, 2010).
+
+O divórcio entre a propriedade e gestão acarretou mudanças profundas nas 
+companhias, dentre as quais a permuta da tomada de decisões dos “capitães de 
+indústria” para executivos contratados, os objetivos empresariais ultrapassaram 
+a visão simplista de maximização dos lucros e, principalmente, a emergência de 
+interesses assimétricos entre o gestor e o proprietário. (Andrade & Rossetti, 
+2009).
+
+Andrade e Rossetti (2009) destacam a assimetria de interesses como ponto 
+principal devido ao surgimento de boas práticas de governança para reaproximação 
+entre a propriedade e a gestão. A governança corporativa reage aos oportunismos 
+da gestão se concentrando em diretrizes para redução de oportunismos, buscando 
+maximizar as utilidades pessoais dos proprietários e dos gestores.
+
+Do ponto de vista teórico, Baker e Anderson (2010) destacam a pesquisa de Jensen 
+e Meckling, de 1976, por fornecer um quadro teórico geral para a análise do 
+comportamento gerencial para a discussão dos problemas de agência e dos custos 
+de transação. Os problemas de agência referem-se ao distanciamento dos 
+interesses do gestor e do proprietário. O gestor, contratado pelo proprietário, 
+deveria tomar decisões favoráveis à parte contratando, todavia há uma tendência 
+natural para buscar sua utilidade em detrimento dos demais. Essa prática provoca 
+custos de monitoramento, denominados custos de transação, cuja finalidade é 
+alinhar as ações da gestão aos interesses do proprietário.
+
+Desta forma, se espera um sistema de governança corporativa capaz de absorver a 
+demanda de empresas de capital aberto quanto a sua continuidade. O crescimento 
+do número de empresas de capital aberto no início do século XXI demandou gestão 
+dos recursos de investidores, mesmo não tendo uma legislação clara ou uma 
+política de apresentação de resultados.
+
+As melhores práticas de governança sugeridas pela literatura traduzem a mensagem 
+da redução de assimetria entre proprietário e gestão, verificadas pela teoria da 
+agência. Contudo, a natureza humana e a ampliação dos grupos de interesse 
+dificultam a aplicação dessas práticas.
+
+O desenvolvimento industrial americano, por volta de 1890, foi marcado por 
+monopólios responsáveis pela manufatura. Nesse período, poucas empresas 
+alcançavam o domínio nacional e as demais competiam regionalmente para conseguir 
+receita suficiente para cobrir seus altos custos fixos. (Mitchell & Mitchell, 
+2010).
+
+No início dos anos 1900 emergiu a lei antitruste com a finalidade de acabar com 
+os monopólios. Nesse formato de mercado a concorrência desleal dificulta o 
+regime de preços no mercado e impossibilita o desenvolvimento econômico. Após a 
+lei, as corporações passaram a pulverizar o seu capital. Assim, o capital antes 
+concentrado passa a ser distribuído entre diversos investidores com interesses 
+nos resultados das companhias para percepção de retornos.
+
+As primeiras experiências foram desastrosas. A regulação precária (ou a sua 
+ausência) contribuiu para dificuldades nessa nova superestrutura financeira. A 
+bolha de 1903 foi reflexo da capitalização excessiva no mercado por falta de 
+critérios claros para avaliação dos investimentos. Os acionistas receberam 
+ofertas de ganhos superiores aos legalmente previstos. O mercado de ações se 
+tornou de alto risco dada a especulação atrelada aos investimentos. Os 
+dividendos futuros, fruto da confusão entre os valores econômico e nominal das 
+ações gerou nos investidores, *a priori*, a esperança de prosperidade e 
+descrença, *a posterior*i, deixando-os cada vez mais dependentes dos órgãos de 
+controle das empresas. (Mitchell & Mitchell, 2010).
+
+Após a crise de 1929, as regulações sobre a avaliação dos investimentos se 
+intensificaram, mas ainda permaneceu a dependência por órgãos de controle aos 
+interesses dos acionistas. A preocupação com a evolução do cenário corporativo 
+americano, altamente concentrado e aparentemente desenfreado, fomentou a criação 
+de mecanismos de controle dos grupos majoritários e a capacitação dos 
+minoritários para direcionar os objetivos empresariais em benefício social. 
+(Mitchell & Mitchell, 2010).
+
+O período compreendido entre os anos 30 e 60 foi marcado pela pluralidade no 
+controle acionário das empresas. Nesse ínterim as regulações protetivas aos 
+minoritários fortaleceu a relação com os majoritários. A formação dos conselhos 
+contava apenas com menos de 10 por cento das ações das empresas, evidenciando a
+desconcentração do poder. Os interesses de minoritários passaram a ser melhor 
+atendidos, abrindo espaço para a credibilidade no mercado. Mitchell e Mitchell 
+(2010) consideram esse contexto como a abertura para uma visão centrada no 
+mercado. Os interesses individuais foram sucumbidos pelos interesses sociais, 
+em especial dos acionistas das empresas.
+
+A quebra desse paradigma gerou mudanças nas normas regras da governança 
+corporativa. A crise BackOffice do final dos anos 1960 e o colapso de 1971 do 
+mercado causada interrupções extremas, além de outras crises como Watergate, 
+gerou a busca pela responsabilização dos atos. Os resultados dos esforços para 
+garantir a credibilidade das atuações resultaram na reformulação conceitual dos 
+conselhos, os quais foram melhores articulados aos princípios de governança 
+corporativa, dando-lhe mais independência afirmadas pelos tribunais de Delaware. 
+Nesses tribunais os conselhos passaram a ter suas prerrogativas de independência 
+afirmadas, pois, seguidos os ritos processuais, os atos praticados seriam 
+blindados de investigação judicial. (Mitchell & Mitchell, 2010).
+
+Em meados da década de 1980, segundo Mitchell e Mitchell (2010), os tribunais de 
+Delaware definiram o poder de monitoramento do conselho como absoluto e 
+inquestionável, incluindo o poder de impedir os acionistas de exercer o seu 
+direito de sair da empresa com a venda de suas ações para um acionista 
+oportunista. Dessa forma, os diretores não seriam nem representantes nem 
+procuradores dos acionistas, mas sim seus agentes. O modelo de monitoramento 
+repousava sobre os pressupostos de haver o monitoramento dos executivos no 
+intuito de melhorar seus desempenhos.
+
+A regulação sofre variações de enfoques a depender de aspectos específicos de 
+cada região. Andres, Betzer, Goergen e Metzger (2010) revisam as principais 
+taxonomias dos sistemas de governança corporativa, incluindo as variedades do 
+capitalismo como uma delas. As economias baseadas em mercado (market-based) e 
+as baseadas no sistema bancário (bank-based), cuja taxonomia foi apresentada em 
+Hicks (1969) e Chandler (1977; 1984), estabelecem abordagens diferentes para as 
+regulações. As economias de mercado são caracterizadas por sua dependência forte 
+nos mercados de capital e dívida pública enquanto as economias bancárias contam 
+com bancos para financiar empresas. O Reino-Unido e os Estados Unidos são 
+considerados em pesquisas citadas por Andres *et al*. (2010) como market-based. 
+Já França, Alemanha e Japão são considerados bank-based.
+
+As diferenças na história e regulação do setor bancário tiveram uma grande 
+influência no desenvolvimento dos sistemas nacionais de governança corporativa. 
+Em sistemas baseados no mercado, os bancos e companhias de seguros atuam 
+principalmente como intermediários financeiros e raramente participam do capital 
+de empresas comerciais e industriais. Nos Estados Unidos, por exemplo, há 
+impedimentos para a participação direta de bancos no capital de empresas. 
+(Andres *et al*., 2010).
+
+Outra taxonomia distingue o insider do outsider system. Em economias baseadas no 
+mercado há difusão do outsider system no qual a gestão se alinha aos interesses 
+dos acionistas. No insider system, o mercado é regido por agentes com informação
+privilegiada. Esse cenário é mais visualizado onde há concentração de 
+propriedade, participação cruzada e interesses familiares no comando das 
+empresas. (Andres *et al*., 2010).
+
+A governança corporativa ainda sofre influência de outras taxonomias para sua 
+efetiva implementação e difusão. Andres *et al*. (2010) citam o direito e civil 
+e o direito comum como importantes para definir as diretrizes de funcionamento 
+das regulações e sua aceitação pelos países, assim como o sistema eleitoral 
+(proporcional ou majoritário) e os determinantes políticos.
+
+A proposta da governança corporativa, segundo Todd (2010) é dirigir e controlar 
+as atividades de uma organização pelo estabelecimento de estruturas, regras e 
+procedimentos para a tomada de decisão. Contudo, a busca por melhores práticas 
+de governança corporativa pode ser equivocada, exceto quando há uma relação de 
+causa-efeito entre os procedimentos especificados e os resultados desejados pela 
+companhia.
+
+O *framework* do ACG – Aspirational Corporate Governance sugere princípios 
+gerais, aplicáveis a qualquer organização, porém seu foco é em grandes empresas 
+com negociação pública de ações. A maiorias das empresas aceitas as melhores 
+práticas sugeridas pelo ACG por proteger os interesses dos acionistas e procurar 
+maximizar o valor de seus papéis no longo prazo. Mesmo assim, Todd (2010) revela 
+não haver uma associação entre governança e a performance das empresas. Outras 
+entidades também emitem seus guias para melhores práticas de governança, tais 
+como a Associação Nacional dos Diretores Corporativos (NACD) e a Organização 
+para Cooperação e Desenvolvimento Econômico (OECD). Independente do órgão, as 
+práticas sugeridas convergem ao ponto principal da governança corporativa: 
+reduzir o conflito de agência.
+
+A ocorrência de crises econômicas sempre existirá dadas as suas múltiplas 
+causas. O fortalecimento das relações entre os agentes econômicos possivelmente 
+iniba a repetição de casos extremos na economia. A rigor, os problemas 
+econômicos são tratados como problemas gerais e não endógenos. A proliferação de 
+aspectos endógenos negativos como más condutas da gestão, utilidade dos agentes 
+e ausência de prestações de contas responsável por bolhas econômicas e 
+descrédito no mercado.
+
+A qualificação da relação entre a empresa e todos seus stakeholders contribui 
+tanto para a continuidade da empresa como para a permanência da companhia no 
+mercado. A clareza das relações leva o mercado para um patamar viável sob o 
+ponto de vista capitalista.
+
+O capitalismo com vista a todo o portfólio de agentes contratantes da firma é 
+salutar para economia. A adoção das melhores práticas de governança corporativa 
+conduz a empresa à redução do conflito de agência e a melhor relação com seus 
+agentes.
+
+É importante, todavia, observa o ambiente no qual a empresa está inserida. Uma 
+economia baseada no sistema bancário é diferente de uma economia baseada em 
+mercados essencialmente pelo usuário ao qual a empresa busca manter relação 
+informacional mais direta. Uma economia baseada em mercados direciona seus 
+esforços ao investido, enquanto quando baseada no sistema bancário há um 
+controle maior do setor privado e acesso a informações privilegiadas, 
+contribuindo para ganhos acima da média e para a ineficiência do mercado.
+
+Todo o arcabouço teórico da governança corporativa disciplina formas para se 
+reduzir o conflito de agência e alinhar todos os objetivos ao da empresa. Embora 
+pareça óbvio ou de fácil aplicação, a governança corporativa invoca a condução 
+de políticas efetivas e requer o envolvimento da alta gestão na inclusão das 
+devidas rotinas no planejamento estratégico das empresas.
+
+A governança corporativa é, portanto, um instrumento importante para a economia 
+ao propor a qualificação das relações contratuais da firma. Ao mesmo tempo 
+trata-se de uma percepção de mercado e não individual. O ambiente no qual a 
+concorrência se estabelece pode ditar a viabilidade de boas práticas de 
+governança corporativa.
+
+---
+
+Andrade, A. & Rossetti, J. P. (2009). 
+*Governança Corporativa: fundamentos, desenvolvimento e tendências* (4a ed.). 
+São Paulo: Atlas.
+
+Baker, H. K. & Anderson, R. (2010). An Overview of Corporate Governance. In H. 
+K. Baker & R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 1, 
+pp. 3-18). New Jersey: Wiley.
+
+Mitchell, L. E. & Mitchell, D. T. (2010). The Financial Determinants of American 
+Corporate Governance: A Brief History. In H. K. Baker & R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 2, 
+pp. 19-36). New Jersey: Wiley.
+
+Andres, C., Betzer, A., Goergen, M., & Metzger, D. (2010). Corporate governance 
+systems. In H. K. Baker & R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 3, 
+pp. 37-56). New Jersey: Wiley.
+
+Todd, A. (2010). Corporate governance best practices. In H. K. Baker & R. 
+Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 4, 
+pp. 57-78). New Jersey: Wiley.
+
+---

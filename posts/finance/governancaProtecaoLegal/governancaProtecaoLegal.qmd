@@ -1,0 +1,228 @@
+---
+title: "Governança Corporativa e Proteção Legal"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Governança
+  - Proteção Legal
+date: 2021-07-30
+toc: true
+image: "governancaProtecaoLegal.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](governancaProtecaoLegal.png)
+
+A governança corporativa consiste na configuração de procedimentos internos, 
+legais e guias informais voltados a direcionar a tomada de decisão nas empresas. 
+O objetivo do sistema de governança é garantir tomadas de decisão corporativas 
+confiáveis, representativas do melhor interesse da corporação e dos seus 
+acionistas. Todas as comunicações públicas devem refletir a verdade, porém o 
+principal desafio da governança corporativa é criar um sistema capaz de 
+equilibrar a responsabilidade dos tomadores de decisão com a sua autoridade.
+
+No mercado americano o padrão de governança possui raízes na regulação, em 
+especial após a SOX em 2002. Nesse modelo os funcionários corporativos são 
+legalmente induzidos a agir em prol dos assuntos das empresas. Em outra linha a 
+SEC busca sistemas de prestação de contas robustos em garantir a integridade da 
+informação financeira. Discute-se, todavia, a viabilidade de um sistema de 
+governança rodeado de regras e sanções. Há, nesse ambiente, o risco de fuga de 
+diretores qualificados pelo receio de responsabilidade excessiva. Ao mesmo 
+tempo, um dos problemas mais evidentes em governança corporativa parece ser uma 
+falta de responsabilização individual por má gestão e/ou fraude.
+
+Em escala global, o processo de governança se torna mais complexo. Diferença 
+entre as estruturas legais e financiamento dos países interferem na padronização 
+de políticas ligadas a regras de condutas corporativas. Embora pequeno, o G-20 
+congrega países de economia relevante para o cenário mundial e o amadurecimento 
+de políticas inter-fronteiras convergirá para uma inevitável adoção de normas de 
+governança em nível mundial. O *design* desse padrão será bastante discutido, 
+pois o eficiente padrão SOX consegue disciplinar operações e condutas, mas se 
+apresenta oneroso. Diversos IPOs deixaram de se efetivar por desestímulo das 
+empresas em abrir seu capital e ficar sujeito a regras rígidas. O mesmo ocorre 
+com empresas estrangeiras sujeitas à SOX quando resolvem negociar no mercado 
+americano.
+
+Algumas estruturas evidentes nas economias e divergente dentre os países do 
+próprio G-20 podem intervir contra a globalização de normas de governança.
+Convergir a economia para um mesmo patamar normativo pode ser dificultado, por 
+exemplo, pelos direitos de propriedades divergentes ou pelo nível de 
+desenvolvimento da economia. Empresas de países onde a proteção legal é fraca, 
+os mecanismos de governança serão menos efetivos, diferentemente de empresas em 
+países com forte proteção de investidores. O cerne está na propensão em se 
+investir em governança. A falta de proteção dos investidores os desencoraja em 
+realizar tal investimento, pois não visualizam retorno com tal recurso, 
+acontecendo o inverso para empresas com proteção legal por terem a expectativa 
+de segurança na aplicação de seus recursos.
+
+A discussão realizada se concentra no nível normativo a ser aplicado por 
+normatização de governança e sua aplicabilidade em diferentes economias. O 
+problema antes visualizado em nível da firma, e já difícil de ser mitigado, 
+passa absorver contornos em nível mundial, dificultando sua implementação dados 
+os conceitos divergentes relacionados a questões culturais, de mercado e de 
+financiamento de empresas.
+
+Os mecanismos para uma prestação de contas padronizada são o mercado, a votação 
+de acionistas e responsabilidade civil e criminal. O equilíbrio desses 
+mecanismos cria um ambiente de tomada de decisão responsável, impedindo má 
+condutas pela gestão. Contudo, cada um desses mecanismos contém falhas envoltas 
+na discricionariedade dos gestores. O fato é a possibilidade de falhas em 
+sistemas de governança de onde se espera a credibilidade para alocação de 
+recursos. Uma vez crível, o mercado tenderá a aplicar seus recursos num ambiente 
+reconhecido como próprio para investimento. Dessa forma, a eventual falha do 
+sistema de governança desencadeia um problema devastador para economia, 
+justificando a discussão e a busca por mecanismos eficazes para tal 
+possibilidade. (Jones, 2010).
+
+Baseado no exemplo norte-americano, Jones (2010) discute a utilização de meios 
+legais para solução problemas em governança. A lógica das normas é tornar o 
+funcionário corporativo aderente às práticas reveladoras de bons resultados para 
+a firma e inibir o uso de práticas discricionárias em interesse próprio. Quando 
+as empresas assumem riscos, os acionistas são beneficiados com os retornos 
+decorrentes do risco, além do fato de poderem diversificar seu risco investindo 
+em mais de uma empresa, equilibrando a possibilidade de ter problemas em uma 
+empresa, mas com sucesso em outra. De acordo com as cortes americanas, os juízes 
+não são competentes em muitos assuntos de ordem econômica e cabe aos acionistas 
+escolherem a melhor gestão para seus recursos. O mercado permite e encoraja esse 
+processo.
+
+Os investidores contam com informações contábeis e relatórios para avaliar a 
+perspectiva de negócios e tomar suas decisões de investimentos. Jones (2010) 
+aborda o fato de as tomadas de decisão serem fundamentadas em estimativas 
+futuras em detrimento de informações históricas disponibilizadas pela SEC. 
+Nessas projeções – alinhadas por meio de comunicados a imprensa, discursos, 
+conferências, etc. – há a discricionariedade da gestão em tornar público 
+informações importantes para o mercado, mas em dose controlada por ela. A 
+governança corporativa atuaria na minimização desses impactos, atentando para 
+critérios inibidores de má conduta quanto a revelação de perspectivas pela 
+gestão.
+
+A SEC já se ajusta para reforma legais no sentido de prevenção contra 
+informações futuras gerenciadas. Um dos pontos principais sugeridos a implicação 
+em planos de incentivo, onde cláusulas restritivas nos contratos com a gestão 
+contemplasse o confisco de pagamentos de incentivos baseados em resultados 
+superavaliados, independentemente de o gestor ser culpado ou não. Tais medidas 
+devem inspirar uma maior vigilância por diretores, conselheiros e auditores, 
+reduzindo os incentivos para a fraude. (Jones, 2010).
+
+Rezaee (2010) direciona a discussão para uma relação de mercado onde o capital é 
+espalhado em nível mundial e empresas passam a ter capital de vários países. As 
+empresas passam a ser financiadas com capitais de múltiplos países e ter 
+influência de diversas economias. Nas últimas crises mundiais revelou um 
+paradoxo entre socorrer empresas em crise ou exigir mais governança na prestação 
+de suas contas. Se espera de normas de governança a proteção de investidores das
+ineficiências empresariais, má condutas e informações financeiras enganosas e, 
+assim, restaurar a confiança pública e confiança dos investidores nos mercados 
+financeiros, corporações, e suas demonstrações financeiras.
+
+Alguns países acenam na perspectiva de união em prol da alocação eficiente de 
+capital, mas as divergências de cada país dificultam a implantação de normas de 
+governança eficazes. Vários fatores influenciam a governança corporativa, 
+incluindo leis corporativas, leis federais, padrões de listagem e melhores 
+práticas. Cada um desses *drivers* influenciam a governança corporativa, 
+exigindo o cumprimento de suas próprias regras e diretrizes. A proteção legal 
+aos acionistas também se incorpora ao rol de dificuldade na implementação de uma
+normatização de governança comum a diversos países. (Rezaee, 2010).
+
+O padrão norte-americano poderia ser utilizado como guia para os demais países. 
+Tratando-se de um instrumento normativo criado pós-crise e escândalos na maior 
+economia mundial, justificaria sua implementação em nível global, entretanto, os 
+críticos consideram a SOX onerosa e desestimuladora de novas ofertas públicas, 
+especialmente por empresas internacionais. Os requisitos de conformidade são 
+onerosos e impedem o crescimento global, limitando as oportunidades para as 
+empresas. Por outro lado, os defensores da SOX fundamentam-se na melhoria 
+substancial da confiança no mercado de capitais trazida pela legislação.
+
+Várias disposições da SOX, descritas por Rezaee (2010), influenciam a governança
+corporativa. Em primeiro lugar, o fato de atribuir papeis e responsabilidades 
+para os guardiões da governança corporativas, inclusive auditores, analistas e 
+consultores jurídicos. Em segundo lugar, reforça os deveres fiduciários e 
+responsabilidades dos conselheiros, diretores, CEOs e, por último, mitiga 
+conflitos de interesse entre acionistas e diretores, além daqueles entre os 
+próprios diretores.
+
+Proteger investidores em nível nacional, além de outras regras de governança 
+podem, segundo Bruno e Claessens (2010), ajudar a aliviar os problemas de 
+agência, superar desvios por contratos incompletos e incentivar o desempenho das 
+firmas. No entanto, os custos para esse monitoramento podem superar os 
+benefícios dele decorrentes. A base central da teoria da firma de Ronald Coase é 
+o pressuposto de um contrato firmado entre partes igualmente informadas quando, 
+na realidade, há informação assimétrica entre as partes contratantes.
+
+Em nível global a assimetria tende a se ampliar. A necessidade de um regime 
+público de governança corporativa varia de acordo com o problema específico de 
+governança corporativa. Um refinamento de problemas de governança corporativa 
+distingue dois aspectos: o interno e o externo à firma. No interno, a governança 
+age sobre os agentes os agentes sob sua tutela (acionistas, administradores e 
+diretores) e os seus incentivos. No externo, a governança corporativa opera de 
+fora da empresa por meio de leis, regulamentos, mercados, controle corporativo e
+concorrência. Em ambos há problemas difíceis de serem vencidos, especialmente 
+por dificuldade alinhamento de posturas baseadas no padrão econômico, cultural e 
+financeiro de cada país.
+
+De acordo com Bruno e Claessens (2010), quando os direitos de propriedade são 
+fracos e os mercados financeiros são menos desenvolvidos, o monitoramento e 
+compromisso com a governança corporativa das empresas são mais difíceis. 
+Portanto, as empresas em países menos desenvolvidos não possuem incentivos para 
+adotar governança corporativa dada a falta de proteção. Os custos de 
+implementação desses mecanismos não serão percebidos no retorno de suas ações. 
+Em contrapartida, as empresas de países com forte proteção aos investidores não 
+sofrem deste problema, estando dispostos a gastar mais por sistemas de 
+governança.
+
+O impacto diferente de regulamentação em todos os níveis de desenvolvimento do 
+país se relaciona com a questão de saber se uma regulamentação uniforme é 
+benéfica para todas as empresas. Esta questão pode ser reformulada como o debate 
+sobre a adequação da regulamentação obrigatória ou flexível. Eventuais fracassos 
+na governança corporativa levarão os países a adotarem soluções diferentes para 
+a governança em seu território.
+
+A ampliação do mercado além países convocou a governança corporativa para o 
+desafio de tratar de conflitos de agência em nível global. A escolha de um 
+modelo capaz de atender a demanda de países distintos com culturas e 
+características diversificadas não é tarefa fácil, mas a sua necessidade é 
+consenso entre governantes das principais economias mundiais. Enveredar pelo 
+meio normativo, como o modelo americano via SOX, pode ser o *benchmarking*, mas 
+possui algumas limitações, dentre as quais os custos de implementação e a fuga 
+de capital do mercado dadas as conformidades exigidas.
+
+Embora não explicitado nos textos, levanta-se a possibilidade de haver 
+dificuldades de implantação de normas de governança em países onde predominem a 
+influência bancária no financiamento das empresas. Os mercados onde os bancos 
+são predominantes caracterizam, dentre outros aspectos, pela participação dos 
+bancos no financiamento de longo prazo das empresas e na participação como 
+acionistas. Nesse contexto, a governança exigida pelo setor bancária já é 
+estabelecida nos seus contratos de dívidas e devidamente monitoradas por 
+informações contábeis e outros mecanismos.
+
+Por fim, é possível haver mudanças na forma como o capital é alocado e como o 
+mercado funciona para uma convergência de práticas de governança em escala 
+global. Os aspectos característicos de um mercado baseado em capitais não são 
+absorvidos por todas as economias e pode ser o maior empecilho para gerar a 
+credibilidade no sistema de mercado com base em governança corporativa.
+
+
+---
+
+Bruno, V. & Claessens, S. (2010). Economics aspects of corporate governance and 
+regulation. In H. K. Baker & R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 30, 
+pp. 599-619). New Jersey: Wiley.
+
+Jones, R. M. (2010). Corporate governance and accountability. In H. K. Baker & 
+R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 28, 
+pp. 559-576). New Jersey: Wiley.
+
+Rezaee, Z. (2010). Corporate governance rules and guidelines. In H. K. Baker & 
+R. Anderson (Eds.). 
+*Corporate governance: a synthesis of theory, research, and practice* (Chap. 29, 
+pp. 577-597). New Jersey: Wiley.
+
+---

@@ -1,0 +1,318 @@
+---
+title: "Custo e Estrutura de Capital"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Finanças
+  - Estrutura de Capital
+  - Endividamento
+  - Valor
+date: 2021-06-26
+toc: true
+image: "custoEstruturaCapital.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](custoEstruturaCapital.png)
+
+A discussão sobre a importância da estrutura de capital para o valor da firma 
+perpassa, em primeiro plano, pelo custo de capital. O trabalho seminal de 
+Modigliani e Miller (1958) trata o custo de capital da firma como função da taxa 
+de juros sobre títulos, para os quais a teoria até então disposta aponta para o 
+pressuposto teórico de o capital exigido pelos proprietários da firma ser o 
+mesmo cobrado em títulos. Dessa forma, a aquisição de um ativo só é viável se 
+aumentar o lucro líquido em prol dos proprietários da firma. Com base nesse 
+pressuposto os teóricos concluíram que o custo de capital dos proprietários de 
+uma firma seria simplesmente a taxa de juros dos títulos, implicando, com base 
+na atuação racional, na tendência em buscar investimentos até o ponto onde o 
+ganho marginal dos ativos seja igual à taxa de juros de mercado (Modigliani & 
+Miller, 1958).
+
+Nessa perspectiva, a tomada de decisão racional é discutida sob dois aspectos: a 
+maximização dos lucros e a maximização do valor de mercado. Pelo critério de 
+maximização dos lucros, a aquisição de um ativo é viável se ele aumenta o lucro 
+líquido dos proprietários da firma, contudo esse lucro apenas aumentará se a 
+taxa de retorno (ou ganho) esperado do ativo excede a taxa de juros. Pela 
+maximização do valor de mercado, um ativo é viável para ser adquirido se ele 
+aumenta o patrimônio líquido dos proprietários (consequentemente adiciona mais 
+valor de mercado à firma) em relação aos custos de aquisição. Porém, o que o 
+ativo adiciona é dado pela capitalização do fluxo gerado pela taxa de juros e, 
+seu valor capitalizado, apenas excederá seu custo se, e somente se, o ganho do 
+ativo excede a taxa de juros. Em ambos os pontos Modigliani e Miller (1958) 
+demonstram a igualdade entre o custo de capital e a taxa de juros em títulos, 
+implicando na sua primeira proposição quanto a falta de relação entre estrutura 
+de capital e o valor da firma.
+
+A estrutura de capital, na hipótese de Modigliani e Miller (1958), corresponde a
+investimentos em capital próprio ou capital de terceiros. Para determinar o
+preço relativo das ações, assumem dois pressupostos sobre a natureza dos títulos 
+e do mercado de títulos: a) todos os títulos rendem um ganho constante por 
+unidade de tempo e esse ganho é considerado como certo por todos os negociadores,
+independente do emissor; b) títulos, assim como ações, são negociados em mercado 
+perfeito, no qual duas *commodities* que são substitutas perfeitas devem ser
+vendidas, em equilíbrio, pelo mesmo preço. Ainda dentro de sua hipótese, 
+Modigliani e Miller (1958) consideram a inexistência de impostos e distribuição 
+de dividendos na forma de lucro – a distribuição de dividendos e a retenção de 
+lucros seria uma mero detalhe para os autores.
+
+Com base nesse contexto, são lançadas proposições, em que na sua primeira 
+proposição, Modigliani e Miller (1958) declaram que o valor de uma firma 
+qualquer é independente de sua estrutura de capital, sendo dada pela 
+capitalização de seu retorno esperado à taxa apropriada a sua classe (baseada em 
+ganho). Dessa forma, o custo médio de capital de uma firma qualquer é similar 
+dentro de sua classe. Ações de arbitragem são possíveis, porém o ganho de uma 
+firma representa o insucesso de outra, eliminando a discrepância entre o valor 
+de mercado das firmas. Decorre dessa proposição o fato de o custo médio de 
+capital ser constante para cada empresa, sendo essa a base para a segunda 
+proposição sobre a estrutura de capital.
+
+A segunda proposição Modigliani e Miller (1958) estabelece a igualdade entre o 
+ganho esperado de uma ação e a taxa apropriada para o fluxo de capital próprio, 
+mais um prêmio relativo ao risco financeiro para o índice dívida/PL, 
+multiplicado pelo *spread* entre o retorno da ação e a taxa de juros. Com base
+nessa formulação, a troca de capital próprio por capital de terceiros não altera 
+o custo médio de capital mesmo quando o capital de terceiros for menos oneroso. 
+Ao estabelecer o prêmio pelo risco financeiro derivado do quociente dívida/PL, o 
+ganho com a dívida é compensado na estrutura de capital pelo aumento do custo de 
+capital próprio.
+
+Uma consequência desses pressupostos é indicação intuitiva para o uso exclusivo 
+de capital de terceiros. O efeito alavancagem geraria para os proprietários 
+ganhos sem a necessidade de realização de investimentos. Sob esses aspectos 
+reside, entretanto, os custos de falência. De acordo com Modigliani e Miller 
+(1958), a dificuldade de receber mais empréstimos deixaria a firma exposta a 
+taxas de juros mais altas, além de sofrer restrições de gestores de companhias e 
+de credores, porém o custo de capital próprio seria reduzido. Esse pressuposto, 
+dentre outros citados a seguir, são frágeis do ponto de vista prático, pois o 
+aumento da taxa de juros não reduziria, de fato, o retorno exigido do capital 
+próprio. Os proprietários investiriam em empesas mais arriscadas.
+
+Uma última proposição (proposição III) de Modigliani e Miller (1958) tratou da 
+relação entre a estrutura de capital e a política de investimentos. Para essa 
+proposição, se uma firma em dada classe age no melhor interesse dos acionistas 
+ao tomar suas decisões, ela explorará uma oportunidade de investimento se, e 
+somente se, sua taxa de retorno for maior que o retorno esperado pelo acionista. 
+Assim, a escolha de investimento, de acordo com essa proposição, demonstrar que 
+a escolha de investimento não é afetada pelo tipo de papel usado (ação ou 
+dívida) para financiar os investimentos.
+
+Assim, os pressupostos de Modigliani e Miller (1958) se demonstraram frágeis. 
+Além do fato de não indicar custos de agência, propor racionalidade equânime 
+entre os agentes e ausência de assimetria informacional, o fato de não 
+incorporar a tributação nos seus modelos impediu a proposição de uma escolha 
+ótima de estrutura de capital, pois o rendimento (lucro) não seria impactado 
+pelo aumento de dívida. Essa revisão foi posteriormente apresentada pelos 
+autores (Modigliani & Miller, 1963) quando se observa a redução do custo médio 
+ponderado de capital quando da utilização de capital de terceiros, dado o 
+benefício fiscal por meio da dedutibilidade dos juros sobre o lucro, reduzindo a 
+sua tributação.
+
+Os efeitos fiscais observados em Modigliani e Miller (1963) se referem ao fato 
+da dedução dos juros no cálculo dos lucros tributáveis corporativos impedirem 
+arbitragem sobre o fato de o valor de todas as empresas de uma dada classe serem
+proporcionais aos retornos esperados advindos de seus ativos físicos. O valor da 
+empresa passa a ser proporcional, em equilíbrio, aos seus rendimentos esperados 
+líquidos de impostos. Isso significa, entre outras coisas, que as vantagens 
+fiscais do financiamento da são um pouco maiores do que inicialmente sugerido na 
+pesquisa de 1958. Essa afirmativa implica na diferença quantitativa entre as 
+valorizações da empresa a depender da proporção de dívida. Há, todavia, apenas 
+esse aspecto não observado: as vantagens fiscais da dívida são as únicas 
+vantagens permanentes, abrindo-se espaço para diversas interpretações e 
+políticas (Modigliani & Miller, 1963).
+
+A vantagem fiscal não pode, segundo Modigliani e Miller (1963), motivar 
+políticas de financiamento essencialmente via dívidas. As diferenças 
+quantitativas geradas pelo efeito alavancagem, embora identificadas no modelo 
+corrigido, não esgotam as formas de financiamento das empresas. O financiamento 
+via retenção de lucros pode ser um atrativo importante, pois podem, em 
+determinadas circunstâncias, ser ainda mais barato. A flexibilidade de 
+financiamento das empresas passa a exercer papel importante para pesquisas 
+futuras, pois os dados revelam não haver aumento substancial do uso de dívidas 
+pelas empresas. Os testes a serem realizados sobre políticas de estrutura de 
+capital devem ultrapassar os limites dos efeitos da alavancagem sobre o custo de 
+capital das empresas (Modigliani & Miller, 1963).
+
+A interrogação sobre a escolha da estrutura de capital para as empresas 
+permanece, até a atualidade, sem resposta clara. Myers (1984) inicia sua 
+discussão sobre a dificuldade de compreender as motivações para a escolha da 
+estrutura de capitais, contrapondo-a com a política de dividendos – também 
+difícil de ser interpretada, mas com maior poder explicativo na literatura. Para 
+Myers (1984) pouca ou nenhuma pesquisa preocupou-se em testar se a relação entre 
+alavancagem e retorno exigido por investidores acontece como proposto por 
+Modigliani e Miller (1958, 1963). Ao invés de propor formas de investimento para 
+empresas quando não há definições claras sobre o tema, resolve estabelecer 
+*insights* sobre a estrutura de capital sobre dois aspectos: o arcabouço 
+conceitual do tradeoff estático e da antiquada ordem hierárquica.
+
+Para o *framework* do tradeoff estático a firma é vista como uma configuração 
+voltada a um índice dívida/valor que gradualmente se move nessa sua direção. Da 
+mesma forma como as firmas ajustam dividendos para se voltar a uma meta de 
+índice de *payout*. Para essa forma de visualização da escolha de estrutura de 
+capital, as firmas avaliam o *tradeoff* entre custo e benefícios do 
+endividamento, permanecendo constantes os planos de investimento em ativos da 
+firma. Pressupõe-se a substituição de dívida por capital próprio (e vice-versa) 
+até o valor da firma ser maximizado. Entretanto, se não fossem os custos de 
+ajustamento da estrutura, toda firma poderia focar no seu índice dívida/valor 
+ótimo e alcançá-lo. Os custos de ajustamento são muitos, impedindo a firma de 
+compensar eventos aleatórios imediatamente em busca de sua estrutura ótima 
+(Myers, 1984).
+
+Uma maneira de dar sentido aos testes de *tradeoff* seria assumir que os custos 
+de ajustamento são pequenos, mas os gestores não sabem (ou não dão importância) 
+ao índice dívida/PL ótimo. Nesse caso, o pesquisador assumiria algumas 
+abordagens teóricas gerenciais para escolha da estrutura de capital. Para Myers 
+(1984), essa proposição não é muito útil para a compreensão do comportamento 
+financeiro. Supondo, por outro lado, que os custos de ajuste são pequenos e as 
+empresas se mantem próximos das suas metas de endividamento, seria difícil 
+entender a dispersão de estruturas de capital das empresas, dada a semelhança de 
+todas. Assim, apenas se os custos de ajustes forem expressivos, as empresas 
+percorreriam um caminho maior até sua meta de endividamento, justificando o 
+entendimento sobre os custos de ajuste e como os gestores atuariam diante desses 
+custos.
+
+Considerando a dificuldade de se compreender e/ou verificar a existência dos 
+custos de ajustamento e explicar a estrutura de capital das empresas, Myers 
+(1984) propõe uma teoria contrastante com a do *tradeoff*, baseada na hierarquia 
+financeira. Essa teoria denominada *Pecking Order*, se fundamenta nas premissas 
+de que as empresas preferem financiamento interno, adaptam suas estratégias de 
+*payout* em prol de oportunidades de investimento, priorizam seus saldos de 
+caixa para desembolso de investimentos e, na necessidade de financiamento 
+externo, dão preferência a fazê-lo por meio de dívidas. A relação hierárquica da 
+estrutura de capital, o *Pecking Order*, estabelece uma ordem de preferência da 
+forma de financiamento das empresas com base em escolhas por fontes internas, no 
+primeiro momento, para só depois escolher fontes externas (Myers, 1984).
+
+Uma das explicações para preferência por financiamentos internos seria a redução 
+de custos, porém esse contexto estaria mais próximo da teoria estática do 
+*tradeoff*. Todavia, Myers (1984) apresenta algumas pesquisas para as quais a 
+assimetria de informações com financiamento externo pode ser um motivação para a 
+preferência do financiamento com fontes internas. A emissão de novas ações ou 
+dívidas mais arriscadas poderiam ocorrer quando seus valores estivessem mal 
+precificados, explicando a refutação por capital externo, pois apenas o 
+conhecimento real da empresa reduziria o risco da assimetria. Seria o caso do 
+*timing* da emissão de ações para o qual uma empresa emite ações quando avalia 
+suas ações com preço acima do seu real valor, vendendo-as no período de alta e
+recomprando-as quando retorna ao seu valor normal.
+
+A diversidade de decisões, aliadas com os imensos cenários aos quais as empresas 
+estão sujeiras, levaram pesquisadores a utilizar abordagens teóricas e 
+mensuração de variáveis diferentes para explicar as motivações das escolhas da 
+estrutura de capital. Dada essa dispersão de estudos, duas pesquisas a serem 
+apresentadas nessa resenha se preocuparam em fazer levantamento e análise da 
+produção sobre estrutura de capital. O artigo de Titman e Wessels (1988) 
+analisar o poder explanatório de algumas teorias da estrutura ótima de capital, 
+apresentando os determinantes para a estrutura de capital conforme modelo 
+próprio e o artigo de Harris e Raviv (1991) faz um levantamento das teorias de 
+estrutura de capital baseadas nos custos de agência, informação assimétrica, 
+interações de mercado (produto/insumo) e considerações de controle corporativo. 
+Ambas as pesquisas (Harris & Raviv, 1991; Titman & Wessels, 1988) apresentam 
+resultados voltados a apresentar um panorama e críticas sobre as produções 
+existentes e provocar pesquisas futuras sobre estrutura de capital.
+
+Propondo ampliar, avaliar as relações de diferentes tipos de dívidas e atenuar 
+problemas de mensuração de variáveis, Titman e Wessels (1988) avaliaram os 
+determinantes da estrutura de capital das empresas, cujos resultados revelaram 
+algumas características relacionadas ao endividamento das firmas. A 
+singularidade (produtos únicos ou especializados) é um fator recorrente em 
+empresas com baixo endividamento. São empresas categorizadas em investimentos em 
+pesquisa e desenvolvimento (P&D), despesas com vendas e taxa de demissão 
+voluntária pelos empregados. O mesmo panorama de dívida é verificado em empresas 
+menores e empresas rentáveis. Além de singularidade, rentabilidade e tamanho, 
+outros aspectos também foram analisados, quais sejam o valor de ativos 
+garantidos, proteção fiscal, crescimento, classificação industrial volatilidade.
+
+As contribuições de Titman e Wessels (1988) compreenderam o fato de utilizar 
+técnica fatorial para estimar o impacto de atributos latentes na escolha dos 
+índices de endividamento. Os resultados permaneceram inconclusivos, tal como os 
+demais, porém documentam algumas regularidades importantes para registro na 
+literatura sobre estrutura de capital. Corroborando com pesquisas anteriores, os 
+resultados sugerem que as empresas podem impor altos custos aos seus clientes, 
+funcionários e fornecedores em caso de liquidação com baixos índices de dívida. 
+A identificação dos custos de transação como determinante para a estrutura de 
+capital também foi importante, pois por meio dessa constatação verificou-se as 
+relações com o porte (tamanho) e rentabilidade.
+
+O *survey* realizado por  Harris e Raviv (1991), com foco em estudos anteriores, 
+pós anos 70, revelou os aspectos relacionados aos determinantes da estrutura de 
+capital dentro das categorias analisadas, conforme já citada anteriormente. Os 
+resultados do *survey* revelam potenciais determinantes para a estrutura de 
+capital, embora não se tenha resultados conclusivos quanto a essa relação nos 
+vários contextos. Do ponto de vista teórico, um número relativamente pequenos de 
+princípios gerais são abordados, especialmente quanto a aspectos do efeito da 
+dívida sobre a estrutura de capital. Demonstra-se a necessidade se buscar 
+modelos mais robustos, capazes de captar explicações para a estrutura de capital 
+em várias circunstâncias divergentes entre os modelos analisados – embora vários 
+trabalhos convirjam para a teoria, outros a contradizem. A abordagem de cada 
+categoria analisada por Harris e Raviv (1991) apoia a compreensão sobre esses 
+achados.
+
+Os modelos de agência são os mais eficientes em gerar implicações interessantes 
+entre a estrutura de capital e o valor da empresa (Harris & Raviv, 1991). As 
+relações contratuais (conflitos) entre gestores, credores e acionistas permitem 
+avaliar diversas variações das decisões da firma conforme o interesse de cada um. 
+Fatores como a existência das *covenants* em contratos de dívida, restringindo a 
+ação ou interesses dos acionistas, ou até mesmo a propensão do gestor em buscar
+projetos viáveis em prol da sua reputação, são motivações para haver relações 
+positivas entre o endividamento e o valor da firma. De acordo com Harris e Raviv 
+(1991), essa relação positiva acontece devido ambas serem variáveis endógenas 
+que se movem na mesma direção na ocorrência de fatores exógenos. Assim, mudar a 
+estrutura de capital implica em mudança no preço das ações.
+
+A assimetria informacional pode explicar a relação entre a estrutura de capital
+e o valor da firma de diversas formas. A existência de ativos tangíveis em 
+número inferior aos intangíveis pode ser uma indicação de possibilidade de 
+assimetria informa, cujo reflexo afeta a precificação do valor da empresa. 
+Sugere-se que quanto maior a assimetria, menor a probabilidade de se avaliar as 
+empresas corretamente. Sob esses aspectos, Harris e Raviv (1991) citam diversos 
+estudos com resultados conflitantes em relação aos preço das ações e emissão de 
+dívidas, ofertas públicas, existência de uma hierarquia de financiamento 
+(*Pecking Order*). A divergência se dá tanto em nível de sinais esperados quanto 
+a própria existência de relação entre a estrutura de capital e o valor da 
+empresa.
+
+Os fatores de concorrência e relação produto/insumo apresentam relações 
+interessantes para a mudança da estrutura de capital das empresas. 
+Essencialmente, Harris e Raviv (1991) tratam das estratégias das empresas em 
+determinar o comportamento de seus concorrentes distinguindo empresas pequenas, 
+monopólios ou oligopólios. Na presença de monopólio, observa-se na empresa 
+dominante menor incidência de dívidas em relação ao grupo de empresas formadoras 
+do oligopólio. O ponto é essencial é a dependência entre as empresas dos 
+produtos/insumos como determinantes da estrutura de capital da empresa com maior 
+necessidade de transacionar no mercado. No geral, quanto maior o poder nas 
+relações (inclusive nos casos em que a empresa produz um único produto – 
+singularidade), menor a incidência de dívidas.
+
+Com relação a última categoria proposta por Harris e Raviv (1991), qual seja a 
+disputa pelo controle da empresa, observa-se que quando o objetivo da aquisição 
+é o aumento da dívida, a relação positiva entre o endividamento e o preço das 
+ações (valor da empresa) se verifica dado o aumento dos preços da ações. 
+Importante ressaltar a independência entre questões de propriedade, consideradas 
+exógenas, com estrutura de capital (endógenas). As teorias de troca de 
+propriedade são tratadas como abordagens de curto prazo, corroborando o 
+distanciamento das mudanças de estrutura de capital como estratégias de longo 
+prazo. 
+
+
+---
+
+Harris, M., & Raviv, A. (1991). The Theory of Capital Structure. 
+*The Journal of Finance*, *46*(1), 297–355.
+
+Modigliani, F., & Miller, M. H. (1958). The cost of capital, corporation finance 
+and the theory of investment. *The American Economic Review*, *48*(3), 261–297.
+
+Modigliani, F., & Miller, M. H. (1963). Corporate Income Taxes and the Cost of 
+Capital: A Correction. *The American Economic Review*, *53*(3), 433–443.
+
+Myers, S. C. (1984). The Capital Structure Puzzle. 
+*The Journal of Finance*, *39*(3), 575–592.
+
+Titman, S., & Wessels, R. (1988). The Determinants of Capital Structure Choice. 
+*The Journal of Finance*, *43*(1), 1–19.
+
+---

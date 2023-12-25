@@ -1,0 +1,325 @@
+---
+title: "Regulação e Evolução dos Princípios e Normas de Contabilidade"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Regulação
+  - IASB
+  - FASB
+date: 2018-03-12
+toc: true
+image: "regulacaoContabil.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](regulacaoContabil.png)
+
+O evento impulsionador da regulação e evolução dos princípios e normas contábeis 
+foi a grande depressão de 1929. Schroeder, Clark e Cathey (2011) mencionam o 
+período pouco após o início da grande depressão como um período de tentativas de 
+melhorias para a contabilidade, onde a New York Stock Exchange (NYSE) e o 
+American Institute of Accountants (AIA) realizaram uma série de reuniões no 
+intuito de discutir problemas relacionados ao interesse de investidores, da NYSE 
+e da AIA.
+
+Os esforços cooperativos entre os membros da NYSE e da AIA foram bem recebidos, 
+contudo o ambiente pós-depressão foi caracterizado por regulação. Por exemplo, 
+foram introduzidas legislações com a exigência de licenciamento de auditores 
+pelo governo federal após um serem submetidos a um exame civil.
+
+Desses esforços foi criada a Securities and Exchange Commission (SEC), com o 
+propósito de administrar diversos atos inerentes aos valores mobiliários. Com 
+poderes previstos pelo congresso, a SEC possuía a autoridade de prescrever 
+princípios de contabilidade e práticas de divulgação de informações contábeis. 
+No período entre 1936 e 1938, debates internos levaram à conclusão de permitir 
+ao setor privado definir o padrão contábil. Com a emissão do ASR nº 4 
+(*Accounting Series Release*), conforme Niyama e Silva (2011), decidiu-se que a 
+própria profissão contábil seria responsável pela formulação de princípios 
+contábeis. Esse mesmo documento estabelecia que a SEC só aceitaria demonstrações 
+financeiras elaboradas de acordo com princípios e práticas contábeis aprovados e 
+aceitos pela profissão contábil.
+
+Hendricksen e Van Breda (1999) atribuem o pioneirismo na criação de princípios 
+contábeis à American Association of Accountants – AAA (Associação Americana de
+Contabilidade). Sob a liderança de professores pesquisadores, com destaque para 
+William Paton, o AAA iniciou em 1936 uma série de publicações relacionadas à 
+criação de princípios de contabilidade.
+
+Na essência, buscavam um acordo quanto à base de considerações fundamentais que 
+tenderiam a eliminar as variações aleatórias resultantes das diferentes 
+abordagens sugeridas por financistas e executivos a respeito do que seria 
+adequado para investidores num determinado momento. Na prática, se buscava 
+eliminar os efeitos causados pela valoração de ativos com base no mercado, ou 
+seja a reavaliação para cima ou para baixo, de acordo com variações de preços e 
+condições econômicas esperadas.
+
+Até então, um mercado com o registro de suas transações não regulado traria 
+desconfiança e descrédito. O processo estocástico de atribuição de valores ao 
+patrimônio das empresas acabava por não refletir a real situação dos negócios. 
+Não havia, portanto, como se trabalhar com projeções e estimativas convincentes 
+como forma de subsidiar a tomada de decisão dos investidores.
+
+Nesse ambiente de extrema desconfiança, Hendricksen e Van Breda (1999) ressaltam 
+a tentativa da AAA em atribuir o custo como base da contabilidade. Essa 
+iniciativa seria um meio para impor uniformidade no sistema contábil, eliminando 
+com o subjetivismo até então vivenciado. Contudo, sob o ponto de vista teórico, 
+a padronização ou uniformidade do sistema contábil apenas engessa o processo, 
+tendendo a valorização da forma como as transações acontecem e não sua essência. 
+Assim, necessariamente não se teria uma boa teoria contábil.
+
+Para o período, a mudança mais significativa foi o objetivo da contabilidade. A 
+contabilidade passou de uma apresentação de informações à administração e aos 
+credores para o fornecimento de informações financeiras a investidores e 
+acionistas. O fato de mudar o direcionamento das informações geradas pela 
+contabilidade permitiu mudanças relevantes na forma como a contabilidade era 
+conduzida e na concepção de princípios contábeis para uma nova realidade.
+
+Destacam-se a redução da ênfase no balanço como demonstração de valores, pois o 
+destaque passaria para a demonstração de resultados, acompanhado de um conceito 
+uniforme de lucro. Considerando os usuários primários estarem, a partir de então, 
+fora da empresa, houve uma necessidade de divulgação integral de todas as nuances 
+das contas reveladas nos demonstrativos agora completos com consequente aumento 
+de notas explicativas às demonstrações.
+
+Havia um cuidado todo especial na divulgação do resultado, possivelmente pela 
+tradição de “ajustar as contas” a mercado discricionariamente. A identificação 
+de suavização da variação do lucro foi consequentemente identificada e combatida. 
+Uma prática defendida por alguns acadêmicos, dentro dessa perspectiva, foi o 
+diferimento do prejuízo. O prejuízo seria classificado no ativo e amortizado com 
+o tempo, tornando o resultado ruim mais ameno ou, até mesmo, demonstrar 
+resultado positivo quando na realidade teve-se prejuízo em determinado período.
+
+Dos fatos até então relatados, observa-se a busca por uniformidade das 
+informações contábeis e combate a práticas danosas às tomadas de decisão por 
+parte, especialmente de investidores e acionistas. Travou-se nesse período (até 
+final da década de trinta) uma batalha conceitual entre empresários e membros de 
+órgãos formados por profissionais contábeis. Os primeiros em prol de uma 
+contabilização mais liberal e, portanto, mais subjetiva e os demais buscando 
+uniformizar e permitir a comparabilidade das informações intra e intercompanhias.
+
+O período pós-guerra foi importante para o desenvolvimento e avanço dos 
+princípios contábeis. Logo depois da segunda grande guerra, a demanda reprimida 
+por bens e serviços fez a economia deslanchar com aumento do emprego e da renda. 
+A classe média passou a aplicar no mercado de ações com aumento expressivo do 
+número de investidores. Em 1940 havia 4 milhões de investidores ao passo que em 
+1962 já havia 17 milhões.
+
+Aumentou, nessa época, a demanda por informações voltadas a direcionar 
+adequadamente o valor do preço de uma empresa, iniciando a ideia de lucro por 
+ação. O valor do lucro da empresa é uma parte essencial da relação preço/lucro 
+durante a análise de investimentos. Para a contabilidade esse fator tornou-se 
+essencial, pois os investidores naturalmente esperavam que maiores lucros por 
+ação indicaria a melhor empresa para se investir. Logo depois verificaram que a 
+medida do lucro poderia ter diferenças seja por questão de definição ou por 
+questão de substância econômica.
+
+Dentro da confusão sobre o valor do lucro, a AIA se pronunciou indicando que a 
+medida que realmente interessava aos investidores seria a ideia de geração 
+futura de lucros, definida pelo lucro ordinário da empresa. Com base nos 
+conceitos de lucros existentes, as administrações poderiam tentar-se em 
+reconhecer ganhou ou perdas em períodos distintos aos realmente acontecidos. 
+Atualmente chamamos essa prática de gerenciamento de resultados. Essas práticas 
+levaram a SEC e a AIA a buscar uma medida de lucro onde o lucro incluísse todos 
+os ganhos e perdas. Dessa forma, não sobraria espaço para gerenciamento dos 
+resultados pela administração das empresas.
+
+Em consequência desses debates, o AAA se uniu à voz que propunha uma maior 
+comparabilidade das demonstrações contábeis, tendo como principais barreiras a 
+flutuação de preços e a as diferenças entre métodos contábeis para 
+contabilização. Essa postura, porém não significava a defesa da uniformização 
+das informações contábeis por chocarem com o entendimento teórico da 
+contabilidade.
+
+Sob esse aspecto, uniformizar a contabilidade seria tratá-la como uma 
+“fábrica de registros” sem que houvesse qualquer preocupação sobre a real 
+situação espelhada nas transações registradas. Schroeder *et al.* (2011) 
+acrescentam que em 1959 os métodos de formulação de princípios contábeis foram 
+questionados por não serem provenientes de pesquisa ou baseados na teoria. O 
+fortalecimento dessas críticas desencadeou na criação do 
+*Financial Accounting Standards Board* (FASB). A missão dada ao FASB era 
+estabelecer e melhorar os padrões de contabilidade financeira, elaborando 
+relatórios para a orientação do público, incluindo os emitentes, Auditores e 
+usuários da informação financeira. O FASB desenvolveu conceitos amplos de 
+contabilidade assim como padrões para relatórios financeiros e melhorou as 
+orientações na implementação dos padrões.
+
+Com a emissão do *Statement of Financial Accounting Standards* – SFAS 
+(Pronunciamento sobre Padrões de Contabilidade Financeira) o FASB estabeleceu 
+métodos e procedimentos específicos para questões contábeis, oficializando o 
+termo princípios contábeis geralmente aceitos 
+(*Generally Accepted Accounting Principles* – GAAP). Para o mercado americano 
+utiliza-se o termo “US GAAP”. Esses princípios geralmente aceitos incorporam 
+convenções, regras e procedimentos voltados a estabelecer práticas contábeis 
+aceitas partindo para o detalhamento das operações, esquivando-se, portanto, 
+de uma aplicação genérica para as transações das empresas.
+
+Mesmo com toda evolução dos princípios contábeis sob a responsabilidade do FASB, 
+o órgão sofre críticas como sobrecarga de normas. Pequenas empresas, por exemplo, 
+são destacadas por Schroeder *et al.* (2011). Para os autores, alguns 
+contadores acenaram para a possibilidade de que um maior nível de *disclosure* 
+das pequenas empresas resolvesse o problema de um número excessivo de normas, 
+normalmente mais aplicadas ao mercado de capitais.
+
+A contabilidade desenvolvida no mercado americano foi, portanto, permeada por 
+regramentos e avessa à subjetividade dada as ocorrências de gerenciamento de 
+resultados e utilização indevida do poder discricionário dos administradores das 
+empresas. Contudo, escândalos no mercado americano envolvendo grandes 
+corporações, inclusive empresas de auditoria, passaram a supor não ser tão 
+coerente o uso de regras apenas. Ao mesmo tempo em que a subjetividade permite 
+manipulações nos dados, a criação de normas enviesadas geram o mesmo efeito e 
+talvez mais danoso, pois passa a sensação de completeza e confiabilidade das 
+informações prestadas como aconteceu nos escândalos americanos do início dos 
+anos 2000.
+
+De acordo com Schipper (2003) algumas discussões recentes indicam que os Estados 
+Unidos tenham abandonado o sistema baseado em regras em favor de um sistema 
+baseado em princípios. A lei Sarbanes-Oxley, fruto das precauções contra 
+eventuais escândalos ocorridos no mercado americano como já citado, em sua seção 
+108 propõe um estudo pela SEC para adoção de um sistema baseado em princípios e 
+não em regras. O estudo tem quatro elementos: a) O quanto que um sistema de 
+contabilidade baseado em princípios é possível no mercado americano; b) O tempo 
+necessário para mudar para esse sistema; c) A viabilidade do sistema e como pode 
+ser implementado, e d) Uma análise econômica da implementação de um sistema 
+baseado em princípios.
+
+Da discussão fomentada por Schipper (2003) dois temas emergem como importantes.
+Primeiramente é proposto que o sistema de informação americano é inadequado por 
+ser baseado em regras e o outro tema trata-se da necessidade infalível da adoção 
+de um sistema baseado em princípios, pois permite o adequado julgamento do
+exercício profissional.
+
+Até então foi exposta a diferenciação entre o sistema baseado em regras e o 
+sistema baseado em princípios. A forma como são expostas as aplicações de cada 
+sistema sugere que ao adotar um sistema o outro é desconsiderado. Schipper (2003) 
+levanta alguns aspectos reflexivos sobre como uma contabilidade baseada em 
+princípios pode está permeada de regramentos tal qual o sistema baseado em 
+regras.
+
+Para a autora a contabilidade americana já é baseada em princípios e não em 
+regras. Argumenta que as atividades de normatização do FASB são guiadas pelo sua 
+estrutura conceitual, segundo a qual, por exemplo, somente itens que atendem a 
+definição de um elemento (ativo, passivo, receita ou despesa) devem ser 
+relatados nas demonstrações contábeis. Mesmo tendo um aspecto normativo, é certa 
+a relevância para o investidor quando um elemento contábil satisfaz essa 
+premissa.
+
+Ainda assim, requisitos de reconhecimento e mensuração de normas contábeis devem 
+se basear em características qualitativas da informação contábil, já 
+estabelecidos pelo FASB. O conceito abrangente de utilidade da informação, 
+relevância, confiabilidade e comparabilidade por si só já tornam a 
+contabilização bem discricionária. Esse fato faz a autora concluir que, sob 
+esse aspecto, os US GAAP já são baseados em princípios.
+
+A busca por um sistema discricionário onde a realização de ganhos perpasse pela 
+conceituação ampla de receita, implicará numa infinidade de padrões contábeis 
+para reconhecimento de receita. O projeto do FASB para reconhecimento de receita 
+é a eliminação dos conflitos existentes entre a realização do lucro e os 
+conceitos de ativo e passivo dispostos em seus dispositivos normativos.
+
+Os achados de Agoglia, Doupnik e Tsakumis (2011) se alinham a Schipper (2003) 
+quando expõem a fragilidade do comitê de auditoria quando gestores são mais 
+propensos a informações baseadas em princípios. Os autores denominam o processo 
+baseado em regras como mais preciso e o baseado em princípios de menos precisos. 
+Essa definição já indica o sentimento dos autores quanto a utilização de um 
+sistema contábil baseado em princípios. Ao final os autores recomendam alguns 
+cuidados na adoção desse sistema e orientam legisladores quanto a abertura para 
+processos difíceis de serem auditados.
+
+Uma forma de ilustrar como os princípios são utilizados na definição de normas e 
+que a amplitude dessas regras pode configurar o padrão americano como baseado em 
+regras é através da contabilização de dois casos hipotéticos quanto a combinação 
+de negócios e mensuração a valor justo de instrumentos financeiros.
+
+Na combinação de negócios, como tratar a diferença entre o valor contábil e o 
+valor de compra da adquirida? Baseado nos conceitos de comparabilidade e 
+relevância, combinados com evidências empíricas, o FASB emitiu os SFAS nº 141 e 
+142 indicando a o reconhecimento do ágio da aquisição como ativo, avaliado a 
+valor justo e sujeito teste de recuperabilidade ao invés de amortização 
+periódica. No outro caso, mensuração de instrumentos financeiros, O FASB se 
+alinha a ideia de adoção do valor justo como principal base de valor. Contudo, 
+pode utilizar-se outras bases quando necessário.
+
+Em ambos os casos, Schipper (2003) argumenta que o US GAAP baseia-se em 
+princípios. Mesmo num ambiente normatizado, as normas decorrentes dos 
+pronunciamentos do FASB são baseadas em conceitos contábeis, premissas e 
+informações empíricas. Entende-se, pois, que o padrão contábil americano já é 
+baseado em princípios e não em regras. O que se busca é retirar da gestão a 
+maior parte possível de discricionariedade.
+
+Assim, alguns aspectos são importantes com o detalhamento normativo dado pelo 
+FASB, ou seja, alguns fatores serão melhores ao possuírem maior ênfase nos 
+detalhes das operações, normatizando-as. Porém o plano de fundo para essas 
+normatizações deverá ser os princípios decorrentes da teoria contábil e das 
+experiências de mercado vivenciadas.
+
+Para Schipper (2003), nesse formato haverá maior comparabilidade das informações, 
+já que será possível identificar operações similares nos detalhes das operações 
+normatizadas pelo FASB. Aumenta-se, também, a verificabilidade com base no 
+aumento do consenso das medidas. Quando se estabelece uma base detalhada de 
+procedimentos, o conhecimento comum entre preparadores e auditores fica mais 
+próximo, portanto a incidência de diferenças é minimizada.
+
+Outros dois aspectos tratados por Schipper (2003) enaltecedores do padrão US 
+GAAP são a redução da possibilidade de gerenciamento de resultados e facilitação 
+para fiscalizadores e/ou reguladores.
+
+O gerenciamento de resultados acaba sendo inibido quando se tem um detalhamento 
+dos procedimentos. Pesquisas empíricas citadas por Schipper (2003) identificam 
+que a orientação detalhada de procedimentos reduz os ganhos da gestão antes 
+obtidos com julgamentos da administração. Quanto à fiscalização e o contencioso 
+observa-se a redução do trâmite pós-litígio, pois tanto auditores quanto os 
+elaboradores dos demonstrativos contábeis possuem orientações claras e precisas 
+do esperado para cada operação. Há também a redução dos próprios litígios 
+explicada pela mesma situação de conhecimento comum sobre os registros a serem 
+realizados para cada transação.
+
+Do exposto, não se tem uma definição clara sobre qual tratamento a ser dado à 
+contabilidade seja em ambiente de regulação ou em ambiente discricionário. 
+Discutiu-se inicialmente a discricionariedade existente no período pré-crash 
+levando a informações contábeis fora do contexto real das empresas. O período 
+pós 1929 foi marcado por regulação dos parâmetros contábeis, exigindo-se a 
+criação de princípios norteadores para reconhecimento, mensuração e divulgação 
+de informações. Também nesse período houveram críticas por afastar a 
+contabilidade de sua teoria e de fundamentos empíricos.
+
+Hodiernamente busca-se um ambiente onde cada país convirja para um modelo 
+contábil alinhado aos demais países, mantendo sua autonomia e preservando as
+particularidades da sua região. Nesse contexto ressalta-se a preocupação com a
+comparabilidade das informações, pois fatos iguais podem ter julgamentos 
+diferentes e, portanto, resultados diferentes entre empresas. Schipper (2003) 
+nos traz uma reflexão importante, pois atribui às normas do FASB uma 
+característica de normas baseadas em princípios quando o IASB trata 
+essencialmente os seus pronunciamentos de forma mais genérica sem especificar 
+detalhadamente as operações como faz o mercado americano.
+
+Portanto permanece o questionamento: qual dos formatos é mais benéfico para a 
+teoria contábil, o modelo FASB ou IASB? Ou ainda: É possível dissociar a 
+regulação de uma contabilidade baseada em princípios?
+
+
+---
+
+Agoglia, C. P., Doupnik, T. S. & Tsakumis, G. T. (2011). Principles-Based versus
+Rules-Based accounting standards: the influence of standard precision and Audit 
+Committee strength on financial reporting decisions. *The Accounting Review*, 
+*86*(3), 747-767.
+
+Hendricksen, E. S. & Van Breda, M. F. (1999). *Teoria da contabilidade*. São
+Paulo: Atlas.
+
+Niyama, J.K. & Silva, C. A. T. (2011). *Teoria da contabilidade*. (3$^{a}$ ed).
+São Paulo: Atlas.
+
+Schipper, K. (2003). Principles-based accounting standards. *Accounting Horizons*, 
+*17*(1), 61-72, 2003.
+
+Schroeder, R. G., Clark, M. W. & Cathey, J. M. (2011). *Financial accounting:*
+*theory and analysis*. (10$^{a}$ ed). New York: John Wiley & Sons.
+
+---
