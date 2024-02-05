@@ -1,0 +1,81 @@
+---
+title: "Contabilidade e Data Analytics: O uso do R"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Contabilidade
+  - Analytics
+date: 2024-01-09
+toc: true
+image: "accountingAndAnalytics.png"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+```{=html}
+<style> body {text-align: justify} </style>
+```
+
+![](accountingAndAnalytics.png)
+
+Em nosso acelerado mundo digital, a contabilidade e as finanças passam por uma
+transformação fundamental. A integração com *data analytics*, que ultrapassou o
+status de tendência, agora é um pilar vital na profissão. A capacidade de
+vasculhar volumes imensos de dados e demonstrar insights cruciais está
+reformulando as estratégias de tomada de decisão financeira. Com a evolução
+contínua das tecnologias, a indústria financeira adapta-se com agilidade,
+incorporando novas ferramentas e abordagens para manter sua vantagem competitiva
+e eficiência. Neste contexto, a competência em *data analytics* é uma
+necessidade inegável para quem almeja liderar no setor de contabilidade e
+finanças.
+
+Neste post, explorarei como a plataforma **R Programming (R)** pode ser uma
+aliada inestimável para profissionais que buscam aprimorar suas habilidades em
+*Data* *Analytics*. Este texto é um compilado de minhas experiências
+profissionais e acadêmicas nos últimos cinco anos. Para aqueles interessados em
+aprofundar-se nas transformações nas finanças, recomendo a leitura da terceira
+edição de 2023 da [Revista GV
+Executivo](https://periodicos.fgv.br/gvexecutivo/issue/view/v22n3) que trata do
+**Futuro das Finanças**.
+
+**R** é uma ferramenta gratuita, criada por estatísticos, atendendo a
+necessidades profissionais e acadêmicas. Embora sua linguagem possa inicialmente
+ser um desafio para quem nunca programou, ela oferece um acesso prático e eficaz
+na análise de dados em contabilidade, permitindo a automação de rotinas e a
+ampliação da capacidade de estruturar, visualizar e extrair *insights* valiosos.
+
+A maioria dos dados que contadores manuseiam são importados de bases de dados
+primárias, provenientes das atividades operacionais das empresas. A habilidade
+de um contador em coletar, auditar e analisar esses dados é crucial para um
+processo decisório informado e eficaz. **R** serve como uma ponte entre o mundo
+dos dados e a expertise contábil, abrindo caminho para análises mais profundas e
+decisões mais estratégicas.
+
+Em uma apresentação recente ([veja
+aqui](https://kleberformiga.quarto.pub/posts/dadosContabeis_com_r/presentationCINCO.html#/dados-cont%C3%A1beis)),
+mostrei como a visualização de informações contábeis evoluiu. Tradicionalmente,
+visualizamos dados contábeis em demonstrações financeiras impressas ou em
+formato PDF. De forma mais analítica, temos um banco de dados completo
+disponível para a busca de insights corporativos. O **R** permite realizar
+avaliações complexas de demonstrações financeiras, previsões e modelagem
+financeira, além de se destacar na auditoria e detecção de fraudes com técnicas
+avançadas.
+
+A adoção de **R** na contabilidade traz benefícios significativos: precisão
+aprimorada, eficiência elevada pela automação de tarefas repetitivas, e insights
+estratégicos que influenciam decisões de negócios. Além disso, **R** oferece uma
+personalização sem precedentes, adaptando-se às necessidades específicas de cada
+empresa. Contudo, a adoção do **R** não está isenta de desafios. A curva de
+aprendizado para aqueles sem experiência em programação pode ser íngreme, e a
+integração de R com sistemas existentes requer conhecimento técnico
+especializado.
+
+Para apoiar esta jornada, cursos e aperfeiçoamentos são essenciais. Instituições
+como a UFERSA já estão atentas a essa demanda, oferecendo cursos, rodas de
+conversa e workshops na área. Para mais informações, entre em contato pelo
+email: [contabilidados\@ufersa.edu.br](mailto:contabilidados@ufersa.edu.br).
