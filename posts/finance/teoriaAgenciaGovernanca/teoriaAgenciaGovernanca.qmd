@@ -4,8 +4,7 @@ subtitle: "Resenha"
 author: "Kléber Formiga Miranda"
 categories:
   - Finanças
-  - Teoria da Agência
-  - Governança Corporativa
+  - Governança
 date: 2021-10-28
 toc: true
 image: "teoriaAgenciaGovernanca.png"

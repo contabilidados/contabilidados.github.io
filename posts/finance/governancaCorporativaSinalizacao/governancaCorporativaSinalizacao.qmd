@@ -4,8 +4,7 @@ subtitle: "Resenha"
 author: "Kléber Formiga Miranda"
 categories:
   - Finanças
-  - Governança Corporativa
-  - Sinalização
+  - Governança
 date: 2021-02-13
 toc: true
 image: "GovernancaDesempenho.png"

@@ -4,8 +4,6 @@ subtitle: "Resenha"
 author: "Kléber Formiga Miranda"
 categories:
   - Contabilidade
-  - Fluxo de Caixa
-  - Lucro
   - Accruals
 date: 2019-08-24
 toc: true

@@ -4,9 +4,7 @@ subtitle: "Resenha"
 author: "Kléber Formiga Miranda"
 categories:
   - Contabilidade
-  - Evolução
   - História
-  - Tomada de decisão
 date: 2019-05-13
 toc: true
 image: "accountingHistory.png"

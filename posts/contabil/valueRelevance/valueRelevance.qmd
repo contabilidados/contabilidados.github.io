@@ -5,7 +5,6 @@ author: "Kléber Formiga Miranda"
 categories:
   - Contabilidade
   - Value relevance
-  - Informação Contábil
 date: 2019-12-14
 toc: true
 image: "valueRelevance.png"

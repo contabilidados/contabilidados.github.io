@@ -4,7 +4,6 @@ subtitle: "Resenha"
 author: "Kléber Formiga Miranda"
 categories:
   - Contabilidade
-  - Contrato
   - HME
   - Assimetria
 date: 2018-08-29

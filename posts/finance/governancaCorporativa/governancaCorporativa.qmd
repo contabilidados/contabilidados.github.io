@@ -4,9 +4,7 @@ subtitle: "Resenha"
 author: "Kléber Formiga Miranda"
 categories:
   - Finanças
-  - Governança Corporativa
-  - Principal
-  - Agente
+  - Governança
 date: 2021-01-21
 toc: true
 image: "governancaCorporativa.png"

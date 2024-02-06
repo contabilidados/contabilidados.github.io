@@ -4,8 +4,7 @@ subtitle: "Resenha"
 author: "Kléber Formiga Miranda"
 categories:
   - Finanças
-  - Moderna Teoria Finanças
-  - Valor
+  - Teoria
 date: 2021-10-25
 toc: true
 image: "visaoGeralFinancas.png"

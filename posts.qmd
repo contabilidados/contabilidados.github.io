@@ -19,8 +19,8 @@ listing:
     sort-ui: true
     filter-ui: true
     page-size: 3
-  - id: governamental
-    contents: posts/governo/*.qmd
+  - id: dados
+    contents: posts/dados/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]  
     sort: "date desc"
@@ -43,7 +43,7 @@ comments: false
 ::: {#financas}
 :::
 
-## Posts sobre Governo
+## Posts sobre Análise de Dados
 
-::: {#governamental}
+::: {#dados}
 :::

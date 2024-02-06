@@ -5,8 +5,6 @@ author: "Kléber Formiga Miranda"
 categories:
   - Finanças
   - Assimetria
-  - Risco
-  - Contratos
 date: 2020-10-12
 toc: true
 image: "assimetriaInformacional.png"

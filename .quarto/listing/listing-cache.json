@@ -20,7 +20,7 @@
     "posts.qmd": [
       "posts/contabil/*/*.qmd",
       "posts/finance/*/*.qmd",
-      "posts/governo/*.qmd"
+      "posts/dados/*.qmd"
     ]
   }
 }

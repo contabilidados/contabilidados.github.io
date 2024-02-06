@@ -4,9 +4,7 @@ subtitle: "Resenha"
 author: "Kléber Formiga Miranda"
 categories:
   - Finanças
-  - Teoria da Firma
-  - Teoria Agência
-  - Stakeholders
+  - Teoria
 date: 2020-09-18
 toc: true
 image: "teoriaAgenciaStakeHolders.png"

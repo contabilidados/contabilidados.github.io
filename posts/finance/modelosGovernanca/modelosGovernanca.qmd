@@ -5,7 +5,6 @@ author: "Kléber Formiga Miranda"
 categories:
   - Finanças
   - Governança
-  - Controle Acionário
 date: 2021-03-03
 toc: true
 image: "modelosGovernanca.png"

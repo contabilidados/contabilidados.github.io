@@ -5,8 +5,7 @@ author: "Kléber Formiga Miranda"
 categories:
   - Contabilidade
   - Mensuração
-  - Valor Presente
-  - Fluxo de Caixa Descontado
+  - FCD
 date: 2018-05-10
 toc: true
 image: "mensuracaoAtivos_FCD.png"

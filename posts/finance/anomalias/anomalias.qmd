@@ -4,7 +4,6 @@ subtitle: "Resenha"
 author: "Kléber Formiga Miranda"
 categories:
   - Finanças
-  - Anomalias
   - HME
 date: 2021-05-29
 toc: true

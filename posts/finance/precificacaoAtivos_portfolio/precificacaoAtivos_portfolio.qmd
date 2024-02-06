@@ -4,9 +4,7 @@ subtitle: "Resenha"
 author: "Kléber Formiga Miranda"
 categories:
   - Finanças
-  - Precificação
   - CAPM
-  - Fatores
 date: 2021-03-23
 toc: true
 image: "precificacaoAtivos_portfolio.png"

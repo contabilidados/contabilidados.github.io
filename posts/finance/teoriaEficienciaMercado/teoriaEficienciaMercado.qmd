@@ -5,7 +5,6 @@ author: "Kléber Formiga Miranda"
 categories:
   - Finanças
   - HME
-  - Preços
 date: 2021-12-23
 toc: true
 image: "teoriaEficienciaMercado.png"

@@ -5,7 +5,6 @@ author: "Kléber Formiga Miranda"
 categories:
   - Finanças
   - HME
-  - Preços
 date: 2020-07-19
 toc: true
 image: "HME.png"
