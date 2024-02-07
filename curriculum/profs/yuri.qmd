@@ -1,0 +1,46 @@
+---
+title: "Yuri Azevedo"
+comments: false
+image: figs/yuri.jpg
+categories:
+  - Professores
+  - Governança Corporativa
+  - Análise de Dados
+  - Ensino
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:yuri.azevedo@ufersa.edu.br
+    - icon: file-pdf
+      text: Lattes
+      href: http://lattes.cnpq.br/4060685200362433
+    - icon: github
+      text: GitHub
+      href: https://github.com/yuri-azevedo
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/yuri_azevedo
+---
+
+```{=html}
+<style>body {text-align: justify}</style>
+```
+
+Olá! Me chamo Yuri Azevedo. Atuo como professor do curso de Ciências
+Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA). Tenho
+doutorado em Ciências Contábeis pela Universidade de São Paulo
+(FEA-RP/USP) e mestrado e graduação em Ciências Contábeis pela
+Universidade Federal do Rio Grande do Norte (UFRN).
+
+Meus principais interesses estão voltados para a análise de dados, com
+aplicações práticas e acadêmicas no campo da governança corporativa.
+Atualmente, tenho adotado a linguagem R Programming como a principal
+linguagem utilizada.
+
+Atualmente participo dos grupos de pesquisa **contabiliDados**, cujo
+objetivo é envolver professores e alunos em discussões sobre
+contabilidade, finanças e análise de dados, bem como **InCont** e
+**GPFin**, que possuem foco no desenvolvimento de pesquisas científicas
+relacionadas à contabilidade e finanças.
