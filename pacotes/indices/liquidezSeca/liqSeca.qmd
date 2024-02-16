@@ -10,6 +10,9 @@ draft: false
 image: "figs/contasReceber.jpg"
 editor_options: 
   chunk_output_type: console
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 ```{r setup, include=FALSE}
@@ -22,40 +25,50 @@ knitr::opts_chunk$set(echo = F, fig.align = "center", out.width = "100%",
 ```
 ### Descrição
 
-Essa função calcula o Índice de Liquidez Seca baseado em vetores relativos às contas de ativo circulante e passivo circulante. Apresenta como resultado uma lista com 5 itens:
+Essa função calcula o Índice de Liquidez Seca baseado em vetores
+relativos às contas de ativo circulante e passivo circulante. Apresenta
+como resultado uma lista com 5 itens:
 
-1.  **Gráfico** se o parâmetro `plot` for `TRUE` ou `T`, mostra um gráfico com a evolução da Liquidez Seca da empresa durante os períodos. Se for `FALSE` ou `F`, o gráfico não é apresentado;
+1.  **Gráfico** se o parâmetro `plot` for `TRUE` ou `T`, mostra um
+    gráfico com a evolução da Liquidez Seca da empresa durante os
+    períodos. Se for `FALSE` ou `F`, o gráfico não é apresentado;
 
-2.  **Contas** que corresponde ao banco de dados com as contas informadas para cálculo do indicador;
+2.  **Contas** que corresponde ao banco de dados com as contas
+    informadas para cálculo do indicador;
 
 3.  **Índice** o índice de Liquidez Seca dos períodos informados;
 
-4.  **Análise Vertical** Análise Vertical das contas informadas no item 1;
+4.  **Análise Vertical** Análise Vertical das contas informadas no item
+    1;
 
-5.  **Análise Horizontal** Análise Horizontal das contas informadas no item 1.
+5.  **Análise Horizontal** Análise Horizontal das contas informadas no
+    item 1.
 
-Todos os itens da lista são bancos de dados no formato tibble que podem ser usados individualmente durante o processo de análise de dados.
+Todos os itens da lista são bancos de dados no formato tibble que podem
+ser usados individualmente durante o processo de análise de dados.
 
 ### Como Usar
 
-    ind_liqSeca(
-      indicador = "Liq Seca",
-      periodo = 2019:2020,
-      cxEquiv = c(8, 10),
-      estoque = c(150, 200),
-      ctaRecCP = c(400, 300),
-      outAtvCirc = c(1, 3),
-      fornec = c(50, 20),
-      dividasCP = c(30, 40),
-      outPasCirc = c(10, 8),
-      atvTotal = c(900, 800),
-      plot = T
-    )
+```         
+ind_liqSeca(
+  indicador = "Liq Seca",
+  periodo = 2019:2020,
+  cxEquiv = c(8, 10),
+  estoque = c(150, 200),
+  ctaRecCP = c(400, 300),
+  outAtvCirc = c(1, 3),
+  fornec = c(50, 20),
+  dividasCP = c(30, 40),
+  outPasCirc = c(10, 8),
+  atvTotal = c(900, 800),
+  plot = T
+)
+```
 
 ### Argumentos
 
 | Parâmetro    | Descrição                                                                                |
-|-----------------|-------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | `indicador`  | Um vetor tipo character com o nome do indicador                                          |
 | `periodo`    | Vetor numérico indicando o período da análise                                            |
 | `cxEquiv`    | Vetor com os valores do caixa e equivalentes de caixa (Ativo Circulante)                 |
@@ -70,11 +83,25 @@ Todos os itens da lista são bancos de dados no formato tibble que podem ser usa
 
 ### Detalhes
 
-Liquidez seca é uma medida financeira que indica a capacidade de uma empresa de cumprir suas obrigações de curto prazo sem a necessidade de recorrer a seus estoques. Demonstra, portanto, a capacidade de uma empresa de pagar suas dívidas imediatas com ativos líquidos que não incluem seus estoques.
+Liquidez seca é uma medida financeira que indica a capacidade de uma
+empresa de cumprir suas obrigações de curto prazo sem a necessidade de
+recorrer a seus estoques. Demonstra, portanto, a capacidade de uma
+empresa de pagar suas dívidas imediatas com ativos líquidos que não
+incluem seus estoques.
 
-Essa medida é importante porque ajuda a avaliar a capacidade da empresa de lidar com eventuais problemas financeiros, como quedas de vendas ou aumento de despesas, sem afetar suas operações. Além disso, é um indicador importante para os investidores, pois empresas com alta liquidez seca são consideradas menos arriscadas, já que têm maior capacidade de honrar suas obrigações de curto prazo.
+Essa medida é importante porque ajuda a avaliar a capacidade da empresa
+de lidar com eventuais problemas financeiros, como quedas de vendas ou
+aumento de despesas, sem afetar suas operações. Além disso, é um
+indicador importante para os investidores, pois empresas com alta
+liquidez seca são consideradas menos arriscadas, já que têm maior
+capacidade de honrar suas obrigações de curto prazo.
 
-Indicamos essa análise quando a empresa apresentar dificuldade com o giro de seus estoques. Em codições normais, não haveria motivos para a empresa não conseguir rotacionar seus estoques. Quando há indicativos de que a rotação dos estoques ficará prejudicada, esse indicador poderá representar melhor a capacidade das empresas em quitar suas dívidas de curto prazo.
+Indicamos essa análise quando a empresa apresentar dificuldade com o
+giro de seus estoques. Em codições normais, não haveria motivos para a
+empresa não conseguir rotacionar seus estoques. Quando há indicativos de
+que a rotação dos estoques ficará prejudicada, esse indicador poderá
+representar melhor a capacidade das empresas em quitar suas dívidas de
+curto prazo.
 
 É representado pela fórmula:
 
@@ -82,23 +109,29 @@ $$
 \frac{AC - Est}{PC}
 $$
 
-em que: **AC** é o Ativo Circulante, **Est** é o estoque e **PC** é o Passivo Circulante
+em que: **AC** é o Ativo Circulante, **Est** é o estoque e **PC** é o
+Passivo Circulante
 
-Para melhorar o processo de análise, desmembramos os valores de Ativos Circulante e Passivo
-Circulante da seguinte forma: *AC = cxEquiv + estoque + ctaRecCP + outAtvCirc* e para *PC = fornec + dividasCP + outPasCirc*. O detalhe de cada conta foi apresentado na seção
+Para melhorar o processo de análise, desmembramos os valores de Ativos
+Circulante e Passivo Circulante da seguinte forma: *AC = cxEquiv +
+estoque + ctaRecCP + outAtvCirc* e para *PC = fornec + dividasCP +
+outPasCirc*. O detalhe de cada conta foi apresentado na seção
 **Argumentos**.
 
-Considernado o desmembramento das contas tem-se que a liquidez seca corresponde a:
+Considernado o desmembramento das contas tem-se que a liquidez seca
+corresponde a:
 
 $$
 \frac{(cxEquiv + ctaRecCP + outAtvCirc)}{(fornec + dividasCP + outPasCirc)}
 $$
 
-A equação deve contemplar todas as contas do ativo circulante com exceção da conta estoque.
+A equação deve contemplar todas as contas do ativo circulante com
+exceção da conta estoque.
 
 ### Exemplo:
 
-Para utilizar a função `ind_liqSeca` precisamos carregar o pacote `cntdd`.
+Para utilizar a função `ind_liqSeca` precisamos carregar o pacote
+`cntdd`.
 
 ```{r, echo=TRUE}
 
@@ -106,17 +139,19 @@ library(cntdd)
 
 ```
 
-Após carregar o pacote, vamos simular uma situação em que temos os valores e
-queremos lançá-los, individualmente na função. Para cada parâmetro, precisamos
-informar os valores correspondentes. Importante observar que a quantidade de
-valores nas contas deve ser igual ao número de períodos informados no parâmetro
-`periodo`.
+Após carregar o pacote, vamos simular uma situação em que temos os
+valores e queremos lançá-los, individualmente na função. Para cada
+parâmetro, precisamos informar os valores correspondentes. Importante
+observar que a quantidade de valores nas contas deve ser igual ao número
+de períodos informados no parâmetro `periodo`.
 
-No exemplo abaixo, informamos os anos de 2018 a 2020 (3 anos) por meio do vetor
-com a sequência `2018:2020`. O nome que escolhemos para indicador foi `Liquidez Seca`.
-Os demais vetores correspondem aos valores das contas (3 valores) para cálculo do 
-indicador. Também escolhemos que nessa análise deveria ser apresentado um gráfico do
-indicador, então atribuímos o valor `T` ou `TRUE` para o parâmetro `plot`.
+No exemplo abaixo, informamos os anos de 2018 a 2020 (3 anos) por meio
+do vetor com a sequência `2018:2020`. O nome que escolhemos para
+indicador foi `Liquidez Seca`. Os demais vetores correspondem aos
+valores das contas (3 valores) para cálculo do indicador. Também
+escolhemos que nessa análise deveria ser apresentado um gráfico do
+indicador, então atribuímos o valor `T` ou `TRUE` para o parâmetro
+`plot`.
 
 ```{r, echo=TRUE}
 
@@ -135,14 +170,15 @@ plot = T)
 
 ```
 
-Como esperado, foi apresentado o gráfico da Liquidez Seca, mais 4 itens: Contas,
-Índice, Análise Vertical e Análise Horizontal. Agora, é só analisar o indicador
-com as respectivas contas que o compõe.
+Como esperado, foi apresentado o gráfico da Liquidez Seca, mais 4 itens:
+Contas, Índice, Análise Vertical e Análise Horizontal. Agora, é só
+analisar o indicador com as respectivas contas que o compõe.
 
-Para uma análise mais específica, vamos admitir que queremos apenas o item `Índice`.
-Vamos mostrar como captar apenas esse item e mostrá-lo em uma tabela com melhor
-design. O design da tabela será dado pelo pacote `kableExtra`, então vamos carregá-lo.
-Vamos carregar, também, o pacote `dplyr` para fazer a análise dos dados.
+Para uma análise mais específica, vamos admitir que queremos apenas o
+item `Índice`. Vamos mostrar como captar apenas esse item e mostrá-lo em
+uma tabela com melhor design. O design da tabela será dado pelo pacote
+`kableExtra`, então vamos carregá-lo. Vamos carregar, também, o pacote
+`dplyr` para fazer a análise dos dados.
 
 ```{r echo=TRUE}
 
@@ -156,10 +192,10 @@ suppressWarnings(suppressMessages(
 
 ```
 
-Também vamos extrair os dados diretamente banco de dados `dt_contabil` do pacote `cntdd`.
-Nesse procedimento, não precisamos digitar cada vetor dos para os parâmetros. No
-banco de dados `dt_contabil` temos mais uma empresa, filtramos apenas a empresa
-`alpha` para fazer nossas análises.
+Também vamos extrair os dados diretamente banco de dados `dt_contabil`
+do pacote `cntdd`. Nesse procedimento, não precisamos digitar cada vetor
+dos para os parâmetros. No banco de dados `dt_contabil` temos mais uma
+empresa, filtramos apenas a empresa `alpha` para fazer nossas análises.
 
 ```{r echo=TRUE}
 
@@ -167,8 +203,8 @@ dadosAlpha <- dt_contabil %>% filter(empresa == "alpha")
 
 ```
 
-Definimos o nome do nosso banco de dados para análise como `dadosAlpha`. Vamos
-ver sua estrutura:
+Definimos o nome do nosso banco de dados para análise como `dadosAlpha`.
+Vamos ver sua estrutura:
 
 ```{r echo=TRUE}
 
@@ -177,10 +213,10 @@ glimpse(dadosAlpha)
 ```
 
 Agora vamos rodar a função `ind_liqSeca` com os dados do banco de dados
-`dadosAlpha`. Vamos chamar o indicador de "Liquidez Seca" e não vamos pedir
-para apresentar o gráfico (`plot = F`). Como queremos usar apenas o item `Índice`
-vamos definir um objeto chamado `dadosLiqSeca` para assumir o resultado da
-função.
+`dadosAlpha`. Vamos chamar o indicador de "Liquidez Seca" e não vamos
+pedir para apresentar o gráfico (`plot = F`). Como queremos usar apenas
+o item `Índice` vamos definir um objeto chamado `dadosLiqSeca` para
+assumir o resultado da função.
 
 ```{r echo=TRUE}
 
@@ -201,9 +237,10 @@ dadosLiqSeca <-
 
 ```
 
-Como definimos um objeto (`dadosLiqSeca`), não temos o resultado diretamente.
-Agora vamos acessar o objeto `dadosLiqSeca` e requisitar apenas o item `Índice`
-e logo após vamos definir um design básico de tabela.
+Como definimos um objeto (`dadosLiqSeca`), não temos o resultado
+diretamente. Agora vamos acessar o objeto `dadosLiqSeca` e requisitar
+apenas o item `Índice` e logo após vamos definir um design básico de
+tabela.
 
 ```{r echo=TRUE}
 
@@ -218,7 +255,7 @@ dadosLiqSeca$Índice %>%
 
 Agora é só analisar!
 
-
 ### Quem contribuiu
 
-[Kléber](../../curriculum/profs/kleber.qmd): Construiu a função e o arquivo de ajuda para o blog.
+[Kléber](../../../curriculum/profs/kleber.qmd): Construiu a função e o arquivo
+de ajuda para o blog.
