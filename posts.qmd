@@ -20,7 +20,7 @@ listing:
     filter-ui: true
     page-size: 3
   - id: dados
-    contents: posts/dados/*.qmd
+    contents: posts/dados/*/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]  
     sort: "date desc"
