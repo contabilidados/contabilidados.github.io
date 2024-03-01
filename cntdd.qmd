@@ -3,7 +3,7 @@ title: "Pacote contabiliDados"
 subtitle: "Utilitários para nossas atividades"
 listing:
   - id: utils
-    contents: pacotes/utils/*.qmd
+    contents: pacotes/utils/*/*.qmd
     type: grid
     fields: [image, date, title, subtitle, categories, author, reading-time]  
     sort: "date desc"
@@ -12,7 +12,7 @@ listing:
     filter-ui: true
     page-size: 3
   - id: stats
-    contents: pacotes/stats/*.qmd
+    contents: pacotes/stats/*/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]
     sort: "date desc"

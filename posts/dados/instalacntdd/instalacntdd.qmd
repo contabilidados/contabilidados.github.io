@@ -59,8 +59,7 @@ Com o **`devtools`** instalado, estamos prontos para instalar o pacote
 deste repositório, use a função **`install_github`** do **`devtools`**. Aqui
 está o comando necessário:
 
-```{r echo = T, message=FALSE, warning=FALSE}
-
+```{r echo = T, message=FALSE, eval=FALSE, warning=FALSE}
 
 # Carregar o pacote devtools
 library(devtools)
