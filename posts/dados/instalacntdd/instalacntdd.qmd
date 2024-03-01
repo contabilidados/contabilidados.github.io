@@ -100,13 +100,6 @@ df <- cntdd::dt_contabil
 
 ```
 
-```{r echo = T, message=FALSE, warning=FALSE}
-#Obtendo o valor médio das contas de todas as empresas listadas no data frame
-library(dplyr)
-library(DT)
-df %>%
-  summarise(across(caixaEquiv:flxCxFinanc, ~ mean(.x, na.rm = TRUE))) 
-```
 
 ```{r echo = T, message=FALSE, warning=FALSE}
 
