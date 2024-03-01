@@ -23,10 +23,10 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 ```
 ![](cntdd.png "logo"){fig-align="center" width="245"}
 
-Olá, leitores do blog Contabilidados! Hoje, vamos mergulhar no mundo do R e
-explorar como instalar um pacote muito útil para contadores e profissionais de
-finanças: o cntdd. Este pacote está hospedado no GitHub e pode ser instalado
-usando a função install_github do pacote devtools.
+A seguir vamos aprender a instalar o pacote cntdd que pode ser muito útil para
+contadores e profissionais de finanças.Este pacote está hospedado no
+[GitHub](https://github.com/contabilidados/cntdd) e pode ser instalado usando a
+função `install_github` do pacote `devtools`.
 
 **Pré-requisitos**
 
@@ -75,8 +75,8 @@ repositório ao usar **`install_github`**.
 ### **Verificando a Instalação**
 
 Após a instalação, é sempre uma boa prática verificar se o pacote foi instalado
-corretamente. Podemos fazer isso carregando o pacote com library(cntdd)
-e então explorando suas funções e documentação.
+corretamente. Podemos fazer isso carregando o pacote com library(cntdd) e então
+explorando suas funções e documentação.
 
 ```{r echo=TRUE}
 # Carregar o pacote cntdd
@@ -92,8 +92,8 @@ ls("package:cntdd")
 ```
 
 Por exemplo, a função dt_contabil carrega um data frame com dados de empresas
-listadas na B3. Os dados podem ser usados para fins didáticos na
-análise das demosntrações contábeis ou análise exploratária de dados contábeis.
+listadas na B3. Os dados podem ser usados para fins didáticos na análise das
+demosntrações contábeis ou análise exploratária de dados contábeis.
 
 ```{r echo = T}
 df <- cntdd::dt_contabil
@@ -107,7 +107,6 @@ library(DT)
 df %>%
   summarise(across(caixaEquiv:flxCxFinanc, ~ mean(.x, na.rm = TRUE))) 
 ```
-
 
 ```{r echo = T, message=FALSE, warning=FALSE}
 
