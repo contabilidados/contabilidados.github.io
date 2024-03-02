@@ -7,7 +7,7 @@ categories:
   - Pacotes
 toc: true
 draft: false
-image: "figs/contasReceber.jpg"
+image: "figs/contasReceber.png"
 editor_options: 
   chunk_output_type: console
 editor: 
