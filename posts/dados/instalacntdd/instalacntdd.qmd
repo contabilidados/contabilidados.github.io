@@ -47,7 +47,7 @@ options(repos = c(CRAN = "https://cloud.r-project.org"))
 options(warn=0)
 ```
 
-```{r include=FALSE, message = FALSE, warning = FALSE, echo=F}
+```{r include=FALSE, message = FALSE, eval=FALSE, warning = FALSE, echo=F}
 install.packages("devtools")
 ```
 
