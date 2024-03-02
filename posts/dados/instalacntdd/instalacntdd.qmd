@@ -23,19 +23,19 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 ```
 ![](cntdd.png "logo"){fig-align="center" width="245"}
 
-Olá, leitores do blog Contabilidados! Hoje, vamos mergulhar no mundo do R e
-explorar como instalar um pacote muito útil para contadores e profissionais de
-finanças: o cntdd. Este pacote está hospedado no GitHub e pode ser instalado
-usando a função install_github do pacote devtools.
+A seguir vamos aprender a instalar o pacote cntdd que pode ser muito útil para
+contadores e profissionais de finanças.Este pacote está hospedado no
+[GitHub](https://github.com/contabilidados/cntdd) e pode ser instalado usando a
+função `install_github` do pacote `devtools`.
 
-**Pré-requisitos**
+###**Pré-requisitos**
 
 Antes de começarmos, certifique-se de que você tem a versão mais recente do R
 instalada em seu sistema. Você pode baixá-la do CRAN. Além disso, é necessário
 ter o Git instalado, pois vamos clonar um repositório do GitHub. Você pode
 encontrar instruções de instalação do Git em git-scm.com.
 
-**Instalando o Pacote devtools**
+###**Instalando o Pacote devtools**
 
 O devtools é uma poderosa ferramenta que facilita a instalação e o gerenciamento
 de pacotes no R, especialmente aqueles hospedados no GitHub. Caso você ainda não
@@ -75,14 +75,16 @@ repositório ao usar **`install_github`**.
 ### **Verificando a Instalação**
 
 Após a instalação, é sempre uma boa prática verificar se o pacote foi instalado
-corretamente. Podemos fazer isso carregando o pacote com library(cntdd)
-e então explorando suas funções e documentação.
+corretamente. Podemos fazer isso carregando o pacote com library(cntdd) e então
+explorando suas funções e documentação.
 
 ```{r echo=TRUE}
 # Carregar o pacote cntdd
 library(cntdd)
 
 ```
+
+### **Funções do CNTDD**
 
 Com a função `ls` é possível listar todas as funcionalidades do pacote `cntdd`:
 
@@ -92,20 +94,12 @@ ls("package:cntdd")
 ```
 
 Por exemplo, a função dt_contabil carrega um data frame com dados de empresas
-listadas na B3. Os dados podem ser usados para fins didáticos na
-análise das demosntrações contábeis ou análise exploratária de dados contábeis.
+listadas na B3. Os dados podem ser usados para fins didáticos na análise das
+demosntrações contábeis ou análise exploratária de dados contábeis.
 
 ```{r echo = T}
 df <- cntdd::dt_contabil
 
-```
-
-```{r echo = T, message=FALSE, warning=FALSE}
-#Obtendo o valor médio das contas de todas as empresas listadas no data frame
-library(dplyr)
-library(DT)
-df %>%
-  summarise(across(caixaEquiv:flxCxFinanc, ~ mean(.x, na.rm = TRUE))) 
 ```
 
 
@@ -116,9 +110,7 @@ df %>% glimpse()
 ```
 
 Pronto! Agora você tem o pacote **`cntdd`** instalado e pronto para usar em suas
-análises e relatórios contábeis. Este pacote oferece funcionalidades específicas
-que podem ser extremamente úteis na sua rotina de trabalho como contador público
-certificado.
+análises e relatórios contábeis. 
 
 Fique atento ao nosso blog para mais dicas e tutoriais sobre ferramentas e
 técnicas no mundo da contabilidade e finanças. E, como sempre, se tiver alguma
