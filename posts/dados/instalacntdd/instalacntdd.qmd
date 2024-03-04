@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 ```{=html}
 <style> body {text-align: justify} </style>
 ```
-![](cntdd.png "logo"){fig-align="center" width="245"}
+![](instalacntdd.png "logo"){fig-align="center" width="245"}
 
 A seguir vamos aprender a instalar o pacote cntdd que pode ser muito útil para
 contadores e profissionais de finanças.Este pacote está hospedado no
