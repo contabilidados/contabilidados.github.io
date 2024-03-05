@@ -1,6 +1,6 @@
-/* css styles */
+/*-- scss:rules --*/
 
-.navbar-dark .navbar-brand {
+.navbar-brand {
   background: url('logo.png');
   background-size: contain;
   padding-right: 5px !important;
@@ -10,7 +10,7 @@
 }
 
 
-/* css styles */
+/*-- scss:defaults --*/
 
 main, p{
   font-size: 1.1rem !important;
@@ -22,7 +22,7 @@ main, p{
 }
 
 :root {
-    --bs-blue: #de8f3d; /*#9172be
+    --bs-blue: #de8f3d;
     --bs-primary: #eb6864;
 }
 
@@ -73,11 +73,7 @@ div.quarto-post .thumbnail img {
 
 }
 
-/*
-.navbar-dark {
-    background-color: var(--bs-blue);
-}
-*/
+
 
 .page-item.active .page-link {
     z-index: 3;

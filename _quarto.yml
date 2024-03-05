@@ -22,10 +22,10 @@ website:
     right:
       - text: Dash Indicadores
         href: https://kleberformiga.shinyapps.io/dashCVMaulas/
-        target: _blank
+        # target: _blank
       - text: Dash Mercado
         href: https://gecomt.shinyapps.io/dashboard/
-        target: _blank
+        # target: _blank
       - text: cntdd
         href: cntdd.qmd
       - text: Posts
@@ -40,12 +40,12 @@ website:
         href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
       - icon: github
         href: https://github.com/contabilidados
-
 format:
   html:
     smooth-scroll: true
-    theme: sandstone
-    css: styles.css
+    theme:
+      - sandstone
+      - styles.css
     link-external-icon: false
     link-external-newwindow: true
     link-external-filter: '^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**'
