@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 ```{=html}
 <style> body {text-align: justify} </style>
 ```
-![](instalacntdd.png "logo"){fig-align="center" width="245"}
+![](instalacntdd_logo.png "logo"){fig-align="center" width="245"}
 
 A seguir vamos aprender a instalar o pacote cntdd que pode ser muito útil para
 contadores e profissionais de finanças.Este pacote está hospedado no
@@ -102,7 +102,6 @@ df <- cntdd::dt_contabil
 
 ```
 
-
 ```{r echo = T, message=FALSE, warning=FALSE}
 
 library(dplyr)
@@ -110,7 +109,7 @@ df %>% glimpse()
 ```
 
 Pronto! Agora você tem o pacote **`cntdd`** instalado e pronto para usar em suas
-análises e relatórios contábeis. 
+análises e relatórios contábeis.
 
 Fique atento ao nosso blog para mais dicas e tutoriais sobre ferramentas e
 técnicas no mundo da contabilidade e finanças. E, como sempre, se tiver alguma
