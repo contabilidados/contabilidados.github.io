@@ -1,0 +1,28 @@
+---
+title: "Lívia Bandeira"
+comments: false
+image: figs/liviasamarab.png
+categories:
+  - Alunos
+  - Contabilidade
+  - Análise de Dados
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:livia.bandeira@alunos.ufersa.edu.br
+    - icon: file-pdf
+      text: Lattes
+      href: http://lattes.cnpq.br/3737714417808934
+    - icon: github
+      text: GitHub
+      href: https://github.com/liviasamarab
+---
+
+```{=html}
+<style>body {text-align: justify}</style>
+```
+Olá! Meu nome é Lívia. Sou bacharela em Ciências Contábeis e atualmente aluna de mestrado do Programa de Pós-graduação em Administração da Universidade Federal Rural do Semi-Árido (UFERSA). 
+
+Durante a graduação atuei na Empresa Júnior de Contabilidade da Ufersa (Contabilize), e  no mercado de trabalho, desemprenhei atividades na gestão de departamento pessoal de escritórios e universidade. E atualmente passei a integrar a equipe do projeto ContabiliDados.
