@@ -2,11 +2,11 @@
 title: "Índice de Liquidez Seca"
 author: "Kléber"
 date: "2020-03-02"
+draft: true
 categories:
   - cntdd
   - Pacotes
 toc: true
-draft: false
 image: "figs/contasReceber.png"
 editor_options: 
   chunk_output_type: console

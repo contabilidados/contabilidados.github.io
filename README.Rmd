@@ -12,33 +12,22 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Blog-en
+# contabilidados.github.io
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-In this repository you can find the code used to generate my blog (in English): <https://beamilz.com/>
+![](posts/dados/instalacntdd/instalacntdd_logo.png){width="154"}
 
-The blog was created using [Quarto](https://quarto.org/). You can find more info on how to create a blog with Quarto in the [documentation](https://quarto.org/docs/websites/website-blog.html).
+------------------------------------------------------------------------
 
-The deploy is made with [Netlify](https://www.netlify.com/), and the comments use [giscus](https://giscus.app/).
+O projeto "contabiliDados" tem como finalidade monitorar e avaliar o desempenho e as operações tanto de entidades públicas quanto privadas no Brasil. Isso é realizado através da consolidação de dados que são normalmente divulgados de maneira fragmentada, fornecendo à sociedade indicadores condensados que refletem a gestão pública e corporativa. Adicionalmente, o projeto se dedica a manter repositórios de dados acessíveis, que servem tanto para pesquisas de interesse público quanto privado, incluindo a divulgação de índices de percepção e indicadores econômicos relevantes.
 
-```{r echo=FALSE}
-number_of_posts <- fs::dir_ls("posts/", type = "directory") |> length()
+Neste contexto, o "contabiliDados" empreende na análise de dados tanto estruturados quanto não estruturados, provenientes das áreas de contabilidade e economia. Uma das suas principais contribuições é a incorporação de métodos eficazes para comunicar informações valiosas à sociedade. Isso é alcançado, em parte, através do uso de dashboards interativos, que transformam dados complexos em insights compreensíveis e acessíveis, promovendo uma maior transparência e entendimento sobre a gestão e desempenho econômico.
 
-number_of_talks_pt <- fs::dir_ls("talks/pt/", type = "directory") |> length()
+------------------------------------------------------------------------
 
-number_of_talks_en <- fs::dir_ls("talks/en/", type = "directory") |> length()
+Este site foi criado usando [Quarto](https://quarto.org/). Você pode encontrar mais informações sobre como criar um blog em Quarto na [documentação](https://quarto.org/docs/websites/website-blog.html).
 
-number_of_talks_es <- fs::dir_ls("talks/es/", type = "directory") |> length()
-
-number_of_talks <- number_of_talks_es + number_of_talks_en + number_of_talks_pt
-```
-
-As by `r format(Sys.Date(), "%B %d,  %Y")`, this blog has **`r number_of_posts` blog posts** and content from **`r number_of_talks` talks/presentations**.
-
-Blogpost ideas:
-
--   [ ] Creating a blog - part 2: setting up google analytics, improving tweet cards
--   [ ] Using quarto in the command line
+O deploy foi feito em [Github pages](https://pages.github.com//), e os comentários em [giscus](https://giscus.app/).

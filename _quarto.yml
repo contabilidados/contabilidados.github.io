@@ -4,10 +4,11 @@ project:
 website:
   favicon: icon.png
   page-navigation: true
+  back-to-top-navigation: true
   title: "contabiliDados"
   site-url: "https://contabilidados.com.br/cntdd/"
   page-footer:
-    left: "A equipe contabiliDados usou [Quarto](https://quarto.org/), basedo em [BeaMilz](https://beamilz.com/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: "contabiliDados usou [Quarto](https://quarto.org/), basedo em [BeaMilz](https://beamilz.com/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
       - icon: youtube
         href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
@@ -22,10 +23,10 @@ website:
     right:
       - text: Dash Indicadores
         href: https://kleberformiga.shinyapps.io/dashCVMaulas/
-        # target: _blank
+        target: _blank
       - text: Dash Mercado
         href: https://gecomt.shinyapps.io/dashboard/
-        # target: _blank
+        target: _blank
       - text: cntdd
         href: cntdd.qmd
       - text: Posts
@@ -44,8 +45,8 @@ format:
   html:
     smooth-scroll: true
     theme:
-      - sandstone
-      - styles.css
+      light: [sandstone, styles.css]
+      dark: [cyborg, dark.css]
     link-external-icon: false
     link-external-newwindow: true
     link-external-filter: '^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**'

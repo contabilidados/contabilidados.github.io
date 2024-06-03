@@ -1,26 +1,16 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Blog-en
+# contabilidados.github.io
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-In this repository you can find the code used to generate my blog (in
-English): <https://beamilz.com/>
+<img src="posts/dados/instalacntdd/instalacntdd_logo.png" width="154" />
 
-The blog was created using [Quarto](https://quarto.org/). You can find
-more info on how to create a blog with Quarto in the
-[documentation](https://quarto.org/docs/websites/website-blog.html).
+Este site foi criado usando [Quarto](https://quarto.org/). Você pode
+encontrar mais informações sobre como criar um blog em Quarto na
+[documentação](https://quarto.org/docs/websites/website-blog.html).
 
-The deploy is made with [Netlify](https://www.netlify.com/), and the
-comments use [giscus](https://giscus.app/).
-
-As by November 02, 2022, this blog has **27 blog posts** and content
-from **55 talks/presentations**.
-
-Blogpost ideas:
-
--   [ ] Creating a blog - part 2: setting up google analytics, improving
-    tweet cards
--   [ ] Using quarto in the command line
+O deploy foi feito em [Github pages](https://pages.github.com//), e os
+comentários em [giscus](https://giscus.app/).

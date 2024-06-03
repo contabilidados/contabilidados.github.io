@@ -1,0 +1,156 @@
+/*-- scss:rules --*/
+
+.navbar-brand {
+  background: url('logo.png');
+  background-size: contain;
+  padding-right: 5px !important;
+  padding-left: 120px !important;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/*-- scss:defaults --*/
+
+  main, p {
+    font-size: 1.1rem !important;
+    color: #ddd; /* Texto principal em cinza claro para contraste */
+  }
+
+.callout.callout-style-default .callout-body {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #ddd; /* Texto da callout em cinza claro para contraste */
+}
+
+:root {
+  --bs-blue: #de8f3d;
+    --bs-primary: #eb6864;
+    --bs-gray-dark: #f0f1ff; /* Texto em cinza claro */
+    --bs-body-bg: #000; /* Background preto */
+}
+
+body {
+  background-color: var(--bs-body-bg); /* Define o background como preto */
+}
+
+div.quarto-post .thumbnail img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 150px;
+}
+
+.quarto-listing-category.category-cloud {
+  font-family: 'Roboto';
+}
+
+.quarto-listing-category.category-cloud .category-cloud-6,
+.quarto-listing-category.category-cloud .category-cloud-5,
+.quarto-listing-category.category-cloud .category-cloud-4,
+.quarto-listing-category.category-cloud .category-cloud-3,
+.quarto-listing-category.category-cloud .category-cloud-2,
+.quarto-listing-category.category-cloud .category-cloud-1 {
+  background: #222; /* Fundos em cinza escuro */
+    color: #fff; /* Texto em branco */
+    border-radius: 10%;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #000;
+    background-color: var(--bs-blue);
+  border-color: var(--bs-blue);
+}
+
+.quarto-title-banner {
+  margin-bottom: 1em;
+  color: #000;
+  background: var(--bs-blue);
+}
+
+.page-link {
+  color: var(--bs-blue);
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: #000;
+    background-color: var(--bs-blue);
+  border-color: var(--bs-blue);
+}
+
+a {
+  color: var(--bs-blue);
+}
+
+b, strong {
+  color: var(--bs-blue);
+  font-weight: bolder;
+}
+
+div.quarto-post .listing-categories .listing-category {
+  color: var(--bs-blue);
+  border: solid 1px var(--bs-gray-dark);
+  font-size: .8em;
+}
+
+.btn-primary {
+  color: #000;
+    background-color: var(--bs-blue);
+  border-color: var(--bs-blue);
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active {
+  border-left: 1px solid var(--bs-blue);
+  color: var(--bs-blue) !important;
+}
+
+.sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+  border-left: 1px solid var(--bs-blue);
+  color: var(--bs-blue) !important;
+}
+
+div.quarto-about-trestles .about-entity .about-link:hover {
+  color: var(--bs-blue);
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: var(--bs-blue);
+}
+
+.alert-primary {
+  color: var(--bs-gray-dark);
+  background-color: var(--bs-body-bg);
+  border-color: var(--bs-blue);
+  border-style: dashed;
+}
+
+.nav-link {
+  color: var(--bs-gray-dark);
+}
+
+.btn-primary:hover {
+  color: #000;
+    background-color: #f0f1ff;
+    border-color: #f0f1ff;
+    padding: .375rem .75rem;
+  font-size: 1.1rem !important;
+  margin-top: -9px;
+}
+
+.btn-primary {
+  padding: .375rem .75rem;
+  font-size: 1.1rem !important;
+  margin-top: -9px;
+}
+
+.quarto-footer {
+  font-size: 0.5px !important; /* ajuste o tamanho conforme necessário */
+}
+
+/*-- scss:defaults --*/
+// Base document colors
+$body-bg: #181818;
+$body-color: gray;
+$link-color: #75AADB;
+
+

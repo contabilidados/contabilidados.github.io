@@ -166,3 +166,8 @@ div.quarto-about-trestles .about-entity .about-link:hover {
   font-size: 1.1rem !important;
   margin-top: -9px;
 }
+
+.quarto-footer {
+     font-size: 0.5px !important; /* ajuste o tamanho conforme necessário */
+}
+
