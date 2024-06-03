@@ -7,6 +7,7 @@
 <!-- badges: end -->
 
 <img src="posts/dados/instalacntdd/instalacntdd_logo.png" width="154" />
+
 ------------------------------------------------------------------------
 
 O projeto "contabiliDados" tem como finalidade monitorar e avaliar o desempenho e as operações tanto de entidades públicas quanto privadas no Brasil. Isso é realizado através da consolidação de dados que são normalmente divulgados de maneira fragmentada, fornecendo à sociedade indicadores condensados que refletem a gestão pública e corporativa. Adicionalmente, o projeto se dedica a manter repositórios de dados acessíveis, que servem tanto para pesquisas de interesse público quanto privado, incluindo a divulgação de índices de percepção e indicadores econômicos relevantes.
