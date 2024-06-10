@@ -1,0 +1,19 @@
+/* Título principal com imagem no topo e sombreamento */
+h1.title {
+  background-image: url(contabilidados.png);
+  background-repeat: no-repeat;
+  background-position: top center; /* Posição da imagem no topo e centralizada */
+  background-size: 320px; /* Tamanho da imagem */
+  padding-top: 250px; /* Espaço para empurrar o texto para baixo */
+  text-align: center; /* Alinhamento do texto */
+}
+
+.authors {
+  font-size: 0.5em; /* Diminui o tamanho da fonte dos autores */
+  line-height: 0.2em; /* Diminui a altura da linha para reduzir o espaçamento entre os nomes */
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+}
+
+
+

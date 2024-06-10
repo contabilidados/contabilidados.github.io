@@ -1,0 +1,29 @@
+---
+toc: true
+author: Alexsandro Prado
+categories: [R, Economatica]
+date: '2024-06-11'
+event: "V Ciclo de Capacitação Metodológica do PPGA"
+event_url: https://www.instagram.com/p/C7y9-APAJ98/?igsh=MTdtcWQ0Y2t3eG02bQ==
+links:
+- icon: person-chalkboard
+  icon_pack: fas
+  name: Slide
+  url: apresentacao.html
+location: UFERSA LCC Laboratório 1
+title: "Introdução ao Software R"
+image: evento.jpg
+draft: false
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+<br>
+
+A palestra apresentou uma uma noção sobre o R e seu uso em pesquisas.
+Importação, tratamento de dados, criação de uma função e realização de testes de regressão múltipla e logit
