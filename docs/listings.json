@@ -1,0 +1,104 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/dados/instalacntdd/instalacntdd.html",
+      "/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html",
+      "/posts/finance/politicaDividendos/politicaDividendos.html",
+      "/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html",
+      "/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html",
+      "/posts/finance/visaoGeralFinancas/visaoGeralFinancas.html",
+      "/posts/finance/sentimentoInvestidor/sentimentoInvestidor.html",
+      "/posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.html",
+      "/posts/finance/custoEstruturaCapital/custoEstruturaCapital.html",
+      "/posts/finance/anomalias/anomalias.html",
+      "/posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.html",
+      "/posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.html",
+      "/posts/finance/modelosGovernanca/modelosGovernanca.html",
+      "/posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html",
+      "/posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html",
+      "/posts/finance/governancaCorporativa/governancaCorporativa.html",
+      "/posts/finance/assimetriaInformacional/assimetriaInformacional.html",
+      "/posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.html",
+      "/posts/finance/HME/HME.html",
+      "/posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html",
+      "/posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html",
+      "/posts/contabil/qualidadeInformacao/qualidadeInformacao.html",
+      "/posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html",
+      "/posts/contabil/valueRelevance/valueRelevance.html",
+      "/posts/contabil/flxCxAccruals/flxCxAccruals.html",
+      "/posts/contabil/estruturaConceitual/estruturaConceitual.html",
+      "/posts/contabil/accountingHistory/accountingHistory.html",
+      "/posts/contabil/pesquisaContabil/pesquisaContabil.html",
+      "/posts/contabil/escolhasContabeis/escolhasContabeis.html",
+      "/posts/contabil/teoriaAgencia/teoriaAgencia.html",
+      "/posts/contabil/economiaInformacao/economiaInformacao.html",
+      "/posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html",
+      "/posts/contabil/regulacaoContabil/regulacaoContabil.html",
+      "/posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html",
+      "/eventos/introR/introR.html",
+      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+      "/eventos/economaticaR/economaticaR.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/contabil/qualidadeInformacao/qualidadeInformacao.html",
+      "/posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html",
+      "/posts/contabil/valueRelevance/valueRelevance.html",
+      "/posts/contabil/flxCxAccruals/flxCxAccruals.html",
+      "/posts/contabil/estruturaConceitual/estruturaConceitual.html",
+      "/posts/contabil/accountingHistory/accountingHistory.html",
+      "/posts/contabil/pesquisaContabil/pesquisaContabil.html",
+      "/posts/contabil/escolhasContabeis/escolhasContabeis.html",
+      "/posts/contabil/teoriaAgencia/teoriaAgencia.html",
+      "/posts/contabil/economiaInformacao/economiaInformacao.html",
+      "/posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html",
+      "/posts/contabil/regulacaoContabil/regulacaoContabil.html",
+      "/posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html",
+      "/posts/finance/politicaDividendos/politicaDividendos.html",
+      "/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html",
+      "/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html",
+      "/posts/finance/visaoGeralFinancas/visaoGeralFinancas.html",
+      "/posts/finance/sentimentoInvestidor/sentimentoInvestidor.html",
+      "/posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.html",
+      "/posts/finance/custoEstruturaCapital/custoEstruturaCapital.html",
+      "/posts/finance/anomalias/anomalias.html",
+      "/posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.html",
+      "/posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.html",
+      "/posts/finance/modelosGovernanca/modelosGovernanca.html",
+      "/posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html",
+      "/posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html",
+      "/posts/finance/governancaCorporativa/governancaCorporativa.html",
+      "/posts/finance/assimetriaInformacional/assimetriaInformacional.html",
+      "/posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.html",
+      "/posts/finance/HME/HME.html",
+      "/posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html",
+      "/posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html",
+      "/posts/dados/instalacntdd/instalacntdd.html",
+      "/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html"
+    ]
+  },
+  {
+    "listing": "/membros.html",
+    "items": [
+      "/curriculum/profs/alexsandro.html",
+      "/curriculum/profs/kleber.html",
+      "/curriculum/profs/yuri.html",
+      "/curriculum/alunos/liviabandeira.html"
+    ]
+  },
+  {
+    "listing": "/cntdd.html",
+    "items": []
+  },
+  {
+    "listing": "/meetings.html",
+    "items": [
+      "/eventos/introR/introR.html",
+      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+      "/eventos/economaticaR/economaticaR.html"
+    ]
+  }
+]

@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Kléber Formiga Miranda">
+<title>contabiliDados - Remuneração e Desempenho</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../icon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script><style>html{ scroll-behavior: smooth; }</style>
+<meta name="twitter:title" content="contabiliDados - Remuneração e Desempenho">
+<meta name="twitter:description" content="Resenha">
+<meta name="twitter:image" content="https://contabilidados.com.br/cntdd/posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.png">
+<meta name="twitter:creator" content="@cntdd">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1024">
+</head>
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">contabiliDados</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" target="_blank"> 
+<span class="menu-text">Dash Indicadores</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://gecomt.shinyapps.io/dashboard/" target="_blank"> 
+<span class="menu-text">Dash Mercado</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cntdd.html"> 
+<span class="menu-text">cntdd</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../meetings.html"> 
+<span class="menu-text">Eventos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../membros.html"> 
+<span class="menu-text">Equipe</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/contabilidados"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Remuneração e Desempenho</h1>
+<p class="subtitle lead">Resenha</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Finanças</div>
+    <div class="quarto-category">Remuneração</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kléber Formiga Miranda </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">19 de fevereiro de 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header><style> body {text-align: justify} </style>
+<p><img src="remuneracaoDesempenho.png" class="img-fluid"></p>
+<p>A separação entre propriedade e controle inaugura o momento no qual há a necessidade de contratar gestores profissionais para a condução dos negócios. Os proprietários, até então gestores de suas companhias, passaram a ter papel coadjuvante na execução das metas empresariais. Desse novo <em>design</em> de gestão revelou-se a figura do conflito de agência, caracterizado pela divergência entre os interesses dos proprietários e dos gestores quanto às decisões tomadas em prol dos resultados empresariais.</p>
+<p>O monitoramento da ação do gestor passou a ser incorporada aos custos empresariais sob a denominação de custos de agência. Contudo, verificou-se a impossibilidade de ter a real dimensão do trabalho desempenhado pela gestão ou definir com precisão a sua eficácia. As empresas passaram a remunerar os gestores com base na sua performance mensurada por meio da geração de valor à empresa. Dessa forma, os interesses do gestor e do acionista se alinhariam dentre de uma mesma perspectiva de retorno.</p>
+<p>O alinhamento de interesses com base no lucro (resultado) da empresa constituiu, portanto, o meio pelo qual o gestor atuaria para maximizar o valor do acionista ao mesmo tempo em que teria seus interesses resguardados. Quanto mais lucro a empresa apresentasse, maior seria a remuneração dos proprietários e gestores. Contudo, para Geiler e Renneboog (2010), o nível e composição da compensação da alta gestão, assim como o pagamento por performance, levantou questões sobre a eficácia dessa política.</p>
+<p>Algumas empresas contratam consultores de remunerações com o intuito de prestar suporte quanto a remuneração dos executivos. Por serem especialistas na área, auxiliam o conselho de administração no fornecimento de informações para reduzir os custos de agência, mensurando a melhor opção de remuneração para os executivos e oferecendo bem-estar aos investidores. (Conyon, 2010).</p>
+<p>A proximidade dos consultores com os gestores fomentou pesquisas sobre o valor da remuneração quando há proximidade entre gestor e consultor. Os resultados relatam possibilidade de assédio por parte dos gestores para melhorar sua remuneração. Dessa forma, observa-se outra forma de distanciamento da maximização do valor ao acionista. Outros aspectos como a participação acionária e o volume de negócios também influenciam a relação entre o desempenho do gestor e o da empresa.</p>
+<p>A remuneração de executivos tornou-se relevante quando a gestão da empresa passou a ser conduzida por gestores profissionais. O valor a ser atribuído à gestão permanece indefinido dada as dificuldades de se identificar a real utilidade dessa remuneração. Mesmo quando remunerados por meio do lucro, os gestores acabam monopolizando o ganho residual dos proprietários. A contratação de consultores para apoiar o conselho de administração também não se mostrou eficaz na otimização da remuneração da gestão. A discussão sobre a remuneração ótima ainda permanece em voga e podendo ser discutida pela ótica do valor da remuneração, da estrutura acionária e do volume de negócios.</p>
+<p>O ambiente propício para a remuneração ótima da gestão seria a existência de um mercado eficiente. Nesse caso, o gestor adotaria medidas para maximizar a riqueza do acionista. A política de pagamento é eficaz se estimula a tomada de decisão racional, focada na criação de valor para o acionista, além de impedir, ao mesmo tempo, a expropriação da renda dos proprietários pelos executivos.</p>
+<p>Contudo, o monitoramento das ações da gestão normalmente traz custos aos negócios, pois há uma tendência ao utilitarismo por parte do gestor. De acordo com a teoria da agência, o gestor tomará as decisões mais úteis para o seu bem-estar. Para reduzir o custo de monitoramento as empresas implementam políticas de compensação de curto prazo e longo prazo na tentativa de alinhar o interesse do gestor com o do acionista.</p>
+<p>Os pagamentos de curto prazo são caracterizados por remunerações com base na receita ou no lucro da empresa. Além do salário são oferecidas remunerações em forma de bônus pela obtenção de metas. Normalmente questionadas dada a possibilidade de manipulação dos números. Nos pagamentos de longo prazo os executivos são estimulados a se concentrar na criação de valor em prazos maiores, aumentando o seu risco. O uso de <em>stock options</em>, por exemplo, possuem limitações capazes de se desestimular o desempenho dos gestores. Nesses casos, executivos avessos ao risco exigem prêmio superior para aceitar o risco imposto pela política de remuneração. (Geiler &amp; Renneboog, 2010).</p>
+<p>Para Bhagat e Black (1999 como citado em Geiler &amp; Renneboog, 2010), alguns conselhos de administração, em especial os comitês de remuneração, provavelmente não sejam mecanismos de governança eficientes, pois um diretor sendo amigo do CEO (ou contratado por ele) teria menor propensão em criticar o nível de remuneração do CEO. Bertrand e Mullainathan (1999 como citado em Geiler &amp; Renneboog, 2010), descrevem esse cenário como a possibilidade de um CEO dominar a política da empresa e determinar a sua própria remuneração, capturando o lucro dos acionistas.</p>
+<p>Para evitar o favorecimento da política de remuneração pelo CEO, algumas empresas contratam consultores sob a perspectiva de reduzir a discricionariedade dos executivos sobre sua própria remuneração. De acordo com Conyon (2010), os consultores possuem conhecimento sobre as empresas e podem estabelecer uma política de remuneração melhor alinhada com os interesses dos acionistas. Considerando as quantias a serem pagas aos executivos, os comitês de remuneração legitimam o pagamento por meio da contratação de consultorias especializadas na definição desses valores. Dessa forma, a remuneração excessiva dos executivos seria evitada.</p>
+<p>Conyon (2010) estabelece alguns conflitos ao se adotar a contratação de consultores: a) as pressões psicológicas por estarem próximos à gestão (troca de presentes); b) o receio de perder negócios futuros ou renovações; e c) a presença de outras oportunidades de negócios lucrativos. Com esses prováveis conflitos, os consultores podem agir potencialmente em favor da gestão, em vez de acionistas. O comportamento oportunista do consultor esbarra, porém, na sua provável perda de reputação. Dificilmente uma empresa manipulada por gestores passa credibilidade ao mercado – esse fato pode chegar ao conhecimento do público.</p>
+<p>Resultados de pesquisas empíricas demonstram uma correlação positiva entre a remuneração do CEO e a presença de consultores. Esses resultados são conflitantes e passíveis de novas interpretações, especialmente pela robustez aplicada no método estatístico utilizado. Os governos americano e britânico adotaram o caminho da divulgação de informações quanto à remuneração de consultores e CEOs como mecanismo de inibição aos exageros de remuneração.</p>
+<p>Observa-se, no contexto apresentado, a dificuldade se estabelecer uma política de remuneração totalmente eficiente, capaz de alinhar o interesse dos gestores com os acionistas. McConnell, McKeon e Xu (2010) discutem a implicação da concentração de propriedade no desempenho da empresa.</p>
+<p>De acordo com McConnell <em>et al</em>. (2010), o pressuposto existente é da influência no valor corporativo pelos detentores de ações. Como em companhias de capital aberto a gestão é dissociada do controle, não haveria incentivos para os gestores utilizarem os recursos de forma eficiente sem a contrapartida proporcional aos resultados obtidos. Portanto, como a concentração acionária aproxima o controle da empresa dos investidores majoritários, há a possibilidade de melhor alinhamento nos interesses.</p>
+<p>Alguns estudos foram realizados no sentido de relacionar o percentual de participação por <em>insiders</em> e o desempenho das empresas. Com base no valor de reposição dos ativos no mercado (q de Tobin), Morck, Shleifer e Vishny (1988) e McConnell e Servaes (1990) observaram uma relação não-linear entre o valor corporativo e desempenho. Os resultados, entretanto, merecem cautela em sua análise. Uma análise mais forte sobre os resultados indica a existência do ‘efeito entricheiramento’, referente a concentração de poder e gestão nas mãos dos acionistas controladores. Nesse caso, o acionista minoritário é preterido nas decisões. A relação participação acionária e desempenho tem relação inversa com o efeito entricheiramento, pois, em níveis mais elevados, o efeito entrincheiramento provocar redução no valor corporativo enquanto o poder gerencial aumenta. (McConnell <em>et al</em>., 2010)</p>
+<p>A divergência entre gestores e acionistas passa a acontecer em nível de acionistas majoritários e minoritários. O poder de decisão dos minoritários é irrelevante comparado aos controladores, provocando um acúmulo de discricionariedade em poder de poucos. O poder antes delegados a gestores é assumido pelos controladores, capazes de determinar sua própria remuneração.</p>
+<p>McConnell <em>et al</em>. (2010) relatam diversos estudos interessados na formação de uma estrutura de propriedade ótima. Os resultados alimentam vertentes diferentes quanto a existência ou não dessa estrutura ótima. Os trabalhos convergentes com a existência de uma estrutura ótima sinalizam o arranjo endógeno influenciado pelo ambiente no qual a empresa opera. Nessa ótica, cada empresa otimiza sua estrutura dado o seu ambiente de contratação particular. Quanto aos estudos com indicativos de inexistência de uma estrutura de propriedade ótima, afirmam haver uma propensão em aumentar a participação acionária quando houver acrescimento de valor.</p>
+<p>Por fim, Huson e Parrino (2010) acrescentam a discussão quanto a substituição do gestor por conveniência da empresa. Nesses casos, o gestor seria utilizado como “bode expiatório” para sinalizar ao mercado a chegada de um novo gestor capaz de conduzir os novos negócios. O <em>turnover</em> de executivos já é visto pela acadêmica desde a década de 80, sob a premissa de exigência de um substituto com qualidade superior ao antecessor e custos de desligamento do anterior compatíveis com o retorno esperado.</p>
+<p>A remuneração de executivos permanece sendo uma incógnita para as empresas. Se por um lado uma remuneração atrativa é ideal para alinhar os interesses dos gestores aos dos acionistas, do outro há a fuga de ganhos dos acionistas quando essa remuneração é excessiva. Buscar uma remuneração justa é uma tarefa difícil, dada a ampliação da utilidade por cada agente. A contratação de consultorias para definição da remuneração dos executivos acaba passando pelo problema de proximidade entre o CEO e a decisão de remuneração.</p>
+<p>No meio da discussão sobre a remuneração dos executivos e dos acionistas está a continuidade da empresa, cujo desempenho pode ser prejudicado pela expropriação de capital por meio de remunerações excessivas. Ao aproximar o controle da empresa com os acionistas majoritários ocorrem problemas de outra natureza: a expropriação do direito dos minoritários. A empresa acaba perdendo valor ou tendo desempenhos mais tímidos pelo acúmulo de ganhos pelos acionistas dominantes.</p>
+<p>A falta de associação entre o percentual de propriedade e o desempenho da empresa é retratado como possível falha na métrica de análise ou na dificuldade de identificação da real intenção dos acionistas. Contudo é possível propor uma relação inversa como alguns estudos indicam, nos quais a empresa perde valor quando o capital e o controle são concentrados.</p>
+<p>Por fim, é salutar a ampliação e estudos nessa área preocupados com o ganho sob a ótica da empresa em cumprimento do seu papel social. O conflito de interesses em nível de gestor-acionistas ou majoritários-minoritários contribuem negativamente para a continuidade da empresa. A implantação de princípios de governança nas empresas pode contribuir para o alinhamento de interesses entre gestores, acionistas majoritários, acionistas minoritários, sociedade e demais partes interessadas na firma.</p>
+<hr>
+<p>Conyon, M. J. (2010). Compensation consultants and executive pay. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 15, pp.&nbsp;285-302). New Jersey: Wiley.</p>
+<p>Geiler, P. &amp; Renneboog, L. (2010). Executive compensation: incentives and externalities. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 14, pp.&nbsp;263-283). New Jersey: Wiley.</p>
+<p>Huson, M. R. &amp; Parrino, R. (2010). The effects of management turnover on firm performance. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 17, pp.&nbsp;323-345). New Jersey: Wiley.</p>
+<p>McConnell, J. J., McKeon, S. B., &amp; Xu, W. (2010). Corporate governance and ownership structure. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 16, pp.&nbsp;303-322). New Jersey: Wiley.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><script src="https://giscus.app/client.js" data-repo="contabilidados/blog" data-repo-id="R_kgDOI9xlkQ" data-category="General" data-category-id="DIC_kwDOI9xlkc4CUfYR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+<p>contabiliDados usou <a href="https://quarto.org/">Quarto</a>, basedo em <a href="https://beamilz.com/">BeaMilz</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:contabilidados@ufersa.edu.br">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+</div>
+  </div>
+</footer>
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

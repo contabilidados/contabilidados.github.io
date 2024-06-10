@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Kléber Formiga Miranda">
+<title>contabiliDados - Teoria de Agência e Governança Corporativa</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../icon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script><style>html{ scroll-behavior: smooth; }</style>
+<meta name="twitter:title" content="contabiliDados - Teoria de Agência e Governança Corporativa">
+<meta name="twitter:description" content="Resenha">
+<meta name="twitter:image" content="https://contabilidados.com.br/cntdd/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.png">
+<meta name="twitter:creator" content="@cntdd">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1024">
+</head>
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">contabiliDados</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" target="_blank"> 
+<span class="menu-text">Dash Indicadores</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://gecomt.shinyapps.io/dashboard/" target="_blank"> 
+<span class="menu-text">Dash Mercado</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cntdd.html"> 
+<span class="menu-text">cntdd</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../meetings.html"> 
+<span class="menu-text">Eventos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../membros.html"> 
+<span class="menu-text">Equipe</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/contabilidados"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Teoria de Agência e Governança Corporativa</h1>
+<p class="subtitle lead">Resenha</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Finanças</div>
+    <div class="quarto-category">Governança</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kléber Formiga Miranda </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">28 de outubro de 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header><style> body {text-align: justify} </style>
+<p><img src="teoriaAgenciaGovernanca.png" class="img-fluid"></p>
+<p>A temática de teoria da agência abordada nessa resenha centra-se no marco inicial proposto por (Coase, 1937) ao questionar a natureza das empresas, embora sua discussão seminal seja atribuída a Berle e Means, no início dos anos 30. Nessa abordagem, a firma deixaria de representar um mero agente combinador de fatores de produção, dada a autonomia do mercado (teoria neoclássica da economia) e passaria a representar um mecanismo utilizado pelos agentes para redução de custos de transação. Constatou-se a redução de custos ao operacionalizar a empresa internamente em relação a transacionar com o mercado. Nessa perspectiva, a visão sobre o papel da firma passou a ser de um conjunto de contratos (teoria da firma) no qual os agentes acordariam seus interesses para participação na firma. A emergência da Teoria de Agência se deu na identificação de conflitos nos interesses dos agentes os quais buscavam maximizar sua utilidade.</p>
+<p>A relação de agência surge quando duas ou mais partes possuem interesse na execução de um serviço em que uma das partes, o principal, delega à outra parte, o agente, o papel de execução do serviço. Considerando ambas as partes maximizadoras de utilidade, há boas razões para acreditar no interesse parcial do agente em atingir os interesses do principal. Dessa forma, o principal incorrerá em custos para defender seus interesses e o agente arcará com o ônus de concessão de garantias para com o principal (Jensen &amp; Meckling, 1976). A separação entre a propriedade e controle foi o foco teórico de Jensen e Meckling (1976), cujo desenvolvimento recorreu às teorias dos direitos de propriedade, da agência e das finanças para lançar luz à definição da firma, separação entre posse e controle, responsabilidade social, definição de uma função objetiva corporativa, identificação de uma estrutura de capital ótima, dentre outros.</p>
+<p>Ao relatar diversas relações de agência existentes na firma, Jensen e Meckling (1976) reconhecem a dificuldade de criar uma teoria capaz de abranger todas as relações. Consideram difícil o desenvolvimento de teorias para explicar a forma como os custos de agência acontecem em cada situação, dada a diferença significativa nas relações contratuais. A abordagem da teoria de agência proposta nessa pesquisa se concentra, portanto, em uma pequena parcela dentre as diversas relações – a análise dos custos de agência gerados pelos arranjos contratuais entre proprietários e a alta gerência da corporação. Quanto a abordagem, divergiram das demais teorias até então existente pela abordagem positiva adotada. As pesquisas tratavam exclusivamente de aspectos normativos (como estruturar as relações contratuais). A inovação decorre do fato de presumirem que os problemas normativos são solucionados pelos indivíduos e passarem a investigar os incentivos de cada uma das partes e os elementos envolvidos no estabelecimento do equilíbrio contratual entre agente e principal.</p>
+<p>Os incentivos passaram a ser avaliados como forma de otimização do valor da firma. Assumem a necessidade de haver incentivos para alinhamento de interesses entre agente e principal e, nessa perspectiva, Jensen e Meckling (1976) utilizam o Ótimo de Pareto para avaliar a eficiência contratual. De acordo com o Ótimo de Pareto abordado na teoria da agência de Jensen e Meckling (1976) o contrato eficiente teria que prevê o nível máximo de incentivo até o ponto de maximização do valor da firma. Busca-se um ponto de equilíbrio no qual não há margem para melhoria. Assim, com exceção da situação hipotética de o agente agir totalmente em prol do principal (situação na qual os custos de agência são anulados ou praticamente eliminados), não dá para maximizar o valor da firma sem incorrer nos custos de transação.</p>
+<p>Além da relação entre agente e principal, especificamente o proprietário a alta gestão, Jensen e Meckling (1976) ampliam a abordagem de seu trabalho para a possibilidade de financiamento da empresa via captação de recursos de terceiros. Para essa abordagem, associam as vantagens do proprietário- administrador ao repassar parte de sua parcela de ganhos para terceiros, arcando com todos os efeitos dos custos de agência da dívida sobre a riqueza e se favorecendo com os ganhos de sua redução. A principal questão sobre contrair as dívidas é possível perda de investimento potenciais. O incremento decorrente das oportunidades de investimento compensaria os custos de dívida. Dessa forma, utilizam os conceitos de teoria de agência e fundamentam uma teoria de estrutura de propriedade, diferenciando-se de estrutura de capital por ter o foco, também, nas parcelas de capital de posse do administrador. A teoria determina três variáveis: o capital interno (administrador), capital próprio externo e o de terceiros (qualquer pessoa fora da empresa).</p>
+<p>A conclusão de Jensen e Meckling (1976) é de que mesmo na certeza dos custos de agência, o formato corporativo tem agradado, de forma geral, investidores e credores. Se espera a melhoria dos mecanismos capazes de reduzir esses custos, pois estes são certos como quaisquer outros custos, entretanto, dependem de aspectos como regulamentação, sistema legal e habilidade humana ao elaborar os contratos. Apontam para a criação de novas formas de lidar com as corporações para reduzirem custos e atenderem as expectativas de seus agentes. Nessa perspectiva, Fama e Jensen (1983) buscam analisar a sobrevivência das empresas diante dos problemas de agência, ponderando sobre a necessidade de obtenção de lucros.</p>
+<p>De acordo com Fama e Jensen (1983), os contratos essenciais em qualquer organização especificam a natureza dos direitos residuais e o escopo do processo decisório entre agentes. Esses contratos distinguem as organizações umas das outras e explicam o porquê de organizações específicas sobreviverem. Os direitos residuais diferem entre as diversas organizações, como por exemplo, o caso de empresas de capital aberto nas quais os acionistas não possuem interesse em desempenhar qualquer papel na firma, mas possuem direito irrestrito de alienar seus direitos e repassar seu risco para outros acionistas. Em firmas de capital fechado (geralmente menores) geralmente os diretores restringem para participação em decisões internas. O processo decisório (planejamento, execução e controle) também é importante para definir a sobrevivência das empresas. Assim, os contratos buscam prevê cada passo da decisão.</p>
+<p>O desmembramento do processo decisório entre decisões gerenciais (iniciação e implementação) e decisões de controle (ratificação e monitoramento) direcionam as duas hipóteses propostas por Fama e Jensen (1983). Para a primeira hipótese, a separação do risco residual arcado pelas decisões gerenciais leva a sistemas de decisão que separam a decisão gerencial da decisão de controle. A segunda propõe que a combinação das decisões gerenciais e de controle em poucos agentes levam a direitos residuais geralmente restritos a esses agentes. O conselho administrativo (<em>board</em>) caracteriza-se pela combinação de decisões, entretanto, é capaz de reduzir os conflitos de agência e reduzir seus custos decorrentes. O principal papel do <em>board</em> é desenvolver decisões consensuais para as informações por meio de seus comitês, cuja é a redução de problemas de agência entre parceiros.</p>
+<p>A combinação de decisões gerenciais e de controle por meio do <em>board</em> é eficiente quando há poucos agentes, portanto, essa proposição é melhor visualizada em empresas individuais (<em>proprietorship</em>), pequenas parcerias e empresas fechadas com baixa escala de produção e atividades. Essas organizações, essencialmente, são caracterizadas por sistemas de decisão concentrados e direitos residuais restritos aos agentes decisórios. Nessas empresas os custos de agência são mais fáceis de serem minimizados. Para empresas de maior porte, há a necessidade de outras estruturas e difusão de mecanismos capazes de reduzir as divergências entre os tomadores de decisão gerencial e os tomadores de decisão de controle (Fama &amp; Jensen, 1983).</p>
+<p>Assim, firmas maiores são mais complexas e ampliam a possibilidade de ocorrência de problemas de agência. Fama e Jensen (1983) abordam a possibilidade de um gestor com participação expressiva no capital votante atribuir-lhe garantias de empregabilidade com uma remuneração atrativa. Então, em organizações complexas a separação entre o risco residual arcado pelas decisões de gerenciamento aumenta, em parte, devido à necessidade de tomadas de decisões eficientes – é caso do papel do conhecimento específico. Nessas organizações os detentores de direitos são em grande número e o processo decisória ficaria inviabilizado dada o alto custo de envolvimento de todos nesse processo (papel da difusão dos direitos residuais). Por último, estão as características comuns nos sistemas de decisão nos quais os responsáveis pela gestão atuam em conformidade com os parâmetro estabelecidos pelo <em>board</em> e melhor acompanhados pelos gestores de controle (Fama &amp; Jensen, 1983).</p>
+<p>Até então, os trabalhos de (Fama &amp; Jensen, 1983; Jensen &amp; Meckling, 1976) apresentam teorias para a existência dos problemas de agência e buscam mecanismos capazes de reduzir dos custos de agência, sendo atribuído por Jensen e Meckling (1976) os incentivos capazes de minimizar esses custos e Fama e Jensen (1983) a observação do tipo de empresa, conforme seu processo decisório, sendo os custos de agência mais aplicáveis (ou mais presentes) em empresas complexas – normalmente de grande porte. Esse cenário leva a discussões persistentes sobre como tratar melhor a relação propriedade e controle e abre margem para discussão sobre a governança corporativa por tratar de iniciativas gerenciais preocupadas em reduzir os conflitos de agência. Para essa discussão, apresenta-se, nessa resenha, as discussões de dois <em>surveys</em> aplicados por (La Porta, Lopez-de-Silanes, &amp; Shleifer, 1998; Shleifer &amp; Vishny, 1997), os quais abordam, respectivamente, os aspectos sobre propriedade e controle no mundo e os aspectos da governança corporativa.</p>
+<p>Ao buscar avaliar o cenário quanto a propriedade e controle das empresas visualizador por Berle e Means, em 1932, no qual as empresas americanas apresentavam uma propriedade pulverizada em pequenos investidores e seu controle nas mãos de gestores, La Porta et al.&nbsp;(1998) traça um novo panorama sobre a propriedade e controle das 20 maiores empresas, ranqueadas pela capitalização de mercado em ações ordinárias no final de 1995, nos 27 países mais ricos do mundo de acordo com a lucro <em>per capita</em> em 1993. Portanto, as empresas se assemelham as estudadas por Berle e Means quanto ao porte. Entretanto, os resultados da pesquisa mostram uma realidade diferente da relatada pelo trabalho seminal.</p>
+<p>Um aspecto metodológico importante, tratado em (La Porta et al., 1998), é a definição de estrutura de propriedade – seja quanto a definição de controle ou quanto a definição de uma estrutura piramidal. Os achados, discutidos adiante, demonstrarão questões voltadas ao controle, assim como ao aspecto piramidal e familiar. Destaca-se o caráter dificilmente operacional em se coletar dados quanto a estrutura de propriedades das empresas. O entendimento da estrutura real constitui tarefa analítica, cujas particularidades são diversas. Assim, La Porta et al.&nbsp;(1998) apresentam detalhadamente cada definição e a forma como consideraram cada categoria a ser analisada, consistindo em tutorial conceitual para replicações ou adaptações em pesquisas futuras.</p>
+<p>Os resultados quanto “quem são os proprietários das firmas” demonstra uma realidade diferente da relatada por Berle e Means. Os achados de La Porta et al.&nbsp; (1998) demonstram que apenas 36% das maiores empresas possuem dispersão de propriedade, 30% controladas por famílias e 18% controladas pelo estado. Os autores associam esse resultado a um cenário de concentração de propriedade, dado que pouco mais de um terço representa empresas com propriedade dispersa. A participação estatal, juntamente com as famílias, nas firmas também foi um fato que chamou atenção, mas não apresentou surpresa devido ao fato de a amostra contar com países nos quais o processo de privatização ainda não se encerrado. A proteção legal dos investidores foi o aspecto determinante para o aumento percentual de empresas com maior dispersão acionária.</p>
+<p>Além da identificação dos proprietários, La Porta et al.&nbsp;(1998) identificaram os mecanismos de controle e exercício de poder utilizados nas empresas. Nesse caso demonstraram que múltiplas classes de ações não é um mecanismo capaz de separar propriedade e controle, cientes do controle de acionistas quanto ao fluxo de caixa para evitar expropriação de minoritários. Ao mesmo tempo, 26 por cento das firmas são controladas através de pirâmides (quando um acionista possui participação em empresas com participação em outras, controlando e se beneficiando de toda a cadeia de corporações), tendo menor representatividade quando há maior proteção ao investidor. As empresas controladas por famílias também apresentam percentual expressivo, participando do controle dessas firmas. Diferentemente das famílias, os bancos não demonstram interesse em exercer controle.</p>
+<p>Dado que a proteção legal parece ser influente na estrutura de propriedade das empresas, classificou-se as empresas de acordo com a proteção legal. Os resultados revelam a possibilidade de entrincheiramento e redução de direitos dos minoritários quando os países possuem poderes políticos e econômicos para controlar os acionistas. Esses resultados também são evidenciados quando classificam as empresas em <em>bank-centered</em> e <em>market-centered</em>. Respectivamente, representam países cujas estruturas de financiamento são baseadas em bancos e baseadas no mercado. A proteção do investidor, de acordo com La Porta et al.&nbsp; (1998), é uma boa <em>proxy</em> para sistemas de governança corporativa em países fundamentados no financiamento via bancos (<em>bank-centered</em>).</p>
+<p>De forma paralela e complementar, a pesquisa de Shleifer e Vishny (1997) preocupou-se em identificar a forma como o gestor atenderá os fornecedores de capital e, ainda, se não optará por projetos ruins para a empresa. Uma questão aventada pelos autores é o fato de os fornecedores de capital, após a entrega dos recursos, não desempenharem nenhum papel para a formação dos resultados. Esse papel é exercido pelo gestor a quem os capitalistas confiam o retorno de suas remunerações, mas nem sempre o gestor atua para essa finalidade. Os mecanismos de governança corporativa surgem como instituições econômicas e legais que podem alterar o processo político da empresas no intuito de melhorar a relação entre os agentes, sendo nesse caso definido para melhor (Shleifer &amp; Vishny, 1997).</p>
+<p>O estudo de Shleifer e Vishny (1997) divide-se em 8 seções, nas quais os autores traçam o marco teórico da teoria da agência com vistas às motivações para fornecedores de capital confiarem seus recursos a um gestor. Adicionalmente, tratam discutem a proteção legal dos investidores e a concentração de capital como as duas abordagens mais comuns ao se tratar de governança corporativa. Fica evidenciado que a diversidade de sistemas de governança entre os países (por exemplo, os modelos americano, alemão e japonês). Contudo, os autores alertam para a inexistência de um sistema superior. Não se trata de adotar o sistema adotado por um país, independentemente do quão eficiente pareça, mas avaliar como introduzir mecanismos de proteção legal aos investidores. Além dos investidores tradicionais, os credores também dispensam atenção relevante para a governança corporativa, pois possuem altos investimentos e, evidentemente, tem interesse no seu retorno. Os credores, tais como bancos, exercem poder sobre os direitos dos minoritários e investidores por meio de suas cláusulas contratuais para concessão de crédito (<em>covenants</em>) além de sua remuneração não ser residual.</p>
+<p>O <em>survey</em> de Shleifer e Vishny (1997) revelou limitações nos sistemas de governança ao redor do mundo. Seja pelo fato de o sistema legal dos países divergirem, a concentração de capital está presente em percentual importante das firmas (Fama &amp; Jensen, 1983; Shleifer &amp; Vishny, 1997), o custo benefício da implantação de sistemas de governança não ser muito claro, o nível informacional fora de mercados maduros (como o americano) ou pelo fato de não haver certeza quanto a eficiência da governança corporativa frente às dinâmicas políticas e econômicas de cada país, Shleifer e Vishny (1997) não arriscam lançar opiniões sobre as questões de governança corporativa levantadas por eles. São céticos quanto a disponibilidade de respostas persuasivas sobre a temática.</p>
+<p>Portanto, de acordo com as pesquisas discutidas nessa resenha (Fama &amp; Jensen, 1983; Jensen &amp; Meckling, 1976; La Porta et al., 1998; Shleifer &amp; Vishny, 1997), é possível observar a persistência dos problemas de agência desde sua divulgação acadêmica, nos anos 30, até os dias atuais. Os esforços empreendidos pela academia e pelos profissionais das corporações se direcionam para reduzir os conflitos de agência e nunca os eliminar. Possivelmente, a condição utilitarista do ser humano, já descrito por Jensen e Meckling (1976) ao citar Adam Smith e corroborar em sua pesquisa, seja persistente por muito mais tempo. Assim, as práticas de sobrevivência das empresas, apontadas por Fama e Jensen (1983), são úteis na redução de custos de agência, entretanto os dois <em>surveys</em> apresentados (La Porta et al., 1998; Shleifer &amp; Vishny, 1997), demonstram preponderância de práticas que indicam esforços de agentes com <em>empowerment</em> em atingir seus interesses em detrimento de outrem. O mercado precisa e sobrevive sob a perspectiva de cumprimento de contratos e se espera, então, inovação nos mecanismos capazes de reduzir o risco de seu inadimplemento.</p>
+<hr>
+<p>Coase, R. H. (1937). The nature of the firm. <em>Economica</em>, 4(16), 386–405.</p>
+<p>Fama, E. F., &amp; Jensen, M. C. (1983). Separation of ownership and control. <em>Journal of Law and Economics</em>, 26(2), 301–325.</p>
+<p>Jensen, M. C., &amp; Meckling, W. H. (1976). Theory of the firm: managerial behavior, agency costs and ownership structure. <em>Journal of Financial Economics</em>, 3, 305–360.</p>
+<p>La Porta, R., Lopez-de-Silanes, F., &amp; Shleifer, A. (1998). Corporate ownership around the world. <em>Ssrn</em>, 1, 1–69.</p>
+<p>Shleifer, A., &amp; Vishny, R. W. (1997). A survey of corporate governance. <em>The Journal of Finance</em>, 52(2), 737–783.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><script src="https://giscus.app/client.js" data-repo="contabilidados/blog" data-repo-id="R_kgDOI9xlkQ" data-category="General" data-category-id="DIC_kwDOI9xlkc4CUfYR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+<p>contabiliDados usou <a href="https://quarto.org/">Quarto</a>, basedo em <a href="https://beamilz.com/">BeaMilz</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:contabilidados@ufersa.edu.br">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+</div>
+  </div>
+</footer>
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

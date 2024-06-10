@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Kléber Formiga Miranda">
+<title>contabiliDados - A pesquisa em contabilidade</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../icon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script><style>html{ scroll-behavior: smooth; }</style>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+<meta name="twitter:title" content="contabiliDados - A pesquisa em contabilidade">
+<meta name="twitter:description" content="Resenha">
+<meta name="twitter:image" content="https://contabilidados.com.br/cntdd/posts/contabil/pesquisaContabil/pesquisaContabil.png">
+<meta name="twitter:creator" content="@cntdd">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1024">
+</head>
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">contabiliDados</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" target="_blank"> 
+<span class="menu-text">Dash Indicadores</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://gecomt.shinyapps.io/dashboard/" target="_blank"> 
+<span class="menu-text">Dash Mercado</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cntdd.html"> 
+<span class="menu-text">cntdd</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../meetings.html"> 
+<span class="menu-text">Eventos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../membros.html"> 
+<span class="menu-text">Equipe</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/contabilidados"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">A pesquisa em contabilidade</h1>
+<p class="subtitle lead">Resenha</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Contabilidade</div>
+    <div class="quarto-category">Pesquisa</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kléber Formiga Miranda </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">31 de março de 2019</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header><style> body {text-align: justify} </style>
+<p><img src="pesquisaContabil.png" class="img-fluid"></p>
+<p>A pesquisa em contabilidade pode ter seu marco delimitado antes e após as pesquisas de Ball e Brown (1968). Anteriormente a essas pesquisas a contabilidade tinha o foco normativo, buscando explicar a utilização de metodologias e critérios de reconhecimento e mensuração dos componentes patrimoniais. Ball e Brown (1968) e Beaver (1968) inauguram nova abordagem, denominada teoria positiva da contabilidade. Buscavam, a partir de então, prever comportamentos de escolhas contábeis. Passou a ser foco das pesquisas em contabilidade a relação entre a contabilidade e o mercado de capitais.</p>
+<p>Para Kothari (2001), sua revisão de literatura baseia-se na identificação de trabalhos empíricos, contudo não há como se desvincular da base teórica. Para o autor, pesquisas empíricas devem serva baseadas em teorias, pois a interpretação dos resultados empíricos é impossível sem um respaldo teórico.</p>
+<p>As pesquisas em contabilidade, sobre o mercado de capitais, abordam temas variados incluindo coeficientes de responsabilidade de ganhos, previsão de analistas, análise fundamental, <em>valuation</em> e testes de eficiência de mercado. Para Kothari (2001), as pesquisas recentes sobre o mercado de capitais parecem focar nos testes de eficiência de mercado quanto a informação, análise fundamentalista, <em>valuation</em> e <em>value relevance</em>. A explicação para esse direcionamento nos estudos encontra fundamento na crescente concepção da ineficiência de mercado. Ou seja, como o mercado não disponibiliza todas as informações necessárias para a tomada de uma decisão ótima, surgem os números contábeis para dar um aparato informacional relevante para o mercado sobre os investimentos, alimentando o interesse na análise fundamentalista, por exemplo.</p>
+<p>Ohlson (2005) discute a formação do valor da empresa com base em números extraídos da contabilidade. Atribui como sendo valor da empresa o valor presente dos dividendos esperados. Supõe, então, que a relação de lucro limpo substitui os dividendos pelo lucro e o valor contábil do patrimônio líquido na fórmula do valor presente. O comportamento estocástico dos lucros e do patrimônio líquido conduzem a incertezas quanto a data e a forma como atuam na formação do valor.</p>
+<p>O modelo admite informações que vão além do lucro, valor contábil do patrimônio líquido e dividendos. As informações adicionais são motivadas pela ideia de que alguns eventos relevantes em termos de valor possam afetar os lucros especados para o futuro – ao contrário do que acontece com o lucro atual. Essa afirmação é importante por evidenciar a imperfeição dos números contábeis, ou seja, não são completos. Mesmo assim, a média ponderada do valor presente dos lucros e do valor contábil do patrimônio líquido ainda oferece a essência da função de avaliação.</p>
+<p>Tendo os números contábeis importância nas pesquisas em contabilidade, Kothari (2001) expõe ainda a sua utilidade na análise fundamentalista. A análise fundamentalista utiliza-se de dados contábeis atuais e passados para determinação do valor intrínseco da firma. Comparado com o valor real da firma, os valores da análise fundamental reportam as recompensas esperadas para se investir com seguranças. Portanto, Kothari (2001) indica que não se pode separar a análise fundamental das pesquisas sobre mercados de capitais quanto a eficiência de mercados.</p>
+<p>O interesse nos números contábeis decorre do fato destes informarem com segurança a repartição da riqueza da firma entre os agentes. Caso o mercado fosse realmente eficiente não haveria necessidade de contabilidade. Para Kothari (2001) aspectos quanto a sinalização, divulgação, esclarecimentos em notas de rodapé, dentre outros aspectos relacionados à contabilidade seriam inúteis em mercados eficientes. Considerando serem úteis, pode-se pressupor o mercado não eficiente.</p>
+<p>O valor contábil, por sua vez pode sofrer interferências externas de atos como a regulação da informação contábil. Assim, pesquisas sobre o mercado de capitais podem auxiliar na avaliação das normas emitidas pelo FASB, por exemplo. É possível avaliar se as informações contábeis elaboradas de acordo com normas de órgãos reguladores possuem serventia às tomadas de decisão no mercado de capitais. As implicações econômicas das normas emitidas também são avaliadas nessas pesquisas. Portanto, há o interesse de organismos de regulação nas pesquisas baseadas em números contábeis, em especial aquelas com foco na eficiência de mercado.</p>
+<p>Relacionando-se a teorias, a pesquisa contábil pode se valer de bases teóricas advindas da administração e da economia. Essas teorias influenciam a forma como a contabilidade é visualizada e como a informação contábil pode ser preparada ou tratada.</p>
+<p>Passa-se a delimitar a influência de algumas teorias na informação contábil, dentre elas a teoria da regulação, a teoria da divulgação voluntária, a teoria da sinalização e a teoria dos jogos.</p>
+<p>A regulação, definida como uma limitação imposta pelo estado sobre a discrição que pode ser exercida pelos indivíduos ou organizações, as quais são sustentadas pela ameaça de sanção, é normalmente exercida para evitar ações monopolistas e de expansão desordenada de determinados setores. Preocupa-se com o desempenho de setores considerados importantes para o Estado e, portanto, devem ter seus resultados controlados com base em definição de receitas e despesas. Com base na eficiência de custos e controle de resultados é capaz de fomentar capital externo, estabilizando as contas.</p>
+<p>A teoria da regulação é abordada por três prismas: a) teoria do interesse público; b) teoria da captura, e; c) teoria dos grupos de interesse. Todas influenciam a informação contábil de forma diferente, pois o tratamento dado a regulação varia de acordo com o interesse principal da regulação.</p>
+<p>Na teoria do interesse público busca-se intervir contra a concentração de poder econômico. Então, grandes empresas ficariam impossibilitadas de exercer poder em favor próprio. Os preços, normalmente regulados pelas empresas quando em ambiente monopolizado teriam intervenção do Estado em favor do interesse social. Nesses ambientes, a informação contábil pode ser regulada para aproximar-se de um dado mais real, tendo em vista a busca por um valor justo na relação.</p>
+<p>A teoria da captura é realizada com vistas a atender os interesses de entidades reguladas. Espera-se uma informação contábil voltada a atender o interesse específico de determinadas entidades. Por exemplo, empresas aéreas podem ter interesse específico na normatização do reconhecimento e mensuração das operações de leasing por terem essa operação presente na preponderância de suas operações.</p>
+<p>Na teoria dos grupos de interesse, mais presente na normatização das informações contábeis, há uma preocupação egoísta no sentido de forçar o regulador a emitir normas que atendam a necessidade de um grupo maior com força política suficiente para tal. Como a informação contábil é formatada para usuários gerais, há uma tendência em se buscar uma generalização da informação para atender a todos os interesses. Contudo, os grupos com maior força política terão privilégio sobre a normatização, comparado aos demais.</p>
+<p>Dessa forma, a normatização, ao mesmo tempo que qualifica a informação no sentido de permitir melhor comparabilidade intercompanhias, tende a ser enviesada para umadas partes.</p>
+<p>Outra teoria a ser abordada como fundamento para o uso da informação contábil pelo mercado de capitais é a teoria da divulgação voluntária. De acordo com Salloti e Yamamoto (2005), o principal objetivo dessa linha de pesquisa é explicar o fenômeno da divulgação de informações financeiras, a partir de diversas perspectivas, como por exemplo, determinar qual é o efeito da divulgação de demonstrações contábeis no preço das ações, explicar quais as razões econômicas para que determinada informação seja divulgada voluntariamente etc.</p>
+<p>A lógica de se divulgar informações ao mercado encontra-se na seleção adversa que sugere haver uma redução do valor dos ativos quando o investidor acredita haver informações importantes não divulgadas. Assim, Verrechia (2001) propõe que é interesse da companhia reduzir a assimetria informacional a fim de buscar a diminuição do custo de capital ao emitir ações ou títulos. Portanto, a informação contábil tende a ser mais acurada quando divulgada para um número maior de usuários, pois deverá ser útil a todos.</p>
+<p>A divulgação, embora traga um aspecto de sinalização ao mercado, diferencia-se da proposta da teoria da sinalização pelo fato de existirem divulgações obrigatórias e, portanto, iguais para toda a população abrangida pela obrigação. Na teoria da sinalização, pressupões que a empresa sinalizará ao mercado suas características influenciadoras no mercado, seja sob o aspecto positivo (notícias boas), neutro (notícias sem efeito) ou negativo (notícias más).</p>
+<p>Um sinal de uma certa atividade ou alguma decisão comprova que o agente possui uma certa capacidade ou característica, ou possui certas informações, ou em outras palavras, pertence a um determinado subconjunto da totalidade da população. Para o sinal ser informativo, apenas os agentes notadamente inseridos do grupo populacional devem estar interessados em realizar a atividade de sinalização - aqueles que podem realmente ganhar alguma coisa, revelando suas características (Macho-Stadler &amp; Pérez-Castrillo, 2001).</p>
+<p>Quanto a informação contábil em si, a empresa pode sinalizar ao mercado a utilização de técnicas ou procedimentos acurados no reconhecimento e mensuração dos componentes patrimoniais como forma de sinalização de acurácia de seus resultados e posição patrimonial. Dessa forma, esperam-se informações fidedignas e tempestivas ao mercado.</p>
+<p>Por último, aborda-se a teoria dos jogos que trata de um conjunto de regras, que definem quais são os jogadores, as suas ações possíveis e o conjunto de informações disponíveis para cada jogador. De acordo com as regras, existe um conjunto possível de resultados (conhecidos também como <em>pay-offs</em>) e os jogadores tomam as suas ações de modo racional com o objetivo de maximizarem os seus resultados.</p>
+<p>O simples fato de optar em divulgar ou não informações ao mercado e esperar dele uma resposta positiva ou negativa constitui a ideia de jogo. Contudo os jogadores desse cenário atuam de forma simultânea, ou seja, suas jogadas são realizadas simultaneamente e sem o conhecimento da outra parte. Assim, trabalha-se com informações incompletas, pois os jogadores não conhecem os objetivos dos rivais e imperfeitas por não poder observar os movimentos dos demais jogadores.</p>
+<p>Nesse caso a informação passa a ser considerada como bem precioso, onde a sua divulgação no mercado pode trazer benefícios com a exposição da empresa e, ao mesmo tempo, malefícios dado conhecimento da empresa pelos concorrentes que podem adotar postura diferente.</p>
+<p>Baseado na taxonomia de Verrechia (2001), Salloti e Yamamoto (2005) sugerem uma relação entre teoria dos jogos e divulgação. Para os autores quando a divulgação é baseada em associação, que examina a relação entre o fenômeno da divulgação e a mudança nas atividades dos investidores diversificados e competidores no mercado de capitais para maximizar as suas riquezas individuais, a teoria dos jogos pode fornecer modelos para avaliação do comportamento dos investidores.</p>
+<p>Quando a divulgação é baseada em julgamento, onde a divulgação é um processo discricionário da gestão, a teoria dos jogos propõe um jogo sob a perspectiva da empresa, onde a divulgação é realizada com base na decisão dos investidores. E, quando baseada em eficiência, de onde se espera um menor custo de capital ou resultados com a divulgação da informação, a teoria dos jogos sugere uma solução ótima para ambos os jogadores, pois apenas assim, o ganho para a empresa é maximizado.</p>
+<p>Do exposto, pode-se concluir que as informações contábeis são importantes no mercado de capitais tendo em vista constituir-se de base para formulação de teorias e, especialmente por serem demandadas por especialistas e analistas. Contudo, a normatização acaba por impor fragilidade a sua composição e, ao mesmo tempo, convenciona resultados e valores capazes de gerar comparabilidade entre as informações – o que é positivo.</p>
+<p>As pesquisas na área contábil, por conseguinte, são imprescindíveis e precisam aprimorar-se ao acompanhar as demandas de mercado o tentar otimizar as tomadas de decisão. Foi visualizado em todas as leituras citadas a utilização de informações contábeis em modelos e no embasamento de teorias. Permanece o questionamento: como o mercado de capitais percebe as informações contábeis?</p>
+<hr>
+<p>Kothari, S. P. (2001). Capital markets research in accounting. <em>Journal of Accounting and Economics</em>. <em>31</em>(1-3), 105-231.</p>
+<p>Macho-Stadler, I. &amp; Pérez-Castrillo, J. D. (2001). <em>An introduction to the</em> <em>economics of information</em>. (2<span class="math inline">\(^{a}\)</span> ed). Oxford: Oxford Unviersity Press.</p>
+<p>Ohlson, J.A. (2005). On accounting based valuation formulae. <em>Review of Accounting Studies</em>, <em>10</em>, 323-347.</p>
+<p>Salotti, B. M. &amp; Yamamoto, M. M. (2005). Ensaio Sobre a Teoria da Divulgação. <em>Brazilian Business Review</em>, <em>2</em>(1), 53-70.</p>
+<p>Verrecchia, R. (2001). Essays on disclosure. <em>Journal of Accounting and Economics</em>, (32), 97-180.</p>
+<p>Viscusi, W. K., Harrington Jr., J. E. &amp; Vernon, J. M. (2005). Economics of regulation and antitrust. (4<span class="math inline">\(_{a}\)</span> ed). Cambridge: The MIT Press.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><script src="https://giscus.app/client.js" data-repo="contabilidados/blog" data-repo-id="R_kgDOI9xlkQ" data-category="General" data-category-id="DIC_kwDOI9xlkc4CUfYR" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+<p>contabiliDados usou <a href="https://quarto.org/">Quarto</a>, basedo em <a href="https://beamilz.com/">BeaMilz</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:contabilidados@ufersa.edu.br">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+</div>
+  </div>
+</footer>
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
