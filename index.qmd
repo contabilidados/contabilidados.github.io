@@ -38,12 +38,12 @@ toc: true
 ::: {#posts}
 :::
 
-## Pacotes Recentes
-
-::: {#pacotes}
-:::
-
 ## Eventos Recentes
 
 ::: {#eventos}
+:::
+
+## Pacotes Recentes
+
+::: {#pacotes}
 :::
