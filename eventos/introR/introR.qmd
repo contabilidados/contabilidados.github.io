@@ -9,7 +9,7 @@ links:
 - icon: person-chalkboard
   icon_pack: fas
   name: Slide
-  url: apresentacao.html
+  url: https://rpubs.com/contabilidados/introducaoR
 location: UFERSA LCC Laboratório 1
 title: "Introdução ao Software R"
 image: evento.jpg
