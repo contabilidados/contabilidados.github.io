@@ -14,7 +14,7 @@ location: UFERSA LCC Laboratório 1
 title: "Introdução ao Software R"
 image: evento.jpg
 draft: false
-cache: true
+cache: false
 ---
 
 ```{r}
