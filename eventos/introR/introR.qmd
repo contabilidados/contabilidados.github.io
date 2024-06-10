@@ -10,6 +10,12 @@ links:
   icon_pack: fas
   name: Slide
   url: https://rpubs.com/contabilidados/introducaoR
+- icon: rocket
+  icon_pack: fas
+  name: Dados
+  url: https://posit.cloud/content/8320225
+  
+  
 location: UFERSA LCC Laboratório 1
 title: "Introdução ao Software R"
 image: evento.jpg
