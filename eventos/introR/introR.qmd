@@ -27,4 +27,4 @@ read_yaml_talks_pt()
 <br>
 
 A palestra apresentou uma uma noção sobre o R e seu uso em pesquisas.
-Importação, tratamento de dados, criação de uma função e realização de testes de regressão múltipla e logit
+Importação, tratamento de dados, criação de uma função e realização de testes de regressão múltipla e logit.
