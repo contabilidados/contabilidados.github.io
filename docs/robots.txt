@@ -1,1 +1,1 @@
-Sitemap: https://contabilidados.com.br/cntdd/sitemap.xml
+Sitemap: https://contabilidados.github.io/sitemap.xml

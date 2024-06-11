@@ -7,7 +7,7 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   title: "contabiliDados"
-  site-url: "https://contabilidados.com.br/cntdd/"
+  site-url: "https://contabilidados.github.io"
   page-footer:
     left: "contabiliDados usou [Quarto](https://quarto.org/), basedo em [BeaMilz](https://beamilz.com/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
@@ -42,6 +42,8 @@ website:
         href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
       - icon: github
         href: https://github.com/contabilidados
+      - icon: rss
+        href: index.xml
 format:
   html:
     smooth-scroll: true

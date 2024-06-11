@@ -27,6 +27,7 @@ listing:
     sort-ui: false
     filter-ui: false
     page-size: 3  
+    feed: true
 page-layout: full
 title-block-banner: false
 comments: false
