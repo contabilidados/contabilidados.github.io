@@ -9,15 +9,6 @@ listing:
     sort-ui: false
     filter-ui: false
     page-size: 3
-  - id: pacotes
-    contents: pacotes/**/*.qmd
-    type: default
-    fields: [image, date, title, subtitle, categories, author, reading-time]
-    sort: "date desc"
-    categories: cloud
-    sort-ui: false
-    filter-ui: false
-    page-size: 3   
   - id: eventos
     contents: eventos/**/*.qmd
     type: grid
@@ -28,6 +19,15 @@ listing:
     filter-ui: false
     page-size: 3  
     feed: true
+  - id: pacotes
+    contents: pacotes/**/*.qmd
+    type: default
+    fields: [image, date, title, subtitle, categories, author, reading-time]
+    sort: "date desc"
+    categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 3 
 page-layout: full
 title-block-banner: false
 comments: false
