@@ -103,34 +103,6 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-pacotes .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-pacotes'] = new List('listing-pacotes', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-eventos .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -145,6 +117,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-eventos'] = new List('listing-eventos', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pacotes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pacotes'] = new List('listing-pacotes', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -277,7 +277,7 @@ window.Quarto = {
   <li><a href="#pacotes-recentes" id="toc-pacotes-recentes" class="nav-link" data-scroll-target="#pacotes-recentes">Pacotes Recentes</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Accruals"><span class="quarto-category-count category-cloud-1">Accruals</span></div><div class="category" data-category="Analytics"><span class="quarto-category-count category-cloud-1">Analytics</span></div><div class="category" data-category="Análise de Dados"><span class="quarto-category-count category-cloud-1">Análise de Dados</span></div><div class="category" data-category="Assimetria"><span class="quarto-category-count category-cloud-1">Assimetria</span></div><div class="category" data-category="CAPM"><span class="quarto-category-count category-cloud-1">CAPM</span></div><div class="category" data-category="Contabilidade"><span class="quarto-category-count category-cloud-5">Contabilidade</span></div><div class="category" data-category="Disclosure"><span class="quarto-category-count category-cloud-1">Disclosure</span></div><div class="category" data-category="Dividendos"><span class="quarto-category-count category-cloud-1">Dividendos</span></div><div class="category" data-category="Economatica"><span class="quarto-category-count category-cloud-1">Economatica</span></div><div class="category" data-category="Endividamento"><span class="quarto-category-count category-cloud-1">Endividamento</span></div><div class="category" data-category="FCD"><span class="quarto-category-count category-cloud-1">FCD</span></div><div class="category" data-category="Finanças"><span class="quarto-category-count category-cloud-6">Finanças</span></div><div class="category" data-category="Governança"><span class="quarto-category-count category-cloud-2">Governança</span></div><div class="category" data-category="HME"><span class="quarto-category-count category-cloud-2">HME</span></div><div class="category" data-category="História"><span class="quarto-category-count category-cloud-1">História</span></div><div class="category" data-category="IFRS/IAS/CPC"><span class="quarto-category-count category-cloud-1">IFRS/IAS/CPC</span></div><div class="category" data-category="Mensuração"><span class="quarto-category-count category-cloud-1">Mensuração</span></div><div class="category" data-category="Pesquisa"><span class="quarto-category-count category-cloud-1">Pesquisa</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-2">R</span></div><div class="category" data-category="Regulação"><span class="quarto-category-count category-cloud-1">Regulação</span></div><div class="category" data-category="Remuneração"><span class="quarto-category-count category-cloud-1">Remuneração</span></div><div class="category" data-category="Sentimento"><span class="quarto-category-count category-cloud-1">Sentimento</span></div><div class="category" data-category="Teoria"><span class="quarto-category-count category-cloud-2">Teoria</span></div><div class="category" data-category="Value relevance"><span class="quarto-category-count category-cloud-1">Value relevance</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Accruals"><span class="quarto-category-count category-cloud-1">Accruals</span></div><div class="category" data-category="Analytics"><span class="quarto-category-count category-cloud-1">Analytics</span></div><div class="category" data-category="Análise de Dados"><span class="quarto-category-count category-cloud-1">Análise de Dados</span></div><div class="category" data-category="Assimetria"><span class="quarto-category-count category-cloud-1">Assimetria</span></div><div class="category" data-category="CAPM"><span class="quarto-category-count category-cloud-1">CAPM</span></div><div class="category" data-category="Contabilidade"><span class="quarto-category-count category-cloud-4">Contabilidade</span></div><div class="category" data-category="Disclosure"><span class="quarto-category-count category-cloud-1">Disclosure</span></div><div class="category" data-category="Dividendos"><span class="quarto-category-count category-cloud-1">Dividendos</span></div><div class="category" data-category="Economatica"><span class="quarto-category-count category-cloud-1">Economatica</span></div><div class="category" data-category="Endividamento"><span class="quarto-category-count category-cloud-1">Endividamento</span></div><div class="category" data-category="FCD"><span class="quarto-category-count category-cloud-1">FCD</span></div><div class="category" data-category="Finanças"><span class="quarto-category-count category-cloud-5">Finanças</span></div><div class="category" data-category="Governança"><span class="quarto-category-count category-cloud-2">Governança</span></div><div class="category" data-category="HME"><span class="quarto-category-count category-cloud-2">HME</span></div><div class="category" data-category="História"><span class="quarto-category-count category-cloud-1">História</span></div><div class="category" data-category="IFRS/IAS/CPC"><span class="quarto-category-count category-cloud-1">IFRS/IAS/CPC</span></div><div class="category" data-category="Mensuração"><span class="quarto-category-count category-cloud-1">Mensuração</span></div><div class="category" data-category="Pacotes"><span class="quarto-category-count category-cloud-1">Pacotes</span></div><div class="category" data-category="Pesquisa"><span class="quarto-category-count category-cloud-1">Pesquisa</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-2">R</span></div><div class="category" data-category="Regulação"><span class="quarto-category-count category-cloud-1">Regulação</span></div><div class="category" data-category="Remuneração"><span class="quarto-category-count category-cloud-1">Remuneração</span></div><div class="category" data-category="Sentimento"><span class="quarto-category-count category-cloud-1">Sentimento</span></div><div class="category" data-category="Teoria"><span class="quarto-category-count category-cloud-2">Teoria</span></div><div class="category" data-category="Value relevance"><span class="quarto-category-count category-cloud-1">Value relevance</span></div><div class="category" data-category="cntdd"><span class="quarto-category-count category-cloud-1">cntdd</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -1604,7 +1604,42 @@ Nenhum item correspondente
 <h2 class="anchored" data-anchor-id="pacotes-recentes">Pacotes Recentes</h2>
 <div id="listing-pacotes" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-categories="cntdd,Pacotes" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1718231053820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1619">
+<div class="thumbnail">
+<p><a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external"></a></p><a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">
+<p><img src="./pacotes/indices/liquidezSeca/figs/contasReceber.png" class="thumbnail-image"></p>
+</a><p><a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">Índice de Liquidez Seca</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cntdd'); return false;">
+cntdd
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Pacotes'); return false;">
+Pacotes
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">
+<div class="listing-date">
+2 de mar. de 2020
+</div>
+<div class="listing-author">
+Kléber
+</div>
+<div class="listing-reading-time">
+9 minutos
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 Nenhum item correspondente
