@@ -2,7 +2,7 @@
 title: "Índice de Liquidez Seca"
 author: "Kléber"
 date: "2020-03-02"
-draft: true
+draft: false
 categories:
   - cntdd
   - Pacotes
