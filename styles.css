@@ -42,7 +42,7 @@ div.quarto-post .thumbnail img {
 
 /* Estiliza diferentes níveis de categorias de listagem com cores e bordas */
 .quarto-listing-category.category-cloud .category-cloud-10 {
-  background: #FFE5E5; /* Fundo vermelho-rosado claro */
+  background: #FDE5E7; /* Fundo vermelho-rosado claro */
   border-radius: 10%; /* Bordas arredondadas */
 }
 
@@ -62,7 +62,7 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-listing-category.category-cloud .category-cloud-6 {
-  background: #99FF99; /* Fundo verde claro */
+  background: #FFE5E5; /* Fundo verde claro */
   border-radius: 10%; /* Bordas arredondadas */
 }
 
@@ -72,7 +72,7 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-listing-category.category-cloud .category-cloud-4 {
-  background: #FFE5F2; /* Fundo azul claro */
+  background: #FFE5D2; /* Fundo azul claro */
   border-radius: 10%; /* Bordas arredondadas */
 }
 
@@ -87,7 +87,7 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-listing-category.category-cloud .category-cloud-1 {
-  background: #FFE5E5; /* Fundo vermelho claro */
+  background: #99FF99; /* Fundo vermelho claro */
   border-radius: 10%; /* Bordas arredondadas */
 }
 
