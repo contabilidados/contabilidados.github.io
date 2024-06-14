@@ -3,113 +3,113 @@
 .navbar-brand {
   background: url('logo.png'); /* Define uma imagem de fundo como logo */
   background-size: contain; /* Redimensiona a imagem para caber no espaço */
-  padding-right: 2px !important; /* Espaçamento à direita */
-  padding-left: 105px !important; /* Espaçamento à esquerda */
-  background-repeat: no-repeat; /* Impede a repetição da imagem */
+  padding-right: 2px !important; /* Define um espaçamento à direita de 2px, usando !important para sobrepor outras regras */
+  padding-left: 105px !important; /* Define um espaçamento à esquerda de 105px, usando !important para sobrepor outras regras */
+  background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
   color: #fff; /* Define a cor do texto como branca */
 }
 
 /*-- scss:defaults --*/
 /* Define o tamanho da fonte para elementos principais e parágrafos */
 main, p {
-  font-size: 1.1rem !important; /* Tamanho da fonte de 1.1rem */
+  font-size: 1.1rem !important; /* Define o tamanho da fonte como 1.1rem, usando !important para sobrepor outras regras */
 }
 
 /* Estiliza o corpo de um elemento callout com estilo padrão */
 .callout.callout-style-default .callout-body {
-  font-size: 1.2rem; /* Tamanho da fonte de 1.2rem */
-  font-weight: 400; /* Peso da fonte regular */
+  font-size: 1.2rem; /* Define o tamanho da fonte como 1.2rem */
+  font-weight: 400; /* Define o peso da fonte como 400 (normal) */
 }
 
 /* Define variáveis CSS globais */
 :root {
-  --bs-gray-dark: #343a40; /* Cor cinza escura */
-  --bs-primary: #eb6864; /* Cor primária */
-  --bs-blue: #000; /* Defina a cor azul para links */
+  --bs-gray-dark: #343a40; /* Define a cor cinza escura como variável global */
+  --bs-primary: #eb6864; /* Define a cor primária como variável global */
+  --bs-blue: #000; /* Define a cor azul como variável global */
 }
 
 /* Estiliza imagens em posts */
 div.quarto-post .thumbnail img {
-  width: 100%; /* Largura de 100% do contêiner */
-  object-fit: contain; /* Ajusta a imagem para caber dentro do contêiner */
-  max-height: 150px; /* Altura máxima de 150px */
+  width: 100%; /* Define a largura da imagem como 100% do contêiner */
+  object-fit: contain; /* Ajusta a imagem para caber dentro do contêiner sem distorção */
+  max-height: 150px; /* Define a altura máxima da imagem como 150px */
 }
 
 /* Define a fonte para categorias de listagem */
 .quarto-listing-category.category-cloud {
-  font-family: 'Roboto'; /* Fonte Roboto */
+  font-family: 'Roboto'; /* Define a fonte como Roboto */
 }
 
 /* Estiliza diferentes níveis de categorias de listagem com cores e bordas */
 .quarto-listing-category.category-cloud .category-cloud-10 {
-  background: #FDE5E7; /* Fundo vermelho-rosado claro */
-  border-radius: 10%; /* Bordas arredondadas */
+  background: #FDE5E7; /* Define o fundo como vermelho-rosado claro */
+  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-9 {
-  background: #FFB266; /* Fundo laranja claro */
-  border-radius: 10%; /* Bordas arredondadas */
+  background: #FFB266; /* Define o fundo como laranja claro */
+  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-8 {
-  background: #FFE066; /* Fundo amarelo claro */
-  border-radius: 10%; /* Bordas arredondadas */
+  background: #FFE066; /* Define o fundo como amarelo claro */
+  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-7 {
-  background: #CCFF99; /* Fundo verde-limão claro */
-  border-radius: 10%; /* Bordas arredondadas */
+  background: #CCFF99; /* Define o fundo como verde-limão claro */
+  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-6 {
-  background: #FFE5E5; /* Fundo verde claro */
-  border-radius: 10%; /* Bordas arredondadas */
+  background: #FFE5E5; /* Define o fundo como verde claro */
+  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-5 {
-  background: #DDFFFF; /* Fundo ciano claro */
-  border-radius: 10%; /* Bordas arredondadas */
+  background: #DDFFFF; /* Define o fundo como ciano claro */
+  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-4 {
-  background: #FFE5D2; /* Fundo azul claro */
-  border-radius: 10%; /* Bordas arredondadas */
+  background: #FFE5D2; /* Define o fundo como azul claro */
+  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-3 {
-  background: #CC99FF; /* Fundo roxo claro */
-  border-radius: 10%; /* Bordas arredondadas */
+  background: #CC99FF; /* Define o fundo como roxo claro */
+  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-2 {
-  background: #99CCFF; /* Fundo rosa claro */
-  border-radius: 10%; /* Bordas arredondadas */
+  background: #99CCFF; /* Define o fundo como rosa claro */
+  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-1 {
-  background: #99FF99; /* Fundo vermelho claro */
-  border-radius: 10%; /* Bordas arredondadas */
+  background: #99FF99; /* Define o fundo como vermelho claro */
+  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
 }
 
 /* Estiliza links de paginação */
 .page-link {
-  color: var(--bs-blue); /* Cor azul */
+  color: var(--bs-blue); /* Define a cor do texto como a variável global azul */
 }
 
 .page-link:hover {
-  z-index: 2; /* Coloca o link acima de outros elementos */
-  color: #fff; /* Cor branca no hover */
-  background-color: var(--bs-blue); /* Fundo azul no hover */
-  border-color: var(--bs-blue); /* Borda azul no hover */
+  z-index: 2; /* Define a posição do elemento acima de outros elementos */
+  color: #fff; /* Define a cor do texto como branca ao passar o mouse */
+  background-color: var(--bs-blue); /* Define a cor de fundo como a variável global azul ao passar o mouse */
+  border-color: var(--bs-blue); /* Define a cor da borda como a variável global azul ao passar o mouse */
 }
 
 /* Estiliza todos os links */
 a {
-  color: var(--bs-blue); /* Cor azul */
+  color: var(--bs-blue); /* Define a cor do texto como a variável global azul */
 }
 
 a:hover {
-  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+  text-decoration: underline; /* Adiciona sublinhado ao texto ao passar o mouse */
 }
 
 /* Remove sublinhado ao passar o mouse sobre o título da navbar */
@@ -119,96 +119,96 @@ a.navbar-brand, .navbar-title a:hover {
 
 /* Estiliza texto em negrito */
 b, strong {
-  color: var(--bs-blue); /* Cor azul */
-  font-weight: bolder; /* Peso da fonte mais forte */
+  color: var(--bs-blue); /* Define a cor do texto como a variável global azul */
+  font-weight: bolder; /* Define o peso da fonte como mais forte */
 }
 
 /* Estiliza categorias de listagem em posts */
 div.quarto-post .listing-categories .listing-category {
-  color: var(--bs-blue); /* Cor azul */
-  border: solid 1px var(--bs-gray-400); /* Borda cinza */
-  font-size: .8em; /* Tamanho da fonte menor */
+  color: var(--bs-blue); /* Define a cor do texto como a variável global azul */
+  border: solid 1px var(--bs-gray-400); /* Define a borda como uma linha sólida cinza */
+  font-size: .8em; /* Define o tamanho da fonte como 0.8em */
 }
 
 /* Estiliza botões primários */
 .btn-primary {
-  color: #fff; /* Cor do texto branca */
-  background-color: var(--bs-blue); /* Fundo azul */
-  border-color: var(--bs-blue); /* Borda azul */
-  padding: .375rem .75rem; /* Espaçamento interno */
-  font-size: 1.1rem !important; /* Tamanho da fonte maior */
-  margin-top: -9px; /* Margem superior negativa */
+  color: #fff; /* Define a cor do texto como branca */
+  background-color: var(--bs-blue); /* Define a cor de fundo como a variável global azul */
+  border-color: var(--bs-blue); /* Define a cor da borda como a variável global azul */
+  padding: .375rem .75rem; /* Define o espaçamento interno do botão */
+  font-size: 1.1rem !important; /* Define o tamanho da fonte do botão, usando !important para sobrepor outras regras */
+  margin-top: -9px; /* Define uma margem superior negativa */
 }
 
 /* Estiliza botões primários ao passar o mouse */
 .btn-primary:hover {
-  color: #000; /* Cor do texto preta */
-  background-color: #f0f1ff; /* Fundo azul claro */
-  border-color: #f0f1ff; /* Borda azul claro */
+  color: #000; /* Define a cor do texto como preta ao passar o mouse */
+  background-color: #f0f1ff; /* Define a cor de fundo como azul claro ao passar o mouse */
+  border-color: #f0f1ff; /* Define a cor da borda como azul claro ao passar o mouse */
 }
 
 /* Estiliza links ativos na barra lateral */
 .sidebar nav[role=doc-toc] ul>li>a.active {
-  border-left: 1px solid var(--bs-blue); /* Borda esquerda azul */
-  color: var(--bs-blue) !important; /* Cor azul */
+  border-left: 1px solid var(--bs-blue); /* Define uma borda esquerda azul */
+  color: var(--bs-blue) !important; /* Define a cor do texto como azul, usando !important para sobrepor outras regras */
 }
 
 .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
-  border-left: 1px solid var(--bs-blue); /* Borda esquerda azul */
-  color: var(--bs-blue) !important; /* Cor azul */
+  border-left: 1px solid var(--bs-blue); /* Define uma borda esquerda azul */
+  color: var(--bs-blue) !important; /* Define a cor do texto como azul, usando !important para sobrepor outras regras */
 }
 
 /* Estiliza links na seção "about" ao passar o mouse */
 div.quarto-about-trestles .about-entity .about-link:hover {
-  color: var(--bs-blue); /* Cor azul no hover */
+  color: var(--bs-blue); /* Define a cor do texto como azul ao passar o mouse */
 }
 
 /* Estiliza links de navegação ao passar o mouse ou focar */
 .nav-link:hover, .nav-link:focus {
-  color: var(--bs-blue); /* Cor azul no hover ou foco */
+  color: var(--bs-blue); /* Define a cor do texto como azul ao passar o mouse ou focar */
 }
 
 /* Estiliza alertas primários */
 .alert-primary {
-  color: var(--bs-gray-dark); /* Cor do texto cinza escura */
-  background-color: var(--bs-body-bg); /* Fundo com cor do corpo */
-  border-color: var(--bs-blue); /* Borda azul */
-  border-style: dashed; /* Estilo da borda tracejada */
+  color: var(--bs-gray-dark); /* Define a cor do texto como cinza escuro */
+  background-color: var(--bs-body-bg); /* Define a cor de fundo como a cor de fundo do corpo */
+  border-color: var(--bs-blue); /* Define a cor da borda como azul */
+  border-style: dashed; /* Define o estilo da borda como tracejada */
 }
 
 /* Estiliza links de navegação */
 .nav-link {
-  color: var(--bs-white); /* Cor branca */
+  color: var(--bs-white); /* Define a cor do texto como branca */
 }
 
 /* Estiliza o rodapé */
 .div.nav-footer-* {
-  height: 5px !important;
-  font-size: 1rem; /* Define um tamanho de fonte menor */
-  padding: 0px 0 !important;; /* Define um padding menor */
+  height: 5px !important; /* Define a altura do rodapé, usando !important para sobrepor outras regras */
+  font-size: 1rem; /* Define o tamanho da fonte como 1rem */
+  padding: 0px 0 !important; /* Define o padding, usando !important para sobrepor outras regras */
   margin: 0; /* Remove as margens padrão */
-  line-height: 0.2; /* Ajusta a altura da linha para um valor menor */
+  line-height: 0.2; /* Define a altura da linha como 0.2 */
 }
 
+/* Define variáveis de cor (não utilizadas no código fornecido) */
 $link-color: #000000;
-
 $code-color: #000000;
 
-
+/* Estiliza um player de vídeo */
 .video-player {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  position: relative; /* Define a posição como relativa */
+  overflow: hidden; /* Esconde o conteúdo que ultrapassar o contêiner */
+  width: 100%; /* Define a largura como 100% do contêiner pai */
+  padding-top: 56.25%; /* Define o padding superior para manter a proporção 16:9 */
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
+/* Estiliza o iframe para ajustar-se ao contêiner de vídeo */
 .youtube-player {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
+  position: absolute; /* Define a posição como absoluta para preencher o contêiner */
+  top: 0; /* Define a posição no topo */
+  left: 0; /* Define a posição na esquerda */
+  bottom: 0; /* Define a posição no fundo */
+  right: 0; /* Define a posição na direita */
+  width: 100%; /* Define a largura como 100% do contêiner */
+  height: 100%; /* Define a altura como 100% do contêiner */
 }
