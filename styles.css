@@ -35,61 +35,97 @@ div.quarto-post .thumbnail img {
   max-height: 150px; /* Define a altura máxima da imagem como 150px */
 }
 
-/* Define a fonte para categorias de listagem */
+
+/* Centraliza as categorias */
 .quarto-listing-category.category-cloud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Roboto'; /* Define a fonte como Roboto */
 }
 
 /* Estiliza diferentes níveis de categorias de listagem com cores e bordas */
 .quarto-listing-category.category-cloud .category-cloud-10 {
-  background: #FDE5E7; /* Define o fundo como vermelho-rosado claro */
-  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
+  background: #2F4F4F; /* Cinza ardósia escuro */
+  border-radius: 10%;
+  color: white;
+  transition: transform 0.2s; /* Adiciona transição suave */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-9 {
-  background: #FFB266; /* Define o fundo como laranja claro */
-  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
+  background: #556B2F; /* Verde oliva escuro */
+  border-radius: 10%;
+  color: white;
+  transition: transform 0.2s; /* Adiciona transição suave */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-8 {
-  background: #FFE066; /* Define o fundo como amarelo claro */
-  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
+  background: #6B8E23; /* Verde oliva */
+  border-radius: 10%;
+  color: white;
+  transition: transform 0.2s; /* Adiciona transição suave */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-7 {
-  background: #CCFF99; /* Define o fundo como verde-limão claro */
-  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
+  background: #8B4513; /* Marrom sela */
+  border-radius: 10%;
+  color: white;
+  transition: transform 0.2s; /* Adiciona transição suave */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-6 {
-  background: #FFE5E5; /* Define o fundo como verde claro */
-  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
+  background: #2F4F4F; /* Cinza ardósia escuro */
+  border-radius: 10%;
+  color: white;
+  transition: transform 0.2s; /* Adiciona transição suave */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-5 {
-  background: #DDFFFF; /* Define o fundo como ciano claro */
-  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
+  background: #fca311; /* Laranja escuro */
+  border-radius: 10%;
+  color: white;
+  transition: transform 0.2s; /* Adiciona transição suave */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-4 {
-  background: #FFE5D2; /* Define o fundo como azul claro */
-  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
+  background: #5b96fa; /* Azul cadete */
+  border-radius: 10%;
+  color: white;
+  transition: transform 0.2s; /* Adiciona transição suave */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-3 {
-  background: #CC99FF; /* Define o fundo como roxo claro */
-  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
+  background: #8B008B; /* Roxo escuro */
+  border-radius: 10%;
+  color: white;
+  transition: transform 0.2s; /* Adiciona transição suave */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-2 {
-  background: #99CCFF; /* Define o fundo como rosa claro */
-  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
+  background: #8B4513; /* Marrom sela */
+  border-radius: 10%;
+  color: white;
+  transition: transform 0.2s; /* Adiciona transição suave */
 }
 
 .quarto-listing-category.category-cloud .category-cloud-1 {
-  background: #99FF99; /* Define o fundo como vermelho claro */
-  border-radius: 10%; /* Define bordas arredondadas com raio de 10% */
+  background: #343a40; /* Cinza ardósia escuro */
+  border-radius: 10%;
+  color: white;
+  transition: transform 0.8s; /* Adiciona transição suave */
 }
+
+
+
+/* Define a fonte para categorias de listagem */
+.quarto-listing-category.category-cloud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto'; /* Define a fonte como Roboto */
+}
+
+
 
 /* Estiliza links de paginação */
 .page-link {
@@ -182,13 +218,18 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 }
 
 /* Estiliza o rodapé */
-.div.nav-footer-* {
-  height: 5px !important; /* Define a altura do rodapé, usando !important para sobrepor outras regras */
-  font-size: 1rem; /* Define o tamanho da fonte como 1rem */
-  padding: 0px 0 !important; /* Define o padding, usando !important para sobrepor outras regras */
-  margin: 0; /* Remove as margens padrão */
-  line-height: 0.2; /* Define a altura da linha como 0.2 */
+
+
+footer {
+/*  padding: 0px; /* Espaçamento interno */
+    text-align: center; /* Alinhar texto ao centro */
+/*     position: fixed; /* Fixar o rodapé na parte inferior da página */
+    width: 100%; /* Largura total */
+    height:2%; /* Largura total */
+    bottom: 0; /* Alinhar ao fundo */
 }
+
+
 
 /* Define variáveis de cor (não utilizadas no código fornecido) */
 $link-color: #000000;
