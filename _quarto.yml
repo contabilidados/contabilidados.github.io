@@ -29,7 +29,7 @@ website:
         href: meetings.qmd
       - text: cntdd
         href: cntdd.qmd
-      - text: Equipe
+      - text: Sobre
         href: membros.qmd
       - text: Dashboard
         menu:
