@@ -9,7 +9,7 @@ website:
   title: "contabiliDados"
   site-url: "https://contabilidados.github.io"
   page-footer:
-    left: "contabiliDados usou [Quarto](https://quarto.org/), basedo em [BeaMilz](https://beamilz.com/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    center: "contabiliDados usou [Quarto](https://quarto.org/), basedo em [BeaMilz](https://beamilz.com/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
       - icon: youtube
         href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
@@ -17,25 +17,28 @@ website:
         href: https://www.instagram.com/contabilidados
       - icon: envelope
         href: mailto:contabilidados@ufersa.edu.br
+    border: true
   twitter-card:
     creator: "@cntdd"
     card-style: summary_large_image
   navbar:
     right:
-      - text: Dash Indicadores
-        href: https://kleberformiga.shinyapps.io/dashCVMaulas/
-        target: _blank
-      - text: Dash Mercado
-        href: https://gecomt.shinyapps.io/dashboard/
-        target: _blank
-      - text: cntdd
-        href: cntdd.qmd
       - text: Posts
         href: posts.qmd
       - text: Eventos
         href: meetings.qmd
+      - text: cntdd
+        href: cntdd.qmd
       - text: Equipe
         href: membros.qmd
+      - text: Dashboard
+        menu:
+          - text: Indicadores
+            href: https://kleberformiga.shinyapps.io/dashCVMaulas/
+            target: _blank
+          - text: Mercado
+            href: https://gecomt.shinyapps.io/dashboard/
+            target: _blank
       - icon: instagram
         href: https://www.instagram.com/contabilidados
       - icon: youtube

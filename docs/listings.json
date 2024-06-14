@@ -92,7 +92,9 @@
   },
   {
     "listing": "/cntdd.html",
-    "items": []
+    "items": [
+      "/pacotes/indices/liquidezSeca/liqSeca.html"
+    ]
   },
   {
     "listing": "/meetings.html",

@@ -3,8 +3,8 @@
 .navbar-brand {
   background: url('logo.png'); /* Define uma imagem de fundo como logo */
   background-size: contain; /* Redimensiona a imagem para caber no espaço */
-  padding-right: 2px !important; /* Espaçamento à direita */
-  padding-left: 105px !important; /* Espaçamento à esquerda */
+  padding-right: 5px !important; /* Espaçamento à direita */
+  padding-left: 120px !important; /* Espaçamento à esquerda */
   background-repeat: no-repeat; /* Impede a repetição da imagem */
   color: #fff; /* Define a cor do texto como branca */
 }
@@ -135,16 +135,6 @@ div.quarto-post .listing-categories .listing-category {
   color: #fff; /* Cor do texto branca */
   background-color: var(--bs-blue); /* Fundo azul */
   border-color: var(--bs-blue); /* Borda azul */
-  padding: .375rem .75rem; /* Espaçamento interno */
-  font-size: 1.1rem !important; /* Tamanho da fonte maior */
-  margin-top: -9px; /* Margem superior negativa */
-}
-
-/* Estiliza botões primários ao passar o mouse */
-.btn-primary:hover {
-  color: #000; /* Cor do texto preta */
-  background-color: #f0f1ff; /* Fundo azul claro */
-  border-color: #f0f1ff; /* Borda azul claro */
 }
 
 /* Estiliza links ativos na barra lateral */
@@ -181,34 +171,29 @@ div.quarto-about-trestles .about-entity .about-link:hover {
   color: var(--bs-white); /* Cor branca */
 }
 
-/* Estiliza o rodapé */
-.div.nav-footer-* {
-  height: 5px !important;
-  font-size: 1rem; /* Define um tamanho de fonte menor */
-  padding: 0px 0 !important;; /* Define um padding menor */
-  margin: 0; /* Remove as margens padrão */
-  line-height: 0.2; /* Ajusta a altura da linha para um valor menor */
+/* Estiliza botões primários ao passar o mouse */
+.btn-primary:hover {
+  color: #000; /* Cor do texto preta */
+  background-color: #f0f1ff; /* Fundo azul claro */
+  border-color: #f0f1ff; /* Borda azul claro */
+  padding: .375rem .75rem; /* Espaçamento interno */
+  font-size: 1.1rem !important; /* Tamanho da fonte maior */
+  margin-top: -9px; /* Margem superior negativa */
 }
+
+/* Estiliza botões primários */
+.btn-primary {
+  padding: .375rem .75rem; /* Espaçamento interno */
+  font-size: 1.1rem !important; /* Tamanho da fonte maior */
+  margin-top: -9px; /* Margem superior negativa */
+}
+
+/* Estiliza o rodapé */
+.quarto-footer {
+  font-size: 0.5px !important; /* Tamanho da fonte muito pequeno */
+}
+
 
 $link-color: #000000;
 
 $code-color: #000000;
-
-
-.video-player {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-}
-
-/* Then style the iframe to fit in the container div with full height and width */
-.youtube-player {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
