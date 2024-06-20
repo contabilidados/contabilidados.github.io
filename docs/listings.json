@@ -80,5 +80,28 @@
       "/posts/dados/instalacntdd/instalacntdd.html",
       "/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html"
     ]
+  },
+  {
+    "listing": "/meetings.html",
+    "items": [
+      "/eventos/introR/introR.html",
+      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+      "/eventos/economaticaR/economaticaR.html"
+    ]
+  },
+  {
+    "listing": "/cntdd.html",
+    "items": [
+      "/pacotes/indices/liquidezSeca/liqSeca.html"
+    ]
+  },
+  {
+    "listing": "/membros.html",
+    "items": [
+      "/curriculum/profs/alexsandro.html",
+      "/curriculum/profs/kleber.html",
+      "/curriculum/profs/yuri.html",
+      "/curriculum/alunos/liviabandeira.html"
+    ]
   }
 ]

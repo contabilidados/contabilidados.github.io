@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.555">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Kléber Formiga Miranda">
+<title>contabiliDados - Governança Corporativa e Proteção Legal</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../icon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script><style>html{ scroll-behavior: smooth; }</style>
+<meta name="twitter:title" content="contabiliDados - Governança Corporativa e Proteção Legal">
+<meta name="twitter:description" content="Resenha">
+<meta name="twitter:image" content="https://contabilidados.github.io/posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.png">
+<meta name="twitter:creator" content="@cntdd">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1024">
+</head>
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">contabiliDados</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="../../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../meetings.html"> 
+<span class="menu-text">Eventos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cntdd.html"> 
+<span class="menu-text">cntdd</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../membros.html"> 
+<span class="menu-text">Sobre</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dashboard" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Dashboard</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dashboard">
+<li>
+    <a class="dropdown-item" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" target="_blank">
+ <span class="dropdown-text">Indicadores</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://gecomt.shinyapps.io/dashboard/" target="_blank">
+ <span class="dropdown-text">Mercado</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/contabilidados"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Governança Corporativa e Proteção Legal</h1>
+<p class="subtitle lead">Resenha</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Finanças</div>
+    <div class="quarto-category">Governança</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kléber Formiga Miranda </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">30 de julho de 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header><style> body {text-align: justify} </style>
+<p><img src="governancaProtecaoLegal.png" class="img-fluid"></p>
+<p>A governança corporativa consiste na configuração de procedimentos internos, legais e guias informais voltados a direcionar a tomada de decisão nas empresas. O objetivo do sistema de governança é garantir tomadas de decisão corporativas confiáveis, representativas do melhor interesse da corporação e dos seus acionistas. Todas as comunicações públicas devem refletir a verdade, porém o principal desafio da governança corporativa é criar um sistema capaz de equilibrar a responsabilidade dos tomadores de decisão com a sua autoridade.</p>
+<p>No mercado americano o padrão de governança possui raízes na regulação, em especial após a SOX em 2002. Nesse modelo os funcionários corporativos são legalmente induzidos a agir em prol dos assuntos das empresas. Em outra linha a SEC busca sistemas de prestação de contas robustos em garantir a integridade da informação financeira. Discute-se, todavia, a viabilidade de um sistema de governança rodeado de regras e sanções. Há, nesse ambiente, o risco de fuga de diretores qualificados pelo receio de responsabilidade excessiva. Ao mesmo tempo, um dos problemas mais evidentes em governança corporativa parece ser uma falta de responsabilização individual por má gestão e/ou fraude.</p>
+<p>Em escala global, o processo de governança se torna mais complexo. Diferença entre as estruturas legais e financiamento dos países interferem na padronização de políticas ligadas a regras de condutas corporativas. Embora pequeno, o G-20 congrega países de economia relevante para o cenário mundial e o amadurecimento de políticas inter-fronteiras convergirá para uma inevitável adoção de normas de governança em nível mundial. O <em>design</em> desse padrão será bastante discutido, pois o eficiente padrão SOX consegue disciplinar operações e condutas, mas se apresenta oneroso. Diversos IPOs deixaram de se efetivar por desestímulo das empresas em abrir seu capital e ficar sujeito a regras rígidas. O mesmo ocorre com empresas estrangeiras sujeitas à SOX quando resolvem negociar no mercado americano.</p>
+<p>Algumas estruturas evidentes nas economias e divergente dentre os países do próprio G-20 podem intervir contra a globalização de normas de governança. Convergir a economia para um mesmo patamar normativo pode ser dificultado, por exemplo, pelos direitos de propriedades divergentes ou pelo nível de desenvolvimento da economia. Empresas de países onde a proteção legal é fraca, os mecanismos de governança serão menos efetivos, diferentemente de empresas em países com forte proteção de investidores. O cerne está na propensão em se investir em governança. A falta de proteção dos investidores os desencoraja em realizar tal investimento, pois não visualizam retorno com tal recurso, acontecendo o inverso para empresas com proteção legal por terem a expectativa de segurança na aplicação de seus recursos.</p>
+<p>A discussão realizada se concentra no nível normativo a ser aplicado por normatização de governança e sua aplicabilidade em diferentes economias. O problema antes visualizado em nível da firma, e já difícil de ser mitigado, passa absorver contornos em nível mundial, dificultando sua implementação dados os conceitos divergentes relacionados a questões culturais, de mercado e de financiamento de empresas.</p>
+<p>Os mecanismos para uma prestação de contas padronizada são o mercado, a votação de acionistas e responsabilidade civil e criminal. O equilíbrio desses mecanismos cria um ambiente de tomada de decisão responsável, impedindo má condutas pela gestão. Contudo, cada um desses mecanismos contém falhas envoltas na discricionariedade dos gestores. O fato é a possibilidade de falhas em sistemas de governança de onde se espera a credibilidade para alocação de recursos. Uma vez crível, o mercado tenderá a aplicar seus recursos num ambiente reconhecido como próprio para investimento. Dessa forma, a eventual falha do sistema de governança desencadeia um problema devastador para economia, justificando a discussão e a busca por mecanismos eficazes para tal possibilidade. (Jones, 2010).</p>
+<p>Baseado no exemplo norte-americano, Jones (2010) discute a utilização de meios legais para solução problemas em governança. A lógica das normas é tornar o funcionário corporativo aderente às práticas reveladoras de bons resultados para a firma e inibir o uso de práticas discricionárias em interesse próprio. Quando as empresas assumem riscos, os acionistas são beneficiados com os retornos decorrentes do risco, além do fato de poderem diversificar seu risco investindo em mais de uma empresa, equilibrando a possibilidade de ter problemas em uma empresa, mas com sucesso em outra. De acordo com as cortes americanas, os juízes não são competentes em muitos assuntos de ordem econômica e cabe aos acionistas escolherem a melhor gestão para seus recursos. O mercado permite e encoraja esse processo.</p>
+<p>Os investidores contam com informações contábeis e relatórios para avaliar a perspectiva de negócios e tomar suas decisões de investimentos. Jones (2010) aborda o fato de as tomadas de decisão serem fundamentadas em estimativas futuras em detrimento de informações históricas disponibilizadas pela SEC. Nessas projeções – alinhadas por meio de comunicados a imprensa, discursos, conferências, etc. – há a discricionariedade da gestão em tornar público informações importantes para o mercado, mas em dose controlada por ela. A governança corporativa atuaria na minimização desses impactos, atentando para critérios inibidores de má conduta quanto a revelação de perspectivas pela gestão.</p>
+<p>A SEC já se ajusta para reforma legais no sentido de prevenção contra informações futuras gerenciadas. Um dos pontos principais sugeridos a implicação em planos de incentivo, onde cláusulas restritivas nos contratos com a gestão contemplasse o confisco de pagamentos de incentivos baseados em resultados superavaliados, independentemente de o gestor ser culpado ou não. Tais medidas devem inspirar uma maior vigilância por diretores, conselheiros e auditores, reduzindo os incentivos para a fraude. (Jones, 2010).</p>
+<p>Rezaee (2010) direciona a discussão para uma relação de mercado onde o capital é espalhado em nível mundial e empresas passam a ter capital de vários países. As empresas passam a ser financiadas com capitais de múltiplos países e ter influência de diversas economias. Nas últimas crises mundiais revelou um paradoxo entre socorrer empresas em crise ou exigir mais governança na prestação de suas contas. Se espera de normas de governança a proteção de investidores das ineficiências empresariais, má condutas e informações financeiras enganosas e, assim, restaurar a confiança pública e confiança dos investidores nos mercados financeiros, corporações, e suas demonstrações financeiras.</p>
+<p>Alguns países acenam na perspectiva de união em prol da alocação eficiente de capital, mas as divergências de cada país dificultam a implantação de normas de governança eficazes. Vários fatores influenciam a governança corporativa, incluindo leis corporativas, leis federais, padrões de listagem e melhores práticas. Cada um desses <em>drivers</em> influenciam a governança corporativa, exigindo o cumprimento de suas próprias regras e diretrizes. A proteção legal aos acionistas também se incorpora ao rol de dificuldade na implementação de uma normatização de governança comum a diversos países. (Rezaee, 2010).</p>
+<p>O padrão norte-americano poderia ser utilizado como guia para os demais países. Tratando-se de um instrumento normativo criado pós-crise e escândalos na maior economia mundial, justificaria sua implementação em nível global, entretanto, os críticos consideram a SOX onerosa e desestimuladora de novas ofertas públicas, especialmente por empresas internacionais. Os requisitos de conformidade são onerosos e impedem o crescimento global, limitando as oportunidades para as empresas. Por outro lado, os defensores da SOX fundamentam-se na melhoria substancial da confiança no mercado de capitais trazida pela legislação.</p>
+<p>Várias disposições da SOX, descritas por Rezaee (2010), influenciam a governança corporativa. Em primeiro lugar, o fato de atribuir papeis e responsabilidades para os guardiões da governança corporativas, inclusive auditores, analistas e consultores jurídicos. Em segundo lugar, reforça os deveres fiduciários e responsabilidades dos conselheiros, diretores, CEOs e, por último, mitiga conflitos de interesse entre acionistas e diretores, além daqueles entre os próprios diretores.</p>
+<p>Proteger investidores em nível nacional, além de outras regras de governança podem, segundo Bruno e Claessens (2010), ajudar a aliviar os problemas de agência, superar desvios por contratos incompletos e incentivar o desempenho das firmas. No entanto, os custos para esse monitoramento podem superar os benefícios dele decorrentes. A base central da teoria da firma de Ronald Coase é o pressuposto de um contrato firmado entre partes igualmente informadas quando, na realidade, há informação assimétrica entre as partes contratantes.</p>
+<p>Em nível global a assimetria tende a se ampliar. A necessidade de um regime público de governança corporativa varia de acordo com o problema específico de governança corporativa. Um refinamento de problemas de governança corporativa distingue dois aspectos: o interno e o externo à firma. No interno, a governança age sobre os agentes os agentes sob sua tutela (acionistas, administradores e diretores) e os seus incentivos. No externo, a governança corporativa opera de fora da empresa por meio de leis, regulamentos, mercados, controle corporativo e concorrência. Em ambos há problemas difíceis de serem vencidos, especialmente por dificuldade alinhamento de posturas baseadas no padrão econômico, cultural e financeiro de cada país.</p>
+<p>De acordo com Bruno e Claessens (2010), quando os direitos de propriedade são fracos e os mercados financeiros são menos desenvolvidos, o monitoramento e compromisso com a governança corporativa das empresas são mais difíceis. Portanto, as empresas em países menos desenvolvidos não possuem incentivos para adotar governança corporativa dada a falta de proteção. Os custos de implementação desses mecanismos não serão percebidos no retorno de suas ações. Em contrapartida, as empresas de países com forte proteção aos investidores não sofrem deste problema, estando dispostos a gastar mais por sistemas de governança.</p>
+<p>O impacto diferente de regulamentação em todos os níveis de desenvolvimento do país se relaciona com a questão de saber se uma regulamentação uniforme é benéfica para todas as empresas. Esta questão pode ser reformulada como o debate sobre a adequação da regulamentação obrigatória ou flexível. Eventuais fracassos na governança corporativa levarão os países a adotarem soluções diferentes para a governança em seu território.</p>
+<p>A ampliação do mercado além países convocou a governança corporativa para o desafio de tratar de conflitos de agência em nível global. A escolha de um modelo capaz de atender a demanda de países distintos com culturas e características diversificadas não é tarefa fácil, mas a sua necessidade é consenso entre governantes das principais economias mundiais. Enveredar pelo meio normativo, como o modelo americano via SOX, pode ser o <em>benchmarking</em>, mas possui algumas limitações, dentre as quais os custos de implementação e a fuga de capital do mercado dadas as conformidades exigidas.</p>
+<p>Embora não explicitado nos textos, levanta-se a possibilidade de haver dificuldades de implantação de normas de governança em países onde predominem a influência bancária no financiamento das empresas. Os mercados onde os bancos são predominantes caracterizam, dentre outros aspectos, pela participação dos bancos no financiamento de longo prazo das empresas e na participação como acionistas. Nesse contexto, a governança exigida pelo setor bancária já é estabelecida nos seus contratos de dívidas e devidamente monitoradas por informações contábeis e outros mecanismos.</p>
+<p>Por fim, é possível haver mudanças na forma como o capital é alocado e como o mercado funciona para uma convergência de práticas de governança em escala global. Os aspectos característicos de um mercado baseado em capitais não são absorvidos por todas as economias e pode ser o maior empecilho para gerar a credibilidade no sistema de mercado com base em governança corporativa.</p>
+<hr>
+<p>Bruno, V. &amp; Claessens, S. (2010). Economics aspects of corporate governance and regulation. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 30, pp.&nbsp;599-619). New Jersey: Wiley.</p>
+<p>Jones, R. M. (2010). Corporate governance and accountability. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 28, pp.&nbsp;559-576). New Jersey: Wiley.</p>
+<p>Rezaee, Z. (2010). Corporate governance rules and guidelines. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 29, pp.&nbsp;577-597). New Jersey: Wiley.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><script src="https://giscus.app/client.js" data-repo="contabilidados/blog" data-repo-id="R_kgDOI9xlkQ" data-category="General" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>contabiliDados usou <a href="https://quarto.org/">Quarto</a>, basedo em <a href="https://beamilz.com/">BeaMilz</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:contabilidados@ufersa.edu.br">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+</div>
+  </div>
+</footer>
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
