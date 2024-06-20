@@ -1,0 +1,218 @@
+---
+title: "Poison Pills: Compreenda como funciona esse mecanismo de governança corporativa"
+subtitle: "Resenha"
+author: "Yuri Gomes Paiva Azevedo"
+categories:
+  - Finanças
+  - Governança
+date: 2024-06-06
+toc: true
+image: "poisonpillsGovernanca.webp"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+```{=html}
+<style> body {text-align: justify} </style>
+```
+![](poisonpillsGovernanca.webp){fig-align="center" width="403"}
+
+Nesse texto, vamos apresentar o que são *Poison Pills* para te ajudar a
+compreender como elas protegem as companhias contra tentativas hostis de
+aquisição de controle. Sendo assim, abordaremos os seguintes tópicos:
+
+1.  O que é uma tentativa hostil de aquisição de controle?
+
+2.  O que são *Poison Pills* e como elas funcionam?
+
+3.  Uma particularidade no contexto brasileiro: as cláusulas "pétreas"
+
+4.  Reflexões Finais
+
+## 1. O que é uma tentativa hostil de aquisição de controle?
+
+Durante períodos de extrema volatilidade do mercado e incerteza dos
+investidores, como o recente cenário de pandemia da Covid-19, é possível
+que as companhias abertas se tornem mais vulneráveis a aquisições
+hostis. Nesse contexto, potenciais adquirentes (e.g., companhias ou
+investidores) podem aproveitar que as ações da companhia "alvo" estão
+subvalorizadas para, de maneira oportunista, tentar adquirir parte do
+controle acionário da companhia de forma hostil.
+
+Essa tentativa hostil de aquisição de controle ocorre quando um
+potencial adquirente lança uma oferta para tentar adquirir determinado
+percentual de ações ordinárias da companhia "alvo" que lhe configure
+como controlador (ou como um dos controladores), sem que a administração
+e/ou acionistas dessa companhia tenham demonstrado interesse na
+alienação do controle acionário. Assim, como forma de impedir ou
+dificultar aquisições hostis, as companhias podem adotar mecanismos de
+governança corporativa denominados *shark repellents*, sendo as *poison
+pills* um dos mecanismos mais conhecidos pelo mercado.
+
+## 2. O que são *poison pills* e como elas funcionam?
+
+Antes de explicar o funcionamento das *poison pills* enquanto mecanismo
+de governança corporativa, é importante ressaltar que existem diferenças
+entre as *poison pills* adotadas nos Estados Unidos e no Brasil.
+Entretanto, apesar de assumirem diferentes formas, as *poison pills*
+devem ter como principal objetivo fornecer direitos e privilégios aos
+atuais acionistas, caso a companhia se torne alvo de uma aquisição
+hostil.
+
+Nos Estados Unidos, as *poison pills* mais comumente adotadas pelas
+companhias são as *poison pills flip-in* e *flip-over*. De forma
+simplificada, esses mecanismos atuam da seguinte forma:
+
+-   *Poison pill flip-in*: Quando um potencial adquirente acumula
+    determinada porcentagem de ações ordinárias em circulação de uma
+    companhia "alvo" (percentual de disparo) ou quando faz uma oferta
+    para aquisição de determinado percentual dessas ações, a *poison
+    pill* é ativada. Nesse sentido, todos os acionistas, exceto o
+    potencial adquirente, podem comprar ações da companhia com um
+    desconto no seu valor de mercado, diluindo, portanto, a participação
+    do adquirente na companhia alvo.
+
+-   *Poison pill flip-over*: Permite que os acionistas da companhia-alvo
+    tenham o direito de adquirir ações com um desconto substancial no
+    preço de mercado após a realização da fusão (*merger*) com o
+    adquirente, sendo considerada um importante mecanismo por manter a
+    participação societária desses acionistas na entidade alvo do
+    *takeover*.
+
+No Brasil, as *poison pills* são distintas das utilizadas nos Estados
+Unidos visto que elas geralmente preveem que qualquer investidor que
+tentar adquirir ou, de qualquer outro modo, tornar-se titular de
+determinado percentual de ações da companhia conforme definido no
+estatuto social (normalmente entre 20% a 30%), realize uma oferta
+pública de aquisição (OPA) para a aquisição da totalidade das ações em
+circulação da companhia-alvo, atendendo a determinados parâmetros de
+preço e condições de pagamento. Um exemplo desse dispositivo --- que é
+normalmente inserido na seção de alienação do controle acionário do
+estatuto social --- é evidenciado a seguir:
+
+> "Qualquer pessoa que adquira ou se torne titular de ações de emissão
+> da Companhia, em quantidade igual ou superior a 20% do total de ações
+> de emissão da Companhia deverá, no prazo máximo de 60 dias a contar da
+> data de aquisição ou do evento que resultou na titularidade de ações
+> em quantidade igual ou superior a 20% do total de ações de emissão da
+> Companhia, realizar ou solicitar o registro de, conforme o caso, uma
+> oferta pública de aquisição da totalidade das ações de emissão da
+> Companhia ("OPA"), observando-se o disposto na regulamentação
+> aplicável da CVM, o Regulamento do Novo Mercado, outros regulamentos
+> da BM&FBOVESPA e os termos deste Artigo" (TECNISA, 2017, p. 24).
+
+A necessidade de realização de oferta pública para a aquisição da
+totalidade das ações emitidas pela companhia praticamente impossibilita
+a tomada hostil de controle. No entanto, ainda existem outros aspectos
+que visam tornar essa operação ainda mais onerosa para o potencial
+adquirente, como a obrigação de que esses paguem um prêmio na compra das
+ações, conforme valor preestabelecido no estatuto da companhia (e.g.,
+125% da cotação unitária mais alta atingida pelas ações de emissão da
+Companhia durante o período de 12 meses anterior à realização da OPA).
+Nesse sentido, verifica-se que percentuais de disparo muito baixos e
+prêmios excessivamente altos são características presentes nas *poison
+pills* adotadas por companhias abertas brasileiras, reduzindo, assim, a
+probabilidade de tentativas hostis de aquisição de controle (AMBROZINI;
+PIMENTA JUNIOR; GAIO, 2015).
+
+## 3. Uma Particularidade no Contexto Brasileiro: As Cláusulas "Pétreas"
+
+Outra particularidade no contexto brasileiro relacionada a adoção de
+*poison pills* é a possibilidade de inclusão, no estatuto social, de uma
+cláusula "pétrea", que prevê que esse dispositivo *anti-takeover* não
+pode ser alterado ou removido, diferentemente das *poison pills*
+adotadas no Estados Unidos, que normalmente são válidas por um período
+de 10 anos. De forma simplificada, esse dispositivo obriga que o
+acionista que tiver votado pela alteração ou exclusão da *poison pill*
+realize uma oferta pública para a aquisição da totalidade das ações
+emitidas pela companhia, tendo como base os parâmetros já definidos
+quando da adoção da *poison pill*. Um exemplo dessa cláusula "pétrea" é
+evidenciado a seguir:
+
+> A alteração que limite o direito dos acionistas à realização da OPA
+> prevista neste Artigo ou a exclusão deste Artigo obrigará os
+> acionistas que tiverem votado a favor de tal alteração ou exclusão na
+> deliberação em Assembleia Geral a realizar a OPA prevista neste
+> Artigo, observado o disposto no Parágrafo 3° do Artigo 10 deste
+> Estatuto Social (TECNISA, 2017, p. 28).
+
+Tendo em vista a possibilidade de implementação da cláusula "pétrea",
+diversos questionamentos acerca da sua validade jurídica foram colocados
+em pauta, além da discussão relacionada ao possível desvirtuamento da
+principal finalidade das *poison pills*, que em vez de fornecer direitos
+e benefícios aos acionistas, podem estar sendo utilizadas para promover
+o entrincheiramento de gestores ineficientes (MAESTRI, 2011; MARTINS,
+2015).
+
+No tocante à validade jurídica das cláusulas "pétreas", é importante
+ressaltar que a Comissão de Valores Mobiliários (CVM), se manifestou
+contrariamente à sua utilização. No Parecer de Orientação Nº 36, a CVM
+declara que os acionistas que votarem pela supressão ou alteração da
+cláusula de proteção à dispersão acionária não serão penalizados pelo
+órgão. Essa decisão do colegiado foi pautada na perspectiva que a
+inclusão das cláusulas "pétreas" não se compatibiliza com princípios e
+normas da legislação societária, visto que se o objetivo das disposições
+acessórias for tornar as cláusulas de proteção à dispersão acionária
+praticamente imutáveis, elas irão de encontro ao disposto no Art. 122,
+I, da Lei nº 6.404, de 1976, que outorga poderes à assembleia geral para
+alterar o estatuto sempre que o interesse social assim o exigir.
+
+## 4. Reflexões Finais
+
+As companhias que enfrentam dificuldades financeiras significativas, com
+as oriundas da pandemia do Covid-19, podem se tornar alvos potenciais
+para aquisições por firmas maiores e financeiramente mais estáveis.
+Nesse contexto, a implementação de uma *poison pill* pode ser uma
+estratégia de governança corporativa eficaz para essas empresas, visto
+que elas podem evitar aquisições indesejadas e manter uma posição de
+negociação mais forte. Isso é especialmente relevante quando se
+considera que firmas maiores, ao tentar adquirir empresas menores em
+dificuldades, podem estar buscando manter ou reforçar um monopólio ou
+liderança de mercado.
+
+Importante ressaltar que companhias que adotam as melhores práticas de
+governança corporativa também estão suscetíveis a tentativas de
+aquisições hostis, como as companhias do Novo Mercado. Por emitirem
+apenas ações ordinárias (ações com direito a voto), o *free float* de
+25% que deve ser mantido pelas companhias listadas no segmento Novo
+Mercado pode tornar essas companhias mais vulneráveis a tentativas de
+aquisições hostis. Assim, considera-se importante que essas companhias,
+mesmo listadas no segmento mais elevado de governança corporativa,
+adotem *poison pills* como um mecanismo complementar relacionado à
+proteção dos acionistas e da manutenção da dispersão acionária. Como
+exemplo, tem-se o caso da Vale S.A., que no processo de transição para o
+segmento Novo Mercado, adotou a *poison pill* para se proteger de
+futuras tentativas hostis de aquisição de controle.
+
+Nesse sentido, verifica-se que a *poison pill* não só protege a empresa
+de uma aquisição hostil, mas também proporciona uma plataforma para
+negociar valores de forma mais vantajosa, garantindo que qualquer
+transação futura seja realizada em condições que beneficiem a empresa e
+seus *stakeholders*. Entretanto, deve-se atentar que a poison pill,
+quando acompanhada por cláusula pétrea, pode ser um mecanismo que não
+promove a governança corporativa, mas sim, o entrincheiramento
+gerencial.
+
+## Referências
+
+Ambrozini, M. A., Pimenta Junior, T., & Gaio, L. E. (2015). Governança
+corporativa: Poison Pills e seus impactos em empresas brasileiras.
+**Revista de Administração e Inovação**, 12(4), 225-242.
+
+Maestri, E. (2011). Cláusulas Pétreas no Direito Societário Brasileiro:
+Proteção ou Entrincheiramento? **Revista Brasileira de Direito
+Empresarial**, 5(2), 1-14.
+
+Martins, R. A. (2015). Cláusulas Pétreas e Poison Pills: Análise de sua
+Aplicabilidade no Mercado Brasileiro. **Revista de Direito Mercantil**,
+54(3), 367-385.
+
+Tecnisa S.A. (2017). **Estatuto Social**. Disponível em:
+[https://ri.tecnisa.com.br/](https://ri.tecnisa.com.br/List/Estatuto-Social--Codigos-e-Politicas?=seSBgTakN0FknmomZ75wJw==)
+
+------------------------------------------------------------------------
