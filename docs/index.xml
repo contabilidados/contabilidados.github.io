@@ -10,7 +10,686 @@
 <atom:link href="https://contabilidados.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.555</generator>
-<lastBuildDate>Tue, 11 Jun 2024 03:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 20 Jun 2024 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Conflitos entre IFRS/CPC e Normas Fiscais da Receita Federal</title>
+  <dc:creator>Alexsandro Prado</dc:creator>
+  <link>https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<style>
+  .left-aligned {
+    text-align: left;
+  }
+</style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" width="330"></p>
+</figure>
+</div>
+<section id="introdução" class="level2"><h2 class="anchored" data-anchor-id="introdução">Introdução</h2>
+<p>As Normas Internacionais de Relatórios Financeiros (IFRS) e as Normas Brasileiras de Contabilidade (CPC) visam fornecer uma base transparente e consistente para a preparação das demonstrações financeiras. Em contraste, as Normas Fiscais da Receita Federal do Brasil (RFB) são estabelecidas com o objetivo de regulamentar a arrecadação de impostos. Apesar de ambas serem fundamentais para a prática contábil e fiscal, existem diversas situações onde os princípios das IFRS/CPC conflitam com as normas fiscais. Este documento abordará vinte dessas situações, destacando as divergências entre as práticas contábeis e fiscais, com referências para cada caso.</p>
+</section><section id="principais-divergências" class="level2"><h2 class="anchored" data-anchor-id="principais-divergências">Principais divergências</h2>
+<p>Uma das principais divergências entre as normas contábeis e fiscais refere-se ao reconhecimento de receita. A IFRS 15 e CPC 47 determinam que a receita deve ser reconhecida quando o controle do bem ou serviço é transferido para o cliente, enquanto a legislação fiscal brasileira pode exigir o reconhecimento da receita em momentos diferentes, baseando-se em critérios de realização e pagamento. Quanto aos ativos intangíveis, a IAS 38 e CPC 04 estabelecem que devem ser reconhecidos quando é provável que os benefícios econômicos futuros atribuíveis ao ativo irão fluir para a entidade. No entanto, as normas fiscais podem não permitir a amortização de determinados intangíveis para fins fiscais.</p>
+<p>Em relação às provisões, a IAS 37 e CPC 25 exigem o reconhecimento de provisões quando há uma obrigação presente resultante de eventos passados. A dedutibilidade fiscal das provisões pode ser limitada, exigindo critérios específicos para sua dedução. No que tange à depreciação de ativos fixos, a IAS 16 e CPC 27 estabelecem que a depreciação deve ser calculada com base na vida útil econômica dos ativos, enquanto a depreciação fiscal segue as taxas fixadas pela RFB, que podem divergir da vida útil econômica estimada.</p>
+<p>Outra área de conflito é o ajuste a valor justo, conforme estabelecido pela IFRS 13 e CPC 46, que requer a mensuração de certos ativos e passivos ao valor justo. A legislação fiscal brasileira pode não reconhecer esses ajustes para fins de apuração do lucro tributável. Quanto aos benefícios a empregados, a IAS 19 e CPC 33 tratam do reconhecimento e mensuração desses benefícios, incluindo planos de pensão, mas a dedutibilidade fiscal pode ser restrita a valores efetivamente pagos.</p>
+<p>Os contratos de leasing também são uma fonte de divergência. A IFRS 16 e CPC 06 (R2) exigem que sejam reconhecidos no balanço como ativos e passivos, enquanto a legislação fiscal pode tratar esses contratos de forma diferente, afetando a base de cálculo dos tributos. No caso das combinações de negócios, a IFRS 3 e CPC 15 exigem o reconhecimento de ativos e passivos adquiridos a valor justo, mas a legislação fiscal pode requerer ajustes para fins de apuração do lucro real.</p>
+<p>Os instrumentos financeiros são tratados pela IFRS 9 e CPC 48, que abordam o reconhecimento e mensuração desses instrumentos, mas pode haver diferenças na tributação de ganhos e perdas. Sobre o imposto de renda diferido, a IAS 12 e CPC 32 tratam do reconhecimento de ativos e passivos fiscais diferidos, mas as normas fiscais podem ter critérios diferentes para esse reconhecimento.</p>
+<p>A reavaliação de ativos é permitida pela IAS 16, enquanto a legislação fiscal pode não permitir essa reavaliação para fins fiscais. A IAS 20 e CPC 07 tratam do reconhecimento de subvenções governamentais, mas a legislação fiscal pode prever a tributação dessas subvenções de maneira diferente. No caso de investimentos em coligadas, a IAS 28 e CPC 18 tratam do método de equivalência patrimonial, mas pode haver diferenças na tributação dos resultados dessas coligadas.</p>
+<p>Quanto aos estoques, a IAS 2 e CPC 16 estabelecem critérios para sua mensuração, enquanto a legislação fiscal pode adotar critérios diferentes. Os ativos biológicos, conforme a IAS 41 e CPC 29, devem ser mensurados a valor justo, mas pode haver restrições à utilização desse valor para fins fiscais. O reconhecimento de dividendos é tratado pelas IAS 10 e CPC 24, enquanto a tributação segue regras específicas da legislação fiscal.</p>
+<p>As propriedades para investimento são tratadas pela IAS 40 e CPC 28, que abordam a mensuração dessas propriedades, mas a legislação fiscal pode adotar critérios diferentes para depreciação e tributação. As concessões públicas são abordadas pela IFRIC 12 e ICPC 01, mas podem ser tratadas de forma diferente para fins fiscais. Os custos de empréstimos são tratados pela IAS 23 e CPC 20, que exigem a capitalização desses custos, enquanto a legislação fiscal pode não permitir a dedução imediata.</p>
+<p>Finalmente, a IFRS 5 e CPC 31 tratam da classificação de ativos não circulantes mantidos para venda, mas a legislação fiscal pode ter regras específicas para a alienação desses ativos e sua tributação.</p>
+<p>As divergências entre as normas IFRS/CPC e as normas fiscais da Receita Federal do Brasil refletem diferentes objetivos e princípios subjacentes às regulamentações contábeis e fiscais. Enquanto as IFRS/CPC visam fornecer uma visão econômica mais precisa e transparente das demonstrações financeiras, as normas fiscais são focadas na arrecadação de impostos e na conformidade tributária. É crucial para os profissionais contábeis entenderem essas diferenças e gerenciar as implicações práticas e regulatórias de cada situação. A harmonização e a conciliação entre essas normas permanecem um desafio contínuo para assegurar a precisão e a conformidade tanto nas demonstrações financeiras quanto nas apurações fiscais.</p>
+</section><section id="referências" class="level2"><h2 class="anchored" data-anchor-id="referências">Referências</h2>
+<div class="left-aligned">
+
+<p>BRASIL. Lei nº 12.973, de 13 de maio de 2014. Disponível em: http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2014/Lei/L12973.htm. Acesso em: 20 jun. 2024.</p>
+<p>BRASIL. Lei nº 9.249, de 26 de dezembro de 1995. Disponível em: http://www.planalto.gov.br/ccivil_03/leis/L9249.htm. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 04 – Ativo Intangível. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=9. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 06 (R2) – Arrendamentos. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=124. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 07 – Subvenção e Assistência Governamentais. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=10. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 15 – Combinação de Negócios. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=23. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 16 – Estoques. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=20. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 18 – Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=17. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 20 – Custos de Empréstimos. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=19. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 24 – Evento Subsequente. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=27. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 25 – Provisões, Passivos Contingentes e Ativos Contingentes. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=22. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 27 – Ativo Imobilizado. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=24. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 28 – Propriedade para Investimento. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=33. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 29 – Ativo Biológico e Produto Agrícola. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=30. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 31 – Ativo Não Circulante Mantido para Venda e Operação Descontinuada. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=36. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 32 – Tributos sobre o Lucro. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=44. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 33 – Benefícios a Empregados. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=43. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 46 – Mensuração do Valor Justo. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=113. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 47 – Receita. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=117. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 48 – Instrumentos Financeiros. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=125. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. ICPC 01 – Concessões. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretações/Interpretação?Id=6. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 10 – Events after the Reporting Period. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-10-events-after-the-reporting-period/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 12 – Income Taxes. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-12-income-taxes/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 16 – Property, Plant and Equipment. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-16-property-plant-and-equipment/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 19 – Employee Benefits. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-19-employee-benefits/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 2 – Inventories. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 20 – Accounting for Government Grants and Disclosure of Government Assistance. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-20-accounting-for-government-grants-and-disclosure-of-government-assistance/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 23 – Borrowing Costs. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-23-borrowing-costs/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 28 – Investments in Associates and Joint Ventures. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-28-investments-in-associates-and-joint-ventures/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 37 – Provisions, Contingent Liabilities and Contingent Assets. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-37-provisions-contingent-liabilities-and-contingent-assets/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 38 – Intangible Assets. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 41 – Agriculture. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-41-agriculture/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING INTERPRETATIONS COMMITTEE. IFRIC 12 – Service Concession Arrangements. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifric-12-service-concession-arrangements/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 13 – Fair Value Measurement. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 15 – Revenue from Contracts with Customers. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 16 – Leases. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-16-leases/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 3 – Business Combinations. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-3-business-combinations/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 5 – Non-current Assets Held for Sale and Discontinued Operations. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-5-non-current-assets-held-for-sale-and-discontinued-operations/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 9 – Financial Instruments. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments/. Acesso em: 20 jun. 2024.</p>
+<p>RECEITA FEDERAL DO BRASIL. Instrução Normativa RFB nº 162/1998. Disponível em: http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=1627&amp;visao=original. Acesso em: 20 jun. 2024.</p>
+<p>RECEITA FEDERAL DO BRASIL. Instrução Normativa RFB nº 1.700/2017. Disponível em: http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=86725&amp;visao=anotado. Acesso em: 20 jun. 2024.</p>
+<div>
+
+
+
+
+
+
+
+
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><script src="https://giscus.app/client.js" data-repo="contabilidados/blog" data-repo-id="R_kgDOI9xlkQ" data-category="General" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>contabiliDados usou <a href="https://quarto.org/">Quarto</a>, basedo em <a href="https://beamilz.com/">BeaMilz</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
+      <i class="bi bi-youtube">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados">
+      <i class="bi bi-instagram">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:contabilidados@ufersa.edu.br">
+      <i class="bi bi-envelope">
+</i> 
+    </a>
+  </li>  
+</ul>
+</div>
+  </div>
+</footer>
+</div></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Contabilidade</category>
+  <category>Teoria</category>
+  <guid>https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.html</guid>
+  <pubDate>Thu, 20 Jun 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" medium="image" type="image/webp"/>
+</item>
 <item>
   <title>Introdução ao Software R</title>
   <dc:creator>Alexsandro Prado</dc:creator>
@@ -870,54 +1549,6 @@ Materiais
   <guid>https://contabilidados.github.io/posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html</guid>
   <pubDate>Sat, 13 Feb 2021 03:00:00 GMT</pubDate>
   <media:content url="https://contabilidados.github.io/posts/finance/governancaCorporativaSinalizacao/GovernancaDesempenho.png" medium="image" type="image/png" height="144" width="144"/>
-</item>
-<item>
-  <title>Governança Corporativa: Sistemas e melhores práticas</title>
-  <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/finance/governancaCorporativa/governancaCorporativa.html</link>
-  <description><![CDATA[ <style> body {text-align: justify} </style>
-<p><img src="https://contabilidados.github.io/posts/finance/governancaCorporativa/governancaCorporativa.png" class="img-fluid"></p>
-<p>Os colapsos empresariais ocorridos no início do século XXI marcam a demanda pela gestão profissional. A riqueza do acionista ficou prejudicada com as fraudes gerenciais e comportamentos inadequados de gestores no período marcado por revoluções econômicas com presença de monopólios. A solução viável para o contexto consistiu em separar a propriedade do controle. Significa definir os papéis do proprietário, responsável pelo aporte de recursos na empresa e o gestor, com a incumbência de cuidar do patrimônio do proprietário, gerando valor a sua riqueza. (Baker &amp; Anderson, 2010).</p>
-<p>O divórcio entre a propriedade e gestão acarretou mudanças profundas nas companhias, dentre as quais a permuta da tomada de decisões dos “capitães de indústria” para executivos contratados, os objetivos empresariais ultrapassaram a visão simplista de maximização dos lucros e, principalmente, a emergência de interesses assimétricos entre o gestor e o proprietário. (Andrade &amp; Rossetti, 2009).</p>
-<p>Andrade e Rossetti (2009) destacam a assimetria de interesses como ponto principal devido ao surgimento de boas práticas de governança para reaproximação entre a propriedade e a gestão. A governança corporativa reage aos oportunismos da gestão se concentrando em diretrizes para redução de oportunismos, buscando maximizar as utilidades pessoais dos proprietários e dos gestores.</p>
-<p>Do ponto de vista teórico, Baker e Anderson (2010) destacam a pesquisa de Jensen e Meckling, de 1976, por fornecer um quadro teórico geral para a análise do comportamento gerencial para a discussão dos problemas de agência e dos custos de transação. Os problemas de agência referem-se ao distanciamento dos interesses do gestor e do proprietário. O gestor, contratado pelo proprietário, deveria tomar decisões favoráveis à parte contratando, todavia há uma tendência natural para buscar sua utilidade em detrimento dos demais. Essa prática provoca custos de monitoramento, denominados custos de transação, cuja finalidade é alinhar as ações da gestão aos interesses do proprietário.</p>
-<p>Desta forma, se espera um sistema de governança corporativa capaz de absorver a demanda de empresas de capital aberto quanto a sua continuidade. O crescimento do número de empresas de capital aberto no início do século XXI demandou gestão dos recursos de investidores, mesmo não tendo uma legislação clara ou uma política de apresentação de resultados.</p>
-<p>As melhores práticas de governança sugeridas pela literatura traduzem a mensagem da redução de assimetria entre proprietário e gestão, verificadas pela teoria da agência. Contudo, a natureza humana e a ampliação dos grupos de interesse dificultam a aplicação dessas práticas.</p>
-<p>O desenvolvimento industrial americano, por volta de 1890, foi marcado por monopólios responsáveis pela manufatura. Nesse período, poucas empresas alcançavam o domínio nacional e as demais competiam regionalmente para conseguir receita suficiente para cobrir seus altos custos fixos. (Mitchell &amp; Mitchell, 2010).</p>
-<p>No início dos anos 1900 emergiu a lei antitruste com a finalidade de acabar com os monopólios. Nesse formato de mercado a concorrência desleal dificulta o regime de preços no mercado e impossibilita o desenvolvimento econômico. Após a lei, as corporações passaram a pulverizar o seu capital. Assim, o capital antes concentrado passa a ser distribuído entre diversos investidores com interesses nos resultados das companhias para percepção de retornos.</p>
-<p>As primeiras experiências foram desastrosas. A regulação precária (ou a sua ausência) contribuiu para dificuldades nessa nova superestrutura financeira. A bolha de 1903 foi reflexo da capitalização excessiva no mercado por falta de critérios claros para avaliação dos investimentos. Os acionistas receberam ofertas de ganhos superiores aos legalmente previstos. O mercado de ações se tornou de alto risco dada a especulação atrelada aos investimentos. Os dividendos futuros, fruto da confusão entre os valores econômico e nominal das ações gerou nos investidores, <em>a priori</em>, a esperança de prosperidade e descrença, <em>a posterior</em>i, deixando-os cada vez mais dependentes dos órgãos de controle das empresas. (Mitchell &amp; Mitchell, 2010).</p>
-<p>Após a crise de 1929, as regulações sobre a avaliação dos investimentos se intensificaram, mas ainda permaneceu a dependência por órgãos de controle aos interesses dos acionistas. A preocupação com a evolução do cenário corporativo americano, altamente concentrado e aparentemente desenfreado, fomentou a criação de mecanismos de controle dos grupos majoritários e a capacitação dos minoritários para direcionar os objetivos empresariais em benefício social. (Mitchell &amp; Mitchell, 2010).</p>
-<p>O período compreendido entre os anos 30 e 60 foi marcado pela pluralidade no controle acionário das empresas. Nesse ínterim as regulações protetivas aos minoritários fortaleceu a relação com os majoritários. A formação dos conselhos contava apenas com menos de 10 por cento das ações das empresas, evidenciando a desconcentração do poder. Os interesses de minoritários passaram a ser melhor atendidos, abrindo espaço para a credibilidade no mercado. Mitchell e Mitchell (2010) consideram esse contexto como a abertura para uma visão centrada no mercado. Os interesses individuais foram sucumbidos pelos interesses sociais, em especial dos acionistas das empresas.</p>
-<p>A quebra desse paradigma gerou mudanças nas normas regras da governança corporativa. A crise BackOffice do final dos anos 1960 e o colapso de 1971 do mercado causada interrupções extremas, além de outras crises como Watergate, gerou a busca pela responsabilização dos atos. Os resultados dos esforços para garantir a credibilidade das atuações resultaram na reformulação conceitual dos conselhos, os quais foram melhores articulados aos princípios de governança corporativa, dando-lhe mais independência afirmadas pelos tribunais de Delaware. Nesses tribunais os conselhos passaram a ter suas prerrogativas de independência afirmadas, pois, seguidos os ritos processuais, os atos praticados seriam blindados de investigação judicial. (Mitchell &amp; Mitchell, 2010).</p>
-<p>Em meados da década de 1980, segundo Mitchell e Mitchell (2010), os tribunais de Delaware definiram o poder de monitoramento do conselho como absoluto e inquestionável, incluindo o poder de impedir os acionistas de exercer o seu direito de sair da empresa com a venda de suas ações para um acionista oportunista. Dessa forma, os diretores não seriam nem representantes nem procuradores dos acionistas, mas sim seus agentes. O modelo de monitoramento repousava sobre os pressupostos de haver o monitoramento dos executivos no intuito de melhorar seus desempenhos.</p>
-<p>A regulação sofre variações de enfoques a depender de aspectos específicos de cada região. Andres, Betzer, Goergen e Metzger (2010) revisam as principais taxonomias dos sistemas de governança corporativa, incluindo as variedades do capitalismo como uma delas. As economias baseadas em mercado (market-based) e as baseadas no sistema bancário (bank-based), cuja taxonomia foi apresentada em Hicks (1969) e Chandler (1977; 1984), estabelecem abordagens diferentes para as regulações. As economias de mercado são caracterizadas por sua dependência forte nos mercados de capital e dívida pública enquanto as economias bancárias contam com bancos para financiar empresas. O Reino-Unido e os Estados Unidos são considerados em pesquisas citadas por Andres <em>et al</em>. (2010) como market-based. Já França, Alemanha e Japão são considerados bank-based.</p>
-<p>As diferenças na história e regulação do setor bancário tiveram uma grande influência no desenvolvimento dos sistemas nacionais de governança corporativa. Em sistemas baseados no mercado, os bancos e companhias de seguros atuam principalmente como intermediários financeiros e raramente participam do capital de empresas comerciais e industriais. Nos Estados Unidos, por exemplo, há impedimentos para a participação direta de bancos no capital de empresas. (Andres <em>et al</em>., 2010).</p>
-<p>Outra taxonomia distingue o insider do outsider system. Em economias baseadas no mercado há difusão do outsider system no qual a gestão se alinha aos interesses dos acionistas. No insider system, o mercado é regido por agentes com informação privilegiada. Esse cenário é mais visualizado onde há concentração de propriedade, participação cruzada e interesses familiares no comando das empresas. (Andres <em>et al</em>., 2010).</p>
-<p>A governança corporativa ainda sofre influência de outras taxonomias para sua efetiva implementação e difusão. Andres <em>et al</em>. (2010) citam o direito e civil e o direito comum como importantes para definir as diretrizes de funcionamento das regulações e sua aceitação pelos países, assim como o sistema eleitoral (proporcional ou majoritário) e os determinantes políticos.</p>
-<p>A proposta da governança corporativa, segundo Todd (2010) é dirigir e controlar as atividades de uma organização pelo estabelecimento de estruturas, regras e procedimentos para a tomada de decisão. Contudo, a busca por melhores práticas de governança corporativa pode ser equivocada, exceto quando há uma relação de causa-efeito entre os procedimentos especificados e os resultados desejados pela companhia.</p>
-<p>O <em>framework</em> do ACG – Aspirational Corporate Governance sugere princípios gerais, aplicáveis a qualquer organização, porém seu foco é em grandes empresas com negociação pública de ações. A maiorias das empresas aceitas as melhores práticas sugeridas pelo ACG por proteger os interesses dos acionistas e procurar maximizar o valor de seus papéis no longo prazo. Mesmo assim, Todd (2010) revela não haver uma associação entre governança e a performance das empresas. Outras entidades também emitem seus guias para melhores práticas de governança, tais como a Associação Nacional dos Diretores Corporativos (NACD) e a Organização para Cooperação e Desenvolvimento Econômico (OECD). Independente do órgão, as práticas sugeridas convergem ao ponto principal da governança corporativa: reduzir o conflito de agência.</p>
-<p>A ocorrência de crises econômicas sempre existirá dadas as suas múltiplas causas. O fortalecimento das relações entre os agentes econômicos possivelmente iniba a repetição de casos extremos na economia. A rigor, os problemas econômicos são tratados como problemas gerais e não endógenos. A proliferação de aspectos endógenos negativos como más condutas da gestão, utilidade dos agentes e ausência de prestações de contas responsável por bolhas econômicas e descrédito no mercado.</p>
-<p>A qualificação da relação entre a empresa e todos seus stakeholders contribui tanto para a continuidade da empresa como para a permanência da companhia no mercado. A clareza das relações leva o mercado para um patamar viável sob o ponto de vista capitalista.</p>
-<p>O capitalismo com vista a todo o portfólio de agentes contratantes da firma é salutar para economia. A adoção das melhores práticas de governança corporativa conduz a empresa à redução do conflito de agência e a melhor relação com seus agentes.</p>
-<p>É importante, todavia, observa o ambiente no qual a empresa está inserida. Uma economia baseada no sistema bancário é diferente de uma economia baseada em mercados essencialmente pelo usuário ao qual a empresa busca manter relação informacional mais direta. Uma economia baseada em mercados direciona seus esforços ao investido, enquanto quando baseada no sistema bancário há um controle maior do setor privado e acesso a informações privilegiadas, contribuindo para ganhos acima da média e para a ineficiência do mercado.</p>
-<p>Todo o arcabouço teórico da governança corporativa disciplina formas para se reduzir o conflito de agência e alinhar todos os objetivos ao da empresa. Embora pareça óbvio ou de fácil aplicação, a governança corporativa invoca a condução de políticas efetivas e requer o envolvimento da alta gestão na inclusão das devidas rotinas no planejamento estratégico das empresas.</p>
-<p>A governança corporativa é, portanto, um instrumento importante para a economia ao propor a qualificação das relações contratuais da firma. Ao mesmo tempo trata-se de uma percepção de mercado e não individual. O ambiente no qual a concorrência se estabelece pode ditar a viabilidade de boas práticas de governança corporativa.</p>
-<hr>
-<p>Andrade, A. &amp; Rossetti, J. P. (2009). <em>Governança Corporativa: fundamentos, desenvolvimento e tendências</em> (4a ed.). São Paulo: Atlas.</p>
-<p>Baker, H. K. &amp; Anderson, R. (2010). An Overview of Corporate Governance. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 1, pp.&nbsp;3-18). New Jersey: Wiley.</p>
-<p>Mitchell, L. E. &amp; Mitchell, D. T. (2010). The Financial Determinants of American Corporate Governance: A Brief History. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 2, pp.&nbsp;19-36). New Jersey: Wiley.</p>
-<p>Andres, C., Betzer, A., Goergen, M., &amp; Metzger, D. (2010). Corporate governance systems. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 3, pp.&nbsp;37-56). New Jersey: Wiley.</p>
-<p>Todd, A. (2010). Corporate governance best practices. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 4, pp.&nbsp;57-78). New Jersey: Wiley.</p>
-<hr>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
-  <category>Finanças</category>
-  <category>Governança</category>
-  <guid>https://contabilidados.github.io/posts/finance/governancaCorporativa/governancaCorporativa.html</guid>
-  <pubDate>Thu, 21 Jan 2021 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/finance/governancaCorporativa/governancaCorporativa.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>

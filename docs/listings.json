@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/contabil/cpcVersusReceita/cpcVersusReceita.html",
       "/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html",
       "/posts/dados/instalacntdd/instalacntdd.html",
       "/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html",
@@ -46,6 +47,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/contabil/cpcVersusReceita/cpcVersusReceita.html",
       "/posts/contabil/qualidadeInformacao/qualidadeInformacao.html",
       "/posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html",
       "/posts/contabil/valueRelevance/valueRelevance.html",
