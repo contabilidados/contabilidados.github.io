@@ -1,5 +1,5 @@
 ---
-title: "Por que o Coiote é o Mascote Perfeito para o Projeto de Pesquisa Contabilidados"
+title: "O Coiote como Mascote Ideal para o Projeto Contabilidados"
 subtitle: "Resenha"
 author: 
   - name: "Kléber Formiga"
