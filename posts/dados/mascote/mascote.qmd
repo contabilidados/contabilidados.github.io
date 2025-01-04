@@ -1,0 +1,75 @@
+---
+title: "Por que o Coiote é o Mascote Perfeito para o Projeto de Pesquisa Contabilidados"
+subtitle: "Resenha"
+author: "Kléber Formiga"
+description: |
+  Descubra por que o Coiote é o mascote perfeito para o Projeto
+  contabiliDados, simbolizando criatividade, resiliência e
+  inovação em pesquisas de dados contábeis.
+categories:
+- cntdd
+date: 2025-01-03
+toc: true
+image: "mascote.jpg"
+editor: 
+  markdown: 
+    wrap: 80
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+```{=html}
+<style> body {text-align: justify} </style>
+
+<style>
+.image-left {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.text-wrapper {
+  overflow: hidden;
+}
+</style>
+
+```
+
+<div class="text-wrapper">
+  ![](mascote.jpg "Logo"){class="image-left" width="245"}
+  No universo acadêmico e científico, escolher um mascote para representar um grupo de pesquisa é mais do que apenas uma decisão estética ou divertida. A escolha deve refletir valores, objetivos e características que traduzam a essência do trabalho desenvolvido. No caso do **Projeto de Pesquisa contabiliDados**, que foca na análise de dados contábeis, o **Coiote** é uma escolha criativa, simbólica e surpreendentemente alinhada com o contexto acadêmico. Inspirado na infância de seus idealizadores, o projeto encontrou no Coiote dos Looney Tunes um símbolo perfeito, com características que refletem e representam o espírito e os valores que orientam sua missão.
+
+**Persistência e Resiliência**: O Coiote é famoso por sua determinação em alcançar suas metas, mesmo diante de falhas repetidas. Quem nunca assistiu às suas aventuras com o Papa-Léguas, onde ele tenta – e falha – inúmeras vezes, mas nunca desiste?
+
+Essa característica é um reflexo direto do trabalho em análise de dados contábeis. Pesquisadores enfrentam desafios complexos, como bases de dados imensas, inconsistências nos registros e hipóteses que nem sempre se confirmam. Persistir, ajustar estratégias e tentar novamente são práticas comuns e indispensáveis. Assim como o Coiote, o grupo contabiliDados compreende que *o fracasso é uma etapa natural no caminho para o sucesso*.
+
+**Capacidade de Resolver Problemas**: O Coiote é uma figura que exala criatividade. Apesar de suas engenhocas nem sempre funcionarem, ele nunca deixa de inventar soluções inovadoras para capturar seu objetivo.
+
+Da mesma forma, em pesquisa acadêmica, a capacidade de inovar é vital. Muitas vezes, ferramentas prontas não atendem às necessidades específicas, exigindo adaptações ou a criação de novas abordagens analíticas. O espírito inventivo do Coiote representa essa busca constante por soluções, mesmo que, inicialmente, elas não sejam perfeitas.  
+
+**Uso de Ferramentas: A Versão Acadêmica das Engenhocas ACME**: O Coiote não trabalha sozinho. Ele recorre frequentemente às ferramentas da ACME para implementar suas estratégias. No mundo da pesquisa contábil, essas "engenhocas" são substituídas por softwares e linguagens de programação como **Python**, **R**, **Excel** e plataformas de modelagem de dados.
+
+Essas ferramentas são essenciais para lidar com os desafios de organizar, limpar, processar e interpretar dados. A dependência do Coiote em suas engenhocas reflete o papel central da tecnologia no trabalho do grupo de pesquisa, destacando que o sucesso depende tanto da engenhosidade humana quanto do uso eficaz das ferramentas disponíveis.
+
+**Capacidade de Aprendizado**: Ao longo de suas tentativas, o Coiote está sempre aprendendo. Ele analisa o que deu errado, ajusta suas estratégias e refina seus métodos. Esse ciclo de tentativa, erro e melhoria contínua é a base do processo científico.  
+
+Na análise de dados contábeis, cada iteração traz novos aprendizados. Um modelo estatístico pode não se adequar inicialmente, mas ajustes, reformulações e novas perspectivas acabam levando ao avanço. Essa característica do Coiote é um lembrete de que a evolução científica acontece através de pequenos passos que se acumulam. Na caminhada, os erros são tão valiosos quanto os acertos.  
+
+**Senso de Humor**: Um dos aspectos mais marcantes do Coiote é o humor que permeia suas aventuras. Mesmo em situações adversas, ele consegue arrancar risadas, mantendo um tom leve em meio às dificuldades.  
+
+Esse senso de humor é essencial em um ambiente acadêmico. A pressão por resultados, prazos apertados e os desafios diários podem ser desgastantes. Incorporar leveza ao trabalho ajuda a construir um ambiente colaborativo, descontraído e produtivo. O Coiote simboliza essa habilidade de encarar problemas com seriedade, mas sem perder a capacidade de rir e seguir em frente.  
+
+---
+
+No contexto do **Projeto contabiliDados**, o Coiote vai além de ser um mascote divertido. Ele encapsula valores essenciais para o trabalho acadêmico: esforço incansável, inovação criativa, aprendizado constante e um toque de leveza.  
+
+Adotar o Coiote como símbolo reforça a mensagem de que a ciência é feita de tentativa e erro, de desafios e superações. Ele inspira os membros do grupo a enfrentar obstáculos com determinação, adaptabilidade e, acima de tudo, criatividade – elementos que são o coração de qualquer pesquisa bem-sucedida.  
+
+Assim, o Coiote deixa de ser apenas um personagem e se torna uma metáfora viva para o espírito do contabiliDados, unindo ciência, humor e esforço em um só símbolo.  
+
+---
+
+*That's all Folks!*
+
+</div>

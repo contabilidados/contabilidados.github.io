@@ -9,8 +9,51 @@
 <link>https://contabilidados.github.io/</link>
 <atom:link href="https://contabilidados.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.555</generator>
-<lastBuildDate>Thu, 20 Jun 2024 03:00:00 GMT</lastBuildDate>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Fri, 03 Jan 2025 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Por que o Coiote é o Mascote Perfeito para o Projeto de Pesquisa Contabilidados</title>
+  <dc:creator>Kléber Formiga</dc:creator>
+  <link>https://contabilidados.github.io/posts/dados/mascote/mascote.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<style>
+.image-left {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.text-wrapper {
+  overflow: hidden;
+}
+</style>
+<div class="text-wrapper">
+<p><img src="https://contabilidados.github.io/posts/dados/mascote/mascote.jpg" title="Logo" class="image-left img-fluid" width="245"> No universo acadêmico e científico, escolher um mascote para representar um grupo de pesquisa é mais do que apenas uma decisão estética ou divertida. A escolha deve refletir valores, objetivos e características que traduzam a essência do trabalho desenvolvido. No caso do <strong>Projeto de Pesquisa contabiliDados</strong>, que foca na análise de dados contábeis, o <strong>Coiote</strong> é uma escolha criativa, simbólica e surpreendentemente alinhada com o contexto acadêmico. Inspirado na infância de seus idealizadores, o projeto encontrou no Coiote dos Looney Tunes um símbolo perfeito, com características que refletem e representam o espírito e os valores que orientam sua missão.</p>
+<p><strong>Persistência e Resiliência</strong>: O Coiote é famoso por sua determinação em alcançar suas metas, mesmo diante de falhas repetidas. Quem nunca assistiu às suas aventuras com o Papa-Léguas, onde ele tenta – e falha – inúmeras vezes, mas nunca desiste?</p>
+<p>Essa característica é um reflexo direto do trabalho em análise de dados contábeis. Pesquisadores enfrentam desafios complexos, como bases de dados imensas, inconsistências nos registros e hipóteses que nem sempre se confirmam. Persistir, ajustar estratégias e tentar novamente são práticas comuns e indispensáveis. Assim como o Coiote, o grupo contabiliDados compreende que <em>o fracasso é uma etapa natural no caminho para o sucesso</em>.</p>
+<p><strong>Capacidade de Resolver Problemas</strong>: O Coiote é uma figura que exala criatividade. Apesar de suas engenhocas nem sempre funcionarem, ele nunca deixa de inventar soluções inovadoras para capturar seu objetivo.</p>
+<p>Da mesma forma, em pesquisa acadêmica, a capacidade de inovar é vital. Muitas vezes, ferramentas prontas não atendem às necessidades específicas, exigindo adaptações ou a criação de novas abordagens analíticas. O espírito inventivo do Coiote representa essa busca constante por soluções, mesmo que, inicialmente, elas não sejam perfeitas.</p>
+<p><strong>Uso de Ferramentas: A Versão Acadêmica das Engenhocas ACME</strong>: O Coiote não trabalha sozinho. Ele recorre frequentemente às ferramentas da ACME para implementar suas estratégias. No mundo da pesquisa contábil, essas “engenhocas” são substituídas por softwares e linguagens de programação como <strong>Python</strong>, <strong>R</strong>, <strong>Excel</strong> e plataformas de modelagem de dados.</p>
+<p>Essas ferramentas são essenciais para lidar com os desafios de organizar, limpar, processar e interpretar dados. A dependência do Coiote em suas engenhocas reflete o papel central da tecnologia no trabalho do grupo de pesquisa, destacando que o sucesso depende tanto da engenhosidade humana quanto do uso eficaz das ferramentas disponíveis.</p>
+<p><strong>Capacidade de Aprendizado</strong>: Ao longo de suas tentativas, o Coiote está sempre aprendendo. Ele analisa o que deu errado, ajusta suas estratégias e refina seus métodos. Esse ciclo de tentativa, erro e melhoria contínua é a base do processo científico.</p>
+<p>Na análise de dados contábeis, cada iteração traz novos aprendizados. Um modelo estatístico pode não se adequar inicialmente, mas ajustes, reformulações e novas perspectivas acabam levando ao avanço. Essa característica do Coiote é um lembrete de que a evolução científica acontece através de pequenos passos que se acumulam. Na caminhada, os erros são tão valiosos quanto os acertos.</p>
+<p><strong>Senso de Humor</strong>: Um dos aspectos mais marcantes do Coiote é o humor que permeia suas aventuras. Mesmo em situações adversas, ele consegue arrancar risadas, mantendo um tom leve em meio às dificuldades.</p>
+<p>Esse senso de humor é essencial em um ambiente acadêmico. A pressão por resultados, prazos apertados e os desafios diários podem ser desgastantes. Incorporar leveza ao trabalho ajuda a construir um ambiente colaborativo, descontraído e produtivo. O Coiote simboliza essa habilidade de encarar problemas com seriedade, mas sem perder a capacidade de rir e seguir em frente.</p>
+<hr>
+<p>No contexto do <strong>Projeto contabiliDados</strong>, o Coiote vai além de ser um mascote divertido. Ele encapsula valores essenciais para o trabalho acadêmico: esforço incansável, inovação criativa, aprendizado constante e um toque de leveza.</p>
+<p>Adotar o Coiote como símbolo reforça a mensagem de que a ciência é feita de tentativa e erro, de desafios e superações. Ele inspira os membros do grupo a enfrentar obstáculos com determinação, adaptabilidade e, acima de tudo, criatividade – elementos que são o coração de qualquer pesquisa bem-sucedida.</p>
+<p>Assim, o Coiote deixa de ser apenas um personagem e se torna uma metáfora viva para o espírito do contabiliDados, unindo ciência, humor e esforço em um só símbolo.</p>
+<hr>
+<p><em>That’s all Folks!</em></p>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>cntdd</category>
+  <guid>https://contabilidados.github.io/posts/dados/mascote/mascote.html</guid>
+  <pubDate>Fri, 03 Jan 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/dados/mascote/mascote.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Conflitos entre IFRS/CPC e Normas Fiscais da Receita Federal</title>
   <dc:creator>Alexsandro Prado</dc:creator>
@@ -40,7 +83,6 @@
 <p>As divergências entre as normas IFRS/CPC e as normas fiscais da Receita Federal do Brasil refletem diferentes objetivos e princípios subjacentes às regulamentações contábeis e fiscais. Enquanto as IFRS/CPC visam fornecer uma visão econômica mais precisa e transparente das demonstrações financeiras, as normas fiscais são focadas na arrecadação de impostos e na conformidade tributária. É crucial para os profissionais contábeis entenderem essas diferenças e gerenciar as implicações práticas e regulatórias de cada situação. A harmonização e a conciliação entre essas normas permanecem um desafio contínuo para assegurar a precisão e a conformidade tanto nas demonstrações financeiras quanto nas apurações fiscais.</p>
 </section><section id="referências" class="level2"><h2 class="anchored" data-anchor-id="referências">Referências</h2>
 <div class="left-aligned">
-
 <p>BRASIL. Lei nº 12.973, de 13 de maio de 2014. Disponível em: http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2014/Lei/L12973.htm. Acesso em: 20 jun. 2024.</p>
 <p>BRASIL. Lei nº 9.249, de 26 de dezembro de 1995. Disponível em: http://www.planalto.gov.br/ccivil_03/leis/L9249.htm. Acesso em: 20 jun. 2024.</p>
 <p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 04 – Ativo Intangível. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=9. Acesso em: 20 jun. 2024.</p>
@@ -85,605 +127,9 @@
 <div>
 
 
-
-
-
-
-
-
- <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copiada");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copiada");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
-      });
-    }
-  }
-});
-</script><script src="https://giscus.app/client.js" data-repo="contabilidados/blog" data-repo-id="R_kgDOI9xlkQ" data-category="General" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
-</script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
-</div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>contabiliDados usou <a href="https://quarto.org/">Quarto</a>, basedo em <a href="https://beamilz.com/">BeaMilz</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
 </div>
-    <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-<li class="nav-item compact">
-    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
-      <i class="bi bi-youtube">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://www.instagram.com/contabilidados">
-      <i class="bi bi-instagram">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="mailto:contabilidados@ufersa.edu.br">
-      <i class="bi bi-envelope">
-</i> 
-    </a>
-  </li>  
-</ul>
 </div>
-  </div>
-</footer>
-</div></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+</section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>Contabilidade</category>
   <category>Teoria</category>
   <guid>https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.html</guid>
@@ -791,6 +237,7 @@ background-color: null;
 font-style: inherit;"># Carregar o pacote devtools</span></span>
 <span><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="va" style="color: #111111;
@@ -821,6 +268,7 @@ background-color: null;
 font-style: inherit;"># Carregar o pacote cntdd</span></span>
 <span><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="va" style="color: #111111;
@@ -874,6 +322,7 @@ font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/dt_contabil.html">d
 <div class="cell" data-layout-align="center">
 <div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="va" style="color: #111111;
@@ -1506,49 +955,6 @@ Materiais
   <guid>https://contabilidados.github.io/posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html</guid>
   <pubDate>Fri, 19 Feb 2021 03:00:00 GMT</pubDate>
   <media:content url="https://contabilidados.github.io/posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.png" medium="image" type="image/png" height="144" width="144"/>
-</item>
-<item>
-  <title>Governança Corporativa: Sinalização</title>
-  <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html</link>
-  <description><![CDATA[ <style> body {text-align: justify} </style>
-<p><img src="https://contabilidados.github.io/posts/finance/governancaCorporativaSinalizacao/GovernancaDesempenho.png" class="img-fluid"></p>
-<p>As empresas sinalizam a sua adoção de práticas de governança corporativa para atrair investidores na expectativa de obter ganhos econômicos. Contudo, o resultado econômico, uma medida da eficiência da gestão, pode não ser o único interesse das partes interessadas na firma. Investidores e governos podem ter outras preocupações, como a diligência, boa-fé, honestidade, transparência e prestação de contas dos detentores do poder. Dessa forma, é viável criar expectativas positivas quando o poder corporativo é exercido por conselheiros, diretores, acionistas dominantes, e em algumas situações as partes interessadas, tais como sindicatos, banqueiros, grandes fornecedores e / ou clientes.</p>
-<p>Turnbull (2010) define a boa governança, em termos práticos, como a capacidade de as empresas atingirem eficazmente o seu propósito, minimizando os envolvimentos legais ou regulatórios, protegendo e promovendo os interesses das partes interessadas na empresa e da sociedade em geral. Torna-se uma forma de enriquecer a governança da sociedade, permitindo às partes interessadas obterem as informações, vontade e poder para proteger e promover seus interesses. Trata da participação de um sistema político, cuja finalidade é definir como o poder é distribuído e exercido na sociedade.</p>
-<p>A Governança Corporativa é o conjunto de processos imbuídos em garantir uma remuneração justa ao investimento. Para tal, foca no problema de agência para o qual surge quando os proprietários delegam o controle da companhia a outrem, propiciando interesses adversos entre o proprietário e seu contratado. As regras corporativas para mitigar esses problemas fornecem uma estrutura de organização para facilitar a relação entre os agentes, onde os gestores são incentivados a agir em consonância com o interesse dos acionistas. Alguns desses instrumentos são conselho de administração, reuniões de acionistas e de votação e remuneração de executivos. (Bhagat, Bolton, &amp; Romano, 2010).</p>
-<p>O país onde a governança corporativa é implementada também influencia na sua eficácia ou melhor utilização. Para Denis (2010), alguns fatores influenciam a diferença sistemática entre países tais como o sistema legal, o grau de proteção do investidor, questões cultuais e sociais. Os sistemas de governança dos países, tanto afetam como são afetados por níveis de desenvolvimento econômico e financeiro de cada país, além de seus graus de investimento e níveis de globalização.</p>
-<p>De fato, a adoção de práticas de governança é interessante e, ao mesmo tempo, controversa. Alguns procedimentos simples, em teoria, são de difícil aplicabilidade por esbarrar no comportamento humano e na tradição empresarial do lucro pelo lucro. Portanto, serão discutidas possíveis falhas nessas práticas, seja de ordem teórica ou prática. A incerteza quanto a relação direta entre a governança corporativa e o desempenho das empresas também será abordada nesse <em>position paper</em> e, por fim, apresentados as potenciais linhas de pesquisas sobre governança a serem realizadas.</p>
-<p>A gestão empresarial é norteada pelos objetivos traçados pelas empresas em prol de sua continuidade. Além do lucro, as empresas se prestam a atender demandas de outros usuários como clientes, fornecedores, governo, etc., como forma de se destacar das demais e gerar valor ao acionista. A estratégia empresarial deve reconhecer e atender esse emaranhado de interesses além da expectativa legal, afinal de contas a continuidade da empresa depende desses parceiros. Essa atitude é definida por Turnbull (2010) como “boa governança”.</p>
-<p>Assim, a definição de boa governança pode ser a eficácia das empresas em atingir seus propósitos, minimizando o envolvimento legal e promovendo o interesse de todas as partes interessadas, inclusive a sociedade em geral. A boa governança corporativa torna-se uma forma de enriquecer a governança da sociedade, permitindo acesso às informações necessárias a tomada de decisão de todos e distribuindo o poder de forma equânime para atendimento igualitário de direitos.</p>
-<p>A separação entre o proprietário e gestor promoveu a necessidade de monitoramento de ações no intuito de avaliar o alinhamento de interesses entre ambos. Eventualmente (ou humanamente natural), o gestor iria satisfazer sua utilidade em detrimento dos objetivos empresariais. Ao transacionar no mercado a empresa incorre, portanto em custos denominados de custos de transação.</p>
-<p>O desenvolvimento sustentável das empresas precisa de uma explicação sobre o a existência da empresa e como criar uma estrutura sustentavelmente eficaz. Na teoria dos custos de transação de Williamson, esses custos são socialmente desenvolvidos, mas difíceis de identificar e medir sem antes lançar suposições sobre as relativas contribuições desses nos custos fixos e variáveis. A prática de governança, para ser viável, deve propor custos de monitoramento suficientemente baixos para não prejudicar o resultado da empresa.</p>
-<p>A adoção das melhores práticas sugere haver melhoria nos resultados das empresas, contudo, essa relação não é confirmada empiricamente e as práticas adotadas podem ser utilizadas para sinalizar algo positivo ao mercado, mas sem praticá-las efetivamente. Turnbull (2010) alerta para o fato de muitos fundos de investimento tomarem decisões por diversos investidores de fato. Os interesses dessas entidades de investimento podem conflitar com os interesses dos investidores pessoais e da sociedade.</p>
-<p>Constitui-se, no contexto apontado por Turnbull (2010) um ambiente suscetível a falhas interesses mais amplos são colocados em pauta. A realidade dos poderosos permaneceria inalterada. Até mesmo a independência da auditoria pode ser questionada, pois a presidência da comissão de auditoria, geralmente alcançada por executivos diretos, pode ter interesses privados, mas não os assume. As regras impostas podem não alcançar todas as facetas utilizadas para utilização de meios escusos aos interesses das empresas.</p>
-<p>A preferência seria a punição da gestão quando houvesse falhas na condução das estratégias definidas, observado o ambiente da empresa, pois não há como aplicar melhores práticas em ambientes falhos. Momentos de crise, entretanto, contribuem para reflexão de melhorias futuras nas práticas de governança. (Turnbull, 2010).</p>
-<p>As dificuldades apresentadas por Turnbull (2010) parecem lógicas, mas a ocorrências de crises decorrentes de falta de informações válidas retoma a necessidade de normas cada vez mais eficazes no combate aos conflitos nas relações contratuais. O desempenho da firma deve ser revelado com a clareza e objetividade. Todas as nuances envolvendo os resultados presente e futuro das empresas devem ser divulgados, reduzindo as chances de falhas nos processos de escolhas de investimentos.</p>
-<p>De acordo com Bhagat <em>et al</em>. (2010), apesar da crença generalizada na importância dos mecanismos de governança para a resolução de problemas de agência, a literatura empírica sobre o efeito dos mecanismos de governança corporativa no desempenho das empresas não identificou efeitos positivos. Tem havido inúmeros estudos examinando o impacto da composição do conselho no desempenho. Da mesma forma, a maioria dos estudos interessados em medir o impacto da ação ativa dos acionistas no desempenho também não encontram relação. Diversas outras proxies são utilizadas para tentar chegar a uma relação entre governança e desempenho, mas não foram exitosas. A exceção está nos estudos interessados na relação entre direitos de voto e desempenho. Nessas pesquisas foram encontradas relações significantes e positivas entre as variáveis.</p>
-<p>O desafio das pesquisas sobre governança é o fato de a assimetria de informações entre os agentes acontecer em nível da firma. Mensurar o comportamento gerencial ou a habilidade de quem conduz a gestão da empresa não constitui tarefa fácil e relacionar essa variável com o desempenho apoia negativamente esse cenário. Tanto as ações de governança quanto o desempenho são endógenos. Além do mais, o desempenho relatado pelas empresas não é decorrente das ações gerenciais do mesmo período. Dificilmente acontecerão concomitantemente, indicando haver outro obstáculo na relação governança-desempenho qual seja o momento da causalidade entre ambos.</p>
-<p>Esses percalços metodológicos evidenciam, todavia, a dificuldade de se relacionar empiricamente essas duas variáveis. Do ponto de vista teórico é bastante razoável relacioná-las, afinal espera-se da parte contratante menos favorecida de informação sempre um sinal positivo quando se demonstra transparência e responsabilidade na relação.</p>
-<p>Então, quais são os mecanismos protetores do retorno adequado aos acionistas, considerando a possibilidade de sua expropriação pelos controladores dos ativos da corporação? Esse questionamento, levantado por Denis (2010) reflete a expectativa da relação entre atitudes de governança e o desempenho das empresas.</p>
-<p>Para Denis (2010), a primeira geração de pesquisas sobre governança corporativa inclui mecanismos internos, como o conselho de administração, os planos de remuneração de executivos e a estrutura de propriedade como resposta ao questionamento. Já a segunda geração inclui o sistema jurídico dos países, o grau de proteção legal do investidor, além de fatores culturais e sociais.</p>
-<p>A pesquisa internacional sobre governança corporativa, até o presente momento, fornece muita informação sobre o porquê e como as empresas empregam vários mecanismos de governança e a sua eficácia nos sistemas conhecidos pela empresa. Para Denis (2010) duas questões surgem: qual o direcionamento futuro da governança corporativa e onde deve ser comandado? A adoção de regras comuns para mercados diferentes para não ser a forma mais viável de regulação.</p>
-<p>A emergência da governança corporativa deveu-se a fatores comportais inerentes ao homem. A busca pela maximização da utilidade do indivíduo permanece sendo o maior entrave para se entender a viabilidade de se implementar normas de governança nas empresas. Normalmente são dispendiosas e requerem um esforço conjunto para serem implementadas. Na ausência de maximização de utilidade, se esperariam empresas imbuídas em atender todas as exigências da outra parte relacionada e com interesse na firma – um comportamento inverso ao observado pelos meios acadêmico e profissional.</p>
-<p>O caráter endógeno e subjetivo da governança dificulta a realização de pesquisas preocupadas na sua relação com o desempenho das firmas. Os resultados negativos para sua grande maioria podem decorrer da mensuração das variáveis por meio de proxies. Medir comportamentos, atitudes e efeitos de regras não são em nada fácil de executar. Assim, toda a teoria fundamentadora da governança corporativa fica prejudicada, considerando os resultados empíricos ainda não a confirmarem.</p>
-<p>Portanto possíveis erros teóricos da governança ainda estão por serem refutados objetivamente. A regulação em torno desse tema deve progredir em níveis mais específicos. O comportamento de empresas, empresários e gestores em economias diversas podem diferir e a “receita” para reduzir o conflito de agência em determinado mercado pode não servir para outro. Os reguladores devem ficar atentos a todas as nuances comportamentais antes de emitir normas ou regulamentos e a academia deve permanecer na busca de determinantes para o desempenho da firma e, quem sabe, a governança possa ser um deles.</p>
-<hr>
-<p>Turnbull, C. S. S. (2010). What’s wrong with corporate governance best practices?. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 5, pp.&nbsp;79-96). New Jersey: Wiley.</p>
-<p>Bhagat, S., Bolton, B., &amp; Romano, R. (2010). The effect of corporate governance on performance. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 6, pp.&nbsp;97-122). New Jersey: Wiley.</p>
-<p>Denis, D. K. (2010). International corporate governance research. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 7, pp.&nbsp;123-140). New Jersey: Wiley.</p>
-<hr>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
-  <category>Finanças</category>
-  <category>Governança</category>
-  <guid>https://contabilidados.github.io/posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html</guid>
-  <pubDate>Sat, 13 Feb 2021 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/finance/governancaCorporativaSinalizacao/GovernancaDesempenho.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>

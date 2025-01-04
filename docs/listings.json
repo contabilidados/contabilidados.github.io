@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/dados/mascote/mascote.html",
       "/posts/contabil/cpcVersusReceita/cpcVersusReceita.html",
       "/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html",
       "/posts/dados/instalacntdd/instalacntdd.html",
@@ -81,6 +82,7 @@
       "/posts/finance/HME/HME.html",
       "/posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html",
       "/posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html",
+      "/posts/dados/mascote/mascote.html",
       "/posts/dados/instalacntdd/instalacntdd.html",
       "/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html"
     ]
