@@ -1,1 +1,9 @@
-CNAME
+_site/*
+_freeze/*
+*_cache/
+
+/.quarto/
+.Rproj.user
+.Rhistory
+/_*.local
+
