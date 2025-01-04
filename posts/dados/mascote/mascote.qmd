@@ -1,7 +1,10 @@
 ---
 title: "Por que o Coiote é o Mascote Perfeito para o Projeto de Pesquisa Contabilidados"
 subtitle: "Resenha"
-author: "Kléber Formiga"
+author: 
+  - name: "Kléber Formiga"
+  - name: "Alexsandro Prado"
+  - name: "Yuri Azevedo"
 description: |
   Descubra por que o Coiote é o mascote perfeito para o Projeto
   contabiliDados, simbolizando criatividade, resiliência e
