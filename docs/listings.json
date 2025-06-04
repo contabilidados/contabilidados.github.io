@@ -43,7 +43,9 @@
       "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
       "/eventos/economaticaR/economaticaR.html",
       "/eventos/treinamentoeconomatica/treinamentoeconomatica.html",
-      "/pacotes/indices/liquidezSeca/liqSeca.html"
+      "/pacotes/indices/liquidezSeca/liqSeca.html",
+      "/pacotes/stats/liquidezSeca/liqSeca.html",
+      "/pacotes/utils/liquidezSeca/liqSeca.html"
     ]
   },
   {
