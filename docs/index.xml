@@ -9,7 +9,7 @@
 <link>https://contabilidados.github.io/</link>
 <atom:link href="https://contabilidados.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.39</generator>
+<generator>quarto-1.6.43</generator>
 <lastBuildDate>Fri, 03 Jan 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>O Coiote como Mascote Ideal para o Projeto Contabilidados</title>
@@ -469,6 +469,29 @@ Materiais
   <media:content url="https://contabilidados.github.io/eventos/economaticaR/figs/economaticaR_2.png" medium="image" type="image/png" height="68" width="144"/>
 </item>
 <item>
+  <title>Análise de dados com R e Economatica</title>
+  <dc:creator>cntdd </dc:creator>
+  <link>https://contabilidados.github.io/eventos/treinamentoeconomatica/treinamentoeconomatica.html</link>
+  <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>Análise de Dados com R e Economatica<br><b>Link do evento:</b> <a href="https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo</a><br><b>Lugar: </b>Online<br><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="https://github.com/UFERSA3/contabilidados/raw/master/tutoriais/basicoR/basicoR.pdf" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Apostila</button></a> <a href="https://www.youtube.com/live/Bckx1xIqGto?feature=share" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 1</button></a> <a href="https://www.youtube.com/watch?v=7mgmchEo-1w" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 2</button></a> <br><br><img src="https://contabilidados.github.io/eventos/treinamentoeconomatica/figs/treinamentoeconomatica.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
+<p><br></p>
+<p>Essa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>R</category>
+  <category>Economatica</category>
+  <category>Análise de Dados</category>
+  <guid>https://contabilidados.github.io/eventos/treinamentoeconomatica/treinamentoeconomatica.html</guid>
+  <pubDate>Sat, 29 Oct 2022 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/eventos/treinamentoeconomatica/figs/treinamentoeconomatica.png" medium="image" type="image/png"/>
+</item>
+<item>
   <title>Política de Dividendos</title>
   <dc:creator>Kléber Formiga Miranda</dc:creator>
   <link>https://contabilidados.github.io/posts/finance/politicaDividendos/politicaDividendos.html</link>
@@ -912,51 +935,6 @@ Materiais
   <guid>https://contabilidados.github.io/posts/finance/modelosGovernanca/modelosGovernanca.html</guid>
   <pubDate>Wed, 03 Mar 2021 03:00:00 GMT</pubDate>
   <media:content url="https://contabilidados.github.io/posts/finance/modelosGovernanca/modelosGovernanca.png" medium="image" type="image/png" height="144" width="144"/>
-</item>
-<item>
-  <title>Remuneração e Desempenho</title>
-  <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html</link>
-  <description><![CDATA[ <style> body {text-align: justify} </style>
-<p><img src="https://contabilidados.github.io/posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.png" class="img-fluid"></p>
-<p>A separação entre propriedade e controle inaugura o momento no qual há a necessidade de contratar gestores profissionais para a condução dos negócios. Os proprietários, até então gestores de suas companhias, passaram a ter papel coadjuvante na execução das metas empresariais. Desse novo <em>design</em> de gestão revelou-se a figura do conflito de agência, caracterizado pela divergência entre os interesses dos proprietários e dos gestores quanto às decisões tomadas em prol dos resultados empresariais.</p>
-<p>O monitoramento da ação do gestor passou a ser incorporada aos custos empresariais sob a denominação de custos de agência. Contudo, verificou-se a impossibilidade de ter a real dimensão do trabalho desempenhado pela gestão ou definir com precisão a sua eficácia. As empresas passaram a remunerar os gestores com base na sua performance mensurada por meio da geração de valor à empresa. Dessa forma, os interesses do gestor e do acionista se alinhariam dentre de uma mesma perspectiva de retorno.</p>
-<p>O alinhamento de interesses com base no lucro (resultado) da empresa constituiu, portanto, o meio pelo qual o gestor atuaria para maximizar o valor do acionista ao mesmo tempo em que teria seus interesses resguardados. Quanto mais lucro a empresa apresentasse, maior seria a remuneração dos proprietários e gestores. Contudo, para Geiler e Renneboog (2010), o nível e composição da compensação da alta gestão, assim como o pagamento por performance, levantou questões sobre a eficácia dessa política.</p>
-<p>Algumas empresas contratam consultores de remunerações com o intuito de prestar suporte quanto a remuneração dos executivos. Por serem especialistas na área, auxiliam o conselho de administração no fornecimento de informações para reduzir os custos de agência, mensurando a melhor opção de remuneração para os executivos e oferecendo bem-estar aos investidores. (Conyon, 2010).</p>
-<p>A proximidade dos consultores com os gestores fomentou pesquisas sobre o valor da remuneração quando há proximidade entre gestor e consultor. Os resultados relatam possibilidade de assédio por parte dos gestores para melhorar sua remuneração. Dessa forma, observa-se outra forma de distanciamento da maximização do valor ao acionista. Outros aspectos como a participação acionária e o volume de negócios também influenciam a relação entre o desempenho do gestor e o da empresa.</p>
-<p>A remuneração de executivos tornou-se relevante quando a gestão da empresa passou a ser conduzida por gestores profissionais. O valor a ser atribuído à gestão permanece indefinido dada as dificuldades de se identificar a real utilidade dessa remuneração. Mesmo quando remunerados por meio do lucro, os gestores acabam monopolizando o ganho residual dos proprietários. A contratação de consultores para apoiar o conselho de administração também não se mostrou eficaz na otimização da remuneração da gestão. A discussão sobre a remuneração ótima ainda permanece em voga e podendo ser discutida pela ótica do valor da remuneração, da estrutura acionária e do volume de negócios.</p>
-<p>O ambiente propício para a remuneração ótima da gestão seria a existência de um mercado eficiente. Nesse caso, o gestor adotaria medidas para maximizar a riqueza do acionista. A política de pagamento é eficaz se estimula a tomada de decisão racional, focada na criação de valor para o acionista, além de impedir, ao mesmo tempo, a expropriação da renda dos proprietários pelos executivos.</p>
-<p>Contudo, o monitoramento das ações da gestão normalmente traz custos aos negócios, pois há uma tendência ao utilitarismo por parte do gestor. De acordo com a teoria da agência, o gestor tomará as decisões mais úteis para o seu bem-estar. Para reduzir o custo de monitoramento as empresas implementam políticas de compensação de curto prazo e longo prazo na tentativa de alinhar o interesse do gestor com o do acionista.</p>
-<p>Os pagamentos de curto prazo são caracterizados por remunerações com base na receita ou no lucro da empresa. Além do salário são oferecidas remunerações em forma de bônus pela obtenção de metas. Normalmente questionadas dada a possibilidade de manipulação dos números. Nos pagamentos de longo prazo os executivos são estimulados a se concentrar na criação de valor em prazos maiores, aumentando o seu risco. O uso de <em>stock options</em>, por exemplo, possuem limitações capazes de se desestimular o desempenho dos gestores. Nesses casos, executivos avessos ao risco exigem prêmio superior para aceitar o risco imposto pela política de remuneração. (Geiler &amp; Renneboog, 2010).</p>
-<p>Para Bhagat e Black (1999 como citado em Geiler &amp; Renneboog, 2010), alguns conselhos de administração, em especial os comitês de remuneração, provavelmente não sejam mecanismos de governança eficientes, pois um diretor sendo amigo do CEO (ou contratado por ele) teria menor propensão em criticar o nível de remuneração do CEO. Bertrand e Mullainathan (1999 como citado em Geiler &amp; Renneboog, 2010), descrevem esse cenário como a possibilidade de um CEO dominar a política da empresa e determinar a sua própria remuneração, capturando o lucro dos acionistas.</p>
-<p>Para evitar o favorecimento da política de remuneração pelo CEO, algumas empresas contratam consultores sob a perspectiva de reduzir a discricionariedade dos executivos sobre sua própria remuneração. De acordo com Conyon (2010), os consultores possuem conhecimento sobre as empresas e podem estabelecer uma política de remuneração melhor alinhada com os interesses dos acionistas. Considerando as quantias a serem pagas aos executivos, os comitês de remuneração legitimam o pagamento por meio da contratação de consultorias especializadas na definição desses valores. Dessa forma, a remuneração excessiva dos executivos seria evitada.</p>
-<p>Conyon (2010) estabelece alguns conflitos ao se adotar a contratação de consultores: a) as pressões psicológicas por estarem próximos à gestão (troca de presentes); b) o receio de perder negócios futuros ou renovações; e c) a presença de outras oportunidades de negócios lucrativos. Com esses prováveis conflitos, os consultores podem agir potencialmente em favor da gestão, em vez de acionistas. O comportamento oportunista do consultor esbarra, porém, na sua provável perda de reputação. Dificilmente uma empresa manipulada por gestores passa credibilidade ao mercado – esse fato pode chegar ao conhecimento do público.</p>
-<p>Resultados de pesquisas empíricas demonstram uma correlação positiva entre a remuneração do CEO e a presença de consultores. Esses resultados são conflitantes e passíveis de novas interpretações, especialmente pela robustez aplicada no método estatístico utilizado. Os governos americano e britânico adotaram o caminho da divulgação de informações quanto à remuneração de consultores e CEOs como mecanismo de inibição aos exageros de remuneração.</p>
-<p>Observa-se, no contexto apresentado, a dificuldade se estabelecer uma política de remuneração totalmente eficiente, capaz de alinhar o interesse dos gestores com os acionistas. McConnell, McKeon e Xu (2010) discutem a implicação da concentração de propriedade no desempenho da empresa.</p>
-<p>De acordo com McConnell <em>et al</em>. (2010), o pressuposto existente é da influência no valor corporativo pelos detentores de ações. Como em companhias de capital aberto a gestão é dissociada do controle, não haveria incentivos para os gestores utilizarem os recursos de forma eficiente sem a contrapartida proporcional aos resultados obtidos. Portanto, como a concentração acionária aproxima o controle da empresa dos investidores majoritários, há a possibilidade de melhor alinhamento nos interesses.</p>
-<p>Alguns estudos foram realizados no sentido de relacionar o percentual de participação por <em>insiders</em> e o desempenho das empresas. Com base no valor de reposição dos ativos no mercado (q de Tobin), Morck, Shleifer e Vishny (1988) e McConnell e Servaes (1990) observaram uma relação não-linear entre o valor corporativo e desempenho. Os resultados, entretanto, merecem cautela em sua análise. Uma análise mais forte sobre os resultados indica a existência do ‘efeito entricheiramento’, referente a concentração de poder e gestão nas mãos dos acionistas controladores. Nesse caso, o acionista minoritário é preterido nas decisões. A relação participação acionária e desempenho tem relação inversa com o efeito entricheiramento, pois, em níveis mais elevados, o efeito entrincheiramento provocar redução no valor corporativo enquanto o poder gerencial aumenta. (McConnell <em>et al</em>., 2010)</p>
-<p>A divergência entre gestores e acionistas passa a acontecer em nível de acionistas majoritários e minoritários. O poder de decisão dos minoritários é irrelevante comparado aos controladores, provocando um acúmulo de discricionariedade em poder de poucos. O poder antes delegados a gestores é assumido pelos controladores, capazes de determinar sua própria remuneração.</p>
-<p>McConnell <em>et al</em>. (2010) relatam diversos estudos interessados na formação de uma estrutura de propriedade ótima. Os resultados alimentam vertentes diferentes quanto a existência ou não dessa estrutura ótima. Os trabalhos convergentes com a existência de uma estrutura ótima sinalizam o arranjo endógeno influenciado pelo ambiente no qual a empresa opera. Nessa ótica, cada empresa otimiza sua estrutura dado o seu ambiente de contratação particular. Quanto aos estudos com indicativos de inexistência de uma estrutura de propriedade ótima, afirmam haver uma propensão em aumentar a participação acionária quando houver acrescimento de valor.</p>
-<p>Por fim, Huson e Parrino (2010) acrescentam a discussão quanto a substituição do gestor por conveniência da empresa. Nesses casos, o gestor seria utilizado como “bode expiatório” para sinalizar ao mercado a chegada de um novo gestor capaz de conduzir os novos negócios. O <em>turnover</em> de executivos já é visto pela acadêmica desde a década de 80, sob a premissa de exigência de um substituto com qualidade superior ao antecessor e custos de desligamento do anterior compatíveis com o retorno esperado.</p>
-<p>A remuneração de executivos permanece sendo uma incógnita para as empresas. Se por um lado uma remuneração atrativa é ideal para alinhar os interesses dos gestores aos dos acionistas, do outro há a fuga de ganhos dos acionistas quando essa remuneração é excessiva. Buscar uma remuneração justa é uma tarefa difícil, dada a ampliação da utilidade por cada agente. A contratação de consultorias para definição da remuneração dos executivos acaba passando pelo problema de proximidade entre o CEO e a decisão de remuneração.</p>
-<p>No meio da discussão sobre a remuneração dos executivos e dos acionistas está a continuidade da empresa, cujo desempenho pode ser prejudicado pela expropriação de capital por meio de remunerações excessivas. Ao aproximar o controle da empresa com os acionistas majoritários ocorrem problemas de outra natureza: a expropriação do direito dos minoritários. A empresa acaba perdendo valor ou tendo desempenhos mais tímidos pelo acúmulo de ganhos pelos acionistas dominantes.</p>
-<p>A falta de associação entre o percentual de propriedade e o desempenho da empresa é retratado como possível falha na métrica de análise ou na dificuldade de identificação da real intenção dos acionistas. Contudo é possível propor uma relação inversa como alguns estudos indicam, nos quais a empresa perde valor quando o capital e o controle são concentrados.</p>
-<p>Por fim, é salutar a ampliação e estudos nessa área preocupados com o ganho sob a ótica da empresa em cumprimento do seu papel social. O conflito de interesses em nível de gestor-acionistas ou majoritários-minoritários contribuem negativamente para a continuidade da empresa. A implantação de princípios de governança nas empresas pode contribuir para o alinhamento de interesses entre gestores, acionistas majoritários, acionistas minoritários, sociedade e demais partes interessadas na firma.</p>
-<hr>
-<p>Conyon, M. J. (2010). Compensation consultants and executive pay. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 15, pp.&nbsp;285-302). New Jersey: Wiley.</p>
-<p>Geiler, P. &amp; Renneboog, L. (2010). Executive compensation: incentives and externalities. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 14, pp.&nbsp;263-283). New Jersey: Wiley.</p>
-<p>Huson, M. R. &amp; Parrino, R. (2010). The effects of management turnover on firm performance. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 17, pp.&nbsp;323-345). New Jersey: Wiley.</p>
-<p>McConnell, J. J., McKeon, S. B., &amp; Xu, W. (2010). Corporate governance and ownership structure. In H. K. Baker &amp; R. Anderson (Eds.). <em>Corporate governance: a synthesis of theory, research, and practice</em> (Chap. 16, pp.&nbsp;303-322). New Jersey: Wiley.</p>
-<hr>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
-  <category>Finanças</category>
-  <category>Remuneração</category>
-  <guid>https://contabilidados.github.io/posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html</guid>
-  <pubDate>Fri, 19 Feb 2021 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>
