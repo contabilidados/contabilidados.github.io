@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  favicon: icon.png
+  # favicon: icon.png
   page-navigation: true
   back-to-top-navigation: true
   title: "contabiliDados"
