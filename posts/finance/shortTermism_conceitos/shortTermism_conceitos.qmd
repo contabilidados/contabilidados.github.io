@@ -1,0 +1,37 @@
+---
+title: "Short-termism: reflexões sobre o impacto do horizonte de investimento curto nas decisões corporativas"
+subtitle: "Post"
+author: "Kléber Formiga Miranda"
+categories:
+  - Short-Termism
+  - Finanças
+  - Governança
+date: 2025-10-27
+toc: true
+image: "shortTermism_conceitos.PNG"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+```{=html}
+<style> body {text-align: justify} </style>
+```
+![](shortTermism_conceitos.png){fig-align="center" width="403"}
+
+
+Ao longo da pesquisa para minha tese sobre o sentimento do investidor e o horizonte de investimento, observei como a orientação para resultados de curto prazo influencia as decisões estratégicas das empresas brasileiras listadas na B3. Durante o estudo, deparei-me com o termo *Short-Termism*, que pode ser traduzido literalmente como *curtoprazismo*. Esse conceito descreve a tendência de gestores adotarem decisões voltadas à maximização imediata do preço das ações, a fim de atender investidores com horizonte de curto prazo. Exemplos incluem a emissão de dívida de menor custo e o estímulo a investimentos de retorno rápido, ainda que essas práticas possam comprometer o valor fundamental no longo prazo. Essa reflexão foi desenvolvida com base no sentimento do investidor, considerando que empresas podem aproveitar momentos de otimismo no mercado para tomar decisões que satisfaçam os interesses dos *curtoprazistas*.
+
+Uma pesquisa recente que realizei, em parceria com o Prof. Márcio Machado, evidencia que empresas com investidores de curto prazo adotam práticas intensificadas de gerenciamento de resultados, ou seja, ajustes contábeis que podem distorcer a performance para sustentar o otimismo do mercado momentâneo. Isso reforça o entendimento de que o short-termism não é apenas um fenômeno teórico, mas uma realidade que impacta diretamente a transparência e a sustentabilidade dos resultados corporativos. [Acesse a pesquisa Aqui](https://doi.org/10.1108/JAAR-05-2023-0127){target="_blank"}.
+
+No entanto, é importante reconhecer que o short-termism também pode funcionar como um mecanismo de adaptação rápida das empresas a mudanças de mercado e à volatilidade econômica, permitindo agilidade na captação de recursos e na resposta a oportunidades emergentes. Há quem veja nesses ciclos curtos não apenas riscos, mas também potencial para inovação e ajuste dinâmico frente a contextos desafiadores.
+
+Como contador, costumo refletir sob a ótica de que as empresas devem manter o foco no longo prazo, já que o próprio conceito de ativo traz a ideia de que ele deve gerar benefícios futuros. Assim, o investimento leva um tempo até se converter em caixa efetivo para o investidor. Por outro lado, reconheço que a lógica de que os negócios e as decisões são altamente dinâmicos também me parece bastante plausível.
+
+Essa dualidade me leva a questionar:
+
+> Até que ponto o foco no curto prazo representa um problema estrutural ou, às vezes, uma resposta necessária às demandas dos mercados contemporâneos? E como as práticas de governança e a regulação podem equilibrar essa tensão para assegurar sustentabilidade sem tolher a flexibilidade empresarial?

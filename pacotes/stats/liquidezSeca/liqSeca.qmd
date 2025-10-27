@@ -2,7 +2,7 @@
 title: "Índice de Liquidez Seca"
 author: "Kléber"
 date: "2020-03-02"
-draft: true
+draft: false
 categories:
   - cntdd
   - Pacotes
@@ -29,7 +29,7 @@ Essa função calcula o Índice de Liquidez Seca baseado em vetores
 relativos às contas de ativo circulante e passivo circulante. Apresenta
 como resultado uma lista com 5 itens:
 
-1.  **Gráfico** se o parâmetro `plot` for `TRUE` ou `T`, mostra um
+1.  **Gráfico** se o parâmetro `relatorio` for `TRUE` ou `T`, mostra um
     gráfico com a evolução da Liquidez Seca da empresa durante os
     períodos. Se for `FALSE` ou `F`, o gráfico não é apresentado;
 
@@ -61,7 +61,7 @@ ind_liqSeca(
   dividasCP = c(30, 40),
   outPasCirc = c(10, 8),
   atvTotal = c(900, 800),
-  plot = T
+  relatorio = T
 )
 ```
 
@@ -79,7 +79,7 @@ ind_liqSeca(
 | `dividasCP`  | Vetor com os valores de empréstimos e financiamentos de curto prazo (Passivo Circulante) |
 | `outPasCirc` | Vetor com os valores de outros passivos circulantes (Passivo Circulante)                 |
 | `atvTotal`   | Vetor com os valores do Ativo Total                                                      |
-| `plot`       | Mostra gráfico? (TRUE/FALSE)                                                             |
+| `relatorio`       | Mostra gráfico? (TRUE/FALSE)                                                             |
 
 ### Detalhes
 
@@ -151,7 +151,7 @@ indicador foi `Liquidez Seca`. Os demais vetores correspondem aos
 valores das contas (3 valores) para cálculo do indicador. Também
 escolhemos que nessa análise deveria ser apresentado um gráfico do
 indicador, então atribuímos o valor `T` ou `TRUE` para o parâmetro
-`plot`.
+`relatorio`.
 
 ```{r, echo=TRUE}
 
@@ -166,7 +166,7 @@ fornec     = c(1200, 1400, 1600),
 dividasCP  = c(500, 200, 750),
 outPasCirc = c(30, 20, 40),
 atvTotal   = c(10000, 12000, 11000),
-plot = T)
+relatorio = T)
 
 ```
 
@@ -214,7 +214,7 @@ glimpse(dadosAlpha)
 
 Agora vamos rodar a função `ind_liqSeca` com os dados do banco de dados
 `dadosAlpha`. Vamos chamar o indicador de "Liquidez Seca" e não vamos
-pedir para apresentar o gráfico (`plot = F`). Como queremos usar apenas
+pedir para apresentar o gráfico (`relatorio = F`). Como queremos usar apenas
 o item `Índice` vamos definir um objeto chamado `dadosLiqSeca` para
 assumir o resultado da função.
 
@@ -232,7 +232,7 @@ dadosLiqSeca <-
     dividasCP  = dadosAlpha$empFinCP,
     outPasCirc = dadosAlpha$outrosPassCirc,
     atvTotal   = dadosAlpha$ativoTotal,
-    plot = F
+    relatorio = T
     )
 
 ```
@@ -244,10 +244,11 @@ tabela.
 
 ```{r echo=TRUE}
 
-dadosLiqSeca$Índice %>% 
+dadosLiqSeca$Indice %>% 
+  rename("Indicador" = "conta") %>% 
   kbl(
     caption = "Indicadores de Liquidez Seca da Empresa Alpha de 2016 a 2021",
-    align = c("lcccccc"),
+    align = c("lcccccc"), 
     digits = 2) %>% 
   kable_minimal()
 

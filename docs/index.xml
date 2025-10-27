@@ -9,7 +9,7 @@
 <link>https://contabilidados.github.io/</link>
 <atom:link href="https://contabilidados.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.43</generator>
+<generator>quarto-1.8.24</generator>
 <lastBuildDate>Fri, 03 Jan 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>O Coiote como Mascote Ideal para o Projeto Contabilidados</title>
@@ -234,7 +234,7 @@ Materiais
 </section><section id="instalando-o-pacote-cntdd-do-github" class="level3"><h3 class="anchored" data-anchor-id="instalando-o-pacote-cntdd-do-github"><strong>Instalando o Pacote <code>cntdd</code> do GitHub</strong></h3>
 <p>Com o <strong><code>devtools</code></strong> instalado, estamos prontos para instalar o pacote <strong><code>cntdd</code></strong>. O endereço do repositório no GitHub é <strong><code>git@github.com:contabilidados/cntdd.git</code></strong>. Para instalar o pacote a partir deste repositório, use a função <strong><code>install_github</code></strong> do <strong><code>devtools</code></strong>. Aqui está o comando necessário:</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Carregar o pacote devtools</span></span>
 <span><span class="kw" style="color: #003B4F;
@@ -259,13 +259,13 @@ font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"contabilidados/cntdd"</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
 <p>Note que você não precisa incluir o <strong><code>git@</code></strong> ou <strong><code>.git</code></strong> no endereço do repositório ao usar <strong><code>install_github</code></strong>.</p>
 </section><section id="verificando-a-instalação" class="level3"><h3 class="anchored" data-anchor-id="verificando-a-instalação"><strong>Verificando a Instalação</strong></h3>
 <p>Após a instalação, é sempre uma boa prática verificar se o pacote foi instalado corretamente. Podemos fazer isso carregando o pacote com library(cntdd) e então explorando suas funções e documentação.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Carregar o pacote cntdd</span></span>
 <span><span class="kw" style="color: #003B4F;
@@ -277,12 +277,15 @@ font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Bem-vindo ao pacote cntdd! Para saber mais, visite https://contabilidados.com.br</code></pre>
+</div>
 </div>
 </section><section id="funções-do-cntdd" class="level3"><h3 class="anchored" data-anchor-id="funções-do-cntdd"><strong>Funções do CNTDD</strong></h3>
 <p>Com a função <code>ls</code> é possível listar todas as funcionalidades do pacote <code>cntdd</code>:</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;"><a href="https://rdrr.io/r/base/ls.html">ls</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -290,26 +293,42 @@ font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"package:cntdd"</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
-<pre><code> [1] "dt_contabil"             "dt_cvmB3"               
- [3] "dt_meses"                "dt_ufRegiao"            
- [5] "ind_capitalInvestido"    "ind_capitalOperLiquido" 
- [7] "ind_liqCorrente"         "ind_liqSeca"            
- [9] "ind_nopat"               "ind_passivoOneroso"     
-[11] "ind_roa"                 "ind_roe"                
-[13] "ind_ros"                 "ind_wacc"               
-[15] "stat_correl"             "stat_geomMean"          
-[17] "stat_meanTest"           "stat_testaIndependencia"
-[19] "utl_CNPJ_Mascara"        "utl_consultarCNPJ"      
-[21] "utl_createGroup"         "utl_limpaCNPJ"          
-[23] "utl_qdeNAcols"           "utl_robErro"            
-[25] "utl_tableStat"           "utl_tStarSig"           </code></pre>
+<pre><code> [1] "dt_contabil"                 "dt_cvmB3"                   
+ [3] "dt_iseB3"                    "dt_meses"                   
+ [5] "dt_ufRegiao"                 "ind_analisaDRE"             
+ [7] "ind_analiseCiclo"            "ind_analiseDupont"          
+ [9] "ind_analiseEfeitoTesoura"    "ind_analiseVH"              
+[11] "ind_ativoCiclico"            "ind_ativoFinanceiro"        
+[13] "ind_capitalCircLiquido"      "ind_capitalInvestido"       
+[15] "ind_capitalOperLiquido"      "ind_cicloFinanceiro"        
+[17] "ind_cicloOperacional"        "ind_composicaoEndividamento"
+[19] "ind_custoCapital"            "ind_endividamentoFinanceiro"
+[21] "ind_eva"                     "ind_evaPercentual"          
+[23] "ind_giro"                    "ind_imobilizacaoPL"         
+[25] "ind_liqCorrente"             "ind_liqGeral"               
+[27] "ind_liqImediata"             "ind_liqSeca"                
+[29] "ind_necessidadeCapGiro"      "ind_nivelEndividamento"     
+[31] "ind_nopat"                   "ind_partCapTerceiros"       
+[33] "ind_passivoCiclico"          "ind_passivoFinanceiro"      
+[35] "ind_passivoOneroso"          "ind_pmpc"                   
+[37] "ind_pmre"                    "ind_pmrv"                   
+[39] "ind_roa"                     "ind_roe"                    
+[41] "ind_roic"                    "ind_ros"                    
+[43] "ind_saldoTesouraria"         "ind_wacc"                   
+[45] "stat_correl"                 "stat_geomMean"              
+[47] "stat_meanTest"               "stat_testaIndependencia"    
+[49] "utl_ajustaContaInflacao"     "utl_baixaBCB"               
+[51] "utl_CNPJ_Mascara"            "utl_consultarCNPJ"          
+[53] "utl_createGroup"             "utl_limpaCNPJ"              
+[55] "utl_qdeNAcols"               "utl_robErro"                
+[57] "utl_tableStat"               "utl_tStarSig"               </code></pre>
 </div>
 </div>
 <p>Por exemplo, a função dt_contabil carrega um data frame com dados de empresas listadas na B3. Os dados podem ser usados para fins didáticos na análise das demosntrações contábeis ou análise exploratária de dados contábeis.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">df</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -319,10 +338,10 @@ font-style: inherit;">cntdd</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/dt_contabil.html">dt_contabil</a></span></span></code></pre></div>
+font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/dt_contabil.html">dt_contabil</a></span></span></code></pre></div></div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
@@ -342,7 +361,7 @@ font-style: inherit;"><a href="https://pillar.r-lib.org/reference/glimpse.html">
 background-color: null;
 font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 60
 Columns: 38
