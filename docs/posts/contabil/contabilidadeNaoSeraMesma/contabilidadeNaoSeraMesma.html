@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.24">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>Pacote contabiliDados – contabiliDados</title>
+<meta name="author" content="Kléber Formiga Miranda">
+<title>A contabilidade nunca mais será a mesma! – contabiliDados</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,32 +20,28 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-9668c6978006edd3399c8f59aaf88d86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-9668c6978006edd3399c8f59aaf88d86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -73,131 +67,15 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Procurar"
   }
-}</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-utils .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-utils'] = new List('listing-utils', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-stats .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-stats'] = new List('listing-stats', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-indices .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-indices'] = new List('listing-indices', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>html{ scroll-behavior: smooth; }</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta name="twitter:title" content="Pacote contabiliDados – contabiliDados">
-<meta name="twitter:description" content="Utilitários para nossas atividades">
-<meta name="twitter:image" content="https://contabilidados.github.io/pacotes/utils/utl_tableStat/utl_tableStat.PNG">
+}</script><style>html{ scroll-behavior: smooth; }</style>
+<meta name="twitter:title" content="A contabilidade nunca mais será a mesma! – contabiliDados">
+<meta name="twitter:description" content="Post">
+<meta name="twitter:image" content="https://contabilidados.github.io/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.png">
 <meta name="twitter:creator" content="@cntdd">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="720">
+<meta name="twitter:image-width" content="1280">
 </head>
-
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
@@ -363,13 +241,11 @@ window.Quarto = {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">contabiliDados</span>
     </a>
   </div>
@@ -379,28 +255,28 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+<li class="nav-item">
+    <a class="nav-link" href="../../../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./meetings.html"> 
+    <a class="nav-link" href="../../../meetings.html"> 
 <span class="menu-text">Eventos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./cntdd.html" aria-current="page"> 
+    <a class="nav-link" href="../../../cntdd.html"> 
 <span class="menu-text">cntdd</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./membros.html"> 
+    <a class="nav-link" href="../../../membros.html"> 
 <span class="menu-text">Sobre</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dashboard" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Dashboard</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dashboard">    
-        <li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dashboard">
+<li>
     <a class="dropdown-item" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" target="_blank">
  <span class="dropdown-text">Indicadores</span></a>
   </li>  
@@ -409,7 +285,7 @@ window.Quarto = {
  <span class="dropdown-text">Mercado</span></a>
   </li>  
     </ul>
-  </li>
+</li>
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.instagram.com/contabilidados"> <i class="bi bi-instagram" role="img">
 </i> 
@@ -426,250 +302,78 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../../index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Y250ZGQ="><span class="quarto-category-count category-cloud-10">cntdd</span></div><div class="category" data-category="UGFjb3Rlcw=="><span class="quarto-category-count category-cloud-7">Pacotes</span></div></div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">A contabilidade nunca mais será a mesma!</h1>
+<p class="subtitle lead">Post</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Contabilidade</div>
+    <div class="quarto-category">Análise de Dados</div>
+  </div>
+  </div>
 
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Pacote contabiliDados</h1>
-<p class="subtitle lead">Utilitários para nossas atividades</p>
-</div>
 
+<div class="quarto-title-meta">
 
-
-<div class="quarto-title-meta column-page-left">
-
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kléber Formiga Miranda </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">24 de outubro de 2025</p>
+    </div>
+  </div>
   
     
   </div>
   
 
 
-</header>
-
-
-<p>Funções utilizadas em nosso dia-a-dia….</p>
-<section id="utilitários" class="level2">
-<h2 class="anchored" data-anchor-id="utilitários">Utilitários</h2>
-<div id="listing-utils" class="quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-utils-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-utils'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-      <option value="index" data-direction="asc">Pré-selecionado</option>
-      <option value="listing-title" data-direction="asc">
-        Título
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Data - Mais velho
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Data - O mais novo
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Autor
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
-    </div>
+</header><style> body {text-align: justify} </style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="contabilidadeNaoSeraMesma.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+</figure>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Y250ZGQ=" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1761661717288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1138">
-<a href="./pacotes/utils/utl_tableStat/utl_tableStat.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./pacotes/utils/utl_tableStat/utl_tableStat.PNG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Função utl_tableStat do pacote CNTDD
-</h5>
-<div class="card-subtitle listing-subtitle">
-Post
-</div>
-<div class="listing-reading-time card-text text-muted">6 minutos</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y250ZGQ='); return false;">cntdd</div>
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Kléber Formiga Miranda
-</div>
-<div class="listing-date">
-28 de out. de 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">Nenhum item correspondente</div>
-</div>
-</section>
-<section id="estatísticos" class="level2">
-<h2 class="anchored" data-anchor-id="estatísticos">Estatísticos</h2>
-<div id="listing-stats" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-stats-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-stats'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-      <option value="index" data-direction="asc">Pré-selecionado</option>
-      <option value="listing-title" data-direction="asc">
-        Título
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Data - Mais velho
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Data - O mais novo
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Autor
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y250ZGQlMkNQYWNvdGVz" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1761589603082" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
-<div class="thumbnail"><a href="./pacotes/stats/liquidezSeca/liqSeca.html" class="no-external">
-
-<img loading="lazy" src="./pacotes/stats/liquidezSeca/figs/contasReceber.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./pacotes/stats/liquidezSeca/liqSeca.html" class="no-external">Índice de Liquidez Seca</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./pacotes/stats/liquidezSeca/liqSeca.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y250ZGQ='); return false;">cntdd</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFjb3Rlcw=='); return false;">Pacotes</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="./pacotes/stats/liquidezSeca/liqSeca.html" class="no-external">
-<div class="listing-date">
-2 de mar. de 2020
-</div>
-<div class="listing-author">
-Kléber
-</div>
-<div class="listing-reading-time">9 minutos</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">Nenhum item correspondente</div>
-</div>
-</section>
-<section id="indicadores" class="level2">
-<h2 class="anchored" data-anchor-id="indicadores">Indicadores</h2>
-<div id="listing-indices" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-indices-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-indices'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-      <option value="index" data-direction="asc">Pré-selecionado</option>
-      <option value="listing-title" data-direction="asc">
-        Título
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Data - Mais velho
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Data - O mais novo
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Autor
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y250ZGQlMkNQYWNvdGVz" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1761589586007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
-<div class="thumbnail"><a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">
-
-<img loading="lazy" src="./pacotes/indices/liquidezSeca/figs/contasReceber.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">Índice de Liquidez Seca</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y250ZGQ='); return false;">cntdd</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFjb3Rlcw=='); return false;">Pacotes</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">
-<div class="listing-date">
-2 de mar. de 2020
-</div>
-<div class="listing-author">
-Kléber
-</div>
-<div class="listing-reading-time">9 minutos</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">Nenhum item correspondente</div>
-</div>
+<p>Nos últimos meses, as transformações impulsionadas pela ciência de dados e inteligência artificial têm redesenhado o papel do contador e a maneira como as empresas tomam decisões financeiras.</p>
+<p>A análise de dados deixou de ser um “diferencial” para se tornar uma necessidade estratégica. Escritórios e departamentos que utilizam IA e Big Data estão alcançando ganhos expressivos de eficiência: redução de erros, previsões financeiras mais precisas e insights que antes exigiam horas de trabalho manual.</p>
+<p>Mas o que mais chama atenção é a mudança de postura do profissional contábil.</p>
+<p>Hoje, ele não é apenas o guardião dos números, mas o intérprete das tendências.</p>
+<p>Com ferramentas analíticas, é possível identificar oportunidades de economia, riscos fiscais e até padrões de comportamento financeiro dos clientes.</p>
+<p>E ainda há espaço para inovação: regulamentação da reforma tributária brasileira, automação de relatórios e integração inteligente de sistemas já estão moldando o futuro do setor.</p>
+<p>Empresas que resistem a essa digitalização podem perder competitividade e até 22% da receita anual, segundo estudo (acesse aqui).</p>
+<p>O desafio agora é humano: como acompanhar essa revolução?</p>
+<p>O caminho está na capacitação contínua, análise crítica e na mentalidade de aprendizado permanente.</p>
+<p>A contabilidade orientada por dados não substitui o contador. Ela amplia seu alcance e influência.</p>
+<p>💡 <strong>Pergunta para refletir:</strong></p>
+<blockquote class="blockquote">
+<p>Como sua empresa está utilizando dados para transformar a contabilidade em um motor de decisão estratégica?</p>
+</blockquote>
 
 
 
-</section>
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -1086,10 +790,7 @@ Kléber
       }
     }
   });
-  </script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
-<script>
+  </script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark"><script>
   function loadGiscus() {
     // Function to get the theme based on body class
     const getTheme = () => {
@@ -1120,8 +821,7 @@ Kléber
   loadGiscus();
 </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
     </div>   
@@ -1130,7 +830,7 @@ Kléber
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
       <i class="bi bi-youtube" role="img">
 </i> 
@@ -1149,12 +849,10 @@ Kléber
     </a>
   </li>  
 </ul>
-    </div>
+</div>
   </div>
 </footer>
 
 
-
-
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

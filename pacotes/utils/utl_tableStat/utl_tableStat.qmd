@@ -1,0 +1,141 @@
+---
+title: "Função utl_tableStat do pacote CNTDD"
+subtitle: "Post"
+author: "Kléber Formiga Miranda"
+categories:
+  - cntdd
+date: 2025-10-28
+toc: true
+image: "utl_tableStat.PNG"
+editor: 
+  markdown: 
+    wrap: 72
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, include = TRUE, message = FALSE, warning = FALSE, comment = NA, fig.align = "center", out.width = "100%")
+```
+
+```{=html}
+<style> body {text-align: justify} </style>
+```
+![](utl_tableStat.png){fig-align="center" width="403"}
+
+**Você já precisou analisar como diferentes características das empresas se relacionam entre si?**
+
+Neste post, vamos mostrar como a função `utl_tableStat`, do pacote `cntdd`, pode ajudar nessa tarefa de forma prática e visual.
+
+Essa função realiza uma análise tridimensional, ou seja, permite observar o comportamento de uma variável numérica considerando dois grupos de referência ao mesmo tempo. Na prática, ela aplica estatísticas descritivas para revelar padrões e possíveis relações entre variáveis contábeis e financeiras. É uma forma alternativa para análise de cluster.
+
+No exemplo fictício que usaremos, o objetivo é identificar qual percentual de **Imposto de Renda** e **CSLL** se verifica entre diferentes tipos de empresas: intensivas e não intensivas em imobilizado (classificadas pelo valor do ativo imobilizado) e com alta e baixa receita (segundo o valor da receita).
+
+O primeiro passo é acessar a base de dados. Vamos utilizar a base `dt_contabil`, disponível no próprio pacote `cntdd`. Com a função `glimpse`, do pacote `dplyr`, é possível visualizar rapidamente a estrutura da base e entender quais variáveis estão disponíveis para análise.
+
+Acompanhe o passo a passo e veja como aplicar essa função para explorar seus dados contábeis de forma mais inteligente.
+
+
+```{r}
+
+library(cntdd) # carrega o pacote cntdd
+library(dplyr) # Carrega o pacote dplyr
+glimpse(dt_contabil)
+
+```
+
+Vimos que a base de dados possui 38 variáveis e 60 linhas e, que para atender nosso interresse vamos precisar apenas do Ativo Imobilizado, Receita, Imposto de Renda e LAIR (para cálculo do percentual).
+
+Vamos criar uma base (objeto) chamada `dt_irPorGrupo` e, em seguida, vamos aplicar a função `summary` para ver estatísticas descritivas básicas das variáveis escolhidas.
+
+```{r}
+
+dt_irPorGrupo <- # define o nome objeto
+  dt_contabil %>% # escolhe a base de dados
+  select(imobilizado, receita, impostoRenda, lair) # escolhe as variáveis de interesse
+
+summary(dt_irPorGrupo) # faz estatísticas descritivas básicas com a base de dados
+
+```
+
+Identificamos que algumas empresas apresentam observações com valores nulos (indicados por `NA` em todas as variáveis) e que outras possuem resultados com LAIR e IR negativos. Não entraremos no mérito das causas desses casos agora. Vamos remover essas observações para mostrar, na prática, como aplicar filtros no R e deixar nossa análise mais interessante neste post.
+
+```{r}
+dt_irPorGrupoAjustada <-
+  dt_irPorGrupo %>% 
+  na.omit() %>% # Remove todos os NAs da base
+  filter((lair > 0 & impostoRenda > 0)) %>%   # filtra apenas observações positivas de LAIR e IR
+  mutate(
+    percentualIR = impostoRenda / lair # cria a variável percentual IR para análise
+  )
+
+glimpse(dt_irPorGrupoAjustada)
+
+summary(dt_irPorGrupoAjustada)
+
+```
+
+Como nosso conjunto de dados é pequeno (33 observações), vamos dividir o ativo imobilizado e a receita em três grupos cada. Assim, teremos empresas com baixo nível de imobilizado (imobilizado_1), médio nível (imobilizado_2) e alto nível (imobilizado_3). Da mesma forma, classificaremos as empresas em baixa receita (receita_1), média receita (receita_2) e alta receita (receita_3).
+
+A função `utl_tableStat` será responsável por cruzar esses grupos e aplicar a estatística descritiva desejada em cada combinação. Neste exemplo, utilizaremos o tamanho da amostra (`length`), a média (`mean`) e o desvio-padrão (`sd`) para avaliar o comportamento do percentual do imposto de renda de cada grupo.
+
+A seguir, apresentamos o uso da função `utl_tableStat` com a função `length`.
+
+```{r}
+
+utl_tableStat(
+  bd = dt_irPorGrupoAjustada, # Base de dados
+  grp1 = "imobilizado", # Nome da variável do primeiro agrupamento
+  n_grp1 = 3, # Número de grupos do primeiro agrupamento
+  grp2 = "receita", # Nome da variável do segundo agrupamento
+  n_grp2 = 3, # Número de grupos do segundo agrupamento
+  value = "percentualIR", # Variável na qual será aplicada a estatística descritiva
+  length # Função de interesse
+  )
+
+```
+
+Ao analisar os cruzamentos entre receita e intensidade de imobilizado, percebemos que alguns grupos não apresentam observações. Isso ocorre, por exemplo, nos casos de empresas com baixa receita e alto nível de imobilizado (receita_1 x imobilizado_3) e aquelas com alta receita e baixo imobilizado (receita_3 x imobilizado_1). Esse tipo de ausência é comum quando a base de dados é pequena. 
+
+Para corrigir o problema, é possível ampliar a quantidade de dados disponíveis (a alternativa mais viável) ou reduzir o número de grupos de análise — embora isso nem sempre resolva, já que a falta de dispersão nos valores pode concentrar os resultados em poucos segmentos.
+
+Os maiores grupos identificados foram os de empresas com baixa receita e baixo imobilizado (receita_1 x imobilizado_1), com 9 observações, e o de alta receita com alto imobilizado (receita_3 x imobilizado_3), com 8 observações. Esse comportamento é esperado, pois há uma tendência de que quanto maior o investimento em imobilizado, maior também a receita. No entanto, é importante destacar que essa relação não é uma regra e deve ser analisada com cautela.
+
+Agora vamos usar a função `utl_tableStat` para saber a média do percentual de imposto de renda que cada grupo possui, conforme sua DRE. Usaremos a função `mean`.
+
+```{r}
+
+utl_tableStat(
+  bd = dt_irPorGrupoAjustada, # Base de dados
+  grp1 = "imobilizado", # Nome da variável do primeiro agrupamento
+  n_grp1 = 3, # Número de grupos do primeiro agrupamento
+  grp2 = "receita", # Nome da variável do segundo agrupamento
+  n_grp2 = 3, # Número de grupos do segundo agrupamento
+  value = "percentualIR", # Variável na qual será aplicada a estatística descritiva
+  mean # Função de interesse
+  )
+
+```
+
+Interessante observar que o grupo mais intensivo em imobilizado e com maior receita apresenta uma carga tributária menor (17,0%) em comparação ao grupo menos intensivo em imobilizado e com menor receita (22,4%). Já a carga tributária mais elevada foi registrada no grupo intermediário, com receita média e baixa intensidade de imobilizado (55,5%). Para verificar se esses dados apresentam grande variação interna, aplicamos novamente a função `sd` para avaliar o desvio-padrão de cada grupo.
+
+
+```{r}
+
+utl_tableStat(
+  bd = dt_irPorGrupoAjustada, # Base de dados
+  grp1 = "imobilizado", # Nome da variável do primeiro agrupamento
+  n_grp1 = 3, # Número de grupos do primeiro agrupamento
+  grp2 = "receita", # Nome da variável do segundo agrupamento
+  n_grp2 = 3, # Número de grupos do segundo agrupamento
+  value = "percentualIR", # Variável na qual será aplicada a estatística descritiva
+  sd # Função de interesse
+  )
+
+```
+
+Os resultados mostram que o grupo com menor receita e baixa intensidade de imobilizado possui a menor dispersão (4,0%), o que indica que sua média é mais representativa e consistente. Já o grupo mais intensivo em imobilizado e com maior receita apresenta uma dispersão maior (10,6%), sugerindo maior variação nos valores observados.
+
+Essa análise pode ser aprofundada com a verificação dos valores máximos e mínimos de cada grupo, utilizando as funções `min` e `max`. No entanto, deixamos esse próximo passo com você. Faça seus próprios testes e explore suas bases de dados. A função `utl_tableStat` cumpriu seu papel. Agora é hora de colocar a mão na massa!
+
+> Dúvidas como instalar o pacote cntdd? [Acesse Aqui](https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html){target="_blank"}

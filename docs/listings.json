@@ -11,7 +11,7 @@
   {
     "listing": "/cntdd.html",
     "items": [
-      "/pacotes/utils/liquidezSeca/liqSeca.html",
+      "/pacotes/utils/utl_tableStat/utl_tableStat.html",
       "/pacotes/stats/liquidezSeca/liqSeca.html",
       "/pacotes/indices/liquidezSeca/liqSeca.html"
     ]
@@ -20,6 +20,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/finance/shortTermism_conceitos/shortTermism_conceitos.html",
+      "/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html",
       "/posts/dados/mascote/mascote.html",
       "/posts/contabil/cpcVersusReceita/cpcVersusReceita.html",
       "/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html",
@@ -61,9 +62,9 @@
       "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
       "/eventos/economaticaR/economaticaR.html",
       "/eventos/treinamentoeconomatica/treinamentoeconomatica.html",
+      "/pacotes/utils/utl_tableStat/utl_tableStat.html",
       "/pacotes/indices/liquidezSeca/liqSeca.html",
-      "/pacotes/stats/liquidezSeca/liqSeca.html",
-      "/pacotes/utils/liquidezSeca/liqSeca.html"
+      "/pacotes/stats/liquidezSeca/liqSeca.html"
     ]
   },
   {
@@ -78,6 +79,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html",
       "/posts/contabil/cpcVersusReceita/cpcVersusReceita.html",
       "/posts/contabil/qualidadeInformacao/qualidadeInformacao.html",
       "/posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html",
