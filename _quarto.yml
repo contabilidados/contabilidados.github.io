@@ -7,7 +7,7 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   title: "contabiliDados"
-  site-url: "https://contabilidados.github.io"
+  site-url: "https://contabilidados.com.br"
   page-footer:
     center: "contabiliDados usou [Quarto](https://quarto.org/), basedo em [BeaMilz](https://beamilz.com/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:

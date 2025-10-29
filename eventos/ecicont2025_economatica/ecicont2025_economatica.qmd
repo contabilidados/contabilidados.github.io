@@ -6,10 +6,10 @@ date: '2025-10-29'
 event: "ECICONT - I Encontro Científico em Contabilidade da UFERSA"
 event_url: https://www.even3.com.br/ecicont-611668/
 links:
-- icon: 
+- icon: file-pdf
   icon_pack: far
-  name: 
-  url: 
+  name: Apostila
+  url: https://drive.google.com/file/d/1YyspVlDjJMpVjc5we83HOERbVINflfMO/view?usp=sharing
 location: Laboratório 3 - Central de Aulas III - UFERSA
 title: "Introdução à plataforma Economatica"
 image: figs/ecicont2025_economatica.png

@@ -481,5 +481,40 @@
     "title": "Pacote contabiliDados",
     "section": "Indicadores",
     "text": "Indicadores\n\n\n   \n    \n    \n      Ordenar por\n      Pré-selecionado\n      \n        Título\n      \n      \n        Data - Mais velho\n      \n      \n        Data - O mais novo\n      \n      \n        Autor\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nÍndice de Liquidez Seca\n\n\n\n\n\n\ncntdd\n\nPacotes\n\n\n\n\n\n\n2 de mar. de 2020\n\n\nKléber\n\n9 minutos\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "eventos/economaticaR/economaticaR.html",
+    "href": "eventos/economaticaR/economaticaR.html",
+    "title": "Análise de dados com R e Economatica",
+    "section": "",
+    "text": "Evento: Análise de Dados com R e EconomaticaLink do evento: https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0JfoLugar: Online\nMateriais\n\n\n Apostila  Dia 1  Dia 2 \n\n\nEssa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos.\n\n\n\n De volta ao topo"
+  },
+  {
+    "objectID": "membros.html",
+    "href": "membros.html",
+    "title": "contabiliDados?",
+    "section": "",
+    "text": "O processo de registro contábil acarreta na geração de um vasto banco de dados empresarial que pode ser usado internamente (gestores) ou externamente (investidores) para o processo decisório. O uso desses bancos de dados como fonte de informação tem sido cada vez explorado por profissionais contábeis, sendo uma nova habilidade a ser requerida para o profissional. Nesse contexto, a eficiência do processo decisório passa pela aplicação de métodos e técnicas que transformem dados brutos em informações úteis. O acesso aos dados brutos tem sido facilitados com a disseminação e ampliação do número de bancos de dados disponíveis na web. Esse projeto se direciona, portanto, na pesquisa de técnicas que otimizem o processo decisório com uso de tecnologias disponíveis.\nMaiores informações:CNPQ"
+  },
+  {
+    "objectID": "membros.html#professores",
+    "href": "membros.html#professores",
+    "title": "contabiliDados?",
+    "section": "Professores",
+    "text": "Professores\n\n\n\n\n\n\n\n\n\n\nAlexsandro Prado\n\n\n\n\n\n\nProfessores\n\nContabilidade\n\nMercado de Trabalho Contábil\n\nAnálise de Dados\n\nESG\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKléber Formiga\n\n\n\n\n\n\nProfessores\n\nContabilidade\n\nFinanças\n\nAnálise de Dados\n\nEnsino\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYuri Azevedo\n\n\n\n\n\n\nProfessores\n\nGovernança Corporativa\n\nAnálise de Dados\n\nEnsino\n\n\n\n\n\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "membros.html#alunos",
+    "href": "membros.html#alunos",
+    "title": "contabiliDados?",
+    "section": "Alunos",
+    "text": "Alunos\n\n\n\n\n\n\n\n\n\n\nLívia Bandeira\n\n\n\n\n\n\nAlunos\n\nContabilidade\n\nAnálise de Dados\n\n\n\n\n\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "eventos/ecicont2025_economatica/ecicont2025_economatica.html",
+    "href": "eventos/ecicont2025_economatica/ecicont2025_economatica.html",
+    "title": "Introdução à plataforma Economatica",
+    "section": "",
+    "text": "Evento: ECICONT - I Encontro Científico em Contabilidade da UFERSALink do evento: https://www.even3.com.br/ecicont-611668/Lugar: Laboratório 3 - Central de Aulas III - UFERSA\nMateriais\n\n\n Apostila \n\n\nOficina com o objetivo de demonstrar como utilizar a plataforma Economática para pesquisa financeira e contábil, com foco em análise de empresas, indicadores e séries temporais.\nData e horário: 13/11/2025 - 19:00 - 22:00\n\n\n\n De volta ao topo"
   }
 ]

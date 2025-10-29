@@ -7,7 +7,7 @@ listing:
     type: grid
     fields: [image, date, title, subtitle, categories, author, reading-time]  
     sort: "date desc"
-    categories: cloud
+    categories: unnumbered
     sort-ui: true
     filter-ui: true
     page-size: 3
@@ -16,7 +16,7 @@ listing:
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]
     sort: "date desc"
-    categories: cloud
+    categories: unnumbered
     sort-ui: true
     filter-ui: true
     page-size: 3
@@ -25,7 +25,7 @@ listing:
     type: default
     fields: [image, date, title, subtitle, categories, author, reading-time]
     sort: "date desc"
-    categories: cloud
+    categories: unnumbered
     sort-ui: true
     filter-ui: true
     page-size: 3    
