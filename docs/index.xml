@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>contabiliDados</title>
+<link>https://contabilidados.github.io/</link>
+<atom:link href="https://contabilidados.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Wed, 29 Oct 2025 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Inteligência Artificial na pesquisa científica</title>
+  <dc:creator>cntdd </dc:creator>
+  <link>https://contabilidados.github.io/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html</link>
+  <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>ECICONT - I Encontro Científico em Contabilidade da UFERSA<br><b>Link do evento:</b> <a href="https://www.even3.com.br/ecicont-611668/">https://www.even3.com.br/ecicont-611668/</a><br><b>Lugar: </b>Núcleo de Práticas Contábeis (NPC) - UFERSA<br><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-"></i> </button></a> <br><br><img src="https://contabilidados.github.io/eventos/ecicont2025_IApesquisa/figs/ecicont2025_IApesquisa.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
+<p><br></p>
+<p>Palestra com o objetivo de apresentar como plataformas de Inteligência Artificial (IA) podem otimizar o processo de pesquisas científicas e discutir sobre boas práticas de integridade e uso ético da IA no âmbito acadêmico.</p>
+<p><strong>Data e horário:</strong> 14/11/2025 - 19:00 - 21:00</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>R</category>
+  <category>Economatica</category>
+  <category>Análise de Dados</category>
+  <guid>https://contabilidados.github.io/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html</guid>
+  <pubDate>Wed, 29 Oct 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/eventos/ecicont2025_IApesquisa/figs/ecicont2025_IApesquisa.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Introdução à plataforma Economatica</title>
+  <dc:creator>cntdd </dc:creator>
+  <link>https://contabilidados.github.io/eventos/ecicont2025_economatica/ecicont2025_economatica.html</link>
+  <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>ECICONT - I Encontro Científico em Contabilidade da UFERSA<br><b>Link do evento:</b> <a href="https://www.even3.com.br/ecicont-611668/">https://www.even3.com.br/ecicont-611668/</a><br><b>Lugar: </b>Laboratório 3 - Central de Aulas III - UFERSA<br><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-"></i> </button></a> <br><br><img src="https://contabilidados.github.io/eventos/ecicont2025_economatica/figs/ecicont2025_economatica.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
+<p><br></p>
+<p>Oficina com o objetivo de demonstrar como utilizar a plataforma Economática para pesquisa financeira e contábil, com foco em análise de empresas, indicadores e séries temporais.</p>
+<p><strong>Data e horário:</strong> 13/11/2025 - 19:00 - 22:00</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>R</category>
+  <category>Economatica</category>
+  <category>Análise de Dados</category>
+  <guid>https://contabilidados.github.io/eventos/ecicont2025_economatica/ecicont2025_economatica.html</guid>
+  <pubDate>Wed, 29 Oct 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/eventos/ecicont2025_economatica/figs/ecicont2025_economatica.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Introdução ao R e RStudio</title>
+  <dc:creator>cntdd </dc:creator>
+  <link>https://contabilidados.github.io/eventos/ecicont2025_introR/ecicont2025_introR.html</link>
+  <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>ECICONT - I Encontro Científico em Contabilidade da UFERSA<br><b>Link do evento:</b> <a href="https://www.even3.com.br/ecicont-611668/">https://www.even3.com.br/ecicont-611668/</a><br><b>Lugar: </b>Laboratório 3 - Central de Aulas III - UFERSA<br><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="https://drive.google.com/file/d/1OOXMREMiI_6pBX74Hemt2GMtMkt2gWJO/view?usp=sharing" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Slides</button></a> <br><br><img src="https://contabilidados.github.io/eventos/ecicont2025_introR/figs/ecicont2025_introR.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
+<p><br></p>
+<p>Oficina com o objetivo de introduzir o uso do R e do RStudio para análise de dados estatísticos, com foco em aplicações básicas voltadas à pesquisa acadêmica em ciências sociais aplicadas.</p>
+<p><strong>Data e horário:</strong> 13/11/2025 - 19:00 - 22:00</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>R</category>
+  <category>Economatica</category>
+  <category>Análise de Dados</category>
+  <guid>https://contabilidados.github.io/eventos/ecicont2025_introR/ecicont2025_introR.html</guid>
+  <pubDate>Wed, 29 Oct 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/eventos/ecicont2025_introR/figs/ecicont2025_introR.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Atualização automatizada do ambiente R com cntddupdateR</title>
+  <dc:creator>Alexsandro Prado</dc:creator>
+  <link>https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+</figure>
+</div>
+<section id="contextualização" class="level2"><h2 class="anchored" data-anchor-id="contextualização">Contextualização</h2>
+<p>Para muitos usuários iniciantes, instalar e manter atualizados os softwares essenciais para trabalhar com R — como o próprio R, o RStudio e o Rtools — pode ser um desafio técnico devido à necessidade de configurar corretamente cada aplicação e garantir compatibilidade entre versões. Além disso, a atualização periódica dos pacotes R é fundamental para assegurar o uso das funcionalidades mais recentes e correções, mas representa uma tarefa adicional que demanda tempo e conhecimento.</p>
+<p>Mas você já parou para pensar: Quantas vezes teve dificuldade para identificar se o R, RStudio ou Rtools precisavam ser atualizados?<br>
+Como gerenciar as constantes atualizações dos pacotes R instalados sem interromper seu fluxo de trabalho?<br>
+Qual o impacto da falta de atualização no seu ambiente de análise de dados?</p>
+<p>Pensando nessas questões, a [cntddupdateR] surge para automatizar e simplificar esse processo, reduzindo a complexidade e facilitando o trabalho dos pesquisadores e estudantes.</p>
+</section><section id="o-que-é-o-cntddupdater" class="level2"><h2 class="anchored" data-anchor-id="o-que-é-o-cntddupdater">O que é o <code>cntddupdateR</code>
+</h2>
+<p>O <code>cntddupdateR</code> automatiza a instalação e atualização do ambiente R para análise estatística e programação, incluindo o R, o RStudio (IDE para R), o Rtools (ferramentas para compilar pacotes) e os pacotes instalados no R.</p>
+</section><section id="como-funciona" class="level2"><h2 class="anchored" data-anchor-id="como-funciona">Como funciona</h2>
+<ul>
+<li>O script verifica se o gerenciador de pacotes do Windows chamado winget está instalado. Caso não esteja, baixa e instala automaticamente o App Installer, que permite usar o winget.<br>
+</li>
+<li>Utilizando o winget, confere se o R, o RStudio e o Rtools estão instalados. Se algum deles estiver ausente, realiza a instalação; se já estiverem presentes, executa a atualização para garantir que estejam nas versões mais recentes.<br>
+</li>
+<li>Em seguida, localiza a pasta de instalação do R para acessar o programa Rscript, possibilitando rodar comandos R pela linha de comando.<br>
+</li>
+<li>Executa um comando R para atualizar automaticamente todos os pacotes R já instalados no sistema, mantendo o ambiente totalmente atualizado.<br>
+</li>
+<li>Por fim, exibe uma mensagem informando que o processo foi concluído com sucesso e pausa para que o usuário possa fechar o script com segurança.</li>
+</ul>
+<p>Você já enfrentou situações em que instalações ou atualizações incompletas geraram erros difíceis de diagnosticar?<br>
+Quanto tempo você já perdeu tentando atualizar manualmente os componentes do seu ambiente R?</p>
+<p>O script facilita manter todo o ambiente R completo e atualizado, integrando a instalação e atualização dos principais componentes usados em análise de dados com R, tudo de forma automatizada e prática.</p>
+</section><section id="como-utilizar-o-cntddupdater-via-powershell" class="level2"><h2 class="anchored" data-anchor-id="como-utilizar-o-cntddupdater-via-powershell">Como utilizar o cntddupdateR via PowerShell</h2>
+<section id="forma-1-execução-remota-direta" class="level3"><h3 class="anchored" data-anchor-id="forma-1-execução-remota-direta">Forma 1: Execução remota direta</h3>
+<p>Abra o PowerShell e execute o comando abaixo para rodar o script remotamente, ajustando temporariamente a política de execução:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"></span>
+<span id="cb1-2">powershell <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>NoLogo <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>NoProfile <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>ExecutionPolicy Bypass <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>Command <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"</span></span></code></pre></div></div>
+</section><section id="forma-2-executar-o-arquivo-cntddupdater.bat" class="level3"><h3 class="anchored" data-anchor-id="forma-2-executar-o-arquivo-cntddupdater.bat">Forma 2: Executar o arquivo <code>cntddupdateR.bat</code>
+</h3>
+<p>Outra alternativa é utilizar o <code>cntddupdateR.bat</code>.</p>
+<p>Realize o <a href="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat" target="_blank">download</a> e execute o cntddupdater.bat como administrador (botão direito sobre o arquivo .bat -&gt; Executar como administrador).</p>
+
+
+</section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>cntdd</category>
+  <guid>https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.html</guid>
+  <pubDate>Tue, 28 Oct 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Função utl_tableStat do pacote CNTDD</title>
+  <dc:creator>Kléber Formiga Miranda</dc:creator>
+  <link>https://contabilidados.github.io/pacotes/utils/utl_tableStat/utl_tableStat.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.github.io/pacotes/utils/utl_tableStat/utl_tableStat.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+</figure>
+</div>
+<p><strong>Você já precisou analisar como diferentes características das empresas se relacionam entre si?</strong></p>
+<p>Neste post, vamos mostrar como a função <code>utl_tableStat</code>, do pacote <code>cntdd</code>, pode ajudar nessa tarefa de forma prática e visual.</p>
+<p>Essa função realiza uma análise tridimensional, ou seja, permite observar o comportamento de uma variável numérica considerando dois grupos de referência ao mesmo tempo. Na prática, ela aplica estatísticas descritivas para revelar padrões e possíveis relações entre variáveis contábeis e financeiras. É uma forma alternativa para análise de cluster.</p>
+<p>No exemplo fictício que usaremos, o objetivo é identificar qual percentual de <strong>Imposto de Renda</strong> e <strong>CSLL</strong> se verifica entre diferentes tipos de empresas: intensivas e não intensivas em imobilizado (classificadas pelo valor do ativo imobilizado) e com alta e baixa receita (segundo o valor da receita).</p>
+<p>O primeiro passo é acessar a base de dados. Vamos utilizar a base <code>dt_contabil</code>, disponível no próprio pacote <code>cntdd</code>. Com a função <code>glimpse</code>, do pacote <code>dplyr</code>, é possível visualizar rapidamente a estrutura da base e entender quais variáveis estão disponíveis para análise.</p>
+<p>Acompanhe o passo a passo e veja como aplicar essa função para explorar seus dados contábeis de forma mais inteligente.</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># carrega o pacote cntdd</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Carrega o pacote dplyr</span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_contabil</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 60
+Columns: 38
+$ empresa           &lt;chr&gt; "alpha", "alpha", "alpha", "alpha", "alpha", "alpha"…
+$ ano               &lt;int&gt; 2016, 2017, 2018, 2019, 2020, 2021, 2016, 2017, 2018…
+$ caixaEquiv        &lt;int&gt; 5198, 10517, 8803, 14299, 39659, 34950, 638296, 4248…
+$ aplicFinanc       &lt;int&gt; 246286, 339427, 235388, 273264, 541474, 236951, 3489…
+$ clientesCP        &lt;int&gt; 326524, 348944, 396347, 428123, 620133, 818424, 2848…
+$ estoques          &lt;int&gt; 114409, 117527, 156229, 185886, 301247, 466517, 6858…
+$ outrosAtvCirc     &lt;int&gt; 38943, 69255, 75196, 113989, 118040, 148544, 425302,…
+$ atvCirc           &lt;int&gt; 731360, 885670, 871963, 1015561, 1620553, 1705386, 4…
+$ clientesLP        &lt;int&gt; 14162, 11898, 11101, 10772, 2655, 4428, 0, 0, 0, 0, …
+$ investimento      &lt;int&gt; 937, 3029, 3442, 3124, 3123, 2963, 198967, 191662, 1…
+$ imobilizado       &lt;int&gt; 75651, 70042, 86161, 314902, 327555, 418239, 2064054…
+$ intangLiquido     &lt;int&gt; 89019, 82011, 69558, 77717, 859397, 1051033, 116819,…
+$ outrosAtvNaoCirc  &lt;int&gt; 28299, 34609, 39993, 41462, 120057, 304066, 669258, …
+$ atvNaoCirc        &lt;int&gt; 208068, 201589, 210255, 447977, 1312787, 1780729, 30…
+$ forneced          &lt;int&gt; 68809, 108131, 114039, 139769, 413394, 595164, 47003…
+$ empFinCP          &lt;int&gt; 81780, 169555, 45542, 163852, 248004, 514541, 964665…
+$ outrosPassCirc    &lt;int&gt; 58423, 91836, 105413, 177572, 282452, 463348, 171897…
+$ passivoCirc       &lt;int&gt; 209012, 369522, 264994, 481193, 943850, 1573053, 315…
+$ empFinLP          &lt;int&gt; 28042, 18657, 69839, 23364, 408834, 39075, 682578, 7…
+$ outrosPassNaoCirc &lt;int&gt; 8844, 10457, 10730, 186361, 184069, 225330, 414210, …
+$ passivoNaoCirc    &lt;int&gt; 36886, 29114, 80569, 209725, 592903, 264405, 1096788…
+$ patLiquido        &lt;int&gt; 693530, 688623, 736655, 772620, 1396587, 1648657, 37…
+$ ativoTotal        &lt;int&gt; 939428, 1087259, 1082219, 1463539, 2933340, 3486116,…
+$ receita           &lt;int&gt; 1283203, 1408886, 1580984, 1738990, 1647607, 3027870…
+$ custoMercVend     &lt;int&gt; 714366, 762921, 845023, 935693, 865520, 1434437, 243…
+$ despVendas        &lt;int&gt; 313479, 346107, 392405, 439467, 548811, 915882, 2627…
+$ despAdm           &lt;int&gt; 96149, 117866, 145877, 190560, 168007, 327469, 72290…
+$ despOperac        &lt;int&gt; 412126, 466152, 537875, 572255, 686700, 1108236, 328…
+$ receitaFinanc     &lt;int&gt; 36926, 35051, 41463, 25599, 67862, 43884, 239311, 12…
+$ despesaFinanc     &lt;int&gt; 31050, 25420, 63502, 44422, 106750, 110857, 372009, …
+$ impostoRenda      &lt;int&gt; 42304, 29475, 28327, 44309, 6186, 62273, -43552, 212…
+$ depreciacao       &lt;int&gt; 26733, 33793, 42336, 83180, 83989, 109511, 296241, 3…
+$ ebit              &lt;int&gt; 156710, 179811, 198085, 231041, 95386, 485197, 41799…
+$ lucroLiquido      &lt;int&gt; 120282, 159966, 147719, 167908, 50312, 357519, 32885…
+$ lair              &lt;int&gt; 162586, 189442, 176047, 212218, 56499, 418225, 28529…
+$ flxCxOper         &lt;int&gt; 105328, 180074, 122029, 212172, 228155, 250547, 4322…
+$ flxCxInvest       &lt;int&gt; -21703, -94960, 74806, -88448, -307860, -11155, -288…
+$ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -241822, 1…</code></pre>
+</div>
+</div>
+<p>Vimos que a base de dados possui 38 variáveis e 60 linhas e, que para atender nosso interresse vamos precisar apenas do Ativo Imobilizado, Receita, Imposto de Renda e LAIR (para cálculo do percentual).</p>
+<p>Vamos criar uma base (objeto) chamada <code>dt_irPorGrupo</code> e, em seguida, vamos aplicar a função <code>summary</code> para ver estatísticas descritivas básicas das variáveis escolhidas.</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_irPorGrupo</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># define o nome objeto</span></span>
+<span>  <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_contabil</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># escolhe a base de dados</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">imobilizado</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">receita</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">impostoRenda</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">lair</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># escolhe as variáveis de interesse</span></span>
+<span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_irPorGrupo</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># faz estatísticas descritivas básicas com a base de dados</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  imobilizado         receita          impostoRenda           lair         
+ Min.   :  70042   Min.   :  404333   Min.   :-1307943   Min.   :-2075312  
+ 1st Qu.: 247846   1st Qu.: 1224547   1st Qu.:  -51243   1st Qu.: -121156  
+ Median : 579996   Median : 4230867   Median :   23117   Median :   92723  
+ Mean   :1431853   Mean   : 7693517   Mean   :    6203   Mean   :  178683  
+ 3rd Qu.:2162359   3rd Qu.: 8406145   3rd Qu.:   73595   3rd Qu.:  461329  
+ Max.   :5490371   Max.   :36533517   Max.   :  645997   Max.   : 1852711  
+ NA's   :1         NA's   :1          NA's   :1          NA's   :1         </code></pre>
+</div>
+</div>
+<p>Identificamos que algumas empresas apresentam observações com valores nulos (indicados por <code>NA</code> em todas as variáveis) e que outras possuem resultados com LAIR e IR negativos. Não entraremos no mérito das causas desses casos agora. Vamos remover essas observações para mostrar, na prática, como aplicar filtros no R e deixar nossa análise mais interessante neste post.</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_irPorGrupoAjustada</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;-</span></span>
+<span>  <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_irPorGrupo</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/stats/na.fail.html">na.omit</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Remove todos os NAs da base</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">lair</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">impostoRenda</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span>   <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># filtra apenas observações positivas de LAIR e IR</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span></span>
+<span>    percentualIR <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">impostoRenda</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">lair</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># cria a variável percentual IR para análise</span></span>
+<span>  <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_irPorGrupoAjustada</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 33
+Columns: 5
+$ imobilizado  &lt;int&gt; 75651, 70042, 86161, 314902, 327555, 418239, 1913395, 195…
+$ receita      &lt;int&gt; 1283203, 1408886, 1580984, 1738990, 1647607, 3027870, 667…
+$ impostoRenda &lt;int&gt; 42304, 29475, 28327, 44309, 6186, 62273, 212759, 573065, …
+$ lair         &lt;int&gt; 162586, 189442, 176047, 212218, 56499, 418225, 803381, 18…
+$ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.1094886…</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_irPorGrupoAjustada</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  imobilizado         receita          impostoRenda         lair        
+ Min.   :  70042   Min.   :  404333   Min.   :  2021   Min.   :  15557  
+ 1st Qu.: 241065   1st Qu.: 1283203   1st Qu.: 23168   1st Qu.: 146583  
+ Median : 589275   Median : 5214801   Median : 46256   Median : 286857  
+ Mean   :1317364   Mean   : 6524383   Mean   :138464   Mean   : 547212  
+ 3rd Qu.:1950785   3rd Qu.: 8085892   3rd Qu.:212759   3rd Qu.: 814863  
+ Max.   :5265997   Max.   :30215376   Max.   :573065   Max.   :1852711  
+  percentualIR    
+ Min.   :0.01053  
+ 1st Qu.:0.16805  
+ Median :0.23016  
+ Mean   :0.23423  
+ 3rd Qu.:0.27034  
+ Max.   :0.94873  </code></pre>
+</div>
+</div>
+<p>Como nosso conjunto de dados é pequeno (33 observações), vamos dividir o ativo imobilizado e a receita em três grupos cada. Assim, teremos empresas com baixo nível de imobilizado (imobilizado_1), médio nível (imobilizado_2) e alto nível (imobilizado_3). Da mesma forma, classificaremos as empresas em baixa receita (receita_1), média receita (receita_2) e alta receita (receita_3).</p>
+<p>A função <code>utl_tableStat</code> será responsável por cruzar esses grupos e aplicar a estatística descritiva desejada em cada combinação. Neste exemplo, utilizaremos o tamanho da amostra (<code>length</code>), a média (<code>mean</code>) e o desvio-padrão (<code>sd</code>) para avaliar o comportamento do percentual do imposto de renda de cada grupo.</p>
+<p>A seguir, apresentamos o uso da função <code>utl_tableStat</code> com a função <code>length</code>.</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span></span>
+<span>  bd <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_irPorGrupoAjustada</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Base de dados</span></span>
+<span>  grp1 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"imobilizado"</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Nome da variável do primeiro agrupamento</span></span>
+<span>  n_grp1 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Número de grupos do primeiro agrupamento</span></span>
+<span>  grp2 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"receita"</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Nome da variável do segundo agrupamento</span></span>
+<span>  n_grp2 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Número de grupos do segundo agrupamento</span></span>
+<span>  value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"percentualIR"</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Variável na qual será aplicada a estatística descritiva</span></span>
+<span>  <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">length</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Função de interesse</span></span>
+<span>  <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 4
+# Groups:   Stat_percentualIR [3]
+  Stat_percentualIR receita_1 receita_2 receita_3
+  &lt;fct&gt;                 &lt;int&gt;     &lt;int&gt;     &lt;int&gt;
+1 imobilizado_1             9         2        NA
+2 imobilizado_2             2         6         3
+3 imobilizado_3            NA         3         8</code></pre>
+</div>
+</div>
+<p>Ao analisar os cruzamentos entre receita e intensidade de imobilizado, percebemos que alguns grupos não apresentam observações. Isso ocorre, por exemplo, nos casos de empresas com baixa receita e alto nível de imobilizado (receita_1 x imobilizado_3) e aquelas com alta receita e baixo imobilizado (receita_3 x imobilizado_1). Esse tipo de ausência é comum quando a base de dados é pequena.</p>
+<p>Para corrigir o problema, é possível ampliar a quantidade de dados disponíveis (a alternativa mais viável) ou reduzir o número de grupos de análise — embora isso nem sempre resolva, já que a falta de dispersão nos valores pode concentrar os resultados em poucos segmentos.</p>
+<p>Os maiores grupos identificados foram os de empresas com baixa receita e baixo imobilizado (receita_1 x imobilizado_1), com 9 observações, e o de alta receita com alto imobilizado (receita_3 x imobilizado_3), com 8 observações. Esse comportamento é esperado, pois há uma tendência de que quanto maior o investimento em imobilizado, maior também a receita. No entanto, é importante destacar que essa relação não é uma regra e deve ser analisada com cautela.</p>
+<p>Agora vamos usar a função <code>utl_tableStat</code> para saber a média do percentual de imposto de renda que cada grupo possui, conforme sua DRE. Usaremos a função <code>mean</code>.</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span></span>
+<span>  bd <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_irPorGrupoAjustada</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Base de dados</span></span>
+<span>  grp1 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"imobilizado"</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Nome da variável do primeiro agrupamento</span></span>
+<span>  n_grp1 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Número de grupos do primeiro agrupamento</span></span>
+<span>  grp2 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"receita"</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Nome da variável do segundo agrupamento</span></span>
+<span>  n_grp2 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Número de grupos do segundo agrupamento</span></span>
+<span>  value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"percentualIR"</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Variável na qual será aplicada a estatística descritiva</span></span>
+<span>  <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">mean</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Função de interesse</span></span>
+<span>  <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 4
+# Groups:   Stat_percentualIR [3]
+  Stat_percentualIR receita_1 receita_2 receita_3
+  &lt;fct&gt;                 &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+1 imobilizado_1         0.224     0.555    NA    
+2 imobilizado_2         0.166     0.216     0.240
+3 imobilizado_3        NA         0.297     0.170</code></pre>
+</div>
+</div>
+<p>Interessante observar que o grupo mais intensivo em imobilizado e com maior receita apresenta uma carga tributária menor (17,0%) em comparação ao grupo menos intensivo em imobilizado e com menor receita (22,4%). Já a carga tributária mais elevada foi registrada no grupo intermediário, com receita média e baixa intensidade de imobilizado (55,5%). Para verificar se esses dados apresentam grande variação interna, aplicamos novamente a função <code>sd</code> para avaliar o desvio-padrão de cada grupo.</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span></span>
+<span>  bd <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dt_irPorGrupoAjustada</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Base de dados</span></span>
+<span>  grp1 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"imobilizado"</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Nome da variável do primeiro agrupamento</span></span>
+<span>  n_grp1 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Número de grupos do primeiro agrupamento</span></span>
+<span>  grp2 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"receita"</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Nome da variável do segundo agrupamento</span></span>
+<span>  n_grp2 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Número de grupos do segundo agrupamento</span></span>
+<span>  value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"percentualIR"</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Variável na qual será aplicada a estatística descritiva</span></span>
+<span>  <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">sd</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Função de interesse</span></span>
+<span>  <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 4
+# Groups:   Stat_percentualIR [3]
+  Stat_percentualIR receita_1 receita_2 receita_3
+  &lt;fct&gt;                 &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+1 imobilizado_1        0.0416    0.557    NA     
+2 imobilizado_2        0.0505    0.0782    0.0559
+3 imobilizado_3       NA         0.0280    0.106 </code></pre>
+</div>
+</div>
+<p>Os resultados mostram que o grupo com menor receita e baixa intensidade de imobilizado possui a menor dispersão (4,0%), o que indica que sua média é mais representativa e consistente. Já o grupo mais intensivo em imobilizado e com maior receita apresenta uma dispersão maior (10,6%), sugerindo maior variação nos valores observados.</p>
+<p>Essa análise pode ser aprofundada com a verificação dos valores máximos e mínimos de cada grupo, utilizando as funções <code>min</code> e <code>max</code>. No entanto, deixamos esse próximo passo com você. Faça seus próprios testes e explore suas bases de dados. A função <code>utl_tableStat</code> cumpriu seu papel. Agora é hora de colocar a mão na massa!</p>
+<blockquote class="blockquote">
+<p>Dúvidas como instalar o pacote cntdd? <a href="https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html" target="_blank">Acesse Aqui</a></p>
+</blockquote>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>cntdd</category>
+  <guid>https://contabilidados.github.io/pacotes/utils/utl_tableStat/utl_tableStat.html</guid>
+  <pubDate>Tue, 28 Oct 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/pacotes/utils/utl_tableStat/utl_tableStat.PNG" medium="image"/>
+</item>
+<item>
+  <title>Short-termism: reflexões sobre o impacto do horizonte de investimento curto nas decisões corporativas</title>
+  <dc:creator>Kléber Formiga Miranda</dc:creator>
+  <link>https://contabilidados.github.io/posts/finance/shortTermism_conceitos/shortTermism_conceitos.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.github.io/posts/finance/shortTermism_conceitos/shortTermism_conceitos.PNG" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+</figure>
+</div>
+<p>Ao longo da pesquisa para minha tese sobre o sentimento do investidor e o horizonte de investimento, observei como a orientação para resultados de curto prazo influencia as decisões estratégicas das empresas brasileiras listadas na B3. Durante o estudo, deparei-me com o termo <em>Short-Termism</em>, que pode ser traduzido literalmente como <em>curtoprazismo</em>. Esse conceito descreve a tendência de gestores adotarem decisões voltadas à maximização imediata do preço das ações, a fim de atender investidores com horizonte de curto prazo. Exemplos incluem a emissão de dívida de menor custo e o estímulo a investimentos de retorno rápido, ainda que essas práticas possam comprometer o valor fundamental no longo prazo. Essa reflexão foi desenvolvida com base no sentimento do investidor, considerando que empresas podem aproveitar momentos de otimismo no mercado para tomar decisões que satisfaçam os interesses dos <em>curtoprazistas</em>.</p>
+<p>Uma pesquisa recente que realizei, em parceria com o Prof.&nbsp;Márcio Machado, evidencia que empresas com investidores de curto prazo adotam práticas intensificadas de gerenciamento de resultados, ou seja, ajustes contábeis que podem distorcer a performance para sustentar o otimismo do mercado momentâneo. Isso reforça o entendimento de que o short-termism não é apenas um fenômeno teórico, mas uma realidade que impacta diretamente a transparência e a sustentabilidade dos resultados corporativos. <a href="https://doi.org/10.1108/JAAR-05-2023-0127" target="_blank">Acesse a pesquisa Aqui</a>.</p>
+<p>No entanto, é importante reconhecer que o short-termism também pode funcionar como um mecanismo de adaptação rápida das empresas a mudanças de mercado e à volatilidade econômica, permitindo agilidade na captação de recursos e na resposta a oportunidades emergentes. Há quem veja nesses ciclos curtos não apenas riscos, mas também potencial para inovação e ajuste dinâmico frente a contextos desafiadores.</p>
+<p>Como contador, costumo refletir sob a ótica de que as empresas devem manter o foco no longo prazo, já que o próprio conceito de ativo traz a ideia de que ele deve gerar benefícios futuros. Assim, o investimento leva um tempo até se converter em caixa efetivo para o investidor. Por outro lado, reconheço que a lógica de que os negócios e as decisões são altamente dinâmicos também me parece bastante plausível.</p>
+<p>Essa dualidade me leva a questionar:</p>
+<blockquote class="blockquote">
+<p>Até que ponto o foco no curto prazo representa um problema estrutural ou, às vezes, uma resposta necessária às demandas dos mercados contemporâneos? E como as práticas de governança e a regulação podem equilibrar essa tensão para assegurar sustentabilidade sem tolher a flexibilidade empresarial?</p>
+</blockquote>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Short-Termism</category>
+  <category>Finanças</category>
+  <category>Governança</category>
+  <guid>https://contabilidados.github.io/posts/finance/shortTermism_conceitos/shortTermism_conceitos.html</guid>
+  <pubDate>Mon, 27 Oct 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/finance/shortTermism_conceitos/shortTermism_conceitos.PNG" medium="image"/>
+</item>
+<item>
+  <title>A contabilidade nunca mais será a mesma!</title>
+  <dc:creator>Kléber Formiga Miranda</dc:creator>
+  <link>https://contabilidados.github.io/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.github.io/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+</figure>
+</div>
+<p>Nos últimos meses, as transformações impulsionadas pela ciência de dados e inteligência artificial têm redesenhado o papel do contador e a maneira como as empresas tomam decisões financeiras.</p>
+<p>A análise de dados deixou de ser um “diferencial” para se tornar uma necessidade estratégica. Escritórios e departamentos que utilizam IA e Big Data estão alcançando ganhos expressivos de eficiência: redução de erros, previsões financeiras mais precisas e insights que antes exigiam horas de trabalho manual.</p>
+<p>Mas o que mais chama atenção é a mudança de postura do profissional contábil.</p>
+<p>Hoje, ele não é apenas o guardião dos números, mas o intérprete das tendências.</p>
+<p>Com ferramentas analíticas, é possível identificar oportunidades de economia, riscos fiscais e até padrões de comportamento financeiro dos clientes.</p>
+<p>E ainda há espaço para inovação: regulamentação da reforma tributária brasileira, automação de relatórios e integração inteligente de sistemas já estão moldando o futuro do setor.</p>
+<p>Empresas que resistem a essa digitalização podem perder competitividade e até 22% da receita anual, segundo estudo (acesse aqui).</p>
+<p>O desafio agora é humano: como acompanhar essa revolução?</p>
+<p>O caminho está na capacitação contínua, análise crítica e na mentalidade de aprendizado permanente.</p>
+<p>A contabilidade orientada por dados não substitui o contador. Ela amplia seu alcance e influência.</p>
+<p>💡 <strong>Pergunta para refletir:</strong></p>
+<blockquote class="blockquote">
+<p>Como sua empresa está utilizando dados para transformar a contabilidade em um motor de decisão estratégica?</p>
+</blockquote>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Contabilidade</category>
+  <category>Análise de Dados</category>
+  <guid>https://contabilidados.github.io/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html</guid>
+  <pubDate>Fri, 24 Oct 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>O Coiote como Mascote Ideal para o Projeto Contabilidados</title>
+  <dc:creator>Kléber Formiga</dc:creator>
+  <dc:creator>Alexsandro Prado</dc:creator>
+  <dc:creator>Yuri Azevedo</dc:creator>
+  <link>https://contabilidados.github.io/posts/dados/mascote/mascote.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<style>
+.image-left {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.text-wrapper {
+  overflow: hidden;
+}
+</style>
+<div class="text-wrapper">
+<p><img src="https://contabilidados.github.io/posts/dados/mascote/mascote.jpg" title="Logo" class="image-left img-fluid" width="245"> No universo acadêmico e científico, escolher um mascote para representar um grupo de pesquisa é mais do que apenas uma decisão estética ou divertida. A escolha deve refletir valores, objetivos e características que traduzam a essência do trabalho desenvolvido. No caso do <strong>Projeto de Pesquisa contabiliDados</strong>, que foca na análise de dados contábeis, o <strong>Coiote</strong> é uma escolha criativa, simbólica e surpreendentemente alinhada com o contexto acadêmico. Inspirado na infância de seus idealizadores, o projeto encontrou no Coiote dos Looney Tunes um símbolo perfeito, com características que refletem e representam o espírito e os valores que orientam sua missão.</p>
+<p><strong>Persistência e Resiliência</strong>: O Coiote é famoso por sua determinação em alcançar suas metas, mesmo diante de falhas repetidas. Quem nunca assistiu às suas aventuras com o Papa-Léguas, onde ele tenta – e falha – inúmeras vezes, mas nunca desiste?</p>
+<p>Essa característica é um reflexo direto do trabalho em análise de dados contábeis. Pesquisadores enfrentam desafios complexos, como bases de dados imensas, inconsistências nos registros e hipóteses que nem sempre se confirmam. Persistir, ajustar estratégias e tentar novamente são práticas comuns e indispensáveis. Assim como o Coiote, o grupo contabiliDados compreende que <em>o fracasso é uma etapa natural no caminho para o sucesso</em>.</p>
+<p><strong>Capacidade de Resolver Problemas</strong>: O Coiote é uma figura que exala criatividade. Apesar de suas engenhocas nem sempre funcionarem, ele nunca deixa de inventar soluções inovadoras para capturar seu objetivo.</p>
+<p>Da mesma forma, em pesquisa acadêmica, a capacidade de inovar é vital. Muitas vezes, ferramentas prontas não atendem às necessidades específicas, exigindo adaptações ou a criação de novas abordagens analíticas. O espírito inventivo do Coiote representa essa busca constante por soluções, mesmo que, inicialmente, elas não sejam perfeitas.</p>
+<p><strong>Uso de Ferramentas: A Versão Acadêmica das Engenhocas ACME</strong>: O Coiote não trabalha sozinho. Ele recorre frequentemente às ferramentas da ACME para implementar suas estratégias. No mundo da pesquisa contábil, essas “engenhocas” são substituídas por softwares e linguagens de programação como <strong>Python</strong>, <strong>R</strong>, <strong>Excel</strong> e plataformas de modelagem de dados.</p>
+<p>Essas ferramentas são essenciais para lidar com os desafios de organizar, limpar, processar e interpretar dados. A dependência do Coiote em suas engenhocas reflete o papel central da tecnologia no trabalho do grupo de pesquisa, destacando que o sucesso depende tanto da engenhosidade humana quanto do uso eficaz das ferramentas disponíveis.</p>
+<p><strong>Capacidade de Aprendizado</strong>: Ao longo de suas tentativas, o Coiote está sempre aprendendo. Ele analisa o que deu errado, ajusta suas estratégias e refina seus métodos. Esse ciclo de tentativa, erro e melhoria contínua é a base do processo científico.</p>
+<p>Na análise de dados contábeis, cada iteração traz novos aprendizados. Um modelo estatístico pode não se adequar inicialmente, mas ajustes, reformulações e novas perspectivas acabam levando ao avanço. Essa característica do Coiote é um lembrete de que a evolução científica acontece através de pequenos passos que se acumulam. Na caminhada, os erros são tão valiosos quanto os acertos.</p>
+<p><strong>Senso de Humor</strong>: Um dos aspectos mais marcantes do Coiote é o humor que permeia suas aventuras. Mesmo em situações adversas, ele consegue arrancar risadas, mantendo um tom leve em meio às dificuldades.</p>
+<p>Esse senso de humor é essencial em um ambiente acadêmico. A pressão por resultados, prazos apertados e os desafios diários podem ser desgastantes. Incorporar leveza ao trabalho ajuda a construir um ambiente colaborativo, descontraído e produtivo. O Coiote simboliza essa habilidade de encarar problemas com seriedade, mas sem perder a capacidade de rir e seguir em frente.</p>
+<hr>
+<p>No contexto do <strong>Projeto contabiliDados</strong>, o Coiote vai além de ser um mascote divertido. Ele encapsula valores essenciais para o trabalho acadêmico: esforço incansável, inovação criativa, aprendizado constante e um toque de leveza.</p>
+<p>Adotar o Coiote como símbolo reforça a mensagem de que a ciência é feita de tentativa e erro, de desafios e superações. Ele inspira os membros do grupo a enfrentar obstáculos com determinação, adaptabilidade e, acima de tudo, criatividade – elementos que são o coração de qualquer pesquisa bem-sucedida.</p>
+<p>Assim, o Coiote deixa de ser apenas um personagem e se torna uma metáfora viva para o espírito do contabiliDados, unindo ciência, humor e esforço em um só símbolo.</p>
+<hr>
+<p><em>That’s all Folks!</em></p>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>cntdd</category>
+  <guid>https://contabilidados.github.io/posts/dados/mascote/mascote.html</guid>
+  <pubDate>Fri, 03 Jan 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/dados/mascote/mascote.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Conflitos entre IFRS/CPC e Normas Fiscais da Receita Federal</title>
+  <dc:creator>Alexsandro Prado</dc:creator>
+  <link>https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<style>
+  .left-aligned {
+    text-align: left;
+  }
+</style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" width="330"></p>
+</figure>
+</div>
+<section id="introdução" class="level2"><h2 class="anchored" data-anchor-id="introdução">Introdução</h2>
+<p>As Normas Internacionais de Relatórios Financeiros (IFRS) e as Normas Brasileiras de Contabilidade (CPC) visam fornecer uma base transparente e consistente para a preparação das demonstrações financeiras. Em contraste, as Normas Fiscais da Receita Federal do Brasil (RFB) são estabelecidas com o objetivo de regulamentar a arrecadação de impostos. Apesar de ambas serem fundamentais para a prática contábil e fiscal, existem diversas situações onde os princípios das IFRS/CPC conflitam com as normas fiscais. Este documento abordará vinte dessas situações, destacando as divergências entre as práticas contábeis e fiscais, com referências para cada caso.</p>
+</section><section id="principais-divergências" class="level2"><h2 class="anchored" data-anchor-id="principais-divergências">Principais divergências</h2>
+<p>Uma das principais divergências entre as normas contábeis e fiscais refere-se ao reconhecimento de receita. A IFRS 15 e CPC 47 determinam que a receita deve ser reconhecida quando o controle do bem ou serviço é transferido para o cliente, enquanto a legislação fiscal brasileira pode exigir o reconhecimento da receita em momentos diferentes, baseando-se em critérios de realização e pagamento. Quanto aos ativos intangíveis, a IAS 38 e CPC 04 estabelecem que devem ser reconhecidos quando é provável que os benefícios econômicos futuros atribuíveis ao ativo irão fluir para a entidade. No entanto, as normas fiscais podem não permitir a amortização de determinados intangíveis para fins fiscais.</p>
+<p>Em relação às provisões, a IAS 37 e CPC 25 exigem o reconhecimento de provisões quando há uma obrigação presente resultante de eventos passados. A dedutibilidade fiscal das provisões pode ser limitada, exigindo critérios específicos para sua dedução. No que tange à depreciação de ativos fixos, a IAS 16 e CPC 27 estabelecem que a depreciação deve ser calculada com base na vida útil econômica dos ativos, enquanto a depreciação fiscal segue as taxas fixadas pela RFB, que podem divergir da vida útil econômica estimada.</p>
+<p>Outra área de conflito é o ajuste a valor justo, conforme estabelecido pela IFRS 13 e CPC 46, que requer a mensuração de certos ativos e passivos ao valor justo. A legislação fiscal brasileira pode não reconhecer esses ajustes para fins de apuração do lucro tributável. Quanto aos benefícios a empregados, a IAS 19 e CPC 33 tratam do reconhecimento e mensuração desses benefícios, incluindo planos de pensão, mas a dedutibilidade fiscal pode ser restrita a valores efetivamente pagos.</p>
+<p>Os contratos de leasing também são uma fonte de divergência. A IFRS 16 e CPC 06 (R2) exigem que sejam reconhecidos no balanço como ativos e passivos, enquanto a legislação fiscal pode tratar esses contratos de forma diferente, afetando a base de cálculo dos tributos. No caso das combinações de negócios, a IFRS 3 e CPC 15 exigem o reconhecimento de ativos e passivos adquiridos a valor justo, mas a legislação fiscal pode requerer ajustes para fins de apuração do lucro real.</p>
+<p>Os instrumentos financeiros são tratados pela IFRS 9 e CPC 48, que abordam o reconhecimento e mensuração desses instrumentos, mas pode haver diferenças na tributação de ganhos e perdas. Sobre o imposto de renda diferido, a IAS 12 e CPC 32 tratam do reconhecimento de ativos e passivos fiscais diferidos, mas as normas fiscais podem ter critérios diferentes para esse reconhecimento.</p>
+<p>A reavaliação de ativos é permitida pela IAS 16, enquanto a legislação fiscal pode não permitir essa reavaliação para fins fiscais. A IAS 20 e CPC 07 tratam do reconhecimento de subvenções governamentais, mas a legislação fiscal pode prever a tributação dessas subvenções de maneira diferente. No caso de investimentos em coligadas, a IAS 28 e CPC 18 tratam do método de equivalência patrimonial, mas pode haver diferenças na tributação dos resultados dessas coligadas.</p>
+<p>Quanto aos estoques, a IAS 2 e CPC 16 estabelecem critérios para sua mensuração, enquanto a legislação fiscal pode adotar critérios diferentes. Os ativos biológicos, conforme a IAS 41 e CPC 29, devem ser mensurados a valor justo, mas pode haver restrições à utilização desse valor para fins fiscais. O reconhecimento de dividendos é tratado pelas IAS 10 e CPC 24, enquanto a tributação segue regras específicas da legislação fiscal.</p>
+<p>As propriedades para investimento são tratadas pela IAS 40 e CPC 28, que abordam a mensuração dessas propriedades, mas a legislação fiscal pode adotar critérios diferentes para depreciação e tributação. As concessões públicas são abordadas pela IFRIC 12 e ICPC 01, mas podem ser tratadas de forma diferente para fins fiscais. Os custos de empréstimos são tratados pela IAS 23 e CPC 20, que exigem a capitalização desses custos, enquanto a legislação fiscal pode não permitir a dedução imediata.</p>
+<p>Finalmente, a IFRS 5 e CPC 31 tratam da classificação de ativos não circulantes mantidos para venda, mas a legislação fiscal pode ter regras específicas para a alienação desses ativos e sua tributação.</p>
+<p>As divergências entre as normas IFRS/CPC e as normas fiscais da Receita Federal do Brasil refletem diferentes objetivos e princípios subjacentes às regulamentações contábeis e fiscais. Enquanto as IFRS/CPC visam fornecer uma visão econômica mais precisa e transparente das demonstrações financeiras, as normas fiscais são focadas na arrecadação de impostos e na conformidade tributária. É crucial para os profissionais contábeis entenderem essas diferenças e gerenciar as implicações práticas e regulatórias de cada situação. A harmonização e a conciliação entre essas normas permanecem um desafio contínuo para assegurar a precisão e a conformidade tanto nas demonstrações financeiras quanto nas apurações fiscais.</p>
+</section><section id="referências" class="level2"><h2 class="anchored" data-anchor-id="referências">Referências</h2>
+<div class="left-aligned">
+<p>BRASIL. Lei nº 12.973, de 13 de maio de 2014. Disponível em: http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2014/Lei/L12973.htm. Acesso em: 20 jun. 2024.</p>
+<p>BRASIL. Lei nº 9.249, de 26 de dezembro de 1995. Disponível em: http://www.planalto.gov.br/ccivil_03/leis/L9249.htm. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 04 – Ativo Intangível. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=9. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 06 (R2) – Arrendamentos. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=124. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 07 – Subvenção e Assistência Governamentais. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=10. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 15 – Combinação de Negócios. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=23. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 16 – Estoques. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=20. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 18 – Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=17. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 20 – Custos de Empréstimos. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=19. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 24 – Evento Subsequente. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=27. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 25 – Provisões, Passivos Contingentes e Ativos Contingentes. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=22. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 27 – Ativo Imobilizado. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=24. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 28 – Propriedade para Investimento. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=33. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 29 – Ativo Biológico e Produto Agrícola. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=30. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 31 – Ativo Não Circulante Mantido para Venda e Operação Descontinuada. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=36. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 32 – Tributos sobre o Lucro. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=44. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 33 – Benefícios a Empregados. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=43. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 46 – Mensuração do Valor Justo. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=113. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 47 – Receita. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=117. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. CPC 48 – Instrumentos Financeiros. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=125. Acesso em: 20 jun. 2024.</p>
+<p>COMITÊ DE PRONUNCIAMENTOS CONTÁBEIS. ICPC 01 – Concessões. Disponível em: http://www.cpc.org.br/CPC/Documentos-Emitidos/Interpretações/Interpretação?Id=6. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 10 – Events after the Reporting Period. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-10-events-after-the-reporting-period/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 12 – Income Taxes. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-12-income-taxes/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 16 – Property, Plant and Equipment. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-16-property-plant-and-equipment/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 19 – Employee Benefits. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-19-employee-benefits/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 2 – Inventories. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 20 – Accounting for Government Grants and Disclosure of Government Assistance. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-20-accounting-for-government-grants-and-disclosure-of-government-assistance/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 23 – Borrowing Costs. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-23-borrowing-costs/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 28 – Investments in Associates and Joint Ventures. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-28-investments-in-associates-and-joint-ventures/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 37 – Provisions, Contingent Liabilities and Contingent Assets. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-37-provisions-contingent-liabilities-and-contingent-assets/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 38 – Intangible Assets. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL ACCOUNTING STANDARDS. IAS 41 – Agriculture. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ias-41-agriculture/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING INTERPRETATIONS COMMITTEE. IFRIC 12 – Service Concession Arrangements. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifric-12-service-concession-arrangements/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 13 – Fair Value Measurement. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 15 – Revenue from Contracts with Customers. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 16 – Leases. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-16-leases/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 3 – Business Combinations. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-3-business-combinations/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 5 – Non-current Assets Held for Sale and Discontinued Operations. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-5-non-current-assets-held-for-sale-and-discontinued-operations/. Acesso em: 20 jun. 2024.</p>
+<p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 9 – Financial Instruments. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments/. Acesso em: 20 jun. 2024.</p>
+<p>RECEITA FEDERAL DO BRASIL. Instrução Normativa RFB nº 162/1998. Disponível em: http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=1627&amp;visao=original. Acesso em: 20 jun. 2024.</p>
+<p>RECEITA FEDERAL DO BRASIL. Instrução Normativa RFB nº 1.700/2017. Disponível em: http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=86725&amp;visao=anotado. Acesso em: 20 jun. 2024.</p>
+<div>
+
+
+</div>
+</div>
+</section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Contabilidade</category>
+  <category>Teoria</category>
+  <guid>https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.html</guid>
+  <pubDate>Thu, 20 Jun 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" medium="image" type="image/webp"/>
+</item>
+<item>
+  <title>Introdução ao Software R</title>
+  <dc:creator>Alexsandro Prado</dc:creator>
+  <link>https://contabilidados.github.io/eventos/introR/introR.html</link>
+  <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>V Ciclo de Capacitação Metodológica do PPGA<br><b>Link do evento:</b> <a href="https://www.instagram.com/p/C7y9-APAJ98/?igsh=MTdtcWQ0Y2t3eG02bQ==">https://www.instagram.com/p/C7y9-APAJ98/?igsh=MTdtcWQ0Y2t3eG02bQ==</a><br><b>Lugar: </b>UFERSA LCC Laboratório 1<br><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="https://rpubs.com/contabilidados/introducaoR" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-person-chalkboard"></i> Slide</button></a> <a href="https://posit.cloud/content/8320225" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-rocket"></i> Dados</button></a> <br><br><img src="https://contabilidados.github.io/eventos/introR/evento.jpg" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
+<p><br></p>
+<p>A palestra apresentou uma uma noção sobre o R e seu uso em pesquisas. Importação, tratamento de dados, criação de uma função e realização de testes de regressão múltipla e logit.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>R</category>
+  <category>Economatica</category>
+  <guid>https://contabilidados.github.io/eventos/introR/introR.html</guid>
+  <pubDate>Tue, 11 Jun 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/eventos/introR/evento.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Poison Pills: Compreenda como funciona esse mecanismo de governança corporativa</title>
+  <dc:creator>Yuri Gomes Paiva Azevedo</dc:creator>
+  <link>https://contabilidados.github.io/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.github.io/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+</figure>
+</div>
+<p>Nesse texto, vamos apresentar o que são <em>Poison Pills</em> para te ajudar a compreender como elas protegem as companhias contra tentativas hostis de aquisição de controle. Sendo assim, abordaremos os seguintes tópicos:</p>
+<ol type="1">
+<li><p>O que é uma tentativa hostil de aquisição de controle?</p></li>
+<li><p>O que são <em>Poison Pills</em> e como elas funcionam?</p></li>
+<li><p>Uma particularidade no contexto brasileiro: as cláusulas “pétreas”</p></li>
+<li><p>Reflexões Finais</p></li>
+</ol>
+<section id="o-que-é-uma-tentativa-hostil-de-aquisição-de-controle" class="level2"><h2 class="anchored" data-anchor-id="o-que-é-uma-tentativa-hostil-de-aquisição-de-controle">1. O que é uma tentativa hostil de aquisição de controle?</h2>
+<p>Durante períodos de extrema volatilidade do mercado e incerteza dos investidores, como o recente cenário de pandemia da Covid-19, é possível que as companhias abertas se tornem mais vulneráveis a aquisições hostis. Nesse contexto, potenciais adquirentes (e.g., companhias ou investidores) podem aproveitar que as ações da companhia “alvo” estão subvalorizadas para, de maneira oportunista, tentar adquirir parte do controle acionário da companhia de forma hostil.</p>
+<p>Essa tentativa hostil de aquisição de controle ocorre quando um potencial adquirente lança uma oferta para tentar adquirir determinado percentual de ações ordinárias da companhia “alvo” que lhe configure como controlador (ou como um dos controladores), sem que a administração e/ou acionistas dessa companhia tenham demonstrado interesse na alienação do controle acionário. Assim, como forma de impedir ou dificultar aquisições hostis, as companhias podem adotar mecanismos de governança corporativa denominados <em>shark repellents</em>, sendo as <em>poison pills</em> um dos mecanismos mais conhecidos pelo mercado.</p>
+</section><section id="o-que-são-poison-pills-e-como-elas-funcionam" class="level2"><h2 class="anchored" data-anchor-id="o-que-são-poison-pills-e-como-elas-funcionam">2. O que são <em>poison pills</em> e como elas funcionam?</h2>
+<p>Antes de explicar o funcionamento das <em>poison pills</em> enquanto mecanismo de governança corporativa, é importante ressaltar que existem diferenças entre as <em>poison pills</em> adotadas nos Estados Unidos e no Brasil. Entretanto, apesar de assumirem diferentes formas, as <em>poison pills</em> devem ter como principal objetivo fornecer direitos e privilégios aos atuais acionistas, caso a companhia se torne alvo de uma aquisição hostil.</p>
+<p>Nos Estados Unidos, as <em>poison pills</em> mais comumente adotadas pelas companhias são as <em>poison pills flip-in</em> e <em>flip-over</em>. De forma simplificada, esses mecanismos atuam da seguinte forma:</p>
+<ul>
+<li><p><em>Poison pill flip-in</em>: Quando um potencial adquirente acumula determinada porcentagem de ações ordinárias em circulação de uma companhia “alvo” (percentual de disparo) ou quando faz uma oferta para aquisição de determinado percentual dessas ações, a <em>poison pill</em> é ativada. Nesse sentido, todos os acionistas, exceto o potencial adquirente, podem comprar ações da companhia com um desconto no seu valor de mercado, diluindo, portanto, a participação do adquirente na companhia alvo.</p></li>
+<li><p><em>Poison pill flip-over</em>: Permite que os acionistas da companhia-alvo tenham o direito de adquirir ações com um desconto substancial no preço de mercado após a realização da fusão (<em>merger</em>) com o adquirente, sendo considerada um importante mecanismo por manter a participação societária desses acionistas na entidade alvo do <em>takeover</em>.</p></li>
+</ul>
+<p>No Brasil, as <em>poison pills</em> são distintas das utilizadas nos Estados Unidos visto que elas geralmente preveem que qualquer investidor que tentar adquirir ou, de qualquer outro modo, tornar-se titular de determinado percentual de ações da companhia conforme definido no estatuto social (normalmente entre 20% a 30%), realize uma oferta pública de aquisição (OPA) para a aquisição da totalidade das ações em circulação da companhia-alvo, atendendo a determinados parâmetros de preço e condições de pagamento. Um exemplo desse dispositivo — que é normalmente inserido na seção de alienação do controle acionário do estatuto social — é evidenciado a seguir:</p>
+<blockquote class="blockquote">
+<p>“Qualquer pessoa que adquira ou se torne titular de ações de emissão da Companhia, em quantidade igual ou superior a 20% do total de ações de emissão da Companhia deverá, no prazo máximo de 60 dias a contar da data de aquisição ou do evento que resultou na titularidade de ações em quantidade igual ou superior a 20% do total de ações de emissão da Companhia, realizar ou solicitar o registro de, conforme o caso, uma oferta pública de aquisição da totalidade das ações de emissão da Companhia (”OPA”), observando-se o disposto na regulamentação aplicável da CVM, o Regulamento do Novo Mercado, outros regulamentos da BM&amp;FBOVESPA e os termos deste Artigo” (TECNISA, 2017, p.&nbsp;24).</p>
+</blockquote>
+<p>A necessidade de realização de oferta pública para a aquisição da totalidade das ações emitidas pela companhia praticamente impossibilita a tomada hostil de controle. No entanto, ainda existem outros aspectos que visam tornar essa operação ainda mais onerosa para o potencial adquirente, como a obrigação de que esses paguem um prêmio na compra das ações, conforme valor preestabelecido no estatuto da companhia (e.g., 125% da cotação unitária mais alta atingida pelas ações de emissão da Companhia durante o período de 12 meses anterior à realização da OPA). Nesse sentido, verifica-se que percentuais de disparo muito baixos e prêmios excessivamente altos são características presentes nas <em>poison pills</em> adotadas por companhias abertas brasileiras, reduzindo, assim, a probabilidade de tentativas hostis de aquisição de controle (AMBROZINI; PIMENTA JUNIOR; GAIO, 2015).</p>
+</section><section id="uma-particularidade-no-contexto-brasileiro-as-cláusulas-pétreas" class="level2"><h2 class="anchored" data-anchor-id="uma-particularidade-no-contexto-brasileiro-as-cláusulas-pétreas">3. Uma Particularidade no Contexto Brasileiro: As Cláusulas “Pétreas”</h2>
+<p>Outra particularidade no contexto brasileiro relacionada a adoção de <em>poison pills</em> é a possibilidade de inclusão, no estatuto social, de uma cláusula “pétrea”, que prevê que esse dispositivo <em>anti-takeover</em> não pode ser alterado ou removido, diferentemente das <em>poison pills</em> adotadas no Estados Unidos, que normalmente são válidas por um período de 10 anos. De forma simplificada, esse dispositivo obriga que o acionista que tiver votado pela alteração ou exclusão da <em>poison pill</em> realize uma oferta pública para a aquisição da totalidade das ações emitidas pela companhia, tendo como base os parâmetros já definidos quando da adoção da <em>poison pill</em>. Um exemplo dessa cláusula “pétrea” é evidenciado a seguir:</p>
+<blockquote class="blockquote">
+<p>A alteração que limite o direito dos acionistas à realização da OPA prevista neste Artigo ou a exclusão deste Artigo obrigará os acionistas que tiverem votado a favor de tal alteração ou exclusão na deliberação em Assembleia Geral a realizar a OPA prevista neste Artigo, observado o disposto no Parágrafo 3° do Artigo 10 deste Estatuto Social (TECNISA, 2017, p.&nbsp;28).</p>
+</blockquote>
+<p>Tendo em vista a possibilidade de implementação da cláusula “pétrea”, diversos questionamentos acerca da sua validade jurídica foram colocados em pauta, além da discussão relacionada ao possível desvirtuamento da principal finalidade das <em>poison pills</em>, que em vez de fornecer direitos e benefícios aos acionistas, podem estar sendo utilizadas para promover o entrincheiramento de gestores ineficientes (MAESTRI, 2011; MARTINS, 2015).</p>
+<p>No tocante à validade jurídica das cláusulas “pétreas”, é importante ressaltar que a Comissão de Valores Mobiliários (CVM), se manifestou contrariamente à sua utilização. No Parecer de Orientação Nº 36, a CVM declara que os acionistas que votarem pela supressão ou alteração da cláusula de proteção à dispersão acionária não serão penalizados pelo órgão. Essa decisão do colegiado foi pautada na perspectiva que a inclusão das cláusulas “pétreas” não se compatibiliza com princípios e normas da legislação societária, visto que se o objetivo das disposições acessórias for tornar as cláusulas de proteção à dispersão acionária praticamente imutáveis, elas irão de encontro ao disposto no Art. 122, I, da Lei nº 6.404, de 1976, que outorga poderes à assembleia geral para alterar o estatuto sempre que o interesse social assim o exigir.</p>
+</section><section id="reflexões-finais" class="level2"><h2 class="anchored" data-anchor-id="reflexões-finais">4. Reflexões Finais</h2>
+<p>As companhias que enfrentam dificuldades financeiras significativas, com as oriundas da pandemia do Covid-19, podem se tornar alvos potenciais para aquisições por firmas maiores e financeiramente mais estáveis. Nesse contexto, a implementação de uma <em>poison pill</em> pode ser uma estratégia de governança corporativa eficaz para essas empresas, visto que elas podem evitar aquisições indesejadas e manter uma posição de negociação mais forte. Isso é especialmente relevante quando se considera que firmas maiores, ao tentar adquirir empresas menores em dificuldades, podem estar buscando manter ou reforçar um monopólio ou liderança de mercado.</p>
+<p>Importante ressaltar que companhias que adotam as melhores práticas de governança corporativa também estão suscetíveis a tentativas de aquisições hostis, como as companhias do Novo Mercado. Por emitirem apenas ações ordinárias (ações com direito a voto), o <em>free float</em> de 25% que deve ser mantido pelas companhias listadas no segmento Novo Mercado pode tornar essas companhias mais vulneráveis a tentativas de aquisições hostis. Assim, considera-se importante que essas companhias, mesmo listadas no segmento mais elevado de governança corporativa, adotem <em>poison pills</em> como um mecanismo complementar relacionado à proteção dos acionistas e da manutenção da dispersão acionária. Como exemplo, tem-se o caso da Vale S.A., que no processo de transição para o segmento Novo Mercado, adotou a <em>poison pill</em> para se proteger de futuras tentativas hostis de aquisição de controle.</p>
+<p>Nesse sentido, verifica-se que a <em>poison pill</em> não só protege a empresa de uma aquisição hostil, mas também proporciona uma plataforma para negociar valores de forma mais vantajosa, garantindo que qualquer transação futura seja realizada em condições que beneficiem a empresa e seus <em>stakeholders</em>. Entretanto, deve-se atentar que a poison pill, quando acompanhada por cláusula pétrea, pode ser um mecanismo que não promove a governança corporativa, mas sim, o entrincheiramento gerencial.</p>
+</section><section id="referências" class="level2"><h2 class="anchored" data-anchor-id="referências">Referências</h2>
+<p>Ambrozini, M. A., Pimenta Junior, T., &amp; Gaio, L. E. (2015). Governança corporativa: Poison Pills e seus impactos em empresas brasileiras. <strong>Revista de Administração e Inovação</strong>, 12(4), 225-242.</p>
+<p>Maestri, E. (2011). Cláusulas Pétreas no Direito Societário Brasileiro: Proteção ou Entrincheiramento? <strong>Revista Brasileira de Direito Empresarial</strong>, 5(2), 1-14.</p>
+<p>Martins, R. A. (2015). Cláusulas Pétreas e Poison Pills: Análise de sua Aplicabilidade no Mercado Brasileiro. <strong>Revista de Direito Mercantil</strong>, 54(3), 367-385.</p>
+<p>Tecnisa S.A. (2017). <strong>Estatuto Social</strong>. Disponível em: <a href="https://ri.tecnisa.com.br/List/Estatuto-Social--Codigos-e-Politicas?=seSBgTakN0FknmomZ75wJw==">https://ri.tecnisa.com.br/</a></p>
+<hr>
+
+
+</section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Finanças</category>
+  <category>Governança</category>
+  <guid>https://contabilidados.github.io/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html</guid>
+  <pubDate>Thu, 06 Jun 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.webp" medium="image" type="image/webp"/>
+</item>
+<item>
+  <title>Instalando o pacote CNTDD no R</title>
+  <dc:creator>Alexsandro Prado</dc:creator>
+  <link>https://contabilidados.github.io/posts/dados/instalacntdd/instalacntdd.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.github.io/posts/dados/instalacntdd/instalacntdd_logo.png" title="logo" class="img-fluid quarto-figure quarto-figure-center figure-img" width="245"></p>
+</figure>
+</div>
+<p>A seguir vamos aprender a instalar o pacote cntdd que pode ser muito útil para contadores e profissionais de finanças.Este pacote está hospedado no <a href="https://github.com/contabilidados/cntdd">GitHub</a> e pode ser instalado usando a função <code>install_github</code> do pacote <code>devtools</code>.</p>
+<section id="pré-requisitos" class="level3"><h3 class="anchored" data-anchor-id="pré-requisitos"><strong>Pré-requisitos</strong></h3>
+<p>Antes de começarmos, certifique-se de que você tem a versão mais recente do R instalada em seu sistema. Você pode baixá-la do CRAN. Além disso, é necessário ter o Git instalado, pois vamos clonar um repositório do GitHub. Você pode encontrar instruções de instalação do Git em git-scm.com.</p>
+</section><section id="instalando-o-pacote-devtools" class="level3"><h3 class="anchored" data-anchor-id="instalando-o-pacote-devtools"><strong>Instalando o Pacote devtools</strong></h3>
+<p>O devtools é uma poderosa ferramenta que facilita a instalação e o gerenciamento de pacotes no R, especialmente aqueles hospedados no GitHub. Caso você ainda não tenha o devtools instalado, pode fazê-lo diretamente do CRAN. Abra seu R e execute o seguinte comando:</p>
+</section><section id="instalando-o-pacote-cntdd-do-github" class="level3"><h3 class="anchored" data-anchor-id="instalando-o-pacote-cntdd-do-github"><strong>Instalando o Pacote <code>cntdd</code> do GitHub</strong></h3>
+<p>Com o <strong><code>devtools</code></strong> instalado, estamos prontos para instalar o pacote <strong><code>cntdd</code></strong>. O endereço do repositório no GitHub é <strong><code>git@github.com:contabilidados/cntdd.git</code></strong>. Para instalar o pacote a partir deste repositório, use a função <strong><code>install_github</code></strong> do <strong><code>devtools</code></strong>. Aqui está o comando necessário:</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Carregar o pacote devtools</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://devtools.r-lib.org/">devtools</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span></span>
+<span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Instalar o pacote cntdd do GitHub</span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"contabilidados/cntdd"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<p>Note que você não precisa incluir o <strong><code>git@</code></strong> ou <strong><code>.git</code></strong> no endereço do repositório ao usar <strong><code>install_github</code></strong>.</p>
+</section><section id="verificando-a-instalação" class="level3"><h3 class="anchored" data-anchor-id="verificando-a-instalação"><strong>Verificando a Instalação</strong></h3>
+<p>Após a instalação, é sempre uma boa prática verificar se o pacote foi instalado corretamente. Podemos fazer isso carregando o pacote com library(cntdd) e então explorando suas funções e documentação.</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Carregar o pacote cntdd</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Bem-vindo ao pacote cntdd! Para saber mais, visite https://contabilidados.com.br</code></pre>
+</div>
+</div>
+</section><section id="funções-do-cntdd" class="level3"><h3 class="anchored" data-anchor-id="funções-do-cntdd"><strong>Funções do CNTDD</strong></h3>
+<p>Com a função <code>ls</code> é possível listar todas as funcionalidades do pacote <code>cntdd</code>:</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/ls.html">ls</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"package:cntdd"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "dt_contabil"                 "dt_cvmB3"                   
+ [3] "dt_iseB3"                    "dt_meses"                   
+ [5] "dt_ufRegiao"                 "ind_analisaDRE"             
+ [7] "ind_analiseCiclo"            "ind_analiseDupont"          
+ [9] "ind_analiseEfeitoTesoura"    "ind_analiseVH"              
+[11] "ind_ativoCiclico"            "ind_ativoFinanceiro"        
+[13] "ind_capitalCircLiquido"      "ind_capitalInvestido"       
+[15] "ind_capitalOperLiquido"      "ind_cicloFinanceiro"        
+[17] "ind_cicloOperacional"        "ind_composicaoEndividamento"
+[19] "ind_custoCapital"            "ind_endividamentoFinanceiro"
+[21] "ind_eva"                     "ind_evaPercentual"          
+[23] "ind_giro"                    "ind_imobilizacaoPL"         
+[25] "ind_liqCorrente"             "ind_liqGeral"               
+[27] "ind_liqImediata"             "ind_liqSeca"                
+[29] "ind_necessidadeCapGiro"      "ind_nivelEndividamento"     
+[31] "ind_nopat"                   "ind_partCapTerceiros"       
+[33] "ind_passivoCiclico"          "ind_passivoFinanceiro"      
+[35] "ind_passivoOneroso"          "ind_pmpc"                   
+[37] "ind_pmre"                    "ind_pmrv"                   
+[39] "ind_roa"                     "ind_roe"                    
+[41] "ind_roic"                    "ind_ros"                    
+[43] "ind_saldoTesouraria"         "ind_wacc"                   
+[45] "stat_correl"                 "stat_geomMean"              
+[47] "stat_meanTest"               "stat_testaIndependencia"    
+[49] "utl_ajustaContaInflacao"     "utl_baixaBCB"               
+[51] "utl_CNPJ_Mascara"            "utl_consultarCNPJ"          
+[53] "utl_createGroup"             "utl_limpaCNPJ"              
+[55] "utl_qdeNAcols"               "utl_robErro"                
+[57] "utl_tableStat"               "utl_tStarSig"               </code></pre>
+</div>
+</div>
+<p>Por exemplo, a função dt_contabil carrega um data frame com dados de empresas listadas na B3. Os dados podem ser usados para fins didáticos na análise das demosntrações contábeis ou análise exploratária de dados contábeis.</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">df</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cntdd</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/dt_contabil.html">dt_contabil</a></span></span></code></pre></div></div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">df</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 60
+Columns: 38
+$ empresa           &lt;chr&gt; "alpha", "alpha", "alpha", "alpha", "alpha", "alpha"…
+$ ano               &lt;int&gt; 2016, 2017, 2018, 2019, 2020, 2021, 2016, 2017, 2018…
+$ caixaEquiv        &lt;int&gt; 5198, 10517, 8803, 14299, 39659, 34950, 638296, 4248…
+$ aplicFinanc       &lt;int&gt; 246286, 339427, 235388, 273264, 541474, 236951, 3489…
+$ clientesCP        &lt;int&gt; 326524, 348944, 396347, 428123, 620133, 818424, 2848…
+$ estoques          &lt;int&gt; 114409, 117527, 156229, 185886, 301247, 466517, 6858…
+$ outrosAtvCirc     &lt;int&gt; 38943, 69255, 75196, 113989, 118040, 148544, 425302,…
+$ atvCirc           &lt;int&gt; 731360, 885670, 871963, 1015561, 1620553, 1705386, 4…
+$ clientesLP        &lt;int&gt; 14162, 11898, 11101, 10772, 2655, 4428, 0, 0, 0, 0, …
+$ investimento      &lt;int&gt; 937, 3029, 3442, 3124, 3123, 2963, 198967, 191662, 1…
+$ imobilizado       &lt;int&gt; 75651, 70042, 86161, 314902, 327555, 418239, 2064054…
+$ intangLiquido     &lt;int&gt; 89019, 82011, 69558, 77717, 859397, 1051033, 116819,…
+$ outrosAtvNaoCirc  &lt;int&gt; 28299, 34609, 39993, 41462, 120057, 304066, 669258, …
+$ atvNaoCirc        &lt;int&gt; 208068, 201589, 210255, 447977, 1312787, 1780729, 30…
+$ forneced          &lt;int&gt; 68809, 108131, 114039, 139769, 413394, 595164, 47003…
+$ empFinCP          &lt;int&gt; 81780, 169555, 45542, 163852, 248004, 514541, 964665…
+$ outrosPassCirc    &lt;int&gt; 58423, 91836, 105413, 177572, 282452, 463348, 171897…
+$ passivoCirc       &lt;int&gt; 209012, 369522, 264994, 481193, 943850, 1573053, 315…
+$ empFinLP          &lt;int&gt; 28042, 18657, 69839, 23364, 408834, 39075, 682578, 7…
+$ outrosPassNaoCirc &lt;int&gt; 8844, 10457, 10730, 186361, 184069, 225330, 414210, …
+$ passivoNaoCirc    &lt;int&gt; 36886, 29114, 80569, 209725, 592903, 264405, 1096788…
+$ patLiquido        &lt;int&gt; 693530, 688623, 736655, 772620, 1396587, 1648657, 37…
+$ ativoTotal        &lt;int&gt; 939428, 1087259, 1082219, 1463539, 2933340, 3486116,…
+$ receita           &lt;int&gt; 1283203, 1408886, 1580984, 1738990, 1647607, 3027870…
+$ custoMercVend     &lt;int&gt; 714366, 762921, 845023, 935693, 865520, 1434437, 243…
+$ despVendas        &lt;int&gt; 313479, 346107, 392405, 439467, 548811, 915882, 2627…
+$ despAdm           &lt;int&gt; 96149, 117866, 145877, 190560, 168007, 327469, 72290…
+$ despOperac        &lt;int&gt; 412126, 466152, 537875, 572255, 686700, 1108236, 328…
+$ receitaFinanc     &lt;int&gt; 36926, 35051, 41463, 25599, 67862, 43884, 239311, 12…
+$ despesaFinanc     &lt;int&gt; 31050, 25420, 63502, 44422, 106750, 110857, 372009, …
+$ impostoRenda      &lt;int&gt; 42304, 29475, 28327, 44309, 6186, 62273, -43552, 212…
+$ depreciacao       &lt;int&gt; 26733, 33793, 42336, 83180, 83989, 109511, 296241, 3…
+$ ebit              &lt;int&gt; 156710, 179811, 198085, 231041, 95386, 485197, 41799…
+$ lucroLiquido      &lt;int&gt; 120282, 159966, 147719, 167908, 50312, 357519, 32885…
+$ lair              &lt;int&gt; 162586, 189442, 176047, 212218, 56499, 418225, 28529…
+$ flxCxOper         &lt;int&gt; 105328, 180074, 122029, 212172, 228155, 250547, 4322…
+$ flxCxInvest       &lt;int&gt; -21703, -94960, 74806, -88448, -307860, -11155, -288…
+$ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -241822, 1…</code></pre>
+</div>
+</div>
+<p>Pronto! Agora você tem o pacote <strong><code>cntdd</code></strong> instalado e pronto para usar em suas análises e relatórios contábeis.</p>
+<p>Fique atento ao nosso blog para mais dicas e tutoriais sobre ferramentas e técnicas no mundo da contabilidade e finanças. E, como sempre, se tiver alguma dúvida ou sugestão, não hesite em nos contatar: <a href="mailto:contabilidados@ufersa.edu.br">contabilidados@ufersa.edu.br</a>.</p>
+
+
+</section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Contabilidade</category>
+  <category>Analytics</category>
+  <category>R</category>
+  <guid>https://contabilidados.github.io/posts/dados/instalacntdd/instalacntdd.html</guid>
+  <pubDate>Fri, 01 Mar 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/dados/instalacntdd/instalacntdd_destaque.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Contabilidade e Data Analytics: O uso do R</title>
+  <dc:creator>Kléber Formiga Miranda</dc:creator>
+  <link>https://contabilidados.github.io/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<p><img src="https://contabilidados.github.io/posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" class="img-fluid"></p>
+<p>Em nosso acelerado mundo digital, a contabilidade e as finanças passam por uma transformação fundamental. A integração com <em>data analytics</em>, que ultrapassou o status de tendência, agora é um pilar vital na profissão. A capacidade de vasculhar volumes imensos de dados e demonstrar insights cruciais está reformulando as estratégias de tomada de decisão financeira. Com a evolução contínua das tecnologias, a indústria financeira adapta-se com agilidade, incorporando novas ferramentas e abordagens para manter sua vantagem competitiva e eficiência. Neste contexto, a competência em <em>data analytics</em> é uma necessidade inegável para quem almeja liderar no setor de contabilidade e finanças.</p>
+<p>Neste post, explorarei como a plataforma <strong>R Programming (R)</strong> pode ser uma aliada inestimável para profissionais que buscam aprimorar suas habilidades em <em>Data</em> <em>Analytics</em>. Este texto é um compilado de minhas experiências profissionais e acadêmicas nos últimos cinco anos. Para aqueles interessados em aprofundar-se nas transformações nas finanças, recomendo a leitura da terceira edição de 2023 da <a href="https://periodicos.fgv.br/gvexecutivo/issue/view/v22n3">Revista GV Executivo</a> que trata do <strong>Futuro das Finanças</strong>.</p>
+<p><strong>R</strong> é uma ferramenta gratuita, criada por estatísticos, atendendo a necessidades profissionais e acadêmicas. Embora sua linguagem possa inicialmente ser um desafio para quem nunca programou, ela oferece um acesso prático e eficaz na análise de dados em contabilidade, permitindo a automação de rotinas e a ampliação da capacidade de estruturar, visualizar e extrair <em>insights</em> valiosos.</p>
+<p>A maioria dos dados que contadores manuseiam são importados de bases de dados primárias, provenientes das atividades operacionais das empresas. A habilidade de um contador em coletar, auditar e analisar esses dados é crucial para um processo decisório informado e eficaz. <strong>R</strong> serve como uma ponte entre o mundo dos dados e a expertise contábil, abrindo caminho para análises mais profundas e decisões mais estratégicas.</p>
+<p>Em uma apresentação recente (<a href="https://kleberformiga.quarto.pub/posts/dadosContabeis_com_r/presentationCINCO.html#/dados-cont%C3%A1beis">veja aqui</a>), mostrei como a visualização de informações contábeis evoluiu. Tradicionalmente, visualizamos dados contábeis em demonstrações financeiras impressas ou em formato PDF. De forma mais analítica, temos um banco de dados completo disponível para a busca de insights corporativos. O <strong>R</strong> permite realizar avaliações complexas de demonstrações financeiras, previsões e modelagem financeira, além de se destacar na auditoria e detecção de fraudes com técnicas avançadas.</p>
+<p>A adoção de <strong>R</strong> na contabilidade traz benefícios significativos: precisão aprimorada, eficiência elevada pela automação de tarefas repetitivas, e insights estratégicos que influenciam decisões de negócios. Além disso, <strong>R</strong> oferece uma personalização sem precedentes, adaptando-se às necessidades específicas de cada empresa. Contudo, a adoção do <strong>R</strong> não está isenta de desafios. A curva de aprendizado para aqueles sem experiência em programação pode ser íngreme, e a integração de R com sistemas existentes requer conhecimento técnico especializado.</p>
+<p>Para apoiar esta jornada, cursos e aperfeiçoamentos são essenciais. Instituições como a UFERSA já estão atentas a essa demanda, oferecendo cursos, rodas de conversa e workshops na área. Para mais informações, entre em contato pelo email: <a href="mailto:contabilidados@ufersa.edu.br">contabilidados@ufersa.edu.br</a>.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Contabilidade</category>
+  <category>Analytics</category>
+  <category>R</category>
+  <guid>https://contabilidados.github.io/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html</guid>
+  <pubDate>Mon, 05 Feb 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Noções Básicas de Técnicas Contábeis e Financeiras com o R</title>
+  <dc:creator>cntdd </dc:creator>
+  <link>https://contabilidados.github.io/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html</link>
+  <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>CINCO - I Congresso Interinstitucional de Contabilidade e Controladoria<br><b>Link do evento:</b> <a href="https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCO">https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCO</a><br><b>Lugar: </b>Online<br><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="https://kleberformiga.quarto.pub/blog/posts/analiseDadosContabeis_com_r/analiseDadosContabeis_CINCO.html" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-book-open-reader"></i> Apostila</button></a> <a href="https://kleberformiga.quarto.pub/blog/posts/dadosContabeis_com_r/presentationCINCO.html" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-person-chalkboard"></i> Slide</button></a> <br><br><img src="https://contabilidados.github.io/eventos/CINCO_dez2023/figs/cinco.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
+<p><br></p>
+<p>O minicurso abordou a importância da análise de dados como uma habilidade para o profissional contábil, demonstrando como o tratamento estratégico dados aos dados otimiza o processo de coleta e análise de informações relevantes para o processo decisório. No aspecto prático, foi demonstrado como algumas técnicas contábeis e financeiras podem ser realizadas com a aplicação R Programming.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>R</category>
+  <category>Economatica</category>
+  <category>Análise de Dados</category>
+  <guid>https://contabilidados.github.io/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html</guid>
+  <pubDate>Thu, 14 Dec 2023 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/eventos/CINCO_dez2023/figs/cinco.png" medium="image" type="image/png" height="65" width="144"/>
+</item>
+<item>
+  <title>Análise de dados com R e Economatica</title>
+  <dc:creator>cntdd </dc:creator>
+  <link>https://contabilidados.github.io/eventos/economaticaR/economaticaR.html</link>
+  <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>Análise de Dados com R e Economatica<br><b>Link do evento:</b> <a href="https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo</a><br><b>Lugar: </b>Online<br><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="https://github.com/UFERSA3/contabilidados/raw/master/tutoriais/basicoR/basicoR.pdf" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Apostila</button></a> <a href="https://www.youtube.com/live/Bckx1xIqGto?feature=share" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 1</button></a> <a href="https://www.youtube.com/watch?v=7mgmchEo-1w" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 2</button></a> <br><br><img src="https://contabilidados.github.io/eventos/economaticaR/figs/economaticaR_2.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
+<p><br></p>
+<p>Essa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>R</category>
+  <category>Economatica</category>
+  <category>Análise de Dados</category>
+  <guid>https://contabilidados.github.io/eventos/economaticaR/economaticaR.html</guid>
+  <pubDate>Sat, 29 Oct 2022 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/eventos/economaticaR/figs/economaticaR_2.png" medium="image" type="image/png" height="68" width="144"/>
+</item>
+<item>
+  <title>Análise de dados com R e Economatica</title>
+  <dc:creator>cntdd </dc:creator>
+  <link>https://contabilidados.github.io/eventos/treinamentoeconomatica/treinamentoeconomatica.html</link>
+  <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>Análise de Dados com R e Economatica<br><b>Link do evento:</b> <a href="https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo</a><br><b>Lugar: </b>Online<br><h2 class="anchored">
+Materiais
+</h2>
+<br><center>
+<a href="https://github.com/UFERSA3/contabilidados/raw/master/tutoriais/basicoR/basicoR.pdf" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Apostila</button></a> <a href="https://www.youtube.com/live/Bckx1xIqGto?feature=share" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 1</button></a> <a href="https://www.youtube.com/watch?v=7mgmchEo-1w" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 2</button></a> <br><br><img src="https://contabilidados.github.io/eventos/treinamentoeconomatica/figs/treinamentoeconomatica.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+</center>
+<p><br></p>
+<p>Essa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>R</category>
+  <category>Economatica</category>
+  <category>Análise de Dados</category>
+  <guid>https://contabilidados.github.io/eventos/treinamentoeconomatica/treinamentoeconomatica.html</guid>
+  <pubDate>Sat, 29 Oct 2022 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/eventos/treinamentoeconomatica/figs/treinamentoeconomatica.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Política de Dividendos</title>
+  <dc:creator>Kléber Formiga Miranda</dc:creator>
+  <link>https://contabilidados.github.io/posts/finance/politicaDividendos/politicaDividendos.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<p><img src="https://contabilidados.github.io/posts/finance/politicaDividendos/politicaDividendos.png" class="img-fluid"></p>
+<p>A política de dividendos trata da forma como a empresa distribui seu lucro aos acionistas. O tema se demonstra simples pelo fato de tratar de uma expectativa natural de qualquer investidor, qual seja a geração de fluxo de caixa por meio de retornos de seus investimentos. Os dividendos constituem o rendimento direto da aplicação de recursos na participação acionária das empresas. Entretanto, diversos aspectos permeiam esse tema a ponto de surgirem vertentes diferentes para definições das políticas de dividendos das empresas. Nessa resenha serão discutidos os resultados de pesquisas elaboradas por Brav, Graham, Harvey e Michaely (2004) relacionados à política de dividendos, Heineberg e Procianoy (2003) quanto aos aspectos determinantes do pagamento de proventos em dinheiro, Procianoy e Verdi (2003) tratando do efeito clientela e, por último, Procianoy e Vieira (n.d.) tratando das reações do mercado de capitais aos dividendos.</p>
+<p>O estudo de Brav <em>et. Al</em> (2004) tratou de realizar um <em>survey</em> com executivos financeiros à luz da pesquisa de Lintner, nos anos 50. A proposta de Brav <em>et. Al</em> (2004) foi determinar fatores que direcionam as decisões de pagamento de dividendos ou recompra de ações. Foram realizadas diversas perguntas com gestores contemporâneos (o artigo cita século XXI), sobre questões relacionadas ás motivações para pagamentos de dividendos e utilização de questões de agência e sinalização. Nos executivos das 28 empresas pesquisadas por Lintner, 50 anos antes, as evidências mostram maior propensão de pagamento de dividendos por empresas maduras e geradoras de lucros persistentes no longo prazo. Nas evidências e Brav <em>et. Al</em> (2004) já se observa a pretensão pela flexibilidade da recompra de ações.</p>
+<p>O contraponto de Brav <em>et. Al</em> (2004) com os achados de Lintner se deu em duas vertentes, quais sejam o conservadorismo e a decisão com base no índice de <em>payout</em>. Os executivos contemporâneos, diferente de seus pares dos anos 50, demonstraram menor conservadorismo e distanciamento das decisões com base no <em>payout</em>. As decisões de investimento na empresa passaram determinar as decisões. Os aumentos de dividendos passaram a ser considerados após supridas as necessidades de investimentos e liquidez. De acordo com as entrevistas realizadas verificou-se a propensão dos gestores em aceitar redução na recompra de ação em relação a redução de dividendos – menor conservadorismo. Apenas 22% dos respondentes acreditam no efeito negativo da recompra de ações e 90% dos respondentes atribuem um fato negativo ao se reduzir dividendos. Outro percentual revelador da evidência dos dividendos é 40% dos respondentes declararem ter como alvo o dividendo por ação.</p>
+<p>Por meio de uma regressão linear considerando os dividendos defasados e lucros correntes para explicar os dividendos atuais, Brav <em>et. Al</em> (2004) compararam os resultados dos respondentes com uma amostra de não-respondentes retiradas do Compustat. Os resultados confirmaram o fato de o prêmio de dividendos não ser mais tão importante quanto na época de Lintner. Uma discussão realizada na pesquisa é o fato de haver relação entre o lucro do período o fato de haver ou não meta de dividendos. Os resultados sugeriram haver respostas no sentido de não objetivar dividendos quando as metas não são alcançadas. Ao mesmo tempo, empresas sem objetivo de dividendos possuem baixo crescimento dos lucros, altos índices de endividamento e pagam poucos dividendos.</p>
+<p>As implicações para decisões de dividendos ou recompra de ações se deve a fatores como tributos, clientela, conflitos de agência e sinalização. Sob o ponto de vista dos tributos, Brav <em>et. Al</em> (2004) identificam a sua influência nas decisões de <em>payout</em>. Quanto a clientela, observam não haver preferência por dividendos pelos investidores institucionais. Diversos respondentes discordam que dividendos atraiam esses investidores. Entretanto, os dividendos são vistos como redutores de conflitos de agência mais eficazes relação a recompra de ações. O fato de ter a política de pagamento de dividendos, segundo respondentes, aumenta o monitoramento das atividades da gestão. Quanto a sinalização, permaneceu a lacuna de como o mercado absorve a informação quanto ao pagamento de dividendos ou recompra de ações. Inicialmente Brav <em>et. Al</em> (2004) esperavam a existência de associação entre dividendos e recompra de ações com a informação.</p>
+<p>No mercado brasileiro, os determinantes para política de dividendos foram analisados por Heineberg e Procianoy (2003) com empresas listadas na então Bovespa no período de 1994 a 2000. Um ponto importante nessa pesquisa é o trato do termo dividendos para proventos. A pesquisa abrange não apenas dividendos, mas os juros sobre capital próprio – uma particularidade do mercado brasileiro. Nesse cenário o efeito tributário se torna mais evidente dada a possibilidade de escolha pela distribuição de lucros ou pagamento de juros sobre capital próprio. O Brasil é um ambiente propício para análises dessa natureza, pois ao longo dos períodos anteriores à pesquisa, os fatores relacionados a política de dividendos oscilaram bastante (Heineberg &amp; Procianoy, 2003).</p>
+<p>Os resultados de Heineberg e Procianoy (2003) foram analisados por meio de dados em painel com variáveis voltadas a captar efeitos na política de proventos (variável dependente). Além dos lucros/prejuízos, já recorrentes na literatura desde Lintner em 1956, foram analisados a estabilidade da política com o passar dos anos, a tributação, inflação, endividamento, crescimento/investimento, tamanho e setor da empresa. Cada variável possui implicação na política de pagamento de proventos como é o caso do endividamento que, por gerar despesas dedutíveis, interfere no resultado e no desempenho do gestor. Oportunidades de crescimento, por sua vez, exigem maior retenção de recursos e, consequentemente, menor distribuição de proventos.</p>
+<p>Os autores (Heineberg &amp; Procianoy, 2003) experimentaram segmentar os resultados por setor e por quintis de <em>payout</em>. Os resultados dessa segmentação revelaram haver diferenças nas informações utilizadas por cada setor ao definir a sua política de dividendos. Os <em>payouts</em>, por outro lado, demonstraram-se iguais com divergência marginal em poder explicativo entre os quintis. De um modo geral, observou-se que no mercado brasileiro há uma política consistente de pagamento no sentido de dar previsibilidade de fluxo de caixa para os acionistas interessados em proventos (Heineberg &amp; Procianoy, 2003). Associa-se a possibilidade de a empresa sinalizar ao mercado por meio da emissão desvantajosa (sob o aspecto tributário) de dividendos. Emitir dividendos, mesmo sob efeito da tributação, indicaria uma expectativa futura positiva.</p>
+<p>Por outro lado, Procianoy e Verdi (2003) avaliam o efeito clientela no qual investidores sujeitos a altos impostos sobre dividendos passam a se interessar em adquirir ações, mesmo com baixos rendimentos. Sob uma baixa alíquota o interesse seria o interesse se concentraria em ações com altos rendimentos. Esse efeito é indicado por Miller e Modigliani em seu estudo de 1961. Os proventos analisados no período de pesquisa (1989 a 1993) foram marcados por uma divergência importante, qual seja a tributação apenas no ganho de capital (juros sobre capital próprio) e isenção dos dividendos.</p>
+<p>A proposta da pesquisa é avaliar o comportamento dos retornos após o anúncio dos dividendos. Para tal, avaliou o comportamento das ações pagadoras de dividendos com base no modelo de Elton e Gruber (variação do preço da ação no primeiro dia de negociação do título sem direito ao dividendo anunciado) e verificaram a existência de retornos anormais num período de 11 dias em torno da data em que as ações foram negociadas com direito a receber dividendo. A definição do retorno anormal se deu por comparação (subtração) do retorno média da empresa e do portfólio de mercado (IBOVESPA) calculados no período da janela do evento (Procianoy &amp; Verdi, 2003).</p>
+<p>Considerando a isenção dos dividendos e uma tributação de 0% ou 25% para os juros sobre o capital próprio, o intervalo esperado para o preço da ação deveria se situar entre o preço anterior deduzidos dos proventos e o preço anterior deduzido dos proventos sob influência tributária (proventos / (1–0,25)). O estudo foi realizado com ações pagadoras de pelos menos um dividendo, negociadas na então BOVESPA no período de 1989 a 1993. O alvo inicial de 1569 distribuições de dividendos resultou na amostra de 693 eventos analisados (132 empresas), dada a falta de negociações nos períodos <em>cumdividend</em> e <em>ex-dividend</em> (Procianoy &amp; Verdi, 2003).</p>
+<p>Os resultados apresentados em Procianoy e Verdi (2003) contrariam a literatura por não apresentar efeito anormal do anúncio de dividendo nos preços das ações. Apenas 5% dos 693 casos analisados apresentaram o preço dentro do intervalo teórico determinado pela pesquisa. Verificou-se que 47% dos eventos apresentaram um resultado surpreendente na medida em que o preço da ação no primeiro dia <em>ex-dividend</em> foi maior do que na data em que a ação tinha direito de receber dividendos. Isso propõe um comportamento irracional, pois não faria sentido pagar um valor maior por uma ação após exercido o direito de receber os dividendos. A preocupação de como os dividendos interferem no mercado de ações com retornos anormais constituiu preocupação em texto de Procianoy e Vieira (n.d.), sendo o último a ser discutido nessa resenha.</p>
+<p>Nesse texto, Procianoy e Vieira (n.d.) demonstram haver evidências empíricas no mercado americano de que <em>stock dividends</em> (bonificação com ações) estão associados a retornos anormais no dia da execução. Contudo, não haveria razão lógica para tal relação, pois a bonificação de acionistas com ações na mesma proporção das já possuídas não altera a composição acionária, nem política de investimentos e financiamentos. A alteração da bonificação causa efeito apenas no aumento do valor do patrimônio líquido das empresas por meio de aumento de reservas. As <em>stock dividends</em> são tidas na literatura como uma decisão cosmética, dada a sua evidente falta de efeito nas empresas.</p>
+<p>Todavia, essa não é a evidência encontrada por Procianoy e Vieira (n.d.). Seus resultados, obtidos por meio de estudo de evento com empresas de capital aberto negociadas no Brasil, Argentina, Chile, Colômbia e México com realização de <em>stock dividends</em> no período de janeiro de 1987 a maio de 1997. Considerando evento a data da realização da assembleia deliberativa sobre a realização da bonificação, utilizou-se uma janela de 61 dias, sendo 30 dias úteis anteriores e 30 dias úteis posteriores ao evento, mais a data do próprio evento que foi excluído o cálculo dos retornos. Os resultados sugerem a ocorrência de <em>insider trading</em>, pois há a sugestão de antecipação das decisões de investidores aos resultados devida a vazamento de informações ou pela crença de aprovação corriqueira das propostas de bonificação. Com base nos resultados foi possível conjecturar que a informação, embora disponível, foi negligenciada por investidores menos atentos, abrindo espaço para investidores qualificados obterem retornos anormais.</p>
+<hr>
+<p>Brav, A., Graham, J. R., Harvey, C. R., &amp; Michaely, R. (2004, june). Payout policy in the 21st century. <em>Working Paper</em>, <em>14</em>, 1-42.</p>
+<p>Heineberg, R. &amp; Procianoy, J. L. (2003, setembro). Aspectos determinantes do pagamento de proventos em dinheiro das empresas com ações negociadas na Bovespa. <em>Anais do Encontro da ANPAD</em>, Atibaia, SP, Brasil, 27.</p>
+<p>Procianoy, J. L. &amp; Verdi, R. (2003). O efeito clientela no mercado brasileiro: será que os investidores são irracionais? <em>Revista Brasileira de Finanças</em>, *(2), 1-23.</p>
+<p>Procianoy, J. L. &amp; Vieira, K. (n.d.). <em>Capital market reaction to stock dividends: event study in latin America</em>.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Finanças</category>
+  <category>Dividendos</category>
+  <guid>https://contabilidados.github.io/posts/finance/politicaDividendos/politicaDividendos.html</guid>
+  <pubDate>Thu, 18 Aug 2022 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/finance/politicaDividendos/politicaDividendos.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Teoria da Eficiência de Mercado</title>
+  <dc:creator>Kléber Formiga Miranda</dc:creator>
+  <link>https://contabilidados.github.io/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<p><img src="https://contabilidados.github.io/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.png" class="img-fluid"></p>
+<p>A Hipótese de Eficiência do Mercado (HME) trata da absorção das informações disponíveis pelos preços de valores mobiliários, cujo termo “eficiência” decorre da capacidade de os agentes alocarem eficientemente seus capitais por meio do conhecimento equânime dessas informações. De acordo com HME, não há como qualquer agente obter ganhos anormais, considerando o mesmo acesso informacional entre os agentes. Dessa forma, a alocação da propriedade do capital da economia, papel principal do mercado de capitais é satisfeito (Fama, 1970). Trata-se de uma área ampla, tendo o estudo de Fama (1970) se proposto a traçar um panorama sobre as principais linhas dessa teoria com as abordagens de uma eficiência na forma forte, semiforte e fraca, cujos níveis são relacionados ao nível de informação disponível em cada subconjunto.</p>
+<p>O ponto crucial na definição da HME é fato de o termo “totalmente refletido nos preços” ser tão geral a ponto de não haver implicações testáveis. Para torná-la testável, Fama (1970) buscou especificar com mais detalhes o processo de formação dos preços. Com base no modelo denominado de <em>fair game</em>, baseado no retorno esperado, conforme Equação 1:</p>
+<p><img src="https://latex.codecogs.com/png.latex?E(%5Ctilde%7Bp%7D_%7Bj,t+1%7D%7C%5CPhi_%7Bt%7D)%20=%20%5B1%20+%20E(%5Ctilde%7Br%7D_%7Bj,t+1%7D%7C%5CPhi_%7Bt%7D)%5Dp_%7Bjt%7D"></p>
+<p>De acordo com a Equação 1, o preço esperado (p) de um ativo j para o período seguinte (t+1) corresponde ao seu preço atual (t) acrescido de uma taxa de retorno esperado (r), ambos baseados na informação atualmente disponível (<img src="https://latex.codecogs.com/png.latex?%5CPhi_%7Bt%7D">). Por meio dessa formulação foi possível determinar as condições de equilíbrio do mercado para poder ser declarado em termos de expectativa de retorno, ficando o termo “completamente refletido” baseado no conjunto de informações determinados por <img src="https://latex.codecogs.com/png.latex?%5CPhi_%7Bt%7D"> e, tendo maior implicação empírica. A partir de então definiu-se o preço e, consequentemente, o retorno do período seguinte iguais a zero quando a decisão for tomada com base nas informações atualmente disponíveis. Assim, <img src="https://latex.codecogs.com/png.latex?E(%5Ctilde%7Bp%7D_%7Bj,t+1%7D%7C%5CPhi_%7Bt%7D)%20=%200"> e <img src="https://latex.codecogs.com/png.latex?E(%5Ctilde%7Br%7D_%7Bj,t+1%7D%7C%5CPhi_%7Bt%7D)%20=%200">. O retorno esperado (<em>fair game model</em>) possui implicações testáveis, entretanto, dois casos são considerados por Fama (1970) como especiais, quais sejam o <em>random walk</em> e o submartingale.</p>
+<p>No modelo submartingale há o pressuposto de retornos esperados não negativos <img src="https://latex.codecogs.com/png.latex?E(%5Ctilde%7Br%7D_%7Bj,t+1%7D%7C%5CPhi_%7Bt%7D)%20%5Cgeq%200">, implicando no fato de os valores esperados de um ativo j para o próximo período, projetados com base na informação disponível (<img src="https://latex.codecogs.com/png.latex?%5Cphi_%7Bt%7D">), são iguais ou maiores em relação ao preço corrente. Caso seja uma igualdade, a mudança de preço é igual a zero e, portanto, segue um modelo martingale. Assim, um investidor não poderia obter retornos anormais ao longo de tempo dada a imprevisibilidade dos retornos. Já o modelo <em>random walk</em> trata da aleatoriedade dos retornos futuros. O processo <em>Random</em> <em>Walk</em> estabelece a falta de memória na precificação de títulos, pois seu preço atual reflete “totalmente a informação disponível”, portanto o preço futuro é altamente aleatório considerando a distribuição dos retornos passados não determinar a distribuição de retornos futuros. A função densidade probabilidade de um retorno dadas as informações disponíveis é a mesma para qualquer período, assim, <img src="https://latex.codecogs.com/png.latex?%5Bf(r_%7Bj,t+1%7D%7C%5CPhi_%7Bt%7D)%20=%20f(r_%7Bj,t+1%7D),%20~~~%5Cforall%7Bt%7D%5D">. Portanto, os retornos esperados não mudam em virtude das informações disponíveis no tempo t.</p>
+<p>Definidas as premissas com base no <em>fair game</em>, <em>random walk</em> e submartingale, Fama (1970) citou, antes de demonstrar suas evidências empíricas, algumas condições consistentes com a eficiência. Considerando fácil essa tarefa idealizou um mercado sem custos de transação em títulos, disponibilidade de informações a todos os participantes a custo zero e todos os participantes concordam com o preço atual e futuro dos títulos negociados. Nesse mercado, toda a informação disponível estaria, obviamente, refletida no preço. Entretanto, não correspondem à prática e, por outro lado, essas questões são suficientes, mas não necessárias para a eficiência de mercado. Todavia, a existência desses fatores não significa ineficiência, mesmo sendo fontes potenciais. A mensuração dos efeitos desses fatores sobre o processo de formação de preços é o maior objetivo dos trabalhos empíricos nessa área (Fama, 1970).</p>
+<p>As pesquisas empíricas em teoria da eficiência de mercado se preocuparam em identificar se os preços refletiam totalmente as informações disponíveis em subconjuntos particulares. Inicialmente, os estudos se preocuparam com o reflexo dos preços decorrentes dos preços históricos. Esse subconjunto (preços históricos) constituem a <strong>forma fraca</strong> da eficiência de mercado. Após diversos testes parecerem suportar essa hipótese de eficiência, a atenção se volta à informações publicamente disponíveis (anúncio de dividendos, relatórios anuais, demonstrações contábeis, etc), sendo essa a <strong>forma semiforte</strong>. Por fim, a <strong>forma forte</strong> testando se algum investidor (ou grupo de investidores) possuem acesso privilegiados a informações para formação de suas expectativas de preços.</p>
+<p>A generalidade da forma forte da HME torna seus testes impraticáveis e sofre, portanto, críticas importantes, observadas em Fama (1991) quando propõe mudar o foco de cada teste da HME. A forma fraca se preocuparia com uma área ampla de teste de previsões de retorno, incluindo teste com dividendos, taxas de juros e sazonalidade (efeito janeiro). Para a forma semiforte o autor propôs uma mudança no título para estudo de eventos e na forma forte mudança no título para teste de informação privada. Desta forma, as pesquisas se concentrariam na previsibilidade de retornos com base em retornos passados e política de dividendos, na forma fraca. Na forma semiforte os estudos se direcionariam para análise do impacto da publicação de informações ao mercado no preço dos títulos com base em estudo de eventos, para o qual seriam avaliadas alterações nos preços em períodos <em>ex ante</em> e <em>ex post</em> a determinado evento. E, por fim, na forma forte as pesquisas procurariam a compreensão, por meio de testes de informações privadas (ou privilegiadas), sobre o comportamento dos preços de títulos na presença de agentes com informações mais completas perante seus pares.</p>
+<p>A dificuldade de testes da HME provocou algumas pesquisas empíricas no sentido de entender a precificação de ativos, dentre os quais Fama (1991) cita: a) O Modelo de Sharpe-Lintner-Black (SLB) para o qual carteiras não correlacionadas com o mercado oferecem retorno igual à taxa livre de risco; b) Merton (1973) e Ross (1976), complementando o modelo SLB, por meio da avaliação de múltiplos fatores na geração de retornos, além do fato de os retornos previstos limitar-se a sensibilidades; c) Os Modelos baseado em consumo (Rubinstein, 1976; Lucas, 1978; Breeden, 1979) onde os retornos esperados sobre os títulos seria função linear e positiva de seu consumo. O modelo multifatorial de Merton e Ross, segundo Fama (1991) é o sobressalente dentre todos.</p>
+<p>Há uma indicação por Fama (1991) para a contribuição mais eficaz nos estudos de eventos, especialmente quando tratado em nível diário. Na forma forte, tratada em pesquisas sobre informações privadas, são indicados a análise da rentabilidade do <em>insider trading</em>, pois algumas pesquisas indicam a existência de informações privadas no mercado (<em>value line</em>, analistas de seguros, gestores de investimentos). Contudo o custo para o acesso a essas informações pode explicar o retorno anômalo para esses casos, denotando um mercado não tão eficiente, mas não foge da premissa da racionalidade dos investidores.</p>
+<p>Malkiel (2003) avalia críticas à HME por meio de resultados estatísticos definindo eficiência quando retornos anormais são decorrentes de riscos anômalos. Para Malkiel (2003) existem evidências explícitas para a ineficiência do mercado. Cita alguns casos como a bolha da internet, em 2000, e outros casos como em 1987 quando o mercado perdeu um terço de seu valor sem indicações de mudanças no ambiente. O efeito janeiro também é abordado por ser um fato conhecido do mercado, mas recorrente. No caso do “efeito janeiro” os preços das ações tendem a crescer no início de janeiro de cada ano e se a HME fosse verdadeira, o mercado já teria ajustado essa informação no preço, impedindo sua recorrência, mas não é o caso.</p>
+<p>A diferença explícita entre a HME e a proposição de Malkiel (2003) consiste na incorporação parcial ou total da informação na variação dos preços de títulos. Para a HME as variações de preços incorporam todas as informações a respeito das empresas, enquanto Malkiel (2003) propõe a possibilidade de haver ruídos no fluxo informacional, dificultando o reflexo da informação nos preços. Dessa forma, o mercado de capitais é muito mais eficiente e muito menos previsível comparados aos resultados de trabalhos empíricos dispostos na literatura.</p>
+<hr>
+<p>Fama, E. F. (1970). Efficient capital markets: a review of theory and empirical work. <em>The Journal of Finance</em>, <em>25</em>(2), 383–417.</p>
+<p>Fama, E. F. (1991). Efficient capital markets: II. <em>The Journal of Finance</em>, <em>46</em>(5), 1575–1617.</p>
+<p>Malkiel, B. G. (2003). The efficient market hypothesis and its critics. <em>The Journal of Economic Perspectives</em>, <em>17</em>(1), 59–82.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Finanças</category>
+  <category>HME</category>
+  <guid>https://contabilidados.github.io/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html</guid>
+  <pubDate>Thu, 23 Dec 2021 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Teoria de Agência e Governança Corporativa</title>
+  <dc:creator>Kléber Formiga Miranda</dc:creator>
+  <link>https://contabilidados.github.io/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<p><img src="https://contabilidados.github.io/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.png" class="img-fluid"></p>
+<p>A temática de teoria da agência abordada nessa resenha centra-se no marco inicial proposto por (Coase, 1937) ao questionar a natureza das empresas, embora sua discussão seminal seja atribuída a Berle e Means, no início dos anos 30. Nessa abordagem, a firma deixaria de representar um mero agente combinador de fatores de produção, dada a autonomia do mercado (teoria neoclássica da economia) e passaria a representar um mecanismo utilizado pelos agentes para redução de custos de transação. Constatou-se a redução de custos ao operacionalizar a empresa internamente em relação a transacionar com o mercado. Nessa perspectiva, a visão sobre o papel da firma passou a ser de um conjunto de contratos (teoria da firma) no qual os agentes acordariam seus interesses para participação na firma. A emergência da Teoria de Agência se deu na identificação de conflitos nos interesses dos agentes os quais buscavam maximizar sua utilidade.</p>
+<p>A relação de agência surge quando duas ou mais partes possuem interesse na execução de um serviço em que uma das partes, o principal, delega à outra parte, o agente, o papel de execução do serviço. Considerando ambas as partes maximizadoras de utilidade, há boas razões para acreditar no interesse parcial do agente em atingir os interesses do principal. Dessa forma, o principal incorrerá em custos para defender seus interesses e o agente arcará com o ônus de concessão de garantias para com o principal (Jensen &amp; Meckling, 1976). A separação entre a propriedade e controle foi o foco teórico de Jensen e Meckling (1976), cujo desenvolvimento recorreu às teorias dos direitos de propriedade, da agência e das finanças para lançar luz à definição da firma, separação entre posse e controle, responsabilidade social, definição de uma função objetiva corporativa, identificação de uma estrutura de capital ótima, dentre outros.</p>
+<p>Ao relatar diversas relações de agência existentes na firma, Jensen e Meckling (1976) reconhecem a dificuldade de criar uma teoria capaz de abranger todas as relações. Consideram difícil o desenvolvimento de teorias para explicar a forma como os custos de agência acontecem em cada situação, dada a diferença significativa nas relações contratuais. A abordagem da teoria de agência proposta nessa pesquisa se concentra, portanto, em uma pequena parcela dentre as diversas relações – a análise dos custos de agência gerados pelos arranjos contratuais entre proprietários e a alta gerência da corporação. Quanto a abordagem, divergiram das demais teorias até então existente pela abordagem positiva adotada. As pesquisas tratavam exclusivamente de aspectos normativos (como estruturar as relações contratuais). A inovação decorre do fato de presumirem que os problemas normativos são solucionados pelos indivíduos e passarem a investigar os incentivos de cada uma das partes e os elementos envolvidos no estabelecimento do equilíbrio contratual entre agente e principal.</p>
+<p>Os incentivos passaram a ser avaliados como forma de otimização do valor da firma. Assumem a necessidade de haver incentivos para alinhamento de interesses entre agente e principal e, nessa perspectiva, Jensen e Meckling (1976) utilizam o Ótimo de Pareto para avaliar a eficiência contratual. De acordo com o Ótimo de Pareto abordado na teoria da agência de Jensen e Meckling (1976) o contrato eficiente teria que prevê o nível máximo de incentivo até o ponto de maximização do valor da firma. Busca-se um ponto de equilíbrio no qual não há margem para melhoria. Assim, com exceção da situação hipotética de o agente agir totalmente em prol do principal (situação na qual os custos de agência são anulados ou praticamente eliminados), não dá para maximizar o valor da firma sem incorrer nos custos de transação.</p>
+<p>Além da relação entre agente e principal, especificamente o proprietário a alta gestão, Jensen e Meckling (1976) ampliam a abordagem de seu trabalho para a possibilidade de financiamento da empresa via captação de recursos de terceiros. Para essa abordagem, associam as vantagens do proprietário- administrador ao repassar parte de sua parcela de ganhos para terceiros, arcando com todos os efeitos dos custos de agência da dívida sobre a riqueza e se favorecendo com os ganhos de sua redução. A principal questão sobre contrair as dívidas é possível perda de investimento potenciais. O incremento decorrente das oportunidades de investimento compensaria os custos de dívida. Dessa forma, utilizam os conceitos de teoria de agência e fundamentam uma teoria de estrutura de propriedade, diferenciando-se de estrutura de capital por ter o foco, também, nas parcelas de capital de posse do administrador. A teoria determina três variáveis: o capital interno (administrador), capital próprio externo e o de terceiros (qualquer pessoa fora da empresa).</p>
+<p>A conclusão de Jensen e Meckling (1976) é de que mesmo na certeza dos custos de agência, o formato corporativo tem agradado, de forma geral, investidores e credores. Se espera a melhoria dos mecanismos capazes de reduzir esses custos, pois estes são certos como quaisquer outros custos, entretanto, dependem de aspectos como regulamentação, sistema legal e habilidade humana ao elaborar os contratos. Apontam para a criação de novas formas de lidar com as corporações para reduzirem custos e atenderem as expectativas de seus agentes. Nessa perspectiva, Fama e Jensen (1983) buscam analisar a sobrevivência das empresas diante dos problemas de agência, ponderando sobre a necessidade de obtenção de lucros.</p>
+<p>De acordo com Fama e Jensen (1983), os contratos essenciais em qualquer organização especificam a natureza dos direitos residuais e o escopo do processo decisório entre agentes. Esses contratos distinguem as organizações umas das outras e explicam o porquê de organizações específicas sobreviverem. Os direitos residuais diferem entre as diversas organizações, como por exemplo, o caso de empresas de capital aberto nas quais os acionistas não possuem interesse em desempenhar qualquer papel na firma, mas possuem direito irrestrito de alienar seus direitos e repassar seu risco para outros acionistas. Em firmas de capital fechado (geralmente menores) geralmente os diretores restringem para participação em decisões internas. O processo decisório (planejamento, execução e controle) também é importante para definir a sobrevivência das empresas. Assim, os contratos buscam prevê cada passo da decisão.</p>
+<p>O desmembramento do processo decisório entre decisões gerenciais (iniciação e implementação) e decisões de controle (ratificação e monitoramento) direcionam as duas hipóteses propostas por Fama e Jensen (1983). Para a primeira hipótese, a separação do risco residual arcado pelas decisões gerenciais leva a sistemas de decisão que separam a decisão gerencial da decisão de controle. A segunda propõe que a combinação das decisões gerenciais e de controle em poucos agentes levam a direitos residuais geralmente restritos a esses agentes. O conselho administrativo (<em>board</em>) caracteriza-se pela combinação de decisões, entretanto, é capaz de reduzir os conflitos de agência e reduzir seus custos decorrentes. O principal papel do <em>board</em> é desenvolver decisões consensuais para as informações por meio de seus comitês, cuja é a redução de problemas de agência entre parceiros.</p>
+<p>A combinação de decisões gerenciais e de controle por meio do <em>board</em> é eficiente quando há poucos agentes, portanto, essa proposição é melhor visualizada em empresas individuais (<em>proprietorship</em>), pequenas parcerias e empresas fechadas com baixa escala de produção e atividades. Essas organizações, essencialmente, são caracterizadas por sistemas de decisão concentrados e direitos residuais restritos aos agentes decisórios. Nessas empresas os custos de agência são mais fáceis de serem minimizados. Para empresas de maior porte, há a necessidade de outras estruturas e difusão de mecanismos capazes de reduzir as divergências entre os tomadores de decisão gerencial e os tomadores de decisão de controle (Fama &amp; Jensen, 1983).</p>
+<p>Assim, firmas maiores são mais complexas e ampliam a possibilidade de ocorrência de problemas de agência. Fama e Jensen (1983) abordam a possibilidade de um gestor com participação expressiva no capital votante atribuir-lhe garantias de empregabilidade com uma remuneração atrativa. Então, em organizações complexas a separação entre o risco residual arcado pelas decisões de gerenciamento aumenta, em parte, devido à necessidade de tomadas de decisões eficientes – é caso do papel do conhecimento específico. Nessas organizações os detentores de direitos são em grande número e o processo decisória ficaria inviabilizado dada o alto custo de envolvimento de todos nesse processo (papel da difusão dos direitos residuais). Por último, estão as características comuns nos sistemas de decisão nos quais os responsáveis pela gestão atuam em conformidade com os parâmetro estabelecidos pelo <em>board</em> e melhor acompanhados pelos gestores de controle (Fama &amp; Jensen, 1983).</p>
+<p>Até então, os trabalhos de (Fama &amp; Jensen, 1983; Jensen &amp; Meckling, 1976) apresentam teorias para a existência dos problemas de agência e buscam mecanismos capazes de reduzir dos custos de agência, sendo atribuído por Jensen e Meckling (1976) os incentivos capazes de minimizar esses custos e Fama e Jensen (1983) a observação do tipo de empresa, conforme seu processo decisório, sendo os custos de agência mais aplicáveis (ou mais presentes) em empresas complexas – normalmente de grande porte. Esse cenário leva a discussões persistentes sobre como tratar melhor a relação propriedade e controle e abre margem para discussão sobre a governança corporativa por tratar de iniciativas gerenciais preocupadas em reduzir os conflitos de agência. Para essa discussão, apresenta-se, nessa resenha, as discussões de dois <em>surveys</em> aplicados por (La Porta, Lopez-de-Silanes, &amp; Shleifer, 1998; Shleifer &amp; Vishny, 1997), os quais abordam, respectivamente, os aspectos sobre propriedade e controle no mundo e os aspectos da governança corporativa.</p>
+<p>Ao buscar avaliar o cenário quanto a propriedade e controle das empresas visualizador por Berle e Means, em 1932, no qual as empresas americanas apresentavam uma propriedade pulverizada em pequenos investidores e seu controle nas mãos de gestores, La Porta et al.&nbsp;(1998) traça um novo panorama sobre a propriedade e controle das 20 maiores empresas, ranqueadas pela capitalização de mercado em ações ordinárias no final de 1995, nos 27 países mais ricos do mundo de acordo com a lucro <em>per capita</em> em 1993. Portanto, as empresas se assemelham as estudadas por Berle e Means quanto ao porte. Entretanto, os resultados da pesquisa mostram uma realidade diferente da relatada pelo trabalho seminal.</p>
+<p>Um aspecto metodológico importante, tratado em (La Porta et al., 1998), é a definição de estrutura de propriedade – seja quanto a definição de controle ou quanto a definição de uma estrutura piramidal. Os achados, discutidos adiante, demonstrarão questões voltadas ao controle, assim como ao aspecto piramidal e familiar. Destaca-se o caráter dificilmente operacional em se coletar dados quanto a estrutura de propriedades das empresas. O entendimento da estrutura real constitui tarefa analítica, cujas particularidades são diversas. Assim, La Porta et al.&nbsp;(1998) apresentam detalhadamente cada definição e a forma como consideraram cada categoria a ser analisada, consistindo em tutorial conceitual para replicações ou adaptações em pesquisas futuras.</p>
+<p>Os resultados quanto “quem são os proprietários das firmas” demonstra uma realidade diferente da relatada por Berle e Means. Os achados de La Porta et al.&nbsp; (1998) demonstram que apenas 36% das maiores empresas possuem dispersão de propriedade, 30% controladas por famílias e 18% controladas pelo estado. Os autores associam esse resultado a um cenário de concentração de propriedade, dado que pouco mais de um terço representa empresas com propriedade dispersa. A participação estatal, juntamente com as famílias, nas firmas também foi um fato que chamou atenção, mas não apresentou surpresa devido ao fato de a amostra contar com países nos quais o processo de privatização ainda não se encerrado. A proteção legal dos investidores foi o aspecto determinante para o aumento percentual de empresas com maior dispersão acionária.</p>
+<p>Além da identificação dos proprietários, La Porta et al.&nbsp;(1998) identificaram os mecanismos de controle e exercício de poder utilizados nas empresas. Nesse caso demonstraram que múltiplas classes de ações não é um mecanismo capaz de separar propriedade e controle, cientes do controle de acionistas quanto ao fluxo de caixa para evitar expropriação de minoritários. Ao mesmo tempo, 26 por cento das firmas são controladas através de pirâmides (quando um acionista possui participação em empresas com participação em outras, controlando e se beneficiando de toda a cadeia de corporações), tendo menor representatividade quando há maior proteção ao investidor. As empresas controladas por famílias também apresentam percentual expressivo, participando do controle dessas firmas. Diferentemente das famílias, os bancos não demonstram interesse em exercer controle.</p>
+<p>Dado que a proteção legal parece ser influente na estrutura de propriedade das empresas, classificou-se as empresas de acordo com a proteção legal. Os resultados revelam a possibilidade de entrincheiramento e redução de direitos dos minoritários quando os países possuem poderes políticos e econômicos para controlar os acionistas. Esses resultados também são evidenciados quando classificam as empresas em <em>bank-centered</em> e <em>market-centered</em>. Respectivamente, representam países cujas estruturas de financiamento são baseadas em bancos e baseadas no mercado. A proteção do investidor, de acordo com La Porta et al.&nbsp; (1998), é uma boa <em>proxy</em> para sistemas de governança corporativa em países fundamentados no financiamento via bancos (<em>bank-centered</em>).</p>
+<p>De forma paralela e complementar, a pesquisa de Shleifer e Vishny (1997) preocupou-se em identificar a forma como o gestor atenderá os fornecedores de capital e, ainda, se não optará por projetos ruins para a empresa. Uma questão aventada pelos autores é o fato de os fornecedores de capital, após a entrega dos recursos, não desempenharem nenhum papel para a formação dos resultados. Esse papel é exercido pelo gestor a quem os capitalistas confiam o retorno de suas remunerações, mas nem sempre o gestor atua para essa finalidade. Os mecanismos de governança corporativa surgem como instituições econômicas e legais que podem alterar o processo político da empresas no intuito de melhorar a relação entre os agentes, sendo nesse caso definido para melhor (Shleifer &amp; Vishny, 1997).</p>
+<p>O estudo de Shleifer e Vishny (1997) divide-se em 8 seções, nas quais os autores traçam o marco teórico da teoria da agência com vistas às motivações para fornecedores de capital confiarem seus recursos a um gestor. Adicionalmente, tratam discutem a proteção legal dos investidores e a concentração de capital como as duas abordagens mais comuns ao se tratar de governança corporativa. Fica evidenciado que a diversidade de sistemas de governança entre os países (por exemplo, os modelos americano, alemão e japonês). Contudo, os autores alertam para a inexistência de um sistema superior. Não se trata de adotar o sistema adotado por um país, independentemente do quão eficiente pareça, mas avaliar como introduzir mecanismos de proteção legal aos investidores. Além dos investidores tradicionais, os credores também dispensam atenção relevante para a governança corporativa, pois possuem altos investimentos e, evidentemente, tem interesse no seu retorno. Os credores, tais como bancos, exercem poder sobre os direitos dos minoritários e investidores por meio de suas cláusulas contratuais para concessão de crédito (<em>covenants</em>) além de sua remuneração não ser residual.</p>
+<p>O <em>survey</em> de Shleifer e Vishny (1997) revelou limitações nos sistemas de governança ao redor do mundo. Seja pelo fato de o sistema legal dos países divergirem, a concentração de capital está presente em percentual importante das firmas (Fama &amp; Jensen, 1983; Shleifer &amp; Vishny, 1997), o custo benefício da implantação de sistemas de governança não ser muito claro, o nível informacional fora de mercados maduros (como o americano) ou pelo fato de não haver certeza quanto a eficiência da governança corporativa frente às dinâmicas políticas e econômicas de cada país, Shleifer e Vishny (1997) não arriscam lançar opiniões sobre as questões de governança corporativa levantadas por eles. São céticos quanto a disponibilidade de respostas persuasivas sobre a temática.</p>
+<p>Portanto, de acordo com as pesquisas discutidas nessa resenha (Fama &amp; Jensen, 1983; Jensen &amp; Meckling, 1976; La Porta et al., 1998; Shleifer &amp; Vishny, 1997), é possível observar a persistência dos problemas de agência desde sua divulgação acadêmica, nos anos 30, até os dias atuais. Os esforços empreendidos pela academia e pelos profissionais das corporações se direcionam para reduzir os conflitos de agência e nunca os eliminar. Possivelmente, a condição utilitarista do ser humano, já descrito por Jensen e Meckling (1976) ao citar Adam Smith e corroborar em sua pesquisa, seja persistente por muito mais tempo. Assim, as práticas de sobrevivência das empresas, apontadas por Fama e Jensen (1983), são úteis na redução de custos de agência, entretanto os dois <em>surveys</em> apresentados (La Porta et al., 1998; Shleifer &amp; Vishny, 1997), demonstram preponderância de práticas que indicam esforços de agentes com <em>empowerment</em> em atingir seus interesses em detrimento de outrem. O mercado precisa e sobrevive sob a perspectiva de cumprimento de contratos e se espera, então, inovação nos mecanismos capazes de reduzir o risco de seu inadimplemento.</p>
+<hr>
+<p>Coase, R. H. (1937). The nature of the firm. <em>Economica</em>, 4(16), 386–405.</p>
+<p>Fama, E. F., &amp; Jensen, M. C. (1983). Separation of ownership and control. <em>Journal of Law and Economics</em>, 26(2), 301–325.</p>
+<p>Jensen, M. C., &amp; Meckling, W. H. (1976). Theory of the firm: managerial behavior, agency costs and ownership structure. <em>Journal of Financial Economics</em>, 3, 305–360.</p>
+<p>La Porta, R., Lopez-de-Silanes, F., &amp; Shleifer, A. (1998). Corporate ownership around the world. <em>Ssrn</em>, 1, 1–69.</p>
+<p>Shleifer, A., &amp; Vishny, R. W. (1997). A survey of corporate governance. <em>The Journal of Finance</em>, 52(2), 737–783.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Finanças</category>
+  <category>Governança</category>
+  <guid>https://contabilidados.github.io/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html</guid>
+  <pubDate>Thu, 28 Oct 2021 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Visão Geral de Finanças</title>
+  <dc:creator>Kléber Formiga Miranda</dc:creator>
+  <link>https://contabilidados.github.io/posts/finance/visaoGeralFinancas/visaoGeralFinancas.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<p><img src="https://contabilidados.github.io/posts/finance/visaoGeralFinancas/visaoGeralFinancas.png" class="img-fluid"></p>
+<p>A moderna teoria de finanças se iniciou nos anos 50 com marcos de inovação nas pesquisas voltadas a compreender os efeitos das decisões no equilíbrio do mercado. Nos anos precedentes, os assuntos de finanças tratavam, essencialmente, de definir como os gestores deveriam tomar decisões com base em custo ótimo de capital, política de dividendos, dentre outros. Com a emergência das pesquisas denominadas positivas, as finanças passaram a ser abordadas sob vários aspectos, cujos resultados ampliaram o entendimento das implicações práticas das tomadas de decisão. Esses aspectos, assim como as motivações e implicações de seu surgimento são discutidos sob prismas convergentes (mas não totalmente semelhantes) por Jensen e Smith Jr.&nbsp;(1984) e por Miller (1999). Ambos são objetos dessa resenha. Tratam do momento de <em>trade-off</em> entre os aspectos normativo e positivo das finanças, além de discorrem sobre a construção lógica para a construção de cada teoria abordada.</p>
+<p>A revisão do desenvolvimento da teoria moderna das finanças apresentada por (Jensen &amp; Smith Jr., 1984) se desenvolve fazendo um contraponto da teoria positiva com o que denominou de teoria normativamente orientada (<em>normatively oriented</em>) para demonstrar a fragilidade da teoria de finanças até então difundida (década de 50). Na discussão proposta por (Miller, 1999), a proposta é a mesma sendo definidos os contrapontos entre as abordagens <em>business school</em> (normativa) e <em>economic department</em> (positiva). Assim, enquanto o primeiro traça uma revisão de literatura sobre a teoria de finanças, o segundo se desprende da obrigação de um <em>survey</em> abrangente e escolhe os temas considerados relevantes pelo autor. Ambos apontam para a abordagem positiva como melhor para o processo decisório. Para Jensen e Smith Jr.&nbsp;(1984), não é possível decidir qual ação tomar e esperar atender seu objetivo se não se sabe o efeito da decisão.</p>
+<p>A discussão entre abordagem normativa e positiva em finanças é intrigante, pois durante o desenvolvimento teórico houveram divergências quanto a essa classificação. O trabalho de Markowitz sobre a teoria das carteiras, em 1952, foi considerado por Milton Friedman (economista da escola de Chicago, influente em vários campos de pesquisa em sua área) como não pertencente ao departamento de economia, dado seu aspecto normativo. Entretanto, sua tese fora defendida no departamento de economia (Miller, 1999). Markowitz, identificou o rendimento esperado de um investimento com base na sua média e variância, cujo resultado permite ao tomador de decisão escolher o melhor investimento. De acordo com o algoritmo de média-variância de Markowitz define-se um conjunto eficiente de portfólios como aquele que fornece um máximo de retorno para uma dada variância e um mínimo de variância para um retorno esperado (Jensen &amp; Smith Jr., 1984).</p>
+<p>O retorno esperado obtido por meio da proposta de Markowitz apresenta fragilidades importantes, essencialmente quanto ao fato de não fornecer um portfólio ótimo, pois se os inputs do modelo são os mesmos, todos os investidores tenderão a possuir o mesmo portfólio (Miller, 1999). Com base na abordagem normativa de Markowitz, as pesquisas individuais de Treynor, Sharpe e Lintner criaram uma teoria positiva para a determinação dos preços dos ativos. O fato de o modelo de Markowitz assumir variáveis fixas foi resolvido por meio da incorporação da análise da covariância entre o retorno da empresa alvo com o retorno de todos os ativos. A partir do momento em que um número crescente de investidores passaram a investir em índices de fundos, o risco de mercado passou a ser definido abrindo espaço para definição do retorno do mercado. Dessa metodologia surgiu a medida de risco conhecida e utilizada até a atualidade: o Beta (Jensen &amp; Smith Jr., 1984; Miller, 1999).</p>
+<p>O beta, juntamente com a taxa livre de risco e retorno do mercado passaram a compor o Modelo de Precificação de Ativos – CAPM (<em>Capital Assets Pricing Model</em>). A teoria de precificação de ativos define, portanto, o custo de oportunidade da empresa em decisões orçamentárias (Jensen &amp; Smith Jr., 1984). Uma das vantagens do CAPM, mencionada por Miller (1999), é o fato de a ciência buscar explicar muito com pouco e o CAPM atender essa demanda como poucos modelos em finanças. Os benefícios do CAPM foram importantes a ponto de gerar grande volume de pesquisas empíricas testando-o, sendo abordado em pesquisas teóricas e empíricas. Sua desvantagem (ou consenso entre profissionais) é que uma única medida de risco pode não ser suficiente para descrever uma <em>cross section</em> de retornos esperados. Além do mais, o fator mercado e outros dois riscos (risco e tamanho) foram identificados para ações ordinárias (Miller, 1999).</p>
+<p>Esses fatores correspondem ao fato de quanto mais arriscada, maior o retorno (fator risco), quanto menor a firma, maior a seus retornos (fator tamanho) e quanto maior o <em>book-to-market</em> das empresas maiores os seus retornos (fator mercado). Assim, a depender da sofisticação do investidor, seus retornos poderiam ser maiores ao observar a possibilidade de ganhos superiores em determinadas firmas. Entretanto, a Hipótese de Eficiência do Mercado (HME) propõe ser impossível obter ganhos econômicos anormais (bater o mercado) com base em informações disponíveis. De acordo com Miller (1999), nos anos trinta foi documentada a inabilidade de 45 agências profissionais preverem as mudanças nos preços. Alguns estatísticos (Working, Kendall e Osborne) também buscaram, individualmente, identificar explicações para as mudanças nos preços, porém acabaram definindo a mudança nos preços como um “passeio aleatório” (<em>random walk</em>). Isso significa não haver padrão definido (ou definível) para os dados (Jensen &amp; Smith Jr., 1984; Miller, 1999).</p>
+<p>Posteriormente, as evidências de Samuelson e Mandelbrot forneceram uma moderna justificativa teórica para a HME. Para essas pesquisas uma mudança inesperada nos preços em mercado especulativo comporta-se com passeio aleatório se o mercado é competitivo e os lucros são zero. Os argumentos são de que mudanças inesperadas nos preços refletem novas informações (Jensen &amp; Smith Jr., 1984). Para Miller (1999), a HME deveria ser reconhecida com Prêmio Nobel (como a teoria das carteiras, da precificação de ativos e da estrutura de capital), pois se trata de um dos assuntos mais discutidos pela academia. Seus pressupostos já foram bastante estudados, especialmente pelo fato de disponibilização de dados de preços de fechamento mensais, dividendos para todas as ações da New York Exchange (NYSE) desde 1926, sobre as quais diversas evidências empíricas foram realizadas. Muitas pesquisas refutam sua robustez, entretanto ainda é testada.</p>
+<p>Consequentemente, retornos anormais são encontrados em qualquer lugar, mas carregam a semente de sua queda. Com essa afirmativa Miller (1999) defende a fundamentação da HME, sob a justificativa de que imitadores acabariam competindo pelos retornos anormais, estabelecendo equilíbrio no mercado. Com essa mudança refuta-se a ideia de passeio aleatório e reforça a HME especialmente quando muda o foco para custo e retorno ajustados ao risco. Deixa de ser um assunto de estatística e passa a ser econômico. O valor da empresa é, portanto, alterado sob diversas circunstâncias e, dentre elas, mudanças na estrutura de capital. Modigliani e Miller (M&amp;M) propõem, em primeiro momento, não haver relação entre o valor da firma e a mudança na estrutura de capital. Ao assumirem essa relação observa-se proximidade com a HME. Para Miller (1999), a proximidade entre a revisão de M&amp;M e HME não é acidental, pois as firmas mudariam sua estrutura de capital com vistas aos prospectos futuros da firma.</p>
+<p>O próximo evento relevante para as finanças foi a possibilidade de negociação do valor da firma com base nos prospectos futuros. Após fixados os fluxos de caixa estimadas para a firma, é possível estabelecer um valor futuro e negociá-lo. Uma opção de compra dá direito de comprar uma ação por um preço específico (preço de exercício) a qualquer tempo para exercê-la em data específica. Para evitar oportunidades de lucros sem risco o retorno da proteção (<em>hedge</em>) deve ser igual à taxa livre de risco (Jensen &amp; Smith Jr., 1984). Embora com informações observáveis, as opções dependem de dados não observáveis como a variância da distribuição dos retornos do ativo subjacente que é estimada. Miller (1999) observa as opções como uma das questões mais férteis para pesquisas futuras em finanças.</p>
+<p>Até então, observa-se um encadeamento de teorias migrando da abordagem normativa para a abordagem positiva. Tanto em Miller (1999) quanto em Jensen e Smith Jr.&nbsp; (1984) as abordagens sobre essas teorias são convergentes e a classificação, embora com nomenclatura diferente, possuem a mesma conotação quanto aos aspectos normativos e positivos. Ambos demonstram haver melhor qualidade nas pesquisas quando se aborda o problema sob a abordagem positiva. Considerando a escolha de discussão proposta por Miller (1999), a teoria da agência surge apenas como uma preocupação para psicólogos e não para economistas. Das teorias até então abordadas nessa resenha ambos os trabalhos analisados são contemplados. Quanto a teoria da agência, Smith Jr.&nbsp;(1984) tratam com maior detalhe dado que propõem uma revisão de literatura e não uma escolha pessoal como em Miller (1999).</p>
+<p>A teoria da agência é abordagem em Smith Jr.&nbsp;(1984) de forma essencialmente conceitual. Além das abordagens teóricas, algumas discussões com as teorias já abordada surgem em relação à composição da estrutura de capital, pois o conflito de agência pode-se definir a depender do quão monitorado esteja o gestor (agente). Teorias baseadas em <em>trade-offs</em> de compartilhamento de risco e outras vantagens da forma corporativa com seus custos de agência para definir a sobrevivência das empresas no longo prazo são importantes para a análises positivas sobre o valor da firma. Contudo, a dificuldade de avaliação do interesse e o real cumprimento de contratos dificultam ou enfraquecem as abordagens quantitativas. Possivelmente, por esse motivo, nenhuma das pesquisas resenhadas adentrou em aspectos positivos advindos dos problemas de agência, embora com vasta literatura teórica e empírica disponível. A teoria de agência é abordada por Smith Jr.&nbsp;(1984) como um “plano de fundo” para as demais teorias.</p>
+<p>Mais duas pesquisas também comporão essa resenha. Trata-se de pesquisas preocupadas no estudo de finanças no mercado brasileiro. Nenhuma das duas, porém, lançam novas teorias ou constructos para essa área. A abordagem de estrutura de capital e de propriedade é visto em (Leal &amp; Saito, 2003) e um trabalho bibliométrico do período de 2000 a 2010 foi realizado por (Leal, Almeida, &amp; Bortolon, 2013) sobre a produção científica brasileira em finanças. Esses estudos demonstram a realidade brasileira em finanças sob dois prismas: produção acadêmica (Leal et al., 2013) e prática (Leal &amp; Saito, 2003). Considerando a origem das teorias de finanças em evidência com empresas americanas, algumas discussões podem ser traçadas com base nos achados de cada uma dessas pesquisas a fim de lançar comparações entre teorias gerais e aplicação em mercados em desenvolvimento.</p>
+<p>Com base em Leal e Saito (2003), observa-se a dificuldade de se aplicar teorias de finanças no Brasil. Os custos de agência e monitoramento excessivos, associados ao alto custo de capital, desestimulam o ingresso de empresas no mercado de capitais. O padrão típico de países emergentes revela uma estrutura concentrada favorece a ação oportunista dos controladores. Assim, sob a égide da teoria da agência, os conflitos principal-agente são minimizados e passa-se a chamar atenção os conflitos principal-principal no qual há a possibilidade expropriação dos minoritários. A única forma de reduzir essas assimetrias e problemas de agência são evidenciados por meio de política de dividendos e recompra de ações. A ausência de estruturas adequadas na composição do mercado acionário brasileiro pode, portanto, dificultar pesquisas e práticas com base em teorias de finanças aceitas em mercados maduros.</p>
+<p>O estudo bibliométrico de Leal et al.&nbsp;(2013) demonstra fragilidade nas pesquisas sobre finanças realizadas no Brasil. Não se observa uma consistência em publicações ou até mesmo a definição clara de estudos voltados ao Brasil. A formação de parcerias é um aspecto positivo levantado pela pesquisa, entretanto, propõem melhorias na qualidade das publicações. Os autores abordam a profundidade metodológica e inovação teórica como um ponto frágil comparado a países desenvolvidos. Embora não abordem por essa linha, a dificuldade de acesso a dados, o número de empresas em mercado de capitais e a própria estrutura de propriedade podem destoar os resultados e análises empíricas quando se busca analisar teorias em mercados emergentes.</p>
+<p>Por fim, as teorias em finanças finalizaram por volta dos anos 70. Poucas pesquisas de maior relevância foram apresentadas ou incorporou a denominada Moderna Teoria de Finanças. O amadurecimento dos mercados e a diferença nas suas operações – seja por novas transações ou por novas tecnologias – remete a emergência de novas teorias capazes de acompanhar o comportamento de empresas e seus reflexos no valor da firma. É possível propor, ainda, a definição de teorias específicas para países emergentes nos quais o ambiente de mercado difere daquele onde as teorias de finanças se originam.</p>
+<hr>
+<p>Jensen, M. C., &amp; Smith Jr., C. W. (1984). The theory of corporate finance: a historical overview. In M. C. Jensen &amp; C. W. Smith Jr.&nbsp;(Orgs.), <em>The Modern Theory of Corporate Finance</em> (p.&nbsp;2–20). New York: McGraw-Hill.</p>
+<p>Leal, R. P. C., Almeida, V. de S. e, &amp; Bortolon, P. M. (2013). Produção científica brasileira em finanças no período 2000-2010. <em>Revista de Administração de Empresas</em>, 53(1), 46–55.</p>
+<p>Leal, R. P. C., &amp; Saito, R. (2003). Finanças corporativas no Brasil. <em>RAE eletrônica</em>, 2(2), 1–15.</p>
+<p>Miller, M. H. (1999). The history of finance. <em>The Journal of Portfolio Management</em>, 95–101.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Finanças</category>
+  <category>Teoria</category>
+  <guid>https://contabilidados.github.io/posts/finance/visaoGeralFinancas/visaoGeralFinancas.html</guid>
+  <pubDate>Mon, 25 Oct 2021 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/posts/finance/visaoGeralFinancas/visaoGeralFinancas.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.24">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Kléber Formiga Miranda">
+<title>Mensuração Contábil - Fluxo de Caixa Descontado – contabiliDados</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-9668c6978006edd3399c8f59aaf88d86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script><style>html{ scroll-behavior: smooth; }</style>
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+<meta name="twitter:title" content="Mensuração Contábil - Fluxo de Caixa Descontado – contabiliDados">
+<meta name="twitter:description" content="Resenha">
+<meta name="twitter:image" content="https://contabilidados.github.io/posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.png">
+<meta name="twitter:creator" content="@cntdd">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1024">
+</head>
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">contabiliDados</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="../../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../meetings.html"> 
+<span class="menu-text">Eventos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cntdd.html"> 
+<span class="menu-text">cntdd</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../membros.html"> 
+<span class="menu-text">Sobre</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dashboard" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Dashboard</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dashboard">
+<li>
+    <a class="dropdown-item" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" target="_blank">
+ <span class="dropdown-text">Indicadores</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://gecomt.shinyapps.io/dashboard/" target="_blank">
+ <span class="dropdown-text">Mercado</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/contabilidados"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Mensuração Contábil - Fluxo de Caixa Descontado</h1>
+<p class="subtitle lead">Resenha</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Contabilidade</div>
+    <div class="quarto-category">Mensuração</div>
+    <div class="quarto-category">FCD</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kléber Formiga Miranda </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">10 de maio de 2018</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header><style> body {text-align: justify} </style>
+<p><img src="mensuracaoAtivos_FCD.png" class="img-fluid"></p>
+<p><strong>Qual a melhor maneira de medir ativos?</strong></p>
+<p>Esse questionamento foi exposto por Hendriksen e Van Breda (1999) como um debate complexo e confuso, sendo tratado há diversas décadas. O cerne da discussão está na real função dos números representados pela contabilidade. Entre refletir pelo custo histórico e custo corrente, alguns historiadores defendem o uso do custo histórico como mais relevante por ser mais observável e representar melhor a história da empresa. Para outros, custos correntes refletem melhor o futuro da empresa.</p>
+<p>O reflexo do patrimônio ou do resultado do período também são focos de debate, pois, conforme Hendriksen e Van Breda (1999), ao se discutir os métodos PEPS e UEPS, acaba-se visualizando uma discussão entre a melhor representação no Balanço Patrimonial – BP ou na Demonstração do Resultado do Exercício – DRE. Os defensores do método UEPS, mesmo conhecendo suas desvantagens, o preferem por representar o melhor lucro bruto (DRE) nos períodos de inflação. O PEPS é exaltado quando se pretende uma melhor medida dos ativos no BP, pois no UEPS o valor dos estoques fica prejudicado.</p>
+<p>Inevitavelmente a contabilidade precisa de uma quantificação para ser completa. O reconhecimento de qualquer componente patrimonial carece de uma mensuração, em termos monetários. Assim, todas as transações da empresa, geradores de mutações no patrimônio, precisam ser representadas monetariamente pela contabilidade.</p>
+<p>Ressalta-se, porém, o conceito de capital físico e capital financeiro tratado na estrutura conceitual do CPC. De acordo com o Comitê de Pronunciamentos Contábeis (2011), é possível identificar divergências no interesse do resultado, pois pode tratar de questões relacionadas ao excedente financeiro do final do período em relação ao início do mesmo período (manutenção do capital financeiro), ou, por outro lado, na capacidade física produtiva do final do período em relação ao início do mesmo período (manutenção do capital físico). Essa diferenciação é importante, pois embora esse resumo crítico se direcione na linha financeira (como geralmente é tratado na literatura), nem sempre as tomadas de decisão são pautadas sob essa ótica. Hendriksen e Van Breda (1999) alertam para relevância de dados como capacidade de produção ou número de operários para certas predições, reforçando a ideia de abandonar, por vezes, a mensuração com base em informações financeiras.</p>
+<p>Considerando a divulgação das demonstrações ser essencialmente financeira, a grande questão a ser discutida, portanto, é quais atributos serão considerados na avaliação dos ativos. Dada a diversidade de decisões a serem tomadas, os atributos para avaliação dos ativos também são diversos, influenciando na conceituação e na escolha do critério de mensuração a ser utilizado. (Hendriksen &amp; Van Breda, 1999).</p>
+<p>Antes de adentrar nos critérios de mensuração utilizados ou geralmente conhecidos via literatura, é importante rebuscar o conceito de ativo. De acordo com Comitê de Pronunciamentos Contábeis (2011) o ativo “é um recurso controlado pela entidade como resultado de eventos passados e do qual se espera que fluam futuros benefícios econômicos para a entidade”. Desse conceito, destaca-se, para fins de discussão sobre mensuração, o termo ‘futuros benefícios econômicos’. Esse termo indica a necessidade de representar o quanto de benefícios a entidade é capaz de gerar em dado período. Essa capacidade se baseia em expectativa futura e, assim, sua avaliação deve refletir o <em>quantum</em> de retorno a ser gerado pela entidade.</p>
+<p>Considerando os atributos dos ativos, Hendriksen e Van Breda (1999) demonstram seis bases para mensuração de ativos, sendo três com base em valores de entrada e três em valores de saída. Por valores de entrada deve-se abstrair a mensuração cujos valores são repassados aos ativos com base no valor de aquisição, portanto pago no momento de ingresso dos ativos na entidade. Os valores de saída são obtidos considerando o valor atribuído ao ativo quando este deixa a entidade.</p>
+<p>Retomando o termo ‘futuros benefícios econômicos’ poder-se-ia imaginar valores de saída como os mais indicados para refletir tais benefícios, pois seriam coletados com base no valor a ser (futuro) transacionado pela empresa. Contudo, o custo histórico permanece sendo o valor geralmente utilizado e defendido pelo FASB, dada a sua objetividade. Os valores de entrada serão discutidos a seguir, baseados em Hendriksen e Van Breda (1999), sob a perspectiva da possibilidade de refletirem (ou não) futuros benefícios econômicos.</p>
+<p>Os custos históricos de entrada refletem o valor da operação no momento de ingresso dos ativos na empresa. Possui a vantagem de ser verificável, pois a transação é conhecida por ambas as partes e facilmente reportada para os usuários interessados nos ativos da empresa. Contudo, é inexorável a mudança de valor do ativo com o passar do tempo. Dessa forma, o valor do custo acaba se desatualizando com o tempo. A única forma de evitar esse problema seria a rotatividade rápida do ativo, mas não é o comumente observado.</p>
+<p>Hendriksen e Van Breda (1999), atribuem outras classificações para os custos históricos, quais sejam os custos prudentes, onde revela-se os valores indubitavelmente incorporados aos ativos e, consequentemente seriam de difícil aplicação dada a utilização de juízos de valor nessa mensuração quanto a definição dos ativos necessários ou não.</p>
+<p>A outra classificação são os custos-padrão onde seriam estabelecidas hipóteses para determinação do custo em determinada circunstância e, como os custos prudentes, não absorveriam os custos de ineficiências. Foram considerados pelo AICPA como uma boa métrica para avaliação de ativos, contudo o lapso temporal deveria ser curto para sua efetiva validação. A sua desvantagem é atribuída quanto ao fato de não poderem ser utilizados para refletir os custos correntes da produção sob condições eficientes e normais. Os custos correntes, constitui outra forma de mensuração a valores de entrada a ser abordada mais adiante nessa resenha crítica.</p>
+<p>A última classificação dos custos históricos são os custos originais, cuja utilização é voltada a regulação de serviços de utilidade pública, sob a premissa de não haver lucros excessivos por concessionárias na venda de seus ativos. Assim, o valor do custo original não possui muita aplicação prática no setor competitivo da economia.</p>
+<p>Os custos correntes de entrada, já citados nesse documento, representam o preço de troca atual para adquirir o mesmo ativo ou equivalente. Sua utilização é bastante útil em ambientes inflacionários. Reflete o valor a ser investido para se possuir a mesma capacidade de geração de benefícios futuros. Dentre suas críticas, destacam-se a cotação de itens sazonais por serem subjetivos dada a obsolescência de alguns itens, a variação dos custos correntes não necessariamente acompanha a variação dos preços correntes e, essencialmente não conseguir refletir uma ideia objetiva de lucro do período, dado o momento de realização dos ativos. Por exemplo, uma empresa pode considerar lucrativa determinada transação, mas os preços permaneceriam inalterados.</p>
+<p>A última base de mensuração a valores de entrada são os custos futuros de entrada descontados. Essa base é normalmente indicada em casos nos quais a empresa conta com a alternativa de adquirir os serviços ao ritmo de suas necessidades e não de uma vez só. Embora mais exigente na elaboração de sua mensuração, possui os mesmos defeitos do custo histórico, adicionado da subjetividade do desconto do valor do ativo.</p>
+<p>Mesmo com toda a desvantagem conceitual, o custo histórico permanece sendo o preferido dentre os métodos de entrada, dada a sua verificabilidade e objetividade. A noção de ganho ou lucro é mais evidente. Esse contexto contribui para uma tomada de decisão mais objetiva e pautada em valores mais confiáveis, embora questionados sob o ponto de vista de capacidade de previsão.</p>
+<p>Já as medidas de saída, relacionadas ao volume de caixa, ou outra forma de pagamento, recebido quando um ativo deixa a empresa, podem ser classificadas em valores realizáveis líquidos, valores de liquidação e valores descontados de fluxos de caixa futuros.</p>
+<p>Os valores realizáveis líquidos sugerem uma avaliação dos ativos com base na subtração do preço corrente de venda e dos custos correntes, assegurando a contabilização dos custos adicionais de conclusão ou venda e cobrança no exercício de registro da receita. A dificuldade de sua mensuração reside na estimação de desembolsos adicionais para completar a transação do ativo. Para Hendriksen e Van Breda (1999), a dificuldade de demonstrar um lucro líquido fiável e o caráter arbitrário da mensuração torna o valor realizável líquido um ideal teórico, mas sem uma meta prática.</p>
+<p>Valores de liquidação correspondem aos preços correntes de saída em uma venda forçada, ou seja, valores atribuídos aos ativos com base na descontinuidade do negócio. Por serem avaliados, normalmente, abaixo do custo, não podem sugerir uma avaliação de benefícios econômicos futuros. A última medida de saída são valores descontados de fluxos de caixa futuros, correspondentes ao valor presente dos recebimentos esperados descontados a uma taxa de juros, considerando a probabilidade de recebimento dessas quantias. Quando utilizadas em projetos específicos possui grande relevância, contudo em caso de empresas onde os ativos são utilizados conjuntamente se torna de aplicação mais complicada.</p>
+<p>Dessa forma, todos as bases de mensuração possuem suas fragilidades e oportunidades, mas o custo histórico permanece, dentre todas, como a mais utilizada dada a sua verificabilidade e reduzido uso de subjetivismo.</p>
+<p>O subjetivismo da mensuração tem levado o custo histórico ao patamar de facilidade de mensuração e de tomada de decisão mais eficiente, contudo sua mensuração é normalmente questionada. A situação apresentada é a de “se não tem outro melhor, utilizemos a melhor situação possível”. Assim, os estudos, tanto acadêmicos quanto dos órgãos reguladores, se direcionam para avaliar os melhores métodos de avaliação de ativos.</p>
+<p>Pode-se considerar como de concordância geral o fato de não utilizar a mesma base de mensuração para todos os ativos, pois não é possível absorver os atributos de todos os ativos em uma única forma de medi-los. Assim, a depender do componente patrimonial a ser avaliado, a base de mensuração tende a mudar. O valor justo tem sido discutido como uma alternativa viável de se avaliar ativos, em especial os instrumentos financeiros ou outros com mercado ativo, cujo valor possa ser assimilado por todos.</p>
+<p>Schroeder, Clark e Cathey (2011) discutem a formação do capital de giro evidenciando a formação do capital circulante líquido com base nos ativos e passivos circulantes. A base de mensuração desses ativos normalmente é voltada ao custo histórico, justificado também pela alta rotatividade desses ativos. Contudo, os autores ainda levantam a possibilidade de haver conflito em se voltar os olhos apenas para o circulante, pois dessa forma o pressuposto da continuidade estaria prejudicado. Assim, há outros ativos com base no longo prazo tais como investimentos, imobilizado e intangíveis.</p>
+<p>Os ativos de curto prazo como caixa e equivalentes de caixa normalmente já refletem seu valor compatível com a realidade econômica da empresa. A rotatividade desses ativos permite uma avaliação mais objetiva, pois o interim entre a aquisição e a saída do ativo é muito estreito. Mesmo saindo do foco de caixa e seus equivalentes e adentrando em recebíveis e estoques, deve-se observar a rapidez de realização desses ativos. Ambos são reconhecidos com a premissa de realização até o final do exercício subsequente, com raras exceções.</p>
+<p>Dessa forma, Schroeder, Clark e Cathey (2011) mencionam a evolução dos capitais circulantes e não circulantes, expondo esses últimos como os reais geradores de benefícios futuros. Os autores discutem a avaliação de ativos de longo prazo (investimentos, imobilizado e intangíveis) demonstrando formas de mensuração possíveis, mas sempre enfatizam a confiabilidade e verificabilidade do método do custo.</p>
+<p>A forma de mensuração mais discutida pelo FASB e IASB é a incorporação do valor justo nos componentes da contabilidade. Nessa linha, será criticada adiante a mensuração pelo valor justo de alguns ativos de longo prazo.</p>
+<p>Schroeder, Clark e Cathey (2011) destacam propriedades, prédios de instalação e equipamentos como intensivos na indústria. Sua mensuração normalmente ocorre pelo custo e sofrem influência da perda de valor pela obsolescência, mensurada contabilmente como depreciação. Neste ponto tem-se duas discussões: a mensuração do ativo quando ingressa na entidade e a alocação da sua perda de capacidade de geração de benefícios futuros. Mensurar os ativos imobilizados mencionados a valor justo seria desproporcional entre empresas, pois o uso de cada ativo é diferente em cada empresa e o mercado desses ativos não estabelece um parâmetro regular de mensuração. Quanto a alocação sistemática da perda da capacidade de geração de caixa, a depreciação, tem-se a busca por valores objetivos, geralmente tratados com base em vida útil e taxas quase pré-determinadas. A alocação linear é bastante utilizada pela facilidade de sua mensuração, contudo a sua determinação ideal seria identificar a perda do potencial de geração de caixa, otimizando a mensuração do ativo depreciado de forma a permanecer com seu valor mensurado próximo à realidade econômica da empresa.</p>
+<p>Portanto, a mensuração a valor justo é mais aceita pelos reguladores e pelos usuários da informação quando há um mercado ativo desses ativos. Dessa forma, é possível obter-se uma melhor verificabilidade do valor transacionado e compará-lo com uma base confiável. Essa mesma aplicação, entretanto, seria possível com a valoração a valor justo. Essa possibilidade se confirmaria sob o efeito da ideia conceitual do valor justo, perfeita no âmbito conceitual, mas de difícil aplicação prática.</p>
+<p>Nos instrumentos financeiros, como já mencionado, há uma predileção pela mensuração pelo valor justo. A sua mensuração, conforme Schroeder <em>et al.</em> (2011), deve observar o custo amortizado quando forem classificados como mantidos até o vencimento. Nesse caso, serão considerados os custos de colocação do título e os juros cobrados em cada instrumento de acordo com a sua taxa efetiva (normalmente a TIR). A definição da taxa de juros indicará o montante a ser amortizado em cada período até o consumo total do ativo no vencimento. Quando classificado como disponível para venda deverá ser avaliado pelo valo justo. (Schroeder <em>et al.</em>, 2011).</p>
+<p>Outro destaque importante na discussão sobre mensuração de ativos é a mensuração dos ativos intangíveis. Esses ativos possuem uma métrica de avaliação <em>sui generis</em>, pois são reconhecidos como potenciais geradores de benefícios econômicos futuros, mas sua mensuração acaba não refletindo esse potencial. A ausência de fatores pragmáticos como a propriedade ou posse dos intangíveis é crucial na definição de sua mensuração. Devido a esse pragmatismo e a busca por verificabilidade na mensuração dos ativos intangíveis, aqueles gerados internamente não são reconhecidos nas demonstrações contábeis, embora sejam reconhecidos gerencialmente e, por vezes, no mercado.</p>
+<p>Conforme Schroeder <em>et al.</em> (2011), o processo de avaliação dos ativos intangíveis geralmente segue o mesmo padrão empregado em outros ativos de longo prazo, incluindo os todos os dispêndios necessários para adquiri-lo e deixá-lo pronto para uso. Essa mensuração com base no custo desse processo é aplicada em marcas e patentes, por exemplo, onde se registra o custo de aquisição desses ativos no momento da mensuração.</p>
+<p>Os ativos intangíveis passam a ter seu reconhecimento exigido com o valor próximo ao valor justo quando são adquiridos de terceiros. O valor da transação na compra de empresas, caracterizando uma combinação de negócios, por exemplo, exemplifica esse fato.</p>
+<p>Na consolidação de uma combinação de negócios geralmente há um dispêndio acima do valor ofertado pelo mercado e acima do custo, denominado de <em>goodwill</em>. Um ativo adquirido nessas condições deve tem o valor do custo superado pela mais-valia (valor ofertado pelo mercado acima do custo) e pelo <em>goodwill</em>, representando o valor acima da expectativa de mercado dada a crença da geração de benefícios econômicos futuros com esse ativo. Sob a perspectiva teórica, Schroeder <em>et al.</em> (2011) definem o valor do <em>goodwill</em> sendo igual ao valor presente descontado dos lucros superiores esperados. Tal qual um processo utilizado na contabilidade dos ativos imobilizados, no <em>goodwill</em> e outros intangíveis há a necessidade de se avaliar a necessidade de amortização desses valores. A amortização dependerá de os ativos intangíveis terem vida útil ou não. Caso seja definida a amortização será mensurada com base na vida útil. Caso negativo será realizado, periodicamente, o <em>impairment test</em>.</p>
+<p>Importante destacar o <em>impairment test</em> após expor pontos importantes na mensuração de ativos. O <em>impairment</em> constitui na verificação de haver excedentes de valor do custo ao valor real dos ativos. Esse valor real é mensurado com base no valor em uso do ativo ou no seu valor de venda (justo). Sob o ponto de vista da mensuração se discute o conservadorismo desse teste, pois verificado o excedente de valor com base no custo, deve-se reconhecer uma perda de forma a tornar o valor recuperável reconhecido no balanço patrimonial. Todavia, se o valor em uso ou de venda superarem o valor com base no custo, não há um reajuste do valor do ativo. Assim, o ativo fica avaliado, no máximo, ao valor de custo.</p>
+<p>Por fim, a mensuração de ativos é complexa e merece atenção dos elaboradores das demonstrações contábeis e dos reguladores, pois ainda há uma distância relevante entre a teoria contábil sobre o conceito de ativos e a sua mensuração efetiva. A dificuldade de retratar a real potencialidade de geração de benefícios econômicos futuros permanece e não será absorvida pela mensuração com base no custo histórico. Por outro lado, mensurar com base no valor justo pode não tranquilizar o mercado ao gerar incertezas ou até mesmo credibilidade nos números reportados. O dilema a ser encarado é a objetividade da mensuração ou a relevância da mensuração realizada. Valerá a pena o custo em produzir uma mensuração com base no valor justo ou outro próximo da realidade econômica da empresa? A mensuração com base no custo histórico não oferece a base necessária para decisões gerais dos usuários?</p>
+<hr>
+<p>Comitê de Pronunciamentos Contábeis. (2011). CPC 00 (R1): estrutura conceitual para elaboração e divulgação de relatório contábil-financeiro. Disponível em <a href="http://www.cpc.org.br/Arquivos/Documentos/147_CPC00_R1.pdf" class="uri">http://www.cpc.org.br/Arquivos/Documentos/147_CPC00_R1.pdf</a>. Acesso em 04.jun.2015.</p>
+<p>Hendriksen, E. S. &amp; Van Breda, M. F. (1999). <em>Teoria da contabilidade</em>. São Paulo: Atlas.</p>
+<p>Schroeder, R. G., Clark, M. W. &amp; Cathey, J. M. (2011). <em>Financial accounting:</em> <em>theory and analysis</em>. (10<span class="math inline">\(_{a}\)</span> ed.). New York: John Wiley &amp; Sons.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark"><script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      if (authorPrefersDark) {
+          [baseTheme, altTheme] = [altTheme, baseTheme];
+      }
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "contabilidados/blog";
+    script.dataset.repoId = "";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>contabiliDados usou <a href="https://quarto.org/">Quarto</a>, basedo em <a href="https://beamilz.com/">BeaMilz</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:contabilidados@ufersa.edu.br">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+</div>
+  </div>
+</footer>
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.24">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Kléber Formiga Miranda">
+<title>Precificação de Ativos: modelos de fatores – contabiliDados</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-9668c6978006edd3399c8f59aaf88d86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script><style>html{ scroll-behavior: smooth; }</style>
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+<meta name="twitter:title" content="Precificação de Ativos: modelos de fatores – contabiliDados">
+<meta name="twitter:description" content="Resenha">
+<meta name="twitter:image" content="https://contabilidados.github.io/posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.png">
+<meta name="twitter:creator" content="@cntdd">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1024">
+</head>
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">contabiliDados</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="../../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../meetings.html"> 
+<span class="menu-text">Eventos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cntdd.html"> 
+<span class="menu-text">cntdd</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../membros.html"> 
+<span class="menu-text">Sobre</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dashboard" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Dashboard</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dashboard">
+<li>
+    <a class="dropdown-item" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" target="_blank">
+ <span class="dropdown-text">Indicadores</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://gecomt.shinyapps.io/dashboard/" target="_blank">
+ <span class="dropdown-text">Mercado</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/contabilidados"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Precificação de Ativos: modelos de fatores</h1>
+<p class="subtitle lead">Resenha</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Finanças</div>
+    <div class="quarto-category">CAPM</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kléber Formiga Miranda </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">23 de março de 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header><style> body {text-align: justify} </style>
+<p><img src="precificacaoAtivos_portfolio.png" class="img-fluid"></p>
+<p>No ano de 2004 Fama e French apresentaram uma revisão de literatura sobre o CAPM (<em>Capital Asset Pricing Model</em>), destacando a fragilidade dos achados ao apresentar críticas ao modelo e às variáveis utilizadas por ele. Entretanto, não há outro modelo tão parcimonioso quanto o CAPM para precificação de ativos. As sugestões quanto à incorporação de novas variáveis ao modelo, tornando-o mais complexo pode não possuir aplicação prática viável levando novas pesquisas a buscarem fatores novos ou novas proxies para o modelo do CAPM ou até mesmo propondo modelos alternativos. Nessa resenha serão discutidos artigos empíricos interessados na precificação de ativos com base no modelo de CAPM, seja propondo novos modelos (Chen &amp; Zhang, 2010), criticando e/ou adaptando-o (Fama &amp; French, 2015; Liu, 2006) ou confirmando melhorias na precificação de ativos por meio de seus fatores (Machado &amp; Medeiros, 2011).</p>
+<p>De forma mais crítica ao modelo CAPM, Chen e Zhang (2010) propõe um modelo de três fatores com novas formas de mensuração e avaliação de fatores. O modelo CAPM não sendo capaz de explicar muitos padrões dos retornos das ações, motivou a criação de um novo modelo de três fatores com base na <em>q-theory</em> (proposta por Tobin, em 1966, com foco na emissão de ações para financiar despesas de investimento) com poder de explicações superior ao modelo de Fama e French. Nesse novo modelo o excesso de retorno de um portfólio (<span class="math inline">\(E[r_{j}] – r_{f}\)</span>) é descrito por três variáveis (fatores) quais sejam o excesso de retorno de mercado (<span class="math inline">\(r_{MKT}\)</span>), a diferença entre o retorno de um portfólio de baixo investimento e outro de alto investimento (<span class="math inline">\(r_{INV}\)</span>) e a diferença entre o retorno de um portfólio com altos retornos sobre o ativo e um de baixos retornos sobre o ativo (<span class="math inline">\(r_{ROA}\)</span>). O modelo de fatores da <em>q-theory</em> supera o desempenho do CAPM ao capturar todos esses efeitos com margens frequentemente maiores (Chen &amp; Zhang, 2010).</p>
+<p>As hipóteses testáveis com base na <em>q-theory</em> trataram da hipótese de investimento e a hipótese de rentabilidade ROA. Ambas se baseiam na formulação de custo-benefício proposta pela <em>q-theory</em> para a qual os rendimentos geradores dos fluxos de caixa futuros são relacionados com o custo de reinvestimento nos ativos geradores desses fluxos, conforme a Equação 1:</p>
+<p><span class="math display">\[r_{j} = \frac{\prod_{j1}+1-\delta}{1+\alpha(\frac{I_{j0}}{A_{j0}})}\]</span></p>
+<p>A Equação 1, correspondente à derivada de primeira ordem de uma equação de maximização do valor firma proposta por Chen e Zhang (2010), trata de uma condição de otimização na qual o numerador (lado direito) é o benefício marginal do investimento incluindo o ROA (produtório dos retornos de todos os ativos do portfólio no período <span class="math inline">\(1 – \prod_{j1}\)</span>) adicionado do valor de capital marginal de liquidação (<span class="math inline">\(1 – \delta\)</span>, onde <span class="math inline">\(\delta\)</span> é a taxa de depreciação do ativo). O denominador é o custo marginal do investimento incluindo o custo de aquisição de novos investimentos na data 0. Ressalta-se o delineamento proposto em dois períodos: 0 e 1. O retorno do investimento, definido como a razão do benefício marginal do investimento na data 1 (numerador) dividido pelo custo marginal do investimento na data 0 (denominador) deve ser igual a taxa de desconto, conforme contribuição de Cochrane para a <em>q-theory</em>.</p>
+<p>De acordo com a hipótese de investimento, dado o valor esperado do ROA, o retorno esperado decresce com o investimento em ativos. Esse mecanismo demonstra a relação negativa entre os retornos médios e a emissão de ações, crescimento de ativos, taxas de <em>valuation</em>, crescimento de vendas de longo prazo passadas e retornos anteriores de longo prazo. A intuição dessa hipótese preconiza um maior investimento pelas firmas quando o seu <em>q</em> marginal é alto. Assim, quanto maior a taxa de descontos, menor o investimento em ativos. A hipótese do ROA (rentabilidade) estabelece um ganho maior para empresas com altos valores esperados de ROA em relações a firmas com baixo valor esperado de ROA. A intuição para a segunda hipótese se dá de duas formas: i) pela forma do desconto, fazendo uma equivalência com o Modelo de Crescimento de Gordon e, ii) pelo orçamento de capital – ambos baseados na taxa de desconto proposta na Equação 1 (Chen &amp; Zhang, 2010).</p>
+<p>Com base nessas duas hipóteses e nos três fatores propostos, o modelo de três fatores de Chen e Zhang (2010) captura muitos padrões anômalos para o modelo de Fama e French. Ao serem motivados pela <em>q-theory</em> (sem de fato testá-la), em contraponto ao CAPM tal como em Fama e French, foi possível fornecer uma descrição parcimoniosa da <em>cross-section</em> dos retornos esperados das ações. Dessa forma, o novo modelo com os fatores propostos por Chen e Zhang (2010) é útil para avaliar o desempenho de fundos mútuos, medir retornos anormais em estudos de eventos, estimação de retornos esperados para alocação de ativos e calcular custo de capital próprio para orçamentos e avaliação de ações. Essas aplicações dependem da performance do modelo e da intuição econômica baseada na <em>q-theory</em> para aumentar a probabilidade de persistência de seus resultados no futuro.</p>
+<p>Diferentemente de Chen e Zhang (2010), a pesquisa de Liu (2006) analisou tanto o CAPM, quanto o modelo de três fatores de Fama e French, objetivando a criação de uma nova medida de liquidez para ativos individuais, cuja proposta multidimensional captura aspectos como velocidade de negociação, quantidade de negócios e custo de negociação. A liquidez como fator de risco a ser incorporado é uma proposta pouco explorada na literatura e, dada a sua característica multidimensional, pode ser limitada (falta de acurácia) pelo fato de não ser capaz de captar o risco de liquidez completamente. Porém, a nova variável para a liquidez proposta possui alta correlação com o <em>bid-ask spread</em>, <em>turnover</em> e medidas de retorno por volume. Trata-se de uma medida materialmente diferente das existentes com a possibilidade de prever retornos de ações de um ano a frente ou mais.</p>
+<p>A medida de liquidez definida como o número padronizado ajustado ao <em>turnover</em> dos volumes diários sem transações sobre os x meses anteriores (x = 1, 6, 12, …), sendo da variável LM1 a variável de liquidez considerando os 21 dias de negociações anteriores e, a variável LM12, relativa a 252 dias de negociações anteriores (aproximadamente 1 ano). Baseado em dados diários foi também criada a variável LMx para medir a liquidez no fim de cada mês por cada ação individual com base nos dados diários. A variável criada captura múltiplas dimensões da liquidez com ênfase na velocidade de negociação (ignorada na maioria das pesquisas existentes). Ao considerar o período sem negociações (<em>zero daily trading volume</em>) em relação aos x meses anteriores captura a continuidade da negociação e o potencial <em>delay</em> ou dificuldade em executar uma ordem. Portanto, a falta de negociação de uma ação indicia o seu grau de liquidez – quanto menor a frequência de negociação menos líquida é a ação (Liu, 2006).</p>
+<p>A utilidade relativa da medida de liquidez é demonstrada ao calcular e examinar o <em>turnover</em> sobre os 12 meses anteriores (TO12), o <em>bid-ask</em>¬ <em>spread</em> (BA12) e o retorno por volume (RtoV12). Essa última corresponde à razão dos retornos absolutos de um dia específico e o volume em dólar negociado nos últimos 12 meses. Dada o inflado volume de negociação das ações da NASDAQ em relação às ações da NYSE/AMEX, o efeito líquido das ações da NASDAQ foi calculado separadamente, tendo um abrangente exame da liquidez baseada nas ações da NYSE/AMEX. As estatísticas descritivas evidenciam uma boa dispersão entre os dados de liquidez. Como esperado, a nova medida de liquidez é possui correlação negativa relevante com a medida de <em>turnover</em>, indicando uma boa captura de informações dessa característica de liquidez. A correlação como tamanho também é negativa, implicando no fato de o tamanho ser uma <em>proxy</em> razoável para liquidez, pois pequenas firmas são menos líquidas em relação às grandes.</p>
+<p>Adicionalmente, observou-se a relação positiva entre nova medida de liquidez e a medida de retorno por volume (RtoV12), revelando a captura a dimensão do impacto do preço da liquidez, contudo, a proximidade de correlação negativa perfeita entre o valor de mercado e o retorno por volume (RtoV12) indica a possibilidade do modelo de três fatores de Fama e French ordenar o efeito do retorno em relação ao volume, consistente com o desaparecimento do efeito tamanho (Liu, 2006). Dessa forma, é possível verificar o efeito liquidez captado no modelo de Fama e French por meio da utilização do <em>book-to-market</em>, dada a proximidade entre indicadores de liquidez (RtoV12) ser muito próximo do valor de mercado, funcionando na aplicação como uma variável instrumental.</p>
+<p>Após realizados testes em diversos portfólios baseados em FF, Liu (2006) evidencia a necessidade de novas pesquisas sobre o efeito liquidez, pois os modelos de dois fatores (mercado e liquidez) descreveu com sucesso a <em>cross-section</em> dos retornos das ações, não apenas capturando o risco de liquidez, não captado pelo CAPM ou FF 3 fatores, mas fornece evidências de suportar a explicação do risco de liquidez para várias anomalias de mercado. O poder explanatório da incorporação do efeito liquidez foi superior aos de FF, pois o alguns portfólios não classificados por FF conseguiram êxito no modelo de Liu (2006). Evidências no Brasil sobre o efeito liquidez foi o foco da pesquisa de Machado e Medeiros (2011) a ser abordado a seguir.</p>
+<p>O efeito liquidez, considerado como mais um fator capaz de influenciar os retornos esperados, relacionam-se aos fatores de risco dos modelos de precificação de ativos quando se observa uma demanda por taxas de retorno maiores em ativos menos líquidos em relação aos menos líquidos. Machado e Medeiros (2011) os preços de ações pouco líquidas deve cair bastante para ser atrativo aos investidores, assumindo os retornos esperados serem função crescente do risco e da iliquidez. Esse fato sugere o uso do fator liquidez no processo de avaliação de ativos. Com base nesses fatos, Machado e Medeiros (2011) testam se existe o efeito liquidez no mercado brasileiro e se essa é precificada, além de explicar parte das variações dos retornos das ações.</p>
+<p>No desdobramento de sua pesquisa, Machado e Medeiros (2011) analisaram 149 ações em média no período de 1 de junho de 1995 a 30 de junho de 2008. A formação de carteiras utilizou-se os mesmos procedimentos da pesquisa do ano 1993 de Fama e French. A mensuração da liquidez observou a multidimensionalidade dessa variável, dado não haver uma variável universalmente aceita. Com base em Liu (2006), foram captadas variáveis referentes ao <em>turnover</em> (n° de ações negociadas / n° de ações emitidas), volume negociado mensalmente com a ação, a quantidade negociada mensalmente com a ação, negociabilidade e o <em>turnover</em> padronizado. Sob o ponto de vista de formação das carteiras, de forma objetiva, incorporaram efeito liquidez no modelo de três fatores de Fama e French, associado à inclusão do fator momento de Carhart. No final foram construídas 24 carteiras (2x3x2x2) com base no valor de mercado (<strong>B</strong>ig e <strong>S</strong>mall), índice BM (<strong>H</strong>igh, <strong>L</strong>ow e <strong>M</strong>edium), retornos acumulados (<strong>LOS</strong>s e <strong>WIN</strong>) e liquidez com base no volume negociado (<strong>H</strong>igh <strong>L</strong>iquidity e <strong>L</strong>ow <strong>L</strong>iquidity).</p>
+<p>A construção das carteiras permitiu, além da análise individual dos modelos, estabelecer um panorama da distribuição do valor de mercado total entre elas. Constatou-se uma concentração do valor de mercado, por exemplo, de 97,33% e de 79,12% entre as carteiras de maior valor (<em>Big</em>) e de alta liquidez (<em>high liquidity</em>), respectivamente. Já as carteiras formadas por ações com retornos passados altos (<em>win</em>) e baixos (<em>loss</em>) tiveram o mesmo percentual de participação, contrariando achados pretéritos. Para obtenção do retorno das carteiras utilizou-se a Selic como retorno de ativo livre de risco, cujo valor subtraído do retorno mensal de cada carteira, sendo possível verificar disparidade entre os valores médios da pesquisa e de outros achados, dado o desempenho do mercado brasileiro e diferença na formação das carteiras. Os fatores de risco utilizados foram os três fatores de Fama e French (Mercado, Tamanho e <em>Book-to-Market</em>), o fator momento de Carhart e, foram incorporadas 5 variáveis referentes à liquidez (volume, <em>turnover</em>, quantidade de negócios, negociabilidade e <em>turnover</em> padronizado).</p>
+<p>Após relatarem as divergências e convergências dos valores referentes a cada fator com outras pesquisas, utilizaram o modelo de fator único (CAPM), o modelo de três fatores de Fama e French, o modelo de quatro fatores com a inclusão do fator momento e o modelo de cinco fatores, incorporando a liquidez. Os resultados demonstram melhorias com a inclusão do fator liquidez, pois os interceptos das regressões passaram a ser não significativos em maior número com concentração de interceptos significativos entre as carteiras com baixa liquidez (resultado também verificado em Keene e Peterson, de 2007). A superioridade do modelo de cinco fatores foi demonstrada tanto em nível de poder explicativo quanto em robustez, sendo possível concluir pela existência de um prêmio de liquidez (inclusive considerando o efeito janeiro) e este é precificado, explicando parte das variações dos retornos das ações no mercado brasileiro.</p>
+<p>Considerando as evidências contra o modelo de três fatores Fama e French (2015) avaliam um modelo de cinco fatores incorporando as evidências de várias pesquisas, dentre elas citam duas: uma no ano de 2013 proposta por Novy-Marx e outra de 2004 proposta por Titman, Wei e Xie. De acordo com essas evidências, o modelo de três fatores é incompleto para retornos esperados porque seus três fatores perdem muita variação na média dos retornos relacionados a rentabilidade e investimento. Motivados por essas evidências Fama e French (2015) incorporam a rentabilidade e o investimento ao modelo de três fatores, passando a analisar um novo modelo com cinco fatores.</p>
+<p>Para fundamentar a inserção dessas duas variáveis ao modelo de três fatores, Fama e French (2015) utilizam a base conceitual do modelo de desconto de dividendos, o qual estabelece a igualdade entre o preço da ação e o valor presente dos dividendos esperados: <span class="math inline">\(m_{t} = \sum_{t=1}^{\infty} E(d_{t+\tau})/(1 + r)^\tau\)</span>. Nesta equação, <span class="math inline">\(m_{t}\)</span> é o preço da ação no tempo t; <span class="math inline">\(E(d_{t+\tau})\)</span> é o dividendo por ação esperado e o r é o retorno esperado médio das ações de longo prazo (taxa interna de retorno dos dividendos esperados). Com base nessa equação, se no tempo t, duas firmas com o mesmo valor de dividendos esperados, mas com preços diferentes definem se a empresa é rentável ou arriscada. Sendo o preço racional, os dividendos futuros da ação com baixo preço devem ter alto risco. Assim, a previsão do preço é o mesmo, independente de racionalidade ou não.</p>
+<p>O ajuste da equação de desconto de dividendos e a utilização do modelo para determinação do valor da firma de Modigliani e Miller permitiu a inclusão fundamentada da rentabilidade e investimento no modelo de três fatores de Fama e French. Para o modelo de Modigliani e Miller o valar da firma (<span class="math inline">\(M_{t}\)</span>) corresponde ao valor esperado do valor presente da soma entre os lucros (<span class="math inline">\(Y_{t+\tau}\)</span>) deduzidos do valor contábil do Patrimônio Líquido (<span class="math inline">\(dB_{t+\tau}\)</span>) – <em>clean surplus accounting</em>. A equação é dada por: <span class="math inline">\(M_{t} = \sum_{t=1}^{\infty} E(Y_{t+\tau} - dB_{t+\tau}) / (1+r)^\tau\)</span>. Dividindo ambos os lados da equação pelo valor contábil do Patrimônio Líquido (<span class="math inline">\(B_{t}\)</span>), tem-se:</p>
+<p><span class="math display">\[\frac{M_{t}}{B_{t}} = \frac{\sum_{t=1}^{\infty} E(Y_{t+\tau} - dB_{t+\tau}) / (1+r)^\tau}{B_{t}}\]</span></p>
+<p>Essa equação estabelece: i) considerando todos os termos fixos, exceto o valor corrente da ação (<span class="math inline">\(M_{t}\)</span>) e seu retorno esperado (r), então o um alto índice <em>book-to-market</em> implica em alto retorno esperado; ii) considerando todos os termos fixos, exceto lucros futuros (<span class="math inline">\(Y_{t+\tau\)</span>) e retorno esperado da ação (r), a equação estabelece um maior retorno esperado quando os lucros são maiores; iii) mantendo os demais termos fixos, um crescimento esperado no valor do patrimônio líquido (investimentos) implica em menor retorno esperado. Em suma e, de forma mais familiar, os termos da equação permitem denotar o índice <em>book-to-market</em> como uma <em>proxy</em> com ruído, pois o valor corrente da ação (<span class="math inline">\(M_{t}\)</span>) também responde a previsões de lucros e investimentos. A dificuldade relatada seria identificar <em>proxies</em> apropriadas para lucros e investimentos esperados (Fama &amp; French, 2015).</p>
+<p>A decomposição do fluxo de caixa proposto na equação determina cada retorno esperado relevante da ação como função do seu índice preço/PL e das expectativas de rentabilidade e investimento. Se variáveis não explicitamente ligadas a essa decomposição, como tamanho e momento, contribuem para a previsão de retornos, então elas devem fazê-lo implicitamente de forma a melhorar a capacidade da rentabilidade e dos investimentos em capturar (previsão) os efeitos futuros nos retornos esperados. Assim, o modelo de cinco fatores incorpora os fatores de valor, tamanho, <em>book-to-market</em>, rentabilidade e investimento, passando a compor o seguinte modelo de regressão:</p>
+<p><span class="math display">\[R_{it}-R{Ft} = \alpha_{i} + b_{i}(R_{Mt}-R_{Ft}) + s_{i}SMB_{t} + h_{i}HML_{t}
++ r_{i}RMW_{t} + c_{i}CMA_{t} + e_{it}\]</span></p>
+<p>A proposta de análise segue a do modelo de três fatores quanto a montagem de portfólios, sendo cogitada a possibilidade de se incluir uma classificação 3x3x3x3, resultando em 81 portfólios. Entretanto, observou-se a inviabilidade da diversificação nesse número de portfolios dado o baixo nos testes de precificação de ativos. Assim, optou-se por uma classificação 2x4x4 (32 portfolios), sendo utilizado o tamanho e os quartis das variáveis de interesse. Ressalta-se as nomenclaturas utilizadas para os portfólios compostos com as novas variáveis, sendo: lucro operacional (OP) e investimento (inv). As extremidades da classificação de cada uma das novas variáveis ficaram assim estabelecidas: lucro operacional (<strong>R</strong>obust e <strong>W</strong>eak) e investimento (<strong>C</strong>onservative e <strong>A</strong>gressive). Portanto, o fator <span class="math inline">\(r_{i}\)</span> é dado por <em>Robust minus Weak</em> (RMW) e o fator <span class="math inline">\(c_{i}\)</span> é dado por <em>Conservative minus Agressive</em> (CMA). As demais variáveis/fatores seguem o modelo de três fatores de Fama e French. A construção dos fatores são detalhadamente demonstradas em Fama e French (2015).</p>
+<p>As análises consistiram, como de praxe nas pesquisas de precificação de ativos, na avaliação dos efeitos esperados com base nos valores dos portfólios localizados nas extremidades. Associado a essas análises, foram realizados testes para avaliar a igualdade dos interceptos. Considera-se uma precificação consistente quando o intercepto é igual a zero. Dentre as diversas análises descritivas realizadas demonstrando consistências e coerências com os efeitos esperados destaca-se, nessa resenha, a correlação entre <em>book-to-market</em> (HML) e o investimento (CMA). Na classificação 2x3 e 2x2 fatores a correlação se apresenta em torno de 70%. Entretanto, na classificação de 2x2x2x2 fatores parte dessa correlação é absorvida pelo lucro operacional (RMW). Assim, observa-se o HML como um fator redundante, sugerindo sua falta de contribuição para um portfólio eficiente em média-variância, em relação a um portfólio com SMB, RMW e CMA.</p>
+<p>Os resultados decorrentes da amostra, cujos dados foram coletados no período de julho/1963 a dezembro/2013, no mercado americano, revelam o melhor desempenho do modelo de cinco fatore em relação ao de três fatores. Contudo, a redundância do fator HML leva a conclusão de haver padrões na média dos retornos relacionados ao tamanho, B/M, rentabilidade e investimento. Pelo teste GRS, um quinto fator foi facilmente rejeitado, mas as explicações do modelo giram entre 71% e 94% ao desconsiderar o fator redundante. Os resultados decorrentes das classificações 2x2 e 2x3 se demonstraram melhor em relação à classificação 2x2x2x2, sendo problemática o controle por mais classificações (inclusão do fator momento, por exemplo). A classificação dos portfólios é importante, pois os resultados variam quando se troca os critérios para sua formação (Fama &amp; French, 2015).</p>
+<p>Os resultados de Fama e French (2015) revelam um modelo mais parcimonioso (se esse for o critério desejado) com a remoção do HML do modelo, mas podendo substituí-lo pelo HMLO – um vetor de HML ortogonal com base na soma do intercepto e o resíduo da regressões entre o HML e as demais variáveis do modelo. Ainda assim, os testes realizados entre o modelo com quatro fatores e com cinco fatores (incluído o HMLO) demonstrou melhor performance do primeiro em relação ao segundo. Os autores consideram interessante os resultados de carteiras de pequenas ações com exposições negativas a RMW e CMA por serem o maior problema de precificação de ativos em quatro dos seis grupos de carteiras LHS examinados. As exposições com CMA negativos das carteiras problemáticas se alinham com o fato de as empresas componentes investirem muito. Entretanto, exposições negativas a RMW na classificação 5x5 (Size-BM e Size-Inv) não correspondem a baixa rentabilidade.</p>
+<p>Por fim, as carteiras mais problemáticas contêm pequenas ações de empresas agressivas em investimento, mesmo diante de baixa rentabilidade. Essas carteiras são um gancho para leitores de Fama e French, pois carteiras com propriedades semelhantes desempenho grande papel nos testes para o modelo de cinco fatores e propensas variáveis para anomalias tais como <em>accruals</em>, emissões líquidas de ações e volatilidade.</p>
+<hr>
+<p>Chen, L., &amp; Zhang, L. (2010). A better three-factor model that explains more anomalies. <em>Journal of Finance</em>, <em>65</em>(2), 563–594.</p>
+<p>Fama, E. F., &amp; French, K. R. (2015). A five-factor asset pricing model. <em>Journal of Financial Economics</em>, <em>116</em>(1), 1–22.</p>
+<p>Liu, W. (2006). A liquidity-augmented capital asset pricing model. <em>Journal of Financial Economics</em>, <em>82</em>(3), 631–671.</p>
+<p>Machado, M. A. V., &amp; Medeiros, O. R. de. (2011). Modelos de precificação de ativos e o efeito liquidez: evidências empíricas no mercado acionário brasileiro. <em>Revista Brasileira de Finanças</em>, <em>9</em>(3), 383–412.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark"><script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      if (authorPrefersDark) {
+          [baseTheme, altTheme] = [altTheme, baseTheme];
+      }
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "contabilidados/blog";
+    script.dataset.repoId = "";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>contabiliDados usou <a href="https://quarto.org/">Quarto</a>, basedo em <a href="https://beamilz.com/">BeaMilz</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:contabilidados@ufersa.edu.br">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+</div>
+  </div>
+</footer>
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.24">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Kléber Formiga Miranda">
+<title>Qualidade da Informação Contábil – contabiliDados</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-9668c6978006edd3399c8f59aaf88d86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script><style>html{ scroll-behavior: smooth; }</style>
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+<meta name="twitter:title" content="Qualidade da Informação Contábil – contabiliDados">
+<meta name="twitter:description" content="Resenha">
+<meta name="twitter:image" content="https://contabilidados.github.io/posts/contabil/qualidadeInformacao/qualidadeInformacao.png">
+<meta name="twitter:creator" content="@cntdd">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1024">
+</head>
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">contabiliDados</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="../../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../meetings.html"> 
+<span class="menu-text">Eventos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cntdd.html"> 
+<span class="menu-text">cntdd</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../membros.html"> 
+<span class="menu-text">Sobre</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dashboard" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Dashboard</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dashboard">
+<li>
+    <a class="dropdown-item" href="https://kleberformiga.shinyapps.io/dashCVMaulas/" target="_blank">
+ <span class="dropdown-text">Indicadores</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://gecomt.shinyapps.io/dashboard/" target="_blank">
+ <span class="dropdown-text">Mercado</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/contabilidados"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Qualidade da Informação Contábil</h1>
+<p class="subtitle lead">Resenha</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Contabilidade</div>
+    <div class="quarto-category">Value relevance</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kléber Formiga Miranda </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">16 de julho de 2020</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header><style> body {text-align: justify} </style>
+<p><img src="qualidadeInformacao.png" class="img-fluid"></p>
+<p>O objetivo mais evidente da contabilidade é a prestação de informações úteis sobre a evolução patrimonial e o desempenho das entidades, suprindo seus diversos usuários para tomada de decisão. A diversidade de interesses dos usuários dificulta a emissão de informações precisas para cada agente. Dessa forma, não é possível atender os usuários de forma idêntica. Para Dechow e Schrand (2004) a qualidade dos resultados é contextual, pois reflete a percepção de cada usuário sobre as demonstrações financeiras.</p>
+<p>Discute-se como uma informação pode ser útil e relevante para os usuários em geral, sendo discorrido na estrutura conceitual do FASB, IASB e CPC algumas características qualitativas da informação para nortear a busca pela melhor informação a ser prestada. São consideradas fundamentais a relevância e a representação fidedigna (confiabilidade).</p>
+<p>A relevância constitui-se da informação capaz de mudar o estado da arte sobre a empresa, influenciando o processo decisório de forma a confirmar informações, ser preditiva ou ambas as situações. Engloba-se em seu conceito a concepção da materialidade, pois a magnitude da informação pode fazer diferença na tomada de decisão. Uma informação útil precisa influenciar a decisão e para tal precisa fazer falta quando omitida. Essa falta indica haver materialidade na informação. De acordo com o CPC00-R1 uma informação passa a não ser relevante por materialidade quando sua omissão ou distorção pode causar prejuízos às decisões tomadas sem o seu conhecimento.</p>
+<p>Tornar uma informação relevante não é tarefa fácil. Envolve o entendimento sobre os fenômenos empresariais e a compreensão do comportamento dos seus <em>stakeholders</em>. Embora se compreenda uma informação contábil padronizada mundialmente com a expansão do IFRS, as variâncias subjetivas acabam convergindo para uma necessidade mais iminente do conceito de relevância. Exemplo disso é a discussão sobre a emissão de notas explicativas sequenciada pelas informações mais relevantes. Uma mesma informação relevante para uma empresa pode não ser em outra.</p>
+<p>Outra dificuldade enfrentada na relevância da informação é a exigência da confiabilidade na informação. Uma informação contábil pode ser considerada confiável quando representa aquilo que propõe a representar. Portanto, precisa esclarecer o usuário do fenômeno realmente ocorrido na empresa. Unir essa característica com a relevância é necessário e, ao mesmo tempo, desafiador. O desafio consiste na permanência da relevância quando se busca os atributos da confiabilidade, quais sejam a completeza, neutralidade e ausência de viés. Uma informação é considerada completa quando capta todas as perspectivas de reconhecimento e mensuração fenômeno e é divulgada em tempo hábil. É neutra quando não proporciona favorecimento a qualquer parte do contrato (firma ou <em>stakeholders</em>), sua função se fixa em refletir o desempenho de cada contrato. E é livre de erros quando, além de completa, não possui vieses informativos capazes de prejudicar a essência econômica das transações.</p>
+<p>As características fundamentais da informação contábil são completadas com as características de melhoria da comparabilidade, verificabilidade, tempestividade e compreensibilidade (CPC00-R1). Essas características são imprescindíveis na construção de uma informação de qualidade sob a perspectiva de ser acessível a todos os usuários da forma e tempo corretos.</p>
+<p>A comparabilidade permite aos usuários identificar similitudes entre as informações passadas e presentes das empresas ou, até mesmo, a relação das informações de empresas diferentes. Precisa, dessa forma, ser consistente. Significa manter o padrão informativo com o passar do tempo. Uma informação quando perde sua consistência por obsolescência do método utilizado na sua contabilização, normalmente tem o método adotado de forma retroativa para permitir a comparabilidade entre os períodos atuais e anteriores (ex.: a mudança de uma política contábil).</p>
+<p>O CPC 00-R1 ainda reporta a característica de melhoria da verificabilidade. Trata-se de uma característica importante, pois permite aos usuários confirmarem a informação reportada, atestando sua veracidade e os atributos qualitativos já mencionados. Entretanto, na concepção do <em>true and fair view</em> pode prejudicar a informação no sentido de gerar uma sensação de obrigação de atestado de verdade às informações. Informações reportadas com base em documento são tidas como altamente verificáveis, por exemplo. Já as informações reportadas a valor justo podem ter sua verificabilidade questionada quando o nível subjetivo for mais presente.</p>
+<p>As características qualitativas de melhoria da tempestividade e da compreensibilidade fecham o ciclo qualitativo da informação contábil explorando o momento da divulgação da informação aos usuários em tempo de tomarem as suas decisões e serem compreensíveis em nível de utilização das terminologias e clareza nos conceitos aplicados na informação. A compreensibilidade não trata de ser clara ao mais leigo dos usuários, e sim ser capaz de informar a todos os usuários sobre as empresas com clareza.</p>
+<p>Abordadas as características qualitativas da informação contábil, é importante frisar o interesse da academia e do meio empresarial na constatação de informações relevantes e confiáveis para o mercado e seu impacto no desempenho das empresas. Nesse intuito, são utilizadas proxies capazes de mensurar a qualidade da informação contábil para possibilitar a inferência quanto a sua utilização.</p>
+<p>Ball e Brown (1968), Beaver (1968) e Barth, Beaver e Landsman (2001) apresentaram a proposta de mensurar o valor da relevância (<em>value relevance</em>) da informação por meio de formulação de modelo capaz de discutir a associação da informação contábil com o retorno das ações. Essa perspectiva considera a informação contábil relevante quando seu valor influencia o valor das ações no mercado sendo útil, portanto, nas tomadas de decisões.</p>
+<p>Modelos voltados à divulgação da informação contábil como proxy da qualidade são tratados por Verrechia (1990) e Healy e Palepu (2001) quando adotam a noção de informação de qualidade por meio do disclosure. Para os autores, a publicidade das informações são capazes de influenciar as decisões dos usuários e alterar, por exemplo, o custo de capital das empresas. Verrechia (1990) apresenta em seu modelo de divulgação voluntária a hipótese de o valor de liquidação de uma ação explicar o nível de <em>disclosure</em> voluntário de uma empresa. O pressuposto de impacto do <em>disclosure</em> no preço das ações foi confirmado em Lima <em>et al</em>. (2012), cujos resultados indicaram impacto na expectativa de indivíduos e no processo de avaliação de suas ações quando há um maior nível de divulgação de informações.</p>
+<p>Martinez (2001), Dechow e Dichev (2002), Paulo (2007), Almeida (2010), dentre outros, discutem a qualidade da informação contábil na perspectiva da qualidade do lucro e dos <em>accruals</em> e gerenciamento de resultados. Schroeder, Clark e Cathey (2011) consideram que o gerenciamento de resultados é uma medida de qualidade contábil, pois é, particularmente uma resposta aos incentivos de informações das firmas. A discricionariedade decorrente da aplicação do princípio da competência adotado no processo de contabilização permite ao gestor decidir o momento de reconhecer suas receitas e despesas influenciando no resultado de cada período. Os modelos de gerenciamento de resultado e qualidade dos <em>accruals</em> buscam identificar o <em>quantum</em> gerenciado por cada empresa. A revelação do gerenciamento indica falta de qualidade da informação e sugere cautela na decisão tomada com base nessas informações. Algumas formas de gerenciamento de resultados são citadas literatura como o <em>taking a bath</em>, <em>income minimization</em>, <em>income maximization</em> e <em>income smoothing</em>.</p>
+<p>O <em>taking a bath</em> é utilizado quando a gestão pretende diminuir resultados correntes para reconhecer um número maior de informações positivas no futuro, gerando um “banho” de notícias boas. São retratadas situações como início de gestão, períodos de crises e problemas políticos como influenciadores para esse tipo de gerenciamento.</p>
+<p>Questões de lucratividade ou tributárias podem induzir a gestão a reduzir seus resultados como forma de redução e custos para a empresa em períodos específicos. Normalmente evidenciado em firma politicamente monitoradas. Esse gerenciamento constitui-se no <em>income minimization</em>. Em contraponto, há o <em>income maximization</em> quando a empresa busca atingir resultados elevados em períodos específicos, tais como o período que antecede a saída de um gestor.</p>
+<p>Por último o <em>Income smoothing</em> com a finalidade de gerenciar o resultado suavizando-o para reduzir sua volatilidade e aumentar a persistência. A persistência é importante nos resultados por tratar de outra proxy para qualidade da informação contábil. A suavização é mensurada por Dechow, Ge, Schrand (2010) pela razão entre lucro e fluxos de caixa, onde quanto menor a razão, maior a suavização.</p>
+<p>A persistência nos resultados buscada pelas empresas se constitui em proxy para a qualidade da informação no sentido de haver a explicação do resultado futuro com base no resultado atual, por meio de um efeito autoregressivo. Dessa forma um lucro atual tenderá a constituir em lucro futuro. Dechow e Schrand (2004) busca a qualidade da informação na perspectiva da persistência dos resultados, indicando sua importância para informação contábil e para os processos de <em>valuation</em>.</p>
+<p>Uma proxy controversa para refletir a qualidade da informação contábil é o conservadorismo, discutido em pesquisa como Basu (1997), Ball e Shivakumar (2006), Coelho (2007) e Almeida (2010). O conservadorismo é controverso, pois ao mesmo tempo que restringe algumas ações da administração, provoca o reconhecimento antecipado de perdas em detrimento das receitas. Dessa forma, provoca uma redução preventiva do resultado dadas as incertezas de geração de caixa futuro. É qualitativa por prevenir problemas de lucros não realizados, contudo não permite a revelação de um resultado fiel à realidade. É um atributo muito interessante de ser discutido quando se busca a divulgação de um resultado abrangente, decorrente de ganhos e perdas não realizados.</p>
+<p>A qualidade da informação contábil é perseguida por reguladores, profissionais e acadêmicos, porém é sempre controversa dada a pulverização de possibilidades de seu uso e a possibilidade de seu gerenciamento em prol de interesses específicos. Trata-se de tema a ser permanentemente discutido e revisado na literatura contábil por consistir no cerne da existência da contabilidade, qual seja, informar.</p>
+<hr>
+<p>Almeida, J. E. F. (2010). <em>Qualidade da informação contábil em ambientes</em> <em>competitivos</em>. Tese de Doutorado, Universidade de São Paulo, SP, Brasil.</p>
+<p>Ball, R. &amp; Brown, P. (1968). An empirical evaluation of accounting income numbers. <em>Journal of Accounting Research. </em>6*, 159-178.</p>
+<p>Ball, R. J. &amp; Shivakumar, L. (2006). The role of accruals in asymmetrically timely gain and loss recognition. <em>Journal of Accounting Research</em>. <em>44</em>(2), 207-242.</p>
+<p>Barth, M.E., Beaver, W.H. &amp; Landsman, W.R. (2001). The relevance of the value relevance literature for financial accounting standard setting: Another view. <em>Journal of Accounting &amp; Economics</em>, <em>31</em>(1-3), 77-104.</p>
+<p>Basu, S. (1997). The conservatism principle and the asymmetric timeliness of earnings. <em>Journal of Accounting and Economics</em>, <em>24</em>(1), 3-37.</p>
+<p>Beaver, W.(1968). The information content of annual earnings announcements. <em>Journal of Accounting Research</em>, Supplement, 67-92.</p>
+<p>Comitê de Pronunciamentos Contábeis. (2011). CPC 00 (R1): estrutura conceitual para elaboração e divulgação de relatório contábil-financeiro. Disponível em <a href="http://www.cpc.org.br/Arquivos/Documentos/147_CPC00_R1.pdf" class="uri">http://www.cpc.org.br/Arquivos/Documentos/147_CPC00_R1.pdf</a>. Acesso em 04.jun.2015.</p>
+<p>Coelho, A. C. D. (2007). <em>Qualidade informacional e conservadorismo nos resultados</em> <em>contábeis publicados no Brasil</em>. Tese de Doutorado, Universidade de São Paulo, SP, Brasil.</p>
+<p>Dechow, P. M. &amp; Dichev, I. D. (2002). The quality of accruals and earnings: the role of accrual estimation errors. <em>The Accounting Review</em>, <em>77</em>(4), 35-59.</p>
+<p>Dechow, P. M. &amp; Schrand, C. M. (2004). <em>Earnings quality</em>. Charlottesville (Virginia): CFA Institute.</p>
+<p>Dechow, P. M., Ge, Weili &amp; Schrand, C. M. (2010). Understanding earnings quality: a review of proxies, their determinants and their consequences. <em>Journal of Accounting and Economics</em>, <em>50</em>(2-3), 344-401.</p>
+<p>Healy, P. M. &amp; Palepu, K. G. (2001). Information asymmetry, corporate disclosure, and the capital markets: A review of the empirical disclosure literature. <em>Journal of Accounting</em> <em>and Economics</em>, <em>31</em>(1-3), 405-440.</p>
+<p>Lima, D. H. S., Rodrigues, J. M., Silva, C. A. T. &amp; Silva, J. D. G. (2012). Impacto do nível de evidenciação de informações contábeis sobre a precificação de ações no contexto de seleção adversa: uma pesquisa experimental. <em>RBGN - Revista Brasileira de Gestão de Negócios</em>, <em>14</em>(43), 159-175.</p>
+<p>Martinez, A. L. (2001). <em>“Gerenciamento” dos resultados contábeis: estudo empírico das</em> <em>companhias abertas brasileiras</em>. Tese de Doutorado, Universidade de São Paulo, SP, Brasil.</p>
+<p>Paulo E. (2007). <em>Manipulação das informações contábeis: uma análise teórica e empírica sobre</em> <em>os modelos operacionais de detecção de gerenciamento de resultados</em>. Tese de Doutorado, Universidade de São Paulo, SP, Brasil.</p>
+<p>Schroeder, R. G., Clark, M. W. &amp; Cathey, J. M. (2011). <em>Financial accounting:</em> <em>theory and analysis</em>. (10<span class="math inline">\(_{a}\)</span> ed.). New York: John Wiley &amp; Sons.</p>
+<p>Verrechia. R. E. (1990). Information quality and discretionary disclosure. <em>Journal of</em> <em>Accounting and Economics</em>, <em>12</em>(4), 365-380.</p>
+<hr>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark"><script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      if (authorPrefersDark) {
+          [baseTheme, altTheme] = [altTheme, baseTheme];
+      }
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "contabilidados/blog";
+    script.dataset.repoId = "";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>contabiliDados usou <a href="https://quarto.org/">Quarto</a>, basedo em <a href="https://beamilz.com/">BeaMilz</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/watch?v=Bckx1xIqGto&amp;list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/contabilidados">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:contabilidados@ufersa.edu.br">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+</div>
+  </div>
+</footer>
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
