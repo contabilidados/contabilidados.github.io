@@ -6,7 +6,7 @@ categories:
   - cntdd
 date: 2025-10-28
 toc: true
-image: "utl_tableStat.PNG"
+image: "cntddupdater.png"
 editor: 
   markdown: 
     wrap: 72
@@ -99,8 +99,9 @@ O script Powershell irá baixar e executar automaticamente o arquivo
 dando um clique duplo ou abrindo como administrador, para iniciar as
 instalações e atualizações necessárias.
 
-Realize o download e execute o cntddupdater.bat com clique duplo do
-mouse.
+Realize o
+[download](https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat)
+e execute o cntddupdater.bat com clique duplo do mouse.
 
 > Dúvidas como instalar o pacote cntdd? [Acesse
 > Aqui](https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html){target="_blank"}

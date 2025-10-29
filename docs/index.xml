@@ -9,7 +9,7 @@
 <link>https://contabilidados.github.io/</link>
 <atom:link href="https://contabilidados.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.32</generator>
+<generator>quarto-1.8.25</generator>
 <lastBuildDate>Tue, 28 Oct 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Atualização automatizada do ambiente R com cntddupdateR</title>
@@ -47,7 +47,7 @@ Quanto tempo você já perdeu tentando atualizar manualmente os componentes do s
 </section><section id="como-utilizar-o-cntddupdater-via-powershell" class="level2"><h2 class="anchored" data-anchor-id="como-utilizar-o-cntddupdater-via-powershell">Como utilizar o cntddupdateR via PowerShell</h2>
 <section id="forma-1-execução-remota-direta" class="level3"><h3 class="anchored" data-anchor-id="forma-1-execução-remota-direta">Forma 1: Execução remota direta</h3>
 <p>Abra o PowerShell e execute o comando abaixo para rodar o script remotamente, ajustando temporariamente a política de execução:</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"></span>
 <span id="cb1-2">powershell <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span>NoLogo <span class="op" style="color: #5E5E5E;
@@ -58,7 +58,7 @@ font-style: inherit;">-</span>ExecutionPolicy Bypass <span class="op" style="col
 background-color: null;
 font-style: inherit;">-</span>Command <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"</span></span></code></pre></div>
+font-style: inherit;">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"</span></span></code></pre></div></div>
 </section><section id="forma-2-executar-o-arquivo-cntddupdater.bat" class="level3"><h3 class="anchored" data-anchor-id="forma-2-executar-o-arquivo-cntddupdater.bat">Forma 2: Executar o arquivo <code>cntddupdateR.bat</code>
 </h3>
 <p>O script Powershell irá baixar e executar automaticamente o arquivo <code>cntddupdateR.bat</code>. Também é possível executar esse arquivo diretamente, dando um clique duplo ou abrindo como administrador, para iniciar as instalações e atualizações necessárias.</p>
@@ -72,7 +72,7 @@ font-style: inherit;">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | i
   <category>cntdd</category>
   <guid>https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.html</guid>
   <pubDate>Tue, 28 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/pacotes/utils/cntddupdater/utl_tableStat.PNG" medium="image"/>
+  <media:content url="https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Função utl_tableStat do pacote CNTDD</title>
