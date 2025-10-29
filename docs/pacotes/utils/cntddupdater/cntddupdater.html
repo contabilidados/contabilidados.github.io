@@ -2,10 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.7.32">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<meta name="author" content="Kléber">
-<title>Índice de Liquidez Seca – contabiliDados</title>
+<meta name="author" content="Alexsandro Prado">
+<title>Atualização automatizada do ambiente R com cntddupdateR – contabiliDados</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,19 +64,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../../../">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-9668c6978006edd3399c8f59aaf88d86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../../../site_libs/bootstrap/bootstrap-46dd2fe516519b298ff15ab6b06c84f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-aae7ce946b2fd1a1f968d9203edad7d2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-46dd2fe516519b298ff15ab6b06c84f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -103,40 +102,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Procurar"
   }
 }</script><style>html{ scroll-behavior: smooth; }</style>
-<script src="../../../site_libs/kePrint-0.0.1/kePrint.js"></script><link href="../../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-<meta name="twitter:title" content="Índice de Liquidez Seca – contabiliDados">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://contabilidados.github.io/pacotes/indices/liquidezSeca/figs/contasReceber.png">
+<meta name="twitter:title" content="Atualização automatizada do ambiente R com cntddupdateR – contabiliDados">
+<meta name="twitter:description" content="Post">
+<meta name="twitter:image" content="https://contabilidados.github.io/pacotes/utils/cntddupdater/utl_tableStat.PNG">
 <meta name="twitter:creator" content="@cntdd">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="4016">
-<meta name="twitter:image-width" content="6016">
 </head>
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
@@ -305,8 +275,6 @@ window.Quarto = {
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">contabiliDados</span>
     </a>
@@ -381,20 +349,24 @@ window.Quarto = {
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Nesta página</h2>
    
   <ul>
-<li><a href="#descri%C3%A7%C3%A3o" id="toc-descrição" class="nav-link active" data-scroll-target="#descri%C3%A7%C3%A3o">Descrição</a></li>
-  <li><a href="#como-usar" id="toc-como-usar" class="nav-link" data-scroll-target="#como-usar">Como Usar</a></li>
-  <li><a href="#argumentos" id="toc-argumentos" class="nav-link" data-scroll-target="#argumentos">Argumentos</a></li>
-  <li><a href="#detalhes" id="toc-detalhes" class="nav-link" data-scroll-target="#detalhes">Detalhes</a></li>
-  <li><a href="#exemplo" id="toc-exemplo" class="nav-link" data-scroll-target="#exemplo">Exemplo:</a></li>
-  <li><a href="#quem-contribuiu" id="toc-quem-contribuiu" class="nav-link" data-scroll-target="#quem-contribuiu">Quem contribuiu</a></li>
+<li><a href="#contextualiza%C3%A7%C3%A3o" id="toc-contextualização" class="nav-link active" data-scroll-target="#contextualiza%C3%A7%C3%A3o">Contextualização</a></li>
+  <li><a href="#o-que-%C3%A9-o-cntddupdater" id="toc-o-que-é-o-cntddupdater" class="nav-link" data-scroll-target="#o-que-%C3%A9-o-cntddupdater">O que é o <code>cntddupdateR</code></a></li>
+  <li><a href="#como-funciona" id="toc-como-funciona" class="nav-link" data-scroll-target="#como-funciona">Como funciona</a></li>
+  <li>
+<a href="#como-utilizar-o-cntddupdater-via-powershell" id="toc-como-utilizar-o-cntddupdater-via-powershell" class="nav-link" data-scroll-target="#como-utilizar-o-cntddupdater-via-powershell">Como utilizar o cntddupdateR via PowerShell</a>
+  <ul class="collapse">
+<li><a href="#forma-1-execu%C3%A7%C3%A3o-remota-direta" id="toc-forma-1-execução-remota-direta" class="nav-link" data-scroll-target="#forma-1-execu%C3%A7%C3%A3o-remota-direta">Forma 1: Execução remota direta</a></li>
+  <li><a href="#forma-2-executar-o-arquivo-cntddupdater.bat" id="toc-forma-2-executar-o-arquivo-cntddupdater.bat" class="nav-link" data-scroll-target="#forma-2-executar-o-arquivo-cntddupdater.bat">Forma 2: Executar o arquivo <code>cntddupdateR.bat</code></a></li>
+  </ul>
+</li>
   </ul></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">Índice de Liquidez Seca</h1>
+<h1 class="title">Atualização automatizada do ambiente R com cntddupdateR</h1>
+<p class="subtitle lead">Post</p>
   <div class="quarto-categories">
     <div class="quarto-category">cntdd</div>
-    <div class="quarto-category">Pacotes</div>
   </div>
   </div>
 
@@ -405,14 +377,14 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Autor</div>
     <div class="quarto-title-meta-contents">
-             <p>Kléber </p>
+             <p>Alexsandro Prado </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Data de Publicação</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2 de março de 2020</p>
+      <p class="date">28 de outubro de 2025</p>
     </div>
   </div>
   
@@ -421,292 +393,50 @@ window.Quarto = {
   
 
 
-</header><style>body {text-align: justify}</style>
-<section id="descrição" class="level3"><h3 class="anchored" data-anchor-id="descrição">Descrição</h3>
-<p>Essa função calcula o Índice de Liquidez Seca baseado em vetores relativos às contas de ativo circulante e passivo circulante. Apresenta como resultado uma lista com 5 itens:</p>
-<ol type="1">
-<li><p><strong>Gráfico</strong> se o parâmetro <code>relatorio</code> for <code>TRUE</code> ou <code>T</code>, mostra um gráfico com a evolução da Liquidez Seca da empresa durante os períodos. Se for <code>FALSE</code> ou <code>F</code>, o gráfico não é apresentado;</p></li>
-<li><p><strong>Contas</strong> que corresponde ao banco de dados com as contas informadas para cálculo do indicador;</p></li>
-<li><p><strong>Índice</strong> o índice de Liquidez Seca dos períodos informados;</p></li>
-<li><p><strong>Análise Vertical</strong> Análise Vertical das contas informadas no item 1;</p></li>
-<li><p><strong>Análise Horizontal</strong> Análise Horizontal das contas informadas no item 1.</p></li>
-</ol>
-<p>Todos os itens da lista são bancos de dados no formato tibble que podem ser usados individualmente durante o processo de análise de dados.</p>
-</section><section id="como-usar" class="level3"><h3 class="anchored" data-anchor-id="como-usar">Como Usar</h3>
-<pre><code>ind_liqSeca(
-  indicador = "Liq Seca",
-  periodo = 2019:2020,
-  cxEquiv = c(8, 10),
-  estoque = c(150, 200),
-  ctaRecCP = c(400, 300),
-  outAtvCirc = c(1, 3),
-  fornec = c(50, 20),
-  dividasCP = c(30, 40),
-  outPasCirc = c(10, 8),
-  atvTotal = c(900, 800),
-  relatorio = T
-)</code></pre>
-</section><section id="argumentos" class="level3"><h3 class="anchored" data-anchor-id="argumentos">Argumentos</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 75%">
-</colgroup>
-<thead><tr class="header">
-<th>Parâmetro</th>
-<th>Descrição</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td><code>indicador</code></td>
-<td>Um vetor tipo character com o nome do indicador</td>
-</tr>
-<tr class="even">
-<td><code>periodo</code></td>
-<td>Vetor numérico indicando o período da análise</td>
-</tr>
-<tr class="odd">
-<td><code>cxEquiv</code></td>
-<td>Vetor com os valores do caixa e equivalentes de caixa (Ativo Circulante)</td>
-</tr>
-<tr class="even">
-<td><code>estoque</code></td>
-<td>Vetor com os valores do estoque (Ativo Circulante)</td>
-</tr>
-<tr class="odd">
-<td><code>ctaRecCP</code></td>
-<td>Vetor com os valores do contas a receber (Ativo Circulante)</td>
-</tr>
-<tr class="even">
-<td><code>outAtvCirc</code></td>
-<td>Vetor com os valores de outros ativos circulantes (Ativo Circulante)</td>
-</tr>
-<tr class="odd">
-<td><code>fornec</code></td>
-<td>Vetor com os valores de fornecedores (Passivo Circulante)</td>
-</tr>
-<tr class="even">
-<td><code>dividasCP</code></td>
-<td>Vetor com os valores de empréstimos e financiamentos de curto prazo (Passivo Circulante)</td>
-</tr>
-<tr class="odd">
-<td><code>outPasCirc</code></td>
-<td>Vetor com os valores de outros passivos circulantes (Passivo Circulante)</td>
-</tr>
-<tr class="even">
-<td><code>atvTotal</code></td>
-<td>Vetor com os valores do Ativo Total</td>
-</tr>
-<tr class="odd">
-<td><code>relatorio</code></td>
-<td>Mostra gráfico? (TRUE/FALSE)</td>
-</tr>
-</tbody>
-</table></section><section id="detalhes" class="level3"><h3 class="anchored" data-anchor-id="detalhes">Detalhes</h3>
-<p>Liquidez seca é uma medida financeira que indica a capacidade de uma empresa de cumprir suas obrigações de curto prazo sem a necessidade de recorrer a seus estoques. Demonstra, portanto, a capacidade de uma empresa de pagar suas dívidas imediatas com ativos líquidos que não incluem seus estoques.</p>
-<p>Essa medida é importante porque ajuda a avaliar a capacidade da empresa de lidar com eventuais problemas financeiros, como quedas de vendas ou aumento de despesas, sem afetar suas operações. Além disso, é um indicador importante para os investidores, pois empresas com alta liquidez seca são consideradas menos arriscadas, já que têm maior capacidade de honrar suas obrigações de curto prazo.</p>
-<p>Indicamos essa análise quando a empresa apresentar dificuldade com o giro de seus estoques. Em codições normais, não haveria motivos para a empresa não conseguir rotacionar seus estoques. Quando há indicativos de que a rotação dos estoques ficará prejudicada, esse indicador poderá representar melhor a capacidade das empresas em quitar suas dívidas de curto prazo.</p>
-<p>É representado pela fórmula:</p>
-<p><span class="math display">\[
-\frac{AC - Est}{PC}
-\]</span></p>
-<p>em que: <strong>AC</strong> é o Ativo Circulante, <strong>Est</strong> é o estoque e <strong>PC</strong> é o Passivo Circulante</p>
-<p>Para melhorar o processo de análise, desmembramos os valores de Ativos Circulante e Passivo Circulante da seguinte forma: <em>AC = cxEquiv + estoque + ctaRecCP + outAtvCirc</em> e para <em>PC = fornec + dividasCP + outPasCirc</em>. O detalhe de cada conta foi apresentado na seção <strong>Argumentos</strong>.</p>
-<p>Considernado o desmembramento das contas tem-se que a liquidez seca corresponde a:</p>
-<p><span class="math display">\[
-\frac{(cxEquiv + ctaRecCP + outAtvCirc)}{(fornec + dividasCP + outPasCirc)}
-\]</span></p>
-<p>A equação deve contemplar todas as contas do ativo circulante com exceção da conta estoque.</p>
-</section><section id="exemplo" class="level3"><h3 class="anchored" data-anchor-id="exemplo">Exemplo:</h3>
-<p>Para utilizar a função <code>ind_liqSeca</code> precisamos carregar o pacote <code>cntdd</code>.</p>
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>Após carregar o pacote, vamos simular uma situação em que temos os valores e queremos lançá-los, individualmente na função. Para cada parâmetro, precisamos informar os valores correspondentes. Importante observar que a quantidade de valores nas contas deve ser igual ao número de períodos informados no parâmetro <code>periodo</code>.</p>
-<p>No exemplo abaixo, informamos os anos de 2018 a 2020 (3 anos) por meio do vetor com a sequência <code>2018:2020</code>. O nome que escolhemos para indicador foi <code>Liquidez Seca</code>. Os demais vetores correspondem aos valores das contas (3 valores) para cálculo do indicador. Também escolhemos que nessa análise deveria ser apresentado um gráfico do indicador, então atribuímos o valor <code>T</code> ou <code>TRUE</code> para o parâmetro <code>relatorio</code>.</p>
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/ind_liqSeca.html">ind_liqSeca</a></span><span class="op">(</span></span>
-<span>indicador  <span class="op">=</span> <span class="st">"Liquidez Seca"</span>,</span>
-<span>periodo    <span class="op">=</span> <span class="fl">2018</span><span class="op">:</span><span class="fl">2020</span>,</span>
-<span>cxEquiv    <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">500</span>,<span class="fl">300</span>,<span class="fl">400</span><span class="op">)</span>,</span>
-<span>estoque    <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">2000</span>,<span class="fl">3000</span>,<span class="fl">4000</span><span class="op">)</span>,</span>
-<span>ctaRecCP   <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">2500</span>, <span class="fl">5000</span>, <span class="fl">2800</span><span class="op">)</span>,</span>
-<span>outAtvCirc <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">20</span>, <span class="fl">35</span>, <span class="fl">80</span><span class="op">)</span>,</span>
-<span>fornec     <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1200</span>, <span class="fl">1400</span>, <span class="fl">1600</span><span class="op">)</span>,</span>
-<span>dividasCP  <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">500</span>, <span class="fl">200</span>, <span class="fl">750</span><span class="op">)</span>,</span>
-<span>outPasCirc <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">30</span>, <span class="fl">20</span>, <span class="fl">40</span><span class="op">)</span>,</span>
-<span>atvTotal   <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">10000</span>, <span class="fl">12000</span>, <span class="fl">11000</span><span class="op">)</span>,</span>
-<span>relatorio <span class="op">=</span> <span class="cn">T</span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>$Contas
-# A tibble: 8 × 4
-  conta      `2018` `2019` `2020`
-  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
-1 cxEquiv       500    300    400
-2 estoque      2000   3000   4000
-3 ctaRecCP     2500   5000   2800
-4 outAtvCirc     20     35     80
-5 fornec       1200   1400   1600
-6 dividasCP     500    200    750
-7 outPasCirc     30     20     40
-8 atvTotal    10000  12000  11000
-
-$Indice
-# A tibble: 1 × 4
-  conta         `2018` `2019` `2020`
-  &lt;chr&gt;          &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
-1 Liquidez Seca   1.75   3.29   1.37
-
-$`Analise Vertical`
-# A tibble: 7 × 4
-  conta         `2018` `2019` `2020`
-  &lt;chr&gt;         &lt;chr&gt;  &lt;chr&gt;  &lt;chr&gt; 
-1 AV.cxEquiv    5,00%  2,50%  3,64% 
-2 AV.Estoque    20,00% 25,00% 36,36%
-3 AV.ctaRecCP   25,00% 41,67% 25,45%
-4 AV.outAtvCirc 0,20%  0,29%  0,73% 
-5 AV.fornec     12,00% 11,67% 14,55%
-6 AV.dividasCP  5,00%  1,67%  6,82% 
-7 AV.outPasCirc 0,30%  0,17%  0,36% 
-
-$`Analise Horizontal`
-# A tibble: 7 × 3
-  conta         `2019`  `2020` 
-  &lt;chr&gt;         &lt;chr&gt;   &lt;chr&gt;  
-1 AH.CxEquiv    -40,00% 33,33% 
-2 AH.Estoque    50,00%  33,33% 
-3 AH.ctaRecCP   100,00% -44,00%
-4 AH.outAtvCirc 75,00%  128,57%
-5 AH.fornec     16,67%  14,29% 
-6 AH.dividasCP  -60,00% 275,00%
-7 AH.outPasCirc -33,33% 100,00%
-
-$plot</code></pre>
-</div>
-<div class="cell-output-display">
+</header><style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="liqSeca_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+<figure class="figure"><p><img src="cntddupdater.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
 </figure>
 </div>
-</div>
-</div>
-<p>Como esperado, foi apresentado o gráfico da Liquidez Seca, mais 4 itens: Contas, Índice, Análise Vertical e Análise Horizontal. Agora, é só analisar o indicador com as respectivas contas que o compõe.</p>
-<p>Para uma análise mais específica, vamos admitir que queremos apenas o item <code>Índice</code>. Vamos mostrar como captar apenas esse item e mostrá-lo em uma tabela com melhor design. O design da tabela será dado pelo pacote <code>kableExtra</code>, então vamos carregá-lo. Vamos carregar, também, o pacote <code>dplyr</code> para fazer a análise dos dados.</p>
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="http://haozhu233.github.io/kableExtra/">kableExtra</a></span><span class="op">)</span></span>
-<span><span class="co"># Usamos suppressWarnings e suppressMessages para omitir mensagens e avisos</span></span>
-<span><span class="co"># durante o carregamento do pacote dplyr</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/warning.html">suppressWarnings</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/message.html">suppressMessages</a></span><span class="op">(</span></span>
-<span>  <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span></span>
-<span>  <span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>Também vamos extrair os dados diretamente banco de dados <code>dt_contabil</code> do pacote <code>cntdd</code>. Nesse procedimento, não precisamos digitar cada vetor dos para os parâmetros. No banco de dados <code>dt_contabil</code> temos mais uma empresa, filtramos apenas a empresa <code>alpha</code> para fazer nossas análises.</p>
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dadosAlpha</span> <span class="op">&lt;-</span> <span class="va">dt_contabil</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">empresa</span> <span class="op">==</span> <span class="st">"alpha"</span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>Definimos o nome do nosso banco de dados para análise como <code>dadosAlpha</code>. Vamos ver sua estrutura:</p>
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">dadosAlpha</span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 6
-Columns: 38
-$ empresa           &lt;chr&gt; "alpha", "alpha", "alpha", "alpha", "alpha", "alpha"
-$ ano               &lt;int&gt; 2016, 2017, 2018, 2019, 2020, 2021
-$ caixaEquiv        &lt;int&gt; 5198, 10517, 8803, 14299, 39659, 34950
-$ aplicFinanc       &lt;int&gt; 246286, 339427, 235388, 273264, 541474, 236951
-$ clientesCP        &lt;int&gt; 326524, 348944, 396347, 428123, 620133, 818424
-$ estoques          &lt;int&gt; 114409, 117527, 156229, 185886, 301247, 466517
-$ outrosAtvCirc     &lt;int&gt; 38943, 69255, 75196, 113989, 118040, 148544
-$ atvCirc           &lt;int&gt; 731360, 885670, 871963, 1015561, 1620553, 1705386
-$ clientesLP        &lt;int&gt; 14162, 11898, 11101, 10772, 2655, 4428
-$ investimento      &lt;int&gt; 937, 3029, 3442, 3124, 3123, 2963
-$ imobilizado       &lt;int&gt; 75651, 70042, 86161, 314902, 327555, 418239
-$ intangLiquido     &lt;int&gt; 89019, 82011, 69558, 77717, 859397, 1051033
-$ outrosAtvNaoCirc  &lt;int&gt; 28299, 34609, 39993, 41462, 120057, 304066
-$ atvNaoCirc        &lt;int&gt; 208068, 201589, 210255, 447977, 1312787, 1780729
-$ forneced          &lt;int&gt; 68809, 108131, 114039, 139769, 413394, 595164
-$ empFinCP          &lt;int&gt; 81780, 169555, 45542, 163852, 248004, 514541
-$ outrosPassCirc    &lt;int&gt; 58423, 91836, 105413, 177572, 282452, 463348
-$ passivoCirc       &lt;int&gt; 209012, 369522, 264994, 481193, 943850, 1573053
-$ empFinLP          &lt;int&gt; 28042, 18657, 69839, 23364, 408834, 39075
-$ outrosPassNaoCirc &lt;int&gt; 8844, 10457, 10730, 186361, 184069, 225330
-$ passivoNaoCirc    &lt;int&gt; 36886, 29114, 80569, 209725, 592903, 264405
-$ patLiquido        &lt;int&gt; 693530, 688623, 736655, 772620, 1396587, 1648657
-$ ativoTotal        &lt;int&gt; 939428, 1087259, 1082219, 1463539, 2933340, 3486116
-$ receita           &lt;int&gt; 1283203, 1408886, 1580984, 1738990, 1647607, 3027870
-$ custoMercVend     &lt;int&gt; 714366, 762921, 845023, 935693, 865520, 1434437
-$ despVendas        &lt;int&gt; 313479, 346107, 392405, 439467, 548811, 915882
-$ despAdm           &lt;int&gt; 96149, 117866, 145877, 190560, 168007, 327469
-$ despOperac        &lt;int&gt; 412126, 466152, 537875, 572255, 686700, 1108236
-$ receitaFinanc     &lt;int&gt; 36926, 35051, 41463, 25599, 67862, 43884
-$ despesaFinanc     &lt;int&gt; 31050, 25420, 63502, 44422, 106750, 110857
-$ impostoRenda      &lt;int&gt; 42304, 29475, 28327, 44309, 6186, 62273
-$ depreciacao       &lt;int&gt; 26733, 33793, 42336, 83180, 83989, 109511
-$ ebit              &lt;int&gt; 156710, 179811, 198085, 231041, 95386, 485197
-$ lucroLiquido      &lt;int&gt; 120282, 159966, 147719, 167908, 50312, 357519
-$ lair              &lt;int&gt; 162586, 189442, 176047, 212218, 56499, 418225
-$ flxCxOper         &lt;int&gt; 105328, 180074, 122029, 212172, 228155, 250547
-$ flxCxInvest       &lt;int&gt; -21703, -94960, 74806, -88448, -307860, -11155
-$ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -241822</code></pre>
-</div>
-</div>
-<p>Agora vamos rodar a função <code>ind_liqSeca</code> com os dados do banco de dados <code>dadosAlpha</code>. Vamos chamar o indicador de “Liquidez Seca” e não vamos pedir para apresentar o gráfico (<code>relatorio = F</code>). Como queremos usar apenas o item <code>Índice</code> vamos definir um objeto chamado <code>dadosLiqSeca</code> para assumir o resultado da função.</p>
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dadosLiqSeca</span> <span class="op">&lt;-</span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/ind_liqSeca.html">ind_liqSeca</a></span><span class="op">(</span></span>
-<span>    indicador  <span class="op">=</span> <span class="st">"Liquidez Seca"</span>,</span>
-<span>    periodo    <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">ano</span>,</span>
-<span>    cxEquiv    <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">caixaEquiv</span>,</span>
-<span>    estoque    <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">estoques</span>,</span>
-<span>    ctaRecCP   <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">clientesCP</span>,</span>
-<span>    outAtvCirc <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">outrosAtvCirc</span>,</span>
-<span>    fornec     <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">forneced</span>,</span>
-<span>    dividasCP  <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">empFinCP</span>,</span>
-<span>    outPasCirc <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">outrosPassCirc</span>,</span>
-<span>    atvTotal   <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">ativoTotal</span>,</span>
-<span>    relatorio <span class="op">=</span> <span class="cn">T</span></span>
-<span>    <span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>Como definimos um objeto (<code>dadosLiqSeca</code>), não temos o resultado diretamente. Agora vamos acessar o objeto <code>dadosLiqSeca</code> e requisitar apenas o item <code>Índice</code> e logo após vamos definir um design básico de tabela.</p>
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dadosLiqSeca</span><span class="op">$</span><span class="va">Indice</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/rename.html">rename</a></span><span class="op">(</span><span class="st">"Indicador"</span> <span class="op">=</span> <span class="st">"conta"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
-<span>  <span class="fu"><a href="https://rdrr.io/pkg/kableExtra/man/kbl.html">kbl</a></span><span class="op">(</span></span>
-<span>    caption <span class="op">=</span> <span class="st">"Indicadores de Liquidez Seca da Empresa Alpha de 2016 a 2021"</span>,</span>
-<span>    align <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"lcccccc"</span><span class="op">)</span>, </span>
-<span>    digits <span class="op">=</span> <span class="fl">2</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
-<span>  <span class="fu"><a href="https://rdrr.io/pkg/kableExtra/man/kable_classic.html">kable_minimal</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<table class="lightable-minimal caption-top table table-sm table-striped small">
-<caption>Indicadores de Liquidez Seca da Empresa Alpha de 2016 a 2021</caption>
-<thead><tr class="header">
-<th style="text-align: left;" data-quarto-table-cell-role="th">Indicador</th>
-<th style="text-align: center;" data-quarto-table-cell-role="th">2016</th>
-<th style="text-align: center;" data-quarto-table-cell-role="th">2017</th>
-<th style="text-align: center;" data-quarto-table-cell-role="th">2018</th>
-<th style="text-align: center;" data-quarto-table-cell-role="th">2019</th>
-<th style="text-align: center;" data-quarto-table-cell-role="th">2020</th>
-<th style="text-align: center;" data-quarto-table-cell-role="th">2021</th>
-</tr></thead>
-<tbody><tr class="odd">
-<td style="text-align: left;">Liquidez Seca</td>
-<td style="text-align: center;">1.77</td>
-<td style="text-align: center;">1.16</td>
-<td style="text-align: center;">1.81</td>
-<td style="text-align: center;">1.16</td>
-<td style="text-align: center;">0.82</td>
-<td style="text-align: center;">0.64</td>
-</tr></tbody>
-</table>
-</div>
-</div>
-<p>Agora é só analisar!</p>
-</section><section id="quem-contribuiu" class="level3"><h3 class="anchored" data-anchor-id="quem-contribuiu">Quem contribuiu</h3>
-<p><a href="../../../curriculum/profs/kleber.html">Kléber</a>: Construiu a função e o arquivo de ajuda para o blog.</p>
+<section id="contextualização" class="level2"><h2 class="anchored" data-anchor-id="contextualização">Contextualização</h2>
+<p>Para muitos usuários iniciantes, instalar e manter atualizados os softwares essenciais para trabalhar com R — como o próprio R, o RStudio e o Rtools — pode ser um desafio técnico devido à necessidade de configurar corretamente cada aplicação e garantir compatibilidade entre versões. Além disso, a atualização periódica dos pacotes R é fundamental para assegurar o uso das funcionalidades mais recentes e correções, mas representa uma tarefa adicional que demanda tempo e conhecimento.</p>
+<p>Mas você já parou para pensar: Quantas vezes teve dificuldade para identificar se o R, RStudio ou Rtools precisavam ser atualizados?<br>
+Como gerenciar as constantes atualizações dos pacotes R instalados sem interromper seu fluxo de trabalho?<br>
+Qual o impacto da falta de atualização no seu ambiente de análise de dados?</p>
+<p>Pensando nessas questões, a [cntddupdateR] surge para automatizar e simplificar esse processo, reduzindo a complexidade e facilitando o trabalho dos pesquisadores e estudantes.</p>
+</section><section id="o-que-é-o-cntddupdater" class="level2"><h2 class="anchored" data-anchor-id="o-que-é-o-cntddupdater">O que é o <code>cntddupdateR</code>
+</h2>
+<p>O <code>cntddupdateR</code> automatiza a instalação e atualização do ambiente R para análise estatística e programação, incluindo o R, o RStudio (IDE para R), o Rtools (ferramentas para compilar pacotes) e os pacotes instalados no R.</p>
+</section><section id="como-funciona" class="level2"><h2 class="anchored" data-anchor-id="como-funciona">Como funciona</h2>
+<ul>
+<li>O script verifica se o gerenciador de pacotes do Windows chamado winget está instalado. Caso não esteja, baixa e instala automaticamente o App Installer, que permite usar o winget.<br>
+</li>
+<li>Utilizando o winget, confere se o R, o RStudio e o Rtools estão instalados. Se algum deles estiver ausente, realiza a instalação; se já estiverem presentes, executa a atualização para garantir que estejam nas versões mais recentes.<br>
+</li>
+<li>Em seguida, localiza a pasta de instalação do R para acessar o programa Rscript, possibilitando rodar comandos R pela linha de comando.<br>
+</li>
+<li>Executa um comando R para atualizar automaticamente todos os pacotes R já instalados no sistema, mantendo o ambiente totalmente atualizado.<br>
+</li>
+<li>Por fim, exibe uma mensagem informando que o processo foi concluído com sucesso e pausa para que o usuário possa fechar o script com segurança.</li>
+</ul>
+<p>Você já enfrentou situações em que instalações ou atualizações incompletas geraram erros difíceis de diagnosticar?<br>
+Quanto tempo você já perdeu tentando atualizar manualmente os componentes do seu ambiente R?</p>
+<p>O script facilita manter todo o ambiente R completo e atualizado, integrando a instalação e atualização dos principais componentes usados em análise de dados com R, tudo de forma automatizada e prática.</p>
+</section><section id="como-utilizar-o-cntddupdater-via-powershell" class="level2"><h2 class="anchored" data-anchor-id="como-utilizar-o-cntddupdater-via-powershell">Como utilizar o cntddupdateR via PowerShell</h2>
+<section id="forma-1-execução-remota-direta" class="level3"><h3 class="anchored" data-anchor-id="forma-1-execução-remota-direta">Forma 1: Execução remota direta</h3>
+<p>Abra o PowerShell e execute o comando abaixo para rodar o script remotamente, ajustando temporariamente a política de execução:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>powershell <span class="op">-</span>NoLogo <span class="op">-</span>NoProfile <span class="op">-</span>ExecutionPolicy Bypass <span class="op">-</span>Command <span class="st">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section><section id="forma-2-executar-o-arquivo-cntddupdater.bat" class="level3"><h3 class="anchored" data-anchor-id="forma-2-executar-o-arquivo-cntddupdater.bat">Forma 2: Executar o arquivo <code>cntddupdateR.bat</code>
+</h3>
+<p>O script Powershell irá baixar e executar automaticamente o arquivo <code>cntddupdateR.bat</code>. Também é possível executar esse arquivo diretamente, dando um clique duplo ou abrindo como administrador, para iniciar as instalações e atualizações necessárias.</p>
+<p>Realize o download e execute o cntddupdater.bat com clique duplo do mouse.</p>
+<blockquote class="blockquote">
+<p>Dúvidas como instalar o pacote cntdd? <a href="https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html" target="_blank">Acesse Aqui</a></p>
+</blockquote>
 
 
-</section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section></section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -770,14 +500,13 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1138,7 +867,7 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
     script.src = "https://giscus.app/client.js";
     script.async = true;
     script.dataset.repo = "contabilidados/blog";
-    script.dataset.repoId = "";
+    script.dataset.repoId = "R_kgDOI9xlkQ";
     script.dataset.category = "General";
     script.dataset.categoryId = "";
     script.dataset.mapping = "title";

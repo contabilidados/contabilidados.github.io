@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,19 +34,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-9668c6978006edd3399c8f59aaf88d86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-46dd2fe516519b298ff15ab6b06c84f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-aae7ce946b2fd1a1f968d9203edad7d2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-46dd2fe516519b298ff15ab6b06c84f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -143,7 +142,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
@@ -177,7 +177,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+      if (mathElements[i].tagName == "SPAN") {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -368,8 +368,6 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">contabiliDados</span>
     </a>
@@ -453,7 +451,7 @@ window.Quarto = {
   <li><a href="#pacotes-recentes" id="toc-pacotes-recentes" class="nav-link" data-scroll-target="#pacotes-recentes">Pacotes Recentes</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="QWNjcnVhbHM="><span class="quarto-category-count category-cloud-1">Accruals</span></div><div class="category" data-category="QW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw=="><span class="quarto-category-count category-cloud-1">Análise de Dados</span></div><div class="category" data-category="QW5hbHl0aWNz"><span class="quarto-category-count category-cloud-1">Analytics</span></div><div class="category" data-category="QXNzaW1ldHJpYQ=="><span class="quarto-category-count category-cloud-1">Assimetria</span></div><div class="category" data-category="Q0FQTQ=="><span class="quarto-category-count category-cloud-1">CAPM</span></div><div class="category" data-category="Y250ZGQ="><span class="quarto-category-count category-cloud-1">cntdd</span></div><div class="category" data-category="Q29udGFiaWxpZGFkZQ=="><span class="quarto-category-count category-cloud-4">Contabilidade</span></div><div class="category" data-category="RGlzY2xvc3VyZQ=="><span class="quarto-category-count category-cloud-1">Disclosure</span></div><div class="category" data-category="RGl2aWRlbmRvcw=="><span class="quarto-category-count category-cloud-1">Dividendos</span></div><div class="category" data-category="RWNvbm9tYXRpY2E="><span class="quarto-category-count category-cloud-1">Economatica</span></div><div class="category" data-category="RW5kaXZpZGFtZW50bw=="><span class="quarto-category-count category-cloud-1">Endividamento</span></div><div class="category" data-category="RkNE"><span class="quarto-category-count category-cloud-1">FCD</span></div><div class="category" data-category="RmluYW4lQzMlQTdhcw=="><span class="quarto-category-count category-cloud-5">Finanças</span></div><div class="category" data-category="R292ZXJuYW4lQzMlQTdh"><span class="quarto-category-count category-cloud-2">Governança</span></div><div class="category" data-category="SGlzdCVDMyVCM3JpYQ=="><span class="quarto-category-count category-cloud-1">História</span></div><div class="category" data-category="SE1F"><span class="quarto-category-count category-cloud-1">HME</span></div><div class="category" data-category="SUZSUyUyRklBUyUyRkNQQw=="><span class="quarto-category-count category-cloud-1">IFRS/IAS/CPC</span></div><div class="category" data-category="TWVuc3VyYSVDMyVBNyVDMyVBM28="><span class="quarto-category-count category-cloud-1">Mensuração</span></div><div class="category" data-category="UGFjb3Rlcw=="><span class="quarto-category-count category-cloud-1">Pacotes</span></div><div class="category" data-category="UGVzcXVpc2E="><span class="quarto-category-count category-cloud-1">Pesquisa</span></div><div class="category" data-category="Ug=="><span class="quarto-category-count category-cloud-2">R</span></div><div class="category" data-category="UmVndWxhJUMzJUE3JUMzJUEzbw=="><span class="quarto-category-count category-cloud-1">Regulação</span></div><div class="category" data-category="UmVtdW5lcmElQzMlQTclQzMlQTNv"><span class="quarto-category-count category-cloud-1">Remuneração</span></div><div class="category" data-category="U2VudGltZW50bw=="><span class="quarto-category-count category-cloud-1">Sentimento</span></div><div class="category" data-category="U2hvcnQtVGVybWlzbQ=="><span class="quarto-category-count category-cloud-1">Short-Termism</span></div><div class="category" data-category="VGVvcmlh"><span class="quarto-category-count category-cloud-2">Teoria</span></div><div class="category" data-category="VmFsdWUlMjByZWxldmFuY2U="><span class="quarto-category-count category-cloud-1">Value relevance</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="QWNjcnVhbHM="><span class="quarto-category-count category-cloud-1">Accruals</span></div><div class="category" data-category="QW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw=="><span class="quarto-category-count category-cloud-1">Análise de Dados</span></div><div class="category" data-category="QW5hbHl0aWNz"><span class="quarto-category-count category-cloud-1">Analytics</span></div><div class="category" data-category="QXNzaW1ldHJpYQ=="><span class="quarto-category-count category-cloud-1">Assimetria</span></div><div class="category" data-category="Q0FQTQ=="><span class="quarto-category-count category-cloud-1">CAPM</span></div><div class="category" data-category="Y250ZGQ="><span class="quarto-category-count category-cloud-2">cntdd</span></div><div class="category" data-category="Q29udGFiaWxpZGFkZQ=="><span class="quarto-category-count category-cloud-4">Contabilidade</span></div><div class="category" data-category="RGlzY2xvc3VyZQ=="><span class="quarto-category-count category-cloud-1">Disclosure</span></div><div class="category" data-category="RGl2aWRlbmRvcw=="><span class="quarto-category-count category-cloud-1">Dividendos</span></div><div class="category" data-category="RWNvbm9tYXRpY2E="><span class="quarto-category-count category-cloud-1">Economatica</span></div><div class="category" data-category="RW5kaXZpZGFtZW50bw=="><span class="quarto-category-count category-cloud-1">Endividamento</span></div><div class="category" data-category="RkNE"><span class="quarto-category-count category-cloud-1">FCD</span></div><div class="category" data-category="RmluYW4lQzMlQTdhcw=="><span class="quarto-category-count category-cloud-5">Finanças</span></div><div class="category" data-category="R292ZXJuYW4lQzMlQTdh"><span class="quarto-category-count category-cloud-2">Governança</span></div><div class="category" data-category="SGlzdCVDMyVCM3JpYQ=="><span class="quarto-category-count category-cloud-1">História</span></div><div class="category" data-category="SE1F"><span class="quarto-category-count category-cloud-1">HME</span></div><div class="category" data-category="SUZSUyUyRklBUyUyRkNQQw=="><span class="quarto-category-count category-cloud-1">IFRS/IAS/CPC</span></div><div class="category" data-category="TWVuc3VyYSVDMyVBNyVDMyVBM28="><span class="quarto-category-count category-cloud-1">Mensuração</span></div><div class="category" data-category="UGFjb3Rlcw=="><span class="quarto-category-count category-cloud-1">Pacotes</span></div><div class="category" data-category="UGVzcXVpc2E="><span class="quarto-category-count category-cloud-1">Pesquisa</span></div><div class="category" data-category="Ug=="><span class="quarto-category-count category-cloud-2">R</span></div><div class="category" data-category="UmVndWxhJUMzJUE3JUMzJUEzbw=="><span class="quarto-category-count category-cloud-1">Regulação</span></div><div class="category" data-category="UmVtdW5lcmElQzMlQTclQzMlQTNv"><span class="quarto-category-count category-cloud-1">Remuneração</span></div><div class="category" data-category="U2VudGltZW50bw=="><span class="quarto-category-count category-cloud-1">Sentimento</span></div><div class="category" data-category="U2hvcnQtVGVybWlzbQ=="><span class="quarto-category-count category-cloud-1">Short-Termism</span></div><div class="category" data-category="VGVvcmlh"><span class="quarto-category-count category-cloud-2">Teoria</span></div><div class="category" data-category="VmFsdWUlMjByZWxldmFuY2U="><span class="quarto-category-count category-cloud-1">Value relevance</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
@@ -465,7 +463,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="posts-recentes">Posts recentes</h2>
 <div id="listing-posts" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="U2hvcnQtVGVybWlzbSUyQ0ZpbmFuJUMzJUE3YXMlMkNHb3Zlcm5hbiVDMyVBN2E=" data-listing-date-sort="1761534000000" data-listing-file-modified-sort="1761590614886" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="404">
+<div class="quarto-post image-right" data-index="0" data-categories="U2hvcnQtVGVybWlzbSUyQ0ZpbmFuJUMzJUE3YXMlMkNHb3Zlcm5hbiVDMyVBN2E=" data-listing-date-sort="1761534000000" data-listing-file-modified-sort="1761692628803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="404">
 <div class="thumbnail"><a href="./posts/finance/shortTermism_conceitos/shortTermism_conceitos.html" class="no-external">
 
 <img loading="lazy" src="./posts/finance/shortTermism_conceitos/shortTermism_conceitos.PNG" class="thumbnail-image">
@@ -500,7 +498,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuJUMzJUExbGlzZSUyMGRlJTIwRGFkb3M=" data-listing-date-sort="1761274800000" data-listing-file-modified-sort="1761650237011" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
+<div class="quarto-post image-right" data-index="1" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuJUMzJUExbGlzZSUyMGRlJTIwRGFkb3M=" data-listing-date-sort="1761274800000" data-listing-file-modified-sort="1761692628803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
 <div class="thumbnail"><a href="./posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html" class="no-external">
 
 <img loading="lazy" src="./posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.png" class="thumbnail-image">
@@ -533,7 +531,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Y250ZGQ=" data-listing-date-sort="1735873200000" data-listing-file-modified-sort="1761586846984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="722">
+<div class="quarto-post image-right" data-index="2" data-categories="Y250ZGQ=" data-listing-date-sort="1735873200000" data-listing-file-modified-sort="1736004780000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="722">
 <div class="thumbnail"><a href="./posts/dados/mascote/mascote.html" class="no-external">
 
 <img loading="lazy" src="./posts/dados/mascote/mascote.jpg" class="thumbnail-image">
@@ -564,7 +562,7 @@ Kléber Formiga, Alexsandro Prado, Yuri Azevedo
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Q29udGFiaWxpZGFkZSUyQ1Rlb3JpYQ==" data-listing-date-sort="1718852400000" data-listing-file-modified-sort="1761586846856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1589">
+<div class="quarto-post image-right" data-index="3" data-categories="Q29udGFiaWxpZGFkZSUyQ1Rlb3JpYQ==" data-listing-date-sort="1718852400000" data-listing-file-modified-sort="1718922857000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1589">
 <div class="thumbnail"><a href="./posts/contabil/cpcVersusReceita/cpcVersusReceita.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" class="thumbnail-image">
@@ -597,7 +595,7 @@ Alexsandro Prado
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1717642800000" data-listing-file-modified-sort="1761586847104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1443">
+<div class="quarto-post image-right" data-index="4" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1717642800000" data-listing-file-modified-sort="1718911864000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1443">
 <div class="thumbnail"><a href="./posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.webp" class="thumbnail-image">
@@ -630,7 +628,7 @@ Yuri Gomes Paiva Azevedo
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1709262000000" data-listing-file-modified-sort="1761586846980" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="373">
+<div class="quarto-post image-right" data-index="5" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1709262000000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="373">
 <div class="thumbnail"><a href="./posts/dados/instalacntdd/instalacntdd.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/dados/instalacntdd/instalacntdd_destaque.png" class="thumbnail-image">
@@ -665,7 +663,7 @@ Alexsandro Prado
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1707102000000" data-listing-file-modified-sort="1761586846979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
+<div class="quarto-post image-right" data-index="6" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1707102000000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
 <div class="thumbnail"><a href="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" class="thumbnail-image">
@@ -700,7 +698,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="RmluYW4lQzMlQTdhcyUyQ0RpdmlkZW5kb3M=" data-listing-date-sort="1660791600000" data-listing-file-modified-sort="1761586847117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1794">
+<div class="quarto-post image-right" data-index="7" data-categories="RmluYW4lQzMlQTdhcyUyQ0RpdmlkZW5kb3M=" data-listing-date-sort="1660791600000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1794">
 <div class="thumbnail"><a href="./posts/finance/politicaDividendos/politicaDividendos.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/politicaDividendos/politicaDividendos.png" class="thumbnail-image">
@@ -733,7 +731,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="RmluYW4lQzMlQTdhcyUyQ0hNRQ==" data-listing-date-sort="1640228400000" data-listing-file-modified-sort="1761586847177" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1369">
+<div class="quarto-post image-right" data-index="8" data-categories="RmluYW4lQzMlQTdhcyUyQ0hNRQ==" data-listing-date-sort="1640228400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1369">
 <div class="thumbnail"><a href="./posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.png" class="thumbnail-image">
@@ -766,7 +764,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1635390000000" data-listing-file-modified-sort="1761586847160" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2769">
+<div class="quarto-post image-right" data-index="9" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1635390000000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2769">
 <div class="thumbnail"><a href="./posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.png" class="thumbnail-image">
@@ -799,7 +797,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="RmluYW4lQzMlQTdhcyUyQ1Rlb3JpYQ==" data-listing-date-sort="1635130800000" data-listing-file-modified-sort="1761586847189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2163">
+<div class="quarto-post image-right" data-index="10" data-categories="RmluYW4lQzMlQTdhcyUyQ1Rlb3JpYQ==" data-listing-date-sort="1635130800000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2163">
 <div class="thumbnail"><a href="./posts/finance/visaoGeralFinancas/visaoGeralFinancas.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/visaoGeralFinancas/visaoGeralFinancas.png" class="thumbnail-image">
@@ -832,7 +830,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="RmluYW4lQzMlQTdhcyUyQ1NlbnRpbWVudG8=" data-listing-date-sort="1628218800000" data-listing-file-modified-sort="1761586847150" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2071">
+<div class="quarto-post image-right" data-index="11" data-categories="RmluYW4lQzMlQTdhcyUyQ1NlbnRpbWVudG8=" data-listing-date-sort="1628218800000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2071">
 <div class="thumbnail"><a href="./posts/finance/sentimentoInvestidor/sentimentoInvestidor.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/sentimentoInvestidor/sentimentoInvestidor.png" class="thumbnail-image">
@@ -865,7 +863,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1627614000000" data-listing-file-modified-sort="1761586847085" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1897">
+<div class="quarto-post image-right" data-index="12" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1627614000000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1897">
 <div class="thumbnail"><a href="./posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.png" class="thumbnail-image">
@@ -898,7 +896,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="RmluYW4lQzMlQTdhcyUyQ0VuZGl2aWRhbWVudG8=" data-listing-date-sort="1624676400000" data-listing-file-modified-sort="1761586847026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2973">
+<div class="quarto-post image-right" data-index="13" data-categories="RmluYW4lQzMlQTdhcyUyQ0VuZGl2aWRhbWVudG8=" data-listing-date-sort="1624676400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2973">
 <div class="thumbnail"><a href="./posts/finance/custoEstruturaCapital/custoEstruturaCapital.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/custoEstruturaCapital/custoEstruturaCapital.png" class="thumbnail-image">
@@ -931,7 +929,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="RmluYW4lQzMlQTdhcyUyQ0hNRQ==" data-listing-date-sort="1622257200000" data-listing-file-modified-sort="1761586847005" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2202">
+<div class="quarto-post image-right" data-index="14" data-categories="RmluYW4lQzMlQTdhcyUyQ0hNRQ==" data-listing-date-sort="1622257200000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2202">
 <div class="thumbnail"><a href="./posts/finance/anomalias/anomalias.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/anomalias/anomalias.png" class="thumbnail-image">
@@ -964,7 +962,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1620788400000" data-listing-file-modified-sort="1761586847050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1736">
+<div class="quarto-post image-right" data-index="15" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1620788400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1736">
 <div class="thumbnail"><a href="./posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.png" class="thumbnail-image">
@@ -997,7 +995,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="RmluYW4lQzMlQTdhcyUyQ0NBUE0=" data-listing-date-sort="1616468400000" data-listing-file-modified-sort="1761586847117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3388">
+<div class="quarto-post image-right" data-index="16" data-categories="RmluYW4lQzMlQTdhcyUyQ0NBUE0=" data-listing-date-sort="1616468400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3388">
 <div class="thumbnail"><a href="./posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.png" class="thumbnail-image">
@@ -1030,7 +1028,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1614740400000" data-listing-file-modified-sort="1761586847101" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1948">
+<div class="quarto-post image-right" data-index="17" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1614740400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1948">
 <div class="thumbnail"><a href="./posts/finance/modelosGovernanca/modelosGovernanca.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/modelosGovernanca/modelosGovernanca.png" class="thumbnail-image">
@@ -1063,7 +1061,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="RmluYW4lQzMlQTdhcyUyQ1JlbXVuZXJhJUMzJUE3JUMzJUEzbw==" data-listing-date-sort="1613703600000" data-listing-file-modified-sort="1761586847139" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1904">
+<div class="quarto-post image-right" data-index="18" data-categories="RmluYW4lQzMlQTdhcyUyQ1JlbXVuZXJhJUMzJUE3JUMzJUEzbw==" data-listing-date-sort="1613703600000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1904">
 <div class="thumbnail"><a href="./posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.png" class="thumbnail-image">
@@ -1096,7 +1094,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1613185200000" data-listing-file-modified-sort="1761586847075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1758">
+<div class="quarto-post image-right" data-index="19" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1613185200000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1758">
 <div class="thumbnail"><a href="./posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/governancaCorporativaSinalizacao/GovernancaDesempenho.png" class="thumbnail-image">
@@ -1129,7 +1127,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1611198000000" data-listing-file-modified-sort="1761586847066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1942">
+<div class="quarto-post image-right" data-index="20" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1611198000000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1942">
 <div class="thumbnail"><a href="./posts/finance/governancaCorporativa/governancaCorporativa.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/governancaCorporativa/governancaCorporativa.png" class="thumbnail-image">
@@ -1162,7 +1160,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="RmluYW4lQzMlQTdhcyUyQ0Fzc2ltZXRyaWE=" data-listing-date-sort="1602471600000" data-listing-file-modified-sort="1761586847013" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1895">
+<div class="quarto-post image-right" data-index="21" data-categories="RmluYW4lQzMlQTdhcyUyQ0Fzc2ltZXRyaWE=" data-listing-date-sort="1602471600000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1895">
 <div class="thumbnail"><a href="./posts/finance/assimetriaInformacional/assimetriaInformacional.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/assimetriaInformacional/assimetriaInformacional.png" class="thumbnail-image">
@@ -1195,7 +1193,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="RmluYW4lQzMlQTdhcyUyQ1Rlb3JpYQ==" data-listing-date-sort="1600398000000" data-listing-file-modified-sort="1761586847167" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1774">
+<div class="quarto-post image-right" data-index="22" data-categories="RmluYW4lQzMlQTdhcyUyQ1Rlb3JpYQ==" data-listing-date-sort="1600398000000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1774">
 <div class="thumbnail"><a href="./posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.png" class="thumbnail-image">
@@ -1228,7 +1226,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="RmluYW4lQzMlQTdhcyUyQ0hNRQ==" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1761586846984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1746">
+<div class="quarto-post image-right" data-index="23" data-categories="RmluYW4lQzMlQTdhcyUyQ0hNRQ==" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1746">
 <div class="thumbnail"><a href="./posts/finance/HME/HME.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/HME/HME.png" class="thumbnail-image">
@@ -1261,7 +1259,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="RmluYW4lQzMlQTdhcyUyQ0VuZGl2aWRhbWVudG8=" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1761586847034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1505">
+<div class="quarto-post image-right" data-index="24" data-categories="RmluYW4lQzMlQTdhcyUyQ0VuZGl2aWRhbWVudG8=" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1505">
 <div class="thumbnail"><a href="./posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.png" class="thumbnail-image">
@@ -1294,7 +1292,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="RmluYW4lQzMlQTdhcyUyQ0NBUE0=" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1761586847094" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2275">
+<div class="quarto-post image-right" data-index="25" data-categories="RmluYW4lQzMlQTdhcyUyQ0NBUE0=" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2275">
 <div class="thumbnail"><a href="./posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.png" class="thumbnail-image">
@@ -1327,7 +1325,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="Q29udGFiaWxpZGFkZSUyQ1ZhbHVlJTIwcmVsZXZhbmNl" data-listing-date-sort="1594868400000" data-listing-file-modified-sort="1761586846942" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1928">
+<div class="quarto-post image-right" data-index="26" data-categories="Q29udGFiaWxpZGFkZSUyQ1ZhbHVlJTIwcmVsZXZhbmNl" data-listing-date-sort="1594868400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1928">
 <div class="thumbnail"><a href="./posts/contabil/qualidadeInformacao/qualidadeInformacao.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/qualidadeInformacao/qualidadeInformacao.png" class="thumbnail-image">
@@ -1360,7 +1358,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="Q29udGFiaWxpZGFkZSUyQ01lbnN1cmElQzMlQTclQzMlQTNv" data-listing-date-sort="1576292400000" data-listing-file-modified-sort="1761586846913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686">
+<div class="quarto-post image-right" data-index="27" data-categories="Q29udGFiaWxpZGFkZSUyQ01lbnN1cmElQzMlQTclQzMlQTNv" data-listing-date-sort="1576292400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686">
 <div class="thumbnail"><a href="./posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/mensuracaoAtivos/mensuracaoAtivos.png" class="thumbnail-image">
@@ -1393,7 +1391,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="Q29udGFiaWxpZGFkZSUyQ1ZhbHVlJTIwcmVsZXZhbmNl" data-listing-date-sort="1576292400000" data-listing-file-modified-sort="1761586846969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1482">
+<div class="quarto-post image-right" data-index="28" data-categories="Q29udGFiaWxpZGFkZSUyQ1ZhbHVlJTIwcmVsZXZhbmNl" data-listing-date-sort="1576292400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1482">
 <div class="thumbnail"><a href="./posts/contabil/valueRelevance/valueRelevance.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/valueRelevance/valueRelevance.png" class="thumbnail-image">
@@ -1426,7 +1424,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="Q29udGFiaWxpZGFkZSUyQ0FjY3J1YWxz" data-listing-date-sort="1566615600000" data-listing-file-modified-sort="1761586846905" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1548">
+<div class="quarto-post image-right" data-index="29" data-categories="Q29udGFiaWxpZGFkZSUyQ0FjY3J1YWxz" data-listing-date-sort="1566615600000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1548">
 <div class="thumbnail"><a href="./posts/contabil/flxCxAccruals/flxCxAccruals.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/flxCxAccruals/flxCxAccruals.png" class="thumbnail-image">
@@ -1459,7 +1457,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="Q29udGFiaWxpZGFkZSUyQ0lGUlMlMkZJQVMlMkZDUEM=" data-listing-date-sort="1557889200000" data-listing-file-modified-sort="1761586846885" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2535">
+<div class="quarto-post image-right" data-index="30" data-categories="Q29udGFiaWxpZGFkZSUyQ0lGUlMlMkZJQVMlMkZDUEM=" data-listing-date-sort="1557889200000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2535">
 <div class="thumbnail"><a href="./posts/contabil/estruturaConceitual/estruturaConceitual.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/estruturaConceitual/estruturaConceitual.png" class="thumbnail-image">
@@ -1492,7 +1490,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="31" data-categories="Q29udGFiaWxpZGFkZSUyQ0hpc3QlQzMlQjNyaWE=" data-listing-date-sort="1557716400000" data-listing-file-modified-sort="1761586846854" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2650">
+<div class="quarto-post image-right" data-index="31" data-categories="Q29udGFiaWxpZGFkZSUyQ0hpc3QlQzMlQjNyaWE=" data-listing-date-sort="1557716400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2650">
 <div class="thumbnail"><a href="./posts/contabil/accountingHistory/accountingHistory.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/accountingHistory/accountingHistory.png" class="thumbnail-image">
@@ -1525,7 +1523,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="32" data-categories="Q29udGFiaWxpZGFkZSUyQ1Blc3F1aXNh" data-listing-date-sort="1554001200000" data-listing-file-modified-sort="1761586846932" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1962">
+<div class="quarto-post image-right" data-index="32" data-categories="Q29udGFiaWxpZGFkZSUyQ1Blc3F1aXNh" data-listing-date-sort="1554001200000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1962">
 <div class="thumbnail"><a href="./posts/contabil/pesquisaContabil/pesquisaContabil.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/pesquisaContabil/pesquisaContabil.png" class="thumbnail-image">
@@ -1558,7 +1556,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="33" data-categories="Q29udGFiaWxpZGFkZSUyQ1Rlb3JpYQ==" data-listing-date-sort="1548727200000" data-listing-file-modified-sort="1761586846876" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1490">
+<div class="quarto-post image-right" data-index="33" data-categories="Q29udGFiaWxpZGFkZSUyQ1Rlb3JpYQ==" data-listing-date-sort="1548727200000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1490">
 <div class="thumbnail"><a href="./posts/contabil/escolhasContabeis/escolhasContabeis.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/escolhasContabeis/accountingChoice.png" class="thumbnail-image">
@@ -1591,7 +1589,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="34" data-categories="Q29udGFiaWxpZGFkZSUyQ1Rlb3JpYQ==" data-listing-date-sort="1540436400000" data-listing-file-modified-sort="1761586846960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1847">
+<div class="quarto-post image-right" data-index="34" data-categories="Q29udGFiaWxpZGFkZSUyQ1Rlb3JpYQ==" data-listing-date-sort="1540436400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1847">
 <div class="thumbnail"><a href="./posts/contabil/teoriaAgencia/teoriaAgencia.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/teoriaAgencia/teoriaAgencia.png" class="thumbnail-image">
@@ -1624,7 +1622,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="35" data-categories="Q29udGFiaWxpZGFkZSUyQ0hNRSUyQ0Fzc2ltZXRyaWE=" data-listing-date-sort="1535511600000" data-listing-file-modified-sort="1761586846866" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1488">
+<div class="quarto-post image-right" data-index="35" data-categories="Q29udGFiaWxpZGFkZSUyQ0hNRSUyQ0Fzc2ltZXRyaWE=" data-listing-date-sort="1535511600000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1488">
 <div class="thumbnail"><a href="./posts/contabil/economiaInformacao/economiaInformacao.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/economiaInformacao/economiaInformacao.png" class="thumbnail-image">
@@ -1659,7 +1657,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="36" data-categories="Q29udGFiaWxpZGFkZSUyQ01lbnN1cmElQzMlQTclQzMlQTNvJTJDRkNE" data-listing-date-sort="1525921200000" data-listing-file-modified-sort="1761586846922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2866">
+<div class="quarto-post image-right" data-index="36" data-categories="Q29udGFiaWxpZGFkZSUyQ01lbnN1cmElQzMlQTclQzMlQTNvJTJDRkNE" data-listing-date-sort="1525921200000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2866">
 <div class="thumbnail"><a href="./posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.png" class="thumbnail-image">
@@ -1694,7 +1692,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="37" data-categories="Q29udGFiaWxpZGFkZSUyQ1JlZ3VsYSVDMyVBNyVDMyVBM28=" data-listing-date-sort="1520823600000" data-listing-file-modified-sort="1761586846951" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2686">
+<div class="quarto-post image-right" data-index="37" data-categories="Q29udGFiaWxpZGFkZSUyQ1JlZ3VsYSVDMyVBNyVDMyVBM28=" data-listing-date-sort="1520823600000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2686">
 <div class="thumbnail"><a href="./posts/contabil/regulacaoContabil/regulacaoContabil.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/regulacaoContabil/regulacaoContabil.png" class="thumbnail-image">
@@ -1727,7 +1725,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="38" data-categories="Q29udGFiaWxpZGFkZSUyQ0Rpc2Nsb3N1cmU=" data-listing-date-sort="1516240800000" data-listing-file-modified-sort="1761586846895" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1215">
+<div class="quarto-post image-right" data-index="38" data-categories="Q29udGFiaWxpZGFkZSUyQ0Rpc2Nsb3N1cmU=" data-listing-date-sort="1516240800000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1215">
 <div class="thumbnail"><a href="./posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html" class="no-external">
 
 <img loading="lazy" data-src="./posts/contabil/evidenciacaoContabil/evidenciacaoContabil.png" class="thumbnail-image">
@@ -1771,7 +1769,7 @@ Kléber Formiga Miranda
 <h2 class="anchored" data-anchor-id="eventos-recentes">Eventos Recentes</h2>
 <div id="listing-eventos" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UiUyQ0Vjb25vbWF0aWNh" data-listing-date-sort="1718074800000" data-listing-file-modified-sort="1761586846699" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+<div class="g-col-1" data-index="0" data-categories="UiUyQ0Vjb25vbWF0aWNh" data-listing-date-sort="1718074800000" data-listing-file-modified-sort="1718059456000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
 <a href="./eventos/introR/introR.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1789,7 +1787,7 @@ Introdução ao Software R
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-date-sort="1702522800000" data-listing-file-modified-sort="1761586846694" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<div class="g-col-1" data-index="1" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-date-sort="1702522800000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
 <a href="./eventos/CINCO_dez2023/CINCO_dadosContabeisR.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1807,7 +1805,7 @@ Noções Básicas de Técnicas Contábeis e Financeiras com o R
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-date-sort="1667012400000" data-listing-file-modified-sort="1761586846695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+<div class="g-col-1" data-index="2" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-date-sort="1667012400000" data-listing-file-modified-sort="1717440118000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
 <a href="./eventos/economaticaR/economaticaR.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1825,7 +1823,7 @@ Análise de dados com R e Economatica
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-date-sort="1667012400000" data-listing-file-modified-sort="1761586846704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+<div class="g-col-1" data-index="3" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-date-sort="1667012400000" data-listing-file-modified-sort="1740754497000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
 <a href="./eventos/treinamentoeconomatica/treinamentoeconomatica.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1854,7 +1852,38 @@ Análise de dados com R e Economatica
 <h2 class="anchored" data-anchor-id="pacotes-recentes">Pacotes Recentes</h2>
 <div id="listing-pacotes" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y250ZGQ=" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1761661717288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1138">
+<div class="quarto-post image-right" data-index="0" data-categories="Y250ZGQ=" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1761696840529" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
+<div class="thumbnail"><a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="no-external">
+
+<img loading="lazy" src="./pacotes/utils/cntddupdater/utl_tableStat.PNG" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="no-external">Atualização automatizada do ambiente R com cntddupdateR</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="no-external">Post</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y250ZGQ='); return false;">cntdd</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="no-external">
+<div class="listing-date">
+28 de out. de 2025
+</div>
+<div class="listing-author">
+Alexsandro Prado
+</div>
+<div class="listing-reading-time">3 minutos</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Y250ZGQ=" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1761692628787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1138">
 <div class="thumbnail"><a href="./pacotes/utils/utl_tableStat/utl_tableStat.html" class="no-external">
 
 <img loading="lazy" src="./pacotes/utils/utl_tableStat/utl_tableStat.PNG" class="thumbnail-image">
@@ -1885,7 +1914,7 @@ Kléber Formiga Miranda
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Y250ZGQlMkNQYWNvdGVz" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1761589586007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
+<div class="quarto-post image-right" data-index="2" data-categories="Y250ZGQlMkNQYWNvdGVz" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1761692628787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
 <div class="thumbnail"><a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">
 
 <img loading="lazy" src="./pacotes/indices/liquidezSeca/figs/contasReceber.png" class="thumbnail-image">
@@ -1918,10 +1947,10 @@ Kléber
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Y250ZGQlMkNQYWNvdGVz" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1761589603082" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
+<div class="quarto-post image-right" data-index="3" data-categories="Y250ZGQlMkNQYWNvdGVz" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1761692628787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
 <div class="thumbnail"><a href="./pacotes/stats/liquidezSeca/liqSeca.html" class="no-external">
 
-<img loading="lazy" src="./pacotes/stats/liquidezSeca/figs/contasReceber.png" class="thumbnail-image">
+<img loading="lazy" data-src="./pacotes/stats/liquidezSeca/figs/contasReceber.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
@@ -1953,6 +1982,9 @@ Kléber
 </div>
 </div>
 <div class="listing-no-matching d-none">Nenhum item correspondente</div>
+<nav id="pacotes-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 
 
@@ -2024,14 +2056,13 @@ Kléber
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

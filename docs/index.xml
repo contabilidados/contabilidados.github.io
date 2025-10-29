@@ -9,8 +9,71 @@
 <link>https://contabilidados.github.io/</link>
 <atom:link href="https://contabilidados.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.24</generator>
+<generator>quarto-1.7.32</generator>
 <lastBuildDate>Tue, 28 Oct 2025 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Atualização automatizada do ambiente R com cntddupdateR</title>
+  <dc:creator>Alexsandro Prado</dc:creator>
+  <link>https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+</figure>
+</div>
+<section id="contextualização" class="level2"><h2 class="anchored" data-anchor-id="contextualização">Contextualização</h2>
+<p>Para muitos usuários iniciantes, instalar e manter atualizados os softwares essenciais para trabalhar com R — como o próprio R, o RStudio e o Rtools — pode ser um desafio técnico devido à necessidade de configurar corretamente cada aplicação e garantir compatibilidade entre versões. Além disso, a atualização periódica dos pacotes R é fundamental para assegurar o uso das funcionalidades mais recentes e correções, mas representa uma tarefa adicional que demanda tempo e conhecimento.</p>
+<p>Mas você já parou para pensar: Quantas vezes teve dificuldade para identificar se o R, RStudio ou Rtools precisavam ser atualizados?<br>
+Como gerenciar as constantes atualizações dos pacotes R instalados sem interromper seu fluxo de trabalho?<br>
+Qual o impacto da falta de atualização no seu ambiente de análise de dados?</p>
+<p>Pensando nessas questões, a [cntddupdateR] surge para automatizar e simplificar esse processo, reduzindo a complexidade e facilitando o trabalho dos pesquisadores e estudantes.</p>
+</section><section id="o-que-é-o-cntddupdater" class="level2"><h2 class="anchored" data-anchor-id="o-que-é-o-cntddupdater">O que é o <code>cntddupdateR</code>
+</h2>
+<p>O <code>cntddupdateR</code> automatiza a instalação e atualização do ambiente R para análise estatística e programação, incluindo o R, o RStudio (IDE para R), o Rtools (ferramentas para compilar pacotes) e os pacotes instalados no R.</p>
+</section><section id="como-funciona" class="level2"><h2 class="anchored" data-anchor-id="como-funciona">Como funciona</h2>
+<ul>
+<li>O script verifica se o gerenciador de pacotes do Windows chamado winget está instalado. Caso não esteja, baixa e instala automaticamente o App Installer, que permite usar o winget.<br>
+</li>
+<li>Utilizando o winget, confere se o R, o RStudio e o Rtools estão instalados. Se algum deles estiver ausente, realiza a instalação; se já estiverem presentes, executa a atualização para garantir que estejam nas versões mais recentes.<br>
+</li>
+<li>Em seguida, localiza a pasta de instalação do R para acessar o programa Rscript, possibilitando rodar comandos R pela linha de comando.<br>
+</li>
+<li>Executa um comando R para atualizar automaticamente todos os pacotes R já instalados no sistema, mantendo o ambiente totalmente atualizado.<br>
+</li>
+<li>Por fim, exibe uma mensagem informando que o processo foi concluído com sucesso e pausa para que o usuário possa fechar o script com segurança.</li>
+</ul>
+<p>Você já enfrentou situações em que instalações ou atualizações incompletas geraram erros difíceis de diagnosticar?<br>
+Quanto tempo você já perdeu tentando atualizar manualmente os componentes do seu ambiente R?</p>
+<p>O script facilita manter todo o ambiente R completo e atualizado, integrando a instalação e atualização dos principais componentes usados em análise de dados com R, tudo de forma automatizada e prática.</p>
+</section><section id="como-utilizar-o-cntddupdater-via-powershell" class="level2"><h2 class="anchored" data-anchor-id="como-utilizar-o-cntddupdater-via-powershell">Como utilizar o cntddupdateR via PowerShell</h2>
+<section id="forma-1-execução-remota-direta" class="level3"><h3 class="anchored" data-anchor-id="forma-1-execução-remota-direta">Forma 1: Execução remota direta</h3>
+<p>Abra o PowerShell e execute o comando abaixo para rodar o script remotamente, ajustando temporariamente a política de execução:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"></span>
+<span id="cb1-2">powershell <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>NoLogo <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>NoProfile <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>ExecutionPolicy Bypass <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>Command <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"</span></span></code></pre></div>
+</section><section id="forma-2-executar-o-arquivo-cntddupdater.bat" class="level3"><h3 class="anchored" data-anchor-id="forma-2-executar-o-arquivo-cntddupdater.bat">Forma 2: Executar o arquivo <code>cntddupdateR.bat</code>
+</h3>
+<p>O script Powershell irá baixar e executar automaticamente o arquivo <code>cntddupdateR.bat</code>. Também é possível executar esse arquivo diretamente, dando um clique duplo ou abrindo como administrador, para iniciar as instalações e atualizações necessárias.</p>
+<p>Realize o download e execute o cntddupdater.bat com clique duplo do mouse.</p>
+<blockquote class="blockquote">
+<p>Dúvidas como instalar o pacote cntdd? <a href="https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html" target="_blank">Acesse Aqui</a></p>
+</blockquote>
+
+
+</section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>cntdd</category>
+  <guid>https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.html</guid>
+  <pubDate>Tue, 28 Oct 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.github.io/pacotes/utils/cntddupdater/utl_tableStat.PNG" medium="image"/>
+</item>
 <item>
   <title>Função utl_tableStat do pacote CNTDD</title>
   <dc:creator>Kléber Formiga Miranda</dc:creator>
@@ -27,7 +90,7 @@
 <p>O primeiro passo é acessar a base de dados. Vamos utilizar a base <code>dt_contabil</code>, disponível no próprio pacote <code>cntdd</code>. Com a função <code>glimpse</code>, do pacote <code>dplyr</code>, é possível visualizar rapidamente a estrutura da base e entender quais variáveis estão disponíveis para análise.</p>
 <p>Acompanhe o passo a passo e veja como aplicar essa função para explorar seus dados contábeis de forma mais inteligente.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
@@ -59,7 +122,7 @@ font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">dt_contabil</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
+font-style: inherit;">)</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 60
 Columns: 38
@@ -106,7 +169,7 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
 <p>Vimos que a base de dados possui 38 variáveis e 60 linhas e, que para atender nosso interresse vamos precisar apenas do Ativo Imobilizado, Receita, Imposto de Renda e LAIR (para cálculo do percentual).</p>
 <p>Vamos criar uma base (objeto) chamada <code>dt_irPorGrupo</code> e, em seguida, vamos aplicar a função <code>summary</code> para ver estatísticas descritivas básicas das variáveis escolhidas.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">dt_irPorGrupo</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -148,7 +211,7 @@ font-style: inherit;">dt_irPorGrupo</span><span class="op" style="color: #5E5E5E
 background-color: null;
 font-style: inherit;">)</span> <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># faz estatísticas descritivas básicas com a base de dados</span></span></code></pre></div></div>
+font-style: inherit;"># faz estatísticas descritivas básicas com a base de dados</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  imobilizado         receita          impostoRenda           lair         
  Min.   :  70042   Min.   :  404333   Min.   :-1307943   Min.   :-2075312  
@@ -162,7 +225,7 @@ font-style: inherit;"># faz estatísticas descritivas básicas com a base de dad
 </div>
 <p>Identificamos que algumas empresas apresentam observações com valores nulos (indicados por <code>NA</code> em todas as variáveis) e que outras possuem resultados com LAIR e IR negativos. Não entraremos no mérito das causas desses casos agora. Vamos remover essas observações para mostrar, na prática, como aplicar filtros no R e deixar nossa análise mais interessante neste post.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">dt_irPorGrupoAjustada</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -240,7 +303,7 @@ font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">dt_irPorGrupoAjustada</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
+font-style: inherit;">)</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 33
 Columns: 5
@@ -250,7 +313,7 @@ $ impostoRenda &lt;int&gt; 42304, 29475, 28327, 44309, 6186, 62273, 212759, 5730
 $ lair         &lt;int&gt; 162586, 189442, 176047, 212218, 56499, 418225, 803381, 18…
 $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.1094886…</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -258,7 +321,7 @@ font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">dt_irPorGrupoAjustada</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
+font-style: inherit;">)</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  imobilizado         receita          impostoRenda         lair        
  Min.   :  70042   Min.   :  404333   Min.   :  2021   Min.   :  15557  
@@ -280,7 +343,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <p>A função <code>utl_tableStat</code> será responsável por cruzar esses grupos e aplicar a estatística descritiva desejada em cada combinação. Neste exemplo, utilizaremos o tamanho da amostra (<code>length</code>), a média (<code>mean</code>) e o desvio-padrão (<code>sd</code>) para avaliar o comportamento do percentual do imposto de renda de cada grupo.</p>
 <p>A seguir, apresentamos o uso da função <code>utl_tableStat</code> com a função <code>length</code>.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -334,7 +397,7 @@ background-color: null;
 font-style: inherit;"># Função de interesse</span></span>
 <span>  <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
+font-style: inherit;">)</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 4
 # Groups:   Stat_percentualIR [3]
@@ -350,7 +413,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <p>Os maiores grupos identificados foram os de empresas com baixa receita e baixo imobilizado (receita_1 x imobilizado_1), com 9 observações, e o de alta receita com alto imobilizado (receita_3 x imobilizado_3), com 8 observações. Esse comportamento é esperado, pois há uma tendência de que quanto maior o investimento em imobilizado, maior também a receita. No entanto, é importante destacar que essa relação não é uma regra e deve ser analisada com cautela.</p>
 <p>Agora vamos usar a função <code>utl_tableStat</code> para saber a média do percentual de imposto de renda que cada grupo possui, conforme sua DRE. Usaremos a função <code>mean</code>.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -404,7 +467,7 @@ background-color: null;
 font-style: inherit;"># Função de interesse</span></span>
 <span>  <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
+font-style: inherit;">)</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 4
 # Groups:   Stat_percentualIR [3]
@@ -417,7 +480,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
 <p>Interessante observar que o grupo mais intensivo em imobilizado e com maior receita apresenta uma carga tributária menor (17,0%) em comparação ao grupo menos intensivo em imobilizado e com menor receita (22,4%). Já a carga tributária mais elevada foi registrada no grupo intermediário, com receita média e baixa intensidade de imobilizado (55,5%). Para verificar se esses dados apresentam grande variação interna, aplicamos novamente a função <code>sd</code> para avaliar o desvio-padrão de cada grupo.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -471,7 +534,7 @@ background-color: null;
 font-style: inherit;"># Função de interesse</span></span>
 <span>  <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
+font-style: inherit;">)</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 4
 # Groups:   Stat_percentualIR [3]
@@ -1326,45 +1389,6 @@ Materiais
   <guid>https://contabilidados.github.io/posts/finance/custoEstruturaCapital/custoEstruturaCapital.html</guid>
   <pubDate>Sat, 26 Jun 2021 03:00:00 GMT</pubDate>
   <media:content url="https://contabilidados.github.io/posts/finance/custoEstruturaCapital/custoEstruturaCapital.png" medium="image" type="image/png" height="144" width="144"/>
-</item>
-<item>
-  <title>Anomalias</title>
-  <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/finance/anomalias/anomalias.html</link>
-  <description><![CDATA[ <style> body {text-align: justify} </style>
-<p><img src="https://contabilidados.github.io/posts/finance/anomalias/anomalias.png" class="img-fluid"></p>
-<p>A busca por interpretações dos fenômenos do mercado (tais como as anomalias registradas na literatura) está presente nas pesquisas mais recentes sobre precificação de ativos. Nessa resenha serão discutidos trabalhos preocupados com a existência e persistência de anomalias, assim como o fato de sua extinção após as publicações acadêmicas revelando a sua existência, inclusive sob a abordagem da eficiência de mercado. Dentre os quatro estudos abordados, dois (Fama &amp; French, 2008; Hou, Xue, &amp; Zhang, 2015) abordam, respectivamente, uma revisão de algumas anomalias listadas na literatura buscando identificar sobreposição informacional entre elas e a proposição de um novo modelo com variáveis voltadas a investimento com base na <em>q-theory</em>. Os outros dois (Doran &amp; Wright, 2007; Schwert, 2002) discutem a persistência das anomalias pós publicação em <em>journals</em> pelos acadêmicos. Assim, por um lado visualizamos pesquisas preocupadas em identificar as anomalias e, por outro, pesquisas questionando sua existência.</p>
-<p>O fenômeno anômalo é caracterizado pela ausência de associação com o modelo de precificação de ativos (CAPM – <em>Capital Asset Pricing Model</em>) proposto por Sharpe e Lintner, na década de 60. Diversos trabalhos, listados em Fama e French (2008), identificaram algum padrão anômalo nos retornos. Entretanto, Fama e French (2008) revisitam as anomalias quanto ao tamanho, valor, rentabilidade, crescimento, <em>accruals</em>, emissão de ações líquidas, e <em>momentum</em>. Além de visualizar a complementaridade de cada variável na explicação do padrão da <em>cross-section</em> de retornos, discutem questões metodológicas com suas vantagens e desvantagens. Uma das principais observações quanto ao aspecto metodológico está relacionada à inclusão de <em>microcaps</em> nas amostras das pesquisas. As <em>microcaps</em> não são pequenas ações, somente. Tratam-se de ações sem representatividade ou liquidez capaz de caracterizar um mercado ativo.</p>
-<p>O efeito tamanho é a anomalia mais presente nas pesquisas, indicando haver consenso quanto a divergência entre os ganhos obtidos por empresas grandes e pequenas. Contudo, o fato de haver <em>microcaps</em> dentre empresas grandes é visto como um viés metodológico, pois as regressões estimadas são dominadas por informações das <em>microcaps</em>. A representatividade das <em>microcaps</em> na capitalização é de 3%, porém com 60% de participação no número de ações, evidenciando o valor ínfimo da ação individual. Essa discrepância de valor influencia tanto as estimações via regressão quanto os testes de média dos retornos. Essa expectativa é confirmada por Fama e French (2008) quando evidenciam o viés do efeito tamanho com as <em>microcaps</em>.</p>
-<p>Por outro lado, não se evidenciam efeitos divergentes com as <em>microcaps</em> ao avaliar a anomalia de momento (<em>momentum</em>), pois evidenciou-se semelhança nos retornos médios dos portfólios formados por empresas grande, pequenas e <em>microcaps</em> (o ponto de corte foi o 20° e o 50° percentil da capitalização no final de junho na NYSE). O efeito crescimento de ativos segue uma tendência de significância sendo forte entre as <em>microcaps</em>, fraca (com significância estatística) entre as pequenas e praticamente inexistentes entre as grandes. As demais anomalias analisadas são idênticas entre os grupos por tamanho. Os coeficientes médios se apresentam divergentes quanto a sinais e desvios-padrão, mas com valores convergentes entre esses grupos. O ponto principal de divergência se encontram nos extremos dos portfólios.</p>
-<p>A classificação dos portfólios é outro aspecto bastante enfatizado por Fama e French (2008), especialmente para emissões de ações líquidas e <em>accruals</em>. Recompra de ações são seguidas por fortes retornos anormais positivos e o quintil mais extremo das ações emitidas mostram um forte retorno anormal negativo. Assim, no mínimo quando mensurados líquidos dos efeitos tamanho e <em>book-to-market</em>, retornos anômalos após emissões de ações líquidas e <em>accruals</em> parecem ser limitados pelos extremos. Uma afirmação final em Fama e French (2008) diz respeito ao fato de variáveis explicativas para os fluxos de caixa futuros e para os retornos, por si só, não ajudar a determinar a variação do retorno esperado causada por risco ou por <em>mispricing</em>. Essa afirmação confronta diretamente a fundamentação de Hou <em>et al</em>. (2015) para o efeito investimento na explicação de retornos futuros.</p>
-<p>Embora confrontem o trabalho de Fama e French de 1996, quando demonstram a relação entre seus três fatores (mercado, tamanho – <em>market equity</em> e <em>book-to-market</em>), a pesquisa de Hou <em>et al</em>. (2015) de certa forma afronta as afirmações de Fama e French (2008) quanto o impacto da rentabilidade e variáveis ligadas à explicações de fluxos de futuros na <em>cross-section</em> dos retornos médios. O cerne de Hou <em>et al</em>. (2015) está na <em>q-theory</em>, cujas pressuposições indicam mudanças no valor investido ou desinvestido das empresas com base nos retornos esperados. Para a <em>q-theory</em> o investidor (tratado no artigo como famílias) apenas investe quando há expectativa de retornos futuros. Esse trade-off entre investir ou desinvestir influencia tanto o retorno esperado quanto, a sua relação paralela com a rentabilidade também contribui para relação entre a rentabilidade e os retornos médios.</p>
-<p>Associada a essa discussão, Hou <em>et al</em>. (2015) enfatizam o fato de a taxa de desconto divergir entre as empresas, demonstrando a heterogeneidade a ser esperada nas decisões empresariais. Fundamentada na teoria neoclássica, a <em>q-theory</em> parte das decisões empresariais alterando o contexto macro (mercado). As decisões de investimento e desinvestimento com base na taxa de desconto (quanto maior a taxa de desconto menor a possibilidade de investimento) possibilita a caracterização das empresas em diversos aspectos capazes de tornar o investimento e rentabilidade como de explicação dos retornos médios das empresas. Entretanto, os preços não se ajustam para dar origem à <em>cross-section</em> de taxas de descontos constantes, pois nesse caso assumiria a improvável situação de risco igual para todas as empresas.</p>
-<p>Os retornos esperados se alinham com a rentabilidade e os investimentos quando o mercado equilibra o investimento realizado com base na rentabilidade esperada e, consequentemente, no retorno obtido. A relação negativa entre retornos e investimento esperado é intuitiva: Firmas investem mais quando seu q marginal (valor presente líquido dos fluxos de caixa futuro gerados por uma unidade adicional de ativos) é alta. Por outro lado, firmas com maior rentabilidade esperada devem obter retornos maiores em relação às firmas com baixa expectativa de retorno. Essas classificações com base em rentabilidade e investimento captam diversas anomalias. A classificação de emissões líquidas de ações, composição das emissões, <em>book-to-market</em>, e outras são mais próximas de investimento do que rentabilidade. A relação entre retorno e rentabilidade esperada é consistente com momentum, efeitos pós anúncio de lucros e efeitos de crises financeiras. A classificação em ganhos acima do esperado deve produzir um <em>spread</em> de rentabilidade entre os portfólios extremos. (Hou et al., 2015).</p>
-<p>Algumas limitações elencadas por Hou <em>et al</em>. (2015) dizem respeito ao modelo com investimentos ou rentabilidade similares pressupor a mesma direção na predição dos retornos, mas a equação proposta não fazer isso, pelo menos não diretamente. Para que o fator-q alcançasse o rigor da teoria de precificação baseada em investimento, deveria ir além da equação proposta, especificando completamente a dinâmica dos modelos de investimento para quantificar claramente os fatores-q tão bem quanto os geradores heterogêneos do investimento e rentabilidade. A formação dos fatores de Hou <em>et al</em>. (2015) contemplou o efeito tamanho, investimento e rentabilidade (ROE) sob a justificativa de haver maiores efeitos de lucros e investimentos em empresas pequenas relacionadas às grandes. Assim, classificar ROE e investimento conjuntamente é consistente com o modelo econômico e mostra que o efeito de ambos são condições naturais.</p>
-<p>A proposta de Hou <em>et al</em>. (2015) consistiu em avaliar 80 anomalias agrupadas em (i) momentum; (ii) Valor x Crescimento; (iii) Investimento; (iv) Rentabilidade; (v) Intangíveis; e (vi) atritos comerciais. A construção dos portfólios adotou frequência de dados diferentes: os portfólios de investimento (accruals e book-to-market) são construídos anualmente e os de ROE (momentum, lucros inesperados e crises financeiras), mensalmente. Essa estratégia permite capturar os efeitos de anomalias que também ocorrem com frequências distintas. Diferentemente de Fama e French (2008), as <em>microcaps</em> foram excluídas (3% da amostra), pois devido aos custos de transação e falta de liquidez não se costuma explorá-las na prática (Hou et al., 2015).</p>
-<p>No geral, o modelo fator-q, proposto por Hou <em>et al</em>. (2015), performou melhor em relação aos modelos de Fama e French e Carhart, cujas demonstrações são descritas ao longo de seu artigo com apresentação de alfas de <em>book-to-market</em> significativos em número bem menor e pela corroboração com o trabalho de Gibbons, Ross e Shanken ao rejeitar os três modelos (fator-q, FF e Carhart), mas com menos decis rejeitos para o primeiro. O modelo fator-q apenas não performa melhor que Carhart e FF na captura de anomalias de <em>accrual</em> operacional e P&amp;D/Mercado. As conclusões de Hou <em>et al</em>. (2015) se direcionam para o fato de que as ponderações em ações com baixa liquidez e valor (<em>microcaps</em>) podem explicar o aparente exagero quanto as anomalias elencadas na literatura. Muitas anomalias aparentemente não relacionadas podem ser diferentes manifestações dos efeitos investimento e rentabilidade. Os resultados empíricos destacam a importância da compreensão das forças motrizes ligadas aos fatores-q e seu amplo poder empírico na <em>cross-section</em>.</p>
-<p>Enquanto Fama e French (2008) e Hou <em>et al</em>. (2015) disputam modelagens para capturar explicações para a <em>cross-section</em> de retornos médios, outras pesquisas se voltam a discutir a real existência de anomalias, pois, essencialmente, essas somem após a sua divulgação. Schwert (2002) alerta para o fato das anomalias serem resultados empíricos aparentemente inconsistentes com teorias de comportamento de precificação de ativos. Elas indicam ineficiências do mercado (oportunidades de lucro) ou inadequações ao modelo de precificação de ativos subjacente. Depois de documentadas e analisadas na literatura acadêmica, as anomalias muitas vezes parecem desaparecer, reverter ou atenuar, levantando a questão sobre as oportunidades de lucro terem existido ou serem simplesmente aberrações estatísticas que atraíram a atenção de acadêmicos e profissionais.</p>
-<p>O aparato tecnológico e o acesso a dados com frequência da vez menores possibilitaram a expansão de pesquisas sobre precificação de ativos, especialmente após as evidencias de Lintner e Sharpe (anos 60). O aspecto cauteloso levantado por Schwert (2002) é o fato de pesquisas documentarem uma anomalia e as pesquisas posteriores não a identificarem. Esse fato põe em dúvida a existência da anomalia, assim como a metodologia empregada para sua evidência. Nessa linha a proposta de Schwert (2002) é levantar questões sobre as implicações desses achados para a atuação profissional e acadêmica decorrentes. Após listar diversas anomalias e suas refutações posteriores, é possível perceber alguns fenômenos identificados como anômalos como aspectos não identificados nos modelos de precificação utilizados, como por exemplo os casos de gênero levantados por Barden e Odean em seus achados de 2000 e 2001.</p>
-<p>As decisões sobre as políticas financeiras das empresas (IPOs, oferta de ações, fusão, etc) são tomadas para terem efeitos de curto prazo nos preços, entretanto, Schwert (2002) identifica uma sistemática adoção de medidas de longo prazo para análise do seu comportamento a ponto de descobrirem a sua ineficácia na maioria das situações. O processo de aprendizado lento sugerido nas pesquisas não condiz com o pressuposto da hipótese de mercados eficientes. Mesmo aceitando a lentidão do mercado em compreender a política financeira das empresas, a incerteza associada ao preço durante cinco é tão longo a ponto de não fazer sentido para as empresas informarem suas escolhas financeiras.</p>
-<p>Todas estas descobertas levantam a possibilidade de que as anomalias são mais aparentes do que real. A notoriedade associada com os achados de evidências incomuns leva autores a investigar anomalias intrigantes para explicá-las posteriormente. Mesmo existindo no período da amostra, as anomalias geradoras de estratégias para tirar proveito de suas características acabam desaparecendo por ser de conhecimento geral, consonante com a hipótese de mercado eficiente (Schwert, 2002). De forma complementar, Doran e Wright (2007) levantam a questão da falta de proveito do pesquisador ao identificar uma anomalia. Se for possível tirar proveito da anomalia, então não haveria motivos para torná-la pública. Trata-se de uma ação aparentemente irracional.</p>
-<p>A ação de um pesquisador de finanças para a teoria proposta por Doran e Wright (2007) seria racional. Então seriam, como esperado, maximizadores racionais de utilidade, confrontando-se com a sua reputação enquanto pesquisador. Por meio da análise da probabilidade de publicação de uma anomalia por um professor, foi possível relacionar a publicação e o tempo de término de seu doutoramento (reputação). A expectativa e na publicação tardia de uma anomalia rentável. Considerando a reputação, apenas pesquisadores com alta reputação tenderiam a publicar anomalias rentáveis. Dentro da especificação do modelo artigos em <em>journals</em> considerados <em>top</em> são pontuados positivamente para o pesquisador, assim como o número de citações nos seus artigos.</p>
-<p>Os resultados indicam a reputação como fator de estímulo à publicação de anomalias. As anomalias tendem a ser publicadas, em média, por pesquisadores com pouca publicação e neófitos na área de finanças. Objetivamente, a pulverização de publicações sobre anomalias se deve, em sua maioria, a professores com baixa produtividade acadêmica, seja em número de publicações ou pela qualidade (<em>journals top</em>). A publicação de anomalias se deve a necessidade de formação de reputação pelos pesquisadores, os quais ganham mais utilidade ao publicá-las em relação a mantê-las para ganho pessoal. O comportamento dos pesquisadores não podem ser confundidos, entretanto, com o corpo editorial (Schwert, 2002).</p>
-<hr>
-<p>Doran, J. S., &amp; Wright, C. (2007). So you discovered an anomaly… gonna publish it? an investigation into the rationality of publishing a market anomaly. <em>SSRN Electronic Journal</em>, (January), 1–47.</p>
-<p>Fama, E. F., &amp; French, K. R. (2008). Dissecting anomalies. <em>The Journal of Finance</em>, <em>63</em>(4), 1653–1678.</p>
-<p>Hou, K., Xue, C., &amp; Zhang, L. (2015). Digesting anomalies: an investment approach. <em>Review of Financial Studies</em>, <em>28</em>(3), 650–705.</p>
-<p>Schwert, G. W. (2002). Anomalies and market efficiency. <em>SSRN Electronic Journal</em>, (October), 1–52.</p>
-<hr>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
-  <category>Finanças</category>
-  <category>HME</category>
-  <guid>https://contabilidados.github.io/posts/finance/anomalias/anomalias.html</guid>
-  <pubDate>Sat, 29 May 2021 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/finance/anomalias/anomalias.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>

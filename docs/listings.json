@@ -11,6 +11,7 @@
   {
     "listing": "/cntdd.html",
     "items": [
+      "/pacotes/utils/cntddupdater/cntddupdater.html",
       "/pacotes/utils/utl_tableStat/utl_tableStat.html",
       "/pacotes/stats/liquidezSeca/liqSeca.html",
       "/pacotes/indices/liquidezSeca/liqSeca.html"
@@ -62,6 +63,7 @@
       "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
       "/eventos/economaticaR/economaticaR.html",
       "/eventos/treinamentoeconomatica/treinamentoeconomatica.html",
+      "/pacotes/utils/cntddupdater/cntddupdater.html",
       "/pacotes/utils/utl_tableStat/utl_tableStat.html",
       "/pacotes/indices/liquidezSeca/liqSeca.html",
       "/pacotes/stats/liquidezSeca/liqSeca.html"
