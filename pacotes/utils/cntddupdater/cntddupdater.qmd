@@ -1,0 +1,102 @@
+---
+title: "Atualização automatizada do ambiente R com cntddupdateR"
+subtitle: "Post"
+author: "Alexsandro Prado"
+categories:
+  - cntdd
+date: 2025-10-28
+toc: true
+image: "cntddupdater.png"
+editor: 
+  markdown: 
+    wrap: 72
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, include = TRUE, message = FALSE, warning = FALSE, comment = NA, fig.align = "center", out.width = "100%")
+```
+
+```{=html}
+<style> body {text-align: justify} </style>
+```
+
+![](cntddupdater.png){fig-align="center" width="403"}
+
+## Contextualização
+
+Para muitos usuários iniciantes, instalar e manter atualizados os
+softwares essenciais para trabalhar com R — como o próprio R, o RStudio
+e o Rtools — pode ser um desafio técnico devido à necessidade de
+configurar corretamente cada aplicação e garantir compatibilidade entre
+versões. Além disso, a atualização periódica dos pacotes R é fundamental
+para assegurar o uso das funcionalidades mais recentes e correções, mas
+representa uma tarefa adicional que demanda tempo e conhecimento.
+
+Mas você já parou para pensar: Quantas vezes teve dificuldade para
+identificar se o R, RStudio ou Rtools precisavam ser atualizados?\
+Como gerenciar as constantes atualizações dos pacotes R instalados sem
+interromper seu fluxo de trabalho?\
+Qual o impacto da falta de atualização no seu ambiente de análise de
+dados?
+
+Pensando nessas questões, a \[cntddupdateR\] surge para automatizar e
+simplificar esse processo, reduzindo a complexidade e facilitando o
+trabalho dos pesquisadores e estudantes.
+
+## O que é o `cntddupdateR`
+
+O `cntddupdateR` automatiza a instalação e atualização do ambiente R
+para análise estatística e programação, incluindo o R, o RStudio (IDE
+para R), o Rtools (ferramentas para compilar pacotes) e os pacotes
+instalados no R.
+
+## Como funciona
+
+-   O script verifica se o gerenciador de pacotes do Windows chamado
+    winget está instalado. Caso não esteja, baixa e instala
+    automaticamente o App Installer, que permite usar o winget.\
+-   Utilizando o winget, confere se o R, o RStudio e o Rtools estão
+    instalados. Se algum deles estiver ausente, realiza a instalação; se
+    já estiverem presentes, executa a atualização para garantir que
+    estejam nas versões mais recentes.\
+-   Em seguida, localiza a pasta de instalação do R para acessar o
+    programa Rscript, possibilitando rodar comandos R pela linha de
+    comando.\
+-   Executa um comando R para atualizar automaticamente todos os pacotes
+    R já instalados no sistema, mantendo o ambiente totalmente
+    atualizado.\
+-   Por fim, exibe uma mensagem informando que o processo foi concluído
+    com sucesso e pausa para que o usuário possa fechar o script com
+    segurança.
+
+Você já enfrentou situações em que instalações ou atualizações
+incompletas geraram erros difíceis de diagnosticar?\
+Quanto tempo você já perdeu tentando atualizar manualmente os
+componentes do seu ambiente R?
+
+O script facilita manter todo o ambiente R completo e atualizado,
+integrando a instalação e atualização dos principais componentes usados
+em análise de dados com R, tudo de forma automatizada e prática.
+
+## Como utilizar o cntddupdateR via PowerShell
+
+### Forma 1: Execução remota direta
+
+Abra o PowerShell e execute o comando abaixo para rodar o script
+remotamente, ajustando temporariamente a política de execução:
+
+``` powershell
+
+powershell -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"
+```
+
+### Forma 2: Executar o arquivo `cntddupdateR.bat`
+
+Outra alternativa é utilizar o `cntddupdateR.bat`. 
+
+Realize o [download](https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat){target="_blank"}
+e execute o cntddupdater.bat como administrador (botão direito sobre o arquivo .bat -> Executar como administrador).
+
+
