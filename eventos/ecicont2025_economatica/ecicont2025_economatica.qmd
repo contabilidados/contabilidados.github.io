@@ -1,0 +1,31 @@
+---
+toc: true
+author: cntdd
+categories: [R, Economatica, Análise de Dados]
+date: '2025-10-29'
+event: "ECICONT - I Encontro Científico em Contabilidade da UFERSA"
+event_url: https://www.even3.com.br/ecicont-611668/
+links:
+- icon: 
+  icon_pack: far
+  name: 
+  url: 
+location: Laboratório 3 - Central de Aulas III - UFERSA
+title: "Introdução à plataforma Economatica"
+image: figs/ecicont2025_economatica.png
+draft: false
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+<br>
+
+Oficina com o objetivo de demonstrar como utilizar a plataforma Economática para pesquisa financeira e contábil, com foco em análise de empresas, indicadores e séries temporais.
+
+
+**Data e horário:** 13/11/2025 - 19:00 - 22:00

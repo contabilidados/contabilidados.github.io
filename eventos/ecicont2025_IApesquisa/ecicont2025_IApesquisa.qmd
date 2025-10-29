@@ -1,0 +1,30 @@
+---
+toc: true
+author: cntdd
+categories: [R, Economatica, Análise de Dados]
+date: '2025-10-29'
+event: "ECICONT - I Encontro Científico em Contabilidade da UFERSA"
+event_url: https://www.even3.com.br/ecicont-611668/
+links:
+- icon: 
+  icon_pack: far
+  name: 
+  url: 
+location: Núcleo de Práticas Contábeis (NPC) - UFERSA
+title: "Inteligência Artificial na pesquisa científica"
+image: figs/ecicont2025_IApesquisa.png
+draft: false
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+<br>
+
+Palestra com o objetivo de apresentar como plataformas de Inteligência Artificial (IA) podem otimizar o processo de pesquisas científicas e discutir sobre boas práticas de integridade e uso ético da IA no âmbito acadêmico.
+
+**Data e horário:** 14/11/2025 - 19:00 - 21:00
