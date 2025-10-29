@@ -97,6 +97,6 @@ powershell -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "irm 'https://get
 Outra alternativa é utilizar o `cntddupdateR.bat`. 
 
 Realize o [download](https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat){target="_blank"}
-e execute o cntddupdater.bat com clique duplo do mouse.
+e execute o cntddupdater.bat como administrador (botão direito sobre o arquivo .bat -> Executar como administrador).
 
 

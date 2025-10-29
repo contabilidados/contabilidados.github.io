@@ -186,7 +186,7 @@
     "href": "pacotes/utils/cntddupdater/cntddupdater.html#como-utilizar-o-cntddupdater-via-powershell",
     "title": "Atualização automatizada do ambiente R com cntddupdateR",
     "section": "Como utilizar o cntddupdateR via PowerShell",
-    "text": "Como utilizar o cntddupdateR via PowerShell\nForma 1: Execução remota direta\nAbra o PowerShell e execute o comando abaixo para rodar o script remotamente, ajustando temporariamente a política de execução:\n\npowershell -NoLogo -NoProfile -ExecutionPolicy Bypass -Command \"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex\"\nForma 2: Executar o arquivo cntddupdateR.bat\n\nOutra alternativa é utilizar o cntddupdateR.bat.\nRealize o download e execute o cntddupdater.bat com clique duplo do mouse."
+    "text": "Como utilizar o cntddupdateR via PowerShell\nForma 1: Execução remota direta\nAbra o PowerShell e execute o comando abaixo para rodar o script remotamente, ajustando temporariamente a política de execução:\n\npowershell -NoLogo -NoProfile -ExecutionPolicy Bypass -Command \"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex\"\nForma 2: Executar o arquivo cntddupdateR.bat\n\nOutra alternativa é utilizar o cntddupdateR.bat.\nRealize o download e execute o cntddupdater.bat como administrador (botão direito sobre o arquivo .bat -&gt; Executar como administrador)."
   },
   {
     "objectID": "pacotes/indices/liquidezSeca/liqSeca.html",
