@@ -99,5 +99,4 @@ Outra alternativa é utilizar o `cntddupdateR.bat`.
 Realize o [download](https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat){target="_blank"}
 e execute o cntddupdater.bat com clique duplo do mouse.
 
-> Dúvidas como instalar o pacote cntdd? [Acesse
-> Aqui](https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html){target="_blank"}
+
