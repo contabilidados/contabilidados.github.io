@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Kléber Formiga Miranda">
 <title>Função utl_tableStat do pacote CNTDD – contabiliDados</title>
@@ -64,18 +64,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../../../">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-46dd2fe516519b298ff15ab6b06c84f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-aae7ce946b2fd1a1f968d9203edad7d2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-46dd2fe516519b298ff15ab6b06c84f1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-9668c6978006edd3399c8f59aaf88d86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -275,6 +276,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">contabiliDados</span>
     </a>
@@ -392,9 +395,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>O primeiro passo é acessar a base de dados. Vamos utilizar a base <code>dt_contabil</code>, disponível no próprio pacote <code>cntdd</code>. Com a função <code>glimpse</code>, do pacote <code>dplyr</code>, é possível visualizar rapidamente a estrutura da base e entender quais variáveis estão disponíveis para análise.</p>
 <p>Acompanhe o passo a passo e veja como aplicar essa função para explorar seus dados contábeis de forma mais inteligente.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op">)</span> <span class="co"># carrega o pacote cntdd</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op">)</span> <span class="co"># carrega o pacote cntdd</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span> <span class="co"># Carrega o pacote dplyr</span></span>
-<span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">dt_contabil</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">dt_contabil</span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 60
 Columns: 38
@@ -441,11 +444,11 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
 <p>Vimos que a base de dados possui 38 variáveis e 60 linhas e, que para atender nosso interresse vamos precisar apenas do Ativo Imobilizado, Receita, Imposto de Renda e LAIR (para cálculo do percentual).</p>
 <p>Vamos criar uma base (objeto) chamada <code>dt_irPorGrupo</code> e, em seguida, vamos aplicar a função <code>summary</code> para ver estatísticas descritivas básicas das variáveis escolhidas.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dt_irPorGrupo</span> <span class="op">&lt;-</span> <span class="co"># define o nome objeto</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dt_irPorGrupo</span> <span class="op">&lt;-</span> <span class="co"># define o nome objeto</span></span>
 <span>  <span class="va">dt_contabil</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="co"># escolhe a base de dados</span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">imobilizado</span>, <span class="va">receita</span>, <span class="va">impostoRenda</span>, <span class="va">lair</span><span class="op">)</span> <span class="co"># escolhe as variáveis de interesse</span></span>
 <span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">dt_irPorGrupo</span><span class="op">)</span> <span class="co"># faz estatísticas descritivas básicas com a base de dados</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">dt_irPorGrupo</span><span class="op">)</span> <span class="co"># faz estatísticas descritivas básicas com a base de dados</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  imobilizado         receita          impostoRenda           lair         
  Min.   :  70042   Min.   :  404333   Min.   :-1307943   Min.   :-2075312  
@@ -459,7 +462,7 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
 </div>
 <p>Identificamos que algumas empresas apresentam observações com valores nulos (indicados por <code>NA</code> em todas as variáveis) e que outras possuem resultados com LAIR e IR negativos. Não entraremos no mérito das causas desses casos agora. Vamos remover essas observações para mostrar, na prática, como aplicar filtros no R e deixar nossa análise mais interessante neste post.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dt_irPorGrupoAjustada</span> <span class="op">&lt;-</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dt_irPorGrupoAjustada</span> <span class="op">&lt;-</span></span>
 <span>  <span class="va">dt_irPorGrupo</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/stats/na.fail.html">na.omit</a></span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="co"># Remove todos os NAs da base</span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="op">(</span><span class="va">lair</span> <span class="op">&gt;</span> <span class="fl">0</span> <span class="op">&amp;</span> <span class="va">impostoRenda</span> <span class="op">&gt;</span> <span class="fl">0</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span>   <span class="co"># filtra apenas observações positivas de LAIR e IR</span></span>
@@ -467,7 +470,7 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
 <span>    percentualIR <span class="op">=</span> <span class="va">impostoRenda</span> <span class="op">/</span> <span class="va">lair</span> <span class="co"># cria a variável percentual IR para análise</span></span>
 <span>  <span class="op">)</span></span>
 <span></span>
-<span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">dt_irPorGrupoAjustada</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">dt_irPorGrupoAjustada</span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 33
 Columns: 5
@@ -477,7 +480,7 @@ $ impostoRenda &lt;int&gt; 42304, 29475, 28327, 44309, 6186, 62273, 212759, 5730
 $ lair         &lt;int&gt; 162586, 189442, 176047, 212218, 56499, 418225, 803381, 18…
 $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.1094886…</code></pre>
 </div>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">dt_irPorGrupoAjustada</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">dt_irPorGrupoAjustada</span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  imobilizado         receita          impostoRenda         lair        
  Min.   :  70042   Min.   :  404333   Min.   :  2021   Min.   :  15557  
@@ -499,7 +502,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 <p>A função <code>utl_tableStat</code> será responsável por cruzar esses grupos e aplicar a estatística descritiva desejada em cada combinação. Neste exemplo, utilizaremos o tamanho da amostra (<code>length</code>), a média (<code>mean</code>) e o desvio-padrão (<code>sd</code>) para avaliar o comportamento do percentual do imposto de renda de cada grupo.</p>
 <p>A seguir, apresentamos o uso da função <code>utl_tableStat</code> com a função <code>length</code>.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
 <span>  bd <span class="op">=</span> <span class="va">dt_irPorGrupoAjustada</span>, <span class="co"># Base de dados</span></span>
 <span>  grp1 <span class="op">=</span> <span class="st">"imobilizado"</span>, <span class="co"># Nome da variável do primeiro agrupamento</span></span>
 <span>  n_grp1 <span class="op">=</span> <span class="fl">3</span>, <span class="co"># Número de grupos do primeiro agrupamento</span></span>
@@ -507,7 +510,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 <span>  n_grp2 <span class="op">=</span> <span class="fl">3</span>, <span class="co"># Número de grupos do segundo agrupamento</span></span>
 <span>  value <span class="op">=</span> <span class="st">"percentualIR"</span>, <span class="co"># Variável na qual será aplicada a estatística descritiva</span></span>
 <span>  <span class="va">length</span> <span class="co"># Função de interesse</span></span>
-<span>  <span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>  <span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 4
 # Groups:   Stat_percentualIR [3]
@@ -523,7 +526,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 <p>Os maiores grupos identificados foram os de empresas com baixa receita e baixo imobilizado (receita_1 x imobilizado_1), com 9 observações, e o de alta receita com alto imobilizado (receita_3 x imobilizado_3), com 8 observações. Esse comportamento é esperado, pois há uma tendência de que quanto maior o investimento em imobilizado, maior também a receita. No entanto, é importante destacar que essa relação não é uma regra e deve ser analisada com cautela.</p>
 <p>Agora vamos usar a função <code>utl_tableStat</code> para saber a média do percentual de imposto de renda que cada grupo possui, conforme sua DRE. Usaremos a função <code>mean</code>.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
 <span>  bd <span class="op">=</span> <span class="va">dt_irPorGrupoAjustada</span>, <span class="co"># Base de dados</span></span>
 <span>  grp1 <span class="op">=</span> <span class="st">"imobilizado"</span>, <span class="co"># Nome da variável do primeiro agrupamento</span></span>
 <span>  n_grp1 <span class="op">=</span> <span class="fl">3</span>, <span class="co"># Número de grupos do primeiro agrupamento</span></span>
@@ -531,7 +534,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 <span>  n_grp2 <span class="op">=</span> <span class="fl">3</span>, <span class="co"># Número de grupos do segundo agrupamento</span></span>
 <span>  value <span class="op">=</span> <span class="st">"percentualIR"</span>, <span class="co"># Variável na qual será aplicada a estatística descritiva</span></span>
 <span>  <span class="va">mean</span> <span class="co"># Função de interesse</span></span>
-<span>  <span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>  <span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 4
 # Groups:   Stat_percentualIR [3]
@@ -544,7 +547,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 </div>
 <p>Interessante observar que o grupo mais intensivo em imobilizado e com maior receita apresenta uma carga tributária menor (17,0%) em comparação ao grupo menos intensivo em imobilizado e com menor receita (22,4%). Já a carga tributária mais elevada foi registrada no grupo intermediário, com receita média e baixa intensidade de imobilizado (55,5%). Para verificar se esses dados apresentam grande variação interna, aplicamos novamente a função <code>sd</code> para avaliar o desvio-padrão de cada grupo.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
 <span>  bd <span class="op">=</span> <span class="va">dt_irPorGrupoAjustada</span>, <span class="co"># Base de dados</span></span>
 <span>  grp1 <span class="op">=</span> <span class="st">"imobilizado"</span>, <span class="co"># Nome da variável do primeiro agrupamento</span></span>
 <span>  n_grp1 <span class="op">=</span> <span class="fl">3</span>, <span class="co"># Número de grupos do primeiro agrupamento</span></span>
@@ -552,7 +555,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 <span>  n_grp2 <span class="op">=</span> <span class="fl">3</span>, <span class="co"># Número de grupos do segundo agrupamento</span></span>
 <span>  value <span class="op">=</span> <span class="st">"percentualIR"</span>, <span class="co"># Variável na qual será aplicada a estatística descritiva</span></span>
 <span>  <span class="va">sd</span> <span class="co"># Função de interesse</span></span>
-<span>  <span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>  <span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 4
 # Groups:   Stat_percentualIR [3]
@@ -635,13 +638,14 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

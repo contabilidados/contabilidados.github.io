@@ -61,8 +61,8 @@ background-color: null;
 font-style: inherit;">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"</span></span></code></pre></div></div>
 </section><section id="forma-2-executar-o-arquivo-cntddupdater.bat" class="level3"><h3 class="anchored" data-anchor-id="forma-2-executar-o-arquivo-cntddupdater.bat">Forma 2: Executar o arquivo <code>cntddupdateR.bat</code>
 </h3>
-<p>O script Powershell irá baixar e executar automaticamente o arquivo <code>cntddupdateR.bat</code>. Também é possível executar esse arquivo diretamente, dando um clique duplo ou abrindo como administrador, para iniciar as instalações e atualizações necessárias.</p>
-<p>Realize o <a href="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat">download</a> e execute o cntddupdater.bat com clique duplo do mouse.</p>
+<p>Outra alternativa é utilizar o <code>cntddupdateR.bat</code>.</p>
+<p>Realize o <a href="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat" target="_blank">download</a> e execute o cntddupdater.bat com clique duplo do mouse.</p>
 <blockquote class="blockquote">
 <p>Dúvidas como instalar o pacote cntdd? <a href="https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html" target="_blank">Acesse Aqui</a></p>
 </blockquote>
@@ -90,7 +90,7 @@ font-style: inherit;">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | i
 <p>O primeiro passo é acessar a base de dados. Vamos utilizar a base <code>dt_contabil</code>, disponível no próprio pacote <code>cntdd</code>. Com a função <code>glimpse</code>, do pacote <code>dplyr</code>, é possível visualizar rapidamente a estrutura da base e entender quais variáveis estão disponíveis para análise.</p>
 <p>Acompanhe o passo a passo e veja como aplicar essa função para explorar seus dados contábeis de forma mais inteligente.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
@@ -122,7 +122,7 @@ font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">dt_contabil</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 60
 Columns: 38
@@ -169,7 +169,7 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
 <p>Vimos que a base de dados possui 38 variáveis e 60 linhas e, que para atender nosso interresse vamos precisar apenas do Ativo Imobilizado, Receita, Imposto de Renda e LAIR (para cálculo do percentual).</p>
 <p>Vamos criar uma base (objeto) chamada <code>dt_irPorGrupo</code> e, em seguida, vamos aplicar a função <code>summary</code> para ver estatísticas descritivas básicas das variáveis escolhidas.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">dt_irPorGrupo</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -211,7 +211,7 @@ font-style: inherit;">dt_irPorGrupo</span><span class="op" style="color: #5E5E5E
 background-color: null;
 font-style: inherit;">)</span> <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># faz estatísticas descritivas básicas com a base de dados</span></span></code></pre></div>
+font-style: inherit;"># faz estatísticas descritivas básicas com a base de dados</span></span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  imobilizado         receita          impostoRenda           lair         
  Min.   :  70042   Min.   :  404333   Min.   :-1307943   Min.   :-2075312  
@@ -225,7 +225,7 @@ font-style: inherit;"># faz estatísticas descritivas básicas com a base de dad
 </div>
 <p>Identificamos que algumas empresas apresentam observações com valores nulos (indicados por <code>NA</code> em todas as variáveis) e que outras possuem resultados com LAIR e IR negativos. Não entraremos no mérito das causas desses casos agora. Vamos remover essas observações para mostrar, na prática, como aplicar filtros no R e deixar nossa análise mais interessante neste post.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">dt_irPorGrupoAjustada</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -303,7 +303,7 @@ font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">dt_irPorGrupoAjustada</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 33
 Columns: 5
@@ -313,7 +313,7 @@ $ impostoRenda &lt;int&gt; 42304, 29475, 28327, 44309, 6186, 62273, 212759, 5730
 $ lair         &lt;int&gt; 162586, 189442, 176047, 212218, 56499, 418225, 803381, 18…
 $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.1094886…</code></pre>
 </div>
-<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -321,7 +321,7 @@ font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">dt_irPorGrupoAjustada</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  imobilizado         receita          impostoRenda         lair        
  Min.   :  70042   Min.   :  404333   Min.   :  2021   Min.   :  15557  
@@ -343,7 +343,7 @@ font-style: inherit;">)</span></span></code></pre></div>
 <p>A função <code>utl_tableStat</code> será responsável por cruzar esses grupos e aplicar a estatística descritiva desejada em cada combinação. Neste exemplo, utilizaremos o tamanho da amostra (<code>length</code>), a média (<code>mean</code>) e o desvio-padrão (<code>sd</code>) para avaliar o comportamento do percentual do imposto de renda de cada grupo.</p>
 <p>A seguir, apresentamos o uso da função <code>utl_tableStat</code> com a função <code>length</code>.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -397,7 +397,7 @@ background-color: null;
 font-style: inherit;"># Função de interesse</span></span>
 <span>  <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 4
 # Groups:   Stat_percentualIR [3]
@@ -413,7 +413,7 @@ font-style: inherit;">)</span></span></code></pre></div>
 <p>Os maiores grupos identificados foram os de empresas com baixa receita e baixo imobilizado (receita_1 x imobilizado_1), com 9 observações, e o de alta receita com alto imobilizado (receita_3 x imobilizado_3), com 8 observações. Esse comportamento é esperado, pois há uma tendência de que quanto maior o investimento em imobilizado, maior também a receita. No entanto, é importante destacar que essa relação não é uma regra e deve ser analisada com cautela.</p>
 <p>Agora vamos usar a função <code>utl_tableStat</code> para saber a média do percentual de imposto de renda que cada grupo possui, conforme sua DRE. Usaremos a função <code>mean</code>.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -467,7 +467,7 @@ background-color: null;
 font-style: inherit;"># Função de interesse</span></span>
 <span>  <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 4
 # Groups:   Stat_percentualIR [3]
@@ -480,7 +480,7 @@ font-style: inherit;">)</span></span></code></pre></div>
 </div>
 <p>Interessante observar que o grupo mais intensivo em imobilizado e com maior receita apresenta uma carga tributária menor (17,0%) em comparação ao grupo menos intensivo em imobilizado e com menor receita (22,4%). Já a carga tributária mais elevada foi registrada no grupo intermediário, com receita média e baixa intensidade de imobilizado (55,5%). Para verificar se esses dados apresentam grande variação interna, aplicamos novamente a função <code>sd</code> para avaliar o desvio-padrão de cada grupo.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -534,7 +534,7 @@ background-color: null;
 font-style: inherit;"># Função de interesse</span></span>
 <span>  <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 4
 # Groups:   Stat_percentualIR [3]

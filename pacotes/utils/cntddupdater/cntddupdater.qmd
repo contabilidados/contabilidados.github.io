@@ -94,13 +94,9 @@ powershell -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "irm 'https://get
 
 ### Forma 2: Executar o arquivo `cntddupdateR.bat`
 
-O script Powershell irá baixar e executar automaticamente o arquivo
-`cntddupdateR.bat`. Também é possível executar esse arquivo diretamente,
-dando um clique duplo ou abrindo como administrador, para iniciar as
-instalações e atualizações necessárias.
+Outra alternativa é utilizar o `cntddupdateR.bat`. 
 
-Realize o
-[download](https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat)
+Realize o [download](https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat){target="_blank"}
 e execute o cntddupdater.bat com clique duplo do mouse.
 
 > Dúvidas como instalar o pacote cntdd? [Acesse
