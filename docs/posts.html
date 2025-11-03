@@ -143,7 +143,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
@@ -455,7 +456,7 @@ window.Quarto = {
   <li><a href="#posts-sobre-análise-de-dados" id="toc-posts-sobre-análise-de-dados" class="nav-link" data-scroll-target="#posts-sobre-análise-de-dados">Posts sobre Análise de Dados</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="QWNjcnVhbHM="><span class="quarto-category-count category-cloud-1">Accruals</span></div><div class="category" data-category="QW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw=="><span class="quarto-category-count category-cloud-1">Análise de Dados</span></div><div class="category" data-category="QW5hbHl0aWNz"><span class="quarto-category-count category-cloud-1">Analytics</span></div><div class="category" data-category="QXNzaW1ldHJpYQ=="><span class="quarto-category-count category-cloud-1">Assimetria</span></div><div class="category" data-category="Q0FQTQ=="><span class="quarto-category-count category-cloud-1">CAPM</span></div><div class="category" data-category="Y250ZGQ="><span class="quarto-category-count category-cloud-1">cntdd</span></div><div class="category" data-category="Q29udGFiaWxpZGFkZQ=="><span class="quarto-category-count category-cloud-5">Contabilidade</span></div><div class="category" data-category="RGlzY2xvc3VyZQ=="><span class="quarto-category-count category-cloud-1">Disclosure</span></div><div class="category" data-category="RGl2aWRlbmRvcw=="><span class="quarto-category-count category-cloud-1">Dividendos</span></div><div class="category" data-category="RW5kaXZpZGFtZW50bw=="><span class="quarto-category-count category-cloud-1">Endividamento</span></div><div class="category" data-category="RkNE"><span class="quarto-category-count category-cloud-1">FCD</span></div><div class="category" data-category="RmluYW4lQzMlQTdhcw=="><span class="quarto-category-count category-cloud-6">Finanças</span></div><div class="category" data-category="R292ZXJuYW4lQzMlQTdh"><span class="quarto-category-count category-cloud-3">Governança</span></div><div class="category" data-category="SGlzdCVDMyVCM3JpYQ=="><span class="quarto-category-count category-cloud-1">História</span></div><div class="category" data-category="SE1F"><span class="quarto-category-count category-cloud-2">HME</span></div><div class="category" data-category="SUZSUyUyRklBUyUyRkNQQw=="><span class="quarto-category-count category-cloud-1">IFRS/IAS/CPC</span></div><div class="category" data-category="TWVuc3VyYSVDMyVBNyVDMyVBM28="><span class="quarto-category-count category-cloud-1">Mensuração</span></div><div class="category" data-category="UGVzcXVpc2E="><span class="quarto-category-count category-cloud-1">Pesquisa</span></div><div class="category" data-category="Ug=="><span class="quarto-category-count category-cloud-1">R</span></div><div class="category" data-category="UmVndWxhJUMzJUE3JUMzJUEzbw=="><span class="quarto-category-count category-cloud-1">Regulação</span></div><div class="category" data-category="UmVtdW5lcmElQzMlQTclQzMlQTNv"><span class="quarto-category-count category-cloud-1">Remuneração</span></div><div class="category" data-category="U2VudGltZW50bw=="><span class="quarto-category-count category-cloud-1">Sentimento</span></div><div class="category" data-category="U2hvcnQtVGVybWlzbQ=="><span class="quarto-category-count category-cloud-1">Short-Termism</span></div><div class="category" data-category="VGVvcmlh"><span class="quarto-category-count category-cloud-2">Teoria</span></div><div class="category" data-category="VmFsdWUlMjByZWxldmFuY2U="><span class="quarto-category-count category-cloud-1">Value relevance</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="QWNjcnVhbHM="><span class="quarto-category-count category-cloud-1">Accruals</span></div><div class="category" data-category="QW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw=="><span class="quarto-category-count category-cloud-1">Análise de Dados</span></div><div class="category" data-category="QW5hbHl0aWNz"><span class="quarto-category-count category-cloud-1">Analytics</span></div><div class="category" data-category="QXNzaW1ldHJpYQ=="><span class="quarto-category-count category-cloud-1">Assimetria</span></div><div class="category" data-category="Q0FQTQ=="><span class="quarto-category-count category-cloud-1">CAPM</span></div><div class="category" data-category="Y250ZGQ="><span class="quarto-category-count category-cloud-1">cntdd</span></div><div class="category" data-category="Q29udGFiaWxpZGFkZQ=="><span class="quarto-category-count category-cloud-5">Contabilidade</span></div><div class="category" data-category="RGlzY2xvc3VyZQ=="><span class="quarto-category-count category-cloud-1">Disclosure</span></div><div class="category" data-category="RGl2aWRlbmRvcw=="><span class="quarto-category-count category-cloud-1">Dividendos</span></div><div class="category" data-category="RW5kaXZpZGFtZW50bw=="><span class="quarto-category-count category-cloud-1">Endividamento</span></div><div class="category" data-category="RkNE"><span class="quarto-category-count category-cloud-1">FCD</span></div><div class="category" data-category="RmluYW4lQzMlQTdhcw=="><span class="quarto-category-count category-cloud-6">Finanças</span></div><div class="category" data-category="R292ZXJuYW4lQzMlQTdh"><span class="quarto-category-count category-cloud-2">Governança</span></div><div class="category" data-category="SGlzdCVDMyVCM3JpYQ=="><span class="quarto-category-count category-cloud-1">História</span></div><div class="category" data-category="SE1F"><span class="quarto-category-count category-cloud-1">HME</span></div><div class="category" data-category="SUZSUyUyRklBUyUyRkNQQw=="><span class="quarto-category-count category-cloud-1">IFRS/IAS/CPC</span></div><div class="category" data-category="TWF0dXJpZGFkZSUyMEFuYWwlQzMlQUR0aWNh"><span class="quarto-category-count category-cloud-1">Maturidade Analítica</span></div><div class="category" data-category="TWVuc3VyYSVDMyVBNyVDMyVBM28="><span class="quarto-category-count category-cloud-1">Mensuração</span></div><div class="category" data-category="UGVzcXVpc2E="><span class="quarto-category-count category-cloud-1">Pesquisa</span></div><div class="category" data-category="Ug=="><span class="quarto-category-count category-cloud-1">R</span></div><div class="category" data-category="UmVmb3JtYSUyMFRyaWJ1dCVDMyVBMXJpYQ=="><span class="quarto-category-count category-cloud-1">Reforma Tributária</span></div><div class="category" data-category="UmVndWxhJUMzJUE3JUMzJUEzbw=="><span class="quarto-category-count category-cloud-1">Regulação</span></div><div class="category" data-category="UmVtdW5lcmElQzMlQTclQzMlQTNv"><span class="quarto-category-count category-cloud-1">Remuneração</span></div><div class="category" data-category="U2VudGltZW50bw=="><span class="quarto-category-count category-cloud-1">Sentimento</span></div><div class="category" data-category="U2hvcnQtVGVybWlzbQ=="><span class="quarto-category-count category-cloud-1">Short-Termism</span></div><div class="category" data-category="VGVvcmlh"><span class="quarto-category-count category-cloud-2">Teoria</span></div><div class="category" data-category="VmFsdWUlMjByZWxldmFuY2U="><span class="quarto-category-count category-cloud-1">Value relevance</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -1774,7 +1775,42 @@ Kléber Formiga Miranda
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y250ZGQ=" data-listing-date-sort="1735873200000" data-listing-file-modified-sort="1761586846984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="722">
+<div class="quarto-post image-right" data-index="0" data-categories="UmVmb3JtYSUyMFRyaWJ1dCVDMyVBMXJpYSUyQ0FuJUMzJUExbGlzZSUyMGRlJTIwRGFkb3MlMkNNYXR1cmlkYWRlJTIwQW5hbCVDMyVBRHRpY2E=" data-listing-date-sort="1762138800000" data-listing-file-modified-sort="1762175036088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="541">
+<div class="thumbnail"><a href="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html" class="no-external">
+
+<img loading="lazy" src="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.PNG" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html" class="no-external">Exigências de Maturidade Analítica na Reforma Tributária: por que sua empresa precisa evoluir agora?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html" class="no-external">Post</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVmb3JtYSUyMFRyaWJ1dCVDMyVBMXJpYQ=='); return false;">Reforma Tributária</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw=='); return false;">Análise de Dados</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWF0dXJpZGFkZSUyMEFuYWwlQzMlQUR0aWNh'); return false;">Maturidade Analítica</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html" class="no-external">
+<div class="listing-date">
+3 de nov. de 2025
+</div>
+<div class="listing-author">
+Kléber Formiga Miranda
+</div>
+<div class="listing-reading-time">3 minutos</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Y250ZGQ=" data-listing-date-sort="1735873200000" data-listing-file-modified-sort="1761586846984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="722">
 <div class="thumbnail"><a href="./posts/dados/mascote/mascote.html" class="no-external">
 
 <img loading="lazy" src="./posts/dados/mascote/mascote.jpg" class="thumbnail-image">
@@ -1805,7 +1841,7 @@ Kléber Formiga, Alexsandro Prado, Yuri Azevedo
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1709262000000" data-listing-file-modified-sort="1761586846980" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="373">
+<div class="quarto-post image-right" data-index="2" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1709262000000" data-listing-file-modified-sort="1761586846980" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="373">
 <div class="thumbnail"><a href="./posts/dados/instalacntdd/instalacntdd.html" class="no-external">
 
 <img loading="lazy" src="./posts/dados/instalacntdd/instalacntdd_destaque.png" class="thumbnail-image">
@@ -1840,10 +1876,10 @@ Alexsandro Prado
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1707102000000" data-listing-file-modified-sort="1761586846979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
+<div class="quarto-post image-right" data-index="3" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1707102000000" data-listing-file-modified-sort="1761586846979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
 <div class="thumbnail"><a href="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.html" class="no-external">
 
-<img loading="lazy" src="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" class="thumbnail-image">
+<img loading="lazy" data-src="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
@@ -1877,6 +1913,9 @@ Kléber Formiga Miranda
 </div>
 </div>
 <div class="listing-no-matching d-none">Nenhum item correspondente</div>
+<nav id="dados-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 
 

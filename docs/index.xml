@@ -6,20 +6,64 @@
       version="2.0">
 <channel>
 <title>contabiliDados</title>
-<link>https://contabilidados.github.io/</link>
-<atom:link href="https://contabilidados.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://contabilidados.com.br/</link>
+<atom:link href="https://contabilidados.com.br/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.24</generator>
-<lastBuildDate>Wed, 29 Oct 2025 03:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 03 Nov 2025 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Exigências de Maturidade Analítica na Reforma Tributária: por que sua empresa precisa evoluir agora?</title>
+  <dc:creator>Kléber Formiga Miranda</dc:creator>
+  <link>https://contabilidados.com.br/posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.com.br/posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+</figure>
+</div>
+<p>A Reforma Tributária, estabelecida pela Emenda Constitucional nº 132/2023, está redefinindo completamente a forma como o consumo é tributado no Brasil. O novo modelo traz promessas de simplificação, mas também amplia as exigências de gestão, controle e análise de dados.</p>
+<p>Nesse cenário, a <strong>maturidade analítica das empresas</strong> (<a href="https://periodicos.fgv.br/gvexecutivo/article/view/89909/84370" target="_blank">saiba mais aqui</a>), independentemente do porte, será decisiva para garantir conformidade fiscal, reduzir riscos e aproveitar oportunidades de eficiência tributária.</p>
+<p>Segue uma lista de exigências fiscais que impactam na maturidade analítica das empresas.</p>
+<p><strong>1. Integração de dados fiscais e operacionais</strong></p>
+<p>Com a criação do IVA Dual (CBS e IBS), integrar dados de compras, vendas, estoques e operações fiscais em tempo real passa a ser obrigatório. Sistemas integrados permitem o cálculo automático e preciso dos créditos, débitos e saldos, evitando erros e retrabalhos.</p>
+<p><strong>2. Rastreabilidade e transparência nas operações</strong></p>
+<p>O novo modelo exige rastreabilidade completa do valor agregado em cada etapa da cadeia produtiva. Isso significa que as empresas precisarão demonstrar de forma clara quanto tributo foi embutido em produtos e serviços, tendo que apresentar relatórios organizados e auditáveis para o fisco.</p>
+<p><strong>3. Capacidade de simulação tributária</strong></p>
+<p>Simular diferentes cenários tributários se tornará uma prática diária. Mudanças de fornecedores, variações de alíquotas, novas restrições de crédito e outras informações poderão ser testados rapidamente se, por exemplo, a empresa utilizar ferramentas de Business Intelligence (BI), que agora ganham papel estratégico nas decisões de negócio. A precificação passa, essencialmente, por essa etapa.</p>
+<p><strong>4. Atualização constante de regras</strong></p>
+<p>Em um ambiente tributário em transformação, a agilidade para incorporar mudanças regulatórias é essencial. Ambientes de dados flexíveis garantem que novas portarias, decretos ou restrições setoriais sejam refletidos de imediato nas análises, evitando autuações e perdas de crédito.</p>
+<p><strong>5. Visualização e monitoramento de indicadores</strong></p>
+<p>Os gestores precisarão acompanhar de perto indicadores (KPIs) como carga tributária média, créditos acumulados, eficiência no aproveitamento de créditos e o impacto fiscal na precificação. Painéis visuais e relatórios inteligentes tornam esse acompanhamento mais intuitivo e estratégico.</p>
+<p><strong>6. Qualificação da equipe</strong></p>
+<p>Ferramentas sozinhas não bastam. É indispensável investir em capacitação analítica, promovendo uma cultura orientada por dados. Profissionais com visão tributária e domínio de análise poderão conectar as informações geradas às metas estratégicas do negócio. Pequenos empreendimentos precisarão de um suporte qualificado em dados para perceber mudanças de forma ágil.</p>
+<p><strong>Exemplo prático</strong> 📝</p>
+<p>Imagine uma pequena indústria que compra insumos de um fornecedor com IBS destacado. Com um sistema analítico integrado, o gestor acompanha em tempo real o saldo de créditos disponíveis e simula o impacto da troca de fornecedor sobre o fluxo de caixa e o preço final do produto. Essa visibilidade permite decisões mais rápidas, seguras e lucrativas, mantendo sempre a conformidade com as novas exigências fiscais.</p>
+<p><strong>Oportunidades, riscos e alertas</strong> 💡📉📌🔎</p>
+<p><strong>Oportunidade</strong>: automatizar rotinas e análises, reduzindo custos e liberando a equipe para decisões estratégicas.</p>
+<p><strong>Risco</strong>: falta de integração de sistemas pode gerar perda de créditos e comprometer o caixa.</p>
+<p><strong>Ponto de atenção</strong>: acompanhar de perto as regulamentações pendentes sobre créditos, regras de transição e restrições setoriais, pois elas afetarão diretamente o modelo analítico adotado.</p>
+<blockquote class="blockquote">
+<p>Aspectos como a definição das alíquotas finais, a aplicação do split payment e as regras de apropriação de créditos por setor ainda serão detalhados por regulamentação futura. Empresas que estruturarem desde já seus modelos analíticos com flexibilidade estarão mais preparadas para se adaptar rapidamente.</p>
+</blockquote>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>Reforma Tributária</category>
+  <category>Análise de Dados</category>
+  <category>Maturidade Analítica</category>
+  <guid>https://contabilidados.com.br/posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html</guid>
+  <pubDate>Mon, 03 Nov 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.com.br/posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.PNG" medium="image"/>
+</item>
 <item>
   <title>Inteligência Artificial na pesquisa científica</title>
   <dc:creator>cntdd </dc:creator>
-  <link>https://contabilidados.github.io/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html</link>
+  <link>https://contabilidados.com.br/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html</link>
   <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>ECICONT - I Encontro Científico em Contabilidade da UFERSA<br><b>Link do evento:</b> <a href="https://www.even3.com.br/ecicont-611668/">https://www.even3.com.br/ecicont-611668/</a><br><b>Lugar: </b>Núcleo de Práticas Contábeis (NPC) - UFERSA<br><h2 class="anchored">
 Materiais
 </h2>
 <br><center>
-<a href="" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-"></i> </button></a> <br><br><img src="https://contabilidados.github.io/eventos/ecicont2025_IApesquisa/figs/ecicont2025_IApesquisa.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+<a href="" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-"></i> </button></a> <br><br><img src="https://contabilidados.com.br/eventos/ecicont2025_IApesquisa/figs/ecicont2025_IApesquisa.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
 </center>
 <p><br></p>
 <p>Palestra com o objetivo de apresentar como plataformas de Inteligência Artificial (IA) podem otimizar o processo de pesquisas científicas e discutir sobre boas práticas de integridade e uso ético da IA no âmbito acadêmico.</p>
@@ -31,19 +75,19 @@ Materiais
   <category>R</category>
   <category>Economatica</category>
   <category>Análise de Dados</category>
-  <guid>https://contabilidados.github.io/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html</guid>
+  <guid>https://contabilidados.com.br/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html</guid>
   <pubDate>Wed, 29 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/eventos/ecicont2025_IApesquisa/figs/ecicont2025_IApesquisa.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://contabilidados.com.br/eventos/ecicont2025_IApesquisa/figs/ecicont2025_IApesquisa.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Introdução à plataforma Economatica</title>
   <dc:creator>cntdd </dc:creator>
-  <link>https://contabilidados.github.io/eventos/ecicont2025_economatica/ecicont2025_economatica.html</link>
+  <link>https://contabilidados.com.br/eventos/ecicont2025_economatica/ecicont2025_economatica.html</link>
   <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>ECICONT - I Encontro Científico em Contabilidade da UFERSA<br><b>Link do evento:</b> <a href="https://www.even3.com.br/ecicont-611668/">https://www.even3.com.br/ecicont-611668/</a><br><b>Lugar: </b>Laboratório 3 - Central de Aulas III - UFERSA<br><h2 class="anchored">
 Materiais
 </h2>
 <br><center>
-<a href="https://drive.google.com/file/d/1YyspVlDjJMpVjc5we83HOERbVINflfMO/view?usp=sharing" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Apostila</button></a> <br><br><img src="https://contabilidados.github.io/eventos/ecicont2025_economatica/figs/ecicont2025_economatica.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+<a href="https://drive.google.com/file/d/1YyspVlDjJMpVjc5we83HOERbVINflfMO/view?usp=sharing" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Apostila</button></a> <br><br><img src="https://contabilidados.com.br/eventos/ecicont2025_economatica/figs/ecicont2025_economatica.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
 </center>
 <p><br></p>
 <p>Oficina com o objetivo de demonstrar como utilizar a plataforma Economática para pesquisa financeira e contábil, com foco em análise de empresas, indicadores e séries temporais.</p>
@@ -55,19 +99,19 @@ Materiais
   <category>R</category>
   <category>Economatica</category>
   <category>Análise de Dados</category>
-  <guid>https://contabilidados.github.io/eventos/ecicont2025_economatica/ecicont2025_economatica.html</guid>
+  <guid>https://contabilidados.com.br/eventos/ecicont2025_economatica/ecicont2025_economatica.html</guid>
   <pubDate>Wed, 29 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/eventos/ecicont2025_economatica/figs/ecicont2025_economatica.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://contabilidados.com.br/eventos/ecicont2025_economatica/figs/ecicont2025_economatica.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Introdução ao R e RStudio</title>
   <dc:creator>cntdd </dc:creator>
-  <link>https://contabilidados.github.io/eventos/ecicont2025_introR/ecicont2025_introR.html</link>
+  <link>https://contabilidados.com.br/eventos/ecicont2025_introR/ecicont2025_introR.html</link>
   <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>ECICONT - I Encontro Científico em Contabilidade da UFERSA<br><b>Link do evento:</b> <a href="https://www.even3.com.br/ecicont-611668/">https://www.even3.com.br/ecicont-611668/</a><br><b>Lugar: </b>Laboratório 3 - Central de Aulas III - UFERSA<br><h2 class="anchored">
 Materiais
 </h2>
 <br><center>
-<a href="https://drive.google.com/file/d/1OOXMREMiI_6pBX74Hemt2GMtMkt2gWJO/view?usp=sharing" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Slides</button></a> <br><br><img src="https://contabilidados.github.io/eventos/ecicont2025_introR/figs/ecicont2025_introR.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+<a href="https://drive.google.com/file/d/1OOXMREMiI_6pBX74Hemt2GMtMkt2gWJO/view?usp=sharing" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Slides</button></a> <br><br><img src="https://contabilidados.com.br/eventos/ecicont2025_introR/figs/ecicont2025_introR.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
 </center>
 <p><br></p>
 <p>Oficina com o objetivo de introduzir o uso do R e do RStudio para análise de dados estatísticos, com foco em aplicações básicas voltadas à pesquisa acadêmica em ciências sociais aplicadas.</p>
@@ -79,17 +123,17 @@ Materiais
   <category>R</category>
   <category>Economatica</category>
   <category>Análise de Dados</category>
-  <guid>https://contabilidados.github.io/eventos/ecicont2025_introR/ecicont2025_introR.html</guid>
+  <guid>https://contabilidados.com.br/eventos/ecicont2025_introR/ecicont2025_introR.html</guid>
   <pubDate>Wed, 29 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/eventos/ecicont2025_introR/figs/ecicont2025_introR.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://contabilidados.com.br/eventos/ecicont2025_introR/figs/ecicont2025_introR.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Atualização automatizada do ambiente R com cntddupdateR</title>
   <dc:creator>Alexsandro Prado</dc:creator>
-  <link>https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.html</link>
+  <link>https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+<figure class="figure"><p><img src="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
 </figure>
 </div>
 <section id="contextualização" class="level2"><h2 class="anchored" data-anchor-id="contextualização">Contextualização</h2>
@@ -139,17 +183,17 @@ font-style: inherit;">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | i
 
 </section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>cntdd</category>
-  <guid>https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.html</guid>
+  <guid>https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.html</guid>
   <pubDate>Tue, 28 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/pacotes/utils/cntddupdater/cntddupdater.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Função utl_tableStat do pacote CNTDD</title>
   <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/pacotes/utils/utl_tableStat/utl_tableStat.html</link>
+  <link>https://contabilidados.com.br/pacotes/utils/utl_tableStat/utl_tableStat.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.github.io/pacotes/utils/utl_tableStat/utl_tableStat.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+<figure class="figure"><p><img src="https://contabilidados.com.br/pacotes/utils/utl_tableStat/utl_tableStat.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
 </figure>
 </div>
 <p><strong>Você já precisou analisar como diferentes características das empresas se relacionam entre si?</strong></p>
@@ -624,17 +668,17 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>cntdd</category>
-  <guid>https://contabilidados.github.io/pacotes/utils/utl_tableStat/utl_tableStat.html</guid>
+  <guid>https://contabilidados.com.br/pacotes/utils/utl_tableStat/utl_tableStat.html</guid>
   <pubDate>Tue, 28 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/pacotes/utils/utl_tableStat/utl_tableStat.PNG" medium="image"/>
+  <media:content url="https://contabilidados.com.br/pacotes/utils/utl_tableStat/utl_tableStat.PNG" medium="image"/>
 </item>
 <item>
   <title>Short-termism: reflexões sobre o impacto do horizonte de investimento curto nas decisões corporativas</title>
   <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/finance/shortTermism_conceitos/shortTermism_conceitos.html</link>
+  <link>https://contabilidados.com.br/posts/finance/shortTermism_conceitos/shortTermism_conceitos.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.github.io/posts/finance/shortTermism_conceitos/shortTermism_conceitos.PNG" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+<figure class="figure"><p><img src="https://contabilidados.com.br/posts/finance/shortTermism_conceitos/shortTermism_conceitos.PNG" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
 </figure>
 </div>
 <p>Ao longo da pesquisa para minha tese sobre o sentimento do investidor e o horizonte de investimento, observei como a orientação para resultados de curto prazo influencia as decisões estratégicas das empresas brasileiras listadas na B3. Durante o estudo, deparei-me com o termo <em>Short-Termism</em>, que pode ser traduzido literalmente como <em>curtoprazismo</em>. Esse conceito descreve a tendência de gestores adotarem decisões voltadas à maximização imediata do preço das ações, a fim de atender investidores com horizonte de curto prazo. Exemplos incluem a emissão de dívida de menor custo e o estímulo a investimentos de retorno rápido, ainda que essas práticas possam comprometer o valor fundamental no longo prazo. Essa reflexão foi desenvolvida com base no sentimento do investidor, considerando que empresas podem aproveitar momentos de otimismo no mercado para tomar decisões que satisfaçam os interesses dos <em>curtoprazistas</em>.</p>
@@ -652,17 +696,17 @@ font-style: inherit;">)</span></span></code></pre></div></div>
   <category>Short-Termism</category>
   <category>Finanças</category>
   <category>Governança</category>
-  <guid>https://contabilidados.github.io/posts/finance/shortTermism_conceitos/shortTermism_conceitos.html</guid>
+  <guid>https://contabilidados.com.br/posts/finance/shortTermism_conceitos/shortTermism_conceitos.html</guid>
   <pubDate>Mon, 27 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/finance/shortTermism_conceitos/shortTermism_conceitos.PNG" medium="image"/>
+  <media:content url="https://contabilidados.com.br/posts/finance/shortTermism_conceitos/shortTermism_conceitos.PNG" medium="image"/>
 </item>
 <item>
   <title>A contabilidade nunca mais será a mesma!</title>
   <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html</link>
+  <link>https://contabilidados.com.br/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.github.io/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+<figure class="figure"><p><img src="https://contabilidados.com.br/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
 </figure>
 </div>
 <p>Nos últimos meses, as transformações impulsionadas pela ciência de dados e inteligência artificial têm redesenhado o papel do contador e a maneira como as empresas tomam decisões financeiras.</p>
@@ -685,16 +729,16 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>Contabilidade</category>
   <category>Análise de Dados</category>
-  <guid>https://contabilidados.github.io/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html</guid>
+  <guid>https://contabilidados.com.br/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html</guid>
   <pubDate>Fri, 24 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://contabilidados.com.br/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>O Coiote como Mascote Ideal para o Projeto Contabilidados</title>
   <dc:creator>Kléber Formiga</dc:creator>
   <dc:creator>Alexsandro Prado</dc:creator>
   <dc:creator>Yuri Azevedo</dc:creator>
-  <link>https://contabilidados.github.io/posts/dados/mascote/mascote.html</link>
+  <link>https://contabilidados.com.br/posts/dados/mascote/mascote.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <style>
 .image-left {
@@ -707,7 +751,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 }
 </style>
 <div class="text-wrapper">
-<p><img src="https://contabilidados.github.io/posts/dados/mascote/mascote.jpg" title="Logo" class="image-left img-fluid" width="245"> No universo acadêmico e científico, escolher um mascote para representar um grupo de pesquisa é mais do que apenas uma decisão estética ou divertida. A escolha deve refletir valores, objetivos e características que traduzam a essência do trabalho desenvolvido. No caso do <strong>Projeto de Pesquisa contabiliDados</strong>, que foca na análise de dados contábeis, o <strong>Coiote</strong> é uma escolha criativa, simbólica e surpreendentemente alinhada com o contexto acadêmico. Inspirado na infância de seus idealizadores, o projeto encontrou no Coiote dos Looney Tunes um símbolo perfeito, com características que refletem e representam o espírito e os valores que orientam sua missão.</p>
+<p><img src="https://contabilidados.com.br/posts/dados/mascote/mascote.jpg" title="Logo" class="image-left img-fluid" width="245"> No universo acadêmico e científico, escolher um mascote para representar um grupo de pesquisa é mais do que apenas uma decisão estética ou divertida. A escolha deve refletir valores, objetivos e características que traduzam a essência do trabalho desenvolvido. No caso do <strong>Projeto de Pesquisa contabiliDados</strong>, que foca na análise de dados contábeis, o <strong>Coiote</strong> é uma escolha criativa, simbólica e surpreendentemente alinhada com o contexto acadêmico. Inspirado na infância de seus idealizadores, o projeto encontrou no Coiote dos Looney Tunes um símbolo perfeito, com características que refletem e representam o espírito e os valores que orientam sua missão.</p>
 <p><strong>Persistência e Resiliência</strong>: O Coiote é famoso por sua determinação em alcançar suas metas, mesmo diante de falhas repetidas. Quem nunca assistiu às suas aventuras com o Papa-Léguas, onde ele tenta – e falha – inúmeras vezes, mas nunca desiste?</p>
 <p>Essa característica é um reflexo direto do trabalho em análise de dados contábeis. Pesquisadores enfrentam desafios complexos, como bases de dados imensas, inconsistências nos registros e hipóteses que nem sempre se confirmam. Persistir, ajustar estratégias e tentar novamente são práticas comuns e indispensáveis. Assim como o Coiote, o grupo contabiliDados compreende que <em>o fracasso é uma etapa natural no caminho para o sucesso</em>.</p>
 <p><strong>Capacidade de Resolver Problemas</strong>: O Coiote é uma figura que exala criatividade. Apesar de suas engenhocas nem sempre funcionarem, ele nunca deixa de inventar soluções inovadoras para capturar seu objetivo.</p>
@@ -730,14 +774,14 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>cntdd</category>
-  <guid>https://contabilidados.github.io/posts/dados/mascote/mascote.html</guid>
+  <guid>https://contabilidados.com.br/posts/dados/mascote/mascote.html</guid>
   <pubDate>Fri, 03 Jan 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/dados/mascote/mascote.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://contabilidados.com.br/posts/dados/mascote/mascote.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Conflitos entre IFRS/CPC e Normas Fiscais da Receita Federal</title>
   <dc:creator>Alexsandro Prado</dc:creator>
-  <link>https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.html</link>
+  <link>https://contabilidados.com.br/posts/contabil/cpcVersusReceita/cpcVersusReceita.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <style>
   .left-aligned {
@@ -745,7 +789,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
   }
 </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" width="330"></p>
+<figure class="figure"><p><img src="https://contabilidados.com.br/posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" width="330"></p>
 </figure>
 </div>
 <section id="introdução" class="level2"><h2 class="anchored" data-anchor-id="introdução">Introdução</h2>
@@ -812,19 +856,19 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>Contabilidade</category>
   <category>Teoria</category>
-  <guid>https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.html</guid>
+  <guid>https://contabilidados.com.br/posts/contabil/cpcVersusReceita/cpcVersusReceita.html</guid>
   <pubDate>Thu, 20 Jun 2024 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" medium="image" type="image/webp"/>
+  <media:content url="https://contabilidados.com.br/posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>Introdução ao Software R</title>
   <dc:creator>Alexsandro Prado</dc:creator>
-  <link>https://contabilidados.github.io/eventos/introR/introR.html</link>
+  <link>https://contabilidados.com.br/eventos/introR/introR.html</link>
   <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>V Ciclo de Capacitação Metodológica do PPGA<br><b>Link do evento:</b> <a href="https://www.instagram.com/p/C7y9-APAJ98/?igsh=MTdtcWQ0Y2t3eG02bQ==">https://www.instagram.com/p/C7y9-APAJ98/?igsh=MTdtcWQ0Y2t3eG02bQ==</a><br><b>Lugar: </b>UFERSA LCC Laboratório 1<br><h2 class="anchored">
 Materiais
 </h2>
 <br><center>
-<a href="https://rpubs.com/contabilidados/introducaoR" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-person-chalkboard"></i> Slide</button></a> <a href="https://posit.cloud/content/8320225" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-rocket"></i> Dados</button></a> <br><br><img src="https://contabilidados.github.io/eventos/introR/evento.jpg" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+<a href="https://rpubs.com/contabilidados/introducaoR" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-person-chalkboard"></i> Slide</button></a> <a href="https://posit.cloud/content/8320225" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-rocket"></i> Dados</button></a> <br><br><img src="https://contabilidados.com.br/eventos/introR/evento.jpg" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
 </center>
 <p><br></p>
 <p>A palestra apresentou uma uma noção sobre o R e seu uso em pesquisas. Importação, tratamento de dados, criação de uma função e realização de testes de regressão múltipla e logit.</p>
@@ -834,17 +878,17 @@ Materiais
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>R</category>
   <category>Economatica</category>
-  <guid>https://contabilidados.github.io/eventos/introR/introR.html</guid>
+  <guid>https://contabilidados.com.br/eventos/introR/introR.html</guid>
   <pubDate>Tue, 11 Jun 2024 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/eventos/introR/evento.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://contabilidados.com.br/eventos/introR/evento.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Poison Pills: Compreenda como funciona esse mecanismo de governança corporativa</title>
   <dc:creator>Yuri Gomes Paiva Azevedo</dc:creator>
-  <link>https://contabilidados.github.io/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html</link>
+  <link>https://contabilidados.com.br/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.github.io/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+<figure class="figure"><p><img src="https://contabilidados.com.br/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
 </figure>
 </div>
 <p>Nesse texto, vamos apresentar o que são <em>Poison Pills</em> para te ajudar a compreender como elas protegem as companhias contra tentativas hostis de aquisição de controle. Sendo assim, abordaremos os seguintes tópicos:</p>
@@ -891,17 +935,17 @@ Materiais
 </section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>Finanças</category>
   <category>Governança</category>
-  <guid>https://contabilidados.github.io/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html</guid>
+  <guid>https://contabilidados.com.br/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html</guid>
   <pubDate>Thu, 06 Jun 2024 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.webp" medium="image" type="image/webp"/>
+  <media:content url="https://contabilidados.com.br/posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>Instalando o pacote CNTDD no R</title>
   <dc:creator>Alexsandro Prado</dc:creator>
-  <link>https://contabilidados.github.io/posts/dados/instalacntdd/instalacntdd.html</link>
+  <link>https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.github.io/posts/dados/instalacntdd/instalacntdd_logo.png" title="logo" class="img-fluid quarto-figure quarto-figure-center figure-img" width="245"></p>
+<figure class="figure"><p><img src="https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd_logo.png" title="logo" class="img-fluid quarto-figure quarto-figure-center figure-img" width="245"></p>
 </figure>
 </div>
 <p>A seguir vamos aprender a instalar o pacote cntdd que pode ser muito útil para contadores e profissionais de finanças.Este pacote está hospedado no <a href="https://github.com/contabilidados/cntdd">GitHub</a> e pode ser instalado usando a função <code>install_github</code> do pacote <code>devtools</code>.</p>
@@ -1091,16 +1135,16 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
   <category>Contabilidade</category>
   <category>Analytics</category>
   <category>R</category>
-  <guid>https://contabilidados.github.io/posts/dados/instalacntdd/instalacntdd.html</guid>
+  <guid>https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html</guid>
   <pubDate>Fri, 01 Mar 2024 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/dados/instalacntdd/instalacntdd_destaque.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd_destaque.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Contabilidade e Data Analytics: O uso do R</title>
   <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html</link>
+  <link>https://contabilidados.com.br/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
-<p><img src="https://contabilidados.github.io/posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" class="img-fluid"></p>
+<p><img src="https://contabilidados.com.br/posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" class="img-fluid"></p>
 <p>Em nosso acelerado mundo digital, a contabilidade e as finanças passam por uma transformação fundamental. A integração com <em>data analytics</em>, que ultrapassou o status de tendência, agora é um pilar vital na profissão. A capacidade de vasculhar volumes imensos de dados e demonstrar insights cruciais está reformulando as estratégias de tomada de decisão financeira. Com a evolução contínua das tecnologias, a indústria financeira adapta-se com agilidade, incorporando novas ferramentas e abordagens para manter sua vantagem competitiva e eficiência. Neste contexto, a competência em <em>data analytics</em> é uma necessidade inegável para quem almeja liderar no setor de contabilidade e finanças.</p>
 <p>Neste post, explorarei como a plataforma <strong>R Programming (R)</strong> pode ser uma aliada inestimável para profissionais que buscam aprimorar suas habilidades em <em>Data</em> <em>Analytics</em>. Este texto é um compilado de minhas experiências profissionais e acadêmicas nos últimos cinco anos. Para aqueles interessados em aprofundar-se nas transformações nas finanças, recomendo a leitura da terceira edição de 2023 da <a href="https://periodicos.fgv.br/gvexecutivo/issue/view/v22n3">Revista GV Executivo</a> que trata do <strong>Futuro das Finanças</strong>.</p>
 <p><strong>R</strong> é uma ferramenta gratuita, criada por estatísticos, atendendo a necessidades profissionais e acadêmicas. Embora sua linguagem possa inicialmente ser um desafio para quem nunca programou, ela oferece um acesso prático e eficaz na análise de dados em contabilidade, permitindo a automação de rotinas e a ampliação da capacidade de estruturar, visualizar e extrair <em>insights</em> valiosos.</p>
@@ -1115,19 +1159,19 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
   <category>Contabilidade</category>
   <category>Analytics</category>
   <category>R</category>
-  <guid>https://contabilidados.github.io/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html</guid>
+  <guid>https://contabilidados.com.br/posts/dados/accountingAndAnalytics/accountingAndAnalytics.html</guid>
   <pubDate>Mon, 05 Feb 2024 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://contabilidados.com.br/posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Noções Básicas de Técnicas Contábeis e Financeiras com o R</title>
   <dc:creator>cntdd </dc:creator>
-  <link>https://contabilidados.github.io/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html</link>
+  <link>https://contabilidados.com.br/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html</link>
   <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>CINCO - I Congresso Interinstitucional de Contabilidade e Controladoria<br><b>Link do evento:</b> <a href="https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCO">https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCO</a><br><b>Lugar: </b>Online<br><h2 class="anchored">
 Materiais
 </h2>
 <br><center>
-<a href="https://kleberformiga.quarto.pub/blog/posts/analiseDadosContabeis_com_r/analiseDadosContabeis_CINCO.html" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-book-open-reader"></i> Apostila</button></a> <a href="https://kleberformiga.quarto.pub/blog/posts/dadosContabeis_com_r/presentationCINCO.html" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-person-chalkboard"></i> Slide</button></a> <br><br><img src="https://contabilidados.github.io/eventos/CINCO_dez2023/figs/cinco.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+<a href="https://kleberformiga.quarto.pub/blog/posts/analiseDadosContabeis_com_r/analiseDadosContabeis_CINCO.html" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-book-open-reader"></i> Apostila</button></a> <a href="https://kleberformiga.quarto.pub/blog/posts/dadosContabeis_com_r/presentationCINCO.html" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-person-chalkboard"></i> Slide</button></a> <br><br><img src="https://contabilidados.com.br/eventos/CINCO_dez2023/figs/cinco.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
 </center>
 <p><br></p>
 <p>O minicurso abordou a importância da análise de dados como uma habilidade para o profissional contábil, demonstrando como o tratamento estratégico dados aos dados otimiza o processo de coleta e análise de informações relevantes para o processo decisório. No aspecto prático, foi demonstrado como algumas técnicas contábeis e financeiras podem ser realizadas com a aplicação R Programming.</p>
@@ -1138,19 +1182,19 @@ Materiais
   <category>R</category>
   <category>Economatica</category>
   <category>Análise de Dados</category>
-  <guid>https://contabilidados.github.io/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html</guid>
+  <guid>https://contabilidados.com.br/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html</guid>
   <pubDate>Thu, 14 Dec 2023 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/eventos/CINCO_dez2023/figs/cinco.png" medium="image" type="image/png" height="65" width="144"/>
+  <media:content url="https://contabilidados.com.br/eventos/CINCO_dez2023/figs/cinco.png" medium="image" type="image/png" height="65" width="144"/>
 </item>
 <item>
   <title>Análise de dados com R e Economatica</title>
   <dc:creator>cntdd </dc:creator>
-  <link>https://contabilidados.github.io/eventos/economaticaR/economaticaR.html</link>
+  <link>https://contabilidados.com.br/eventos/economaticaR/economaticaR.html</link>
   <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>Análise de Dados com R e Economatica<br><b>Link do evento:</b> <a href="https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo</a><br><b>Lugar: </b>Online<br><h2 class="anchored">
 Materiais
 </h2>
 <br><center>
-<a href="https://github.com/UFERSA3/contabilidados/raw/master/tutoriais/basicoR/basicoR.pdf" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Apostila</button></a> <a href="https://www.youtube.com/live/Bckx1xIqGto?feature=share" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 1</button></a> <a href="https://www.youtube.com/watch?v=7mgmchEo-1w" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 2</button></a> <br><br><img src="https://contabilidados.github.io/eventos/economaticaR/figs/economaticaR_2.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+<a href="https://github.com/UFERSA3/contabilidados/raw/master/tutoriais/basicoR/basicoR.pdf" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Apostila</button></a> <a href="https://www.youtube.com/live/Bckx1xIqGto?feature=share" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 1</button></a> <a href="https://www.youtube.com/watch?v=7mgmchEo-1w" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 2</button></a> <br><br><img src="https://contabilidados.com.br/eventos/economaticaR/figs/economaticaR_2.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
 </center>
 <p><br></p>
 <p>Essa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos.</p>
@@ -1161,19 +1205,19 @@ Materiais
   <category>R</category>
   <category>Economatica</category>
   <category>Análise de Dados</category>
-  <guid>https://contabilidados.github.io/eventos/economaticaR/economaticaR.html</guid>
+  <guid>https://contabilidados.com.br/eventos/economaticaR/economaticaR.html</guid>
   <pubDate>Sat, 29 Oct 2022 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/eventos/economaticaR/figs/economaticaR_2.png" medium="image" type="image/png" height="68" width="144"/>
+  <media:content url="https://contabilidados.com.br/eventos/economaticaR/figs/economaticaR_2.png" medium="image" type="image/png" height="68" width="144"/>
 </item>
 <item>
   <title>Análise de dados com R e Economatica</title>
   <dc:creator>cntdd </dc:creator>
-  <link>https://contabilidados.github.io/eventos/treinamentoeconomatica/treinamentoeconomatica.html</link>
+  <link>https://contabilidados.com.br/eventos/treinamentoeconomatica/treinamentoeconomatica.html</link>
   <description><![CDATA[ <script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script><b>Evento: </b>Análise de Dados com R e Economatica<br><b>Link do evento:</b> <a href="https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo">https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo</a><br><b>Lugar: </b>Online<br><h2 class="anchored">
 Materiais
 </h2>
 <br><center>
-<a href="https://github.com/UFERSA3/contabilidados/raw/master/tutoriais/basicoR/basicoR.pdf" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Apostila</button></a> <a href="https://www.youtube.com/live/Bckx1xIqGto?feature=share" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 1</button></a> <a href="https://www.youtube.com/watch?v=7mgmchEo-1w" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 2</button></a> <br><br><img src="https://contabilidados.github.io/eventos/treinamentoeconomatica/figs/treinamentoeconomatica.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
+<a href="https://github.com/UFERSA3/contabilidados/raw/master/tutoriais/basicoR/basicoR.pdf" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-solid fa-file-pdf"></i> Apostila</button></a> <a href="https://www.youtube.com/live/Bckx1xIqGto?feature=share" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 1</button></a> <a href="https://www.youtube.com/watch?v=7mgmchEo-1w" target="_blank" rel="noopener"><button class="btn btn-primary" style="margin: 10px;"><i class="fa-brands fa-youtube"></i> Dia 2</button></a> <br><br><img src="https://contabilidados.com.br/eventos/treinamentoeconomatica/figs/treinamentoeconomatica.png" class="img-fluid quarto-figure-center" style="max-width:80%"><br>
 </center>
 <p><br></p>
 <p>Essa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos.</p>
@@ -1184,16 +1228,16 @@ Materiais
   <category>R</category>
   <category>Economatica</category>
   <category>Análise de Dados</category>
-  <guid>https://contabilidados.github.io/eventos/treinamentoeconomatica/treinamentoeconomatica.html</guid>
+  <guid>https://contabilidados.com.br/eventos/treinamentoeconomatica/treinamentoeconomatica.html</guid>
   <pubDate>Sat, 29 Oct 2022 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/eventos/treinamentoeconomatica/figs/treinamentoeconomatica.png" medium="image" type="image/png"/>
+  <media:content url="https://contabilidados.com.br/eventos/treinamentoeconomatica/figs/treinamentoeconomatica.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Política de Dividendos</title>
   <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/finance/politicaDividendos/politicaDividendos.html</link>
+  <link>https://contabilidados.com.br/posts/finance/politicaDividendos/politicaDividendos.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
-<p><img src="https://contabilidados.github.io/posts/finance/politicaDividendos/politicaDividendos.png" class="img-fluid"></p>
+<p><img src="https://contabilidados.com.br/posts/finance/politicaDividendos/politicaDividendos.png" class="img-fluid"></p>
 <p>A política de dividendos trata da forma como a empresa distribui seu lucro aos acionistas. O tema se demonstra simples pelo fato de tratar de uma expectativa natural de qualquer investidor, qual seja a geração de fluxo de caixa por meio de retornos de seus investimentos. Os dividendos constituem o rendimento direto da aplicação de recursos na participação acionária das empresas. Entretanto, diversos aspectos permeiam esse tema a ponto de surgirem vertentes diferentes para definições das políticas de dividendos das empresas. Nessa resenha serão discutidos os resultados de pesquisas elaboradas por Brav, Graham, Harvey e Michaely (2004) relacionados à política de dividendos, Heineberg e Procianoy (2003) quanto aos aspectos determinantes do pagamento de proventos em dinheiro, Procianoy e Verdi (2003) tratando do efeito clientela e, por último, Procianoy e Vieira (n.d.) tratando das reações do mercado de capitais aos dividendos.</p>
 <p>O estudo de Brav <em>et. Al</em> (2004) tratou de realizar um <em>survey</em> com executivos financeiros à luz da pesquisa de Lintner, nos anos 50. A proposta de Brav <em>et. Al</em> (2004) foi determinar fatores que direcionam as decisões de pagamento de dividendos ou recompra de ações. Foram realizadas diversas perguntas com gestores contemporâneos (o artigo cita século XXI), sobre questões relacionadas ás motivações para pagamentos de dividendos e utilização de questões de agência e sinalização. Nos executivos das 28 empresas pesquisadas por Lintner, 50 anos antes, as evidências mostram maior propensão de pagamento de dividendos por empresas maduras e geradoras de lucros persistentes no longo prazo. Nas evidências e Brav <em>et. Al</em> (2004) já se observa a pretensão pela flexibilidade da recompra de ações.</p>
 <p>O contraponto de Brav <em>et. Al</em> (2004) com os achados de Lintner se deu em duas vertentes, quais sejam o conservadorismo e a decisão com base no índice de <em>payout</em>. Os executivos contemporâneos, diferente de seus pares dos anos 50, demonstraram menor conservadorismo e distanciamento das decisões com base no <em>payout</em>. As decisões de investimento na empresa passaram determinar as decisões. Os aumentos de dividendos passaram a ser considerados após supridas as necessidades de investimentos e liquidez. De acordo com as entrevistas realizadas verificou-se a propensão dos gestores em aceitar redução na recompra de ação em relação a redução de dividendos – menor conservadorismo. Apenas 22% dos respondentes acreditam no efeito negativo da recompra de ações e 90% dos respondentes atribuem um fato negativo ao se reduzir dividendos. Outro percentual revelador da evidência dos dividendos é 40% dos respondentes declararem ter como alvo o dividendo por ação.</p>
@@ -1220,16 +1264,16 @@ Materiais
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>Finanças</category>
   <category>Dividendos</category>
-  <guid>https://contabilidados.github.io/posts/finance/politicaDividendos/politicaDividendos.html</guid>
+  <guid>https://contabilidados.com.br/posts/finance/politicaDividendos/politicaDividendos.html</guid>
   <pubDate>Thu, 18 Aug 2022 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/finance/politicaDividendos/politicaDividendos.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://contabilidados.com.br/posts/finance/politicaDividendos/politicaDividendos.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Teoria da Eficiência de Mercado</title>
   <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html</link>
+  <link>https://contabilidados.com.br/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
-<p><img src="https://contabilidados.github.io/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.png" class="img-fluid"></p>
+<p><img src="https://contabilidados.com.br/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.png" class="img-fluid"></p>
 <p>A Hipótese de Eficiência do Mercado (HME) trata da absorção das informações disponíveis pelos preços de valores mobiliários, cujo termo “eficiência” decorre da capacidade de os agentes alocarem eficientemente seus capitais por meio do conhecimento equânime dessas informações. De acordo com HME, não há como qualquer agente obter ganhos anormais, considerando o mesmo acesso informacional entre os agentes. Dessa forma, a alocação da propriedade do capital da economia, papel principal do mercado de capitais é satisfeito (Fama, 1970). Trata-se de uma área ampla, tendo o estudo de Fama (1970) se proposto a traçar um panorama sobre as principais linhas dessa teoria com as abordagens de uma eficiência na forma forte, semiforte e fraca, cujos níveis são relacionados ao nível de informação disponível em cada subconjunto.</p>
 <p>O ponto crucial na definição da HME é fato de o termo “totalmente refletido nos preços” ser tão geral a ponto de não haver implicações testáveis. Para torná-la testável, Fama (1970) buscou especificar com mais detalhes o processo de formação dos preços. Com base no modelo denominado de <em>fair game</em>, baseado no retorno esperado, conforme Equação 1:</p>
 <p><img src="https://latex.codecogs.com/png.latex?E(%5Ctilde%7Bp%7D_%7Bj,t+1%7D%7C%5CPhi_%7Bt%7D)%20=%20%5B1%20+%20E(%5Ctilde%7Br%7D_%7Bj,t+1%7D%7C%5CPhi_%7Bt%7D)%5Dp_%7Bjt%7D"></p>
@@ -1253,16 +1297,16 @@ Materiais
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>Finanças</category>
   <category>HME</category>
-  <guid>https://contabilidados.github.io/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html</guid>
+  <guid>https://contabilidados.com.br/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html</guid>
   <pubDate>Thu, 23 Dec 2021 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://contabilidados.com.br/posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Teoria de Agência e Governança Corporativa</title>
   <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html</link>
+  <link>https://contabilidados.com.br/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
-<p><img src="https://contabilidados.github.io/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.png" class="img-fluid"></p>
+<p><img src="https://contabilidados.com.br/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.png" class="img-fluid"></p>
 <p>A temática de teoria da agência abordada nessa resenha centra-se no marco inicial proposto por (Coase, 1937) ao questionar a natureza das empresas, embora sua discussão seminal seja atribuída a Berle e Means, no início dos anos 30. Nessa abordagem, a firma deixaria de representar um mero agente combinador de fatores de produção, dada a autonomia do mercado (teoria neoclássica da economia) e passaria a representar um mecanismo utilizado pelos agentes para redução de custos de transação. Constatou-se a redução de custos ao operacionalizar a empresa internamente em relação a transacionar com o mercado. Nessa perspectiva, a visão sobre o papel da firma passou a ser de um conjunto de contratos (teoria da firma) no qual os agentes acordariam seus interesses para participação na firma. A emergência da Teoria de Agência se deu na identificação de conflitos nos interesses dos agentes os quais buscavam maximizar sua utilidade.</p>
 <p>A relação de agência surge quando duas ou mais partes possuem interesse na execução de um serviço em que uma das partes, o principal, delega à outra parte, o agente, o papel de execução do serviço. Considerando ambas as partes maximizadoras de utilidade, há boas razões para acreditar no interesse parcial do agente em atingir os interesses do principal. Dessa forma, o principal incorrerá em custos para defender seus interesses e o agente arcará com o ônus de concessão de garantias para com o principal (Jensen &amp; Meckling, 1976). A separação entre a propriedade e controle foi o foco teórico de Jensen e Meckling (1976), cujo desenvolvimento recorreu às teorias dos direitos de propriedade, da agência e das finanças para lançar luz à definição da firma, separação entre posse e controle, responsabilidade social, definição de uma função objetiva corporativa, identificação de uma estrutura de capital ótima, dentre outros.</p>
 <p>Ao relatar diversas relações de agência existentes na firma, Jensen e Meckling (1976) reconhecem a dificuldade de criar uma teoria capaz de abranger todas as relações. Consideram difícil o desenvolvimento de teorias para explicar a forma como os custos de agência acontecem em cada situação, dada a diferença significativa nas relações contratuais. A abordagem da teoria de agência proposta nessa pesquisa se concentra, portanto, em uma pequena parcela dentre as diversas relações – a análise dos custos de agência gerados pelos arranjos contratuais entre proprietários e a alta gerência da corporação. Quanto a abordagem, divergiram das demais teorias até então existente pela abordagem positiva adotada. As pesquisas tratavam exclusivamente de aspectos normativos (como estruturar as relações contratuais). A inovação decorre do fato de presumirem que os problemas normativos são solucionados pelos indivíduos e passarem a investigar os incentivos de cada uma das partes e os elementos envolvidos no estabelecimento do equilíbrio contratual entre agente e principal.</p>
@@ -1296,46 +1340,9 @@ Materiais
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>Finanças</category>
   <category>Governança</category>
-  <guid>https://contabilidados.github.io/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html</guid>
+  <guid>https://contabilidados.com.br/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html</guid>
   <pubDate>Thu, 28 Oct 2021 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.png" medium="image" type="image/png" height="144" width="144"/>
-</item>
-<item>
-  <title>Visão Geral de Finanças</title>
-  <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.github.io/posts/finance/visaoGeralFinancas/visaoGeralFinancas.html</link>
-  <description><![CDATA[ <style> body {text-align: justify} </style>
-<p><img src="https://contabilidados.github.io/posts/finance/visaoGeralFinancas/visaoGeralFinancas.png" class="img-fluid"></p>
-<p>A moderna teoria de finanças se iniciou nos anos 50 com marcos de inovação nas pesquisas voltadas a compreender os efeitos das decisões no equilíbrio do mercado. Nos anos precedentes, os assuntos de finanças tratavam, essencialmente, de definir como os gestores deveriam tomar decisões com base em custo ótimo de capital, política de dividendos, dentre outros. Com a emergência das pesquisas denominadas positivas, as finanças passaram a ser abordadas sob vários aspectos, cujos resultados ampliaram o entendimento das implicações práticas das tomadas de decisão. Esses aspectos, assim como as motivações e implicações de seu surgimento são discutidos sob prismas convergentes (mas não totalmente semelhantes) por Jensen e Smith Jr.&nbsp;(1984) e por Miller (1999). Ambos são objetos dessa resenha. Tratam do momento de <em>trade-off</em> entre os aspectos normativo e positivo das finanças, além de discorrem sobre a construção lógica para a construção de cada teoria abordada.</p>
-<p>A revisão do desenvolvimento da teoria moderna das finanças apresentada por (Jensen &amp; Smith Jr., 1984) se desenvolve fazendo um contraponto da teoria positiva com o que denominou de teoria normativamente orientada (<em>normatively oriented</em>) para demonstrar a fragilidade da teoria de finanças até então difundida (década de 50). Na discussão proposta por (Miller, 1999), a proposta é a mesma sendo definidos os contrapontos entre as abordagens <em>business school</em> (normativa) e <em>economic department</em> (positiva). Assim, enquanto o primeiro traça uma revisão de literatura sobre a teoria de finanças, o segundo se desprende da obrigação de um <em>survey</em> abrangente e escolhe os temas considerados relevantes pelo autor. Ambos apontam para a abordagem positiva como melhor para o processo decisório. Para Jensen e Smith Jr.&nbsp;(1984), não é possível decidir qual ação tomar e esperar atender seu objetivo se não se sabe o efeito da decisão.</p>
-<p>A discussão entre abordagem normativa e positiva em finanças é intrigante, pois durante o desenvolvimento teórico houveram divergências quanto a essa classificação. O trabalho de Markowitz sobre a teoria das carteiras, em 1952, foi considerado por Milton Friedman (economista da escola de Chicago, influente em vários campos de pesquisa em sua área) como não pertencente ao departamento de economia, dado seu aspecto normativo. Entretanto, sua tese fora defendida no departamento de economia (Miller, 1999). Markowitz, identificou o rendimento esperado de um investimento com base na sua média e variância, cujo resultado permite ao tomador de decisão escolher o melhor investimento. De acordo com o algoritmo de média-variância de Markowitz define-se um conjunto eficiente de portfólios como aquele que fornece um máximo de retorno para uma dada variância e um mínimo de variância para um retorno esperado (Jensen &amp; Smith Jr., 1984).</p>
-<p>O retorno esperado obtido por meio da proposta de Markowitz apresenta fragilidades importantes, essencialmente quanto ao fato de não fornecer um portfólio ótimo, pois se os inputs do modelo são os mesmos, todos os investidores tenderão a possuir o mesmo portfólio (Miller, 1999). Com base na abordagem normativa de Markowitz, as pesquisas individuais de Treynor, Sharpe e Lintner criaram uma teoria positiva para a determinação dos preços dos ativos. O fato de o modelo de Markowitz assumir variáveis fixas foi resolvido por meio da incorporação da análise da covariância entre o retorno da empresa alvo com o retorno de todos os ativos. A partir do momento em que um número crescente de investidores passaram a investir em índices de fundos, o risco de mercado passou a ser definido abrindo espaço para definição do retorno do mercado. Dessa metodologia surgiu a medida de risco conhecida e utilizada até a atualidade: o Beta (Jensen &amp; Smith Jr., 1984; Miller, 1999).</p>
-<p>O beta, juntamente com a taxa livre de risco e retorno do mercado passaram a compor o Modelo de Precificação de Ativos – CAPM (<em>Capital Assets Pricing Model</em>). A teoria de precificação de ativos define, portanto, o custo de oportunidade da empresa em decisões orçamentárias (Jensen &amp; Smith Jr., 1984). Uma das vantagens do CAPM, mencionada por Miller (1999), é o fato de a ciência buscar explicar muito com pouco e o CAPM atender essa demanda como poucos modelos em finanças. Os benefícios do CAPM foram importantes a ponto de gerar grande volume de pesquisas empíricas testando-o, sendo abordado em pesquisas teóricas e empíricas. Sua desvantagem (ou consenso entre profissionais) é que uma única medida de risco pode não ser suficiente para descrever uma <em>cross section</em> de retornos esperados. Além do mais, o fator mercado e outros dois riscos (risco e tamanho) foram identificados para ações ordinárias (Miller, 1999).</p>
-<p>Esses fatores correspondem ao fato de quanto mais arriscada, maior o retorno (fator risco), quanto menor a firma, maior a seus retornos (fator tamanho) e quanto maior o <em>book-to-market</em> das empresas maiores os seus retornos (fator mercado). Assim, a depender da sofisticação do investidor, seus retornos poderiam ser maiores ao observar a possibilidade de ganhos superiores em determinadas firmas. Entretanto, a Hipótese de Eficiência do Mercado (HME) propõe ser impossível obter ganhos econômicos anormais (bater o mercado) com base em informações disponíveis. De acordo com Miller (1999), nos anos trinta foi documentada a inabilidade de 45 agências profissionais preverem as mudanças nos preços. Alguns estatísticos (Working, Kendall e Osborne) também buscaram, individualmente, identificar explicações para as mudanças nos preços, porém acabaram definindo a mudança nos preços como um “passeio aleatório” (<em>random walk</em>). Isso significa não haver padrão definido (ou definível) para os dados (Jensen &amp; Smith Jr., 1984; Miller, 1999).</p>
-<p>Posteriormente, as evidências de Samuelson e Mandelbrot forneceram uma moderna justificativa teórica para a HME. Para essas pesquisas uma mudança inesperada nos preços em mercado especulativo comporta-se com passeio aleatório se o mercado é competitivo e os lucros são zero. Os argumentos são de que mudanças inesperadas nos preços refletem novas informações (Jensen &amp; Smith Jr., 1984). Para Miller (1999), a HME deveria ser reconhecida com Prêmio Nobel (como a teoria das carteiras, da precificação de ativos e da estrutura de capital), pois se trata de um dos assuntos mais discutidos pela academia. Seus pressupostos já foram bastante estudados, especialmente pelo fato de disponibilização de dados de preços de fechamento mensais, dividendos para todas as ações da New York Exchange (NYSE) desde 1926, sobre as quais diversas evidências empíricas foram realizadas. Muitas pesquisas refutam sua robustez, entretanto ainda é testada.</p>
-<p>Consequentemente, retornos anormais são encontrados em qualquer lugar, mas carregam a semente de sua queda. Com essa afirmativa Miller (1999) defende a fundamentação da HME, sob a justificativa de que imitadores acabariam competindo pelos retornos anormais, estabelecendo equilíbrio no mercado. Com essa mudança refuta-se a ideia de passeio aleatório e reforça a HME especialmente quando muda o foco para custo e retorno ajustados ao risco. Deixa de ser um assunto de estatística e passa a ser econômico. O valor da empresa é, portanto, alterado sob diversas circunstâncias e, dentre elas, mudanças na estrutura de capital. Modigliani e Miller (M&amp;M) propõem, em primeiro momento, não haver relação entre o valor da firma e a mudança na estrutura de capital. Ao assumirem essa relação observa-se proximidade com a HME. Para Miller (1999), a proximidade entre a revisão de M&amp;M e HME não é acidental, pois as firmas mudariam sua estrutura de capital com vistas aos prospectos futuros da firma.</p>
-<p>O próximo evento relevante para as finanças foi a possibilidade de negociação do valor da firma com base nos prospectos futuros. Após fixados os fluxos de caixa estimadas para a firma, é possível estabelecer um valor futuro e negociá-lo. Uma opção de compra dá direito de comprar uma ação por um preço específico (preço de exercício) a qualquer tempo para exercê-la em data específica. Para evitar oportunidades de lucros sem risco o retorno da proteção (<em>hedge</em>) deve ser igual à taxa livre de risco (Jensen &amp; Smith Jr., 1984). Embora com informações observáveis, as opções dependem de dados não observáveis como a variância da distribuição dos retornos do ativo subjacente que é estimada. Miller (1999) observa as opções como uma das questões mais férteis para pesquisas futuras em finanças.</p>
-<p>Até então, observa-se um encadeamento de teorias migrando da abordagem normativa para a abordagem positiva. Tanto em Miller (1999) quanto em Jensen e Smith Jr.&nbsp; (1984) as abordagens sobre essas teorias são convergentes e a classificação, embora com nomenclatura diferente, possuem a mesma conotação quanto aos aspectos normativos e positivos. Ambos demonstram haver melhor qualidade nas pesquisas quando se aborda o problema sob a abordagem positiva. Considerando a escolha de discussão proposta por Miller (1999), a teoria da agência surge apenas como uma preocupação para psicólogos e não para economistas. Das teorias até então abordadas nessa resenha ambos os trabalhos analisados são contemplados. Quanto a teoria da agência, Smith Jr.&nbsp;(1984) tratam com maior detalhe dado que propõem uma revisão de literatura e não uma escolha pessoal como em Miller (1999).</p>
-<p>A teoria da agência é abordagem em Smith Jr.&nbsp;(1984) de forma essencialmente conceitual. Além das abordagens teóricas, algumas discussões com as teorias já abordada surgem em relação à composição da estrutura de capital, pois o conflito de agência pode-se definir a depender do quão monitorado esteja o gestor (agente). Teorias baseadas em <em>trade-offs</em> de compartilhamento de risco e outras vantagens da forma corporativa com seus custos de agência para definir a sobrevivência das empresas no longo prazo são importantes para a análises positivas sobre o valor da firma. Contudo, a dificuldade de avaliação do interesse e o real cumprimento de contratos dificultam ou enfraquecem as abordagens quantitativas. Possivelmente, por esse motivo, nenhuma das pesquisas resenhadas adentrou em aspectos positivos advindos dos problemas de agência, embora com vasta literatura teórica e empírica disponível. A teoria de agência é abordada por Smith Jr.&nbsp;(1984) como um “plano de fundo” para as demais teorias.</p>
-<p>Mais duas pesquisas também comporão essa resenha. Trata-se de pesquisas preocupadas no estudo de finanças no mercado brasileiro. Nenhuma das duas, porém, lançam novas teorias ou constructos para essa área. A abordagem de estrutura de capital e de propriedade é visto em (Leal &amp; Saito, 2003) e um trabalho bibliométrico do período de 2000 a 2010 foi realizado por (Leal, Almeida, &amp; Bortolon, 2013) sobre a produção científica brasileira em finanças. Esses estudos demonstram a realidade brasileira em finanças sob dois prismas: produção acadêmica (Leal et al., 2013) e prática (Leal &amp; Saito, 2003). Considerando a origem das teorias de finanças em evidência com empresas americanas, algumas discussões podem ser traçadas com base nos achados de cada uma dessas pesquisas a fim de lançar comparações entre teorias gerais e aplicação em mercados em desenvolvimento.</p>
-<p>Com base em Leal e Saito (2003), observa-se a dificuldade de se aplicar teorias de finanças no Brasil. Os custos de agência e monitoramento excessivos, associados ao alto custo de capital, desestimulam o ingresso de empresas no mercado de capitais. O padrão típico de países emergentes revela uma estrutura concentrada favorece a ação oportunista dos controladores. Assim, sob a égide da teoria da agência, os conflitos principal-agente são minimizados e passa-se a chamar atenção os conflitos principal-principal no qual há a possibilidade expropriação dos minoritários. A única forma de reduzir essas assimetrias e problemas de agência são evidenciados por meio de política de dividendos e recompra de ações. A ausência de estruturas adequadas na composição do mercado acionário brasileiro pode, portanto, dificultar pesquisas e práticas com base em teorias de finanças aceitas em mercados maduros.</p>
-<p>O estudo bibliométrico de Leal et al.&nbsp;(2013) demonstra fragilidade nas pesquisas sobre finanças realizadas no Brasil. Não se observa uma consistência em publicações ou até mesmo a definição clara de estudos voltados ao Brasil. A formação de parcerias é um aspecto positivo levantado pela pesquisa, entretanto, propõem melhorias na qualidade das publicações. Os autores abordam a profundidade metodológica e inovação teórica como um ponto frágil comparado a países desenvolvidos. Embora não abordem por essa linha, a dificuldade de acesso a dados, o número de empresas em mercado de capitais e a própria estrutura de propriedade podem destoar os resultados e análises empíricas quando se busca analisar teorias em mercados emergentes.</p>
-<p>Por fim, as teorias em finanças finalizaram por volta dos anos 70. Poucas pesquisas de maior relevância foram apresentadas ou incorporou a denominada Moderna Teoria de Finanças. O amadurecimento dos mercados e a diferença nas suas operações – seja por novas transações ou por novas tecnologias – remete a emergência de novas teorias capazes de acompanhar o comportamento de empresas e seus reflexos no valor da firma. É possível propor, ainda, a definição de teorias específicas para países emergentes nos quais o ambiente de mercado difere daquele onde as teorias de finanças se originam.</p>
-<hr>
-<p>Jensen, M. C., &amp; Smith Jr., C. W. (1984). The theory of corporate finance: a historical overview. In M. C. Jensen &amp; C. W. Smith Jr.&nbsp;(Orgs.), <em>The Modern Theory of Corporate Finance</em> (p.&nbsp;2–20). New York: McGraw-Hill.</p>
-<p>Leal, R. P. C., Almeida, V. de S. e, &amp; Bortolon, P. M. (2013). Produção científica brasileira em finanças no período 2000-2010. <em>Revista de Administração de Empresas</em>, 53(1), 46–55.</p>
-<p>Leal, R. P. C., &amp; Saito, R. (2003). Finanças corporativas no Brasil. <em>RAE eletrônica</em>, 2(2), 1–15.</p>
-<p>Miller, M. H. (1999). The history of finance. <em>The Journal of Portfolio Management</em>, 95–101.</p>
-<hr>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
-  <category>Finanças</category>
-  <category>Teoria</category>
-  <guid>https://contabilidados.github.io/posts/finance/visaoGeralFinancas/visaoGeralFinancas.html</guid>
-  <pubDate>Mon, 25 Oct 2021 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.github.io/posts/finance/visaoGeralFinancas/visaoGeralFinancas.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://contabilidados.com.br/posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>
