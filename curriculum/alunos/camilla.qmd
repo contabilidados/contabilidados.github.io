@@ -1,0 +1,27 @@
+---
+title: "Camilla Duarte"
+comments: false
+image: figs/camilla.jpg
+categories:
+  - Alunos
+  - Contabilidade
+  - Análise de Dados
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:camilla.duarte@alunos.ufersa.edu.br
+    - icon: file-pdf
+      text: Lattes
+      href: https://lattes.cnpq.br/6307610584334488
+    # - icon: github
+    #   text: GitHub
+    #   href: https://github.com/liviasamarab
+---
+
+```{=html}
+<style>body {text-align: justify}</style>
+```
+Olá! Meu nome é Camilla. Sou bacharela em Ciências Contábeis pela Universidade Federal Rural do Semi-Árido (UFERSA), atualmente curso mestrado acadêmico no Programa de Pós-graduação em Administração (PPGA/UFERSA).
+Durante a minha jornada na graduação, descobri minha vocação na área acadêmica ao atuar como monitora da disciplina Contabilidade de Custos; tutora de projetos de extensão relacionados à empreendedorismo, inovação e análise de custos empresariais; e membro de comissão organizadora de eventos científicos internos. Após a graduação, continuei atuando no desenvolvimento de pesquisas científicas; lecionei em cursos de nível técnico; e trabalhei como consultora acadêmica. Desde 2024 passei a fazer parte da equipe do projeto ContabiliDados (UFERSA).

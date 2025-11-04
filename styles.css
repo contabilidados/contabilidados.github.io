@@ -1,13 +1,5 @@
 /*-- scss:rules --*/
-/* Estiliza a marca/nome na barra de navegação */
-.navbar-brand {
-  background: url('logo.png'); /* Define uma imagem de fundo como logo */
-  background-size: contain; /* Redimensiona a imagem para caber no espaço */
-  padding-right: 2px !important; /* Define um espaçamento à direita de 2px, usando !important para sobrepor outras regras */
-  padding-left: 105px !important; /* Define um espaçamento à esquerda de 105px, usando !important para sobrepor outras regras */
-  background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
-  color: #fff; /* Define a cor do texto como branca */
-}
+
 
 /*-- scss:defaults --*/
 /* Define o tamanho da fonte para elementos principais e parágrafos */
@@ -256,3 +248,35 @@ $code-color: #000000;
 $link-color: #000000;
 
 $code-color: #000000;
+
+
+
+.navbar {
+  background-color: #343a40 !important; /* Cor anterior padrão do Quarto/Bootstrap */
+}
+
+
+.navbar-brand img {
+  max-height: 45px;
+  width: auto;
+}
+
+.navbar {
+  padding-top: 0.1rem !important;
+  padding-bottom: 0.1rem !important;
+  min-height: 0 !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-brand {
+  padding-left: 1px !important;  /* Ou um valor ainda menor, teste 4px, 0px... */
+}
+
+.navbar-brand img, .navbar-brand svg {
+  margin-right: -25px !important;  /* ou 0px, se quiser colado */
+}
+
+

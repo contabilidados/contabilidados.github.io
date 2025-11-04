@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./icon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -39,14 +40,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7405808921be50cf64bcfdd2f38604dc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-9668c6978006edd3399c8f59aaf88d86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-0d356f0fa2cfdb1c246270d3804790d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7405808921be50cf64bcfdd2f38604dc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -159,6 +160,15 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-H9V60F0CZM"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-H9V60F0CZM', { 'anonymize_ip': true});
+</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -370,6 +380,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./logo.png" alt="" class="navbar-logo light-content">
+    <img src="./logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">contabiliDados</span>
@@ -445,7 +457,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-unnumbered"><div class="category" data-category="Y250ZGQ=">cntdd</div><div class="category" data-category="UGFjb3Rlcw==">Pacotes</div></div></div>
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-unnumbered"><div class="category" data-category="QW5hbHl0aWNz">Analytics</div><div class="category" data-category="Y250ZGQ=">cntdd</div><div class="category" data-category="Q29udGFiaWxpZGFkZQ==">Contabilidade</div><div class="category" data-category="UGFjb3Rlcw==">Pacotes</div><div class="category" data-category="Ug==">R</div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -500,7 +512,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Y250ZGQ=" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1761762093284" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="494">
+<div class="g-col-1" data-index="0" data-categories="Y250ZGQ=" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1762213152618" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="494">
 <a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -530,31 +542,35 @@ Alexsandro Prado
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Y250ZGQ=" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1761661717288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1138">
-<a href="./pacotes/utils/utl_tableStat/utl_tableStat.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1709262000000" data-listing-file-modified-sort="1762213152819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="373">
+<a href="./pacotes/utils/instalacntdd/instalacntdd.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./pacotes/utils/utl_tableStat/utl_tableStat.PNG" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./pacotes/utils/instalacntdd/instalacntdd_destaque.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Função utl_tableStat do pacote CNTDD
+Instalando o pacote CNTDD no R
 </h5>
 <div class="card-subtitle listing-subtitle">
-Post
+Resenha
 </div>
-<div class="listing-reading-time card-text text-muted">6 minutos</div>
+<div class="listing-reading-time card-text text-muted">2 minutos</div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('Y250ZGQ='); return false;">cntdd</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
 
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Kléber Formiga Miranda
+Alexsandro Prado
 </div>
 <div class="listing-date">
-28 de out. de 2025
+1 de mar. de 2024
 </div>
 </div>
 </div>
@@ -593,36 +609,34 @@ Kléber Formiga Miranda
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y250ZGQlMkNQYWNvdGVz" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1761589603082" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
-<div class="thumbnail"><a href="./pacotes/stats/liquidezSeca/liqSeca.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-categories="Y250ZGQ=" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1762213152630" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1138">
+<div class="thumbnail"><a href="./pacotes/stats/utl_tableStat/utl_tableStat.html" class="no-external">
 
-<img loading="lazy" src="./pacotes/stats/liquidezSeca/figs/contasReceber.png" class="thumbnail-image">
+<img loading="lazy" src="./pacotes/stats/utl_tableStat/utl_tableStat.PNG" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./pacotes/stats/liquidezSeca/liqSeca.html" class="no-external">Índice de Liquidez Seca</a>
+<a href="./pacotes/stats/utl_tableStat/utl_tableStat.html" class="no-external">Função utl_tableStat do pacote CNTDD</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./pacotes/stats/liquidezSeca/liqSeca.html" class="no-external"></a>
+<a href="./pacotes/stats/utl_tableStat/utl_tableStat.html" class="no-external">Post</a>
 </div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y250ZGQ='); return false;">cntdd</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('UGFjb3Rlcw=='); return false;">Pacotes</div>
-
 </div>
 </div>
 <div class="metadata">
-<a href="./pacotes/stats/liquidezSeca/liqSeca.html" class="no-external">
+<a href="./pacotes/stats/utl_tableStat/utl_tableStat.html" class="no-external">
 <div class="listing-date">
-2 de mar. de 2020
+28 de out. de 2025
 </div>
 <div class="listing-author">
-Kléber
+Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">9 minutos</div>
+<div class="listing-reading-time">6 minutos</div>
 </a>
 </div>
 </div>
@@ -659,7 +673,7 @@ Kléber
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y250ZGQlMkNQYWNvdGVz" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1761589586007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
+<div class="quarto-post image-right" data-index="0" data-categories="Y250ZGQlMkNQYWNvdGVz" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1762213152577" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
 <div class="thumbnail"><a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">
 
 <img loading="lazy" src="./pacotes/indices/liquidezSeca/figs/contasReceber.png" class="thumbnail-image">

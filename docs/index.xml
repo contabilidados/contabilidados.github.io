@@ -9,7 +9,7 @@
 <link>https://contabilidados.com.br/</link>
 <atom:link href="https://contabilidados.com.br/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.24</generator>
+<generator>quarto-1.8.25</generator>
 <lastBuildDate>Mon, 03 Nov 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Exigências de Maturidade Analítica na Reforma Tributária: por que sua empresa precisa evoluir agora?</title>
@@ -128,72 +128,12 @@ Materiais
   <media:content url="https://contabilidados.com.br/eventos/ecicont2025_introR/figs/ecicont2025_introR.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
-  <title>Atualização automatizada do ambiente R com cntddupdateR</title>
-  <dc:creator>Alexsandro Prado</dc:creator>
-  <link>https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.html</link>
-  <description><![CDATA[ <style> body {text-align: justify} </style>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
-</figure>
-</div>
-<section id="contextualização" class="level2"><h2 class="anchored" data-anchor-id="contextualização">Contextualização</h2>
-<p>Para muitos usuários iniciantes, instalar e manter atualizados os softwares essenciais para trabalhar com R — como o próprio R, o RStudio e o Rtools — pode ser um desafio técnico devido à necessidade de configurar corretamente cada aplicação e garantir compatibilidade entre versões. Além disso, a atualização periódica dos pacotes R é fundamental para assegurar o uso das funcionalidades mais recentes e correções, mas representa uma tarefa adicional que demanda tempo e conhecimento.</p>
-<p>Mas você já parou para pensar: Quantas vezes teve dificuldade para identificar se o R, RStudio ou Rtools precisavam ser atualizados?<br>
-Como gerenciar as constantes atualizações dos pacotes R instalados sem interromper seu fluxo de trabalho?<br>
-Qual o impacto da falta de atualização no seu ambiente de análise de dados?</p>
-<p>Pensando nessas questões, a [cntddupdateR] surge para automatizar e simplificar esse processo, reduzindo a complexidade e facilitando o trabalho dos pesquisadores e estudantes.</p>
-</section><section id="o-que-é-o-cntddupdater" class="level2"><h2 class="anchored" data-anchor-id="o-que-é-o-cntddupdater">O que é o <code>cntddupdateR</code>
-</h2>
-<p>O <code>cntddupdateR</code> automatiza a instalação e atualização do ambiente R para análise estatística e programação, incluindo o R, o RStudio (IDE para R), o Rtools (ferramentas para compilar pacotes) e os pacotes instalados no R.</p>
-</section><section id="como-funciona" class="level2"><h2 class="anchored" data-anchor-id="como-funciona">Como funciona</h2>
-<ul>
-<li>O script verifica se o gerenciador de pacotes do Windows chamado winget está instalado. Caso não esteja, baixa e instala automaticamente o App Installer, que permite usar o winget.<br>
-</li>
-<li>Utilizando o winget, confere se o R, o RStudio e o Rtools estão instalados. Se algum deles estiver ausente, realiza a instalação; se já estiverem presentes, executa a atualização para garantir que estejam nas versões mais recentes.<br>
-</li>
-<li>Em seguida, localiza a pasta de instalação do R para acessar o programa Rscript, possibilitando rodar comandos R pela linha de comando.<br>
-</li>
-<li>Executa um comando R para atualizar automaticamente todos os pacotes R já instalados no sistema, mantendo o ambiente totalmente atualizado.<br>
-</li>
-<li>Por fim, exibe uma mensagem informando que o processo foi concluído com sucesso e pausa para que o usuário possa fechar o script com segurança.</li>
-</ul>
-<p>Você já enfrentou situações em que instalações ou atualizações incompletas geraram erros difíceis de diagnosticar?<br>
-Quanto tempo você já perdeu tentando atualizar manualmente os componentes do seu ambiente R?</p>
-<p>O script facilita manter todo o ambiente R completo e atualizado, integrando a instalação e atualização dos principais componentes usados em análise de dados com R, tudo de forma automatizada e prática.</p>
-</section><section id="como-utilizar-o-cntddupdater-via-powershell" class="level2"><h2 class="anchored" data-anchor-id="como-utilizar-o-cntddupdater-via-powershell">Como utilizar o cntddupdateR via PowerShell</h2>
-<section id="forma-1-execução-remota-direta" class="level3"><h3 class="anchored" data-anchor-id="forma-1-execução-remota-direta">Forma 1: Execução remota direta</h3>
-<p>Abra o PowerShell e execute o comando abaixo para rodar o script remotamente, ajustando temporariamente a política de execução:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"></span>
-<span id="cb1-2">powershell <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>NoLogo <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>NoProfile <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>ExecutionPolicy Bypass <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>Command <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"</span></span></code></pre></div></div>
-</section><section id="forma-2-executar-o-arquivo-cntddupdater.bat" class="level3"><h3 class="anchored" data-anchor-id="forma-2-executar-o-arquivo-cntddupdater.bat">Forma 2: Executar o arquivo <code>cntddupdateR.bat</code>
-</h3>
-<p>Outra alternativa é utilizar o <code>cntddupdateR.bat</code>.</p>
-<p>Realize o <a href="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat" target="_blank">download</a> e execute o cntddupdater.bat como administrador (botão direito sobre o arquivo .bat -&gt; Executar como administrador).</p>
-
-
-</section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
-  <category>cntdd</category>
-  <guid>https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.html</guid>
-  <pubDate>Tue, 28 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.png" medium="image" type="image/png" height="144" width="144"/>
-</item>
-<item>
   <title>Função utl_tableStat do pacote CNTDD</title>
   <dc:creator>Kléber Formiga Miranda</dc:creator>
-  <link>https://contabilidados.com.br/pacotes/utils/utl_tableStat/utl_tableStat.html</link>
+  <link>https://contabilidados.com.br/pacotes/stats/utl_tableStat/utl_tableStat.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.com.br/pacotes/utils/utl_tableStat/utl_tableStat.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+<figure class="figure"><p><img src="https://contabilidados.com.br/pacotes/stats/utl_tableStat/utl_tableStat.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
 </figure>
 </div>
 <p><strong>Você já precisou analisar como diferentes características das empresas se relacionam entre si?</strong></p>
@@ -668,9 +608,69 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>cntdd</category>
-  <guid>https://contabilidados.com.br/pacotes/utils/utl_tableStat/utl_tableStat.html</guid>
+  <guid>https://contabilidados.com.br/pacotes/stats/utl_tableStat/utl_tableStat.html</guid>
   <pubDate>Tue, 28 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.com.br/pacotes/utils/utl_tableStat/utl_tableStat.PNG" medium="image"/>
+  <media:content url="https://contabilidados.com.br/pacotes/stats/utl_tableStat/utl_tableStat.PNG" medium="image"/>
+</item>
+<item>
+  <title>Atualização automatizada do ambiente R com cntddupdateR</title>
+  <dc:creator>Alexsandro Prado</dc:creator>
+  <link>https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.html</link>
+  <description><![CDATA[ <style> body {text-align: justify} </style>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+</figure>
+</div>
+<section id="contextualização" class="level2"><h2 class="anchored" data-anchor-id="contextualização">Contextualização</h2>
+<p>Para muitos usuários iniciantes, instalar e manter atualizados os softwares essenciais para trabalhar com R — como o próprio R, o RStudio e o Rtools — pode ser um desafio técnico devido à necessidade de configurar corretamente cada aplicação e garantir compatibilidade entre versões. Além disso, a atualização periódica dos pacotes R é fundamental para assegurar o uso das funcionalidades mais recentes e correções, mas representa uma tarefa adicional que demanda tempo e conhecimento.</p>
+<p>Mas você já parou para pensar: Quantas vezes teve dificuldade para identificar se o R, RStudio ou Rtools precisavam ser atualizados?<br>
+Como gerenciar as constantes atualizações dos pacotes R instalados sem interromper seu fluxo de trabalho?<br>
+Qual o impacto da falta de atualização no seu ambiente de análise de dados?</p>
+<p>Pensando nessas questões, a [cntddupdateR] surge para automatizar e simplificar esse processo, reduzindo a complexidade e facilitando o trabalho dos pesquisadores e estudantes.</p>
+</section><section id="o-que-é-o-cntddupdater" class="level2"><h2 class="anchored" data-anchor-id="o-que-é-o-cntddupdater">O que é o <code>cntddupdateR</code>
+</h2>
+<p>O <code>cntddupdateR</code> automatiza a instalação e atualização do ambiente R para análise estatística e programação, incluindo o R, o RStudio (IDE para R), o Rtools (ferramentas para compilar pacotes) e os pacotes instalados no R.</p>
+</section><section id="como-funciona" class="level2"><h2 class="anchored" data-anchor-id="como-funciona">Como funciona</h2>
+<ul>
+<li>O script verifica se o gerenciador de pacotes do Windows chamado winget está instalado. Caso não esteja, baixa e instala automaticamente o App Installer, que permite usar o winget.<br>
+</li>
+<li>Utilizando o winget, confere se o R, o RStudio e o Rtools estão instalados. Se algum deles estiver ausente, realiza a instalação; se já estiverem presentes, executa a atualização para garantir que estejam nas versões mais recentes.<br>
+</li>
+<li>Em seguida, localiza a pasta de instalação do R para acessar o programa Rscript, possibilitando rodar comandos R pela linha de comando.<br>
+</li>
+<li>Executa um comando R para atualizar automaticamente todos os pacotes R já instalados no sistema, mantendo o ambiente totalmente atualizado.<br>
+</li>
+<li>Por fim, exibe uma mensagem informando que o processo foi concluído com sucesso e pausa para que o usuário possa fechar o script com segurança.</li>
+</ul>
+<p>Você já enfrentou situações em que instalações ou atualizações incompletas geraram erros difíceis de diagnosticar?<br>
+Quanto tempo você já perdeu tentando atualizar manualmente os componentes do seu ambiente R?</p>
+<p>O script facilita manter todo o ambiente R completo e atualizado, integrando a instalação e atualização dos principais componentes usados em análise de dados com R, tudo de forma automatizada e prática.</p>
+</section><section id="como-utilizar-o-cntddupdater-via-powershell" class="level2"><h2 class="anchored" data-anchor-id="como-utilizar-o-cntddupdater-via-powershell">Como utilizar o cntddupdateR via PowerShell</h2>
+<section id="forma-1-execução-remota-direta" class="level3"><h3 class="anchored" data-anchor-id="forma-1-execução-remota-direta">Forma 1: Execução remota direta</h3>
+<p>Abra o PowerShell e execute o comando abaixo para rodar o script remotamente, ajustando temporariamente a política de execução:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"></span>
+<span id="cb1-2">powershell <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>NoLogo <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>NoProfile <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>ExecutionPolicy Bypass <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>Command <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"</span></span></code></pre></div></div>
+</section><section id="forma-2-executar-o-arquivo-cntddupdater.bat" class="level3"><h3 class="anchored" data-anchor-id="forma-2-executar-o-arquivo-cntddupdater.bat">Forma 2: Executar o arquivo <code>cntddupdateR.bat</code>
+</h3>
+<p>Outra alternativa é utilizar o <code>cntddupdateR.bat</code>.</p>
+<p>Realize o <a href="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat" target="_blank">download</a> e execute o cntddupdater.bat como administrador (botão direito sobre o arquivo .bat -&gt; Executar como administrador).</p>
+
+
+</section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
+  <category>cntdd</category>
+  <guid>https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.html</guid>
+  <pubDate>Tue, 28 Oct 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdater.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Short-termism: reflexões sobre o impacto do horizonte de investimento curto nas decisões corporativas</title>
@@ -848,11 +848,9 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <p>INTERNATIONAL FINANCIAL REPORTING STANDARDS. IFRS 9 – Financial Instruments. Disponível em: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments/. Acesso em: 20 jun. 2024.</p>
 <p>RECEITA FEDERAL DO BRASIL. Instrução Normativa RFB nº 162/1998. Disponível em: http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=1627&amp;visao=original. Acesso em: 20 jun. 2024.</p>
 <p>RECEITA FEDERAL DO BRASIL. Instrução Normativa RFB nº 1.700/2017. Disponível em: http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=86725&amp;visao=anotado. Acesso em: 20 jun. 2024.</p>
-<div>
+</div>
 
 
-</div>
-</div>
 </section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>
   <category>Contabilidade</category>
   <category>Teoria</category>
@@ -942,10 +940,10 @@ Materiais
 <item>
   <title>Instalando o pacote CNTDD no R</title>
   <dc:creator>Alexsandro Prado</dc:creator>
-  <link>https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html</link>
+  <link>https://contabilidados.com.br/pacotes/utils/instalacntdd/instalacntdd.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd_logo.png" title="logo" class="img-fluid quarto-figure quarto-figure-center figure-img" width="245"></p>
+<figure class="figure"><p><img src="https://contabilidados.com.br/pacotes/utils/instalacntdd/instalacntdd_logo.png" title="logo" class="img-fluid quarto-figure quarto-figure-center figure-img" width="245"></p>
 </figure>
 </div>
 <p>A seguir vamos aprender a instalar o pacote cntdd que pode ser muito útil para contadores e profissionais de finanças.Este pacote está hospedado no <a href="https://github.com/contabilidados/cntdd">GitHub</a> e pode ser instalado usando a função <code>install_github</code> do pacote <code>devtools</code>.</p>
@@ -1135,9 +1133,9 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
   <category>Contabilidade</category>
   <category>Analytics</category>
   <category>R</category>
-  <guid>https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html</guid>
+  <guid>https://contabilidados.com.br/pacotes/utils/instalacntdd/instalacntdd.html</guid>
   <pubDate>Fri, 01 Mar 2024 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd_destaque.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://contabilidados.com.br/pacotes/utils/instalacntdd/instalacntdd_destaque.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Contabilidade e Data Analytics: O uso do R</title>

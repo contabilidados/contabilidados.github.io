@@ -3,11 +3,12 @@ project:
   output-dir: docs
 
 website:
-  # favicon: icon.png
+  favicon: icon.png
   page-navigation: true
   back-to-top-navigation: true
   title: "contabiliDados"
   site-url: "https://contabilidados.com.br"
+  google-analytics: "G-H9V60F0CZM"
   page-footer:
     center: "contabiliDados usou [Quarto](https://quarto.org/), basedo em [BeaMilz](https://beamilz.com/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
@@ -22,6 +23,7 @@ website:
     creator: "@cntdd"
     card-style: summary_large_image
   navbar:
+    logo: "logo.png"
     right:
       - text: Posts
         href: posts.qmd
