@@ -133,7 +133,7 @@ Materiais
   <link>https://contabilidados.com.br/pacotes/stats/utl_tableStat/utl_tableStat.html</link>
   <description><![CDATA[ <style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://contabilidados.com.br/pacotes/stats/utl_tableStat/utl_tableStat.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+<figure class="figure"><p><img src="https://contabilidados.com.br/pacotes/stats/utl_tableStat/utl_tableStat.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
 </figure>
 </div>
 <p><strong>Você já precisou analisar como diferentes características das empresas se relacionam entre si?</strong></p>
@@ -610,7 +610,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
   <category>cntdd</category>
   <guid>https://contabilidados.com.br/pacotes/stats/utl_tableStat/utl_tableStat.html</guid>
   <pubDate>Tue, 28 Oct 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://contabilidados.com.br/pacotes/stats/utl_tableStat/utl_tableStat.PNG" medium="image"/>
+  <media:content url="https://contabilidados.com.br/pacotes/stats/utl_tableStat/utl_tableStat.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Atualização automatizada do ambiente R com cntddupdateR</title>
