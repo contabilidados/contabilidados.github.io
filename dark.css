@@ -1,8 +1,6 @@
 /*-- scss:rules --*/
 
 .navbar-brand {
-  background: url('logo.png');
-  background-size: contain;
   padding-right: 5px !important;
   padding-left: 120px !important;
   background-repeat: no-repeat;
