@@ -95,12 +95,13 @@
       "/posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html",
       "/posts/contabil/regulacaoContabil/regulacaoContabil.html",
       "/posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html",
+      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+      "/eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html",
       "/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html",
       "/eventos/ecicont2025_economatica/ecicont2025_economatica.html",
       "/eventos/ecicont2025_introR/ecicont2025_introR.html",
-      "/eventos/introR/introR.html",
-      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
       "/eventos/economaticaR/economaticaR.html",
+      "/eventos/introR/introR.html",
       "/eventos/treinamentoeconomatica/treinamentoeconomatica.html",
       "/pacotes/stats/utl_tableStat/utl_tableStat.html",
       "/pacotes/utils/cntddupdater/cntddupdater.html",
@@ -120,12 +121,13 @@
   {
     "listing": "/meetings.html",
     "items": [
+      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+      "/eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html",
       "/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html",
       "/eventos/ecicont2025_economatica/ecicont2025_economatica.html",
       "/eventos/ecicont2025_introR/ecicont2025_introR.html",
-      "/eventos/introR/introR.html",
-      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
       "/eventos/economaticaR/economaticaR.html",
+      "/eventos/introR/introR.html",
       "/eventos/treinamentoeconomatica/treinamentoeconomatica.html"
     ]
   }

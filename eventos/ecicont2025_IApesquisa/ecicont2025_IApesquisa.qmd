@@ -1,8 +1,7 @@
 ---
 toc: true
-author: cntdd
 categories: [R, Economatica, Análise de Dados]
-date: '2025-10-29'
+date_event: "14/11/2025 - 19 às 21h"
 event: "ECICONT - I Encontro Científico em Contabilidade da UFERSA"
 event_url: https://www.even3.com.br/ecicont-611668/
 links:

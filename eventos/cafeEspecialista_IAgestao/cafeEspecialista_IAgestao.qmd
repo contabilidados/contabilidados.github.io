@@ -1,0 +1,39 @@
+---
+toc: true
+categories: [Análise de Dados, Inteligência Artificial, Gestão]
+event: "Café com Especialistas"
+location: Google Meet (Remoto)
+date_event: "27/11/2025 às 15h"
+event_url: NULL
+links:
+- icon: file-pdf
+  icon_pack: far
+  name: Artigo
+  url: https://doi.org/10.12660/gvexec.v22n3.2023.89909
+title: "IA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão"
+image: figs/cafeEspecialista_IAgestao.png
+draft: false
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+<br>
+
+Promovido pelo PET Gestão Social, grupo vinculado à Universidade Federal Rural do Semi-Árido (UFERSA), o evento traz discussões sobre temas atuais voltados à administração.
+
+🤖 Nesta edição, vamos conversar sobre:
+IA e Ciência de Dados – Competências essenciais para líderes e profissionais de gestão.
+
+💬 Um espaço para trocar ideias, aprender e refletir sobre os desafios e oportunidades que a tecnologia traz para a gestão.
+
+📝 Inscrições: [Clique Aqui](https://forms.gle/kMN6JZ5YZ5j9a3JC8)
+
+📅 Data: 27 de novembro 
+🕒 Horário: 15:00
+💻 Local: Google Meet
+📜 Certificado de 2 horas

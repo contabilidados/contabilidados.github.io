@@ -98,8 +98,12 @@ read_yaml_talks_pt <- function(){
     cat(paste0("<b>Link do evento:</b> <a href='", yaml_atual$event_url, "'>", yaml_atual$event_url, "</a><br>"))
   }
 
+  if(!is.null(yaml_atual$date_event)){
+    cat(paste0("<b>Data/Hora do Evento: </b>", yaml_atual$date_event, "<br>"))
+  }
+
   if(!is.null(yaml_atual$location)){
-    cat(paste0("<b>Lugar: </b>", yaml_atual$location, "<br>"))
+    cat(paste0("<b>Local: </b>", yaml_atual$location, "<br>"))
   }
 
 
