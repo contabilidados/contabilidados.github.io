@@ -1,6 +1,7 @@
 ---
 toc: true
 categories: [R, Economatica, Análise de Dados]
+date_publish: "2025-11-13"
 date_event: "13/11/2025 - 19 às 22h"
 event: "ECICONT - I Encontro Científico em Contabilidade da UFERSA"
 event_url: https://www.even3.com.br/ecicont-611668/
@@ -25,6 +26,3 @@ read_yaml_talks_pt()
 <br>
 
 Oficina com o objetivo de demonstrar como utilizar a plataforma Economática para pesquisa financeira e contábil, com foco em análise de empresas, indicadores e séries temporais.
-
-
-**Data e horário:** 13/11/2025 - 19:00 - 22:00

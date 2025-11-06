@@ -3,6 +3,7 @@ toc: true
 categories: [Análise de Dados, Inteligência Artificial, Gestão]
 event: "Café com Especialistas"
 location: Google Meet (Remoto)
+date_publish: "2025-11-27"
 date_event: "27/11/2025 às 15h"
 event_url: NULL
 links:
@@ -31,9 +32,6 @@ IA e Ciência de Dados – Competências essenciais para líderes e profissionai
 
 💬 Um espaço para trocar ideias, aprender e refletir sobre os desafios e oportunidades que a tecnologia traz para a gestão.
 
-📝 Inscrições: [Clique Aqui](https://forms.gle/kMN6JZ5YZ5j9a3JC8)
-
-📅 Data: 27 de novembro 
-🕒 Horário: 15:00
-💻 Local: Google Meet
 📜 Certificado de 2 horas
+
+📝 Inscrições: [Clique Aqui](https://forms.gle/kMN6JZ5YZ5j9a3JC8)

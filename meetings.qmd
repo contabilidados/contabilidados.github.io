@@ -4,8 +4,8 @@ listing:
   - id: eventos
     contents: eventos/*/*.qmd
     type: grid
-    fields: [image, date, title, subtitle]
-    sort: "date desc"
+    fields: [image, title, subtitle]
+    sort: "date_publish desc"
     categories: unnumbered
     sort-ui: true
     filter-ui: true

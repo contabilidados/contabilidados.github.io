@@ -1,6 +1,7 @@
 ---
 toc: true
 categories: [R, Economatica, Análise de Dados]
+date_publish: "2023-12-14"
 date_event: "14/12/2023"
 event: "CINCO - I Congresso Interinstitucional de Contabilidade e Controladoria"
 event_url: https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCO

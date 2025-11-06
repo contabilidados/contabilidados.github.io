@@ -1,6 +1,7 @@
 ---
 toc: true
 categories: [R, Economatica]
+date_publish: "2024-05-11"
 date_event: "11/06/2024"
 event: "V Ciclo de Capacitação Metodológica do PPGA"
 event_url: https://www.instagram.com/p/C7y9-APAJ98/?igsh=MTdtcWQ0Y2t3eG02bQ==

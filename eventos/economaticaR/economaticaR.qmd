@@ -1,6 +1,7 @@
 ---
 toc: true
 categories: [R, Economatica, Análise de Dados]
+date_publish: "2022-10-29"
 date_event: "29/10/2022"
 event: "Análise de Dados com R e Economatica"
 event_url: https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
