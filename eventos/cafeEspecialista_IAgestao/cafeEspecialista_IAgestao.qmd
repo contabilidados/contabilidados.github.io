@@ -11,6 +11,10 @@ links:
   icon_pack: far
   name: Artigo
   url: https://doi.org/10.12660/gvexec.v22n3.2023.89909
+- icon: youtube
+  icon_pack: fab
+  name: "Amazo vs Liga"
+  url: https://www.youtube.com/watch?v=K7gnS43PrMI
 title: "IA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão"
 image: figs/cafeEspecialista_IAgestao.png
 draft: false

@@ -9,7 +9,7 @@
 <link>https://contabilidados.com.br/</link>
 <atom:link href="https://contabilidados.com.br/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.551</generator>
+<generator>quarto-1.8.24</generator>
 <lastBuildDate>Mon, 03 Nov 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Exigências de Maturidade Analítica na Reforma Tributária: por que sua empresa precisa evoluir agora?</title>
@@ -73,6 +73,7 @@
 <div class="cell" data-layout-align="center">
 <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="va" style="color: #111111;
@@ -84,6 +85,7 @@ background-color: null;
 font-style: inherit;"># carrega o pacote cntdd</span></span>
 <span><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="va" style="color: #111111;
@@ -863,6 +865,7 @@ background-color: null;
 font-style: inherit;"># Carregar o pacote devtools</span></span>
 <span><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="va" style="color: #111111;
@@ -893,6 +896,7 @@ background-color: null;
 font-style: inherit;"># Carregar o pacote cntdd</span></span>
 <span><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="va" style="color: #111111;
@@ -965,6 +969,7 @@ font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/dt_contabil.html">d
 <div class="cell" data-layout-align="center">
 <div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="va" style="color: #111111;
