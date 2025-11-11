@@ -1,6 +1,6 @@
 ---
-title: "Atualização automatizada do ambiente R com cntddupdateR"
-subtitle: "Post"
+title: "Atualize seu ecossistema R com o cntdd updateR"
+subtitle: '"In God we trust, all others must bring data" - W. Edwards Deming'
 author: "Alexsandro Prado"
 categories:
   - cntdd
