@@ -580,9 +580,11 @@ Ele utiliza o <strong>Winget</strong>, o gerenciador oficial de aplicativos do W
 <div style="text-align: center; margin-top: 30px;">
 <p><a href="http://getcntddupdatergui.netlify.app/cntddupdateR.exe" download="" style="background-color:#F57224; color:#fff; padding:12px 24px; text-decoration:none; border-radius:8px; font-weight:bold; font-size:16px;"> ⬇️ Baixar cntdd updateR </a></p>
 </div>
-<p>Caso o bloqueador de pop-up do navegador bloqueiar o download:</p>
+<blockquote class="blockquote">
+<p>Caso o dowload seja bloqueado pelo pop-up do navegador:</p>
 <p>1. Clicar com botão direito do mouse em <em>Baixar cntdd update</em></p>
 <p>2. Depois escolha <em>Salvar link como…</em></p>
+</blockquote>
 
 
 </section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a> ]]></description>

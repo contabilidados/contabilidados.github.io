@@ -79,8 +79,8 @@ pacotes estarão prontos para uso.
 ⬇️ Baixar cntdd updateR </a>
 :::
 
-Caso o bloqueador de pop-up do navegador bloqueiar o download:
-
-1\. Clicar com botão direito do mouse em *Baixar cntdd update*
-
-2\. Depois escolha *Salvar link como...*
+> Caso o dowload seja bloqueado pelo pop-up do navegador:
+>
+> 1\. Clicar com botão direito do mouse em *Baixar cntdd update*
+>
+> 2\. Depois escolha *Salvar link como...*
