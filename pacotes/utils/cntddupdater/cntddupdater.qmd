@@ -73,11 +73,14 @@ foi atualizado com sucesso — o R, o RStudio, o Rtools e todos os seus
 pacotes estarão prontos para uso.
 
 ::: {style="text-align: center; margin-top: 30px;"}
-  <a href="http://getcntddupdatergui.netlify.app/cntddupdateR.exe" 
+<a href="http://getcntddupdatergui.netlify.app/cntddupdateR.exe" 
      download 
      style="background-color:#F57224; color:#fff; padding:12px 24px; text-decoration:none; border-radius:8px; font-weight:bold; font-size:16px;">
-    ⬇️ Baixar cntdd updateR
-  </a>
-
-
+⬇️ Baixar cntdd updateR </a>
 :::
+
+Caso o bloqueador de pop-up do navegador bloqueiar o download:
+
+1\. Clicar com botão direito do mouse em *Baixar cntdd update*
+
+2\. Depois escolha *Salvar link como...*
