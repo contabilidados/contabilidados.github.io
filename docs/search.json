@@ -613,6 +613,6 @@
     "href": "pacotes/utils/cntddupdater/cntddupdater.html#como-usar-o-cntdd-updater",
     "title": "Atualize seu ecossistema R com o cntdd updateR",
     "section": "🖱️ Como usar o cntdd updateR",
-    "text": "🖱️ Como usar o cntdd updateR\n\nClique com o botão direito do mouse sobre o arquivo do programa.\n\nSelecione “Executar como administrador”.\n\nClique em “Atualizar” e aguarde o processo.\n\n\n⚠️ Importante: o programa precisa ser executado como administrador, pois ele realiza atualizações de aplicativos no sistema e acessa pastas protegidas (como o diretório de instalação do R em C:\\Program Files).\n\nAo final, o cntdd updateR mostrará uma mensagem informando que tudo foi atualizado com sucesso — o R, o RStudio, o Rtools e todos os seus pacotes estarão prontos para uso.\n\n\n ⬇️ Baixar cntdd updateR"
+    "text": "🖱️ Como usar o cntdd updateR\n\nClique com o botão direito do mouse sobre o arquivo do programa.\n\nSelecione “Executar como administrador”.\n\nClique em “Atualizar” e aguarde o processo.\n\n\n⚠️ Importante: o programa precisa ser executado como administrador, pois ele realiza atualizações de aplicativos no sistema e acessa pastas protegidas (como o diretório de instalação do R em C:\\Program Files).\n\nAo final, o cntdd updateR mostrará uma mensagem informando que tudo foi atualizado com sucesso — o R, o RStudio, o Rtools e todos os seus pacotes estarão prontos para uso.\n\n ⬇️ Baixar cntdd updateR"
   }
 ]
