@@ -22,81 +22,57 @@ knitr::opts_chunk$set(echo = TRUE, include = TRUE, message = FALSE, warning = FA
 <style> body {text-align: justify} </style>
 ```
 
-![](cntddupdater.png){fig-align="center" width="403"}
+![](app.png){fig-align="center" width="250"}
 
-## Contextualização
+## 💡 O que o programa **cntdd updateR** faz?
 
-Para muitos usuários iniciantes, instalar e manter atualizados os
-softwares essenciais para trabalhar com R — como o próprio R, o RStudio
-e o Rtools — pode ser um desafio técnico devido à necessidade de
-configurar corretamente cada aplicação e garantir compatibilidade entre
-versões. Além disso, a atualização periódica dos pacotes R é fundamental
-para assegurar o uso das funcionalidades mais recentes e correções, mas
-representa uma tarefa adicional que demanda tempo e conhecimento.
+Se você usa o **R** ou o **RStudio** no seu computador, sabe que manter
+tudo atualizado pode dar um certo trabalho.\
+Pensando nisso, criamos o **cntdd updateR** — um assistente gráfico que
+atualiza automaticamente todo o seu ambiente R com apenas **um clique**.
 
-Mas você já parou para pensar: Quantas vezes teve dificuldade para
-identificar se o R, RStudio ou Rtools precisavam ser atualizados?\
-Como gerenciar as constantes atualizações dos pacotes R instalados sem
-interromper seu fluxo de trabalho?\
-Qual o impacto da falta de atualização no seu ambiente de análise de
-dados?
+Ele verifica, instala e atualiza automaticamente:
 
-Pensando nessas questões, a \[cntddupdateR\] surge para automatizar e
-simplificar esse processo, reduzindo a complexidade e facilitando o
-trabalho dos pesquisadores e estudantes.
+-   🧠 **R (linguagem de programação)** – o coração das suas análises de
+    dados;\
+-   💻 **RStudio (ambiente de desenvolvimento)** – onde você escreve e
+    executa seus scripts;\
+-   🛠 **Rtools (ferramentas de compilação)** – necessárias para instalar
+    pacotes mais avançados.
 
-## O que é o `cntddupdateR`
+E não para por aí: depois de cuidar dos programas, o **cntdd updateR**
+ainda atualiza **todos os pacotes instalados no R**, direto do **CRAN**,
+garantindo que o seu ambiente esteja limpo, estável e com as versões
+mais recentes.
 
-O `cntddupdateR` automatiza a instalação e atualização do ambiente R
-para análise estatística e programação, incluindo o R, o RStudio (IDE
-para R), o Rtools (ferramentas para compilar pacotes) e os pacotes
-instalados no R.
+## ⚙️ Como ele funciona por dentro
 
-## Como funciona
+O programa foi desenvolvido em **Python**, com interface gráfica feita
+em **Tkinter**, para ser leve e intuitivo.\
+Ele utiliza o **Winget**, o gerenciador oficial de aplicativos do
+Windows, para buscar, instalar e atualizar os componentes necessários —
+tudo de forma automática, sem janelas de terminal nem downloads manuais.
 
--   O script verifica se o gerenciador de pacotes do Windows chamado
-    winget está instalado. Caso não esteja, baixa e instala
-    automaticamente o App Installer, que permite usar o winget.\
--   Utilizando o winget, confere se o R, o RStudio e o Rtools estão
-    instalados. Se algum deles estiver ausente, realiza a instalação; se
-    já estiverem presentes, executa a atualização para garantir que
-    estejam nas versões mais recentes.\
--   Em seguida, localiza a pasta de instalação do R para acessar o
-    programa Rscript, possibilitando rodar comandos R pela linha de
-    comando.\
--   Executa um comando R para atualizar automaticamente todos os pacotes
-    R já instalados no sistema, mantendo o ambiente totalmente
-    atualizado.\
--   Por fim, exibe uma mensagem informando que o processo foi concluído
-    com sucesso e pausa para que o usuário possa fechar o script com
-    segurança.
+Durante o processo, o usuário acompanha cada etapa em uma janela clara e
+organizada, com mensagens que explicam o que está sendo feito.
 
-Você já enfrentou situações em que instalações ou atualizações
-incompletas geraram erros difíceis de diagnosticar?\
-Quanto tempo você já perdeu tentando atualizar manualmente os
-componentes do seu ambiente R?
+## 🖱️ Como usar o cntdd updateR
 
-O script facilita manter todo o ambiente R completo e atualizado,
-integrando a instalação e atualização dos principais componentes usados
-em análise de dados com R, tudo de forma automatizada e prática.
+1.  Clique com o **botão direito do mouse** sobre o arquivo do
+    programa.\
+2.  Selecione **“Executar como administrador”**.\
+3.  Clique em **“Atualizar”** e aguarde o processo.
 
-## Como utilizar o cntddupdateR via PowerShell
+> ⚠️ **Importante:** o programa precisa ser executado **como
+> administrador**, pois ele realiza atualizações de aplicativos no
+> sistema e acessa pastas protegidas (como o diretório de instalação do
+> R em `C:\Program Files`).
 
-### Forma 1: Execução remota direta
+Ao final, o **cntdd updateR** mostrará uma mensagem informando que tudo
+foi atualizado com sucesso — o R, o RStudio, o Rtools e todos os seus
+pacotes estarão prontos para uso.
 
-Abra o PowerShell e execute o comando abaixo para rodar o script
-remotamente, ajustando temporariamente a política de execução:
-
-``` powershell
-
-powershell -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"
-```
-
-### Forma 2: Executar o arquivo `cntddupdateR.bat`
-
-Outra alternativa é utilizar o `cntddupdateR.bat`. 
-
-Realize o [download](https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat){target="_blank"}
-e execute o cntddupdater.bat como administrador (botão direito sobre o arquivo .bat -> Executar como administrador).
-
-
+::: {style="text-align: center; margin-top: 30px;"}
+<a href="http://getcntddupdatergui.netlify.app/cntddupdateR.exe" target="_blank" style="background-color:#F57224; color:#fff; padding:12px 24px; text-decoration:none; border-radius:8px; font-weight:bold; font-size:16px;">
+⬇️ Baixar cntdd updateR </a>
+:::

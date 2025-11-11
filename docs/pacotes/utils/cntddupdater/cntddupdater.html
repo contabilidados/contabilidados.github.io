@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.7.32">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Alexsandro Prado">
 <title>Atualização automatizada do ambiente R com cntddupdateR – contabiliDados</title>
@@ -18,41 +18,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -65,19 +30,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../../icon.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-dc2a909e5bf95bbc82003d544a40a195.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-9668c6978006edd3399c8f59aaf88d86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-dc2a909e5bf95bbc82003d544a40a195.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../../../site_libs/bootstrap/bootstrap-d99383cc448f718bb3ebe86cea552891.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-2236893db032070cfc884b27465dfdc9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-d99383cc448f718bb3ebe86cea552891.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -286,7 +250,7 @@ gtag('config', 'G-H9V60F0CZM', { 'anonymize_ip': true});
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../logo.png" alt="" class="navbar-logo light-content"><img src="../../../logo.png" alt="" class="navbar-logo dark-content"></a>
+    <img src="../../../logo.png" alt="" class="navbar-logo"></a>
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">contabiliDados</span>
     </a>
@@ -361,16 +325,9 @@ gtag('config', 'G-H9V60F0CZM', { 'anonymize_ip': true});
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Nesta página</h2>
    
   <ul>
-<li><a href="#contextualiza%C3%A7%C3%A3o" id="toc-contextualização" class="nav-link active" data-scroll-target="#contextualiza%C3%A7%C3%A3o">Contextualização</a></li>
-  <li><a href="#o-que-%C3%A9-o-cntddupdater" id="toc-o-que-é-o-cntddupdater" class="nav-link" data-scroll-target="#o-que-%C3%A9-o-cntddupdater">O que é o <code>cntddupdateR</code></a></li>
-  <li><a href="#como-funciona" id="toc-como-funciona" class="nav-link" data-scroll-target="#como-funciona">Como funciona</a></li>
-  <li>
-<a href="#como-utilizar-o-cntddupdater-via-powershell" id="toc-como-utilizar-o-cntddupdater-via-powershell" class="nav-link" data-scroll-target="#como-utilizar-o-cntddupdater-via-powershell">Como utilizar o cntddupdateR via PowerShell</a>
-  <ul class="collapse">
-<li><a href="#forma-1-execu%C3%A7%C3%A3o-remota-direta" id="toc-forma-1-execução-remota-direta" class="nav-link" data-scroll-target="#forma-1-execu%C3%A7%C3%A3o-remota-direta">Forma 1: Execução remota direta</a></li>
-  <li><a href="#forma-2-executar-o-arquivo-cntddupdater.bat" id="toc-forma-2-executar-o-arquivo-cntddupdater.bat" class="nav-link" data-scroll-target="#forma-2-executar-o-arquivo-cntddupdater.bat">Forma 2: Executar o arquivo <code>cntddupdateR.bat</code></a></li>
-  </ul>
-</li>
+<li><a href="#o-que-o-programa-cntdd-updater-faz" id="toc-o-que-o-programa-cntdd-updater-faz" class="nav-link active" data-scroll-target="#o-que-o-programa-cntdd-updater-faz">💡 O que o programa <strong>cntdd updateR</strong> faz?</a></li>
+  <li><a href="#como-ele-funciona-por-dentro" id="toc-como-ele-funciona-por-dentro" class="nav-link" data-scroll-target="#como-ele-funciona-por-dentro">⚙️ Como ele funciona por dentro</a></li>
+  <li><a href="#como-usar-o-cntdd-updater" id="toc-como-usar-o-cntdd-updater" class="nav-link" data-scroll-target="#como-usar-o-cntdd-updater">🖱️ Como usar o cntdd updateR</a></li>
   </ul></nav>
     </div>
 <!-- main -->
@@ -407,45 +364,43 @@ gtag('config', 'G-H9V60F0CZM', { 'anonymize_ip': true});
 
 </header><style> body {text-align: justify} </style>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="cntddupdater.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="403"></p>
+<figure class="figure"><p><img src="app.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="250"></p>
 </figure>
 </div>
-<section id="contextualização" class="level2"><h2 class="anchored" data-anchor-id="contextualização">Contextualização</h2>
-<p>Para muitos usuários iniciantes, instalar e manter atualizados os softwares essenciais para trabalhar com R — como o próprio R, o RStudio e o Rtools — pode ser um desafio técnico devido à necessidade de configurar corretamente cada aplicação e garantir compatibilidade entre versões. Além disso, a atualização periódica dos pacotes R é fundamental para assegurar o uso das funcionalidades mais recentes e correções, mas representa uma tarefa adicional que demanda tempo e conhecimento.</p>
-<p>Mas você já parou para pensar: Quantas vezes teve dificuldade para identificar se o R, RStudio ou Rtools precisavam ser atualizados?<br>
-Como gerenciar as constantes atualizações dos pacotes R instalados sem interromper seu fluxo de trabalho?<br>
-Qual o impacto da falta de atualização no seu ambiente de análise de dados?</p>
-<p>Pensando nessas questões, a [cntddupdateR] surge para automatizar e simplificar esse processo, reduzindo a complexidade e facilitando o trabalho dos pesquisadores e estudantes.</p>
-</section><section id="o-que-é-o-cntddupdater" class="level2"><h2 class="anchored" data-anchor-id="o-que-é-o-cntddupdater">O que é o <code>cntddupdateR</code>
-</h2>
-<p>O <code>cntddupdateR</code> automatiza a instalação e atualização do ambiente R para análise estatística e programação, incluindo o R, o RStudio (IDE para R), o Rtools (ferramentas para compilar pacotes) e os pacotes instalados no R.</p>
-</section><section id="como-funciona" class="level2"><h2 class="anchored" data-anchor-id="como-funciona">Como funciona</h2>
+<section id="o-que-o-programa-cntdd-updater-faz" class="level2"><h2 class="anchored" data-anchor-id="o-que-o-programa-cntdd-updater-faz">💡 O que o programa <strong>cntdd updateR</strong> faz?</h2>
+<p>Se você usa o <strong>R</strong> ou o <strong>RStudio</strong> no seu computador, sabe que manter tudo atualizado pode dar um certo trabalho.<br>
+Pensando nisso, criamos o <strong>cntdd updateR</strong> — um assistente gráfico que atualiza automaticamente todo o seu ambiente R com apenas <strong>um clique</strong>.</p>
+<p>Ele verifica, instala e atualiza automaticamente:</p>
 <ul>
-<li>O script verifica se o gerenciador de pacotes do Windows chamado winget está instalado. Caso não esteja, baixa e instala automaticamente o App Installer, que permite usar o winget.<br>
+<li>🧠 <strong>R (linguagem de programação)</strong> – o coração das suas análises de dados;<br>
 </li>
-<li>Utilizando o winget, confere se o R, o RStudio e o Rtools estão instalados. Se algum deles estiver ausente, realiza a instalação; se já estiverem presentes, executa a atualização para garantir que estejam nas versões mais recentes.<br>
+<li>💻 <strong>RStudio (ambiente de desenvolvimento)</strong> – onde você escreve e executa seus scripts;<br>
 </li>
-<li>Em seguida, localiza a pasta de instalação do R para acessar o programa Rscript, possibilitando rodar comandos R pela linha de comando.<br>
-</li>
-<li>Executa um comando R para atualizar automaticamente todos os pacotes R já instalados no sistema, mantendo o ambiente totalmente atualizado.<br>
-</li>
-<li>Por fim, exibe uma mensagem informando que o processo foi concluído com sucesso e pausa para que o usuário possa fechar o script com segurança.</li>
+<li>🛠 <strong>Rtools (ferramentas de compilação)</strong> – necessárias para instalar pacotes mais avançados.</li>
 </ul>
-<p>Você já enfrentou situações em que instalações ou atualizações incompletas geraram erros difíceis de diagnosticar?<br>
-Quanto tempo você já perdeu tentando atualizar manualmente os componentes do seu ambiente R?</p>
-<p>O script facilita manter todo o ambiente R completo e atualizado, integrando a instalação e atualização dos principais componentes usados em análise de dados com R, tudo de forma automatizada e prática.</p>
-</section><section id="como-utilizar-o-cntddupdater-via-powershell" class="level2"><h2 class="anchored" data-anchor-id="como-utilizar-o-cntddupdater-via-powershell">Como utilizar o cntddupdateR via PowerShell</h2>
-<section id="forma-1-execução-remota-direta" class="level3"><h3 class="anchored" data-anchor-id="forma-1-execução-remota-direta">Forma 1: Execução remota direta</h3>
-<p>Abra o PowerShell e execute o comando abaixo para rodar o script remotamente, ajustando temporariamente a política de execução:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>powershell <span class="op">-</span>NoLogo <span class="op">-</span>NoProfile <span class="op">-</span>ExecutionPolicy Bypass <span class="op">-</span>Command <span class="st">"irm 'https://getcntddupdater.netlify.app/updater.ps1' | iex"</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</section><section id="forma-2-executar-o-arquivo-cntddupdater.bat" class="level3"><h3 class="anchored" data-anchor-id="forma-2-executar-o-arquivo-cntddupdater.bat">Forma 2: Executar o arquivo <code>cntddupdateR.bat</code>
-</h3>
-<p>Outra alternativa é utilizar o <code>cntddupdateR.bat</code>.</p>
-<p>Realize o <a href="https://contabilidados.com.br/pacotes/utils/cntddupdater/cntddupdateR.bat" target="_blank">download</a> e execute o cntddupdater.bat como administrador (botão direito sobre o arquivo .bat -&gt; Executar como administrador).</p>
+<p>E não para por aí: depois de cuidar dos programas, o <strong>cntdd updateR</strong> ainda atualiza <strong>todos os pacotes instalados no R</strong>, direto do <strong>CRAN</strong>, garantindo que o seu ambiente esteja limpo, estável e com as versões mais recentes.</p>
+</section><section id="como-ele-funciona-por-dentro" class="level2"><h2 class="anchored" data-anchor-id="como-ele-funciona-por-dentro">⚙️ Como ele funciona por dentro</h2>
+<p>O programa foi desenvolvido em <strong>Python</strong>, com interface gráfica feita em <strong>Tkinter</strong>, para ser leve e intuitivo.<br>
+Ele utiliza o <strong>Winget</strong>, o gerenciador oficial de aplicativos do Windows, para buscar, instalar e atualizar os componentes necessários — tudo de forma automática, sem janelas de terminal nem downloads manuais.</p>
+<p>Durante o processo, o usuário acompanha cada etapa em uma janela clara e organizada, com mensagens que explicam o que está sendo feito.</p>
+</section><section id="como-usar-o-cntdd-updater" class="level2"><h2 class="anchored" data-anchor-id="como-usar-o-cntdd-updater">🖱️ Como usar o cntdd updateR</h2>
+<ol type="1">
+<li>Clique com o <strong>botão direito do mouse</strong> sobre o arquivo do programa.<br>
+</li>
+<li>Selecione <strong>“Executar como administrador”</strong>.<br>
+</li>
+<li>Clique em <strong>“Atualizar”</strong> e aguarde o processo.</li>
+</ol>
+<blockquote class="blockquote">
+<p>⚠️ <strong>Importante:</strong> o programa precisa ser executado <strong>como administrador</strong>, pois ele realiza atualizações de aplicativos no sistema e acessa pastas protegidas (como o diretório de instalação do R em <code>C:\Program Files</code>).</p>
+</blockquote>
+<p>Ao final, o <strong>cntdd updateR</strong> mostrará uma mensagem informando que tudo foi atualizado com sucesso — o R, o RStudio, o Rtools e todos os seus pacotes estarão prontos para uso.</p>
+<div style="text-align: center; margin-top: 30px;">
+<p><a href="http://getcntddupdatergui.netlify.app/cntddupdateR.exe" target="_blank" style="background-color:#F57224; color:#fff; padding:12px 24px; text-decoration:none; border-radius:8px; font-weight:bold; font-size:16px;"> ⬇️ Baixar cntdd updateR </a></p>
+</div>
 
 
-</section></section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -509,14 +464,13 @@ Quanto tempo você já perdeu tentando atualizar manualmente os componentes do s
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
