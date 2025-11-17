@@ -1,6 +1,6 @@
 ---
 title: "Como a Reforma Tributária está Transformando a Precificação de Produtos no Brasil"
-subtitle: "Resenha"
+subtitle: "Post"
 author: "Kléber Formiga Miranda"
 categories:
   - Reforma Tributária
