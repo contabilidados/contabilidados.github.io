@@ -1,0 +1,46 @@
+---
+title: "Como a Reforma Tributária está Transformando a Precificação de Produtos no Brasil"
+subtitle: "Resenha"
+author: "Kléber Formiga Miranda"
+categories:
+  - Reforma Tributária
+  - Contabilidade
+  - Precificação
+date: 2025-11-17
+toc: true
+image: "precificacao_reformaTribut.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
+```
+
+<style> body {text-align: justify} </style>
+
+![](precificacao_reformaTribut.png)
+
+## O que Empresas e Consumidores Precisam Saber
+
+A Emenda Constitucional nº 132/2023 marca uma virada histórica no sistema tributário brasileiro, substituindo os tradicionais impostos indiretos (ICMS, ISS, PIS, Cofins e IPI) pelo modelo dual de Imposto sobre Valor Agregado (IVA). Composto pelo Imposto sobre Bens e Serviços (IBS), que abrange estados e municípios, e pela Contribuição sobre Bens e Serviços (CBS), de competência federal, além do novo Imposto Seletivo (IS) para bens específicos, o objetivo é tornar a tributação mais simples, transparente e uniforme em todo o país.
+
+O processo de transição, regulado pela Lei Complementar nº 214/2025, será gradual e vai até 2033, ao longo do qual o sistema antigo conviverá com o novo. A LC detalha como funciona a nova sistemática, traz princípios de ampla não cumulatividade, isenções, benefícios sociais como o cashback para famílias de baixa renda, e regras especiais para setores essenciais (saúde e educação). Um ponto de destaque: **o impacto sobre a escrituração contábil e os sistemas de notas fiscais das empresas será significativo, exigindo atualização tecnológica e processos adaptados**.
+
+## Transparência Tributária e os Desafios para Empresas
+
+Uma das maiores mudanças está na forma de tributação do consumo: agora, o imposto será cobrado “por fora” do preço, ou seja, o valor de tributos será claramente exibido ao consumidor. Essa transparência força as empresas a revisarem sua estratégia de precificação, evitando riscos como subprecificação (vender abaixo do custo real, comprometendo a saúde financeira) ou superprecificação (praticar preços elevados e perder competitividade).
+
+Além disso, a cobrança do imposto no local do consumo redefine a competitividade regional, reduzindo a guerra fiscal entre estados, mas aumentando a complexidade para empresas atuantes em várias localidades. O ajuste logístico e comercial será necessário, especialmente em setores que atualmente contam com benefícios fiscais ou alíquotas diferenciadas.
+
+## O Equilíbrio Entre Justiça Fiscal e Competitividade
+
+O modelo dual de IVA traz vantagens reconhecidas internacionalmente, como redução da cumulatividade e das distorções econômicas, buscando maior justiça fiscal e eficiência. Contudo, a transição longa até 2033 impõe desafios às empresas: **exige adaptação tecnológica, revisão de contratos e estudos de impacto precisos para adequação**. No aspecto da precificação, o desafio está em equilibrar a clareza da carga tributária para o consumidor com a necessidade de manter margens competitivas, sobretudo em mercados sensíveis ao preço.
+
+A mudança para tributação no local do consumo tende a fortalecer mercados locais e reequilibrar a arrecadação entre entes federados, mas demanda ajuste sofisticado na gestão tributária e operacional das empresas. Estratégias dinâmicas de precificação, apoio tecnológico e comunicação transparente serão essenciais para evitar perdas de mercado e garantir margens sustentáveis.
+
+## A Reforma como Oportunidade Estrutural
+
+A reforma representa uma evolução estrutural fundamental para o Brasil, com reflexos profundos na precificação e gestão de produtos e serviços. Empresas devem agir rápido e de forma estratégica para garantir conformidade, competitividade e sustentabilidade financeira neste novo cenário. Quem se adaptar primeiro sai na frente, valorizando a transparência e fortalecendo relações com o consumidor.
+
+Nesse cenário, o papel do **contador se torna ainda mais central e estratégico**. O contador capacitado será cada vez mais demandado, assumindo funções personalizadas para cada cliente, com entregas feitas de forma ágil e em ciclos cada vez mais curtos. Sua expertise será fundamental para interpretar as novas regras tributárias, orientar ajustes nos processos operacionais, apoiar a tomada de decisões assertivas e garantir que a empresa tire o máximo proveito das oportunidades trazidas pela reforma. Adaptar-se rapidamente requer uma contabilidade parceira do negócio, pronta para inovar e atuar lado a lado na construção de vantagens competitivas neste novo ambiente tributário.
+
+> Vamos debater juntos: o que você (empresa ou contador) tem feito para adequação à nova tributação? Compartilhe sua experiência nos comentários!
