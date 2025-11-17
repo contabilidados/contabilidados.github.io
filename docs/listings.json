@@ -2,6 +2,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.html",
       "/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html",
       "/posts/contabil/cpcVersusReceita/cpcVersusReceita.html",
       "/posts/contabil/qualidadeInformacao/qualidadeInformacao.html",
@@ -56,6 +57,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.html",
       "/posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html",
       "/posts/finance/shortTermism_conceitos/shortTermism_conceitos.html",
       "/posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html",
