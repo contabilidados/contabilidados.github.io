@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,21 +33,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="./icon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dc2a909e5bf95bbc82003d544a40a195.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ca7a6064032833f39fd47719cc3e24da.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-dc2a909e5bf95bbc82003d544a40a195.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,7 +170,7 @@ gtag('config', 'G-H9V60F0CZM', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -188,7 +184,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+      if (mathElements[i].tagName == "SPAN") {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -205,176 +201,11 @@ window.Quarto = {
 </script>
 
 <link rel="alternate" type="application/rss+xml" title="contabiliDados" href="index.xml" data-external="1"><meta name="twitter:title" content="contabiliDados">
-<meta name="twitter:image" content="https://contabilidados.com.br/posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.png">
 <meta name="twitter:creator" content="@cntdd">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="462">
-<meta name="twitter:image-width" content="707">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -382,15 +213,14 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo.png" alt="" class="navbar-logo light-content">
-    <img src="./logo.png" alt="" class="navbar-logo dark-content">
+    <img src="./logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">contabiliDados</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Procurar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -412,7 +242,7 @@ window.Quarto = {
 <span class="menu-text">Sobre</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dashboard" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dashboard" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Dashboard</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dashboard">    
@@ -448,7 +278,7 @@ window.Quarto = {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -468,10 +298,9 @@ window.Quarto = {
   <li><a href="#pacotes-recentes" id="toc-pacotes-recentes" class="nav-link" data-scroll-target="#pacotes-recentes">Pacotes Recentes</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="QWNjcnVhbHM="><span class="quarto-category-count category-cloud-1">Accruals</span></div><div class="category" data-category="QW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw=="><span class="quarto-category-count category-cloud-2">Análise de Dados</span></div><div class="category" data-category="QW5hbHl0aWNz"><span class="quarto-category-count category-cloud-1">Analytics</span></div><div class="category" data-category="QXNzaW1ldHJpYQ=="><span class="quarto-category-count category-cloud-1">Assimetria</span></div><div class="category" data-category="Q0FQTQ=="><span class="quarto-category-count category-cloud-1">CAPM</span></div><div class="category" data-category="Y250ZGQ="><span class="quarto-category-count category-cloud-1">cntdd</span></div><div class="category" data-category="Q29udGFiaWxpZGFkZQ=="><span class="quarto-category-count category-cloud-4">Contabilidade</span></div><div class="category" data-category="RGlzY2xvc3VyZQ=="><span class="quarto-category-count category-cloud-1">Disclosure</span></div><div class="category" data-category="RGl2aWRlbmRvcw=="><span class="quarto-category-count category-cloud-1">Dividendos</span></div><div class="category" data-category="RWNvbm9tYXRpY2E="><span class="quarto-category-count category-cloud-2">Economatica</span></div><div class="category" data-category="RW5kaXZpZGFtZW50bw=="><span class="quarto-category-count category-cloud-1">Endividamento</span></div><div class="category" data-category="RkNE"><span class="quarto-category-count category-cloud-1">FCD</span></div><div class="category" data-category="RmluYW4lQzMlQTdhcw=="><span class="quarto-category-count category-cloud-5">Finanças</span></div><div class="category" data-category="R2VzdCVDMyVBM28="><span class="quarto-category-count category-cloud-1">Gestão</span></div><div class="category" data-category="R292ZXJuYW4lQzMlQTdh"><span class="quarto-category-count category-cloud-2">Governança</span></div><div class="category" data-category="SGlzdCVDMyVCM3JpYQ=="><span class="quarto-category-count category-cloud-1">História</span></div><div class="category" data-category="SE1F"><span class="quarto-category-count category-cloud-1">HME</span></div><div class="category" data-category="SUZSUyUyRklBUyUyRkNQQw=="><span class="quarto-category-count category-cloud-1">IFRS/IAS/CPC</span></div><div class="category" data-category="SW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFs"><span class="quarto-category-count category-cloud-1">Inteligência Artificial</span></div><div class="category" data-category="TWF0dXJpZGFkZSUyMEFuYWwlQzMlQUR0aWNh"><span class="quarto-category-count category-cloud-1">Maturidade Analítica</span></div><div class="category" data-category="TWVuc3VyYSVDMyVBNyVDMyVBM28="><span class="quarto-category-count category-cloud-1">Mensuração</span></div><div class="category" data-category="UGFjb3Rlcw=="><span class="quarto-category-count category-cloud-1">Pacotes</span></div><div class="category" data-category="UGVzcXVpc2E="><span class="quarto-category-count category-cloud-1">Pesquisa</span></div><div class="category" data-category="UHJlY2lmaWNhJUMzJUE3JUMzJUEzbw=="><span class="quarto-category-count category-cloud-1">Precificação</span></div><div class="category" data-category="Ug=="><span class="quarto-category-count category-cloud-2">R</span></div><div class="category" data-category="UmVmb3JtYSUyMFRyaWJ1dCVDMyVBMXJpYQ=="><span class="quarto-category-count category-cloud-1">Reforma Tributária</span></div><div class="category" data-category="UmVndWxhJUMzJUE3JUMzJUEzbw=="><span class="quarto-category-count category-cloud-1">Regulação</span></div><div class="category" data-category="UmVtdW5lcmElQzMlQTclQzMlQTNv"><span class="quarto-category-count category-cloud-1">Remuneração</span></div><div class="category" data-category="U2VudGltZW50bw=="><span class="quarto-category-count category-cloud-1">Sentimento</span></div><div class="category" data-category="U2hvcnQtVGVybWlzbQ=="><span class="quarto-category-count category-cloud-1">Short-Termism</span></div><div class="category" data-category="VGVvcmlh"><span class="quarto-category-count category-cloud-1">Teoria</span></div><div class="category" data-category="VmFsdWUlMjByZWxldmFuY2U="><span class="quarto-category-count category-cloud-1">Value relevance</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Accruals"><span class="quarto-category-count category-cloud-1">Accruals</span></div><div class="category" data-category="Analytics"><span class="quarto-category-count category-cloud-1">Analytics</span></div><div class="category" data-category="Análise de Dados"><span class="quarto-category-count category-cloud-2">Análise de Dados</span></div><div class="category" data-category="Assimetria"><span class="quarto-category-count category-cloud-1">Assimetria</span></div><div class="category" data-category="CAPM"><span class="quarto-category-count category-cloud-1">CAPM</span></div><div class="category" data-category="Contabilidade"><span class="quarto-category-count category-cloud-4">Contabilidade</span></div><div class="category" data-category="Disclosure"><span class="quarto-category-count category-cloud-1">Disclosure</span></div><div class="category" data-category="Dividendos"><span class="quarto-category-count category-cloud-1">Dividendos</span></div><div class="category" data-category="Economatica"><span class="quarto-category-count category-cloud-2">Economatica</span></div><div class="category" data-category="Endividamento"><span class="quarto-category-count category-cloud-1">Endividamento</span></div><div class="category" data-category="FCD"><span class="quarto-category-count category-cloud-1">FCD</span></div><div class="category" data-category="Finanças"><span class="quarto-category-count category-cloud-5">Finanças</span></div><div class="category" data-category="Gestão"><span class="quarto-category-count category-cloud-1">Gestão</span></div><div class="category" data-category="Governança"><span class="quarto-category-count category-cloud-2">Governança</span></div><div class="category" data-category="HME"><span class="quarto-category-count category-cloud-1">HME</span></div><div class="category" data-category="História"><span class="quarto-category-count category-cloud-1">História</span></div><div class="category" data-category="IFRS/IAS/CPC"><span class="quarto-category-count category-cloud-1">IFRS/IAS/CPC</span></div><div class="category" data-category="Inteligência Artificial"><span class="quarto-category-count category-cloud-1">Inteligência Artificial</span></div><div class="category" data-category="Maturidade Analítica"><span class="quarto-category-count category-cloud-1">Maturidade Analítica</span></div><div class="category" data-category="Mensuração"><span class="quarto-category-count category-cloud-1">Mensuração</span></div><div class="category" data-category="Pacotes"><span class="quarto-category-count category-cloud-1">Pacotes</span></div><div class="category" data-category="Pesquisa"><span class="quarto-category-count category-cloud-1">Pesquisa</span></div><div class="category" data-category="Precificação"><span class="quarto-category-count category-cloud-1">Precificação</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-2">R</span></div><div class="category" data-category="Reforma Tributária"><span class="quarto-category-count category-cloud-1">Reforma Tributária</span></div><div class="category" data-category="Regulação"><span class="quarto-category-count category-cloud-1">Regulação</span></div><div class="category" data-category="Remuneração"><span class="quarto-category-count category-cloud-1">Remuneração</span></div><div class="category" data-category="Sentimento"><span class="quarto-category-count category-cloud-1">Sentimento</span></div><div class="category" data-category="Short-Termism"><span class="quarto-category-count category-cloud-1">Short-Termism</span></div><div class="category" data-category="Teoria"><span class="quarto-category-count category-cloud-1">Teoria</span></div><div class="category" data-category="Value relevance"><span class="quarto-category-count category-cloud-1">Value relevance</span></div><div class="category" data-category="cntdd"><span class="quarto-category-count category-cloud-1">cntdd</span></div></div></div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
-
+<main class="content column-page-left" id="quarto-document-content">
 
 
 
@@ -480,12 +309,12 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="posts-recentes">Posts recentes</h2>
 <div id="listing-posts" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UmVmb3JtYSUyMFRyaWJ1dCVDMyVBMXJpYSUyQ0NvbnRhYmlsaWRhZGUlMkNQcmVjaWZpY2ElQzMlQTclQzMlQTNv" data-listing-date-sort="1763348400000" data-listing-file-modified-sort="1763384771572" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="609">
-<div class="thumbnail"><a href="./posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.html" class="no-external">
-
-<img loading="lazy" src="./posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="0" data-categories="Reforma Tributária,Contabilidade,Precificação" data-listing-date-sort="1763348400000" data-listing-file-modified-sort="1764270834549" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="609">
+<div class="thumbnail">
+<p><a href="./posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.html" class="no-external"></a></p><a href="./posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.html" class="no-external">
+<p><img src="./posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.html" class="no-external">Como a Reforma Tributária está Transformando a Precificação de Produtos no Brasil</a>
@@ -494,13 +323,15 @@ window.Quarto = {
 <a href="./posts/contabil/precificacao_reformaTribut/precificacao_reformaTribut.html" class="no-external">Post</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVmb3JtYSUyMFRyaWJ1dCVDMyVBMXJpYQ=='); return false;">Reforma Tributária</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJlY2lmaWNhJUMzJUE3JUMzJUEzbw=='); return false;">Precificação</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Reforma Tributária'); return false;">
+Reforma Tributária
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Precificação'); return false;">
+Precificação
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -511,16 +342,18 @@ window.Quarto = {
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">4 minutos</div>
+<div class="listing-reading-time">
+4 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="UmVmb3JtYSUyMFRyaWJ1dCVDMyVBMXJpYSUyQ0FuJUMzJUExbGlzZSUyMGRlJTIwRGFkb3MlMkNNYXR1cmlkYWRlJTIwQW5hbCVDMyVBRHRpY2E=" data-listing-date-sort="1762138800000" data-listing-file-modified-sort="1762256244946" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="541">
-<div class="thumbnail"><a href="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html" class="no-external">
-
-<img loading="lazy" src="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.jpg" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="1" data-categories="Reforma Tributária,Análise de Dados,Maturidade Analítica" data-listing-date-sort="1762138800000" data-listing-file-modified-sort="1762452834958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="541">
+<div class="thumbnail">
+<p><a href="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html" class="no-external"></a></p><a href="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html" class="no-external">
+<p><img src="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html" class="no-external">Exigências de Maturidade Analítica na Reforma Tributária: por que sua empresa precisa evoluir agora?</a>
@@ -529,13 +362,15 @@ Kléber Formiga Miranda
 <a href="./posts/dados/maturidadeAnaliticaRefTribut/maturidadeAnaliticaRefTribut.html" class="no-external">Post</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVmb3JtYSUyMFRyaWJ1dCVDMyVBMXJpYQ=='); return false;">Reforma Tributária</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw=='); return false;">Análise de Dados</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0dXJpZGFkZSUyMEFuYWwlQzMlQUR0aWNh'); return false;">Maturidade Analítica</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Reforma Tributária'); return false;">
+Reforma Tributária
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Análise de Dados'); return false;">
+Análise de Dados
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Maturidade Analítica'); return false;">
+Maturidade Analítica
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -546,16 +381,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">3 minutos</div>
+<div class="listing-reading-time">
+3 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="U2hvcnQtVGVybWlzbSUyQ0ZpbmFuJUMzJUE3YXMlMkNHb3Zlcm5hbiVDMyVBN2E=" data-listing-date-sort="1761534000000" data-listing-file-modified-sort="1762256244953" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="404">
-<div class="thumbnail"><a href="./posts/finance/shortTermism_conceitos/shortTermism_conceitos.html" class="no-external">
-
-<img loading="lazy" src="./posts/finance/shortTermism_conceitos/shortTermism_conceitos.jpg" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="2" data-categories="Short-Termism,Finanças,Governança" data-listing-date-sort="1761534000000" data-listing-file-modified-sort="1762452834958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="404">
+<div class="thumbnail">
+<p><a href="./posts/finance/shortTermism_conceitos/shortTermism_conceitos.html" class="no-external"></a></p><a href="./posts/finance/shortTermism_conceitos/shortTermism_conceitos.html" class="no-external">
+<p><img src="./posts/finance/shortTermism_conceitos/shortTermism_conceitos.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/shortTermism_conceitos/shortTermism_conceitos.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/shortTermism_conceitos/shortTermism_conceitos.html" class="no-external">Short-termism: reflexões sobre o impacto do horizonte de investimento curto nas decisões corporativas</a>
@@ -564,13 +401,15 @@ Kléber Formiga Miranda
 <a href="./posts/finance/shortTermism_conceitos/shortTermism_conceitos.html" class="no-external">Post</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2hvcnQtVGVybWlzbQ=='); return false;">Short-Termism</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R292ZXJuYW4lQzMlQTdh'); return false;">Governança</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Short-Termism'); return false;">
+Short-Termism
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Governança'); return false;">
+Governança
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -581,16 +420,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">3 minutos</div>
+<div class="listing-reading-time">
+3 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuJUMzJUExbGlzZSUyMGRlJTIwRGFkb3M=" data-listing-date-sort="1761274800000" data-listing-file-modified-sort="1761650237011" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
-<div class="thumbnail"><a href="./posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="3" data-categories="Contabilidade,Análise de Dados" data-listing-date-sort="1761274800000" data-listing-file-modified-sort="1761775335576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
+<div class="thumbnail">
+<p><a href="./posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html" class="no-external"></a></p><a href="./posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html" class="no-external">
+<p><img data-src="./posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html" class="no-external">A contabilidade nunca mais será a mesma!</a>
@@ -599,11 +440,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/contabilidadeNaoSeraMesma/contabilidadeNaoSeraMesma.html" class="no-external">Post</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw=='); return false;">Análise de Dados</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Análise de Dados'); return false;">
+Análise de Dados
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -614,16 +456,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">2 minutos</div>
+<div class="listing-reading-time">
+2 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Y250ZGQ=" data-listing-date-sort="1735873200000" data-listing-file-modified-sort="1761586846984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="722">
-<div class="thumbnail"><a href="./posts/dados/mascote/mascote.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/dados/mascote/mascote.jpg" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="4" data-categories="cntdd" data-listing-date-sort="1735873200000" data-listing-file-modified-sort="1761775335989" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="722">
+<div class="thumbnail">
+<p><a href="./posts/dados/mascote/mascote.html" class="no-external"></a></p><a href="./posts/dados/mascote/mascote.html" class="no-external">
+<p><img data-src="./posts/dados/mascote/mascote.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/dados/mascote/mascote.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/dados/mascote/mascote.html" class="no-external">O Coiote como Mascote Ideal para o Projeto Contabilidados</a>
@@ -632,9 +476,9 @@ Kléber Formiga Miranda
 <a href="./posts/dados/mascote/mascote.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y250ZGQ='); return false;">cntdd</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('cntdd'); return false;">
+cntdd
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -645,16 +489,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga, Alexsandro Prado, Yuri Azevedo
 </div>
-<div class="listing-reading-time">4 minutos</div>
+<div class="listing-reading-time">
+4 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Q29udGFiaWxpZGFkZSUyQ1Rlb3JpYQ==" data-listing-date-sort="1718852400000" data-listing-file-modified-sort="1762256244938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1589">
-<div class="thumbnail"><a href="./posts/contabil/cpcVersusReceita/cpcVersusReceita.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="5" data-categories="Contabilidade,Teoria" data-listing-date-sort="1718852400000" data-listing-file-modified-sort="1762452834955" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1589">
+<div class="thumbnail">
+<p><a href="./posts/contabil/cpcVersusReceita/cpcVersusReceita.html" class="no-external"></a></p><a href="./posts/contabil/cpcVersusReceita/cpcVersusReceita.html" class="no-external">
+<p><img data-src="./posts/contabil/cpcVersusReceita/cpcVersusReceita.webp" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/cpcVersusReceita/cpcVersusReceita.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/cpcVersusReceita/cpcVersusReceita.html" class="no-external">Conflitos entre IFRS/CPC e Normas Fiscais da Receita Federal</a>
@@ -663,11 +509,12 @@ Kléber Formiga, Alexsandro Prado, Yuri Azevedo
 <a href="./posts/contabil/cpcVersusReceita/cpcVersusReceita.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVvcmlh'); return false;">Teoria</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Teoria'); return false;">
+Teoria
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -678,16 +525,18 @@ Kléber Formiga, Alexsandro Prado, Yuri Azevedo
 <div class="listing-author">
 Alexsandro Prado
 </div>
-<div class="listing-reading-time">8 minutos</div>
+<div class="listing-reading-time">
+8 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1717642800000" data-listing-file-modified-sort="1761586847104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1443">
-<div class="thumbnail"><a href="./posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.webp" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="6" data-categories="Finanças,Governança" data-listing-date-sort="1717642800000" data-listing-file-modified-sort="1761775336387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1443">
+<div class="thumbnail">
+<p><a href="./posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html" class="no-external"></a></p><a href="./posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html" class="no-external">
+<p><img data-src="./posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.webp" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html" class="no-external">Poison Pills: Compreenda como funciona esse mecanismo de governança corporativa</a>
@@ -696,11 +545,12 @@ Alexsandro Prado
 <a href="./posts/finance/poisonpillsGovernanca/poisonpillsGovernanca.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R292ZXJuYW4lQzMlQTdh'); return false;">Governança</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Governança'); return false;">
+Governança
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -711,16 +561,18 @@ Alexsandro Prado
 <div class="listing-author">
 Yuri Gomes Paiva Azevedo
 </div>
-<div class="listing-reading-time">8 minutos</div>
+<div class="listing-reading-time">
+8 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1707102000000" data-listing-file-modified-sort="1761586846979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
-<div class="thumbnail"><a href="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="7" data-categories="Contabilidade,Analytics,R" data-listing-date-sort="1707102000000" data-listing-file-modified-sort="1761775335961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
+<div class="thumbnail">
+<p><a href="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.html" class="no-external"></a></p><a href="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.html" class="no-external">
+<p><img data-src="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.html" class="no-external">Contabilidade e Data Analytics: O uso do R</a>
@@ -729,13 +581,15 @@ Yuri Gomes Paiva Azevedo
 <a href="./posts/dados/accountingAndAnalytics/accountingAndAnalytics.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Analytics'); return false;">
+Analytics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -746,16 +600,18 @@ Yuri Gomes Paiva Azevedo
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">3 minutos</div>
+<div class="listing-reading-time">
+3 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="RmluYW4lQzMlQTdhcyUyQ0RpdmlkZW5kb3M=" data-listing-date-sort="1660791600000" data-listing-file-modified-sort="1761586847117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1794">
-<div class="thumbnail"><a href="./posts/finance/politicaDividendos/politicaDividendos.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/politicaDividendos/politicaDividendos.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="8" data-categories="Finanças,Dividendos" data-listing-date-sort="1660791600000" data-listing-file-modified-sort="1761775336473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1794">
+<div class="thumbnail">
+<p><a href="./posts/finance/politicaDividendos/politicaDividendos.html" class="no-external"></a></p><a href="./posts/finance/politicaDividendos/politicaDividendos.html" class="no-external">
+<p><img data-src="./posts/finance/politicaDividendos/politicaDividendos.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/politicaDividendos/politicaDividendos.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/politicaDividendos/politicaDividendos.html" class="no-external">Política de Dividendos</a>
@@ -764,11 +620,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/politicaDividendos/politicaDividendos.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGl2aWRlbmRvcw=='); return false;">Dividendos</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Dividendos'); return false;">
+Dividendos
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -779,16 +636,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">9 minutos</div>
+<div class="listing-reading-time">
+9 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="RmluYW4lQzMlQTdhcyUyQ0hNRQ==" data-listing-date-sort="1640228400000" data-listing-file-modified-sort="1761586847177" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1369">
-<div class="thumbnail"><a href="./posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="9" data-categories="Finanças,HME" data-listing-date-sort="1640228400000" data-listing-file-modified-sort="1761775336656" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1369">
+<div class="thumbnail">
+<p><a href="./posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html" class="no-external"></a></p><a href="./posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html" class="no-external">
+<p><img data-src="./posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html" class="no-external">Teoria da Eficiência de Mercado</a>
@@ -797,11 +656,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/teoriaEficienciaMercado/teoriaEficienciaMercado.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SE1F'); return false;">HME</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('HME'); return false;">
+HME
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -812,16 +672,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">7 minutos</div>
+<div class="listing-reading-time">
+7 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1635390000000" data-listing-file-modified-sort="1761586847160" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2769">
-<div class="thumbnail"><a href="./posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="10" data-categories="Finanças,Governança" data-listing-date-sort="1635390000000" data-listing-file-modified-sort="1761775336608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2769">
+<div class="thumbnail">
+<p><a href="./posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html" class="no-external"></a></p><a href="./posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html" class="no-external">
+<p><img data-src="./posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html" class="no-external">Teoria de Agência e Governança Corporativa</a>
@@ -830,11 +692,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/teoriaAgenciaGovernanca/teoriaAgenciaGovernanca.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R292ZXJuYW4lQzMlQTdh'); return false;">Governança</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Governança'); return false;">
+Governança
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -845,16 +708,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">14 minutos</div>
+<div class="listing-reading-time">
+14 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="RmluYW4lQzMlQTdhcyUyQ1Rlb3JpYQ==" data-listing-date-sort="1635130800000" data-listing-file-modified-sort="1761586847189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2163">
-<div class="thumbnail"><a href="./posts/finance/visaoGeralFinancas/visaoGeralFinancas.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/visaoGeralFinancas/visaoGeralFinancas.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="11" data-categories="Finanças,Teoria" data-listing-date-sort="1635130800000" data-listing-file-modified-sort="1761775336688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2163">
+<div class="thumbnail">
+<p><a href="./posts/finance/visaoGeralFinancas/visaoGeralFinancas.html" class="no-external"></a></p><a href="./posts/finance/visaoGeralFinancas/visaoGeralFinancas.html" class="no-external">
+<p><img data-src="./posts/finance/visaoGeralFinancas/visaoGeralFinancas.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/visaoGeralFinancas/visaoGeralFinancas.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/visaoGeralFinancas/visaoGeralFinancas.html" class="no-external">Visão Geral de Finanças</a>
@@ -863,11 +728,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/visaoGeralFinancas/visaoGeralFinancas.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVvcmlh'); return false;">Teoria</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Teoria'); return false;">
+Teoria
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -878,16 +744,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">11 minutos</div>
+<div class="listing-reading-time">
+11 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="RmluYW4lQzMlQTdhcyUyQ1NlbnRpbWVudG8=" data-listing-date-sort="1628218800000" data-listing-file-modified-sort="1761586847150" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2071">
-<div class="thumbnail"><a href="./posts/finance/sentimentoInvestidor/sentimentoInvestidor.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/sentimentoInvestidor/sentimentoInvestidor.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="12" data-categories="Finanças,Sentimento" data-listing-date-sort="1628218800000" data-listing-file-modified-sort="1761775336576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2071">
+<div class="thumbnail">
+<p><a href="./posts/finance/sentimentoInvestidor/sentimentoInvestidor.html" class="no-external"></a></p><a href="./posts/finance/sentimentoInvestidor/sentimentoInvestidor.html" class="no-external">
+<p><img data-src="./posts/finance/sentimentoInvestidor/sentimentoInvestidor.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/sentimentoInvestidor/sentimentoInvestidor.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/sentimentoInvestidor/sentimentoInvestidor.html" class="no-external">Sentimento do investidor no mercado de ações</a>
@@ -896,11 +764,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/sentimentoInvestidor/sentimentoInvestidor.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2VudGltZW50bw=='); return false;">Sentimento</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Sentimento'); return false;">
+Sentimento
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -911,16 +780,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">11 minutos</div>
+<div class="listing-reading-time">
+11 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1627614000000" data-listing-file-modified-sort="1761586847085" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1897">
-<div class="thumbnail"><a href="./posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="13" data-categories="Finanças,Governança" data-listing-date-sort="1627614000000" data-listing-file-modified-sort="1761775336276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1897">
+<div class="thumbnail">
+<p><a href="./posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.html" class="no-external"></a></p><a href="./posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.html" class="no-external">
+<p><img data-src="./posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.html" class="no-external">Governança Corporativa e Proteção Legal</a>
@@ -929,11 +800,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/governancaProtecaoLegal/governancaProtecaoLegal.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R292ZXJuYW4lQzMlQTdh'); return false;">Governança</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Governança'); return false;">
+Governança
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -944,16 +816,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">10 minutos</div>
+<div class="listing-reading-time">
+10 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="RmluYW4lQzMlQTdhcyUyQ0VuZGl2aWRhbWVudG8=" data-listing-date-sort="1624676400000" data-listing-file-modified-sort="1761586847026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2973">
-<div class="thumbnail"><a href="./posts/finance/custoEstruturaCapital/custoEstruturaCapital.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/custoEstruturaCapital/custoEstruturaCapital.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="14" data-categories="Finanças,Endividamento" data-listing-date-sort="1624676400000" data-listing-file-modified-sort="1761775336086" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2973">
+<div class="thumbnail">
+<p><a href="./posts/finance/custoEstruturaCapital/custoEstruturaCapital.html" class="no-external"></a></p><a href="./posts/finance/custoEstruturaCapital/custoEstruturaCapital.html" class="no-external">
+<p><img data-src="./posts/finance/custoEstruturaCapital/custoEstruturaCapital.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/custoEstruturaCapital/custoEstruturaCapital.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/custoEstruturaCapital/custoEstruturaCapital.html" class="no-external">Custo e Estrutura de Capital</a>
@@ -962,11 +836,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/custoEstruturaCapital/custoEstruturaCapital.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW5kaXZpZGFtZW50bw=='); return false;">Endividamento</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Endividamento'); return false;">
+Endividamento
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -977,16 +852,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">15 minutos</div>
+<div class="listing-reading-time">
+15 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="RmluYW4lQzMlQTdhcyUyQ0hNRQ==" data-listing-date-sort="1622257200000" data-listing-file-modified-sort="1761586847005" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2202">
-<div class="thumbnail"><a href="./posts/finance/anomalias/anomalias.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/anomalias/anomalias.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="15" data-categories="Finanças,HME" data-listing-date-sort="1622257200000" data-listing-file-modified-sort="1761775336052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2202">
+<div class="thumbnail">
+<p><a href="./posts/finance/anomalias/anomalias.html" class="no-external"></a></p><a href="./posts/finance/anomalias/anomalias.html" class="no-external">
+<p><img data-src="./posts/finance/anomalias/anomalias.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/anomalias/anomalias.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/anomalias/anomalias.html" class="no-external">Anomalias</a>
@@ -995,11 +872,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/anomalias/anomalias.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SE1F'); return false;">HME</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('HME'); return false;">
+HME
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1010,16 +888,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">12 minutos</div>
+<div class="listing-reading-time">
+12 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1620788400000" data-listing-file-modified-sort="1761586847050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1736">
-<div class="thumbnail"><a href="./posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="16" data-categories="Finanças,Governança" data-listing-date-sort="1620788400000" data-listing-file-modified-sort="1761775336132" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1736">
+<div class="thumbnail">
+<p><a href="./posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.html" class="no-external"></a></p><a href="./posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.html" class="no-external">
+<p><img data-src="./posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.html" class="no-external">Governança Corporativa em Situações Especiais</a>
@@ -1028,11 +908,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/governancaCasosEspeciais/governancaCasosEspeciais.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R292ZXJuYW4lQzMlQTdh'); return false;">Governança</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Governança'); return false;">
+Governança
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1043,16 +924,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">9 minutos</div>
+<div class="listing-reading-time">
+9 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="RmluYW4lQzMlQTdhcyUyQ0NBUE0=" data-listing-date-sort="1616468400000" data-listing-file-modified-sort="1761586847117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3388">
-<div class="thumbnail"><a href="./posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="17" data-categories="Finanças,CAPM" data-listing-date-sort="1616468400000" data-listing-file-modified-sort="1761775336529" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3388">
+<div class="thumbnail">
+<p><a href="./posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.html" class="no-external"></a></p><a href="./posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.html" class="no-external">
+<p><img data-src="./posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.html" class="no-external">Precificação de Ativos: modelos de fatores</a>
@@ -1061,11 +944,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/precificacaoAtivos_portfolio/precificacaoAtivos_portfolio.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q0FQTQ=='); return false;">CAPM</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('CAPM'); return false;">
+CAPM
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1076,16 +960,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">17 minutos</div>
+<div class="listing-reading-time">
+17 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1614740400000" data-listing-file-modified-sort="1761586847101" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1948">
-<div class="thumbnail"><a href="./posts/finance/modelosGovernanca/modelosGovernanca.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/modelosGovernanca/modelosGovernanca.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="18" data-categories="Finanças,Governança" data-listing-date-sort="1614740400000" data-listing-file-modified-sort="1761775336387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1948">
+<div class="thumbnail">
+<p><a href="./posts/finance/modelosGovernanca/modelosGovernanca.html" class="no-external"></a></p><a href="./posts/finance/modelosGovernanca/modelosGovernanca.html" class="no-external">
+<p><img data-src="./posts/finance/modelosGovernanca/modelosGovernanca.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/modelosGovernanca/modelosGovernanca.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/modelosGovernanca/modelosGovernanca.html" class="no-external">Modelos de Estruturas de Governança Corporativa</a>
@@ -1094,11 +980,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/modelosGovernanca/modelosGovernanca.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R292ZXJuYW4lQzMlQTdh'); return false;">Governança</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Governança'); return false;">
+Governança
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1109,16 +996,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">10 minutos</div>
+<div class="listing-reading-time">
+10 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="RmluYW4lQzMlQTdhcyUyQ1JlbXVuZXJhJUMzJUE3JUMzJUEzbw==" data-listing-date-sort="1613703600000" data-listing-file-modified-sort="1761586847139" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1904">
-<div class="thumbnail"><a href="./posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="19" data-categories="Finanças,Remuneração" data-listing-date-sort="1613703600000" data-listing-file-modified-sort="1761775336546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1904">
+<div class="thumbnail">
+<p><a href="./posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html" class="no-external"></a></p><a href="./posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html" class="no-external">
+<p><img data-src="./posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html" class="no-external">Remuneração e Desempenho</a>
@@ -1127,11 +1016,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/remuneracaoDesempenho/remuneracaoDesempenho.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVtdW5lcmElQzMlQTclQzMlQTNv'); return false;">Remuneração</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Remuneração'); return false;">
+Remuneração
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1142,16 +1032,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">10 minutos</div>
+<div class="listing-reading-time">
+10 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1613185200000" data-listing-file-modified-sort="1761586847075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1758">
-<div class="thumbnail"><a href="./posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/governancaCorporativaSinalizacao/GovernancaDesempenho.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="20" data-categories="Finanças,Governança" data-listing-date-sort="1613185200000" data-listing-file-modified-sort="1761775336211" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1758">
+<div class="thumbnail">
+<p><a href="./posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html" class="no-external"></a></p><a href="./posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html" class="no-external">
+<p><img data-src="./posts/finance/governancaCorporativaSinalizacao/GovernancaDesempenho.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html" class="no-external">Governança Corporativa: Sinalização</a>
@@ -1160,11 +1052,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/governancaCorporativaSinalizacao/governancaCorporativaSinalizacao.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R292ZXJuYW4lQzMlQTdh'); return false;">Governança</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Governança'); return false;">
+Governança
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1175,16 +1068,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">9 minutos</div>
+<div class="listing-reading-time">
+9 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="RmluYW4lQzMlQTdhcyUyQ0dvdmVybmFuJUMzJUE3YQ==" data-listing-date-sort="1611198000000" data-listing-file-modified-sort="1761586847066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1942">
-<div class="thumbnail"><a href="./posts/finance/governancaCorporativa/governancaCorporativa.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/governancaCorporativa/governancaCorporativa.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="21" data-categories="Finanças,Governança" data-listing-date-sort="1611198000000" data-listing-file-modified-sort="1761775336176" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1942">
+<div class="thumbnail">
+<p><a href="./posts/finance/governancaCorporativa/governancaCorporativa.html" class="no-external"></a></p><a href="./posts/finance/governancaCorporativa/governancaCorporativa.html" class="no-external">
+<p><img data-src="./posts/finance/governancaCorporativa/governancaCorporativa.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/governancaCorporativa/governancaCorporativa.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/governancaCorporativa/governancaCorporativa.html" class="no-external">Governança Corporativa: Sistemas e melhores práticas</a>
@@ -1193,11 +1088,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/governancaCorporativa/governancaCorporativa.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R292ZXJuYW4lQzMlQTdh'); return false;">Governança</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Governança'); return false;">
+Governança
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1208,16 +1104,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">10 minutos</div>
+<div class="listing-reading-time">
+10 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="RmluYW4lQzMlQTdhcyUyQ0Fzc2ltZXRyaWE=" data-listing-date-sort="1602471600000" data-listing-file-modified-sort="1761586847013" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1895">
-<div class="thumbnail"><a href="./posts/finance/assimetriaInformacional/assimetriaInformacional.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/assimetriaInformacional/assimetriaInformacional.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="22" data-categories="Finanças,Assimetria" data-listing-date-sort="1602471600000" data-listing-file-modified-sort="1761775336068" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1895">
+<div class="thumbnail">
+<p><a href="./posts/finance/assimetriaInformacional/assimetriaInformacional.html" class="no-external"></a></p><a href="./posts/finance/assimetriaInformacional/assimetriaInformacional.html" class="no-external">
+<p><img data-src="./posts/finance/assimetriaInformacional/assimetriaInformacional.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/assimetriaInformacional/assimetriaInformacional.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/assimetriaInformacional/assimetriaInformacional.html" class="no-external">Assimetria Informacional</a>
@@ -1226,11 +1124,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/assimetriaInformacional/assimetriaInformacional.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QXNzaW1ldHJpYQ=='); return false;">Assimetria</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Assimetria'); return false;">
+Assimetria
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1241,16 +1140,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">10 minutos</div>
+<div class="listing-reading-time">
+10 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="RmluYW4lQzMlQTdhcyUyQ1Rlb3JpYQ==" data-listing-date-sort="1600398000000" data-listing-file-modified-sort="1761586847167" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1774">
-<div class="thumbnail"><a href="./posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="23" data-categories="Finanças,Teoria" data-listing-date-sort="1600398000000" data-listing-file-modified-sort="1761775336624" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1774">
+<div class="thumbnail">
+<p><a href="./posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.html" class="no-external"></a></p><a href="./posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.html" class="no-external">
+<p><img data-src="./posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.html" class="no-external">Teoria da Agência e Teoria dos Stakeholders</a>
@@ -1259,11 +1160,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/teoriaAgenciaStakeHolders/teoriaAgenciaStakeHolders.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVvcmlh'); return false;">Teoria</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Teoria'); return false;">
+Teoria
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1274,16 +1176,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">9 minutos</div>
+<div class="listing-reading-time">
+9 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="RmluYW4lQzMlQTdhcyUyQ0hNRQ==" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1761586846984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1746">
-<div class="thumbnail"><a href="./posts/finance/HME/HME.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/HME/HME.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="24" data-categories="Finanças,HME" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1761775336021" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1746">
+<div class="thumbnail">
+<p><a href="./posts/finance/HME/HME.html" class="no-external"></a></p><a href="./posts/finance/HME/HME.html" class="no-external">
+<p><img data-src="./posts/finance/HME/HME.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/HME/HME.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/HME/HME.html" class="no-external">Hipótese de Mercados Eficientes</a>
@@ -1292,11 +1196,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/HME/HME.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SE1F'); return false;">HME</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('HME'); return false;">
+HME
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1307,16 +1212,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">9 minutos</div>
+<div class="listing-reading-time">
+9 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="RmluYW4lQzMlQTdhcyUyQ0VuZGl2aWRhbWVudG8=" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1761586847034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1505">
-<div class="thumbnail"><a href="./posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="25" data-categories="Finanças,Endividamento" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1761775336103" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1505">
+<div class="thumbnail">
+<p><a href="./posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html" class="no-external"></a></p><a href="./posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html" class="no-external">
+<p><img data-src="./posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html" class="no-external">Alavancagem e Estrutura de Capital</a>
@@ -1325,11 +1232,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/estruturaCapital_alavancagem/estruturaCapital_alavancagem.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW5kaXZpZGFtZW50bw=='); return false;">Endividamento</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Endividamento'); return false;">
+Endividamento
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1340,16 +1248,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">8 minutos</div>
+<div class="listing-reading-time">
+8 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="RmluYW4lQzMlQTdhcyUyQ0NBUE0=" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1761586847094" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2275">
-<div class="thumbnail"><a href="./posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="26" data-categories="Finanças,CAPM" data-listing-date-sort="1595127600000" data-listing-file-modified-sort="1761775336335" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2275">
+<div class="thumbnail">
+<p><a href="./posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html" class="no-external"></a></p><a href="./posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html" class="no-external">
+<p><img data-src="./posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html" class="no-external">Modelos de Precificação de Ativos</a>
@@ -1358,11 +1268,12 @@ Kléber Formiga Miranda
 <a href="./posts/finance/modeloPrecificacaoAtivos/modeloPrecificacaoAtivos.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW4lQzMlQTdhcw=='); return false;">Finanças</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q0FQTQ=='); return false;">CAPM</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Finanças'); return false;">
+Finanças
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('CAPM'); return false;">
+CAPM
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1373,16 +1284,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">12 minutos</div>
+<div class="listing-reading-time">
+12 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="Q29udGFiaWxpZGFkZSUyQ1ZhbHVlJTIwcmVsZXZhbmNl" data-listing-date-sort="1594868400000" data-listing-file-modified-sort="1761586846942" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1928">
-<div class="thumbnail"><a href="./posts/contabil/qualidadeInformacao/qualidadeInformacao.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/qualidadeInformacao/qualidadeInformacao.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="27" data-categories="Contabilidade,Value relevance" data-listing-date-sort="1594868400000" data-listing-file-modified-sort="1761775335832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1928">
+<div class="thumbnail">
+<p><a href="./posts/contabil/qualidadeInformacao/qualidadeInformacao.html" class="no-external"></a></p><a href="./posts/contabil/qualidadeInformacao/qualidadeInformacao.html" class="no-external">
+<p><img data-src="./posts/contabil/qualidadeInformacao/qualidadeInformacao.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/qualidadeInformacao/qualidadeInformacao.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/qualidadeInformacao/qualidadeInformacao.html" class="no-external">Qualidade da Informação Contábil</a>
@@ -1391,11 +1304,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/qualidadeInformacao/qualidadeInformacao.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VmFsdWUlMjByZWxldmFuY2U='); return false;">Value relevance</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Value relevance'); return false;">
+Value relevance
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1406,16 +1320,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">10 minutos</div>
+<div class="listing-reading-time">
+10 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="Q29udGFiaWxpZGFkZSUyQ01lbnN1cmElQzMlQTclQzMlQTNv" data-listing-date-sort="1576292400000" data-listing-file-modified-sort="1761586846913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686">
-<div class="thumbnail"><a href="./posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/mensuracaoAtivos/mensuracaoAtivos.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="28" data-categories="Contabilidade,Mensuração" data-listing-date-sort="1576292400000" data-listing-file-modified-sort="1761775335741" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686">
+<div class="thumbnail">
+<p><a href="./posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html" class="no-external"></a></p><a href="./posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html" class="no-external">
+<p><img data-src="./posts/contabil/mensuracaoAtivos/mensuracaoAtivos.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html" class="no-external">Mensuração Contábil</a>
@@ -1424,11 +1340,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/mensuracaoAtivos/mensuracaoAtivos.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWVuc3VyYSVDMyVBNyVDMyVBM28='); return false;">Mensuração</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Mensuração'); return false;">
+Mensuração
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1439,16 +1356,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">9 minutos</div>
+<div class="listing-reading-time">
+9 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="Q29udGFiaWxpZGFkZSUyQ1ZhbHVlJTIwcmVsZXZhbmNl" data-listing-date-sort="1576292400000" data-listing-file-modified-sort="1761586846969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1482">
-<div class="thumbnail"><a href="./posts/contabil/valueRelevance/valueRelevance.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/valueRelevance/valueRelevance.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="29" data-categories="Contabilidade,Value relevance" data-listing-date-sort="1576292400000" data-listing-file-modified-sort="1761775335930" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1482">
+<div class="thumbnail">
+<p><a href="./posts/contabil/valueRelevance/valueRelevance.html" class="no-external"></a></p><a href="./posts/contabil/valueRelevance/valueRelevance.html" class="no-external">
+<p><img data-src="./posts/contabil/valueRelevance/valueRelevance.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/valueRelevance/valueRelevance.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/valueRelevance/valueRelevance.html" class="no-external">Informação Contábil e Value Relevance</a>
@@ -1457,11 +1376,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/valueRelevance/valueRelevance.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VmFsdWUlMjByZWxldmFuY2U='); return false;">Value relevance</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Value relevance'); return false;">
+Value relevance
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1472,16 +1392,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">8 minutos</div>
+<div class="listing-reading-time">
+8 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="Q29udGFiaWxpZGFkZSUyQ0FjY3J1YWxz" data-listing-date-sort="1566615600000" data-listing-file-modified-sort="1761586846905" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1548">
-<div class="thumbnail"><a href="./posts/contabil/flxCxAccruals/flxCxAccruals.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/flxCxAccruals/flxCxAccruals.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="30" data-categories="Contabilidade,Accruals" data-listing-date-sort="1566615600000" data-listing-file-modified-sort="1761775335716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1548">
+<div class="thumbnail">
+<p><a href="./posts/contabil/flxCxAccruals/flxCxAccruals.html" class="no-external"></a></p><a href="./posts/contabil/flxCxAccruals/flxCxAccruals.html" class="no-external">
+<p><img data-src="./posts/contabil/flxCxAccruals/flxCxAccruals.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/flxCxAccruals/flxCxAccruals.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/flxCxAccruals/flxCxAccruals.html" class="no-external">Fluxo de Caixa, Lucro e Accruals</a>
@@ -1490,11 +1412,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/flxCxAccruals/flxCxAccruals.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QWNjcnVhbHM='); return false;">Accruals</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Accruals'); return false;">
+Accruals
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1505,16 +1428,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">8 minutos</div>
+<div class="listing-reading-time">
+8 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="31" data-categories="Q29udGFiaWxpZGFkZSUyQ0lGUlMlMkZJQVMlMkZDUEM=" data-listing-date-sort="1557889200000" data-listing-file-modified-sort="1761586846885" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2535">
-<div class="thumbnail"><a href="./posts/contabil/estruturaConceitual/estruturaConceitual.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/estruturaConceitual/estruturaConceitual.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="31" data-categories="Contabilidade,IFRS/IAS/CPC" data-listing-date-sort="1557889200000" data-listing-file-modified-sort="1761775335646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2535">
+<div class="thumbnail">
+<p><a href="./posts/contabil/estruturaConceitual/estruturaConceitual.html" class="no-external"></a></p><a href="./posts/contabil/estruturaConceitual/estruturaConceitual.html" class="no-external">
+<p><img data-src="./posts/contabil/estruturaConceitual/estruturaConceitual.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/estruturaConceitual/estruturaConceitual.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/estruturaConceitual/estruturaConceitual.html" class="no-external">Estrutura Conceitual da Contabilidade</a>
@@ -1523,11 +1448,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/estruturaConceitual/estruturaConceitual.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SUZSUyUyRklBUyUyRkNQQw=='); return false;">IFRS/IAS/CPC</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('IFRS/IAS/CPC'); return false;">
+IFRS/IAS/CPC
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1538,16 +1464,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">13 minutos</div>
+<div class="listing-reading-time">
+13 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="32" data-categories="Q29udGFiaWxpZGFkZSUyQ0hpc3QlQzMlQjNyaWE=" data-listing-date-sort="1557716400000" data-listing-file-modified-sort="1761586846854" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2650">
-<div class="thumbnail"><a href="./posts/contabil/accountingHistory/accountingHistory.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/accountingHistory/accountingHistory.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="32" data-categories="Contabilidade,História" data-listing-date-sort="1557716400000" data-listing-file-modified-sort="1761775335560" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2650">
+<div class="thumbnail">
+<p><a href="./posts/contabil/accountingHistory/accountingHistory.html" class="no-external"></a></p><a href="./posts/contabil/accountingHistory/accountingHistory.html" class="no-external">
+<p><img data-src="./posts/contabil/accountingHistory/accountingHistory.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/accountingHistory/accountingHistory.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/accountingHistory/accountingHistory.html" class="no-external">Evolução Histórica e Arcabouço Teórico da Contabilidade</a>
@@ -1556,11 +1484,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/accountingHistory/accountingHistory.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SGlzdCVDMyVCM3JpYQ=='); return false;">História</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('História'); return false;">
+História
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1571,16 +1500,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">14 minutos</div>
+<div class="listing-reading-time">
+14 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="33" data-categories="Q29udGFiaWxpZGFkZSUyQ1Blc3F1aXNh" data-listing-date-sort="1554001200000" data-listing-file-modified-sort="1761586846932" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1962">
-<div class="thumbnail"><a href="./posts/contabil/pesquisaContabil/pesquisaContabil.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/pesquisaContabil/pesquisaContabil.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="33" data-categories="Contabilidade,Pesquisa" data-listing-date-sort="1554001200000" data-listing-file-modified-sort="1761775335804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1962">
+<div class="thumbnail">
+<p><a href="./posts/contabil/pesquisaContabil/pesquisaContabil.html" class="no-external"></a></p><a href="./posts/contabil/pesquisaContabil/pesquisaContabil.html" class="no-external">
+<p><img data-src="./posts/contabil/pesquisaContabil/pesquisaContabil.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/pesquisaContabil/pesquisaContabil.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/pesquisaContabil/pesquisaContabil.html" class="no-external">A pesquisa em contabilidade</a>
@@ -1589,11 +1520,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/pesquisaContabil/pesquisaContabil.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGVzcXVpc2E='); return false;">Pesquisa</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Pesquisa'); return false;">
+Pesquisa
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1604,16 +1536,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">10 minutos</div>
+<div class="listing-reading-time">
+10 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="34" data-categories="Q29udGFiaWxpZGFkZSUyQ1Rlb3JpYQ==" data-listing-date-sort="1548727200000" data-listing-file-modified-sort="1761586846876" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1490">
-<div class="thumbnail"><a href="./posts/contabil/escolhasContabeis/escolhasContabeis.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/escolhasContabeis/accountingChoice.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="34" data-categories="Contabilidade,Teoria" data-listing-date-sort="1548730800000" data-listing-file-modified-sort="1761775335626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1490">
+<div class="thumbnail">
+<p><a href="./posts/contabil/escolhasContabeis/escolhasContabeis.html" class="no-external"></a></p><a href="./posts/contabil/escolhasContabeis/escolhasContabeis.html" class="no-external">
+<p><img data-src="./posts/contabil/escolhasContabeis/accountingChoice.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/escolhasContabeis/escolhasContabeis.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/escolhasContabeis/escolhasContabeis.html" class="no-external">Teoria da Contratação e Escolhas Contábeis</a>
@@ -1622,11 +1556,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/escolhasContabeis/escolhasContabeis.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVvcmlh'); return false;">Teoria</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Teoria'); return false;">
+Teoria
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1637,16 +1572,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">8 minutos</div>
+<div class="listing-reading-time">
+8 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="35" data-categories="Q29udGFiaWxpZGFkZSUyQ1Rlb3JpYQ==" data-listing-date-sort="1540436400000" data-listing-file-modified-sort="1761586846960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1847">
-<div class="thumbnail"><a href="./posts/contabil/teoriaAgencia/teoriaAgencia.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/teoriaAgencia/teoriaAgencia.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="35" data-categories="Contabilidade,Teoria" data-listing-date-sort="1540436400000" data-listing-file-modified-sort="1761775335891" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1847">
+<div class="thumbnail">
+<p><a href="./posts/contabil/teoriaAgencia/teoriaAgencia.html" class="no-external"></a></p><a href="./posts/contabil/teoriaAgencia/teoriaAgencia.html" class="no-external">
+<p><img data-src="./posts/contabil/teoriaAgencia/teoriaAgencia.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/teoriaAgencia/teoriaAgencia.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/teoriaAgencia/teoriaAgencia.html" class="no-external">Teoria da Agência</a>
@@ -1655,11 +1592,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/teoriaAgencia/teoriaAgencia.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVvcmlh'); return false;">Teoria</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Teoria'); return false;">
+Teoria
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1670,16 +1608,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">10 minutos</div>
+<div class="listing-reading-time">
+10 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="36" data-categories="Q29udGFiaWxpZGFkZSUyQ0hNRSUyQ0Fzc2ltZXRyaWE=" data-listing-date-sort="1535511600000" data-listing-file-modified-sort="1761586846866" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1488">
-<div class="thumbnail"><a href="./posts/contabil/economiaInformacao/economiaInformacao.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/economiaInformacao/economiaInformacao.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="36" data-categories="Contabilidade,HME,Assimetria" data-listing-date-sort="1535511600000" data-listing-file-modified-sort="1761775335592" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1488">
+<div class="thumbnail">
+<p><a href="./posts/contabil/economiaInformacao/economiaInformacao.html" class="no-external"></a></p><a href="./posts/contabil/economiaInformacao/economiaInformacao.html" class="no-external">
+<p><img data-src="./posts/contabil/economiaInformacao/economiaInformacao.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/economiaInformacao/economiaInformacao.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/economiaInformacao/economiaInformacao.html" class="no-external">Economia da Informação</a>
@@ -1688,13 +1628,15 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/economiaInformacao/economiaInformacao.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SE1F'); return false;">HME</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QXNzaW1ldHJpYQ=='); return false;">Assimetria</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('HME'); return false;">
+HME
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Assimetria'); return false;">
+Assimetria
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1705,16 +1647,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">8 minutos</div>
+<div class="listing-reading-time">
+8 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="37" data-categories="Q29udGFiaWxpZGFkZSUyQ01lbnN1cmElQzMlQTclQzMlQTNvJTJDRkNE" data-listing-date-sort="1525921200000" data-listing-file-modified-sort="1761586846922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2866">
-<div class="thumbnail"><a href="./posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="37" data-categories="Contabilidade,Mensuração,FCD" data-listing-date-sort="1525921200000" data-listing-file-modified-sort="1761775335769" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2866">
+<div class="thumbnail">
+<p><a href="./posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html" class="no-external"></a></p><a href="./posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html" class="no-external">
+<p><img data-src="./posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html" class="no-external">Mensuração Contábil - Fluxo de Caixa Descontado</a>
@@ -1723,13 +1667,15 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/mensuracaoAtivos_FCD/mensuracaoAtivos_FCD.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWVuc3VyYSVDMyVBNyVDMyVBM28='); return false;">Mensuração</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RkNE'); return false;">FCD</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Mensuração'); return false;">
+Mensuração
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('FCD'); return false;">
+FCD
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1740,16 +1686,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">15 minutos</div>
+<div class="listing-reading-time">
+15 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="38" data-categories="Q29udGFiaWxpZGFkZSUyQ1JlZ3VsYSVDMyVBNyVDMyVBM28=" data-listing-date-sort="1520823600000" data-listing-file-modified-sort="1761586846951" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2686">
-<div class="thumbnail"><a href="./posts/contabil/regulacaoContabil/regulacaoContabil.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/regulacaoContabil/regulacaoContabil.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="38" data-categories="Contabilidade,Regulação" data-listing-date-sort="1520823600000" data-listing-file-modified-sort="1761775335846" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2686">
+<div class="thumbnail">
+<p><a href="./posts/contabil/regulacaoContabil/regulacaoContabil.html" class="no-external"></a></p><a href="./posts/contabil/regulacaoContabil/regulacaoContabil.html" class="no-external">
+<p><img data-src="./posts/contabil/regulacaoContabil/regulacaoContabil.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/regulacaoContabil/regulacaoContabil.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/regulacaoContabil/regulacaoContabil.html" class="no-external">Regulação e Evolução dos Princípios e Normas de Contabilidade</a>
@@ -1758,11 +1706,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/regulacaoContabil/regulacaoContabil.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVndWxhJUMzJUE3JUMzJUEzbw=='); return false;">Regulação</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Regulação'); return false;">
+Regulação
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1773,16 +1722,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">14 minutos</div>
+<div class="listing-reading-time">
+14 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="39" data-categories="Q29udGFiaWxpZGFkZSUyQ0Rpc2Nsb3N1cmU=" data-listing-date-sort="1516240800000" data-listing-file-modified-sort="1761586846895" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1215">
-<div class="thumbnail"><a href="./posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/contabil/evidenciacaoContabil/evidenciacaoContabil.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="39" data-categories="Contabilidade,Disclosure" data-listing-date-sort="1516244400000" data-listing-file-modified-sort="1761775335671" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1215">
+<div class="thumbnail">
+<p><a href="./posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html" class="no-external"></a></p><a href="./posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html" class="no-external">
+<p><img data-src="./posts/contabil/evidenciacaoContabil/evidenciacaoContabil.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html" class="no-external">Evidenciação Contábil</a>
@@ -1791,11 +1742,12 @@ Kléber Formiga Miranda
 <a href="./posts/contabil/evidenciacaoContabil/evidenciacaoContabil.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGlzY2xvc3VyZQ=='); return false;">Disclosure</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Disclosure'); return false;">
+Disclosure
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1806,12 +1758,16 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">7 minutos</div>
+<div class="listing-reading-time">
+7 minutos
+</div>
 </a>
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">Nenhum item correspondente</div>
+<div class="listing-no-matching d-none">
+Nenhum item correspondente
+</div>
 <nav id="posts-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
@@ -1821,112 +1777,122 @@ Kléber Formiga Miranda
 <h2 class="anchored" data-anchor-id="eventos-recentes">Eventos Recentes</h2>
 <div id="listing-eventos" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcyUyQ0ludGVsaWclQzMlQUFuY2lhJTIwQXJ0aWZpY2lhbCUyQ0dlc3QlQzMlQTNv" data-listing-file-modified-sort="1762863524948" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
+<div class="g-col-1" data-index="0" data-categories="Análise de Dados,Inteligência Artificial,Gestão" data-listing-file-modified-sort="1764270984067" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
 <a href="./eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./eventos/cafeEspecialista_IAgestao/figs/cafeEspecialista_IAgestao.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./eventos/cafeEspecialista_IAgestao/figs/cafeEspecialista_IAgestao.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 IA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão
 </h5>
 </div>
-</div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-file-modified-sort="1762864030697" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="R,Economatica,Análise de Dados" data-listing-file-modified-sort="1764270834539" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
 <a href="./eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./eventos/ecicont2025_IApesquisa/figs/ecicont2025_IApesquisa.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./eventos/ecicont2025_IApesquisa/figs/ecicont2025_IApesquisa.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Inteligência Artificial na pesquisa científica
 </h5>
 </div>
-</div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-file-modified-sort="1762863383033" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="R,Economatica,Análise de Dados" data-listing-file-modified-sort="1762455892273" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
 <a href="./eventos/ecicont2025_economatica/ecicont2025_economatica.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./eventos/ecicont2025_economatica/figs/ecicont2025_economatica.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./eventos/ecicont2025_economatica/figs/ecicont2025_economatica.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Introdução à plataforma Economatica
 </h5>
 </div>
-</div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-file-modified-sort="1762863383034" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="R,Economatica,Análise de Dados" data-listing-file-modified-sort="1762455922282" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
 <a href="./eventos/ecicont2025_introR/ecicont2025_introR.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="./eventos/ecicont2025_introR/figs/ecicont2025_introR.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./eventos/ecicont2025_introR/figs/ecicont2025_introR.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Introdução ao R e RStudio
 </h5>
 </div>
-</div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="UiUyQ0Vjb25vbWF0aWNh" data-listing-file-modified-sort="1762863383035" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="R,Economatica" data-listing-file-modified-sort="1762455941784" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
 <a href="./eventos/introR/introR.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="./eventos/introR/evento.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./eventos/introR/evento.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Introdução ao Software R
 </h5>
 </div>
-</div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-file-modified-sort="1762863383026" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="R,Economatica,Análise de Dados" data-listing-file-modified-sort="1762455883067" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
 <a href="./eventos/CINCO_dez2023/CINCO_dadosContabeisR.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="./eventos/CINCO_dez2023/figs/cinco.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./eventos/CINCO_dez2023/figs/cinco.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Noções Básicas de Técnicas Contábeis e Financeiras com o R
 </h5>
 </div>
-</div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-file-modified-sort="1762863383035" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="R,Economatica,Análise de Dados" data-listing-file-modified-sort="1762455930864" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
 <a href="./eventos/economaticaR/economaticaR.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="./eventos/economaticaR/figs/economaticaR_2.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./eventos/economaticaR/figs/economaticaR_2.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Análise de dados com R e Economatica
 </h5>
 </div>
-</div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="UiUyQ0Vjb25vbWF0aWNhJTJDQW4lQzMlQTFsaXNlJTIwZGUlMjBEYWRvcw==" data-listing-file-modified-sort="1762863383036" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="R,Economatica,Análise de Dados" data-listing-file-modified-sort="1762455964482" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
 <a href="./eventos/treinamentoeconomatica/treinamentoeconomatica.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="./eventos/treinamentoeconomatica/figs/treinamentoeconomatica.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./eventos/treinamentoeconomatica/figs/treinamentoeconomatica.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Análise de dados com R e Economatica
 </h5>
 </div>
-</div></a>
+</div>
+</a>
 </div>
 </div>
-<div class="listing-no-matching d-none">Nenhum item correspondente</div>
+<div class="listing-no-matching d-none">
+Nenhum item correspondente
+</div>
 <nav id="eventos-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
@@ -1936,12 +1902,12 @@ Análise de dados com R e Economatica
 <h2 class="anchored" data-anchor-id="pacotes-recentes">Pacotes Recentes</h2>
 <div id="listing-pacotes" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y250ZGQ=" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1762256244918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1138">
-<div class="thumbnail"><a href="./pacotes/stats/utl_tableStat/utl_tableStat.html" class="no-external">
-
-<img loading="lazy" src="./pacotes/stats/utl_tableStat/utl_tableStat.jpg" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="0" data-categories="cntdd" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1762452834939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1138">
+<div class="thumbnail">
+<p><a href="./pacotes/stats/utl_tableStat/utl_tableStat.html" class="no-external"></a></p><a href="./pacotes/stats/utl_tableStat/utl_tableStat.html" class="no-external">
+<p><img src="./pacotes/stats/utl_tableStat/utl_tableStat.jpg" class="thumbnail-image"></p>
+</a><p><a href="./pacotes/stats/utl_tableStat/utl_tableStat.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./pacotes/stats/utl_tableStat/utl_tableStat.html" class="no-external">Função utl_tableStat do pacote CNTDD</a>
@@ -1950,9 +1916,9 @@ Análise de dados com R e Economatica
 <a href="./pacotes/stats/utl_tableStat/utl_tableStat.html" class="no-external">Post</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y250ZGQ='); return false;">cntdd</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('cntdd'); return false;">
+cntdd
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1963,16 +1929,18 @@ Análise de dados com R e Economatica
 <div class="listing-author">
 Kléber Formiga Miranda
 </div>
-<div class="listing-reading-time">6 minutos</div>
+<div class="listing-reading-time">
+6 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Y250ZGQ=" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1763384306764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
-<div class="thumbnail"><a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="no-external">
-
-<img loading="lazy" src="./pacotes/utils/cntddupdater/cntddupdater.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="1" data-categories="cntdd" data-listing-date-sort="1761620400000" data-listing-file-modified-sort="1764270834539" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
+<div class="thumbnail">
+<p><a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="no-external"></a></p><a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="no-external">
+<p><img src="./pacotes/utils/cntddupdater/cntddupdater.png" class="thumbnail-image"></p>
+</a><p><a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="no-external">Atualize seu ecossistema R com o cntdd updateR</a>
@@ -1981,9 +1949,9 @@ Kléber Formiga Miranda
 <a href="./pacotes/utils/cntddupdater/cntddupdater.html" class="no-external">“In God we trust, all others must bring data” - W. Edwards Deming</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y250ZGQ='); return false;">cntdd</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('cntdd'); return false;">
+cntdd
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -1994,16 +1962,18 @@ Kléber Formiga Miranda
 <div class="listing-author">
 Alexsandro Prado
 </div>
-<div class="listing-reading-time">2 minutos</div>
+<div class="listing-reading-time">
+2 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Q29udGFiaWxpZGFkZSUyQ0FuYWx5dGljcyUyQ1I=" data-listing-date-sort="1709262000000" data-listing-file-modified-sort="1762256244918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="373">
-<div class="thumbnail"><a href="./pacotes/utils/instalacntdd/instalacntdd.html" class="no-external">
-
-<img loading="lazy" src="./pacotes/utils/instalacntdd/instalacntdd_destaque.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="2" data-categories="Contabilidade,Analytics,R" data-listing-date-sort="1709262000000" data-listing-file-modified-sort="1762452834947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="373">
+<div class="thumbnail">
+<p><a href="./pacotes/utils/instalacntdd/instalacntdd.html" class="no-external"></a></p><a href="./pacotes/utils/instalacntdd/instalacntdd.html" class="no-external">
+<p><img src="./pacotes/utils/instalacntdd/instalacntdd_destaque.png" class="thumbnail-image"></p>
+</a><p><a href="./pacotes/utils/instalacntdd/instalacntdd.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./pacotes/utils/instalacntdd/instalacntdd.html" class="no-external">Instalando o pacote CNTDD no R</a>
@@ -2012,13 +1982,15 @@ Alexsandro Prado
 <a href="./pacotes/utils/instalacntdd/instalacntdd.html" class="no-external">Resenha</a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFiaWxpZGFkZQ=='); return false;">Contabilidade</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('Contabilidade'); return false;">
+Contabilidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Analytics'); return false;">
+Analytics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -2029,16 +2001,18 @@ Alexsandro Prado
 <div class="listing-author">
 Alexsandro Prado
 </div>
-<div class="listing-reading-time">2 minutos</div>
+<div class="listing-reading-time">
+2 minutos
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Y250ZGQlMkNQYWNvdGVz" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1761589586007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
-<div class="thumbnail"><a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">
-
-<img loading="lazy" data-src="./pacotes/indices/liquidezSeca/figs/contasReceber.png" class="thumbnail-image">
-
-</a></div>
+<div class="quarto-post image-right" data-index="3" data-categories="cntdd,Pacotes" data-listing-date-sort="1583118000000" data-listing-file-modified-sort="1761775335360" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
+<div class="thumbnail">
+<p><a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external"></a></p><a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">
+<p><img data-src="./pacotes/indices/liquidezSeca/figs/contasReceber.png" class="thumbnail-image"></p>
+</a><p><a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external">Índice de Liquidez Seca</a>
@@ -2047,11 +2021,12 @@ Alexsandro Prado
 <a href="./pacotes/indices/liquidezSeca/liqSeca.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y250ZGQ='); return false;">cntdd</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFjb3Rlcw=='); return false;">Pacotes</div>
-
+<div class="listing-category" onclick="window.quartoListingCategory('cntdd'); return false;">
+cntdd
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Pacotes'); return false;">
+Pacotes
+</div>
 </div>
 </div>
 <div class="metadata">
@@ -2062,12 +2037,16 @@ Alexsandro Prado
 <div class="listing-author">
 Kléber
 </div>
-<div class="listing-reading-time">9 minutos</div>
+<div class="listing-reading-time">
+9 minutos
+</div>
 </a>
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">Nenhum item correspondente</div>
+<div class="listing-no-matching d-none">
+Nenhum item correspondente
+</div>
 <nav id="pacotes-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
@@ -2079,71 +2058,187 @@ Kléber
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> De volta ao topo</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
     }
-    setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
         }
       }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
       return false;
     }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copiada");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copiada");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
     }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
@@ -2151,189 +2246,189 @@ Kléber
       }
       return codeEl.innerText;
     }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
     }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
       }
-      // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
-            // target, if specified
-            link.setAttribute("target", "_blank");
-            if (link.getAttribute("rel") === null) {
-              link.setAttribute("rel", "noopener");
-            }
-        }
-      }
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
-        },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
         }
-      });
-    }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
           }
-        }
       }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
-            }
-          }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
-          }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
-          }
-          return note.innerHTML;
-        }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
       } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
         }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
-        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
       }
     }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
-            }
-          } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
-            });
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
           }
         } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
+          // See if we can fetch this
+          fetch(url.split('#')[0])
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
+            const note = htmlDoc.getElementById(id);
             if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
+              const html = processXRef(id, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -2341,161 +2436,185 @@ Kléber
             instance.show();
           });
         }
-      }, function(instance) {
-      });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          let top = null;
-          let height = null;
-          let parent = null;
-          if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
-            }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
-            }
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
       } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
             }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
         });
       }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
     }
-  });
-  </script>
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

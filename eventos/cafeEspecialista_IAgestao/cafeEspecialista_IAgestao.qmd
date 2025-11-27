@@ -9,6 +9,10 @@ event_url: NULL
 links:
 - icon: file-pdf
   icon_pack: far
+  name: Slides
+  url: https://drive.google.com/file/d/1ZVSecrteqUdiRkGIammWs5uO5305rIEQ/view?usp=sharing
+- icon: file-pdf
+  icon_pack: far
   name: Artigo
   url: https://doi.org/10.12660/gvexec.v22n3.2023.89909
 - icon: youtube
