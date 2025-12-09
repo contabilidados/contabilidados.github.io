@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Consulta do Amigo Doce</title>
+</head>
+<body>
+
+<h2>Consulta do Amigo Doce 🎁</h2>
+
+<p>Digite sua senha e clique em "Ver resultado":</p>
+
+<input type="text" id="senha" placeholder="Digite sua senha">
+<button onclick="buscar()">Ver resultado</button>
+
+<h3 id="resultado"></h3>
+
+<script>
+// Relação completa: Senha → { pessoa, tirou }
+const dados = {
+    "F92K": { pessoa: "Alexsandro", tirou: "Kennedy" },
+    "M7QX": { pessoa: "Albenes", tirou: "Miguel" },
+    "Z4TP": { pessoa: "Gianinni", tirou: "Yuri" },
+    "B81L": { pessoa: "Kallyse", tirou: "Kelly" },
+    "R55A": { pessoa: "Luciana", tirou: "Wigna" },
+    "Q9DN": { pessoa: "Kennedy", tirou: "Jislene" },
+    "T8CJ": { pessoa: "Erivando", tirou: "Alexsandro" },
+    "L3KV": { pessoa: "Moisés", tirou: "Gianinni" },
+    "H6PB": { pessoa: "Vanessa", tirou: "Kleber" },
+    "C1MU": { pessoa: "Miguel", tirou: "Vanessa" },
+    "W7KS": { pessoa: "Yuri", tirou: "Alvaro" },
+    "P5ZE": { pessoa: "Kelly", tirou: "Luciana" },
+    "D3HV": { pessoa: "Alvaro", tirou: "Kallyse" },
+    "S8QF": { pessoa: "Wigna", tirou: "Erivando" },
+    "J2LX": { pessoa: "Kleber", tirou: "Moisés" },
+    "V9BT": { pessoa: "Jislene", tirou: "Albenes" }
+};
+
+function buscar() {
+    const senha = document.getElementById("senha").value.trim().toUpperCase();
+    const resultado = document.getElementById("resultado");
+
+    if (dados[senha]) {
+        resultado.innerHTML =
+            "🔑 Senha válida!<br>" +
+            "<b>" + dados[senha].pessoa + "</b>, você tirou: <b>" +
+            dados[senha].tirou + "</b> 🎁";
+    } else {
+        resultado.innerHTML = "❌ Senha inválida. Verifique com quem lhe enviou.";
+    }
+}
+</script>
+
+</body>
+</html>
