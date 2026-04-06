@@ -1,0 +1,26 @@
+---
+title: "Eline Kaliane"
+comments: false
+image: figs/eline.jpeg
+categories:
+  - Alunos
+  - Contabilidade
+  - Administração
+  - Análise de Dados
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:eline.silva@alunos.ufersa.edu.br
+    - icon: file-pdf
+      text: Lattes
+      href: http://lattes.cnpq.br/9291012328194753
+---
+
+```{=html}
+<style>body {text-align: justify}</style>
+```
+Olá! Me chamo Eline. Sou bacharela em Administração pela Faculdade do Complexo Educacional Santo André (FACESA), atualmente Mestranda do Programa de Pós-Graduação em Administração da Universidade Federal Rural do Semi Árido (PPGA/UFERSA), bolsista da CAPES e membro do ContabiliDados. Além disso, possuo especialização em Gestão de Pessoas e Marketing também pela Faculdade do Complexo Educacional Santo André (FACESA).
+
+Entusiasta da carreira acadêmica com experiência na docência em ensino superior (Curso de Bacharelado em Administração), possuo interesse e atuação (em andamento) em pesquisas nas áreas de administração, contabilidade e finanças, com ênfase em processos decisórios.

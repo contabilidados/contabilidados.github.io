@@ -45,13 +45,25 @@
     ]
   },
   {
-    "listing": "/membros.html",
+    "listing": "/meetings.html",
     "items": [
-      "/curriculum/profs/alexsandro.html",
-      "/curriculum/profs/kleber.html",
-      "/curriculum/profs/yuri.html",
-      "/curriculum/alunos/camilla.html",
-      "/curriculum/alunos/liviabandeira.html"
+      "/eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html",
+      "/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html",
+      "/eventos/ecicont2025_economatica/ecicont2025_economatica.html",
+      "/eventos/ecicont2025_introR/ecicont2025_introR.html",
+      "/eventos/introR/introR.html",
+      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+      "/eventos/economaticaR/economaticaR.html",
+      "/eventos/treinamentoeconomatica/treinamentoeconomatica.html"
+    ]
+  },
+  {
+    "listing": "/cntdd.html",
+    "items": [
+      "/pacotes/utils/cntddupdater/cntddupdater.html",
+      "/pacotes/utils/instalacntdd/instalacntdd.html",
+      "/pacotes/stats/utl_tableStat/utl_tableStat.html",
+      "/pacotes/indices/liquidezSeca/liqSeca.html"
     ]
   },
   {
@@ -112,25 +124,15 @@
     ]
   },
   {
-    "listing": "/cntdd.html",
+    "listing": "/membros.html",
     "items": [
-      "/pacotes/utils/cntddupdater/cntddupdater.html",
-      "/pacotes/utils/instalacntdd/instalacntdd.html",
-      "/pacotes/stats/utl_tableStat/utl_tableStat.html",
-      "/pacotes/indices/liquidezSeca/liqSeca.html"
-    ]
-  },
-  {
-    "listing": "/meetings.html",
-    "items": [
-      "/eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html",
-      "/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html",
-      "/eventos/ecicont2025_economatica/ecicont2025_economatica.html",
-      "/eventos/ecicont2025_introR/ecicont2025_introR.html",
-      "/eventos/introR/introR.html",
-      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
-      "/eventos/economaticaR/economaticaR.html",
-      "/eventos/treinamentoeconomatica/treinamentoeconomatica.html"
+      "/curriculum/profs/alexsandro.html",
+      "/curriculum/profs/kleber.html",
+      "/curriculum/profs/yuri.html",
+      "/curriculum/alunos/camilla.html",
+      "/curriculum/alunos/caue.html",
+      "/curriculum/alunos/eline.html",
+      "/curriculum/alunos/liviabandeira.html"
     ]
   }
 ]

@@ -1,0 +1,22 @@
+---
+title: "Cauê Gois"
+comments: false
+image: figs/caue.jpeg
+categories:
+  - Alunos
+  - Finanças
+  - Análise de Dados
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:caue.martins@alunos.ufersa.edu.br
+---
+
+```{=html}
+<style>body {text-align: justify}</style>
+```
+Olá! Meu nome é Cauê. atualmente cursando a graduação em Ciências Contábeis pela Universidade Federal Rural do Semi-Árido (UFERSA), atualmente no último ano do curso. Ao longo da graduação, desenvolvi interesse nas áreas de Finanças, Mercado Financeiro, valuation de empresas e análise de dados, direcionando meus estudos especificamente para Equity Research e Factor Investing.
+
+Durante minha formação, atuo como membro do projeto ContabiliDados, contribuindo no desenvolvimento de cursos, eventos e na coleta e análise de dados de empresas listadas na B3. Além disso, sou membro da Liga de Mercado Financeiro da UFERSA, participando da organização de cursos de educação financeira e challenges universitários. Também exerço a função de monitor da disciplina Análise das Demonstrações Contábeis.
