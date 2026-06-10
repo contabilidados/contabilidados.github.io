@@ -14,21 +14,30 @@ about:
     - icon: envelope
       text: Email
       href: mailto:mirandakf@ufersa.edu.br
-    - icon: file-pdf
-      text: Lattes
-      href: http://lattes.cnpq.br/5969359253746807  
-    - icon: file-pdf
-      text: ORCID
-      href: https://orcid.org/0000-0002-9164-6709  
-    - icon: file-pdf
-      text: Spell
-      href: https://www.spell.org.br/autores/perfil/12526/kleber-formiga-miranda  
-    - icon: file-pdf
-      text: Scopus
-      href: https://www.scopus.com/authid/detail.uri?authorId=57205619956  
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/kleberformiga/
     - icon: github
       text: GitHub
       href: https://github.com/kleberformiga
+    - icon: file-text
+      text: Lattes
+      href: http://lattes.cnpq.br/5969359253746807  
+    - icon: file-person
+      text: ORCID
+      href: https://orcid.org/0000-0002-9164-6709  
+    - icon: file-person
+      text: G-Scholar
+      href: https://scholar.google.com/citations?user=YK6eX-wAAAAJ&hl=pt-BR&oi=sra  
+    - icon: file-person
+      text: Spell
+      href: https://www.spell.org.br/autores/perfil/12526/kleber-formiga-miranda  
+    - icon: file-person
+      text: Scopus
+      href: https://www.scopus.com/authid/detail.uri?authorId=57205619956  
+    - icon: cloud-download
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Kleber-Formiga-2  
 ---
 
 ```{=html}
