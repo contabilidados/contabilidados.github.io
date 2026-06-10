@@ -1,0 +1,33 @@
+---
+toc: true
+categories: [Investimentos, Finanças]
+date_publish: "2026-06-10"
+date_event: "10/06/2026 - 19 às 21h"
+event: "Educação Financeira para a Comunidade Acadêmica e Externa da UFERSA"
+links:
+- icon: file-pdf
+  icon_pack: far
+  name: Parte 1
+  url: https://drive.google.com/file/d/13uOFQc7Xly-Lcv4EqlDHLSPAlTkbbc3O/view?usp=sharing
+- icon: file-pdf
+  icon_pack: far
+  name: Parte 2
+  url: https://drive.google.com/file/d/1HQp8wCUZ1zfuDxIgnQQ1O_K42uP8kNb3/view?usp=sharing
+location: Auditório da PROEC
+title: "Introdução aos Investimentos"
+image: figs/introducaoAosInvestimentos.png
+draft: false
+---
+
+```{r}
+#| echo: false
+#| results: asis
+source(here::here("R/utils.R"))
+read_yaml_talks_pt()
+```
+
+<br>
+
+A palestra tem como objetivo apresentar alternativas de investimentos em renda fixa
+e renda variável, compreendendo suas características, riscos e oportunidades, para 
+iniciar a jornada de investimentos com mais conhecimento e segurança.

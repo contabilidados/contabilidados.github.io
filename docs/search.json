@@ -263,7 +263,7 @@
     "href": "meetings.html#eventospalestras",
     "title": "Contabilidados - Eventos",
     "section": "Eventos/Palestras",
-    "text": "Eventos/Palestras\n\n\n   \n    \n    \n      Ordenar por\n      Pré-selecionado\n      \n        Título\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão\n\n\n\n\n\n\n\n\n\n\n\n\nInteligência Artificial na pesquisa científica\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à plataforma Economatica\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução ao R e RStudio\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução ao Software R\n\n\n\n\n\n\n\n\n\n\n\n\nNoções Básicas de Técnicas Contábeis e Financeiras com o R\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de dados com R e Economatica\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de dados com R e Economatica\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Eventos/Palestras\n\n\n   \n    \n    \n      Ordenar por\n      Pré-selecionado\n      \n        Título\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntrodução aos Investimentos\n\n\n\n\n\n\n\n\n\n\n\n\nIA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão\n\n\n\n\n\n\n\n\n\n\n\n\nInteligência Artificial na pesquisa científica\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à plataforma Economatica\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução ao R e RStudio\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução ao Software R\n\n\n\n\n\n\n\n\n\n\n\n\nNoções Básicas de Técnicas Contábeis e Financeiras com o R\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de dados com R e Economatica\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de dados com R e Economatica\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "eventos/treinamentoeconomatica/treinamentoeconomatica.html",
@@ -273,60 +273,53 @@
     "text": "Evento: Análise de Dados com R e EconomaticaLink do evento: https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0JfoData/Hora do Evento: 29/10/2022Local: Online\nMateriais\n\n\n Apostila  Dia 1  Dia 2 \n\n\nEssa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos.\n\n\n\n De volta ao topo"
   },
   {
-    "objectID": "eventos/economaticaR/economaticaR.html",
-    "href": "eventos/economaticaR/economaticaR.html",
-    "title": "Análise de dados com R e Economatica",
+    "objectID": "eventos/introducaoAosInvestimentos/introducaoAosInvestimentos.html",
+    "href": "eventos/introducaoAosInvestimentos/introducaoAosInvestimentos.html",
+    "title": "Introdução aos Investimentos",
     "section": "",
-    "text": "Evento: Análise de Dados com R e EconomaticaLink do evento: https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0JfoData/Hora do Evento: 29/10/2022Local: Online\nMateriais\n\n\n Apostila  Dia 1  Dia 2 \n\n\nEssa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos.\n\n\n\n De volta ao topo"
+    "text": "Evento: Educação Financeira para a Comunidade Acadêmica e Externa da UFERSAData/Hora do Evento: 10/06/2026 - 19 às 21hLocal: Auditório da PROEC\nMateriais\n\n\n Parte 1  Parte 2 \n\n\nA palestra tem como objetivo apresentar alternativas de investimentos em renda fixa e renda variável, compreendendo suas características, riscos e oportunidades, para iniciar a jornada de investimentos com mais conhecimento e segurança.\n\n\n\n De volta ao topo"
   },
   {
-    "objectID": "eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html",
-    "href": "eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html",
-    "title": "Inteligência Artificial na pesquisa científica",
+    "objectID": "eventos/ecicont2025_introR/ecicont2025_introR.html",
+    "href": "eventos/ecicont2025_introR/ecicont2025_introR.html",
+    "title": "Introdução ao R e RStudio",
     "section": "",
-    "text": "Evento: ECICONT - I Encontro Científico em Contabilidade da UFERSALink do evento: https://www.even3.com.br/ecicont-611668/Data/Hora do Evento: 14/11/2025 - 19 às 21hLocal: Núcleo de Práticas Contábeis (NPC) - UFERSA\nMateriais\n\n\n Slides \n\n\nPalestra com o objetivo de apresentar como plataformas de Inteligência Artificial (IA) podem otimizar o processo de pesquisas científicas e discutir sobre boas práticas de integridade e uso ético da IA no âmbito acadêmico.\n\n\n\n De volta ao topo"
+    "text": "Evento: ECICONT - I Encontro Científico em Contabilidade da UFERSALink do evento: https://www.even3.com.br/ecicont-611668/Data/Hora do Evento: 13/11/2025 - 19 às 22hLocal: Laboratório 3 - Central de Aulas III - UFERSA\nMateriais\n\n\n Slides \n\n\nOficina com o objetivo de introduzir o uso do R e do RStudio para análise de dados estatísticos, com foco em aplicações básicas voltadas à pesquisa acadêmica em ciências sociais aplicadas.\n\n\n\n De volta ao topo"
   },
   {
-    "objectID": "eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
-    "href": "eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
-    "title": "Noções Básicas de Técnicas Contábeis e Financeiras com o R",
+    "objectID": "eventos/ecicont2025_economatica/ecicont2025_economatica.html",
+    "href": "eventos/ecicont2025_economatica/ecicont2025_economatica.html",
+    "title": "Introdução à plataforma Economatica",
     "section": "",
-    "text": "Evento: CINCO - I Congresso Interinstitucional de Contabilidade e ControladoriaLink do evento: https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCOData/Hora do Evento: 14/12/2023Local: Online\nMateriais\n\n\n Apostila  Slide \n\n\nO minicurso abordou a importância da análise de dados como uma habilidade para o profissional contábil, demonstrando como o tratamento estratégico dados aos dados otimiza o processo de coleta e análise de informações relevantes para o processo decisório. No aspecto prático, foi demonstrado como algumas técnicas contábeis e financeiras podem ser realizadas com a aplicação R Programming.\n\n\n\n De volta ao topo"
+    "text": "Evento: ECICONT - I Encontro Científico em Contabilidade da UFERSALink do evento: https://www.even3.com.br/ecicont-611668/Data/Hora do Evento: 13/11/2025 - 19 às 22hLocal: Laboratório 3 - Central de Aulas III - UFERSA\nMateriais\n\n\n Apostila \n\n\nOficina com o objetivo de demonstrar como utilizar a plataforma Economática para pesquisa financeira e contábil, com foco em análise de empresas, indicadores e séries temporais.\n\n\n\n De volta ao topo"
   },
   {
-    "objectID": "curriculum/profs/yuri.html",
-    "href": "curriculum/profs/yuri.html",
-    "title": "Yuri Azevedo",
+    "objectID": "eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html",
+    "href": "eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html",
+    "title": "IA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão",
     "section": "",
-    "text": "Olá! Me chamo Yuri Azevedo. Atuo como professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA). Tenho doutorado em Ciências Contábeis pela Universidade de São Paulo (FEA-RP/USP) e mestrado e graduação em Ciências Contábeis pela Universidade Federal do Rio Grande do Norte (UFRN).\nMeus principais interesses estão voltados para a análise de dados, com aplicações práticas e acadêmicas no campo da governança corporativa. Atualmente, tenho adotado a linguagem R Programming como a principal linguagem utilizada.\nAtualmente participo dos grupos de pesquisa contabiliDados, cujo objetivo é envolver professores e alunos em discussões sobre contabilidade, finanças e análise de dados, bem como InCont e GPFin, que possuem foco no desenvolvimento de pesquisas científicas relacionadas à contabilidade e finanças.\n\n\n De volta ao topo"
+    "text": "Evento: Café com EspecialistasData/Hora do Evento: 27/11/2025 às 15hLocal: Google Meet (Remoto)\nMateriais\n\n\n Slides  Artigo  Amazo vs Liga \n\n\nPromovido pelo PET Gestão Social, grupo vinculado à Universidade Federal Rural do Semi-Árido (UFERSA), o evento traz discussões sobre temas atuais voltados à administração.\n🤖 Nesta edição, vamos conversar sobre: IA e Ciência de Dados – Competências essenciais para líderes e profissionais de gestão.\n💬 Um espaço para trocar ideias, aprender e refletir sobre os desafios e oportunidades que a tecnologia traz para a gestão.\n📜 Certificado de 2 horas\n📝 Inscrições: Clique Aqui\n\n\n\n De volta ao topo"
   },
   {
-    "objectID": "curriculum/profs/alexsandro.html",
-    "href": "curriculum/profs/alexsandro.html",
-    "title": "Alexsandro Prado",
+    "objectID": "curriculum/profs/kleber.html",
+    "href": "curriculum/profs/kleber.html",
+    "title": "Kléber Formiga",
     "section": "",
-    "text": "Olá! Meu nome é Alexsandro. Sou professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA).\nUm entusiasta por tecnologia que através da linguagem R e a Ciência de Dados encontrou um vasto mundo de possibilidades para explorar insights valiosos por meio da análise dados.\nContribui com o grupo de pesquisa contabiliDados desde 2019 desenvolvendo posts, vignettes e atua com mantenedor (manutenção e atualização) do blog contabiliDados.\nEm 2022, fundei o GECOMT (Grupo de Estudos sobre Contabilidade e Mercado de Trabalho) com o propósito de mapear o cenário profissional contábil, abordando temas como remuneração e disparidades salariais relacionadas a gênero, raça, região e setor de atuação. Utilizando técnicas de Ciência de Dados, exploramos dados a partir da RAIS, CAGED e PNADc para oferecer uma compreensão abrangente do panorama atual do mercado de trabalho contábil.\nSou doutor em Economia pela Universidade Federal da Paraíba (UFPB) e Mestre em Ciências Contábeis pela Universidade de Brasília (UnB).\n\n\n De volta ao topo"
+    "text": "Olá! Meu nome é Kléber. Atuo como professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA). Sou contador com doutorado em Ciências Contábeis pela Universidade Federal da Paraíba (UFPB) e Mestre em Administração e Controladoria pela Universidade Federal do Ceará (UFC).\nSou entusiasta da análise de dados e acredito que está será a habilidade mais requerida de contadores para as demandas contábeis. Embora tenha contato com outras linguagens, adotei o R Programming como a principal para as minhas abordagens.\nParticipo do grupo de pesquisa contabiliDados - Contabilidade e Finanças, cujo objetivo é envolver professores e alunos em discussões sobre contabilidade, finanças e análise de dados. Esse blog é fruto desse grupo.\n\n\n De volta ao topo"
   },
   {
-    "objectID": "curriculum/alunos/eline.html",
-    "href": "curriculum/alunos/eline.html",
-    "title": "Eline Kaliane",
+    "objectID": "curriculum/alunos/liviabandeira.html",
+    "href": "curriculum/alunos/liviabandeira.html",
+    "title": "Lívia Bandeira",
     "section": "",
-    "text": "Olá! Me chamo Eline. Sou bacharela em Administração pela Faculdade do Complexo Educacional Santo André (FACESA), atualmente Mestranda do Programa de Pós-Graduação em Administração da Universidade Federal Rural do Semi Árido (PPGA/UFERSA), bolsista da CAPES e membro do ContabiliDados. Além disso, possuo especialização em Gestão de Pessoas e Marketing também pela Faculdade do Complexo Educacional Santo André (FACESA).\nEntusiasta da carreira acadêmica com experiência na docência em ensino superior (Curso de Bacharelado em Administração), possuo interesse e atuação (em andamento) em pesquisas nas áreas de administração, contabilidade e finanças, com ênfase em processos decisórios.\n\n\n De volta ao topo"
+    "text": "Olá! Meu nome é Lívia. Sou bacharela em Ciências Contábeis e atualmente aluna de mestrado do Programa de Pós-graduação em Administração da Universidade Federal Rural do Semi-Árido (UFERSA).\nDurante a graduação atuei na Empresa Júnior de Contabilidade da Ufersa (Contabilize), e no mercado de trabalho, desemprenhei atividades na gestão de departamento pessoal de escritórios e universidade. E atualmente passei a integrar a equipe do projeto ContabiliDados.\n\n\n De volta ao topo"
   },
   {
-    "objectID": "curriculum/alunos/camilla.html",
-    "href": "curriculum/alunos/camilla.html",
-    "title": "Camilla Duarte",
+    "objectID": "curriculum/alunos/caue.html",
+    "href": "curriculum/alunos/caue.html",
+    "title": "Cauê Gois",
     "section": "",
-    "text": "Olá! Meu nome é Camilla. Sou bacharela em Ciências Contábeis pela Universidade Federal Rural do Semi-Árido (UFERSA), atualmente curso mestrado acadêmico no Programa de Pós-graduação em Administração (PPGA/UFERSA). Durante a minha jornada na graduação, descobri minha vocação na área acadêmica ao atuar como monitora da disciplina Contabilidade de Custos; tutora de projetos de extensão relacionados à empreendedorismo, inovação e análise de custos empresariais; e membro de comissão organizadora de eventos científicos internos. Após a graduação, continuei atuando no desenvolvimento de pesquisas científicas; lecionei em cursos de nível técnico; e trabalhei como consultora acadêmica. Desde 2024 passei a fazer parte da equipe do projeto ContabiliDados (UFERSA).\n\n\n De volta ao topo"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Nossa Equipe",
-    "section": "",
-    "text": "English  Português Español\n\n\n\nHi! My name is Beatriz, and I am a R-Lady from Brazil 🇧🇷 💜.\nI’m a tidyverse instructor certified by RStudio, and I teach R at Curso-R.\nI have been writing about R in my blog since 2019. I’m mostly active in the Brazilian R community, co-organizing communities and events, such as: R-Ladies São Paulo, Latin-R, and satRday São Paulo.\nI’m a PhD Candidate at the University of São Paulo, in Environmental Sciences. My research is about transparency of information in the management of water resources that are used to supply the Macrometropolis of Sao Paulo.\n\n\n\n De volta ao topo"
+    "text": "Olá! Meu nome é Cauê. atualmente cursando a graduação em Ciências Contábeis pela Universidade Federal Rural do Semi-Árido (UFERSA), atualmente no último ano do curso. Ao longo da graduação, desenvolvi interesse nas áreas de Finanças, Mercado Financeiro, valuation de empresas e análise de dados, direcionando meus estudos especificamente para Equity Research e Factor Investing.\nDurante minha formação, atuo como membro do projeto ContabiliDados, contribuindo no desenvolvimento de cursos, eventos e na coleta e análise de dados de empresas listadas na B3. Além disso, sou membro da Liga de Mercado Financeiro da UFERSA, participando da organização de cursos de educação financeira e challenges universitários. Também exerço a função de monitor da disciplina Análise das Demonstrações Contábeis.\n\n\n De volta ao topo"
   },
   {
     "objectID": "cntdd.html",
@@ -357,46 +350,60 @@
     "text": "Indicadores\n\n\n   \n    \n    \n      Ordenar por\n      Pré-selecionado\n      \n        Título\n      \n      \n        Data - Mais velho\n      \n      \n        Data - O mais novo\n      \n      \n        Autor\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nÍndice de Liquidez Seca\n\n\n\n\n\n\ncntdd\n\nPacotes\n\n\n\n\n\n\n2 de mar. de 2020\n\n\nKléber\n\n9 minutos\n\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "curriculum/alunos/caue.html",
-    "href": "curriculum/alunos/caue.html",
-    "title": "Cauê Gois",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Nossa Equipe",
     "section": "",
-    "text": "Olá! Meu nome é Cauê. atualmente cursando a graduação em Ciências Contábeis pela Universidade Federal Rural do Semi-Árido (UFERSA), atualmente no último ano do curso. Ao longo da graduação, desenvolvi interesse nas áreas de Finanças, Mercado Financeiro, valuation de empresas e análise de dados, direcionando meus estudos especificamente para Equity Research e Factor Investing.\nDurante minha formação, atuo como membro do projeto ContabiliDados, contribuindo no desenvolvimento de cursos, eventos e na coleta e análise de dados de empresas listadas na B3. Além disso, sou membro da Liga de Mercado Financeiro da UFERSA, participando da organização de cursos de educação financeira e challenges universitários. Também exerço a função de monitor da disciplina Análise das Demonstrações Contábeis.\n\n\n De volta ao topo"
+    "text": "English  Português Español\n\n\n\nHi! My name is Beatriz, and I am a R-Lady from Brazil 🇧🇷 💜.\nI’m a tidyverse instructor certified by RStudio, and I teach R at Curso-R.\nI have been writing about R in my blog since 2019. I’m mostly active in the Brazilian R community, co-organizing communities and events, such as: R-Ladies São Paulo, Latin-R, and satRday São Paulo.\nI’m a PhD Candidate at the University of São Paulo, in Environmental Sciences. My research is about transparency of information in the management of water resources that are used to supply the Macrometropolis of Sao Paulo.\n\n\n\n De volta ao topo"
   },
   {
-    "objectID": "curriculum/alunos/liviabandeira.html",
-    "href": "curriculum/alunos/liviabandeira.html",
-    "title": "Lívia Bandeira",
+    "objectID": "curriculum/alunos/camilla.html",
+    "href": "curriculum/alunos/camilla.html",
+    "title": "Camilla Duarte",
     "section": "",
-    "text": "Olá! Meu nome é Lívia. Sou bacharela em Ciências Contábeis e atualmente aluna de mestrado do Programa de Pós-graduação em Administração da Universidade Federal Rural do Semi-Árido (UFERSA).\nDurante a graduação atuei na Empresa Júnior de Contabilidade da Ufersa (Contabilize), e no mercado de trabalho, desemprenhei atividades na gestão de departamento pessoal de escritórios e universidade. E atualmente passei a integrar a equipe do projeto ContabiliDados.\n\n\n De volta ao topo"
+    "text": "Olá! Meu nome é Camilla. Sou bacharela em Ciências Contábeis pela Universidade Federal Rural do Semi-Árido (UFERSA), atualmente curso mestrado acadêmico no Programa de Pós-graduação em Administração (PPGA/UFERSA). Durante a minha jornada na graduação, descobri minha vocação na área acadêmica ao atuar como monitora da disciplina Contabilidade de Custos; tutora de projetos de extensão relacionados à empreendedorismo, inovação e análise de custos empresariais; e membro de comissão organizadora de eventos científicos internos. Após a graduação, continuei atuando no desenvolvimento de pesquisas científicas; lecionei em cursos de nível técnico; e trabalhei como consultora acadêmica. Desde 2024 passei a fazer parte da equipe do projeto ContabiliDados (UFERSA).\n\n\n De volta ao topo"
   },
   {
-    "objectID": "curriculum/profs/kleber.html",
-    "href": "curriculum/profs/kleber.html",
-    "title": "Kléber Formiga",
+    "objectID": "curriculum/alunos/eline.html",
+    "href": "curriculum/alunos/eline.html",
+    "title": "Eline Kaliane",
     "section": "",
-    "text": "Olá! Meu nome é Kléber. Atuo como professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA). Sou contador com doutorado em Ciências Contábeis pela Universidade Federal da Paraíba (UFPB) e Mestre em Administração e Controladoria pela Universidade Federal do Ceará (UFC).\nSou entusiasta da análise de dados e acredito que está será a habilidade mais requerida de contadores para as demandas contábeis. Embora tenha contato com outras linguagens, adotei o R Programming como a principal para as minhas abordagens.\nParticipo do grupo de pesquisa contabiliDados - Contabilidade e Finanças, cujo objetivo é envolver professores e alunos em discussões sobre contabilidade, finanças e análise de dados. Esse blog é fruto desse grupo.\n\n\n De volta ao topo"
+    "text": "Olá! Me chamo Eline. Sou bacharela em Administração pela Faculdade do Complexo Educacional Santo André (FACESA), atualmente Mestranda do Programa de Pós-Graduação em Administração da Universidade Federal Rural do Semi Árido (PPGA/UFERSA), bolsista da CAPES e membro do ContabiliDados. Além disso, possuo especialização em Gestão de Pessoas e Marketing também pela Faculdade do Complexo Educacional Santo André (FACESA).\nEntusiasta da carreira acadêmica com experiência na docência em ensino superior (Curso de Bacharelado em Administração), possuo interesse e atuação (em andamento) em pesquisas nas áreas de administração, contabilidade e finanças, com ênfase em processos decisórios.\n\n\n De volta ao topo"
   },
   {
-    "objectID": "eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html",
-    "href": "eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html",
-    "title": "IA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão",
+    "objectID": "curriculum/profs/alexsandro.html",
+    "href": "curriculum/profs/alexsandro.html",
+    "title": "Alexsandro Prado",
     "section": "",
-    "text": "Evento: Café com EspecialistasData/Hora do Evento: 27/11/2025 às 15hLocal: Google Meet (Remoto)\nMateriais\n\n\n Slides  Artigo  Amazo vs Liga \n\n\nPromovido pelo PET Gestão Social, grupo vinculado à Universidade Federal Rural do Semi-Árido (UFERSA), o evento traz discussões sobre temas atuais voltados à administração.\n🤖 Nesta edição, vamos conversar sobre: IA e Ciência de Dados – Competências essenciais para líderes e profissionais de gestão.\n💬 Um espaço para trocar ideias, aprender e refletir sobre os desafios e oportunidades que a tecnologia traz para a gestão.\n📜 Certificado de 2 horas\n📝 Inscrições: Clique Aqui\n\n\n\n De volta ao topo"
+    "text": "Olá! Meu nome é Alexsandro. Sou professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA).\nUm entusiasta por tecnologia que através da linguagem R e a Ciência de Dados encontrou um vasto mundo de possibilidades para explorar insights valiosos por meio da análise dados.\nContribui com o grupo de pesquisa contabiliDados desde 2019 desenvolvendo posts, vignettes e atua com mantenedor (manutenção e atualização) do blog contabiliDados.\nEm 2022, fundei o GECOMT (Grupo de Estudos sobre Contabilidade e Mercado de Trabalho) com o propósito de mapear o cenário profissional contábil, abordando temas como remuneração e disparidades salariais relacionadas a gênero, raça, região e setor de atuação. Utilizando técnicas de Ciência de Dados, exploramos dados a partir da RAIS, CAGED e PNADc para oferecer uma compreensão abrangente do panorama atual do mercado de trabalho contábil.\nSou doutor em Economia pela Universidade Federal da Paraíba (UFPB) e Mestre em Ciências Contábeis pela Universidade de Brasília (UnB).\n\n\n De volta ao topo"
   },
   {
-    "objectID": "eventos/ecicont2025_economatica/ecicont2025_economatica.html",
-    "href": "eventos/ecicont2025_economatica/ecicont2025_economatica.html",
-    "title": "Introdução à plataforma Economatica",
+    "objectID": "curriculum/profs/yuri.html",
+    "href": "curriculum/profs/yuri.html",
+    "title": "Yuri Azevedo",
     "section": "",
-    "text": "Evento: ECICONT - I Encontro Científico em Contabilidade da UFERSALink do evento: https://www.even3.com.br/ecicont-611668/Data/Hora do Evento: 13/11/2025 - 19 às 22hLocal: Laboratório 3 - Central de Aulas III - UFERSA\nMateriais\n\n\n Apostila \n\n\nOficina com o objetivo de demonstrar como utilizar a plataforma Economática para pesquisa financeira e contábil, com foco em análise de empresas, indicadores e séries temporais.\n\n\n\n De volta ao topo"
+    "text": "Olá! Me chamo Yuri Azevedo. Atuo como professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA). Tenho doutorado em Ciências Contábeis pela Universidade de São Paulo (FEA-RP/USP) e mestrado e graduação em Ciências Contábeis pela Universidade Federal do Rio Grande do Norte (UFRN).\nMeus principais interesses estão voltados para a análise de dados, com aplicações práticas e acadêmicas no campo da governança corporativa. Atualmente, tenho adotado a linguagem R Programming como a principal linguagem utilizada.\nAtualmente participo dos grupos de pesquisa contabiliDados, cujo objetivo é envolver professores e alunos em discussões sobre contabilidade, finanças e análise de dados, bem como InCont e GPFin, que possuem foco no desenvolvimento de pesquisas científicas relacionadas à contabilidade e finanças.\n\n\n De volta ao topo"
   },
   {
-    "objectID": "eventos/ecicont2025_introR/ecicont2025_introR.html",
-    "href": "eventos/ecicont2025_introR/ecicont2025_introR.html",
-    "title": "Introdução ao R e RStudio",
+    "objectID": "eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+    "href": "eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+    "title": "Noções Básicas de Técnicas Contábeis e Financeiras com o R",
     "section": "",
-    "text": "Evento: ECICONT - I Encontro Científico em Contabilidade da UFERSALink do evento: https://www.even3.com.br/ecicont-611668/Data/Hora do Evento: 13/11/2025 - 19 às 22hLocal: Laboratório 3 - Central de Aulas III - UFERSA\nMateriais\n\n\n Slides \n\n\nOficina com o objetivo de introduzir o uso do R e do RStudio para análise de dados estatísticos, com foco em aplicações básicas voltadas à pesquisa acadêmica em ciências sociais aplicadas.\n\n\n\n De volta ao topo"
+    "text": "Evento: CINCO - I Congresso Interinstitucional de Contabilidade e ControladoriaLink do evento: https://www.even3.com.br/cinco-i-congresso-interinstitucional-de-contabilidade-e-controladoria-392702?cp=PALESTRANTECINCOData/Hora do Evento: 14/12/2023Local: Online\nMateriais\n\n\n Apostila  Slide \n\n\nO minicurso abordou a importância da análise de dados como uma habilidade para o profissional contábil, demonstrando como o tratamento estratégico dados aos dados otimiza o processo de coleta e análise de informações relevantes para o processo decisório. No aspecto prático, foi demonstrado como algumas técnicas contábeis e financeiras podem ser realizadas com a aplicação R Programming.\n\n\n\n De volta ao topo"
+  },
+  {
+    "objectID": "eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html",
+    "href": "eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html",
+    "title": "Inteligência Artificial na pesquisa científica",
+    "section": "",
+    "text": "Evento: ECICONT - I Encontro Científico em Contabilidade da UFERSALink do evento: https://www.even3.com.br/ecicont-611668/Data/Hora do Evento: 14/11/2025 - 19 às 21hLocal: Núcleo de Práticas Contábeis (NPC) - UFERSA\nMateriais\n\n\n Slides \n\n\nPalestra com o objetivo de apresentar como plataformas de Inteligência Artificial (IA) podem otimizar o processo de pesquisas científicas e discutir sobre boas práticas de integridade e uso ético da IA no âmbito acadêmico.\n\n\n\n De volta ao topo"
+  },
+  {
+    "objectID": "eventos/economaticaR/economaticaR.html",
+    "href": "eventos/economaticaR/economaticaR.html",
+    "title": "Análise de dados com R e Economatica",
+    "section": "",
+    "text": "Evento: Análise de Dados com R e EconomaticaLink do evento: https://www.youtube.com/playlist?list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0JfoData/Hora do Evento: 29/10/2022Local: Online\nMateriais\n\n\n Apostila  Dia 1  Dia 2 \n\n\nEssa palestra demonstrou como dados coletados na plataforma Economatica podem ser importados e analisados por meio do R Programming. Foram apresentados aspectos práticos relacionados à academia ao setor contábil em geral. Ao final, foi demonstrado como montar uma base de dados para deixá-la pronta para aplicação em modelos estatísticos.\n\n\n\n De volta ao topo"
   },
   {
     "objectID": "eventos/introR/introR.html",
@@ -424,7 +431,7 @@
     "href": "index.html#eventos-recentes",
     "title": "contabiliDados",
     "section": "Eventos Recentes",
-    "text": "Eventos Recentes\n\n\n\n\n\n\n\n\n\n\nIA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão\n\n\n\n\n\n\n\n\n\n\n\n\nInteligência Artificial na pesquisa científica\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à plataforma Economatica\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução ao R e RStudio\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução ao Software R\n\n\n\n\n\n\n\n\n\n\n\n\nNoções Básicas de Técnicas Contábeis e Financeiras com o R\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de dados com R e Economatica\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de dados com R e Economatica\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Eventos Recentes\n\n\n\n\n\n\n\n\n\n\nIntrodução aos Investimentos\n\n\n\n\n\n\n\n\n\n\n\n\nIA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão\n\n\n\n\n\n\n\n\n\n\n\n\nInteligência Artificial na pesquisa científica\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à plataforma Economatica\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução ao R e RStudio\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução ao Software R\n\n\n\n\n\n\n\n\n\n\n\n\nNoções Básicas de Técnicas Contábeis e Financeiras com o R\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de dados com R e Economatica\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de dados com R e Economatica\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "index.html#pacotes-recentes",
