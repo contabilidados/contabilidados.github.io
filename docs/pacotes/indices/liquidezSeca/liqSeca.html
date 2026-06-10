@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.8.24">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Kléber">
 <title>Índice de Liquidez Seca – contabiliDados</title>
@@ -70,9 +70,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap-dc2a909e5bf95bbc82003d544a40a195.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -527,7 +527,7 @@ window.Quarto = {
 </section><section id="exemplo" class="level3"><h3 class="anchored" data-anchor-id="exemplo">Exemplo:</h3>
 <p>Para utilizar a função <code>ind_liqSeca</code> precisamos carregar o pacote <code>cntdd</code>.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/contabilidados/cntdd">cntdd</a></span><span class="op">)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Após carregar o pacote, vamos simular uma situação em que temos os valores e queremos lançá-los, individualmente na função. Para cada parâmetro, precisamos informar os valores correspondentes. Importante observar que a quantidade de valores nas contas deve ser igual ao número de períodos informados no parâmetro <code>periodo</code>.</p>
 <p>No exemplo abaixo, informamos os anos de 2018 a 2020 (3 anos) por meio do vetor com a sequência <code>2018:2020</code>. O nome que escolhemos para indicador foi <code>Liquidez Seca</code>. Os demais vetores correspondem aos valores das contas (3 valores) para cálculo do indicador. Também escolhemos que nessa análise deveria ser apresentado um gráfico do indicador, então atribuímos o valor <code>T</code> ou <code>TRUE</code> para o parâmetro <code>relatorio</code>.</p>
@@ -600,7 +600,7 @@ $plot</code></pre>
 <p>Como esperado, foi apresentado o gráfico da Liquidez Seca, mais 4 itens: Contas, Índice, Análise Vertical e Análise Horizontal. Agora, é só analisar o indicador com as respectivas contas que o compõe.</p>
 <p>Para uma análise mais específica, vamos admitir que queremos apenas o item <code>Índice</code>. Vamos mostrar como captar apenas esse item e mostrá-lo em uma tabela com melhor design. O design da tabela será dado pelo pacote <code>kableExtra</code>, então vamos carregá-lo. Vamos carregar, também, o pacote <code>dplyr</code> para fazer a análise dos dados.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/contabilidados/cntdd/">cntdd</a></span><span class="op">)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/contabilidados/cntdd">cntdd</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="http://haozhu233.github.io/kableExtra/">kableExtra</a></span><span class="op">)</span></span>
 <span><span class="co"># Usamos suppressWarnings e suppressMessages para omitir mensagens e avisos</span></span>
 <span><span class="co"># durante o carregamento do pacote dplyr</span></span>

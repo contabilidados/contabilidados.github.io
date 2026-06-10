@@ -17,12 +17,18 @@ about:
     - icon: file-pdf
       text: Lattes
       href: http://lattes.cnpq.br/5969359253746807  
+    - icon: file-pdf
+      text: ORCID
+      href: https://orcid.org/0000-0002-9164-6709  
+    - icon: file-pdf
+      text: Spell
+      href: https://www.spell.org.br/autores/perfil/12526/kleber-formiga-miranda  
+    - icon: file-pdf
+      text: Scopus
+      href: https://www.scopus.com/authid/detail.uri?authorId=57205619956  
     - icon: github
       text: GitHub
       href: https://github.com/kleberformiga
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/kleberformiga      
 ---
 
 ```{=html}
