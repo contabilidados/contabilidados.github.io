@@ -9,7 +9,7 @@
 <link>https://contabilidados.com.br/</link>
 <atom:link href="https://contabilidados.com.br/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.24</generator>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Mon, 17 Nov 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Como a Reforma Tributária está Transformando a Precificação de Produtos no Brasil</title>
@@ -232,7 +232,7 @@ font-style: inherit;"># faz estatísticas descritivas básicas com a base de dad
  Mean   :1431853   Mean   : 7693517   Mean   :    6203   Mean   :  178683  
  3rd Qu.:2162359   3rd Qu.: 8406145   3rd Qu.:   73595   3rd Qu.:  461329  
  Max.   :5490371   Max.   :36533517   Max.   :  645997   Max.   : 1852711  
- NA's   :1         NA's   :1          NA's   :1          NA's   :1         </code></pre>
+ NAs    :1         NAs    :1          NAs    :1          NAs    :1         </code></pre>
 </div>
 </div>
 <p>Identificamos que algumas empresas apresentam observações com valores nulos (indicados por <code>NA</code> em todas as variáveis) e que outras possuem resultados com LAIR e IR negativos. Não entraremos no mérito das causas desses casos agora. Vamos remover essas observações para mostrar, na prática, como aplicar filtros no R e deixar nossa análise mais interessante neste post.</p>

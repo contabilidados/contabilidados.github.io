@@ -36,7 +36,10 @@ website:
       - text: Dashboard
         menu:
           - text: Indicadores
-            href: https://kleberformiga.shinyapps.io/dashCVMaulas/
+            href: https://contabilidados-dfs.share.connect.posit.cloud/
+            target: _blank
+          - text: Links DFs CVM
+            href: https://contabilidados-cntdd-linksdfs.share.connect.posit.cloud/
             target: _blank
           - text: Mercado
             href: https://gecomt.shinyapps.io/dashboard/
