@@ -541,7 +541,7 @@ window.Quarto = {
 <p>Após carregar o pacote, vamos simular uma situação em que temos os valores e queremos lançá-los, individualmente na função. Para cada parâmetro, precisamos informar os valores correspondentes. Importante observar que a quantidade de valores nas contas deve ser igual ao número de períodos informados no parâmetro <code>periodo</code>.</p>
 <p>No exemplo abaixo, informamos os anos de 2018 a 2020 (3 anos) por meio do vetor com a sequência <code>2018:2020</code>. O nome que escolhemos para indicador foi <code>Liquidez Seca</code>. Os demais vetores correspondem aos valores das contas (3 valores) para cálculo do indicador. Também escolhemos que nessa análise deveria ser apresentado um gráfico do indicador, então atribuímos o valor <code>T</code> ou <code>TRUE</code> para o parâmetro <code>relatorio</code>.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/ind_liqSeca.html">ind_liqSeca</a></span><span class="op">(</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://contabilidados.com.br/cntdd/reference/ind_liqSeca.html">ind_liqSeca</a></span><span class="op">(</span></span>
 <span>indicador  <span class="op">=</span> <span class="st">"Liquidez Seca"</span>,</span>
 <span>periodo    <span class="op">=</span> <span class="fl">2018</span><span class="op">:</span><span class="fl">2020</span>,</span>
 <span>cxEquiv    <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">500</span>,<span class="fl">300</span>,<span class="fl">400</span><span class="op">)</span>,</span>
@@ -670,7 +670,7 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
 <p>Agora vamos rodar a função <code>ind_liqSeca</code> com os dados do banco de dados <code>dadosAlpha</code>. Vamos chamar o indicador de “Liquidez Seca” e não vamos pedir para apresentar o gráfico (<code>relatorio = F</code>). Como queremos usar apenas o item <code>Índice</code> vamos definir um objeto chamado <code>dadosLiqSeca</code> para assumir o resultado da função.</p>
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dadosLiqSeca</span> <span class="op">&lt;-</span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/ind_liqSeca.html">ind_liqSeca</a></span><span class="op">(</span></span>
+<span>  <span class="fu"><a href="https://contabilidados.com.br/cntdd/reference/ind_liqSeca.html">ind_liqSeca</a></span><span class="op">(</span></span>
 <span>    indicador  <span class="op">=</span> <span class="st">"Liquidez Seca"</span>,</span>
 <span>    periodo    <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">ano</span>,</span>
 <span>    cxEquiv    <span class="op">=</span> <span class="va">dadosAlpha</span><span class="op">$</span><span class="va">caixaEquiv</span>,</span>
@@ -1153,16 +1153,16 @@ $ flxCxFinanc       &lt;int&gt; -87013, -79850, -199408, -118347, 105061, -24182
     const script = document.createElement("script");
     script.src = "https://giscus.app/client.js";
     script.async = true;
-    script.dataset.repo = "contabilidados/blog";
-    script.dataset.repoId = "";
+    script.dataset.repo = "contabilidados/contabilidados.github.io";
+    script.dataset.repoId = "R_kgDOI9xlkQ";
     script.dataset.category = "General";
-    script.dataset.categoryId = "";
+    script.dataset.categoryId = "DIC_kwDOI9xlkc4CUfYR";
     script.dataset.mapping = "title";
     script.dataset.reactionsEnabled = "1";
     script.dataset.emitMetadata = "0";
     script.dataset.inputPosition = "top";
     script.dataset.theme = getTheme();
-    script.dataset.lang = "en";
+    script.dataset.lang = "pt";
     script.crossOrigin = "anonymous";
     // Append the script to the desired div instead of at the end of the body
     document.getElementById("quarto-content").appendChild(script);

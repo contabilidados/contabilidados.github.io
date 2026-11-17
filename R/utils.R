@@ -31,9 +31,9 @@ alterar_yaml <- function(input_file) {
   yaml_atual$draft <- NULL
   yaml_atual$publishDate <- NULL
 
-  imagem_post <- list.files(fs::path_dir(input_file), pattern =  "*.png|*featured*" )[1]
+  imagem_post <- list.files(fs::path_dir(input_file), pattern =  "\\.png$|featured" )[1]
 
-  if (!is.null(imagem_post)) {
+  if (!is.na(imagem_post)) {
     yaml_atual$image <- imagem_post
   }
 
@@ -121,15 +121,15 @@ read_yaml_talks_pt <- function(){
         item$icon_pack <- "brands"
       }
 
-      cat(paste0("<a href='", item$url, "' target='_blank' rel='noopener'><button class='btn btn-primary' style='margin: 10px;'><i class='", "fa-", item$icon_pack , " fa-", item$icon, "'></i> ", item$name, "</a></button>  "))
+      cat(paste0("<a href='", item$url, "' target='_blank' rel='noopener'><button class='btn btn-primary' style='margin: 10px;'><i class='", "fa-", item$icon_pack , " fa-", item$icon, "'></i> ", item$name, "</button></a>  "))
     }
-
-    if(!is.null(yaml_atual$image)){
-      cat(paste0("<br><br><img src='", yaml_atual$image, "' class='img-fluid quarto-figure-center' style='max-width:80%'><br>"))
-    }
-
 
     cat(paste0("</center>"))
+  }
+
+  # A imagem do evento aparece mesmo quando não há materiais (links).
+  if(!is.null(yaml_atual$image)){
+    cat(paste0("<center><br><br><img src='", yaml_atual$image, "' class='img-fluid quarto-figure-center' style='max-width:80%'><br></center>"))
   }
 }
 

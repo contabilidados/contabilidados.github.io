@@ -75,4 +75,9 @@ editor: source
 
 comments:
   giscus:
-    repo: contabilidados/blog
+    repo: contabilidados/contabilidados.github.io
+    repo-id: "R_kgDOI9xlkQ"
+    category: "General"
+    category-id: "DIC_kwDOI9xlkc4CUfYR"
+    mapping: title
+    language: pt

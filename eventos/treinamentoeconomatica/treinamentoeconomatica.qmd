@@ -20,7 +20,7 @@ links:
   url: https://www.youtube.com/watch?v=7mgmchEo-1w
 location: Online
 title: "Análise de dados com R e Economatica"
-image: figs/treinamentoeconomatica.png
+image: figs/treinamentoeconomatica.jpg
 draft: false
 ---
 

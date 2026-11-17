@@ -518,7 +518,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 <p>A função <code>utl_tableStat</code> será responsável por cruzar esses grupos e aplicar a estatística descritiva desejada em cada combinação. Neste exemplo, utilizaremos o tamanho da amostra (<code>length</code>), a média (<code>mean</code>) e o desvio-padrão (<code>sd</code>) para avaliar o comportamento do percentual do imposto de renda de cada grupo.</p>
 <p>A seguir, apresentamos o uso da função <code>utl_tableStat</code> com a função <code>length</code>.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://contabilidados.com.br/cntdd/reference/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
 <span>  bd <span class="op">=</span> <span class="va">dt_irPorGrupoAjustada</span>, <span class="co"># Base de dados</span></span>
 <span>  grp1 <span class="op">=</span> <span class="st">"imobilizado"</span>, <span class="co"># Nome da variável do primeiro agrupamento</span></span>
 <span>  n_grp1 <span class="op">=</span> <span class="fl">3</span>, <span class="co"># Número de grupos do primeiro agrupamento</span></span>
@@ -542,7 +542,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 <p>Os maiores grupos identificados foram os de empresas com baixa receita e baixo imobilizado (receita_1 x imobilizado_1), com 9 observações, e o de alta receita com alto imobilizado (receita_3 x imobilizado_3), com 8 observações. Esse comportamento é esperado, pois há uma tendência de que quanto maior o investimento em imobilizado, maior também a receita. No entanto, é importante destacar que essa relação não é uma regra e deve ser analisada com cautela.</p>
 <p>Agora vamos usar a função <code>utl_tableStat</code> para saber a média do percentual de imposto de renda que cada grupo possui, conforme sua DRE. Usaremos a função <code>mean</code>.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://contabilidados.com.br/cntdd/reference/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
 <span>  bd <span class="op">=</span> <span class="va">dt_irPorGrupoAjustada</span>, <span class="co"># Base de dados</span></span>
 <span>  grp1 <span class="op">=</span> <span class="st">"imobilizado"</span>, <span class="co"># Nome da variável do primeiro agrupamento</span></span>
 <span>  n_grp1 <span class="op">=</span> <span class="fl">3</span>, <span class="co"># Número de grupos do primeiro agrupamento</span></span>
@@ -563,7 +563,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 </div>
 <p>Interessante observar que o grupo mais intensivo em imobilizado e com maior receita apresenta uma carga tributária menor (17,0%) em comparação ao grupo menos intensivo em imobilizado e com menor receita (22,4%). Já a carga tributária mais elevada foi registrada no grupo intermediário, com receita média e baixa intensidade de imobilizado (55,5%). Para verificar se esses dados apresentam grande variação interna, aplicamos novamente a função <code>sd</code> para avaliar o desvio-padrão de cada grupo.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://contabilidados.com.br/cntdd/reference/utl_tableStat.html">utl_tableStat</a></span><span class="op">(</span></span>
 <span>  bd <span class="op">=</span> <span class="va">dt_irPorGrupoAjustada</span>, <span class="co"># Base de dados</span></span>
 <span>  grp1 <span class="op">=</span> <span class="st">"imobilizado"</span>, <span class="co"># Nome da variável do primeiro agrupamento</span></span>
 <span>  n_grp1 <span class="op">=</span> <span class="fl">3</span>, <span class="co"># Número de grupos do primeiro agrupamento</span></span>
@@ -585,7 +585,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 <p>Os resultados mostram que o grupo com menor receita e baixa intensidade de imobilizado possui a menor dispersão (4,0%), o que indica que sua média é mais representativa e consistente. Já o grupo mais intensivo em imobilizado e com maior receita apresenta uma dispersão maior (10,6%), sugerindo maior variação nos valores observados.</p>
 <p>Essa análise pode ser aprofundada com a verificação dos valores máximos e mínimos de cada grupo, utilizando as funções <code>min</code> e <code>max</code>. No entanto, deixamos esse próximo passo com você. Faça seus próprios testes e explore suas bases de dados. A função <code>utl_tableStat</code> cumpriu seu papel. Agora é hora de colocar a mão na massa!</p>
 <blockquote class="blockquote">
-<p>Dúvidas como instalar o pacote cntdd? <a href="https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html" target="_blank">Acesse Aqui</a></p>
+<p>Dúvidas como instalar o pacote cntdd? <a href="https://contabilidados.com.br/pacotes/utils/instalacntdd/instalacntdd.html" target="_blank">Acesse Aqui</a></p>
 </blockquote>
 
 
@@ -1021,16 +1021,16 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
     const script = document.createElement("script");
     script.src = "https://giscus.app/client.js";
     script.async = true;
-    script.dataset.repo = "contabilidados/blog";
-    script.dataset.repoId = "";
+    script.dataset.repo = "contabilidados/contabilidados.github.io";
+    script.dataset.repoId = "R_kgDOI9xlkQ";
     script.dataset.category = "General";
-    script.dataset.categoryId = "";
+    script.dataset.categoryId = "DIC_kwDOI9xlkc4CUfYR";
     script.dataset.mapping = "title";
     script.dataset.reactionsEnabled = "1";
     script.dataset.emitMetadata = "0";
     script.dataset.inputPosition = "top";
     script.dataset.theme = getTheme();
-    script.dataset.lang = "en";
+    script.dataset.lang = "pt";
     script.crossOrigin = "anonymous";
     // Append the script to the desired div instead of at the end of the body
     document.getElementById("quarto-content").appendChild(script);

@@ -138,4 +138,4 @@ Os resultados mostram que o grupo com menor receita e baixa intensidade de imobi
 
 Essa análise pode ser aprofundada com a verificação dos valores máximos e mínimos de cada grupo, utilizando as funções `min` e `max`. No entanto, deixamos esse próximo passo com você. Faça seus próprios testes e explore suas bases de dados. A função `utl_tableStat` cumpriu seu papel. Agora é hora de colocar a mão na massa!
 
-> Dúvidas como instalar o pacote cntdd? [Acesse Aqui](https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html){target="_blank"}
+> Dúvidas como instalar o pacote cntdd? [Acesse Aqui](https://contabilidados.com.br/pacotes/utils/instalacntdd/instalacntdd.html){target="_blank"}

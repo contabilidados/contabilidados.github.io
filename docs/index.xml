@@ -357,7 +357,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://contabilidados.com.br/cntdd/reference/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span></span>
 <span>  bd <span class="op" style="color: #5E5E5E;
@@ -427,7 +427,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://contabilidados.com.br/cntdd/reference/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span></span>
 <span>  bd <span class="op" style="color: #5E5E5E;
@@ -494,7 +494,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://contabilidados.com.br/cntdd/reference/utl_tableStat.html">utl_tableStat</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span></span>
 <span>  bd <span class="op" style="color: #5E5E5E;
@@ -560,7 +560,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <p>Os resultados mostram que o grupo com menor receita e baixa intensidade de imobilizado possui a menor dispersão (4,0%), o que indica que sua média é mais representativa e consistente. Já o grupo mais intensivo em imobilizado e com maior receita apresenta uma dispersão maior (10,6%), sugerindo maior variação nos valores observados.</p>
 <p>Essa análise pode ser aprofundada com a verificação dos valores máximos e mínimos de cada grupo, utilizando as funções <code>min</code> e <code>max</code>. No entanto, deixamos esse próximo passo com você. Faça seus próprios testes e explore suas bases de dados. A função <code>utl_tableStat</code> cumpriu seu papel. Agora é hora de colocar a mão na massa!</p>
 <blockquote class="blockquote">
-<p>Dúvidas como instalar o pacote cntdd? <a href="https://contabilidados.com.br/posts/dados/instalacntdd/instalacntdd.html" target="_blank">Acesse Aqui</a></p>
+<p>Dúvidas como instalar o pacote cntdd? <a href="https://contabilidados.com.br/pacotes/utils/instalacntdd/instalacntdd.html" target="_blank">Acesse Aqui</a></p>
 </blockquote>
 
 
@@ -988,7 +988,7 @@ font-style: inherit;">cntdd</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/cntdd/man/dt_contabil.html">dt_contabil</a></span></span></code></pre></div></div>
+font-style: inherit;"><a href="https://contabilidados.com.br/cntdd/reference/dt_contabil.html">dt_contabil</a></span></span></code></pre></div></div>
 </div>
 <div class="cell" data-layout-align="center">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
