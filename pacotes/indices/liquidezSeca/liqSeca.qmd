@@ -7,7 +7,7 @@ categories:
   - cntdd
   - Pacotes
 toc: true
-image: "figs/contasReceber.png"
+image: "figs/contasReceber.jpg"
 editor_options: 
   chunk_output_type: console
 editor: 

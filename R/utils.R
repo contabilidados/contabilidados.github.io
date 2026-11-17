@@ -1,68 +1,6 @@
-rename_md_to_qmd <- function(folder = "talks/pt"){
-  # renomeando .md para .qmd
-  folders <- list.dirs(folder, full.names = TRUE)
-
-  md_files <- folders |>
-    list.files(pattern = "\\.md", full.names = TRUE)
-
-  qmd_files <- stringr::str_replace(md_files, "\\.md",".qmd")
-
-  fs::file_move(md_files, qmd_files)
-
-  qmd_files
-}
-
-
-alterar_yaml <- function(input_file) {
-  # o que tem apos o yaml??
-  input_lines <- readLines(input_file, encoding = "UTF-8")
-  delimiters <- grep("^---\\s*$", input_lines)
-  apos_yaml <- input_lines[delimiters[2]:length(input_lines)]
-
-  # trabalhando com o yaml atual
-
-  yaml_atual <-  input_file |> read_yaml_matter()
-
-  yaml_atual$show_post_time <- NULL
-  yaml_atual$layout <- NULL
-  yaml_atual$featured <- NULL
-  yaml_atual$date_end <- NULL
-  yaml_atual$excerpt <- NULL
-  yaml_atual$draft <- NULL
-  yaml_atual$publishDate <- NULL
-
-  imagem_post <- list.files(fs::path_dir(input_file), pattern =  "\\.png$|featured" )[1]
-
-  if (!is.na(imagem_post)) {
-    yaml_atual$image <- imagem_post
-  }
-
-  novo_yaml <- yaml::as.yaml(yaml_atual)
-
-  codigo_adicionar_fun_read_yaml_talks_pt <- '
-```{r}
-#| echo: false
-#| results: asis
-source(here::here("R/utils.R"))
-read_yaml_talks_pt()
-```
-
-'
-
-  output_lines <- c(
-    "---
-# THIS FILE WAS CONVERTED FROM BLOGDOWN!
-toc: true",
-    novo_yaml,
-    "---",
-    codigo_adicionar_fun_read_yaml_talks_pt,
-    apos_yaml
-  )
-
-  output_lines |> writeLines(input_file)
-
-  print(input_file)
-}
+# Funções usadas pelas páginas de eventos (eventos/*/*.qmd):
+#   source(here::here("R/utils.R")); read_yaml_talks_pt()
+# Lê o cabeçalho YAML do .qmd e monta local, data, botões dos materiais e imagem.
 
 read_yaml_matter <- function(input_file) {
   # https://stackoverflow.com/questions/62095329/how-to-edit-an-r-markdown-yaml-header-programmatically/62096216#62096216
@@ -85,7 +23,8 @@ read_yaml_matter <- function(input_file) {
 
 
 read_yaml_talks_pt <- function(){
-  cat('<script src="https://kit.fontawesome.com/1bb720cc6f.js" crossorigin="anonymous"></script>')
+  # Font Awesome Free 6.7.2 (antes carregado por um kit herdado do modelo do site)
+  cat('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">')
 
   yaml_atual <- fs::dir_ls(glob = "*.qmd") |>
     read_yaml_matter()
@@ -132,13 +71,3 @@ read_yaml_talks_pt <- function(){
     cat(paste0("<center><br><br><img src='", yaml_atual$image, "' class='img-fluid quarto-figure-center' style='max-width:80%'><br></center>"))
   }
 }
-
-
-convert_apero_talks_to_quarto <- function(folder = "talks/pt") {
-  arquivos <- rename_md_to_qmd()
-
-  arquivos |>
-    purrr::walk(alterar_yaml)
-
-}
-

@@ -13,3 +13,7 @@ _site/*
 
 
 **/*.quarto_ipynb
+
+# Caches do knitr/Quarto (recriados a cada render)
+*_cache/
+_freeze/
