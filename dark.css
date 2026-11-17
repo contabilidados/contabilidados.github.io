@@ -146,9 +146,195 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 }
 
 /*-- scss:defaults --*/
-// Base document colors
+// Cores base do modo escuro (ver também o bloco "Modo escuro" em scss:rules)
 $body-bg: #181818;
-$body-color: gray;
-$link-color: #75AADB;
+$body-color: #e4e4e4;
+$link-color: #6ec1e4;
+$text-muted: #ababab;
+$card-bg: #242424;
 
+/*-- scss:rules --*/
 
+/* ===== Modo escuro: paleta única com contraste adequado (WCAG AA) ===== */
+:root {
+  --cntdd-bg: #181818;
+  --cntdd-surface: #242424;
+  --cntdd-border: #3c3c3c;
+  --cntdd-text: #e4e4e4;
+  --cntdd-heading: #f5f5f5;
+  --cntdd-muted: #ababab;
+  --cntdd-link: #6ec1e4;
+  --cntdd-link-hover: #a9dcf2;
+}
+
+body {
+  background-color: var(--cntdd-bg);
+  color: var(--cntdd-text);
+}
+
+main, main p, main li, main dd, main dt, main td, main th,
+.callout .callout-body, .callout .callout-body p {
+  color: var(--cntdd-text);
+}
+
+h1, h2, h3, h4, h5, h6, .title, .quarto-title .title {
+  color: var(--cntdd-heading);
+}
+
+/* Links do conteúdo (menu e botões ficam de fora) */
+main a:not(.btn):not(.nav-link):not(.page-link),
+.callout a, .footnotes a {
+  color: var(--cntdd-link);
+}
+main a:not(.btn):not(.nav-link):not(.page-link):hover,
+main a:not(.btn):not(.nav-link):not(.page-link):focus {
+  color: var(--cntdd-link-hover);
+}
+
+/* Negrito destacado pelo peso, não por outra cor */
+b, strong {
+  color: var(--cntdd-heading);
+}
+
+/* Listas de posts, eventos e pacotes */
+.quarto-post .listing-title a,
+.quarto-grid-item .listing-title a,
+.quarto-grid-item .listing-title {
+  color: var(--cntdd-heading) !important;
+}
+.quarto-post .listing-title a:hover,
+.quarto-grid-item a:hover .listing-title {
+  color: var(--cntdd-link-hover) !important;
+}
+.quarto-post .listing-subtitle, .quarto-post .listing-description,
+.quarto-grid-item .listing-subtitle, .quarto-grid-item .card-text {
+  color: var(--cntdd-text);
+}
+.listing-date, .listing-author, .listing-reading-time,
+.listing-file-modified, .listing-word-count, .quarto-post .metadata,
+.quarto-title-meta-heading, .text-muted, figcaption, .figure-caption,
+.quarto-listing .listing-item-meta {
+  color: var(--cntdd-muted) !important;
+}
+.quarto-post .listing-categories .listing-category,
+.quarto-grid-item .listing-categories .listing-category,
+.quarto-categories .quarto-category {
+  color: #d0d0d0 !important;
+  border-color: #5a5a5a !important;
+}
+.quarto-post {
+  border-bottom-color: var(--cntdd-border);
+}
+
+/* Cards (grade de eventos e pacotes) */
+.card, .quarto-grid-item.card {
+  background-color: var(--cntdd-surface);
+  border-color: var(--cntdd-border);
+  color: var(--cntdd-text);
+}
+.card .card-body, .card .card-footer, .card .card-header {
+  background-color: transparent;
+  color: var(--cntdd-text);
+}
+
+/* Nuvem de categorias */
+.quarto-listing-category.category-cloud [class^="category-cloud-"],
+.quarto-listing-category.category-cloud [class*=" category-cloud-"] {
+  background: transparent;
+  color: var(--cntdd-text);
+}
+.quarto-listing-category .category:hover,
+.quarto-listing-category .category.active {
+  color: var(--cntdd-link-hover);
+}
+
+/* Sumário "Nesta página" */
+nav[role=doc-toc] a, #TOC a, .sidebar nav[role=doc-toc] ul > li > a {
+  color: var(--cntdd-muted);
+}
+.sidebar nav[role=doc-toc] ul > li > a.active,
+.sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+  color: var(--cntdd-link) !important;
+  border-left-color: var(--cntdd-link);
+}
+#toc-title, .sidebar .toc-actions, .quarto-listing-category-title {
+  color: var(--cntdd-heading);
+}
+
+/* Código */
+p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
+  background-color: #2d2d2d;
+  color: #f0f0f0;
+}
+
+/* Paginação */
+.page-link {
+  color: var(--cntdd-link);
+  background-color: var(--cntdd-surface);
+  border-color: var(--cntdd-border);
+}
+.page-link:hover, .page-link:focus {
+  color: #111;
+  background-color: var(--cntdd-link-hover);
+  border-color: var(--cntdd-link-hover);
+}
+.page-item.active .page-link {
+  color: #111;
+  background-color: var(--cntdd-link);
+  border-color: var(--cntdd-link);
+}
+
+/* Botões (materiais dos eventos) */
+.btn-primary {
+  color: #111;
+  background-color: var(--cntdd-link);
+  border-color: var(--cntdd-link);
+}
+.btn-primary:hover, .btn-primary:focus {
+  color: #111;
+  background-color: var(--cntdd-link-hover);
+  border-color: var(--cntdd-link-hover);
+}
+
+/* Filtros e ordenação das listas */
+.form-control, .form-select, .input-group-text {
+  background-color: var(--cntdd-surface);
+  color: var(--cntdd-text);
+  border-color: var(--cntdd-border);
+}
+.form-control::placeholder {
+  color: var(--cntdd-muted);
+}
+
+/* Tabelas */
+.table {
+  --bs-table-color: var(--cntdd-text);
+  --bs-table-bg: transparent;
+  color: var(--cntdd-text);
+}
+
+/* Rodapé */
+.nav-footer, .nav-footer p {
+  color: var(--cntdd-muted);
+}
+.nav-footer a {
+  color: var(--cntdd-link);
+}
+
+/* Subtítulo e resumo nas listas (são links, mas não devem parecer links) */
+.quarto-post .listing-subtitle, .quarto-post .listing-subtitle a {
+  color: var(--cntdd-muted) !important;
+}
+.quarto-post .listing-description a, .quarto-grid-item .card-text a {
+  color: var(--cntdd-text) !important;
+}
+
+/* Etiquetas de categoria no topo dos posts */
+.quarto-categories .quarto-category {
+  opacity: 1;
+  color: #d0d0d0;
+  border-color: #5a5a5a;
+}
+.quarto-categories .quarto-category a {
+  color: #d0d0d0 !important;
+}
