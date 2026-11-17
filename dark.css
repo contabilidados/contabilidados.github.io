@@ -238,17 +238,6 @@ b, strong {
   color: var(--cntdd-text);
 }
 
-/* Nuvem de categorias */
-.quarto-listing-category.category-cloud [class^="category-cloud-"],
-.quarto-listing-category.category-cloud [class*=" category-cloud-"] {
-  background: transparent;
-  color: var(--cntdd-text);
-}
-.quarto-listing-category .category:hover,
-.quarto-listing-category .category.active {
-  color: var(--cntdd-link-hover);
-}
-
 /* Sumário "Nesta página" */
 nav[role=doc-toc] a, #TOC a, .sidebar nav[role=doc-toc] ul > li > a {
   color: var(--cntdd-muted);
@@ -364,3 +353,13 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 .sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
   border-left-color: var(--cntdd-laranja) !important;
 }
+
+/* Cores da nuvem no modo escuro (versões claras da mesma paleta) */
+.quarto-listing-category.category-cloud .category:nth-child(8n+1) [class*="category-cloud-"] { color: #CFA3DA !important; }
+.quarto-listing-category.category-cloud .category:nth-child(8n+2) [class*="category-cloud-"] { color: #BCD36F !important; }
+.quarto-listing-category.category-cloud .category:nth-child(8n+3) [class*="category-cloud-"] { color: #E3A57C !important; }
+.quarto-listing-category.category-cloud .category:nth-child(8n+4) [class*="category-cloud-"] { color: #F5A25D !important; }
+.quarto-listing-category.category-cloud .category:nth-child(8n+5) [class*="category-cloud-"] { color: #F2948A !important; }
+.quarto-listing-category.category-cloud .category:nth-child(8n+6) [class*="category-cloud-"] { color: #94D3A2 !important; }
+.quarto-listing-category.category-cloud .category:nth-child(8n+7) [class*="category-cloud-"] { color: #EBC85E !important; }
+.quarto-listing-category.category-cloud .category:nth-child(8n+8) [class*="category-cloud-"] { color: #D0D0D0 !important; }

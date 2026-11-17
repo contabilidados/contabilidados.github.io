@@ -337,18 +337,6 @@ body.quarto-light .quarto-post .listing-subtitle a {
   color: var(--cntdd-texto-sec) !important;
 }
 
-body.quarto-light .quarto-listing-category.category-cloud [class^="category-cloud-"],
-body.quarto-light .quarto-listing-category.category-cloud [class*=" category-cloud-"] {
-  background: transparent !important;
-  color: var(--cntdd-cinza) !important;
-  border-radius: 0;
-}
-
-body.quarto-light .quarto-listing-category .category:hover,
-body.quarto-light .quarto-listing-category .category.active {
-  color: var(--cntdd-link) !important;
-}
-
 body.quarto-light .quarto-post .listing-categories .listing-category,
 body.quarto-light .quarto-grid-item .listing-categories .listing-category,
 body.quarto-light .quarto-categories .quarto-category {
@@ -408,3 +396,56 @@ body.quarto-light .listing-author,
 body.quarto-light .listing-reading-time {
   color: var(--cntdd-texto-sec) !important;
 }
+
+/* ===== Nuvem de categorias colorida (vale para os dois modos) ===== */
+.quarto-listing-category.category-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: .45em;
+  row-gap: .1em;
+  line-height: 1.15;
+}
+.quarto-listing-category.category-cloud .category {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.quarto-listing-category.category-cloud [class^="category-cloud-"],
+.quarto-listing-category.category-cloud [class*=" category-cloud-"] {
+  background: transparent !important;
+  border-radius: 0;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  transition: opacity .15s;
+}
+.quarto-listing-category.category-cloud .category-cloud-1 { font-size: .8em; }
+.quarto-listing-category.category-cloud .category-cloud-2 { font-size: 1em; }
+.quarto-listing-category.category-cloud .category-cloud-3 { font-size: 1.2em; }
+.quarto-listing-category.category-cloud .category-cloud-4 { font-size: 1.4em; }
+.quarto-listing-category.category-cloud .category-cloud-5 { font-size: 1.6em; }
+.quarto-listing-category.category-cloud .category-cloud-6 { font-size: 1.8em; }
+.quarto-listing-category.category-cloud .category-cloud-7 { font-size: 2em; }
+.quarto-listing-category.category-cloud .category-cloud-8 { font-size: 2.2em; }
+.quarto-listing-category.category-cloud .category-cloud-9 { font-size: 2.4em; }
+.quarto-listing-category.category-cloud .category-cloud-10 { font-size: 2.6em; }
+.quarto-listing-category.category-cloud .category:hover [class*="category-cloud-"] {
+  opacity: .7;
+}
+.quarto-listing-category.category-cloud .category.active [class*="category-cloud-"] {
+  text-decoration: underline;
+  text-decoration-color: #f58634;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .15em;
+}
+
+/* Cores da nuvem no modo claro (roxo, oliva, marrom, laranja, vermelho, verde, dourado, cinza) */
+body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+1) [class*="category-cloud-"] { color: #6A2C70 !important; }
+body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+2) [class*="category-cloud-"] { color: #556B12 !important; }
+body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+3) [class*="category-cloud-"] { color: #7A3E1D !important; }
+body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+4) [class*="category-cloud-"] { color: #B4561A !important; }
+body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+5) [class*="category-cloud-"] { color: #A12A2A !important; }
+body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+6) [class*="category-cloud-"] { color: #2E6B3A !important; }
+body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+7) [class*="category-cloud-"] { color: #86650A !important; }
+body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+8) [class*="category-cloud-"] { color: #4B4B4D !important; }
