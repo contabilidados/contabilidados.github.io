@@ -149,13 +149,13 @@ div.quarto-about-trestles .about-entity .about-link:hover {
 // Cores base do modo escuro (ver também o bloco "Modo escuro" em scss:rules)
 $body-bg: #181818;
 $body-color: #e4e4e4;
-$link-color: #6ec1e4;
+$link-color: #f5a25d;
 $text-muted: #ababab;
 $card-bg: #242424;
 
 /*-- scss:rules --*/
 
-/* ===== Modo escuro: paleta única com contraste adequado (WCAG AA) ===== */
+/* ===== Modo escuro: paleta com as cores do logo e contraste adequado (WCAG AA) ===== */
 :root {
   --cntdd-bg: #181818;
   --cntdd-surface: #242424;
@@ -163,8 +163,9 @@ $card-bg: #242424;
   --cntdd-text: #e4e4e4;
   --cntdd-heading: #f5f5f5;
   --cntdd-muted: #ababab;
-  --cntdd-link: #6ec1e4;
-  --cntdd-link-hover: #a9dcf2;
+  --cntdd-link: #f5a25d;
+  --cntdd-link-hover: #f9c08f;
+  --cntdd-laranja: #f58634;
 }
 
 body {
@@ -337,4 +338,29 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 }
 .quarto-categories .quarto-category a {
   color: #d0d0d0 !important;
+}
+
+/* Cores do logo: menu, botões e página ativa */
+.navbar {
+  background-color: #2b2b2d !important;
+  border-bottom: 2px solid var(--cntdd-laranja);
+}
+.navbar .nav-link:hover, .navbar .nav-link:focus,
+.navbar .nav-link.active, .navbar .dropdown-item:hover {
+  color: var(--cntdd-laranja) !important;
+}
+.btn-primary, .page-item.active .page-link {
+  color: #111;
+  background-color: var(--cntdd-laranja);
+  border-color: var(--cntdd-laranja);
+}
+.btn-primary:hover, .btn-primary:focus,
+.page-link:hover, .page-link:focus {
+  color: #111;
+  background-color: #f8a465;
+  border-color: #f8a465;
+}
+.sidebar nav[role=doc-toc] ul > li > a.active,
+.sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+  border-left-color: var(--cntdd-laranja) !important;
 }

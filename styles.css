@@ -279,4 +279,132 @@ $code-color: #000000;
   margin-right: -25px !important;  /* ou 0px, se quiser colado */
 }
 
+/*-- scss:rules --*/
 
+/* ===== Cores do logo no modo claro: laranja #F58634 e cinza #4B4B4D =====
+   Regras restritas a body.quarto-light: no modo escuro esta folha continua
+   ativa por baixo da escura, e o !important daqui venceria. */
+
+:root {
+  --cntdd-laranja: #f58634;
+  --cntdd-cinza: #4b4b4d;
+  --cntdd-link: #a9541a;
+  --cntdd-link-hover: #7f3f12;
+  --cntdd-texto-sec: #5e5e60;
+  --cntdd-borda: #dcdcdc;
+}
+
+body.quarto-light .navbar {
+  background-color: var(--cntdd-cinza) !important;
+  border-bottom: 2px solid var(--cntdd-laranja);
+}
+
+body.quarto-light .navbar .nav-link:hover,
+body.quarto-light .navbar .nav-link:focus,
+body.quarto-light .navbar .nav-link.active,
+body.quarto-light .navbar .dropdown-item:hover {
+  color: var(--cntdd-laranja) !important;
+}
+
+body.quarto-light main a:not(.btn):not(.nav-link):not(.page-link),
+body.quarto-light .callout a,
+body.quarto-light .footnotes a {
+  color: var(--cntdd-link);
+}
+
+body.quarto-light main a:not(.btn):not(.nav-link):not(.page-link):hover,
+body.quarto-light main a:not(.btn):not(.nav-link):not(.page-link):focus {
+  color: var(--cntdd-link-hover);
+}
+
+body.quarto-light b,
+body.quarto-light strong {
+  color: var(--cntdd-cinza);
+}
+
+body.quarto-light .quarto-post .listing-title a,
+body.quarto-light .quarto-grid-item .listing-title {
+  color: #2f2f31 !important;
+}
+
+body.quarto-light .quarto-post .listing-title a:hover,
+body.quarto-light .quarto-grid-item a:hover .listing-title {
+  color: var(--cntdd-link) !important;
+}
+
+body.quarto-light .quarto-post .listing-subtitle,
+body.quarto-light .quarto-post .listing-subtitle a {
+  color: var(--cntdd-texto-sec) !important;
+}
+
+body.quarto-light .quarto-listing-category.category-cloud [class^="category-cloud-"],
+body.quarto-light .quarto-listing-category.category-cloud [class*=" category-cloud-"] {
+  background: transparent !important;
+  color: var(--cntdd-cinza) !important;
+  border-radius: 0;
+}
+
+body.quarto-light .quarto-listing-category .category:hover,
+body.quarto-light .quarto-listing-category .category.active {
+  color: var(--cntdd-link) !important;
+}
+
+body.quarto-light .quarto-post .listing-categories .listing-category,
+body.quarto-light .quarto-grid-item .listing-categories .listing-category,
+body.quarto-light .quarto-categories .quarto-category {
+  color: var(--cntdd-texto-sec) !important;
+  border-color: var(--cntdd-borda) !important;
+}
+
+body.quarto-light .quarto-categories .quarto-category a {
+  color: var(--cntdd-texto-sec) !important;
+}
+
+body.quarto-light .sidebar nav[role=doc-toc] ul > li > a.active,
+body.quarto-light .sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+  color: var(--cntdd-link) !important;
+  border-left-color: var(--cntdd-laranja) !important;
+}
+
+body.quarto-light .page-link {
+  color: var(--cntdd-cinza);
+  border-color: var(--cntdd-borda);
+}
+
+body.quarto-light .page-link:hover,
+body.quarto-light .page-link:focus {
+  color: #1e1e1e;
+  background-color: #fde3cf;
+  border-color: #fbc9a3;
+}
+
+body.quarto-light .page-item.active .page-link {
+  color: #1e1e1e;
+  background-color: var(--cntdd-laranja);
+  border-color: var(--cntdd-laranja);
+}
+
+body.quarto-light .btn-primary {
+  color: #1e1e1e;
+  background-color: var(--cntdd-laranja);
+  border-color: var(--cntdd-laranja);
+}
+
+body.quarto-light .btn-primary:hover,
+body.quarto-light .btn-primary:focus {
+  color: #1e1e1e;
+  background-color: #f8a465;
+  border-color: #f8a465;
+}
+
+body.quarto-light .nav-footer a {
+  color: var(--cntdd-link);
+}
+
+body.quarto-light .quarto-post .metadata,
+body.quarto-light .quarto-post .metadata a,
+body.quarto-light .listing-date,
+body.quarto-light .listing-author,
+body.quarto-light .listing-reading-time {
+  color: var(--cntdd-texto-sec) !important;
+}
