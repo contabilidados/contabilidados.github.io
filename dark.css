@@ -371,3 +371,18 @@ footer.footer {
 footer.footer .nav-footer {
   background-color: #2b2b2d;
 }
+
+/* Página Membros: cartões no modo escuro */
+#listing-profs .quarto-post,
+#listing-alunos .quarto-post {
+  background-color: #242424;
+  border-color: #3c3c3c !important;
+}
+#listing-profs .quarto-post .thumbnail img,
+#listing-alunos .quarto-post .thumbnail img {
+  border-color: #242424;
+}
+#listing-profs .quarto-post:hover,
+#listing-alunos .quarto-post:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .45);
+}

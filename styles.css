@@ -581,3 +581,133 @@ footer.footer .nav-footer {
 body.quarto-light footer.footer .nav-footer {
   background-color: #4b4b4d;
 }
+
+/* ===== Página Membros: cartões com foto redonda ===== */
+#listing-profs .list,
+#listing-alunos .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+}
+#listing-profs .quarto-post,
+#listing-alunos .quarto-post {
+  position: relative;
+  flex: 0 1 195px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 1.5rem 1rem 1.25rem;
+  border: 1px solid #e3e3e3 !important;
+  border-radius: 14px;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+#listing-profs .quarto-post:hover,
+#listing-alunos .quarto-post:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .10);
+  border-color: #f58634 !important;
+}
+#listing-profs .quarto-post .thumbnail,
+#listing-alunos .quarto-post .thumbnail {
+  order: -1;
+  flex: 0 0 auto;
+  width: 140px;
+  height: 140px;
+  margin: 0 0 1rem 0;
+}
+#listing-profs .quarto-post .thumbnail img,
+#listing-alunos .quarto-post .thumbnail img {
+  width: 140px !important;
+  height: 140px !important;
+  max-height: none !important;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px #f58634;
+}
+#listing-profs .quarto-post .body,
+#listing-alunos .quarto-post .body {
+  flex: 1 1 auto;
+  width: 100%;
+  padding: 0 !important;
+}
+#listing-profs .quarto-post .listing-title,
+#listing-alunos .quarto-post .listing-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: .65rem;
+}
+/* O cartão inteiro leva ao currículo */
+#listing-profs .quarto-post .listing-title a::after,
+#listing-alunos .quarto-post .listing-title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+}
+#listing-profs .quarto-post .listing-subtitle,
+#listing-alunos .quarto-post .listing-subtitle,
+#listing-profs .quarto-post .metadata,
+#listing-alunos .quarto-post .metadata {
+  display: none !important;
+}
+#listing-profs .listing-categories,
+#listing-alunos .listing-categories {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .3rem;
+}
+#listing-profs .listing-categories .listing-category,
+#listing-alunos .listing-categories .listing-category {
+  margin: 0;
+  font-size: .68rem;
+}
+/* "Professores"/"Alunos" já é o título da seção */
+#listing-profs .listing-categories .listing-category:first-child,
+#listing-alunos .listing-categories .listing-category:first-child {
+  display: none;
+}
+body.quarto-light #listing-profs .quarto-post,
+body.quarto-light #listing-alunos .quarto-post {
+  background-color: #fff;
+}
+#listing-profs .quarto-post .thumbnail a,
+#listing-alunos .quarto-post .thumbnail a {
+  display: block;
+  line-height: 0;
+}
+#listing-profs .quarto-post .listing-title,
+#listing-alunos .quarto-post .listing-title {
+  margin-top: 0;
+}
+/* Celular: dois cartões por linha */
+@media (max-width: 575.98px) {
+  #listing-profs .list,
+  #listing-alunos .list {
+    gap: .75rem;
+  }
+  #listing-profs .quarto-post,
+  #listing-alunos .quarto-post {
+    flex-basis: calc(50% - .375rem);
+    padding: 1rem .5rem;
+  }
+  #listing-profs .quarto-post .thumbnail,
+  #listing-alunos .quarto-post .thumbnail,
+  #listing-profs .quarto-post .thumbnail img,
+  #listing-alunos .quarto-post .thumbnail img {
+    width: 104px !important;
+    height: 104px !important;
+  }
+  #listing-profs .quarto-post .listing-title,
+  #listing-alunos .quarto-post .listing-title {
+    font-size: 1rem;
+  }
+}
