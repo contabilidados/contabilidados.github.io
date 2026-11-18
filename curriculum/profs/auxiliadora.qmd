@@ -3,7 +3,7 @@ title: "Maria Auxiliadora Morais"
 comments: false
 image: figs/auxiliadora.jpg
 categories:
-  - Alunos
+  - Professores
   - Contabilidade
   - ESG
   - Governança Corporativa
