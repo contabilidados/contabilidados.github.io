@@ -42,8 +42,6 @@ website:
         href: meetings.qmd
       - text: cntdd
         href: cntdd.qmd
-      - text: Sobre
-        href: membros.qmd
       - text: Dashboard
         menu:
           - text: Indicadores
@@ -55,6 +53,8 @@ website:
           - text: Mercado
             href: https://gecomt.shinyapps.io/dashboard/
             target: _blank
+      - text: Sobre
+        href: membros.qmd
       - icon: instagram
         href: https://www.instagram.com/contabilidados
       - icon: youtube
