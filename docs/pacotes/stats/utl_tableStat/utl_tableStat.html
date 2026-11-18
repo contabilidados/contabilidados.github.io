@@ -664,7 +664,7 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/(?:www\.)?contabilidados\.com\.br\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1067,4 +1067,5 @@ $ percentualIR &lt;dbl&gt; 0.26019460, 0.15558852, 0.16090589, 0.20879002, 0.109
 
 
 <script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="/assets/leitura.js" defer></script>
 </body></html>

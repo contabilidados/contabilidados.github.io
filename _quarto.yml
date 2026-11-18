@@ -5,6 +5,7 @@ project:
   resources:
     - "cntdd_linksDFS/**"
     - "assets/fontes/**"
+    - "assets/leitura.js"
 
 website:
   favicon: icon.png
@@ -75,11 +76,13 @@ format:
       dark: [cyborg, dark.css]
     link-external-icon: false
     link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**'
+    link-external-filter: '^(?:http:|https:)\/\/(?:www\.)?contabilidados\.com\.br\/'
     citations-hover: true
     footnotes-hover: true
     toc: true
     code-link: true
+    include-after-body:
+      - text: '<script src="/assets/leitura.js" defer></script>'
 
 lang: pt
 

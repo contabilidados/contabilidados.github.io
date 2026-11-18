@@ -436,7 +436,7 @@ Materiais
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.contabilidados\.com.br\/**");
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/(?:www\.)?contabilidados\.com\.br\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -839,4 +839,5 @@ Materiais
 
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="/assets/leitura.js" defer></script>
 </body></html>
