@@ -1,0 +1,19 @@
+---
+title: "Lucas Godeiro"
+comments: false
+image: figs/lucas.jpg
+categories:
+  - Professores
+  - Economia
+  - Finanças
+  - Análise de Dados
+  - Ensino
+about:
+  template: trestles
+---
+
+Olá! Meu nome é Lucas Lúcio Godeiro. Atuo como Professor Associado na Universidade Federal Rural do Semi-Árido (UFERSA) e professor permanente do Programa de Pós-Graduação em Economia da Universidade do Estado do Rio Grande do Norte (UERN). Sou economista com Pós-Doutorado pela [University of Tennessee Knoxville]{lang="en"} (EUA), Doutorado em Economia pela Universidade Federal da Paraíba (UFPB), com período sanduíche nos EUA, e Mestrado em Economia pela PUC-SP.
+
+Sou entusiasta da análise de dados e acredito que os métodos quantitativos são essenciais para compreender os desafios econômicos e financeiros atuais. Adotei a linguagem R e técnicas de [Machine Learning]{lang="en"} como minhas principais ferramentas para modelagem econométrica, previsão financeira e análise de dados textuais, com artigos publicados em periódicos internacionais de destaque (Qualis A1).
+
+Atualmente, além das pesquisas em finanças quantitativas e precificação de ativos ([Asset Pricing]{lang="en"}), dedico-me a investigar temas aplicados de grande impacto econômico e social, como a Teoria Monetária Moderna (MMT), educação financeira e os impactos econômicos das apostas on-line (bets) no varejo e no orçamento das famílias.

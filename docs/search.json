@@ -445,7 +445,7 @@
     "href": "membros.html#professores",
     "title": "contabiliDados?",
     "section": "Professores",
-    "text": "Professores\n\n\n\n\n\n\n\n\n\n\nAlexsandro Prado\n\n\n\n\n\n\nProfessores\n\nContabilidade\n\nMercado de Trabalho Contábil\n\nAnálise de Dados\n\nESG\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaria Auxiliadora Morais\n\n\n\n\n\n\nProfessores\n\nContabilidade\n\nESG\n\nGovernança Corporativa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKléber Formiga\n\n\n\n\n\n\nProfessores\n\nContabilidade\n\nFinanças\n\nAnálise de Dados\n\nEnsino\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYuri Azevedo\n\n\n\n\n\n\nProfessores\n\nGovernança Corporativa\n\nAnálise de Dados\n\nEnsino\n\n\n\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Professores\n\n\n\n\n\n\n\n\n\n\nAlexsandro Prado\n\n\n\n\n\n\nProfessores\n\nContabilidade\n\nMercado de Trabalho Contábil\n\nAnálise de Dados\n\nESG\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKléber Formiga\n\n\n\n\n\n\nProfessores\n\nContabilidade\n\nFinanças\n\nAnálise de Dados\n\nEnsino\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLucas Godeiro\n\n\n\n\n\n\nProfessores\n\nEconomia\n\nFinanças\n\nAnálise de Dados\n\nEnsino\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaria Auxiliadora Morais\n\n\n\n\n\n\nProfessores\n\nContabilidade\n\nESG\n\nGovernança Corporativa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYuri Azevedo\n\n\n\n\n\n\nProfessores\n\nGovernança Corporativa\n\nAnálise de Dados\n\nEnsino\n\n\n\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "membros.html#alunos",
@@ -656,5 +656,12 @@
     "title": "Maria Auxiliadora Morais",
     "section": "",
     "text": "Olá! Me chamo Maria Auxiliadora de Oliveira Morais. Sou bacharela em Ciências Contábeis pela Universidade do Estado do Rio Grande do Norte (UERN), especialista em Contabilidade e Planejamento Tributário pela Universidade Federal Rural do Semi-Árido (UFERSA) e mestra em Ciências Contábeis pela Universidade Federal do Rio Grande do Norte (UFRN). Atualmente, sou doutoranda em Administração e Controladoria pela Universidade Federal do Ceará (UFC), bolsista da Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico (FUNCAP) e membro do grupo ContabiliDados.\nAtuo como docente no ensino superior desde 2014, com passagens pela UERN e pela UFERSA, nas áreas de Contabilidade Gerencial, Contabilidade de Custos e Análise das Demonstrações Contábeis.\nMinhas pesquisas se concentram em qualidade da informação contábil, governança corporativa, ESG e sustentabilidade corporativa. No mestrado, estudei a relação entre gerenciamento de resultados e impairment nas companhias abertas brasileiras. No doutorado, investigo o greenwashing discursivo, buscando compreender seus conceitos, métricas, narrativas e incentivos.\n\n\n De volta ao topo"
+  },
+  {
+    "objectID": "curriculum/profs/lucas.html",
+    "href": "curriculum/profs/lucas.html",
+    "title": "Lucas Godeiro",
+    "section": "",
+    "text": "Olá! Meu nome é Lucas Lúcio Godeiro. Atuo como Professor Associado na Universidade Federal Rural do Semi-Árido (UFERSA) e professor permanente do Programa de Pós-Graduação em Economia da Universidade do Estado do Rio Grande do Norte (UERN). Sou economista com Pós-Doutorado pela University of Tennessee Knoxville (EUA), Doutorado em Economia pela Universidade Federal da Paraíba (UFPB), com período sanduíche nos EUA, e Mestrado em Economia pela PUC-SP.\nSou entusiasta da análise de dados e acredito que os métodos quantitativos são essenciais para compreender os desafios econômicos e financeiros atuais. Adotei a linguagem R e técnicas de Machine Learning como minhas principais ferramentas para modelagem econométrica, previsão financeira e análise de dados textuais, com artigos publicados em periódicos internacionais de destaque (Qualis A1).\nAtualmente, além das pesquisas em finanças quantitativas e precificação de ativos (Asset Pricing), dedico-me a investigar temas aplicados de grande impacto econômico e social, como a Teoria Monetária Moderna (MMT), educação financeira e os impactos econômicos das apostas on-line (bets) no varejo e no orçamento das famílias.\n\n\n De volta ao topo"
   }
 ]
