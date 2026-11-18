@@ -1,0 +1,28 @@
+---
+title: "Maria Auxiliadora Morais"
+comments: false
+image: figs/auxiliadora.jpg
+categories:
+  - Alunos
+  - Contabilidade
+  - ESG
+  - Governança Corporativa
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:auxiliadora.o.morais@gmail.com
+    - icon: file-pdf
+      text: Lattes
+      href: http://lattes.cnpq.br/7142429126872805
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0001-8861-8603
+---
+
+Olá! Me chamo Maria Auxiliadora de Oliveira Morais. Sou bacharela em Ciências Contábeis pela Universidade do Estado do Rio Grande do Norte (UERN), especialista em Contabilidade e Planejamento Tributário pela Universidade Federal Rural do Semi-Árido (UFERSA) e mestra em Ciências Contábeis pela Universidade Federal do Rio Grande do Norte (UFRN). Atualmente, sou doutoranda em Administração e Controladoria pela Universidade Federal do Ceará (UFC), bolsista da Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico (FUNCAP) e membro do grupo ContabiliDados.
+
+Atuo como docente no ensino superior desde 2014, com passagens pela UERN e pela UFERSA, nas áreas de Contabilidade Gerencial, Contabilidade de Custos e Análise das Demonstrações Contábeis.
+
+Minhas pesquisas se concentram em qualidade da informação contábil, governança corporativa, ESG e sustentabilidade corporativa. No mestrado, estudei a relação entre gerenciamento de resultados e impairment nas companhias abertas brasileiras. No doutorado, investigo o greenwashing discursivo, buscando compreender seus conceitos, métricas, narrativas e incentivos.
