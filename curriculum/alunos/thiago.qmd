@@ -1,0 +1,17 @@
+---
+title: "Thiago Paiva"
+comments: false
+image: figs/thiago.jpg
+categories:
+  - Alunos
+  - Contabilidade
+  - Finanças
+about:
+  template: trestles
+---
+
+Olá! Me chamo Thiago Paiva. Sou bacharel em Ciências Contábeis pela Universidade do Estado do Rio Grande do Norte (UERN) e, atualmente, mestrando em Administração pelo Programa de Pós-Graduação em Administração da Universidade Federal Rural do Semi-Árido (PPGA/UFERSA), na área de concentração Gestão Organizacional e linha de pesquisa Processos Organizacionais e Decisórios. Sou bolsista do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), membro do grupo ContabiliDados e possuo certificação CPA-20 (ANBIMA).
+
+Minha trajetória acadêmica tem sido direcionada às áreas de Administração, Contabilidade e Finanças, com interesse especial em Finanças Corporativas, Mercado de Capitais, Governança Corporativa e processos decisórios.
+
+Ao longo da graduação, desenvolvi interesse por temas relacionados à gestão financeira, mercado financeiro e análise de dados. Atualmente, direciono meus estudos e pesquisas para a compreensão de fenômenos relacionados ao comportamento dos gestores e investidores, com ênfase na relação entre CEO Insider, sentimento do investidor e custo da dívida das empresas.
