@@ -23,7 +23,7 @@ website:
   google-analytics: "G-H9V60F0CZM"
   page-footer:
     left: '<span class="marca-rodape">Contabili<span class="marca-dados">Dados</span></span><br>Contabilidade e Finanças · Ciências Contábeis da UFERSA'
-    center: '[Posts](/posts.html) · [Eventos](/meetings.html) · [Pacote cntdd](/cntdd.html) · [Sobre](/membros.html)<br><span class="rodape-nota">Licença [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.pt-br) · Feito em [Quarto](https://quarto.org/) · Modelo de [Beatriz Milz](https://beamilz.com/)</span>'
+    center: '[Posts](/posts.html) · [Eventos](/meetings.html) · [Pacote cntdd](/cntdd.html) · [Sobre](/membros.html)<br><span class="rodape-nota">Licença [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br) · Feito em [Quarto](https://quarto.org/) · Modelo de [Beatriz Milz](https://beamilz.com/)</span>'
     right:
       - icon: instagram
         href: https://www.instagram.com/contabilidados

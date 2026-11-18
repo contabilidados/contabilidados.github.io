@@ -18,6 +18,10 @@ editor:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F, fig.align = "center", out.width = "100%",
                       message = F, warning = F)
+# O kableExtra incluiria o kePrint.js, que depende do jQuery (ausente no site)
+# e gerava o erro "$ is not defined"; mantém só o CSS das tabelas (lightable)
+options(kableExtra.knit_print.dependency = FALSE)
+knitr::knit_meta_add(list(kableExtra::html_dependency_lightable()))
 ```
 
 ### Descrição
