@@ -4,6 +4,7 @@ project:
   # App estático "Links DFs CVM" (copiado sem renderização para docs/cntdd_linksDFS/)
   resources:
     - "cntdd_linksDFS/**"
+    - "assets/fontes/**"
 
 website:
   favicon: icon.png

@@ -449,3 +449,56 @@ body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n
 body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+6) [class*="category-cloud-"] { color: #2E6B3A !important; }
 body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+7) [class*="category-cloud-"] { color: #86650A !important; }
 body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n+8) [class*="category-cloud-"] { color: #4B4B4D !important; }
+
+/* ===== Nome no menu com a fonte do logotipo (Montserrat ExtraBold Itálico) ===== */
+@font-face {
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/assets/fontes/montserrat-latin-800-italic.woff2") format("woff2");
+}
+.navbar-title {
+  font-size: 0 !important;
+  line-height: 1;
+}
+.navbar-title::before,
+.navbar-title::after {
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 1.4rem;
+  letter-spacing: -0.01em;
+}
+.navbar-title::before {
+  content: "Contabili";
+  content: "Contabili" / "";
+  color: #fff;
+}
+.navbar-title::after {
+  content: "Dados";
+  content: "Dados" / "";
+  color: #f58634;
+}
+@media (max-width: 575.98px) {
+  .navbar-title::before,
+  .navbar-title::after {
+    font-size: clamp(.75rem, 3.6vw, 1rem);
+  }
+  .navbar-brand img {
+    max-height: 34px;
+  }
+}
+@media (max-width: 359.98px) {
+  .navbar-title {
+    display: none;
+  }
+}
+
+/* Logo sem margem transparente: dispensa o ajuste negativo antigo */
+.navbar-brand {
+  flex-shrink: 0;
+}
+.navbar-brand img {
+  margin-right: .5rem !important;
+}
