@@ -37,9 +37,12 @@ listing:
     sort: "date desc"
 page-layout: full
 title-block-banner: false
+image: share.png
+image-alt: "Logo do ContabiliDados"
 comments: false
 toc: false
 pagetitle: "contabiliDados"
+description: "Grupo de pesquisa em contabilidade, finanças e dados do curso de Ciências Contábeis da UFERSA: posts, eventos e o pacote cntdd."
 ---
 
 ::: {.nv-main}

@@ -12,6 +12,8 @@ listing:
     page-size: 3
 page-layout: full
 title-block-banner: false
+image: share.png
+image-alt: "Logo do ContabiliDados"
 comments: false
 toc: false
 ---

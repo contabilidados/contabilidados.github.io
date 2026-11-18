@@ -6,6 +6,7 @@ project:
     - "cntdd_linksDFS/**"
     - "assets/fontes/**"
     - "assets/leitura.js"
+    - "share.png"
 
 website:
   favicon: icon.png
@@ -13,6 +14,12 @@ website:
   back-to-top-navigation: true
   title: "contabiliDados"
   site-url: "https://contabilidados.com.br"
+  description: "Grupo de pesquisa em contabilidade, finanças e dados do curso de Ciências Contábeis da UFERSA."
+  image: share.png
+  image-alt: "Logo do ContabiliDados"
+  open-graph:
+    locale: pt_BR
+    site-name: ContabiliDados
   google-analytics: "G-H9V60F0CZM"
   page-footer:
     left: '<span class="marca-rodape">Contabili<span class="marca-dados">Dados</span></span><br>Contabilidade e Finanças · Ciências Contábeis da UFERSA'
