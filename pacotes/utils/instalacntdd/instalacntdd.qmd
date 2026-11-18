@@ -18,9 +18,6 @@ editor:
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 ```
 
-```{=html}
-<style> body {text-align: justify} </style>
-```
 ![](instalacntdd_logo.png "logo"){fig-align="center" width="245"}
 
 A seguir vamos aprender a instalar o pacote cntdd que pode ser muito útil para

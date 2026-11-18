@@ -25,9 +25,6 @@ about:
       href: https://twitter.com/alexsandroprado   
 ---
 
-```{=html}
-<style>body {text-align: justify}</style>
-```
 Olá! Meu nome é Alexsandro. Sou professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA).
 
 Um entusiasta por tecnologia que através da linguagem R e a Ciência de Dados encontrou um vasto mundo de possibilidades para explorar insights valiosos por meio da análise dados.

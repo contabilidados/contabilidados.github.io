@@ -17,9 +17,6 @@ editor:
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 ```
 
-```{=html}
-<style> body {text-align: justify} </style>
-```
 ![](poisonpillsGovernanca.webp){fig-align="center" width="403"}
 
 Nesse texto, vamos apresentar o que são *Poison Pills* para te ajudar a

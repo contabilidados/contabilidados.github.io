@@ -20,9 +20,6 @@ knitr::opts_chunk$set(echo = F, fig.align = "center", out.width = "100%",
                       message = F, warning = F)
 ```
 
-```{=html}
-<style>body {text-align: justify}</style>
-```
 ### Descrição
 
 Essa função calcula o Índice de Liquidez Seca baseado em vetores

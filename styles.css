@@ -953,3 +953,13 @@ body:has(.nv-hero) { overflow-x: hidden; }
 .nv-tema button { border: 0; background: transparent; color: inherit; font-size: 1.1rem; line-height: 1; cursor: pointer; padding: 0 .35rem; }
 main:has(.nv-hero) { margin-top: 0 !important; padding-top: 0 !important; }
 main:has(.nv-hero) > #title-block-header { display: none; }
+
+/* ===== Alinhamento do texto: títulos e listas à esquerda; parágrafos justificados só em telas grandes ===== */
+body { text-align: left !important; }
+@media (min-width: 992px) {
+  #quarto-document-content p:not(header p):not(.nv-main p):not(.membros-intro p):not(.quarto-listing p):not(.callout p):not(td p):not(th p) {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+}

@@ -40,9 +40,6 @@ about:
       href: https://www.researchgate.net/profile/Kleber-Formiga-2  
 ---
 
-```{=html}
-<style>body {text-align: justify}</style>
-```
 
 Olá! Meu nome é Kléber. Atuo como professor do curso de Ciências Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA). Sou contador com doutorado em Ciências Contábeis pela Universidade Federal da Paraíba (UFPB) e Mestre em Administração e Controladoria pela Universidade Federal do Ceará (UFC).
 

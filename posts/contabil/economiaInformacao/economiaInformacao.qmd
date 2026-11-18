@@ -15,7 +15,6 @@ image: "economiaInformacao.png"
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "100%")
 ```
 
-<style> body {text-align: justify} </style>
 
 ![](economiaInformacao.png)
 
