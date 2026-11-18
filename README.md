@@ -11,9 +11,39 @@ Contábeis da Universidade Federal Rural do Semi-Árido (UFERSA).
 
 **Site:** <https://contabilidados.com.br>
 
-![Última
-atualização](https://img.shields.io/github/last-commit/contabilidados/contabilidados.github.io)
-![Licença](https://img.shields.io/badge/licen%C3%A7a-CC%20BY--SA%204.0-lightgrey)
+<!-- badges: start -->
+
+**Status:**
+[![Site](https://img.shields.io/website?url=https%3A%2F%2Fcontabilidados.com.br&label=site&up_message=no%20ar&down_message=fora%20do%20ar)](https://contabilidados.com.br)
+[![Deploy](https://github.com/contabilidados/contabilidados.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/contabilidados/contabilidados.github.io/actions/workflows/pages/pages-build-deployment)
+[![Última
+atualização](https://img.shields.io/github/last-commit/contabilidados/contabilidados.github.io?label=%C3%BAltima%20atualiza%C3%A7%C3%A3o)](https://github.com/contabilidados/contabilidados.github.io/commits/main)
+[![Commits por
+mês](https://img.shields.io/github/commit-activity/m/contabilidados/contabilidados.github.io?label=commits%2Fm%C3%AAs)](https://github.com/contabilidados/contabilidados.github.io/graphs/commit-activity)
+[![Issues](https://img.shields.io/github/issues/contabilidados/contabilidados.github.io?label=issues)](https://github.com/contabilidados/contabilidados.github.io/issues)
+
+**Tecnologia:** [![Feito com
+Quarto](https://img.shields.io/badge/feito%20com-Quarto-75AADB?logo=quarto&logoColor=white)](https://quarto.org/)
+[![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
+[![Pacote
+cntdd](https://img.shields.io/github/r-package/v/contabilidados/cntdd?label=cntdd&logo=r)](https://github.com/contabilidados/cntdd)
+[![GitHub
+Pages](https://img.shields.io/badge/hospedagem-GitHub%20Pages-222222?logo=githubpages&logoColor=white)](https://pages.github.com/)
+[![giscus](https://img.shields.io/badge/coment%C3%A1rios-giscus-6f42c1?logo=github)](https://giscus.app/)
+[![Tamanho do
+repositório](https://img.shields.io/github/repo-size/contabilidados/contabilidados.github.io?label=tamanho)](https://github.com/contabilidados/contabilidados.github.io)
+
+**Projeto:**
+[![UFERSA](https://img.shields.io/badge/UFERSA-Ci%C3%AAncias%20Cont%C3%A1beis-F58634)](https://contabeis.ufersa.edu.br)
+[![CNPq](https://img.shields.io/badge/CNPq-grupo%20de%20pesquisa-1F5A96)](https://dgp.cnpq.br/dgp/espelhogrupo/480677)
+[![Contribuidores](https://img.shields.io/github/contributors/contabilidados/contabilidados.github.io?label=contribuidores)](https://github.com/contabilidados/contabilidados.github.io/graphs/contributors)
+[![Licença CC BY-SA
+4.0](https://img.shields.io/badge/licen%C3%A7a-CC%20BY--SA%204.0-lightgrey?logo=creativecommons)](https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br)
+[![Instagram](https://img.shields.io/badge/Instagram-%40contabilidados-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/contabilidados)
+[![YouTube](https://img.shields.io/badge/YouTube-canal-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo)
+[![Estrelas](https://img.shields.io/github/stars/contabilidados/contabilidados.github.io?style=social)](https://github.com/contabilidados/contabilidados.github.io/stargazers)
+
+<!-- badges: end -->
 
 O projeto reúne textos de divulgação científica, eventos, o pacote R
 [`cntdd`](https://github.com/contabilidados/cntdd) e ferramentas de
