@@ -1,0 +1,13 @@
+<%
+const sub = (s) => (!s || ["post", "resenha"].includes(String(s).trim().toLowerCase())) ? "" : s;
+%>
+```{=html}
+<div class="nv-grade-pacotes">
+<% for (const it of items.slice(0, 4)) { %>
+<a class="nv-pacote" href="<%= it.path %>">
+<img src="<%= it.image || 'icon.png' %>" alt="">
+<div><h4><%- it.title %></h4><% if (sub(it.subtitle)) { %><p><%- sub(it.subtitle) %></p><% } %></div>
+</a>
+<% } %>
+</div>
+```

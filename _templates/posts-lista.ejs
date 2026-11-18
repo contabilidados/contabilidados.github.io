@@ -1,0 +1,39 @@
+<%
+const AREAS = {
+  contabil: { nome: "Contabilidade", icone: "bi-journal-text", cor: "#B4561A" },
+  finance:  { nome: "Finanças", icone: "bi-graph-up-arrow", cor: "#556B12" },
+  dados:    { nome: "Análise de Dados", icone: "bi-bar-chart-line", cor: "#6A2C70" }
+};
+const chaveDe = (p) => { for (const k in AREAS) { if ((p || "").indexOf("posts/" + k + "/") >= 0) return k; } return ""; };
+const autores = (a) => { if (!a) return ""; if (!Array.isArray(a)) a = [a]; a = a.map(x => (x && x.name) ? x.name : x); return a.length > 1 ? a.slice(0, -1).join(", ") + " e " + a[a.length - 1] : a[0]; };
+const sub = (s) => (!s || ["post", "resenha"].includes(String(s).trim().toLowerCase())) ? "" : s;
+const conta = {}; for (const it of items) { const k = chaveDe(it.path); conta[k] = (conta[k] || 0) + 1; }
+const esc = (s) => String(s || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+%>
+```{=html}
+<div class="nv-filtros">
+<div class="nv-abas" role="tablist" aria-label="Áreas temáticas">
+<button class="nv-aba ativa" data-f="todos" role="tab">Todos <span><%- items.length %></span></button>
+<% for (const k in AREAS) { const a = AREAS[k]; %>
+<button class="nv-aba" data-f="<%= k %>" role="tab" style="--c:<%= a.cor %>"><i class="bi <%= a.icone %>" aria-hidden="true"></i> <%- a.nome %> <span><%- conta[k] || 0 %></span></button>
+<% } %>
+</div>
+<label class="nv-busca"><i class="bi bi-search" aria-hidden="true"></i><input id="nv-q" type="search" placeholder="Buscar por título ou tema" aria-label="Buscar posts"></label>
+</div>
+<div class="nv-tema" hidden><span></span> <button type="button" aria-label="Limpar tema">×</button></div>
+<div class="nv-lista">
+<% for (const it of items) { const k = chaveDe(it.path); const a = AREAS[k]; const cats = it.categories || []; %>
+<a class="nv-linha" href="<%= it.path %>" data-area="<%= k %>" data-cats="<%= esc(cats.join('|')) %>" data-busca="<%= esc((it.title + ' ' + cats.join(' ')).toLowerCase()) %>">
+<div class="nv-img"><img src="<%= it.image || 'icon.png' %>" alt="" loading="lazy"></div>
+<div class="nv-corpo">
+<% if (a) { %><span class="nv-area" style="--c:<%= a.cor %>"><%- a.nome %></span><% } %>
+<h4><%- it.title %></h4>
+<% if (sub(it.subtitle)) { %><p class="nv-sub"><%- sub(it.subtitle) %></p><% } %>
+<div class="nv-meta"><span class="nv-nw"><%- it.date %></span><% if (it.author) { %> · <span class="nv-nw"><%- autores(it.author) %></span><% } %><% if (it["reading-time"]) { %> · <span class="nv-nw"><%- it["reading-time"] %> de leitura</span><% } %></div>
+<div class="nv-tags"><% for (const c of cats) { if (a && c === a.nome) continue; %><span class="nv-tag"><%- c %></span><% } %></div>
+</div>
+</a>
+<% } %>
+</div>
+<p class="nv-vazio" hidden>Nenhum post encontrado.</p>
+```

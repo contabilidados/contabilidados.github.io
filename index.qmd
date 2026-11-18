@@ -2,49 +2,133 @@
 listing:
   - id: posts
     contents: posts/**/*.qmd
-    type: default
-    fields: [image, date, title, subtitle, categories, author, reading-time]
+    template: _templates/home-posts.ejs
     sort: "date desc"
-    categories: cloud
-    sort-ui: false
-    filter-ui: false
-    page-size: 3
+    date-format: "D MMM YYYY"
+  - id: area-contabil
+    contents: posts/contabil/*/*.qmd
+    template: _templates/home-area.ejs
+    template-params:
+      area: contabil
+    sort: "date desc"
+  - id: area-finance
+    contents: posts/finance/*/*.qmd
+    template: _templates/home-area.ejs
+    template-params:
+      area: finance
+    sort: "date desc"
+  - id: area-dados
+    contents: posts/dados/*/*.qmd
+    template: _templates/home-area.ejs
+    template-params:
+      area: dados
+    sort: "date desc"
+  - id: topicos
+    contents: posts/**/*.qmd
+    template: _templates/home-topicos.ejs
   - id: eventos
     contents: eventos/**/*.qmd
-    type: grid
-    fields: [image, title, subtitle]
+    template: _templates/home-eventos.ejs
     sort: "date_publish desc"
-    categories: cloud
-    sort-ui: false
-    filter-ui: false
-    page-size: 3  
     feed: true
   - id: pacotes
     contents: pacotes/**/*.qmd
-    type: default
-    fields: [image, date, title, subtitle, categories, author, reading-time]
+    template: _templates/home-pacotes.ejs
     sort: "date desc"
-    categories: cloud
-    sort-ui: false
-    filter-ui: false
-    page-size: 3 
 page-layout: full
 title-block-banner: false
 comments: false
-toc: true
+toc: false
+pagetitle: "contabiliDados"
 ---
 
-## Posts recentes
+::: {.nv-main}
+
+```{=html}
+<section class="nv-hero">
+  <div class="nv-hero-in">
+    <div class="nv-hero-txt">
+      <span class="nv-kicker">Grupo de pesquisa · Ciências Contábeis · UFERSA</span>
+      <h1>Contabilidade, finanças e <em>dados</em> para decisões melhores</h1>
+      <p>Textos, eventos e o pacote <code>cntdd</code> para transformar dados contábeis e financeiros em informação útil.</p>
+      <div class="nv-botoes">
+        <a class="nv-btn nv-btn-prim" href="posts.html">Explorar os posts</a>
+        <a class="nv-btn nv-btn-sec" href="cntdd.html">Conhecer o cntdd</a>
+      </div>
+    </div>
+    <div class="nv-numeros">
+      <div><strong data-nv-num="posts">40</strong><span>posts</span></div>
+      <div><strong data-nv-num="eventos">9</strong><span>eventos</span></div>
+      <div><strong>3</strong><span>áreas</span></div>
+    </div>
+  </div>
+</section>
+```
+
+::: {.nv-secao}
+::: {.nv-cab}
+## Posts recentes {.unlisted .unnumbered}
+[Ver todos <i class="bi bi-arrow-right"></i>](posts.qmd)
+:::
 
 ::: {#posts}
 :::
+:::
 
-## Eventos Recentes
+::: {.nv-secao}
+::: {.nv-cab}
+## Áreas temáticas {.unlisted .unnumbered}
+:::
+
+::: {.nv-grade-areas}
+::: {#area-contabil}
+:::
+
+::: {#area-finance}
+:::
+
+::: {#area-dados}
+:::
+:::
+
+::: {#topicos}
+:::
+:::
+
+::: {.nv-secao}
+::: {.nv-cab}
+## Eventos {.unlisted .unnumbered}
+[Ver todos <i class="bi bi-arrow-right"></i>](meetings.qmd)
+:::
 
 ::: {#eventos}
 :::
+:::
 
-## Pacotes Recentes
+::: {.nv-secao}
+::: {.nv-cab}
+## Pacote cntdd {.unlisted .unnumbered}
+[Documentação <i class="bi bi-arrow-right"></i>](cntdd.qmd)
+:::
 
 ::: {#pacotes}
 :::
+:::
+
+:::
+
+```{=html}
+<script>
+(function () {
+  document.querySelectorAll("[data-nv-total]").forEach(function (s) {
+    var alvo = document.querySelector('[data-nv-num="' + s.dataset.nvTotal + '"]');
+    if (alvo) alvo.textContent = s.textContent.trim();
+  });
+  var hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  document.querySelectorAll("[data-nv-quando]").forEach(function (s) {
+    var d = new Date((s.dataset.nvQuando || "") + "T23:59:59");
+    if (!isNaN(d) && d >= hoje) { s.textContent = "Próximo"; s.classList.add("nv-futuro"); }
+  });
+})();
+</script>
+```

@@ -1,0 +1,41 @@
+<%
+const AREAS = {
+  contabil: { nome: "Contabilidade", cor: "#B4561A" },
+  finance:  { nome: "Finanças",      cor: "#556B12" },
+  dados:    { nome: "Análise de Dados", cor: "#6A2C70" }
+};
+const areaDe = (p) => { for (const k in AREAS) { if ((p || "").indexOf("posts/" + k + "/") >= 0) return AREAS[k]; } return null; };
+const autores = (a) => { if (!a) return ""; if (!Array.isArray(a)) a = [a]; a = a.map(x => (x && x.name) ? x.name : x); return a.length > 1 ? a.slice(0, -1).join(", ") + " e " + a[a.length - 1] : a[0]; };
+const sub = (s) => (!s || ["post", "resenha"].includes(String(s).trim().toLowerCase())) ? "" : s;
+const meta = (it) => `<div class="nv-meta"><span class="nv-nw">${it.date || ""}</span>` + (it.author ? ` · <span class="nv-nw">${autores(it.author)}</span>` : "") + (it["reading-time"] ? ` · <span class="nv-nw">${it["reading-time"]} de leitura</span>` : "") + `</div>`;
+const chip = (it) => { const a = areaDe(it.path); return a ? `<span class="nv-area" style="--c:${a.cor}">${a.nome}</span>` : ""; };
+const p0 = items[0];
+%>
+```{=html}
+<span hidden data-nv-total="posts"><%- items.length %></span>
+<% if (p0) { %>
+<div class="nv-grade-posts">
+<a class="nv-card nv-destaque" href="<%= p0.path %>">
+<div class="nv-img"><img src="<%= p0.image || 'icon.png' %>" alt=""></div>
+<div class="nv-corpo">
+<%= chip(p0) %>
+<h3><%- p0.title %></h3>
+<% if (sub(p0.subtitle)) { %><p class="nv-sub"><%- sub(p0.subtitle) %></p><% } %>
+<%= meta(p0) %>
+</div>
+</a>
+<div class="nv-coluna">
+<% for (const it of items.slice(1, 4)) { %>
+<a class="nv-card nv-mini" href="<%= it.path %>">
+<div class="nv-img"><img src="<%= it.image || 'icon.png' %>" alt=""></div>
+<div class="nv-corpo">
+<%= chip(it) %>
+<h4><%- it.title %></h4>
+<%= meta(it) %>
+</div>
+</a>
+<% } %>
+</div>
+</div>
+<% } %>
+```

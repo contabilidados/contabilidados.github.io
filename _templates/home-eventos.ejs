@@ -1,0 +1,16 @@
+
+```{=html}
+<span hidden data-nv-total="eventos"><%- items.length %></span>
+<div class="nv-grade-eventos">
+<% for (const it of items.slice(0, 3)) { %>
+<a class="nv-card nv-evento" href="<%= it.path %>">
+<div class="nv-img"><img src="<%= it.image || 'icon.png' %>" alt=""><span class="nv-selo" data-nv-quando="<%= it.date_publish || '' %>">Realizado</span></div>
+<div class="nv-corpo">
+<h4><%- it.title %></h4>
+<% if (it.date_event) { %><div class="nv-meta"><i class="bi bi-calendar3"></i> <%- it.date_event %></div><% } %>
+<% if (it.location) { %><div class="nv-meta"><i class="bi bi-geo-alt"></i> <%- it.location %></div><% } %>
+</div>
+</a>
+<% } %>
+</div>
+```

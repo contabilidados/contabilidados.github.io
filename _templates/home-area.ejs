@@ -1,0 +1,21 @@
+<%
+const AREAS = {
+  "contabil": { chave: "contabil", nome: "Contabilidade", icone: "bi-journal-text", cor: "#B4561A", desc: "Teoria, mensuração, evidenciação e regulação contábil." },
+  "finance":  { chave: "finance",  nome: "Finanças", icone: "bi-graph-up-arrow", cor: "#556B12", desc: "Governança, mercado de capitais, risco e precificação de ativos." },
+  "dados":    { chave: "dados",    nome: "Análise de Dados", icone: "bi-bar-chart-line", cor: "#6A2C70", desc: "Analytics, maturidade analítica e ciência de dados aplicada." }
+};
+const a = AREAS[(templateParams || {}).area] || { chave: "", nome: "Área", icone: "bi-folder", cor: "#4b4b4d", desc: "" };
+%>
+```{=html}
+<div class="nv-areacard" style="--c:<%= a.cor %>">
+<div class="nv-areatopo"><i class="bi <%= a.icone %>" aria-hidden="true"></i>
+<div><h3><%- a.nome %></h3><span><%- items.length %> posts</span></div></div>
+<p><%- a.desc %></p>
+<ul>
+<% for (const it of items.slice(0, 3)) { %>
+<li><a href="<%= it.path %>"><%- it.title %></a></li>
+<% } %>
+</ul>
+<a class="nv-mais" href="posts.html#<%= a.chave %>">Ver todos de <%- a.nome %> <i class="bi bi-arrow-right"></i></a>
+</div>
+```

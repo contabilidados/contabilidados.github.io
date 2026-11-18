@@ -1,49 +1,61 @@
 ---
-title: "Nossos Posts"
+title: "Posts"
+subtitle: "Todos os textos do grupo, organizados por área temática."
 listing:
-  - id: contabilidade
-    contents: posts/contabil/*/*.qmd
-    type: default
-    fields: [image, date, title, subtitle, categories, author, reading-time]  
+  - id: todos
+    contents: posts/**/*.qmd
+    template: _templates/posts-lista.ejs
     sort: "date desc"
-    categories: cloud
-    sort-ui: true
-    filter-ui: true
-    page-size: 3
-  - id: financas
-    contents: posts/finance/*/*.qmd
-    type: default
-    fields: [image, date, title, subtitle, categories, author, reading-time]  
-    sort: "date desc"
-    categories: cloud
-    sort-ui: true
-    filter-ui: true
-    page-size: 3
-  - id: dados
-    contents: posts/dados/*/*.qmd
-    type: default
-    fields: [image, date, title, subtitle, categories, author, reading-time]  
-    sort: "date desc"
-    categories: cloud
-    sort-ui: true
-    filter-ui: true
-    page-size: 3
+    date-format: "D MMM YYYY"
 page-layout: full
 title-block-banner: false
 comments: false
+toc: false
 ---
 
-## Posts sobre Contabilidade
-
-::: {#contabilidade}
+::: {.nv-main}
+::: {#todos}
+:::
 :::
 
-## Posts sobre Finanças
-
-::: {#financas}
-:::
-
-## Posts sobre Análise de Dados
-
-::: {#dados}
-:::
+```{=html}
+<script>
+(function () {
+  var f = "todos", q = "", tema = "";
+  var caixaTema = document.querySelector(".nv-tema");
+  function aplica() {
+    var n = 0;
+    document.querySelectorAll(".nv-linha").forEach(function (el) {
+      var ok = (f === "todos" || el.dataset.area === f) &&
+               (!q || el.dataset.busca.indexOf(q) >= 0) &&
+               (!tema || el.dataset.cats.split("|").indexOf(tema) >= 0);
+      el.hidden = !ok; if (ok) n++;
+    });
+    document.querySelector(".nv-vazio").hidden = n > 0;
+    caixaTema.hidden = !tema;
+    if (tema) caixaTema.querySelector("span").textContent = "Tema: " + tema;
+  }
+  function escolhe(chave) {
+    document.querySelectorAll(".nv-aba").forEach(function (x) {
+      var on = x.dataset.f === chave; x.classList.toggle("ativa", on); x.setAttribute("aria-selected", on);
+    });
+    f = chave; aplica();
+  }
+  document.querySelectorAll(".nv-aba").forEach(function (b) {
+    b.addEventListener("click", function () {
+      escolhe(b.dataset.f);
+      history.replaceState(null, "", b.dataset.f === "todos" ? location.pathname : "#" + b.dataset.f);
+    });
+  });
+  document.getElementById("nv-q").addEventListener("input", function (e) { q = e.target.value.toLowerCase().trim(); aplica(); });
+  caixaTema.querySelector("button").addEventListener("click", function () { tema = ""; history.replaceState(null, "", location.pathname); aplica(); });
+  function leHash() {
+    var h = decodeURIComponent(location.hash.slice(1));
+    if (h.indexOf("tema=") === 0) { tema = h.slice(5); escolhe("todos"); }
+    else if (document.querySelector('.nv-aba[data-f="' + h + '"]')) { tema = ""; escolhe(h); }
+  }
+  window.addEventListener("hashchange", leHash);
+  leHash();
+})();
+</script>
+```
