@@ -386,3 +386,8 @@ footer.footer .nav-footer {
 #listing-alunos .quarto-post:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, .45);
 }
+
+/* Perfis dos membros: aro da foto no modo escuro */
+.quarto-about-trestles .about-entity .about-image {
+  border-color: #181818;
+}
