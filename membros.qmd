@@ -14,7 +14,7 @@ listing:
     contents: curriculum/alunos/*.qmd
     type: default
     fields: [image, date, title, subtitle, categories, author]
-    sort: "date desc"
+    sort: "title"
     categories: unnumbered
     sort-ui: false
     filter-ui: false
