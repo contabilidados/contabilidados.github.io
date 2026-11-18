@@ -489,7 +489,7 @@ body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n
     max-height: 34px;
   }
 }
-@media (max-width: 359.98px) {
+@media (max-width: 374.98px) {
   .navbar-title {
     display: none;
   }
@@ -973,7 +973,8 @@ body { text-align: left !important; }
 /* ===== Celular: ícones das redes, modo escuro e lupa na mesma linha do logo ===== */
 @media (max-width: 575.98px) {
   nav.navbar { padding-left: 0 !important; padding-right: 0 !important; }
-  .navbar-container { flex-wrap: nowrap !important; padding-left: .7rem !important; padding-right: .55rem !important; }
+  .navbar-container { flex-wrap: wrap !important; padding-left: .7rem !important; padding-right: .55rem !important; }
+  .navbar-container .navbar-collapse { order: 100; flex: 0 0 100%; width: 100%; }
   .navbar-container .navbar-toggler { margin-right: .35rem !important; flex-shrink: 0; }
   .navbar-container .navbar-brand-container { margin-left: 0 !important; margin-right: auto !important; flex-shrink: 0; }
   .navbar-container .quarto-navbar-tools { margin-left: auto !important; padding-left: .25rem; flex-shrink: 0; white-space: nowrap; }
