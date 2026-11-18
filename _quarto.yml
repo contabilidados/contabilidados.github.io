@@ -14,14 +14,21 @@ website:
   site-url: "https://contabilidados.com.br"
   google-analytics: "G-H9V60F0CZM"
   page-footer:
-    center: "contabiliDados usou [Quarto](https://quarto.org/), basedo em [BeaMilz](https://beamilz.com/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: '<span class="marca-rodape">Contabili<span class="marca-dados">Dados</span></span><br>Contabilidade e Finanças · Ciências Contábeis da UFERSA'
+    center: '[Posts](/posts.html) · [Eventos](/meetings.html) · [Pacote cntdd](/cntdd.html) · [Sobre](/membros.html)<br><span class="rodape-nota">Licença [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.pt-br) · Feito em [Quarto](https://quarto.org/) · Modelo de [Beatriz Milz](https://beamilz.com/)</span>'
     right:
-      - icon: youtube
-        href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
       - icon: instagram
         href: https://www.instagram.com/contabilidados
+        aria-label: Instagram do ContabiliDados
+      - icon: youtube
+        href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
+        aria-label: Canal do ContabiliDados no YouTube
+      - icon: github
+        href: https://github.com/contabilidados
+        aria-label: ContabiliDados no GitHub
       - icon: envelope
         href: mailto:contabilidados@ufersa.edu.br
+        aria-label: E-mail do ContabiliDados
     border: true
   twitter-card:
     creator: "@cntdd"

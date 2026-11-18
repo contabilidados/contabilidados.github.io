@@ -502,3 +502,82 @@ body.quarto-light .quarto-listing-category.category-cloud .category:nth-child(8n
 .navbar-brand img {
   margin-right: .5rem !important;
 }
+
+/* ===== Rodapé no padrão do menu ===== */
+footer.footer {
+  border-top: 2px solid #f58634;
+  color: #d6d6d6;
+  font-size: .85rem;
+}
+footer.footer .nav-footer {
+  border-top: 0;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  align-items: center;
+  color: #d6d6d6;
+}
+footer.footer .nav-footer p {
+  margin: 0;
+  color: #d6d6d6;
+  line-height: 1.7;
+}
+footer.footer .nav-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer.footer .nav-footer a:hover,
+footer.footer .nav-footer a:focus {
+  color: #f58634;
+  text-decoration: underline;
+}
+footer.footer .nav-footer-left {
+  text-align: left;
+}
+footer.footer .marca-rodape {
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+footer.footer .marca-dados {
+  color: #f58634;
+}
+footer.footer .rodape-nota,
+footer.footer .nav-footer .rodape-nota a {
+  color: #bdbdbd;
+  font-size: .78rem;
+}
+footer.footer .nav-footer .rodape-nota a {
+  text-decoration: underline;
+}
+footer.footer .nav-footer .rodape-nota a:hover {
+  color: #f58634;
+}
+footer.footer .footer-items .nav-link {
+  color: #e4e4e4;
+  font-size: 1.15rem;
+  padding: .25rem .45rem;
+}
+footer.footer .footer-items .nav-link:hover,
+footer.footer .footer-items .nav-link:focus {
+  color: #f58634;
+}
+@media (max-width: 767.98px) {
+  footer.footer .nav-footer-left {
+    text-align: center;
+  }
+}
+body.quarto-light footer.footer {
+  background-color: #4b4b4d;
+}
+footer.footer .nav-footer p {
+  font-size: .85rem !important;
+}
+footer.footer .nav-footer {
+  padding-bottom: 5.25rem;
+}
+body.quarto-light footer.footer .nav-footer {
+  background-color: #4b4b4d;
+}

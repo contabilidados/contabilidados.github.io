@@ -363,3 +363,11 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 .quarto-listing-category.category-cloud .category:nth-child(8n+6) [class*="category-cloud-"] { color: #94D3A2 !important; }
 .quarto-listing-category.category-cloud .category:nth-child(8n+7) [class*="category-cloud-"] { color: #EBC85E !important; }
 .quarto-listing-category.category-cloud .category:nth-child(8n+8) [class*="category-cloud-"] { color: #D0D0D0 !important; }
+
+/* Rodapé no modo escuro: mesmo fundo do menu */
+footer.footer {
+  background-color: #2b2b2d;
+}
+footer.footer .nav-footer {
+  background-color: #2b2b2d;
+}
