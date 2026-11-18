@@ -46,3 +46,7 @@ Nesse contexto, a eficiência do processo decisório passa pela aplicação de m
 
 ::: {#alunos}
 :::
+
+::: {.creditos-site}
+O site foi construído a partir do modelo de código aberto de [Beatriz Milz](https://beamilz.com/), disponibilizado sob a licença [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/deed.pt-br).
+:::

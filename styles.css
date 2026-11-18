@@ -1094,3 +1094,7 @@ footer.footer .licenca-cc .cc-icone { display: inline-block; height: 1.1em; widt
 footer.footer .licenca-cc .cc-icone:first-child { margin-left: .15rem; }
 footer.footer .nav-footer .rodape-nota a.licenca-cc { text-decoration: none; }
 footer.footer .nav-footer .rodape-nota a.licenca-cc .cc-txt { text-decoration: underline; }
+
+/* ===== Crédito do modelo do site (página Sobre) ===== */
+.creditos-site { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(128,128,128,.25); }
+.creditos-site p { font-size: .8rem !important; color: #8a8a8a; text-align: left !important; }
