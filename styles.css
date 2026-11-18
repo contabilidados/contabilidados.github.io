@@ -963,3 +963,9 @@ body { text-align: left !important; }
     hyphens: auto;
   }
 }
+
+/* ===== Navbar recolhida: seletor de modo escuro junto da lupa ===== */
+@media (max-width: 991.98px) {
+  .navbar-container .quarto-navbar-tools { margin-left: auto !important; }
+  .navbar-container #quarto-search { margin-left: .15rem !important; }
+}
