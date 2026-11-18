@@ -8,6 +8,13 @@ categories:
   - Finanças
 about:
   template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:pthiagopaivacosta@gmail.com
+    - icon: file-pdf
+      text: Lattes
+      href: http://lattes.cnpq.br/0180909186632812
 ---
 
 Olá! Me chamo Thiago Paiva. Sou bacharel em Ciências Contábeis pela Universidade do Estado do Rio Grande do Norte (UERN) e, atualmente, mestrando em Administração pelo Programa de Pós-Graduação em Administração da Universidade Federal Rural do Semi-Árido (PPGA/UFERSA), na área de concentração Gestão Organizacional e linha de pesquisa Processos Organizacionais e Decisórios. Sou bolsista do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), membro do grupo ContabiliDados e possuo certificação CPA-20 (ANBIMA).
