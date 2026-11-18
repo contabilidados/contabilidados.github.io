@@ -35,6 +35,16 @@ website:
     card-style: summary_large_image
   navbar:
     logo: "logo.png"
+    tools:
+      - icon: instagram
+        href: https://www.instagram.com/contabilidados
+        text: Instagram do ContabiliDados
+      - icon: youtube
+        href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
+        text: Canal do ContabiliDados no YouTube
+      - icon: github
+        href: https://github.com/contabilidados
+        text: ContabiliDados no GitHub
     right:
       - text: Posts
         href: posts.qmd
@@ -55,12 +65,6 @@ website:
             target: _blank
       - text: Sobre
         href: membros.qmd
-      - icon: instagram
-        href: https://www.instagram.com/contabilidados
-      - icon: youtube
-        href: https://www.youtube.com/watch?v=Bckx1xIqGto&list=PL2Kz0fa0V_r3ghh1iHWl31CYr5bVc0Jfo
-      - icon: github
-        href: https://github.com/contabilidados
       - icon: rss
         href: index.xml
 format:
