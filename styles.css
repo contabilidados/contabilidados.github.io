@@ -1049,3 +1049,33 @@ body.nv-foco .nv-ler-sair { display: inline-flex; }
   .nv-ler-painel { width: min(17.5rem, calc(100vw - 2rem)); }
 }
 @media print { .nv-ler, .nv-ler-sair, .nv-progresso { display: none !important; } }
+
+/* ===== Títulos na Montserrat (mesma família do logotipo) ===== */
+@font-face {
+  font-family: "Montserrat CD Titulo";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fontes/montserrat-latin-700.woff2") format("woff2");
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+.quarto-title .title, .listing-title, .card-title,
+.navbar .nav-link .menu-text, .dropdown-item .dropdown-text,
+.nv-btn, .nv-aba, .nv-area, .nv-kicker, .nv-ler-btn, .nv-cab a, .nv-mais,
+.marca-rodape, .quarto-category {
+  font-family: "Montserrat CD Titulo", "Montserrat", "Roboto", sans-serif;
+  font-weight: 700;
+}
+h1, h2, h3, .quarto-title .title, .listing-title, .nv-main h3, .nv-main h4 { letter-spacing: -.012em; }
+.navbar .nav-link .menu-text, .dropdown-item .dropdown-text { font-size: .82rem; letter-spacing: .04em; }
+.quarto-title .title { line-height: 1.2; }
+#quarto-document-content h2 { font-size: 1.55rem; }
+#quarto-document-content h3 { font-size: 1.25rem; }
+.nv-main h4, .nv-linha h4 { font-size: .98rem; line-height: 1.32; }
+.nv-destaque h3 { font-size: 1.38rem; }
+.nv-hero h1 { font-size: 2.25rem; }
+@media (max-width: 576px) { .nv-hero h1 { font-size: 1.7rem; } .nv-destaque h3 { font-size: 1.2rem; } }
+@media (min-width: 992px) and (max-width: 1139.98px) {
+  .navbar .nav-link .menu-text { font-size: .74rem; letter-spacing: .02em; }
+  .navbar .navbar-nav .nav-link { padding-left: .45rem !important; padding-right: .45rem !important; }
+}
