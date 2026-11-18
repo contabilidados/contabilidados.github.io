@@ -1088,3 +1088,9 @@ footer.footer .feito-com .logo-r { height: 1.2em; margin: 0 .1rem; vertical-alig
 footer.footer .feito-com .logo-quarto { height: .92em; margin-left: .15rem; }
 footer.footer .feito-com a:hover img { opacity: .85; }
 footer.footer .rodape-nota .nw { white-space: nowrap; }
+
+/* ===== Rodapé: ícones da licença Creative Commons ===== */
+footer.footer .licenca-cc .cc-icone { display: inline-block; height: 1.1em; width: 1.1em; vertical-align: -0.22em; margin-right: .08rem; }
+footer.footer .licenca-cc .cc-icone:first-child { margin-left: .15rem; }
+footer.footer .nav-footer .rodape-nota a.licenca-cc { text-decoration: none; }
+footer.footer .nav-footer .rodape-nota a.licenca-cc .cc-txt { text-decoration: underline; }
