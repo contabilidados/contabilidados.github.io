@@ -1079,3 +1079,12 @@ h1, h2, h3, .quarto-title .title, .listing-title, .nv-main h3, .nv-main h4 { let
   .navbar .nav-link .menu-text { font-size: .74rem; letter-spacing: .02em; }
   .navbar .navbar-nav .nav-link { padding-left: .45rem !important; padding-right: .45rem !important; }
 }
+
+/* ===== Rodapé: "Feito com R e Quarto" com os logos ===== */
+footer.footer .feito-com { white-space: nowrap; }
+footer.footer .feito-com a { text-decoration: none !important; border: 0 !important; }
+footer.footer .feito-com img { display: inline-block; vertical-align: -0.22em; width: auto; }
+footer.footer .feito-com .logo-r { height: 1.2em; margin: 0 .1rem; vertical-align: -0.3em; }
+footer.footer .feito-com .logo-quarto { height: .92em; margin-left: .15rem; }
+footer.footer .feito-com a:hover img { opacity: .85; }
+footer.footer .rodape-nota .nw { white-space: nowrap; }
