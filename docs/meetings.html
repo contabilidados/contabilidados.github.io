@@ -109,6 +109,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-agenda .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-lang','listing-editor','listing-comments','listing-engines','listing-language','listing-toc','listing-categories','listing-date_publish','listing-date_event','listing-event','listing-event_url','listing-links','listing-location','listing-title','listing-image','listing-draft','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-cache',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-lang","listing-editor","listing-comments","listing-engines","listing-language","listing-toc","listing-categories","listing-date_publish","listing-date_event","listing-event","listing-event_url","listing-links","listing-location","listing-title","listing-image","listing-draft","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-cache"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-agenda'] = new List('listing-agenda', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-H9V60F0CZM"></script>
 
@@ -432,14 +460,71 @@ window.Quarto = {
 </header>
 
 
-<section id="próximas-atividades" class="level2">
-<h2 class="anchored" data-anchor-id="próximas-atividades">Próximas atividades</h2>
-<ul>
-<li><p>2025 - Novembro - ECICONT - I Encontro Científico em Contabilidade da UFERSA</p></li>
-<li><p>2025 - Novembro - Café com Especialistas - IA e Ciência de Dados – Competências essenciais para líderes e profissionais de gestão</p></li>
-<li><p>Contatos para eventos</p></li>
-</ul>
-<p>Enviar email para: <a href="mailto:contabilidados@ufersa.edu.br">contabilidados@ufersa.edu.br</a></p>
+<section id="próximos-eventos" class="level2">
+<h2 class="anchored" data-anchor-id="próximos-eventos">Próximos eventos</h2>
+<div id="listing-agenda" class="quarto-listing quarto-listing-container-custom">
+<div class="nv-agenda-lista" data-nv-agenda-lista="">
+
+<div class="nv-agenda-item" data-nv-evento="" hidden="" data-quando="29/10/2022 2022-10-29" data-titulo="Análise de dados com R e Economatica" data-local="Online" data-url="/eventos/economaticaR/economaticaR.html">
+<a class="nv-agenda-tit" href="./eventos/economaticaR/economaticaR.html">Análise de dados com R e Economatica</a>
+<div class="nv-meta"><i class="bi bi-calendar3" aria-hidden="true"></i> 29/10/2022 · <i class="bi bi-geo-alt" aria-hidden="true"></i> Online</div>
+<div data-nv-agenda=""></div>
+</div>
+
+<div class="nv-agenda-item" data-nv-evento="" hidden="" data-quando="29/10/2022 2022-10-29" data-titulo="Análise de dados com R e Economatica" data-local="Online" data-url="/eventos/treinamentoeconomatica/treinamentoeconomatica.html">
+<a class="nv-agenda-tit" href="./eventos/treinamentoeconomatica/treinamentoeconomatica.html">Análise de dados com R e Economatica</a>
+<div class="nv-meta"><i class="bi bi-calendar3" aria-hidden="true"></i> 29/10/2022 · <i class="bi bi-geo-alt" aria-hidden="true"></i> Online</div>
+<div data-nv-agenda=""></div>
+</div>
+
+<div class="nv-agenda-item" data-nv-evento="" hidden="" data-quando="14/12/2023 2023-12-14" data-titulo="Noções Básicas de Técnicas Contábeis e Financeiras com o R" data-local="Online" data-url="/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html">
+<a class="nv-agenda-tit" href="./eventos/CINCO_dez2023/CINCO_dadosContabeisR.html">Noções Básicas de Técnicas Contábeis e Financeiras com o R</a>
+<div class="nv-meta"><i class="bi bi-calendar3" aria-hidden="true"></i> 14/12/2023 · <i class="bi bi-geo-alt" aria-hidden="true"></i> Online</div>
+<div data-nv-agenda=""></div>
+</div>
+
+<div class="nv-agenda-item" data-nv-evento="" hidden="" data-quando="11/06/2024 2024-05-11" data-titulo="Introdução ao Software R" data-local="UFERSA LCC Laboratório 1" data-url="/eventos/introR/introR.html">
+<a class="nv-agenda-tit" href="./eventos/introR/introR.html">Introdução ao Software R</a>
+<div class="nv-meta"><i class="bi bi-calendar3" aria-hidden="true"></i> 11/06/2024 · <i class="bi bi-geo-alt" aria-hidden="true"></i> UFERSA LCC Laboratório 1</div>
+<div data-nv-agenda=""></div>
+</div>
+
+<div class="nv-agenda-item" data-nv-evento="" hidden="" data-quando="13/11/2025 - 19 às 22h 2025-11-13" data-titulo="Introdução à plataforma Economatica" data-local="Laboratório 3 - Central de Aulas III - UFERSA" data-url="/eventos/ecicont2025_economatica/ecicont2025_economatica.html">
+<a class="nv-agenda-tit" href="./eventos/ecicont2025_economatica/ecicont2025_economatica.html">Introdução à plataforma Economatica</a>
+<div class="nv-meta"><i class="bi bi-calendar3" aria-hidden="true"></i> 13/11/2025 - 19 às 22h · <i class="bi bi-geo-alt" aria-hidden="true"></i> Laboratório 3 - Central de Aulas III - UFERSA</div>
+<div data-nv-agenda=""></div>
+</div>
+
+<div class="nv-agenda-item" data-nv-evento="" hidden="" data-quando="13/11/2025 - 19 às 22h 2025-11-13" data-titulo="Introdução ao R e RStudio" data-local="Laboratório 3 - Central de Aulas III - UFERSA" data-url="/eventos/ecicont2025_introR/ecicont2025_introR.html">
+<a class="nv-agenda-tit" href="./eventos/ecicont2025_introR/ecicont2025_introR.html">Introdução ao R e RStudio</a>
+<div class="nv-meta"><i class="bi bi-calendar3" aria-hidden="true"></i> 13/11/2025 - 19 às 22h · <i class="bi bi-geo-alt" aria-hidden="true"></i> Laboratório 3 - Central de Aulas III - UFERSA</div>
+<div data-nv-agenda=""></div>
+</div>
+
+<div class="nv-agenda-item" data-nv-evento="" hidden="" data-quando="14/11/2025 - 19 às 21h 2025-11-14" data-titulo="Inteligência Artificial na pesquisa científica" data-local="Núcleo de Práticas Contábeis (NPC) - UFERSA" data-url="/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html">
+<a class="nv-agenda-tit" href="./eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html">Inteligência Artificial na pesquisa científica</a>
+<div class="nv-meta"><i class="bi bi-calendar3" aria-hidden="true"></i> 14/11/2025 - 19 às 21h · <i class="bi bi-geo-alt" aria-hidden="true"></i> Núcleo de Práticas Contábeis (NPC) - UFERSA</div>
+<div data-nv-agenda=""></div>
+</div>
+
+<div class="nv-agenda-item" data-nv-evento="" hidden="" data-quando="27/11/2025 às 15h 2025-11-27" data-titulo="IA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão" data-local="Google Meet (Remoto)" data-url="/eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html">
+<a class="nv-agenda-tit" href="./eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html">IA e Ciência de Dados: Competências essenciais para líderes e profissionais de gestão</a>
+<div class="nv-meta"><i class="bi bi-calendar3" aria-hidden="true"></i> 27/11/2025 às 15h · <i class="bi bi-geo-alt" aria-hidden="true"></i> Google Meet (Remoto)</div>
+<div data-nv-agenda=""></div>
+</div>
+
+<div class="nv-agenda-item" data-nv-evento="" hidden="" data-quando="10/06/2026 - 19 às 21h 2026-06-10" data-titulo="Introdução aos Investimentos" data-local="Auditório da PROEC" data-url="/eventos/introducaoAosInvestimentos/introducaoAosInvestimentos.html">
+<a class="nv-agenda-tit" href="./eventos/introducaoAosInvestimentos/introducaoAosInvestimentos.html">Introdução aos Investimentos</a>
+<div class="nv-meta"><i class="bi bi-calendar3" aria-hidden="true"></i> 10/06/2026 - 19 às 21h · <i class="bi bi-geo-alt" aria-hidden="true"></i> Auditório da PROEC</div>
+<div data-nv-agenda=""></div>
+</div>
+
+<p class="nv-agenda-vazio" hidden="">Nenhum evento agendado no momento. Acompanhe pelo <a href="https://www.instagram.com/contabilidados">Instagram</a> ou escreva para <a href="mailto:contabilidados@ufersa.edu.br">contabilidados@ufersa.edu.br</a>.</p>
+</div>
+<div class="listing-no-matching d-none">Nenhum item correspondente</div>
+</div>
+<p><a href="./materiais.html" class="nv-mat-link"><i class="bi bi-collection-play" aria-hidden="true"></i> Materiais de aula dos eventos</a></p>
+<p>Para convidar o grupo para um evento, escreva para <a href="mailto:contabilidados@ufersa.edu.br">contabilidados@ufersa.edu.br</a>.</p>
 </section>
 <section id="eventospalestras" class="level2">
 <h2 class="anchored" data-anchor-id="eventospalestras">Eventos/Palestras</h2>
@@ -1015,7 +1100,7 @@ Análise de dados com R e Economatica
 <p><span class="marca-rodape">Contabili<span class="marca-dados">Dados</span></span><br>Contabilidade e Finanças · Ciências Contábeis da UFERSA</p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="./posts.html">Posts</a> · <a href="./meetings.html">Eventos</a> · <a href="./cntdd.html">Pacote cntdd</a> · <a href="./membros.html">Sobre</a><br><span class="rodape-nota"><span class="nw">Licença <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br" class="licenca-cc" title="Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0)" aria-label="Licença Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0)"><img src="/assets/logos/cc-cc.svg" alt="" class="cc-icone" width="14" height="14" style="height:1.1em;width:1.1em;vertical-align:-0.22em"><img src="/assets/logos/cc-by.svg" alt="" class="cc-icone" width="14" height="14" style="height:1.1em;width:1.1em;vertical-align:-0.22em"><img src="/assets/logos/cc-sa.svg" alt="" class="cc-icone" width="14" height="14" style="height:1.1em;width:1.1em;vertical-align:-0.22em"></a></span> · <span class="feito-com">Feito com <a href="https://www.r-project.org/" title="R"><img src="/assets/logos/r.svg" alt="R" class="logo-r" width="20" height="16" style="height:1.2em;width:auto;vertical-align:-0.3em"></a> e <a href="https://quarto.org/" title="Quarto"><img src="/assets/logos/quarto.svg" alt="Quarto" class="logo-quarto" width="56" height="12" style="height:.92em;width:auto;vertical-align:-0.22em"></a></span></span></p>
+<p><a href="./posts.html">Posts</a> · <a href="./meetings.html">Eventos</a> · <a href="./materiais.html">Materiais</a> · <a href="./cntdd.html">Pacote cntdd</a> · <a href="./membros.html">Sobre</a> · <a href="./participe.html">Participe</a><br><span class="rodape-nota"><span class="nw">Licença <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br" class="licenca-cc" title="Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0)" aria-label="Licença Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0)"><img src="./assets/logos/cc-cc.svg" alt="" class="cc-icone" width="14" height="14" style="height:1.1em;width:1.1em;vertical-align:-0.22em"><img src="./assets/logos/cc-by.svg" alt="" class="cc-icone" width="14" height="14" style="height:1.1em;width:1.1em;vertical-align:-0.22em"><img src="./assets/logos/cc-sa.svg" alt="" class="cc-icone" width="14" height="14" style="height:1.1em;width:1.1em;vertical-align:-0.22em"></a></span> · <span class="feito-com">Feito com <a href="https://www.r-project.org/" title="R"><img src="./assets/logos/r.svg" alt="R" class="logo-r" width="20" height="16" style="height:1.2em;width:auto;vertical-align:-0.3em"></a> e <a href="https://quarto.org/" title="Quarto"><img src="./assets/logos/quarto.svg" alt="Quarto" class="logo-quarto" width="56" height="12" style="height:.92em;width:auto;vertical-align:-0.22em"></a></span></span></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
@@ -1048,6 +1133,7 @@ Análise de dados com R e Economatica
   </div>
 </footer>
 <script src="./assets/leitura.js" defer=""></script>
+<script src="./assets/site.js" defer=""></script>
 
 
 

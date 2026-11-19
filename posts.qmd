@@ -7,6 +7,12 @@ listing:
     template: _templates/posts-lista.ejs
     sort: "date desc"
     date-format: "D MMM YYYY"
+  # Índice em JSON usado nos posts (citação e "Leia também"); não aparece na página
+  - id: indice
+    contents: posts/**/*.qmd
+    template: _templates/posts-indice.ejs
+    sort: "date desc"
+    date-format: "YYYY-MM-DD"
 page-layout: full
 title-block-banner: false
 image: share.png
@@ -18,6 +24,9 @@ toc: false
 ::: {.nv-main}
 ::: {#todos}
 :::
+:::
+
+::: {#indice}
 :::
 
 ```{=html}

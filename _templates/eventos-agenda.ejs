@@ -1,0 +1,16 @@
+<%
+const abs = (p) => p ? ("/" + String(p).replace(/^\.?\//, "").replace(/\.qmd$/, ".html")) : "";
+const esc = (s) => String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+%>
+```{=html}
+<div class="nv-agenda-lista" data-nv-agenda-lista>
+<% for (const it of items) { const quando = it.date_event || it.date_publish || ""; %>
+<div class="nv-agenda-item" data-nv-evento hidden data-quando="<%= esc(quando) %> <%= esc(it.date_publish || '') %>" data-titulo="<%= esc(it.title) %>" data-local="<%= esc(it.location || '') %>" data-url="<%= esc(abs(it.path)) %>">
+<a class="nv-agenda-tit" href="<%= esc(abs(it.path)) %>"><%- it.title %></a>
+<div class="nv-meta"><i class="bi bi-calendar3" aria-hidden="true"></i> <%- quando %><% if (it.location) { %> · <i class="bi bi-geo-alt" aria-hidden="true"></i> <%- it.location %><% } %></div>
+<div data-nv-agenda></div>
+</div>
+<% } %>
+<p class="nv-agenda-vazio" hidden>Nenhum evento agendado no momento. Acompanhe pelo <a href="https://www.instagram.com/contabilidados">Instagram</a> ou escreva para <a href="mailto:contabilidados@ufersa.edu.br">contabilidados@ufersa.edu.br</a>.</p>
+</div>
+```

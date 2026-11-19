@@ -1,0 +1,46 @@
+<%
+const abs = (p) => p ? ("/" + String(p).replace(/^\.?\//, "").replace(/\.qmd$/, ".html")) : "";
+const esc = (s) => String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+const ICONES = { "book-open-reader": "bi-book", "person-chalkboard": "bi-easel", "file-pdf": "bi-file-earmark-pdf",
+  "youtube": "bi-youtube", "rocket": "bi-database", "github": "bi-github", "video": "bi-play-btn", "code": "bi-code-slash" };
+const icone = (l) => ICONES[l.icon] || (/v[ií]deo|dia \d|grava/i.test(l.name || "") ? "bi-youtube" : "bi-link-45deg");
+const tipo = (l) => /youtube|v[ií]deo|dia \d|grava/i.test((l.icon || "") + " " + (l.name || "")) ? "Vídeo"
+  : /slide/i.test(l.name || "") ? "Slides" : /apostila|parte/i.test(l.name || "") ? "Apostila" : /dados/i.test(l.name || "") ? "Dados" : "Material";
+const comMat = items.filter(it => Array.isArray(it.links) && it.links.length);
+const tipos = {}; comMat.forEach(it => it.links.forEach(l => { const t = tipo(l); tipos[t] = (tipos[t] || 0) + 1; }));
+%>
+```{=html}
+<div class="nv-mat-filtros" role="tablist" aria-label="Tipo de material">
+<button type="button" class="nv-aba ativa" data-tipo="todos">Todos <span><%= comMat.reduce((s, it) => s + it.links.length, 0) %></span></button>
+<% for (const t of Object.keys(tipos).sort()) { %><button type="button" class="nv-aba" data-tipo="<%= esc(t) %>"><%- t %> <span><%= tipos[t] %></span></button><% } %>
+</div>
+<div class="nv-mat-lista">
+<% for (const it of comMat) { %>
+<article class="nv-mat-card">
+<a class="nv-mat-img" href="<%= esc(abs(it.path)) %>"><img src="<%= esc(abs(it.image) || '/icon.png') %>" alt="" loading="lazy"></a>
+<div class="nv-mat-corpo">
+<h3><a href="<%= esc(abs(it.path)) %>"><%- it.title %></a></h3>
+<div class="nv-meta"><% if (it.date_event) { %><i class="bi bi-calendar3" aria-hidden="true"></i> <%- it.date_event %><% } %><% if (it.event) { %> · <%- it.event %><% } %></div>
+<div class="nv-mat-botoes">
+<% for (const l of it.links) { %><a class="nv-mat-btn" data-tipo="<%= esc(tipo(l)) %>" href="<%= esc(l.url) %>" target="_blank" rel="noopener"><i class="bi <%= icone(l) %>" aria-hidden="true"></i> <%- l.name %></a><% } %>
+</div>
+</div>
+</article>
+<% } %>
+</div>
+<script>
+(function () {
+  document.querySelectorAll(".nv-mat-filtros .nv-aba").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var t = b.dataset.tipo;
+      document.querySelectorAll(".nv-mat-filtros .nv-aba").forEach(function (x) { x.classList.toggle("ativa", x === b); });
+      document.querySelectorAll(".nv-mat-card").forEach(function (c) {
+        var n = 0;
+        c.querySelectorAll(".nv-mat-btn").forEach(function (a) { var ok = t === "todos" || a.dataset.tipo === t; a.hidden = !ok; if (ok) n++; });
+        c.hidden = n === 0;
+      });
+    });
+  });
+})();
+</script>
+```

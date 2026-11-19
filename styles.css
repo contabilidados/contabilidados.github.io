@@ -1101,3 +1101,68 @@ footer.footer .nav-footer .rodape-nota a.licenca-cc .cc-txt { text-decoration: u
 
 /* ===== Perfis: coluna estreita, texto à esquerda e sem hifenização (não parte "ContabiliDados") ===== */
 .quarto-about-trestles .about-contents #quarto-document-content p { text-align: left !important; -webkit-hyphens: manual !important; hyphens: manual !important; }
+
+/* ===== Posts: Leia também, Como citar e Compartilhe (assets/site.js) ===== */
+.nv-pos-post { margin-top: 2.5rem; }
+.nv-extra { border-top: 1px solid rgba(128,128,128,.25); padding-top: 1.25rem; margin-top: 1.5rem; }
+.nv-extra-tit { font-size: 1.15rem !important; margin: 0 0 .9rem !important; border: 0 !important; padding: 0 !important; }
+.nv-share-botoes { display: flex; flex-wrap: wrap; gap: .5rem; }
+.nv-share { display: inline-flex; align-items: center; gap: .4rem; padding: .4rem .85rem; border-radius: 999px; font-size: .88rem; font-weight: 600;
+  border: 1px solid rgba(128,128,128,.35); background: transparent; color: inherit !important; text-decoration: none !important; cursor: pointer; }
+.nv-share:hover { border-color: #f58634; background: rgba(245,134,52,.08); }
+.nv-share .bi { color: #f58634; }
+.nv-leia-grade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.nv-leia-card { display: flex; flex-direction: column; border: 1px solid rgba(128,128,128,.25); border-radius: 10px; overflow: hidden;
+  text-decoration: none !important; color: inherit !important; transition: box-shadow .15s, transform .15s; }
+.nv-leia-card:hover { box-shadow: 0 6px 18px rgba(0,0,0,.1); transform: translateY(-2px); }
+.nv-leia-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
+.nv-leia-tit { font-family: "Montserrat CD Titulo", "Montserrat", sans-serif; font-weight: 700; font-size: .95rem; line-height: 1.3; padding: .7rem .8rem .2rem; }
+.nv-leia-meta { font-size: .78rem; color: #8a8a8a; padding: 0 .8rem .75rem; }
+.nv-citar-abas { display: flex; gap: .35rem; margin-bottom: .6rem; }
+.nv-citar-abas button { border: 1px solid rgba(128,128,128,.35); background: transparent; color: inherit; border-radius: 6px; padding: .2rem .7rem; font-size: .82rem; font-weight: 600; cursor: pointer; }
+.nv-citar-abas button.ativa { background: #f58634; border-color: #f58634; color: #2b2b2d; }
+.nv-citar-caixa { background: rgba(128,128,128,.08); border-left: 3px solid #f58634; border-radius: 6px; padding: .8rem 1rem; margin-bottom: .7rem; }
+.nv-citar-caixa p { margin: 0; font-size: .9rem !important; text-align: left !important; hyphens: manual !important; line-height: 1.55; word-break: break-word; }
+.nv-citar-caixa pre { margin: 0; font-size: .78rem; white-space: pre-wrap; word-break: break-all; background: transparent; border: 0; padding: 0; }
+@media (max-width: 767.98px) { .nv-leia-grade { grid-template-columns: 1fr; } .nv-leia-card { flex-direction: row; } .nv-leia-card img { width: 96px; aspect-ratio: 1; flex-shrink: 0; } .nv-leia-tit { padding-top: .55rem; } }
+
+/* ===== Agenda de eventos ===== */
+.nv-agenda-lista { margin-bottom: 1rem; }
+.nv-agenda-item { border-left: 4px solid #f58634; background: rgba(245,134,52,.06); border-radius: 8px; padding: .75rem 1rem; margin-bottom: .75rem; }
+.nv-agenda-item[hidden], .nv-agenda-vazio[hidden] { display: none; }
+.nv-agenda-tit { font-family: "Montserrat CD Titulo", "Montserrat", sans-serif; font-weight: 700; font-size: 1.02rem; text-decoration: none !important; }
+.nv-agenda-vazio { color: #8a8a8a; font-size: .95rem !important; }
+.nv-agenda { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .8rem; margin: .5rem 0 0; font-size: .85rem; }
+.nv-agenda > span { color: #8a8a8a; }
+.nv-agenda .bi { color: #f58634; }
+.nv-agenda a { font-weight: 600; }
+.nv-mat-link { display: inline-flex; align-items: center; gap: .45rem; font-weight: 600; }
+
+/* ===== Materiais de aula ===== */
+.nv-mat-filtros { display: flex; flex-wrap: wrap; gap: .5rem; margin: .25rem 0 1.25rem; }
+.nv-mat-lista { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.nv-mat-card { display: flex; border: 1px solid rgba(128,128,128,.25); border-radius: 12px; overflow: hidden; background: var(--bs-body-bg); }
+.nv-mat-card[hidden], .nv-mat-btn[hidden] { display: none !important; }
+.nv-mat-img { width: 34%; flex-shrink: 0; background: rgba(128,128,128,.08); }
+.nv-mat-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.nv-mat-corpo { padding: .85rem 1rem; display: flex; flex-direction: column; gap: .35rem; }
+.nv-mat-corpo h3 { font-size: 1.02rem !important; line-height: 1.3; margin: 0 !important; }
+.nv-mat-corpo h3 a { color: inherit; text-decoration: none; }
+.nv-mat-botoes { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .35rem; }
+.nv-mat-btn { display: inline-flex; align-items: center; gap: .35rem; font-size: .82rem; font-weight: 600; padding: .3rem .7rem; border-radius: 999px;
+  border: 1px solid rgba(245,134,52,.55); text-decoration: none !important; }
+.nv-mat-btn:hover { background: rgba(245,134,52,.1); }
+@media (max-width: 767.98px) { .nv-mat-lista { grid-template-columns: 1fr; } .nv-mat-img { width: 30%; } }
+
+/* ===== Participe ===== */
+.nv-participe p, .nv-participe li { text-align: left !important; hyphens: manual !important; }
+.nv-part-grade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1rem 0 1.5rem; }
+.nv-part-card { border: 1px solid rgba(128,128,128,.25); border-top: 4px solid #f58634; border-radius: 10px; padding: 1rem 1.1rem; }
+.nv-part-card > p:first-child .bi, .nv-part-card > .bi { font-size: 1.5rem; color: #f58634; }
+.nv-part-card h3 { font-size: 1.05rem !important; margin: .35rem 0 .4rem !important; }
+.nv-part-card p { font-size: .92rem !important; margin: 0; }
+.nv-part-cta { margin: 1.25rem 0 2rem; }
+.nv-part-cta .nv-btn { display: inline-flex; align-items: center; gap: .5rem; padding: .7rem 1.3rem; border-radius: 8px; background: #f58634; color: #2b2b2d !important; font-weight: 700; text-decoration: none !important; }
+.nv-part-edital { background: rgba(128,128,128,.08); border-left: 4px solid #8a8a8a; border-radius: 8px; padding: .9rem 1.1rem; }
+.nv-part-edital p { margin: 0; }
+@media (max-width: 767.98px) { .nv-part-grade { grid-template-columns: 1fr; } }

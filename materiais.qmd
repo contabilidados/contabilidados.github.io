@@ -1,0 +1,20 @@
+---
+title: "Materiais de aula"
+subtitle: "Apostilas, slides, gravações e bases de dados dos minicursos, palestras e eventos do grupo."
+listing:
+  - id: materiais
+    contents: eventos/*/*.qmd
+    template: _templates/materiais.ejs
+    sort: "date_publish desc"
+page-layout: full
+title-block-banner: false
+image: share.png
+image-alt: "Logo do ContabiliDados"
+comments: false
+toc: false
+---
+
+::: {.nv-main}
+::: {#materiais}
+:::
+:::

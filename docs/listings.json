@@ -140,5 +140,19 @@
       "/curriculum/alunos/matheus.html",
       "/curriculum/alunos/thiago.html"
     ]
+  },
+  {
+    "listing": "/materiais.html",
+    "items": [
+      "/eventos/introducaoAosInvestimentos/introducaoAosInvestimentos.html",
+      "/eventos/cafeEspecialista_IAgestao/cafeEspecialista_IAgestao.html",
+      "/eventos/ecicont2025_IApesquisa/ecicont2025_IApesquisa.html",
+      "/eventos/ecicont2025_economatica/ecicont2025_economatica.html",
+      "/eventos/ecicont2025_introR/ecicont2025_introR.html",
+      "/eventos/introR/introR.html",
+      "/eventos/CINCO_dez2023/CINCO_dadosContabeisR.html",
+      "/eventos/economaticaR/economaticaR.html",
+      "/eventos/treinamentoeconomatica/treinamentoeconomatica.html"
+    ]
   }
 ]

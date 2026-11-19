@@ -1,0 +1,68 @@
+---
+title: "Participe"
+subtitle: "Faça parte do ContabiliDados: pesquisa, ensino e divulgação em contabilidade, finanças e análise de dados."
+page-layout: article
+title-block-banner: false
+image: share.png
+image-alt: "Logo do ContabiliDados"
+comments: false
+toc: false
+---
+
+::: {.nv-participe}
+
+O ContabiliDados reúne professores e alunos do curso de Ciências Contábeis da UFERSA em torno de um mesmo interesse: transformar dados contábeis e financeiros em informação útil para a tomada de decisão. O grupo está certificado no [Diretório dos Grupos de Pesquisa do CNPq](https://dgp.cnpq.br/dgp/espelhogrupo/480677) e recebe novos integrantes ao longo do ano.
+
+## O que você pode fazer no grupo
+
+::: {.nv-part-grade}
+::: {.nv-part-card}
+<i class="bi bi-search" aria-hidden="true"></i>
+
+### Pesquisa
+
+Projetos de iniciação científica, TCCs e dissertações em contabilidade financeira, finanças, governança, ESG e mercado de trabalho contábil.
+:::
+
+::: {.nv-part-card}
+<i class="bi bi-code-slash" aria-hidden="true"></i>
+
+### Análise de dados
+
+Prática com R, bases da CVM e da B3, Economatica e microdados públicos, com apoio do pacote `cntdd`.
+:::
+
+::: {.nv-part-card}
+<i class="bi bi-megaphone" aria-hidden="true"></i>
+
+### Divulgação
+
+Escrita de posts para o site, organização de minicursos e apresentação de trabalhos em eventos.
+:::
+:::
+
+## Quem pode participar
+
+- **Estudantes de graduação** de Ciências Contábeis e de cursos afins interessados em pesquisa e análise de dados.
+- **Estudantes de pós-graduação** que desenvolvem trabalhos nas linhas do grupo.
+- **Pesquisadores e professores** de outras instituições interessados em parcerias.
+
+Não é preciso saber programar para começar: os minicursos e os [materiais de aula](materiais.qmd) do grupo ajudam nos primeiros passos.
+
+## Como participar
+
+1. Conheça os [posts](posts.qmd), os [eventos](meetings.qmd) e os [integrantes](membros.qmd) do grupo.
+2. Envie um e-mail para **contabilidados\@ufersa.edu.br** com seu nome, curso e período (ou instituição), áreas de interesse e o link do seu currículo Lattes, se tiver.
+3. Os professores do grupo entram em contato para conversar sobre as atividades e as oportunidades disponíveis.
+
+```{=html}
+<p class="nv-part-cta"><a class="nv-btn nv-btn-prim" href="mailto:contabilidados@ufersa.edu.br?subject=Quero%20participar%20do%20ContabiliDados&amp;body=Nome%3A%0ACurso%20e%20per%C3%ADodo%20(ou%20institui%C3%A7%C3%A3o)%3A%0A%C3%81reas%20de%20interesse%3A%0ALattes%3A%0A"><i class="bi bi-envelope" aria-hidden="true"></i> Quero participar</a></p>
+```
+
+## Editais e bolsas
+
+::: {.nv-part-edital}
+Não há edital aberto no momento. Quando houver seleção de bolsistas ou voluntários, o aviso será publicado aqui e no [Instagram do grupo](https://www.instagram.com/contabilidados).
+:::
+
+:::

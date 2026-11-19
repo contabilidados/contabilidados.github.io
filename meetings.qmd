@@ -10,6 +10,10 @@ listing:
     sort-ui: true
     filter-ui: true
     page-size: 3
+  - id: agenda
+    contents: eventos/*/*.qmd
+    template: _templates/eventos-agenda.ejs
+    sort: "date_publish asc"
 page-layout: full
 title-block-banner: false
 image: share.png
@@ -18,16 +22,14 @@ comments: false
 toc: false
 ---
 
-## Próximas atividades
+## Próximos eventos
 
--   2025 - Novembro - ECICONT - I Encontro Científico em Contabilidade da UFERSA
+::: {#agenda}
+:::
 
--   2025 - Novembro - Café com Especialistas - IA e Ciência de Dados – Competências essenciais para líderes e profissionais de gestão
+[<i class="bi bi-collection-play" aria-hidden="true"></i> Materiais de aula dos eventos](materiais.qmd){.nv-mat-link}
 
-
--   Contatos para eventos
-
-Enviar email para: [contabilidados\@ufersa.edu.br](mailto:contabilidados@ufersa.edu.br)
+Para convidar o grupo para um evento, escreva para [contabilidados\@ufersa.edu.br](mailto:contabilidados@ufersa.edu.br).
 
 ## Eventos/Palestras
 

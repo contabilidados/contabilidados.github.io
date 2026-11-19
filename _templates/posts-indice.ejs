@@ -1,0 +1,15 @@
+<%
+const abs = (p) => p ? ("/" + String(p).replace(/^\.?\//, "").replace(/\.qmd$/, ".html")) : "";
+const autores = (a) => { if (!a) return []; if (!Array.isArray(a)) a = [a]; return a.map(x => (x && x.name) ? (x.name.literal || x.name) : String(x)); };
+const dados = items.map(it => ({
+  t: it.title || "",
+  u: abs(it.path),
+  d: it.date || "",
+  a: autores(it.author),
+  c: it.categories || [],
+  i: abs(it.image)
+}));
+%>
+```{=html}
+<script type="application/json" id="nv-indice-posts"><%= JSON.stringify(dados).replace(/</g, "\\u003c") %></script>
+```
