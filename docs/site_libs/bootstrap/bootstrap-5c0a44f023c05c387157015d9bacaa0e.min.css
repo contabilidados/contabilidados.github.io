@@ -28,3 +28,5 @@
 
   footer.footer .licenca-cc .cc-icone{display:inline-block;height:1.1em;width:1.1em;vertical-align:-0.22em;margin-right:.08rem;}footer.footer .licenca-cc .cc-icone:first-child{margin-left:.15rem;}
 footer.footer .nav-footer .rodape-nota a.licenca-cc{text-decoration:none;}footer.footer .nav-footer .rodape-nota a.licenca-cc .cc-txt{text-decoration:underline;}.creditos-site{margin-top:3rem;padding-top:1rem;border-top:1px solid rgba(128,128,128,.25);}.creditos-site p{font-size:.8rem !important;color:#8a8a8a;text-align:left !important;}
+
+  .quarto-about-trestles .about-contents #quarto-document-content p{text-align:left !important;-webkit-hyphens:manual !important;hyphens:manual !important;}

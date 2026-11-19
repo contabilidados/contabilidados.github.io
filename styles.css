@@ -1098,3 +1098,6 @@ footer.footer .nav-footer .rodape-nota a.licenca-cc .cc-txt { text-decoration: u
 /* ===== Crédito do modelo do site (página Sobre) ===== */
 .creditos-site { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(128,128,128,.25); }
 .creditos-site p { font-size: .8rem !important; color: #8a8a8a; text-align: left !important; }
+
+/* ===== Perfis: coluna estreita, texto à esquerda e sem hifenização (não parte "ContabiliDados") ===== */
+.quarto-about-trestles .about-contents #quarto-document-content p { text-align: left !important; -webkit-hyphens: manual !important; hyphens: manual !important; }

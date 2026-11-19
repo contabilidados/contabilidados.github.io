@@ -1,0 +1,18 @@
+---
+title: "Matheus Ribeiro"
+comments: false
+image: figs/matheus.jpg
+categories:
+  - Alunos
+  - Finanças
+  - Governança Corporativa
+  - Análise de Dados
+about:
+  template: trestles
+---
+
+Olá, me chamo Matheus! Sou bacharel em Ciências Contábeis pela Universidade Federal Rural do Semi-Árido (UFERSA) e integrante do projeto ContabiliDados desde 2024. Durante a graduação, fui bolsista de Iniciação Científica por dois anos, com pesquisa focada em Governança Corporativa e Sustentabilidade.
+
+Sou entusiasta de temas que envolvem Análise de Dados, Finanças, Mercado de Capitais e Governança Corporativa.
+
+Além disso, tenho interesse na área judicial e de perícia contábil, em razão da minha atuação na Justiça Federal no Rio Grande do Norte (JFRN).

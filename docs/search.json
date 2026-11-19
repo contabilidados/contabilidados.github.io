@@ -452,7 +452,7 @@
     "href": "membros.html#alunos",
     "title": "contabiliDados?",
     "section": "Alunos",
-    "text": "Alunos\n\n\n\n\n\n\n\n\n\n\nCamilla Duarte\n\n\n\n\n\n\nAlunos\n\nContabilidade\n\nAnálise de Dados\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCauê Gois\n\n\n\n\n\n\nAlunos\n\nFinanças\n\nAnálise de Dados\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEline Kaliane\n\n\n\n\n\n\nAlunos\n\nContabilidade\n\nAdministração\n\nAnálise de Dados\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLívia Bandeira\n\n\n\n\n\n\nAlunos\n\nContabilidade\n\nAnálise de Dados\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThiago Paiva\n\n\n\n\n\n\nAlunos\n\nContabilidade\n\nFinanças\n\n\n\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Alunos\n\n\n\n\n\n\n\n\n\n\nCamilla Duarte\n\n\n\n\n\n\nAlunos\n\nContabilidade\n\nAnálise de Dados\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCauê Gois\n\n\n\n\n\n\nAlunos\n\nFinanças\n\nAnálise de Dados\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEline Kaliane\n\n\n\n\n\n\nAlunos\n\nContabilidade\n\nAdministração\n\nAnálise de Dados\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLívia Bandeira\n\n\n\n\n\n\nAlunos\n\nContabilidade\n\nAnálise de Dados\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatheus Ribeiro\n\n\n\n\n\n\nAlunos\n\nFinanças\n\nGovernança Corporativa\n\nAnálise de Dados\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThiago Paiva\n\n\n\n\n\n\nAlunos\n\nContabilidade\n\nFinanças\n\n\n\n\n\n\n\n\n\nNenhum item correspondente\n\n\nO site foi construído a partir do modelo de código aberto de Beatriz Milz, disponibilizado sob a licença CC BY-SA."
   },
   {
     "objectID": "pacotes/stats/utl_tableStat/utl_tableStat.html",
@@ -663,5 +663,12 @@
     "title": "Lucas Godeiro",
     "section": "",
     "text": "Olá! Meu nome é Lucas Lúcio Godeiro. Atuo como Professor Associado na Universidade Federal Rural do Semi-Árido (UFERSA) e professor permanente do Programa de Pós-Graduação em Economia da Universidade do Estado do Rio Grande do Norte (UERN). Sou economista com Pós-Doutorado pela University of Tennessee Knoxville (EUA), Doutorado em Economia pela Universidade Federal da Paraíba (UFPB), com período sanduíche nos EUA, e Mestrado em Economia pela PUC-SP.\nSou entusiasta da análise de dados e acredito que os métodos quantitativos são essenciais para compreender os desafios econômicos e financeiros atuais. Adotei a linguagem R e técnicas de Machine Learning como minhas principais ferramentas para modelagem econométrica, previsão financeira e análise de dados textuais, com artigos publicados em periódicos internacionais de destaque (Qualis A1).\nAtualmente, além das pesquisas em finanças quantitativas e precificação de ativos (Asset Pricing), dedico-me a investigar temas aplicados de grande impacto econômico e social, como a Teoria Monetária Moderna (MMT), educação financeira e os impactos econômicos das apostas on-line (bets) no varejo e no orçamento das famílias.\n\n\n De volta ao topo"
+  },
+  {
+    "objectID": "curriculum/alunos/matheus.html",
+    "href": "curriculum/alunos/matheus.html",
+    "title": "Matheus Ribeiro",
+    "section": "",
+    "text": "Olá, me chamo Matheus! Sou bacharel em Ciências Contábeis pela Universidade Federal Rural do Semi-Árido (UFERSA) e integrante do projeto ContabiliDados desde 2024. Durante a graduação, fui bolsista de Iniciação Científica por dois anos, com pesquisa focada em Governança Corporativa e Sustentabilidade.\nSou entusiasta de temas que envolvem Análise de Dados, Finanças, Mercado de Capitais e Governança Corporativa.\nAlém disso, tenho interesse na área judicial e de perícia contábil, em razão da minha atuação na Justiça Federal no Rio Grande do Norte (JFRN).\n\n\n De volta ao topo"
   }
 ]
