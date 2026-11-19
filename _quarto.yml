@@ -72,7 +72,7 @@ website:
             href: https://contabilidados.com.br/cntdd_linksDFS/
             target: _blank
           - text: Mercado
-            href: https://gecomt.shinyapps.io/dashboard/
+            href: https://gecomt.github.io/dashboard/
             target: _blank
       - text: Sobre
         href: membros.qmd
