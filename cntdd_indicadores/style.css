@@ -124,3 +124,11 @@ td.na { color: var(--suave); }
 .tag-alerta { border-color: var(--laranja); color: var(--texto); font-weight: 600; }
 .aviso-tipo { background: rgba(245,134,52,.08); border-left: 4px solid var(--laranja); border-radius: 8px; padding: .65rem .9rem; font-size: .88rem; margin: 0 0 .75rem; }
 .nota-serie { font-size: .82rem; color: var(--suave); margin: -.4rem 0 .9rem; }
+
+.metodo-sumario { font-size: .85rem; line-height: 1.9; padding-bottom: .6rem; margin-bottom: .4rem; border-bottom: 1px solid var(--borda); }
+.metodo ol { padding-left: 1.3rem; }
+.metodo li { margin-bottom: .35rem; }
+.metodo h3 { scroll-margin-top: 1rem; }
+.metodo code { font-size: .82rem; background: rgba(128,128,128,.12); padding: .05rem .3rem; border-radius: 4px; }
+.cita-painel { background: rgba(128,128,128,.08); border-left: 3px solid var(--laranja); border-radius: 6px; padding: .7rem .9rem; }
+.cita-painel p { margin: 0; font-size: .9rem; }

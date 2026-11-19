@@ -286,35 +286,120 @@
 
   /* ---------- metodologia ---------- */
   function abaMetodologia() {
-    var linhas = Object.keys(IND).map(function (k) { return "<tr><td><strong>" + IND[k].nome + "</strong></td><td>" + IND[k].formula + "</td><td>" + (IND[k].fmt === "%" ? "%" : "vezes") + "</td></tr>"; }).join("");
-    document.getElementById("conteudo").innerHTML = '<div class="metodo">' +
-      "<h3>Fonte dos dados</h3><p>Demonstrações Financeiras Padronizadas (DFP) anuais enviadas pelas companhias à Comissão de Valores Mobiliários (CVM), obtidas no " +
-      '<a href="https://dados.cvm.gov.br/" target="_blank" rel="noopener">Portal de Dados Abertos da CVM</a>, de ' + META.anos[0] + " a " + META.anos[1] + ". O setor vem do cadastro de companhias abertas e os códigos de negociação, do Formulário Cadastral (FCA).</p>" +
-      "<h3>Como os índices são calculados</h3><ul>" +
-      "<li>Usam-se as demonstrações <strong>consolidadas</strong> quando a companhia as apresenta; caso contrário, as individuais.</li>" +
-      "<li>Para cada ano, considera-se a versão mais recente da DFP entregue (inclui reapresentações).</li>" +
-      "<li>Os saldos patrimoniais são os do <strong>fim do exercício</strong> (sem média entre dois anos).</li>" +
-      "<li>O patrimônio líquido e o lucro líquido incluem a participação dos não controladores, quando houver.</li>" +
-      "<li>Índices de liquidez, endividamento e margens não são calculados para bancos, seguradoras e outras instituições com plano de contas próprio (sem circulante e não circulante).</li>" +
-      "<li>ROE e participação de capital de terceiros só são calculados quando o patrimônio líquido é positivo.</li>" +
-      "<li>A mediana do setor exige ao menos três companhias no ano e exclui empresas com patrimônio líquido negativo (passivo a descoberto).</li>" +
-      "<li>A mediana de todas as companhias e o ranking padrão excluem instituições financeiras, seguradoras e securitizadoras, cujos índices não são comparáveis com os das demais.</li></ul>" +
-      '<h3>Tratamento por tipo de empresa</h3><div class="tab-wrap" style="margin-top:.4rem"><table><thead><tr><th>Tipo</th><th>Como é identificado</th><th>Tratamento</th></tr></thead><tbody>' +
-      "<tr><td><strong>Instituição financeira</strong></td><td>DFP no modelo de instituições financeiras (sem circulante e não circulante)</td><td>Apenas ROE, ROA, alavancagem e margem financeira</td></tr>" +
-      "<tr><td><strong>Seguradora</strong></td><td>DFP no modelo de seguradoras ou setor Seguradoras (exceto corretoras e holdings)</td><td>ROE, ROA, margem líquida, alavancagem, índice de despesas de seguro e índice combinado aproximado</td></tr>" +
-      "<tr><td><strong>Securitizadora</strong></td><td>Setor Securitização de Recebíveis</td><td>Índices calculados, mas fora das comparações gerais</td></tr>" +
-      "<tr><td><strong>Holding sem receita</strong></td><td>Sem receita operacional no ano</td><td>Sem margens e giro do ativo</td></tr>" +
-      "<tr><td><strong>Concessão</strong></td><td>Energia elétrica, saneamento e infraestrutura de transporte</td><td>Índices calculados, com aviso sobre a receita de construção (ICPC 01, OCPC 05)</td></tr>" +
-      "<tr><td><strong>Construção civil</strong></td><td>Setor Construção Civil</td><td>Índices calculados, com aviso sobre o ciclo operacional longo</td></tr>" +
-      "<tr><td><strong>Agronegócio</strong></td><td>Setor Agricultura (Açúcar, Álcool e Cana)</td><td>Índices calculados, com aviso sobre ativos biológicos (CPC 29)</td></tr>" +
-      "</tbody></table></div>" +
-      "<h3>Quebras e particularidades</h3><ul>" +
-      "<li><strong>IFRS 16 (2019):</strong> a partir de 2019 os arrendamentos passam a compor o passivo (CPC 06 R2), o que eleva os índices de endividamento; os gráficos marcam esse ano.</li>" +
-      "<li><strong>Exercício fora de dezembro:</strong> o ano corresponde ao fim do exercício social; a ficha da empresa indica o mês de encerramento.</li>" +
-      "<li><strong>Situação na CVM:</strong> empresas em recuperação judicial, liquidação ou falência são sinalizadas na ficha.</li></ul>" +
-      '<h3>Fórmulas</h3><div class="tab-wrap" style="margin-top:.4rem"><table><thead><tr><th>Indicador</th><th>Fórmula</th><th>Unidade</th></tr></thead><tbody>' + linhas + "</tbody></table></div>" +
-      "<h3>Atualização</h3><p>Os dados são atualizados automaticamente toda semana a partir da CVM. Última atualização: <strong>" + esc(META.atualizado) + "</strong> (" + META.n_empresas + " companhias, " + META.n_linhas + " demonstrações anuais).</p>" +
-      "<h3>Aviso</h3><p>Material produzido pelo grupo contabiliDados (UFERSA) para fins de ensino e pesquisa. Os índices são calculados de forma automática e padronizada; diferenças de plano de contas entre companhias podem afetar a comparação. Não constitui recomendação de investimento.</p></div>";
+    var hoje = new Date();
+    var MES = ["jan.", "fev.", "mar.", "abr.", "maio", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."];
+    var acesso = hoje.getDate() + " " + MES[hoje.getMonth()] + " " + hoje.getFullYear();
+    function tabela(cab, linhas) {
+      return '<div class="tab-wrap" style="margin-top:.4rem"><table><thead><tr>' + cab.map(function (c) { return "<th>" + c + "</th>"; }).join("") +
+        "</tr></thead><tbody>" + linhas.map(function (l) { return "<tr>" + l.map(function (c, i) { return "<td>" + (i === 0 ? "<strong>" + c + "</strong>" : c) + "</td>"; }).join("") + "</tr>"; }).join("") + "</tbody></table></div>";
+    }
+    var formulas = Object.keys(IND).map(function (k) { return [IND[k].nome, IND[k].formula, IND[k].fmt === "%" ? "%" : "vezes", IND[k].maior ? "Maior" : "Menor"]; });
+
+    var html = '<div class="metodo">' +
+      '<nav class="metodo-sumario" aria-label="Seções da metodologia">' +
+      ['Objetivo', 'Fonte e cobertura', 'Etapas de cálculo', 'Contas utilizadas', 'Fórmulas', 'Tratamento por tipo de empresa', 'Medianas e ranking', 'Quebras de série', 'Limitações', 'Atualização e código', 'Como citar']
+        .map(function (t, i) { return '<a href="#m' + i + '" data-alvo="m' + i + '">' + t + "</a>"; }).join(" · ") + "</nav>" +
+
+      '<h3 id="m0">1. Objetivo</h3>' +
+      "<p>O painel reúne indicadores de liquidez, endividamento e rentabilidade das companhias abertas brasileiras, calculados de forma padronizada a partir das demonstrações financeiras enviadas à Comissão de Valores Mobiliários (CVM). Destina-se ao ensino de análise das demonstrações contábeis e a pesquisas exploratórias, permitindo acompanhar a evolução de cada companhia e compará-la com a mediana do seu setor.</p>" +
+
+      '<h3 id="m1">2. Fonte e cobertura</h3><ul>' +
+      "<li><strong>Demonstrações Financeiras Padronizadas (DFP)</strong> anuais, arquivos <code>dfp_cia_aberta_AAAA.zip</code> do <a href=\"https://dados.cvm.gov.br/dataset/cia_aberta-doc-dfp\" target=\"_blank\" rel=\"noopener\">Portal de Dados Abertos da CVM</a>: Balanço Patrimonial Ativo (BPA), Balanço Patrimonial Passivo (BPP) e Demonstração do Resultado (DRE).</li>" +
+      "<li><strong>Cadastro de companhias abertas</strong> (<code>cad_cia_aberta.csv</code>): nome de pregão, setor de atividade, situação do registro e situação do emissor.</li>" +
+      "<li><strong>Formulário Cadastral (FCA)</strong>, arquivo de valores mobiliários dos dois anos mais recentes: códigos de negociação na bolsa.</li>" +
+      "<li><strong>Período:</strong> " + META.anos[0] + " a " + META.anos[1] + ". O ano corrente só entra quando pelo menos 200 companhias tiverem entregado a DFP, para evitar medianas baseadas em poucas empresas.</li>" +
+      "<li><strong>Cobertura atual:</strong> " + META.n_empresas.toLocaleString("pt-BR") + " companhias e " + META.n_linhas.toLocaleString("pt-BR") + " demonstrações anuais. Entram todas as companhias que entregaram DFP no período, inclusive as que tiveram o registro cancelado depois (até o último ano entregue).</li></ul>" +
+
+      '<h3 id="m2">3. Etapas de cálculo</h3><ol>' +
+      "<li><strong>Exercício de referência:</strong> de cada arquivo anual usa-se apenas o exercício do próprio ano (coluna ORDEM_EXERC = “ÚLTIMO”); os valores comparativos do ano anterior não são utilizados.</li>" +
+      "<li><strong>Versão:</strong> quando a companhia reapresenta a DFP, considera-se a versão mais recente entregue para aquele ano.</li>" +
+      "<li><strong>Consolidado ou individual:</strong> usam-se as demonstrações consolidadas quando a companhia as apresenta com ativo total diferente de zero; caso contrário, as individuais. A ficha da empresa indica qual base foi usada no último ano.</li>" +
+      "<li><strong>Escala:</strong> todos os valores são convertidos para milhares de reais (R$ mil), conforme o campo ESCALA_MOEDA.</li>" +
+      "<li><strong>Identificação das contas:</strong> pelo código do plano de contas padronizado da CVM, conferindo a descrição da conta (ver seção 4).</li>" +
+      "<li><strong>Classificação do tipo de empresa</strong> e cálculo apenas dos índices aplicáveis a cada tipo (seção 6).</li>" +
+      "<li><strong>Medianas</strong> por setor e ano e mediana geral (seção 7).</li></ol>" +
+
+      '<h3 id="m3">4. Contas utilizadas</h3>' +
+      tabela(["Conta", "Código CVM", "Observação"], [
+        ["Ativo total", "1", ""],
+        ["Ativo circulante", "1.01", "Exige a descrição “Ativo Circulante”; ausente no modelo de instituições financeiras"],
+        ["Caixa e equivalentes de caixa", "1.01.01", "Não inclui aplicações financeiras (1.01.02)"],
+        ["Estoques", "1.01.04", "Considerado zero quando a conta não existe"],
+        ["Realizável a longo prazo", "1.02.01", "Considerado zero quando a conta não existe"],
+        ["Passivo circulante", "2.01", ""],
+        ["Passivo não circulante", "2.02", "Considerado zero quando a conta não existe"],
+        ["Patrimônio líquido", "2.03 (2.07 ou 2.08 em bancos)", "Conta de 2º nível do passivo com a descrição “Patrimônio Líquido”; inclui não controladores no consolidado"],
+        ["Receita", "3.01", "Receita de venda de bens e serviços; em bancos, receitas da intermediação financeira; em seguradoras, receitas da atividade seguradora"],
+        ["Resultado bruto", "3.03", ""],
+        ["Resultado antes do resultado financeiro e dos tributos", "3.05", "Usado na margem operacional"],
+        ["Lucro líquido", "3.11 ou 3.13", "Última conta de 2º nível “Lucro/Prejuízo do Período”; inclui não controladores no consolidado"],
+        ["Despesas da atividade seguradora", "3.02", "Somente no modelo de DFP de seguradoras"],
+        ["Despesas administrativas de seguradoras", "3.04", "Somente no modelo de DFP de seguradoras"],
+        ["Resultado bruto da intermediação financeira", "3.03", "Somente no modelo de instituições financeiras"]
+      ]) +
+
+      '<h3 id="m4">5. Fórmulas</h3>' + tabela(["Indicador", "Fórmula", "Unidade", "Melhor quando"], formulas) +
+      "<p class=\"nota-serie\" style=\"margin-top:.5rem\">“Melhor quando” orienta a ordem do ranking e deve ser lido com cautela: liquidez muito alta pode indicar recursos ociosos, e endividamento baixo pode indicar subaproveitamento de alavancagem.</p>" +
+      "<p>Regras gerais: (i) os saldos patrimoniais são os do fim do exercício, sem média entre dois anos; (ii) ROE, participação de capital de terceiros e alavancagem só são calculados quando o patrimônio líquido é positivo; (iii) margens e giro só são calculados quando a receita é positiva; (iv) divisões por zero ficam em branco.</p>" +
+
+      '<h3 id="m5">6. Tratamento por tipo de empresa</h3>' +
+      "<p>Como o plano de contas e as normas contábeis variam entre segmentos, cada empresa-ano é classificada em um tipo. Quando uma empresa se encaixa em mais de um, prevalece o que aparece primeiro na tabela.</p>" +
+      tabela(["Tipo", "Como é identificado", "Tratamento"], [
+        ["Instituição financeira", "DFP no modelo de instituições financeiras, sem ativo e passivo circulantes", "Apenas ROE, ROA, alavancagem e margem financeira"],
+        ["Seguradora", "DFP no modelo de seguradoras com receita positiva, ou setor Seguradoras e Corretoras com denominação de seguradora, resseguradora, previdência ou capitalização (exceto corretoras e participações)", "ROE, ROA, margem líquida e alavancagem; índice de despesas de seguro e índice combinado aproximado quando a DFP usa o modelo de seguradoras"],
+        ["Securitizadora", "Setor Securitização de Recebíveis ou denominação com “securitiz”", "Todos os índices, mas fora da mediana geral e do ranking padrão"],
+        ["Holding sem receita operacional", "Plano de contas geral e receita nula ou negativa no ano", "Sem margens e giro do ativo"],
+        ["Concessão de serviço público", "Setores Energia Elétrica e Saneamento, e empresas de transporte com denominação de concessionária, rodovia, ferrovia, metrô, aeroporto ou porto", "Todos os índices, com aviso sobre receita de construção e ativos da concessão"],
+        ["Construção civil", "Setor Construção Civil", "Todos os índices, com aviso sobre ciclo operacional longo"],
+        ["Agronegócio", "Setor Agricultura (Açúcar, Álcool e Cana)", "Todos os índices, com aviso sobre ativos biológicos"],
+        ["Demais companhias", "Demais casos", "Todos os índices"]
+      ]) +
+
+      '<h3 id="m6">7. Medianas e ranking</h3><ul>' +
+      "<li><strong>Mediana do setor:</strong> mediana dos índices das empresas do mesmo setor (cadastro da CVM, com as holdings agrupadas como “Holding - setor”) em cada ano. Exige ao menos três empresas e exclui as que têm patrimônio líquido negativo.</li>" +
+      "<li><strong>Mediana de todas as companhias:</strong> exclui instituições financeiras, seguradoras e securitizadoras; nos indicadores próprios de bancos e seguradoras (alavancagem, margem financeira e índices de seguro), considera apenas esses dois tipos.</li>" +
+      "<li>Usa-se a <strong>mediana</strong>, e não a média, porque os índices têm valores extremos frequentes.</li>" +
+      "<li><strong>Ranking:</strong> por padrão exclui bancos, seguradoras e securitizadoras e mostra as 100 primeiras empresas; os valores não são tratados para extremos, por isso recomenda-se usar o filtro de ativo total mínimo.</li></ul>" +
+
+      '<h3 id="m7">8. Quebras de série</h3><ul>' +
+      "<li><strong>2018, CPC 47/IFRS 15 e CPC 48/IFRS 9:</strong> mudanças no reconhecimento de receita e na mensuração de instrumentos financeiros.</li>" +
+      "<li><strong>2019, CPC 06 (R2)/IFRS 16:</strong> arrendamentos passam a compor o passivo, elevando o endividamento (marcado nos gráficos).</li>" +
+      "<li><strong>2023, IFRS 17 (CPC 50) em seguradoras:</strong> nova forma de apresentar receitas e despesas de seguros, que afeta os índices de seguradoras entre 2022 e 2023.</li>" +
+      "<li><strong>Troca de base:</strong> se a empresa passa a apresentar (ou deixa de apresentar) demonstrações consolidadas, a série muda de base.</li>" +
+      "<li><strong>Reorganizações societárias</strong> (fusões, cisões e incorporações) alteram a comparabilidade entre anos da mesma empresa.</li></ul>" +
+
+      '<h3 id="m8">9. Limitações</h3><ol>' +
+      "<li><strong>Cálculo automático e padronizado:</strong> não há ajustes analíticos, como exclusão de itens não recorrentes, reclassificações ou normalização de resultados.</li>" +
+      "<li><strong>Classificação das contas pelas companhias:</strong> o plano de contas é padronizado, mas cada companhia decide em que linha registra certos itens; por exemplo, aplicações financeiras de alta liquidez podem estar fora de caixa e equivalentes, reduzindo a liquidez imediata.</li>" +
+      "<li><strong>Saldos de fim de período:</strong> ROE e ROA usam o patrimônio e o ativo do fim do ano, e não a média; em empresas que cresceram ou fizeram aquisições no ano, esses índices podem ficar distorcidos.</li>" +
+      "<li><strong>Participação dos não controladores:</strong> no consolidado, o lucro e o patrimônio incluem os não controladores; o ROE do acionista controlador pode ser diferente.</li>" +
+      "<li><strong>Valores nominais:</strong> receitas, lucros e ativos não são corrigidos pela inflação; as variações exibidas nos destaques são nominais.</li>" +
+      "<li><strong>Anos anteriores não reapresentados:</strong> usa-se a última versão da DFP de cada ano, mas não os valores comparativos reapresentados nas DFP dos anos seguintes.</li>" +
+      "<li><strong>Concessões:</strong> a receita de construção não aparece separada na DFP padronizada e, por isso, não é excluída das margens e do giro.</li>" +
+      "<li><strong>Seguradoras:</strong> o índice combinado é aproximado, pois a DFP não separa todas as despesas usadas no índice oficial da SUSEP; seguradoras que usam o modelo genérico de DFP (por exemplo, Porto Seguro) ficam sem os índices próprios de seguros.</li>" +
+      "<li><strong>Instituições financeiras:</strong> indicadores prudenciais e operacionais (índice de Basileia, inadimplência, índice de eficiência) não constam da DFP e não são apresentados.</li>" +
+      "<li><strong>Classificação automática:</strong> o tipo de empresa depende do setor do cadastro e de palavras na denominação social, e pode errar em casos de fronteira.</li>" +
+      "<li><strong>Setor e situação atuais:</strong> o setor e a situação do emissor vêm do cadastro atual e são aplicados a todos os anos; mudanças de atividade ou uma recuperação judicial já encerrada não são refletidas na série.</li>" +
+      "<li><strong>Medianas instáveis em setores pequenos:</strong> com poucas empresas (mínimo de três), a mediana pode variar muito de um ano para outro e, às vezes, coincidir com a própria empresa analisada.</li>" +
+      "<li><strong>Exercício fora de dezembro:</strong> o “ano” é o do encerramento do exercício social; empresas com exercício em março, por exemplo, cobrem um período diferente das demais.</li>" +
+      "<li><strong>Cobertura:</strong> só entram companhias com registro na CVM que entregaram a DFP; companhias fechadas, fundos e anos sem entrega ficam de fora. Os códigos de negociação vêm do FCA mais recente, e companhias canceladas podem aparecer sem código.</li>" +
+      "<li><strong>Atraso e erros na fonte:</strong> os dados refletem o que as companhias enviaram à CVM; entregas atrasadas, erros de preenchimento e reapresentações posteriores afetam os índices até a próxima atualização.</li></ol>" +
+
+      '<h3 id="m9">10. Atualização e código</h3>' +
+      "<p>Os dados são atualizados automaticamente toda segunda-feira por um fluxo do GitHub Actions, que baixa os arquivos da CVM e recalcula os índices; os anos mais recentes são baixados de novo a cada execução para incorporar reapresentações. Última alteração dos dados: <strong>" + esc(META.atualizado) + "</strong>. O código-fonte do cálculo é aberto: <a href=\"https://github.com/contabilidados/contabilidados.github.io/blob/main/scripts/atualizar_indicadores.R\" target=\"_blank\" rel=\"noopener\">scripts/atualizar_indicadores.R</a>. Os dados de cada empresa podem ser baixados em CSV pelo botão “Baixar dados”.</p>" +
+
+      '<h3 id="m10">11. Como citar</h3>' +
+      '<div class="cita-painel"><p>CONTABILIDADOS. <strong>Indicadores Contábeis das Companhias Abertas</strong>. Mossoró: Universidade Federal Rural do Semi-Árido, ' + hoje.getFullYear() + ". Disponível em: https://contabilidados.com.br/cntdd_indicadores/. Acesso em: " + acesso + ".</p></div>" +
+
+      "<h3>Aviso</h3><p>Material produzido pelo grupo contabiliDados (UFERSA) para fins de ensino e pesquisa. Os índices não substituem a leitura das demonstrações completas e das notas explicativas e não constituem recomendação de investimento.</p></div>";
+    document.getElementById("conteudo").innerHTML = html;
+    document.querySelectorAll(".metodo-sumario a").forEach(function (a) {
+      a.addEventListener("click", function (ev) {
+        ev.preventDefault();
+        var alvo = document.getElementById(a.dataset.alvo);
+        if (alvo) alvo.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
   }
 
   /* ---------- navegação ---------- */
