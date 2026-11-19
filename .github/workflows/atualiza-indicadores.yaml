@@ -1,0 +1,72 @@
+name: Atualiza indicadores contábeis (CVM)
+
+on:
+  schedule:
+    - cron: "37 10 * * 1"   # segundas, 07h37 de Brasília
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/atualizar_indicadores.R"
+      - ".github/workflows/atualiza-indicadores.yaml"
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: atualiza-indicadores
+  cancel-in-progress: false
+
+jobs:
+  atualiza:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Instala pacotes
+        run: Rscript -e 'install.packages(c("data.table", "jsonlite"))'
+
+      - name: Cache dos arquivos da CVM
+        uses: actions/cache@v4
+        with:
+          path: ~/cvm-cache
+          key: cvm-dfp-${{ github.run_id }}
+          restore-keys: cvm-dfp-
+
+      - name: Calcula os indicadores
+        env:
+          LC_ALL: C.UTF-8
+        run: |
+          mkdir -p ~/cvm-cache
+          CVM_CACHE=$HOME/cvm-cache Rscript scripts/atualizar_indicadores.R cntdd_indicadores/dados 2010
+          mkdir -p docs/cntdd_indicadores/dados
+          cp cntdd_indicadores/dados/*.json docs/cntdd_indicadores/dados/
+
+      - name: Verifica mudanças
+        id: mud
+        run: |
+          if git diff --quiet -- cntdd_indicadores/dados/indicadores.json cntdd_indicadores/dados/empresas.json cntdd_indicadores/dados/medianas.json; then
+            echo "mudou=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "mudou=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publica
+        if: steps.mud.outputs.mudou == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add cntdd_indicadores/dados docs/cntdd_indicadores/dados
+          git commit -m "Indicadores contábeis: atualização com dados da CVM"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          # commits feitos com GITHUB_TOKEN não disparam o Pages sozinhos
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true

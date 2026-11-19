@@ -7,6 +7,7 @@ project:
     - "assets/fontes/**"
     - "assets/leitura.js"
     - "assets/site.js"
+    - "cntdd_indicadores/**"
     - "share.png"
     - "assets/logos/**"
 
@@ -65,7 +66,7 @@ website:
       - text: Dashboard
         menu:
           - text: Indicadores
-            href: https://contabilidados-dfs.share.connect.posit.cloud/
+            href: https://contabilidados.com.br/cntdd_indicadores/
             target: _blank
           - text: Links DFs CVM
             href: https://contabilidados.com.br/cntdd_linksDFS/

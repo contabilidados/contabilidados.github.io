@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Indicadores Contábeis das Companhias Abertas | contabiliDados</title>
+<meta name="description" content="Liquidez, endividamento e rentabilidade das companhias abertas brasileiras, calculados a partir das DFP da CVM e atualizados automaticamente.">
+<meta property="og:title" content="Indicadores Contábeis das Companhias Abertas | contabiliDados">
+<meta property="og:description" content="Liquidez, endividamento e rentabilidade das companhias abertas, com dados da CVM atualizados toda semana.">
+<meta property="og:image" content="https://contabilidados.com.br/share.png">
+<link rel="icon" href="../icon.png">
+<link rel="stylesheet" href="vendor/tom-select.bootstrap5.min.css">
+<link rel="stylesheet" href="style.css">
+<script>try{if(localStorage.getItem("quarto-color-scheme")==="alternate"||(localStorage.getItem("quarto-color-scheme")===null&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("escuro")}catch(e){}</script>
+</head>
+<body>
+<header class="topo">
+  <a class="marca" href="https://contabilidados.com.br/" title="Voltar ao site do contabiliDados"><img src="logo_cd_branco.png" alt="contabiliDados"></a>
+  <div class="topo-tit">
+    <h1>Indicadores Contábeis</h1>
+    <span>Companhias abertas · dados da CVM</span>
+  </div>
+  <button type="button" id="tema" class="topo-btn" aria-label="Alternar modo escuro" title="Alternar modo escuro">◐</button>
+</header>
+
+<main class="pagina">
+  <section class="busca" aria-label="Escolha da empresa">
+    <div class="campo campo-empresa">
+      <label for="empresa">Empresa</label>
+      <select id="empresa" placeholder="Digite o nome, o código de negociação (ex.: PETR4) ou o código CVM"></select>
+    </div>
+    <div class="campo">
+      <label for="comparar">Comparar com</label>
+      <select id="comparar" class="sel">
+        <option value="setor">Mediana do setor</option>
+        <option value="todas">Mediana de todas as companhias</option>
+      </select>
+    </div>
+  </section>
+
+  <p id="carregando" class="aviso">Carregando os dados…</p>
+
+  <section id="painel" hidden>
+    <div class="ficha">
+      <div>
+        <h2 id="f-nome"></h2>
+        <p id="f-razao" class="sub"></p>
+        <div id="f-tags" class="tags"></div>
+      </div>
+      <div class="ficha-acoes">
+        <a id="f-docs" class="btn-sec" target="_blank" rel="noopener">Links das DFs na CVM ↗</a>
+        <button type="button" id="baixar" class="btn-sec">Baixar dados (CSV)</button>
+      </div>
+    </div>
+
+    <div id="kpis" class="kpis"></div>
+
+    <nav class="abas" role="tablist" aria-label="Grupos de indicadores">
+      <button role="tab" data-aba="liquidez" class="ativa">Liquidez</button>
+      <button role="tab" data-aba="endividamento">Endividamento</button>
+      <button role="tab" data-aba="rentabilidade">Rentabilidade</button>
+      <button role="tab" data-aba="ranking">Ranking</button>
+      <button role="tab" data-aba="metodologia">Metodologia</button>
+    </nav>
+
+    <div id="conteudo"></div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <span>Fonte: <a href="https://dados.cvm.gov.br/" target="_blank" rel="noopener">CVM, Portal de Dados Abertos</a> (DFP anuais e cadastro de companhias).</span>
+  <span id="atualizado"></span>
+  <span>Material do <a href="https://contabilidados.com.br/">contabiliDados</a> para ensino e pesquisa; não constitui recomendação de investimento.</span>
+</footer>
+
+<script src="vendor/tom-select.complete.min.js"></script>
+<script src="vendor/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
