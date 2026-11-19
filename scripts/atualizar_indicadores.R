@@ -116,30 +116,15 @@ ll <- brutos[grepl("^3\\.\\d{2}$", CD_CONTA) &
              .(v = valor[which.max(as.integer(sub("3.", "", CD_CONTA, fixed = TRUE)))]), by = .(CD_CVM, ano)]
 base <- junta(base, ll, "ll")
 
-# --- 2. Índices ---------------------------------------------------------------
-div <- function(a, b) ifelse(is.na(a) | is.na(b) | b == 0, NA_real_, a / b)
-geral <- !is.na(base$ac) & !is.na(base$pc)   # plano de contas de empresa não financeira
-base[, `:=`(
-  lc   = ifelse(geral, div(ac, pc), NA_real_),
-  ls   = ifelse(geral, div(ac - fifelse(is.na(estoques), 0, estoques), pc), NA_real_),
-  li   = ifelse(geral, div(caixa, pc), NA_real_),
-  lg   = ifelse(geral, div(ac + fifelse(is.na(rlp), 0, rlp), pc + fifelse(is.na(pnc), 0, pnc)), NA_real_),
-  eg   = ifelse(geral, div(pc + fifelse(is.na(pnc), 0, pnc), at), NA_real_),
-  ce   = ifelse(geral, div(pc, pc + fifelse(is.na(pnc), 0, pnc)), NA_real_),
-  pct  = ifelse(geral & pl > 0, div(pc + fifelse(is.na(pnc), 0, pnc), pl), NA_real_),
-  roe  = ifelse(pl > 0, div(ll, pl), NA_real_),
-  roa  = div(ll, at),
-  mb   = ifelse(geral & receita > 0, div(lb, receita), NA_real_),
-  mo   = ifelse(geral & receita > 0, div(ebit, receita), NA_real_),
-  ml   = ifelse(geral & receita > 0, div(ll, receita), NA_real_),
-  ga   = ifelse(geral, div(receita, at), NA_real_)
-)]
-base <- base[!is.na(at) & at > 0]
-# anos ainda em entrega (ex.: exercício corrente com poucas DFP) ficam de fora até ter volume
-n_ano <- base[, .N, by = ano]
-base  <- base[ano %in% n_ano[N >= 200, ano]]
+# contas próprias de seguradoras (modelo de DFP de seguradoras) e de bancos
+rec_ds <- brutos[CD_CONTA == "3.01", .(ds301 = DS_CONTA[1]), by = .(CD_CVM, ano)]
+base <- merge(base, rec_ds, by = c("CD_CVM", "ano"), all.x = TRUE)
+base <- junta(base, pega("3.02", "Atividade Seguradora"), "desp_seg")
+base <- junta(base, pega("3.04", "^Despesas Administrativas"), "desp_adm_seg")
+base <- junta(base, pega("3.03", "Intermedia..o Financeira"), "rbif")
+base[, mes := as.integer(substr(DT_FIM_EXERC, 6, 7))]
 
-# --- 3. Cadastro (setor, situação) e códigos de negociação --------------------
+# --- 2. Cadastro (setor, situação) e códigos de negociação --------------------
 cad_arq <- file.path(cache, "cad_cia_aberta.csv")
 if (!baixa(URL_CAD, cad_arq) && !file.exists(cad_arq)) stop("Cadastro da CVM indisponível.")
 cad <- le_csv(cad_arq)
@@ -158,36 +143,94 @@ tickers <- rbindlist(lapply(c(ano_fim, ano_fim - 1L), function(a) {
 tk <- if (nrow(tickers)) unique(tickers)[, .(tk = paste(sort(unique(tk)), collapse = " ")), by = CNPJ_CIA] else data.table(CNPJ_CIA = character(), tk = character())
 
 base[, CD_CVM := sprintf("%06d", as.integer(CD_CVM))]
+base <- base[!is.na(at) & at > 0]
 emp <- base[order(-ano)][, .SD[1], by = CD_CVM][, .(CD_CVM, CNPJ_CIA, DENOM_CIA)]
-emp <- merge(emp, cad[, .(CD_CVM, DENOM_COMERC, SETOR_ATIV, SIT)], by = "CD_CVM", all.x = TRUE)
+emp <- merge(emp, cad[, .(CD_CVM, DENOM_COMERC, SETOR_ATIV, SIT, SIT_EMISSOR)], by = "CD_CVM", all.x = TRUE)
 emp <- merge(emp, tk, by = "CNPJ_CIA", all.x = TRUE)
 emp[is.na(SETOR_ATIV) | SETOR_ATIV == "", SETOR_ATIV := "Não informado"]
 emp[, nome := fifelse(!is.na(DENOM_COMERC) & nchar(gsub("[^[:alnum:]]", "", DENOM_COMERC)) >= 2, DENOM_COMERC, DENOM_CIA)]
 emp[, setor := sub("^Emp\\. Adm\\. Part\\. ?-? ?", "Holding - ", SETOR_ATIV)]
 emp[, ativa := !is.na(SIT) & grepl("^ATIVO", SIT)]
+emp[, situacao := fifelse(is.na(SIT_EMISSOR) | SIT_EMISSOR %in% c("", "FASE OPERACIONAL"), "", SIT_EMISSOR)]
 setorder(emp, nome)
+base <- merge(base, emp[, .(CD_CVM, setor, DENOM = DENOM_CIA)], by = "CD_CVM")
 
-# --- 4. Medianas por setor e ano -----------------------------------------------
-ind_cols <- c("lc", "ls", "li", "lg", "eg", "ce", "pct", "roe", "roa", "mb", "mo", "ml", "ga")
-base <- merge(base, emp[, .(CD_CVM, setor)], by = "CD_CVM")
-med <- base[, lapply(.SD, function(x) { x <- x[is.finite(x)]; if (length(x) >= 3) median(x) else NA_real_ }),
-            by = .(setor, ano), .SDcols = ind_cols]
-med_geral <- base[, lapply(.SD, function(x) { x <- x[is.finite(x)]; if (length(x) >= 3) median(x) else NA_real_ }),
-                  by = .(ano), .SDcols = ind_cols]
+# --- 3. Tipo de empresa (tratamento contábil específico) -----------------------
+# b = instituição financeira (modelo de DFP sem circulante/não circulante)
+# s = seguradora/resseguradora/previdência/capitalização
+# z = securitizadora      h = sem receita operacional (holding pura)
+# c = concessão (energia, saneamento, infraestrutura de transporte)
+# k = construção civil    a = agronegócio (ativos biológicos)    g = demais
+geral  <- !is.na(base$ac) & !is.na(base$pc)
+mod_seg <- grepl("Atividades? Segurador", base$ds301, ignore.case = TRUE)
+nome_seg <- grepl("SEGUR|RESSEGUR|PREVID|CAPITALIZA", base$DENOM, ignore.case = TRUE) &
+            !grepl("CORRETAG|CORRETORA|PARTICIPA", base$DENOM, ignore.case = TRUE)
+setor_base <- sub("^Holding - ", "", base$setor)
+infra_transp <- grepl("CONCESS|RODOVI|RUMO|MALHA|AM.RICA LATINA LOG|AUTOPISTA|AUTO ?ESTRADA|ECOVIAS|ECOPISTAS|ROTA |METR[OÔ]|AEROPORTO|FERROV|VIA ?QUATRO|LINHA|PORTO|TERMINAL|TRAVESSIA|PONTE",
+                     base$DENOM, ignore.case = TRUE)
+base[, tipo := "g"]
+base[setor_base %in% c("Agricultura (Açúcar, Álcool e Cana)"), tipo := "a"]
+base[grepl("^Constru..o Civil", setor_base), tipo := "k"]
+base[setor_base %in% c("Energia Elétrica", "Saneamento, Serv. Água e Gás") |
+       (setor_base == "Serviços Transporte e Logística" & infra_transp), tipo := "c"]
+base[geral & (is.na(receita) | receita <= 0), tipo := "h"]
+base[grepl("Securitiza", setor_base) | grepl("SECURITIZ", DENOM, ignore.case = TRUE), tipo := "z"]
+base[(mod_seg & !is.na(receita) & receita > 0) | (setor_base == "Seguradoras e Corretoras" & nome_seg), tipo := "s"]
+base[!geral, tipo := "b"]
+
+# --- 4. Índices ---------------------------------------------------------------
+div <- function(a, b) ifelse(is.na(a) | is.na(b) | b == 0, NA_real_, a / b)
+z0  <- function(x) fifelse(is.na(x), 0, x)
+nao_fin <- base$tipo %in% c("g", "c", "k", "a", "h", "z")   # liquidez/endividamento aplicáveis
+com_rec <- nao_fin & base$tipo != "h"                         # margens e giro aplicáveis
+base[, `:=`(
+  lc   = ifelse(nao_fin, div(ac, pc), NA_real_),
+  ls   = ifelse(nao_fin, div(ac - z0(estoques), pc), NA_real_),
+  li   = ifelse(nao_fin, div(caixa, pc), NA_real_),
+  lg   = ifelse(nao_fin, div(ac + z0(rlp), pc + z0(pnc)), NA_real_),
+  eg   = ifelse(nao_fin, div(pc + z0(pnc), at), NA_real_),
+  ce   = ifelse(nao_fin, div(pc, pc + z0(pnc)), NA_real_),
+  pct  = ifelse(nao_fin & pl > 0, div(pc + z0(pnc), pl), NA_real_),
+  alav = ifelse(tipo %in% c("b", "s") & pl > 0, div(at, pl), NA_real_),
+  roe  = ifelse(pl > 0, div(ll, pl), NA_real_),
+  roa  = div(ll, at),
+  mb   = ifelse(com_rec & receita > 0, div(lb, receita), NA_real_),
+  mo   = ifelse(com_rec & receita > 0, div(ebit, receita), NA_real_),
+  ml   = ifelse((com_rec | tipo == "s") & receita > 0, div(ll, receita), NA_real_),
+  ga   = ifelse(com_rec & receita > 0, div(receita, at), NA_real_),
+  mf   = ifelse(tipo == "b", div(rbif, at), NA_real_),
+  ids  = ifelse(tipo == "s" & !is.na(desp_seg) & receita > 0, div(-desp_seg, receita), NA_real_),
+  icb  = ifelse(tipo == "s" & !is.na(desp_seg) & receita > 0, div(-desp_seg - z0(desp_adm_seg), receita), NA_real_)
+)]
+# anos ainda em entrega (ex.: exercício corrente com poucas DFP) ficam de fora até ter volume
+n_ano <- base[, .N, by = ano]
+base  <- base[ano %in% n_ano[N >= 200, ano]]
+
+# --- 5. Medianas por setor e ano -----------------------------------------------
+ind_cols <- c("lc", "ls", "li", "lg", "eg", "ce", "pct", "alav", "roe", "roa", "mb", "mo", "ml", "ga", "mf", "ids", "icb")
+mediana3 <- function(x) { x <- x[is.finite(x)]; if (length(x) >= 3) median(x) else NA_real_ }
+validas <- base[!is.na(pl) & pl > 0]   # empresas com passivo a descoberto ficam fora das medianas
+med <- validas[, lapply(.SD, mediana3), by = .(setor, ano), .SDcols = ind_cols]
+# "todas as companhias": sem instituições financeiras, seguradoras e securitizadoras,
+# exceto nos indicadores próprios desses tipos
+med_geral <- validas[tipo %in% c("g", "c", "k", "a", "h"), lapply(.SD, mediana3), by = .(ano), .SDcols = setdiff(ind_cols, c("alav", "mf", "ids", "icb"))]
+med_fin   <- validas[tipo %in% c("b", "s"), lapply(.SD, mediana3), by = .(ano), .SDcols = c("alav", "mf", "ids", "icb")]
+med_geral <- merge(med_geral, med_fin, by = "ano", all = TRUE)
 med_geral[, setor := "Todas as companhias"]
 med <- rbind(med, med_geral, use.names = TRUE)
 
-# --- 5. Saída JSON colunar ------------------------------------------------------
+# --- 6. Saída JSON colunar ------------------------------------------------------
 arred <- function(x, d = 4) { x <- round(x, d); x[!is.finite(x)] <- NA; x }
 setorder(base, CD_CVM, ano)
 dados <- list(
-  cvm = base$CD_CVM, ano = base$ano, con = as.integer(base$consolidado),
+  cvm = base$CD_CVM, ano = base$ano, con = as.integer(base$consolidado), tipo = base$tipo, mes = base$mes,
   at = arred(base$at, 0), pl = arred(base$pl, 0), receita = arred(base$receita, 0), ll = arred(base$ll, 0)
 )
 for (k in ind_cols) dados[[k]] <- arred(base[[k]])
 
 empresas <- list(cvm = emp$CD_CVM, cnpj = emp$CNPJ_CIA, nome = emp$nome, razao = emp$DENOM_CIA,
-                 setor = emp$setor, tk = fifelse(is.na(emp$tk), "", emp$tk), ativa = as.integer(emp$ativa))
+                 setor = emp$setor, tk = fifelse(is.na(emp$tk), "", emp$tk), ativa = as.integer(emp$ativa),
+                 situacao = emp$situacao)
 
 setorder(med, setor, ano)
 medianas <- c(list(setor = med$setor, ano = med$ano), lapply(setNames(ind_cols, ind_cols), function(k) arred(med[[k]])))

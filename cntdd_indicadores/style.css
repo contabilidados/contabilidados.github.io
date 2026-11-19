@@ -118,3 +118,9 @@ td.na { color: var(--suave); }
   .kpi-val { font-size: 1.2rem; }
   .abas button { padding: .5rem .55rem; font-size: .82rem; }
 }
+
+/* avisos por tipo de empresa */
+.tag-tipo { border-color: var(--serie2); color: var(--texto); }
+.tag-alerta { border-color: var(--laranja); color: var(--texto); font-weight: 600; }
+.aviso-tipo { background: rgba(245,134,52,.08); border-left: 4px solid var(--laranja); border-radius: 8px; padding: .65rem .9rem; font-size: .88rem; margin: 0 0 .75rem; }
+.nota-serie { font-size: .82rem; color: var(--suave); margin: -.4rem 0 .9rem; }

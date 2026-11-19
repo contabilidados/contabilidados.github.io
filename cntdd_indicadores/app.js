@@ -11,18 +11,34 @@
     eg:  { nome: "Endividamento geral", grupo: "endividamento", fmt: "%", formula: "(Passivo circulante + Passivo não circulante) ÷ Ativo total", maior: false },
     ce:  { nome: "Composição do endividamento", grupo: "endividamento", fmt: "%", formula: "Passivo circulante ÷ (Passivo circulante + Passivo não circulante)", maior: false },
     pct: { nome: "Participação de capital de terceiros", grupo: "endividamento", fmt: "x", formula: "(Passivo circulante + Passivo não circulante) ÷ Patrimônio líquido", maior: false },
+    alav: { nome: "Alavancagem (Ativo ÷ PL)", grupo: "endividamento", fmt: "x", formula: "Ativo total ÷ Patrimônio líquido (instituições financeiras e seguradoras)", maior: false, fin: true },
     roe: { nome: "Rentabilidade do PL (ROE)", grupo: "rentabilidade", fmt: "%", formula: "Lucro líquido ÷ Patrimônio líquido", maior: true },
     roa: { nome: "Rentabilidade do ativo (ROA)", grupo: "rentabilidade", fmt: "%", formula: "Lucro líquido ÷ Ativo total", maior: true },
     mb:  { nome: "Margem bruta", grupo: "rentabilidade", fmt: "%", formula: "Resultado bruto ÷ Receita de vendas", maior: true },
     mo:  { nome: "Margem operacional", grupo: "rentabilidade", fmt: "%", formula: "Resultado antes do resultado financeiro e dos tributos ÷ Receita de vendas", maior: true },
     ml:  { nome: "Margem líquida", grupo: "rentabilidade", fmt: "%", formula: "Lucro líquido ÷ Receita de vendas", maior: true },
-    ga:  { nome: "Giro do ativo", grupo: "rentabilidade", fmt: "x", formula: "Receita de vendas ÷ Ativo total", maior: true }
+    ga:  { nome: "Giro do ativo", grupo: "rentabilidade", fmt: "x", formula: "Receita de vendas ÷ Ativo total", maior: true },
+    mf:  { nome: "Margem financeira", grupo: "rentabilidade", fmt: "%", formula: "Resultado bruto da intermediação financeira ÷ Ativo total (instituições financeiras)", maior: true, fin: true },
+    ids: { nome: "Índice de despesas de seguro", grupo: "rentabilidade", fmt: "%", formula: "Despesas da atividade seguradora ÷ Receitas da atividade seguradora (sinistralidade ampliada)", maior: false, fin: true },
+    icb: { nome: "Índice combinado (aproximado)", grupo: "rentabilidade", fmt: "%", formula: "(Despesas da atividade seguradora + Despesas administrativas) ÷ Receitas da atividade seguradora", maior: false, fin: true }
   };
   var GRUPOS = {
     liquidez: ["lc", "ls", "li", "lg"],
-    endividamento: ["eg", "ce", "pct"],
-    rentabilidade: ["roe", "roa", "ml", "mb", "mo", "ga"]
+    endividamento: ["eg", "ce", "pct", "alav"],
+    rentabilidade: ["roe", "roa", "ml", "mb", "mo", "ga", "mf", "ids", "icb"]
   };
+  var TIPOS = {
+    g: { nome: "Demais companhias" },
+    c: { nome: "Concessão de serviço público", aviso: "Concessões de energia, saneamento e infraestrutura de transporte reconhecem receita de construção da infraestrutura com margem próxima de zero (ICPC 01 e OCPC 05) e registram ativos da concessão (CPC 47). As margens e o giro do ativo podem ficar distorcidos; a DFP padronizada não separa a receita de construção." },
+    k: { nome: "Construção civil", aviso: "Na construção civil o circulante segue o ciclo operacional, que pode passar de 12 meses, e os estoques incluem terrenos e imóveis a comercializar. Os índices de liquidez tendem a ser altos e são pouco comparáveis com outros setores." },
+    a: { nome: "Agronegócio", aviso: "Ativos biológicos são avaliados a valor justo (CPC 29), e os ganhos e perdas de valor justo entram no resultado, afetando as margens." },
+    h: { nome: "Holding sem receita operacional", aviso: "Sem receita operacional no ano: o resultado vem principalmente da equivalência patrimonial. Margens e giro do ativo não são calculados." },
+    z: { nome: "Securitizadora", aviso: "Securitizadoras têm balanço de repasse de recebíveis e patrimônio líquido pequeno; ROE e endividamento ficam extremos. Elas ficam fora da mediana de todas as companhias e do ranking padrão." },
+    s: { nome: "Seguradora", aviso: "Seguradoras seguem normas próprias (SUSEP e IFRS 17); liquidez, endividamento, margem bruta e giro não se aplicam. São mostrados ROE, ROA, margem líquida, alavancagem e, quando a DFP usa o modelo de seguradoras, os índices de despesas de seguro e combinado." },
+    b: { nome: "Instituição financeira", aviso: "Instituições financeiras usam um modelo de DFP próprio, sem circulante e não circulante; liquidez, endividamento, margens e giro não se aplicam. São mostrados ROE, ROA, alavancagem e margem financeira." }
+  };
+  var FORA_GERAL = { b: 1, s: 1, z: 1 };   // fora das comparações gerais
+  var MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
 
   var D, E, M, META;          // dados, empresas, medianas, meta
   var porEmpresa = {};        // cvm -> [índices de linha]
@@ -94,8 +110,18 @@
     tags.push('<span class="tag">' + esc(E.setor[e]) + "</span>");
     tags.push('<span class="tag">' + (E.ativa[e] ? "Registro ativo" : "Registro não ativo") + "</span>");
     var linhas = serie(estado.cvm), ult = linhas[linhas.length - 1];
-    if (ult != null) tags.push('<span class="tag">' + (D.con[ult] ? "Demonstrações consolidadas" : "Demonstrações individuais") + "</span>");
+    if (ult != null) {
+      tags.push('<span class="tag">' + (D.con[ult] ? "Demonstrações consolidadas" : "Demonstrações individuais") + "</span>");
+      if (D.tipo[ult] !== "g") tags.push('<span class="tag tag-tipo">' + TIPOS[D.tipo[ult]].nome + "</span>");
+      if (D.mes[ult] && D.mes[ult] !== 12) tags.push('<span class="tag tag-alerta">Exercício encerra em ' + MESES[D.mes[ult] - 1] + "</span>");
+    }
+    if (E.situacao && E.situacao[e]) tags.push('<span class="tag tag-alerta">' + esc(E.situacao[e].charAt(0) + E.situacao[e].slice(1).toLowerCase()) + "</span>");
     document.getElementById("f-tags").innerHTML = tags.join("");
+    var avisos = [];
+    if (ult != null && TIPOS[D.tipo[ult]].aviso) avisos.push(TIPOS[D.tipo[ult]].aviso);
+    if (ult != null && D.mes[ult] && D.mes[ult] !== 12) avisos.push("O exercício social termina em " + MESES[D.mes[ult] - 1] + "; cada \u201cano\u201d cobre um período diferente do das companhias com exercício em dezembro, o que afeta a comparação com a mediana do setor.");
+    if (E.situacao && /RECUPERA|FAL|LIQUIDA/.test(E.situacao[e] || "")) avisos.push("Situação na CVM: " + E.situacao[e].toLowerCase() + ". Os índices podem refletir reestruturação de dívidas ou passivo a descoberto.");
+    document.getElementById("f-avisos").innerHTML = avisos.map(function (a) { return '<p class="aviso-tipo"><strong>Atenção:</strong> ' + a + "</p>"; }).join("");
     document.getElementById("f-docs").href = "../cntdd_linksDFS/";
 
     var k = [
@@ -105,13 +131,17 @@
       { rot: "Liquidez corrente", campo: "lc", fmt: function (v) { return fmtInd("lc", v); } }
     ];
     if (ult == null) { document.getElementById("kpis").innerHTML = ""; return; }
+    if (D.tipo[ult] === "b") k[0].rot = "Receitas de intermediação";
+    if (D.tipo[ult] === "s") k[0].rot = "Receitas";
+    if (D.tipo[ult] === "h") k[0].rot = "Receita operacional";
+    if (FORA_GERAL[D.tipo[ult]] && D.tipo[ult] !== "z") k[3] = { rot: "Alavancagem (Ativo ÷ PL)", campo: "alav", fmt: function (v) { return fmtInd("alav", v); } };
     var ant = linhas.length > 1 ? linhas[linhas.length - 2] : null;
     document.getElementById("kpis").innerHTML = k.map(function (x) {
       var v = D[x.campo][ult], va = ant != null ? D[x.campo][ant] : null, varTxt = "";
       if (v != null && va != null && isFinite(v) && isFinite(va)) {
         var sobe = v > va;
         var dif = x.campo === "roe" ? nf1.format((v - va) * 100) + " p.p." :
-                  x.campo === "lc" ? nf2.format(v - va) :
+                  (x.campo === "lc" || x.campo === "alav") ? nf2.format(v - va) :
                   (va !== 0 ? nf1.format(((v - va) / Math.abs(va)) * 100) + "%" : "");
         if (dif) varTxt = '<span class="' + (sobe ? "up" : "down") + '">' + (sobe ? "▲ +" : "▼ ") + dif.replace(/^-/, "−") + "</span> vs. " + D.ano[ant];
       }
@@ -126,13 +156,20 @@
     var e = empIdx[estado.cvm], setor = E.setor[e], linhas = serie(estado.cvm);
     var anos = linhas.map(function (i) { return D.ano[i]; });
     var nomeComp = estado.comparar === "todas" ? "Mediana de todas as companhias" : "Mediana do setor";
+    var lista = GRUPOS[grupo].filter(function (k) { return linhas.some(function (i) { return D[k][i] != null; }); });
+    if (!lista.length) {
+      var t = linhas.length ? TIPOS[D.tipo[linhas[linhas.length - 1]]] : null;
+      document.getElementById("conteudo").innerHTML = '<div class="metodo"><p>Os indicadores de ' + grupo + " não se aplicam a esta empresa." + (t && t.aviso ? " " + t.aviso : "") + "</p></div>";
+      return;
+    }
     var html = '<div class="legenda"><span><i class="l1"></i>' + esc(E.nome[e]) + '</span><span><i class="l2"></i>' + nomeComp + "</span></div>";
-    html += '<div class="grade-graf">' + GRUPOS[grupo].map(function (k) {
+    if (grupo === "endividamento") html += '<p class="nota-serie">A linha vertical em 2019 marca a adoção do CPC 06 (R2)/IFRS 16: os arrendamentos passaram a compor o passivo, o que eleva o endividamento a partir desse ano.</p>';
+    html += '<div class="grade-graf">' + lista.map(function (k) {
       return '<div class="graf"><h3>' + IND[k].nome + '</h3><div class="formula">' + IND[k].formula + '</div><div class="area"><canvas id="g-' + k + '" role="img" aria-label="' + IND[k].nome + ' de ' + esc(E.nome[e]) + ' por ano"></canvas></div></div>';
     }).join("") + "</div>";
     // tabela
     html += '<div class="tab-wrap"><table><thead><tr><th>Indicador</th>' + anos.map(function (a) { return "<th>" + a + "</th>"; }).join("") + "</tr></thead><tbody>";
-    GRUPOS[grupo].forEach(function (k) {
+    lista.forEach(function (k) {
       html += "<tr><td>" + IND[k].nome + "</td>" + linhas.map(function (i) { var v = D[k][i]; return '<td class="' + (v == null ? "na" : "") + '">' + fmtInd(k, v) + "</td>"; }).join("") + "</tr>";
       html += '<tr><td style="color:var(--suave)">↳ ' + nomeComp.toLowerCase() + "</td>" + anos.map(function (a) { var v = mediana(setor, a, k); return '<td class="na">' + fmtInd(k, v) + "</td>"; }).join("") + "</tr>";
     });
@@ -140,7 +177,7 @@
     document.getElementById("conteudo").innerHTML = html;
 
     var c1 = css("--serie1"), c2 = css("--serie2"), grade = css("--grade"), suave = css("--suave");
-    GRUPOS[grupo].forEach(function (k) {
+    lista.forEach(function (k) {
       var vals = linhas.map(function (i) { var v = D[k][i]; return v == null ? null : (IND[k].fmt === "%" ? v * 100 : v); });
       var meds = anos.map(function (a) { var v = mediana(setor, a, k); return v == null ? null : (IND[k].fmt === "%" ? v * 100 : v); });
       var cv = document.getElementById("g-" + k);
@@ -154,6 +191,7 @@
           { label: E.nome[e], data: vals, borderColor: c1, backgroundColor: c1, borderWidth: 2, pointRadius: 3, pointHoverRadius: 5, spanGaps: true, tension: 0 },
           { label: nomeComp, data: meds, borderColor: c2, backgroundColor: c2, borderWidth: 2, borderDash: [5, 4], pointRadius: 0, pointHoverRadius: 4, spanGaps: true, tension: 0 }
         ] },
+        plugins: (grupo === "endividamento" && anos.indexOf(2019) > 0) ? [marcoIFRS16] : [],
         options: {
           responsive: true, maintainAspectRatio: false, animation: false,
           interaction: { mode: "index", intersect: false },
@@ -170,6 +208,19 @@
     });
   }
 
+  var marcoIFRS16 = {
+    id: "ifrs16",
+    afterDatasetsDraw: function (ch) {
+      var x = ch.scales.x, y = ch.scales.y, i = ch.data.labels.indexOf(2019);
+      if (i < 0) return;
+      var px = x.getPixelForValue(i), ctx = ch.ctx;
+      ctx.save(); ctx.strokeStyle = css("--suave"); ctx.globalAlpha = .6; ctx.setLineDash([2, 3]); ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(px, y.top); ctx.lineTo(px, y.bottom); ctx.stroke();
+      ctx.setLineDash([]); ctx.globalAlpha = 1; ctx.fillStyle = css("--suave"); ctx.font = "11px Roboto, sans-serif";
+      ctx.fillText("IFRS 16", px + 4, y.top + 10); ctx.restore();
+    }
+  };
+
   /* ---------- ranking ---------- */
   function abaRanking() {
     var r = estado.rank;
@@ -181,7 +232,8 @@
       '<div class="campo" style="flex:1"><label for="r-setor">Setor</label><select id="r-setor" class="sel"><option value="">Todos os setores</option>' + setores.map(function (s) { return '<option value="' + esc(s) + '"' + (s === r.setor ? " selected" : "") + ">" + esc(s) + "</option>"; }).join("") + "</select></div>" +
       '<div class="campo"><label for="r-min">Ativo total mínimo</label><select id="r-min" class="sel">' +
         [[0, "Qualquer"], [1e5, "R$ 100 mi"], [1e6, "R$ 1 bi"], [1e7, "R$ 10 bi"]].map(function (o) { return '<option value="' + o[0] + '"' + (o[0] === r.minAt ? " selected" : "") + ">" + o[1] + "</option>"; }).join("") + "</select></div>" +
-      '<label class="chk"><input type="checkbox" id="r-ativas"' + (r.ativas ? " checked" : "") + "> Só com registro ativo</label></div>" +
+      '<label class="chk"><input type="checkbox" id="r-ativas"' + (r.ativas ? " checked" : "") + "> Só com registro ativo</label>" +
+      '<label class="chk"><input type="checkbox" id="r-fin"' + (r.fin ? " checked" : "") + "> Incluir bancos, seguradoras e securitizadoras</label></div>" +
       '<div class="tab-wrap"><table class="rank-tab"><thead><tr><th>#</th><th>Empresa</th><th>Setor</th><th data-ord="v">' + IND[r.ind].nome + ' ⇅</th><th data-ord="at">Ativo total</th></tr></thead><tbody id="r-corpo"></tbody></table></div>' +
       '<p class="rank-info" id="r-info"></p>';
     document.getElementById("conteudo").innerHTML = html;
@@ -195,6 +247,7 @@
         if (r.setor && E.setor[e] !== r.setor) continue;
         if (r.ativas && !E.ativa[e]) continue;
         if (D.at[i] < r.minAt) continue;
+        if (!IND[r.ind].fin && !r.fin && FORA_GERAL[D.tipo[i]]) continue;
         lin.push({ cvm: D.cvm[i], e: e, v: v, at: D.at[i] });
       }
       var chave = r.ordCampo || "v";
@@ -204,15 +257,16 @@
         return '<tr data-cvm="' + x.cvm + '"><td>' + (n + 1) + "</td><td><strong>" + esc(E.nome[x.e]) + "</strong>" + (E.tk[x.e] ? ' <span style="color:var(--suave)">' + esc(E.tk[x.e].split(" ")[0]) + "</span>" : "") +
           '</td><td style="text-align:left;white-space:normal">' + esc(E.setor[x.e]) + "</td><td>" + fmtInd(r.ind, x.v) + "</td><td>" + fmtMil(x.at) + "</td></tr>";
       }).join("") || '<tr><td colspan="5" class="na" style="text-align:center">Nenhuma empresa com esses filtros.</td></tr>';
-      document.getElementById("r-info").textContent = lin.length + " empresas com o indicador em " + r.ano + (lin.length > 100 ? "; exibindo as 100 primeiras" : "") + ". Clique numa linha para ver a empresa. Clique no cabeçalho para inverter a ordem.";
+      document.getElementById("r-info").textContent = lin.length + " empresas com o indicador em " + r.ano + (lin.length > 100 ? "; exibindo as 100 primeiras" : "") + "." + (!IND[r.ind].fin && !r.fin ? " Bancos, seguradoras e securitizadoras estão fora (marque a opção acima para incluí-los)." : "") + " Clique numa linha para ver a empresa. Clique no cabeçalho para inverter a ordem.";
     }
-    ["r-ind", "r-ano", "r-setor", "r-min", "r-ativas"].forEach(function (id) {
+    ["r-ind", "r-ano", "r-setor", "r-min", "r-ativas", "r-fin"].forEach(function (id) {
       document.getElementById(id).addEventListener("change", function () {
         r.ind = document.getElementById("r-ind").value;
         r.ano = +document.getElementById("r-ano").value;
         r.setor = document.getElementById("r-setor").value;
         r.minAt = +document.getElementById("r-min").value;
         r.ativas = document.getElementById("r-ativas").checked;
+        r.fin = document.getElementById("r-fin").checked;
         if (id === "r-ind") { r.ord = IND[r.ind].maior ? -1 : 1; r.ordCampo = "v"; document.querySelector('[data-ord="v"]').textContent = IND[r.ind].nome + " ⇅"; }
         atualiza();
       });
@@ -243,7 +297,21 @@
       "<li>O patrimônio líquido e o lucro líquido incluem a participação dos não controladores, quando houver.</li>" +
       "<li>Índices de liquidez, endividamento e margens não são calculados para bancos, seguradoras e outras instituições com plano de contas próprio (sem circulante e não circulante).</li>" +
       "<li>ROE e participação de capital de terceiros só são calculados quando o patrimônio líquido é positivo.</li>" +
-      "<li>A mediana do setor exige ao menos três companhias no ano.</li></ul>" +
+      "<li>A mediana do setor exige ao menos três companhias no ano e exclui empresas com patrimônio líquido negativo (passivo a descoberto).</li>" +
+      "<li>A mediana de todas as companhias e o ranking padrão excluem instituições financeiras, seguradoras e securitizadoras, cujos índices não são comparáveis com os das demais.</li></ul>" +
+      '<h3>Tratamento por tipo de empresa</h3><div class="tab-wrap" style="margin-top:.4rem"><table><thead><tr><th>Tipo</th><th>Como é identificado</th><th>Tratamento</th></tr></thead><tbody>' +
+      "<tr><td><strong>Instituição financeira</strong></td><td>DFP no modelo de instituições financeiras (sem circulante e não circulante)</td><td>Apenas ROE, ROA, alavancagem e margem financeira</td></tr>" +
+      "<tr><td><strong>Seguradora</strong></td><td>DFP no modelo de seguradoras ou setor Seguradoras (exceto corretoras e holdings)</td><td>ROE, ROA, margem líquida, alavancagem, índice de despesas de seguro e índice combinado aproximado</td></tr>" +
+      "<tr><td><strong>Securitizadora</strong></td><td>Setor Securitização de Recebíveis</td><td>Índices calculados, mas fora das comparações gerais</td></tr>" +
+      "<tr><td><strong>Holding sem receita</strong></td><td>Sem receita operacional no ano</td><td>Sem margens e giro do ativo</td></tr>" +
+      "<tr><td><strong>Concessão</strong></td><td>Energia elétrica, saneamento e infraestrutura de transporte</td><td>Índices calculados, com aviso sobre a receita de construção (ICPC 01, OCPC 05)</td></tr>" +
+      "<tr><td><strong>Construção civil</strong></td><td>Setor Construção Civil</td><td>Índices calculados, com aviso sobre o ciclo operacional longo</td></tr>" +
+      "<tr><td><strong>Agronegócio</strong></td><td>Setor Agricultura (Açúcar, Álcool e Cana)</td><td>Índices calculados, com aviso sobre ativos biológicos (CPC 29)</td></tr>" +
+      "</tbody></table></div>" +
+      "<h3>Quebras e particularidades</h3><ul>" +
+      "<li><strong>IFRS 16 (2019):</strong> a partir de 2019 os arrendamentos passam a compor o passivo (CPC 06 R2), o que eleva os índices de endividamento; os gráficos marcam esse ano.</li>" +
+      "<li><strong>Exercício fora de dezembro:</strong> o ano corresponde ao fim do exercício social; a ficha da empresa indica o mês de encerramento.</li>" +
+      "<li><strong>Situação na CVM:</strong> empresas em recuperação judicial, liquidação ou falência são sinalizadas na ficha.</li></ul>" +
       '<h3>Fórmulas</h3><div class="tab-wrap" style="margin-top:.4rem"><table><thead><tr><th>Indicador</th><th>Fórmula</th><th>Unidade</th></tr></thead><tbody>' + linhas + "</tbody></table></div>" +
       "<h3>Atualização</h3><p>Os dados são atualizados automaticamente toda semana a partir da CVM. Última atualização: <strong>" + esc(META.atualizado) + "</strong> (" + META.n_empresas + " companhias, " + META.n_linhas + " demonstrações anuais).</p>" +
       "<h3>Aviso</h3><p>Material produzido pelo grupo contabiliDados (UFERSA) para fins de ensino e pesquisa. Os índices são calculados de forma automática e padronizada; diferenças de plano de contas entre companhias podem afetar a comparação. Não constitui recomendação de investimento.</p></div>";
